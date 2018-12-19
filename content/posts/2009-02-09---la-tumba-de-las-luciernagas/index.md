@@ -1,13 +1,8 @@
 ---
 title: "La Tumba de las Luciérnagas"
-slug: "/la-tumba-de-las-luciernagas"
-date: "2009-02-09T00:32:55.000Z"
-image: "./images/hotaru0_sddjyc.jpg"
-featured: false
-draft: false
-tags: ["guerra","hambre","niños","Vídeo","world war"]
+cover: images/hotaru0_sddjyc.jpg
+category: film
 ---
-
 
 <iframe allowfullscreen="" frameborder="0" height="340" src="http://www.youtube.com/embed/XMY2Op1jYdw?feature=oembed" width="604"></iframe>
 
@@ -24,6 +19,3 @@ Hotaru no Haka es sobre todo un alegato pacifista, pero a la vez pesimista… el
 Nos hallamos ante un retrato de la sociedad japonesa de la posguerra, narrado con un estilo agridulce, triste, muy acorde con la historia que nos está contando, tristemente real y, sobre todo, muy creíble. En este sentido, los que habéis visto la película, si leéis el libro, apreciaréis que ésta sigue fielmente la historia de Nosaka punto por punto, pero hemos de decir que Nosaka es un autor, como casi todos los de su generación, extremadamente realista, así que no encontraremos en este libro las dosis de lirismo que se pueden apreciar en la película homónima, sino áridas descripciones de la realidad, aunque siempre vistas desde el punto de vista del protagonista, Seita -alter ego del escritor, sin duda-.
 
 En definitiva, una historia triste, pero a la vez totalmente recomendable. El mayor pecado de la humanidad es olvidar la historia, y esta triste historia nos otorga la oportunidad de **no olvidarnos de lo triste que puede ser la guerra**, y de las funestas consecuencias que todo acontecimiento de este tipo lleva consigo.
-
-
-

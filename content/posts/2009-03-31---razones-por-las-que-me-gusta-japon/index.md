@@ -1,15 +1,10 @@
 ---
 title: "Razones por las que me gusta Japón"
-slug: "/razones-por-las-que-me-gusta-japon"
-date: "2009-03-31T00:10:02.000Z"
-image: "./images/grand-gate-itsukushima-shrine-miyajima-japan_a5nm12.jpg"
-featured: false
-draft: false
-tags: ["Japón"]
+cover: images/grand-gate-itsukushima-shrine-miyajima-japan_a5nm12.jpg
+category: asia
 ---
 
-
-<span style="line-height: 1.5;">Muchas veces la gente me pregunta por qué me gusta Japón y la verdad es que nunca me había parado a pensar en todas las razones, por eso voy a escribirlo ahora para tenerlo presente y darle forma a algo que empieza a ser importante en mi vida…</span>
+Muchas veces la gente me pregunta por qué me gusta Japón y la verdad es que nunca me había parado a pensar en todas las razones, por eso voy a escribirlo ahora para tenerlo presente y darle forma a algo que empieza a ser importante en mi vida…</span>
 
 **1º Por su fantástica creatividad: **El manga/anime, sus magíficas películas de cine, el diseño gráfico (el de colores vivos y el minimalista), la cerámica, el arte floral, la arquitectura, el diseño de interiores, la tecnología, la robótica, electrónica, videojuegos, automóviles y trenes bala.
 
@@ -22,6 +17,3 @@ tags: ["Japón"]
 **5º Por sus rarezas:** las tribus urbanas de Tokyo, las adaptaciones patrañeras de cosas de otros paises, los frikis, otakus, el cosplay.
 
 **6º Por su gente:** como valoran el silencio, sus gestos, su forma de expresarse, su complejo e interesante idioma.
-
-
-

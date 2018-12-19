@@ -1,11 +1,7 @@
 ---
 title: "Pros y contras del teletrabajo"
-slug: "/pros-y-contras-del-teletrabajo"
-date: "2009-01-09T09:14:31.000Z"
-image: "./images/teleworking_c3qd1d.jpg"
-featured: false
-draft: false
-tags: ["casa","Educación","estres","Productividad","teletrabajo","trabajo"]
+cover: images/teleworking_c3qd1d.jpg
+category: work
 ---
 
 **Pros:**
@@ -63,6 +59,3 @@ tags: ["casa","Educación","estres","Productividad","teletrabajo","trabajo"]
 3. Asociate con alguien para tener más oportunidades de trabajo.
 
 Y bueno, esas son las que se me ocurren a mí, si a alguien se le ocurre alguna otra, siéntase libre de mandar un comentario.
-
-
-
