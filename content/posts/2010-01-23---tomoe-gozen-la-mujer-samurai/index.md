@@ -1,13 +1,8 @@
 ---
 title: "Tomoe Gozen, la mujer samurái"
-slug: "/tomoe-gozen-la-mujer-samurai"
-date: "2010-01-23T06:34:11.000Z"
-image: "./images/tomoe1_chqcuf.jpg"
-featured: false
-draft: false
-tags: ["Lugares","The Samurai Route"]
+cover: images/tomoe1_chqcuf.jpg
+category: samurai-route
 ---
-
 
 La clase guerrera Samurái se inició en el siglo IX siendo expertos luchadores con unas estrictas normas de honor. También existe una guerrera japonesa. Fue la bella Tomoe que, además de ser reconocida como samurai de alto rango, era temida por sus enemigos. Su arma preferida, la naginata, una especie de lanza de madera con una hoja metálica acoplada, le dió fama legendaria. Siempre dispuesta a la lucha, también era una excelente arquera y dominaba con facilidad el manejo de grandes caballos por escarpadas pendientes. Su muerte, defendiendo a su amado esposo, el general Minamoto Yoshinaka en un desigual combate la convirtió en un mito.
 
@@ -15,8 +10,6 @@ Se estima que Tomoe nació en torno al año 1157. Su nombre significa “Círcul
 
 A Tomoe le tocó vivir una época de enfrentamiento entre clanes japoneses, en concreto entre el clan TAIRA y el clan MINAMOTO y que se conocen como GUERRAS GEMPEI (1.180-1.185). Finalmente el clan MINAMOTO se alzó con la victoria proclamando el primer shogunato de Kamakura. Con su naginata, su armadura y su caballo, Tomoe se distinguió durante estas luchas e incluso, cuenta la leyenda que en un solo combate fue capaz de acabar con 20 guerreros enemigos. Su imagen ha quedado reflejada en multitud de pinturas y relatos.
 
-Sucedió que los generales del clan MINAMOTO tampoco se llevaban bien. Minamoto Yoshinaka, joven general de gran prestigio y casado con Tomoe Gozen, despertó los recelos de el Shogun de Kamakura, Yorimoto Minamoto. Acusándolo de conspirador, el Shogun logró que el Emperador declarara a Minamoto Yoshinaka (general Kiso), enemigo del Estado, cosa que obligaba al Shogun a acabar con él.  
- El general Kiso fue abandonado por sus hombres. Por todos, menos por cuatro leales guerreros, entre los que se encontraba su fiel esposa Tomoe y que pereció luchando junto a su marido en la llamada batalla de Awazu (1.184).
+Sucedió que los generales del clan MINAMOTO tampoco se llevaban bien. Minamoto Yoshinaka, joven general de gran prestigio y casado con Tomoe Gozen, despertó los recelos de el Shogun de Kamakura, Yorimoto Minamoto. Acusándolo de conspirador, el Shogun logró que el Emperador declarara a Minamoto Yoshinaka (general Kiso), enemigo del Estado, cosa que obligaba al Shogun a acabar con él.
 
-
-
+El general Kiso fue abandonado por sus hombres. Por todos, menos por cuatro leales guerreros, entre los que se encontraba su fiel esposa Tomoe y que pereció luchando junto a su marido en la llamada batalla de Awazu (1.184).

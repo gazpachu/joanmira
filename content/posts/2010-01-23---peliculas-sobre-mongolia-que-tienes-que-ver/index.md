@@ -1,16 +1,12 @@
 ---
 title: "Películas sobre Mongolia que tienes que ver!"
-slug: "/peliculas-sobre-mongolia-que-tienes-que-ver"
-date: "2010-01-23T16:58:43.000Z"
-image: "./images/puujee_JPG_osaico.jpg"
-featured: false
-draft: false
-tags: ["Lugares","The Samurai Route","popular"]
+cover: images/puujee_JPG_osaico.jpg
+category: samurai-route
 ---
 
 <div class="columns clearfix">
 <h3>La boda de Tuya (Tu ya de hun shi)</h3>
-<img src="http://res.cloudinary.com/gazpachu/image/upload/v1425225184/La_boda_de_Tuya_AKA_El_matrimonio_de_Tuya-496401720-large_fkh8xs.jpg" class="right-column" />
+<img src="./images/La_boda_de_Tuya_AKA_El_matrimonio_de_Tuya-496401720-large_fkh8xs.jpg" class="right-column" />
 <p class="left-column">AÑO: 2006<br />
 DURACIÓN: 92 min.<br />
 PAÍS: China<br />
@@ -25,7 +21,7 @@ SINOPSIS: En la Mongolia más rural y profunda, Tuya (Yu Nan) es una joven mujer
 </div>
 <div class="columns clearfix">
 <h3>El perro mongol (Die Hoehle des gelben Hundes)</h3>
-<img src="http://res.cloudinary.com/gazpachu/image/upload/v1425225183/El_perro_mongol_La_cueva_del_perro_amarillo-384806038-large_xjfndd.jpg" class="right-column" />
+<img src="./images/El_perro_mongol_La_cueva_del_perro_amarillo-384806038-large_xjfndd.jpg" class="right-column" />
 <p class="left-column">AÑO: 2005<br />
 DURACIÓN: 90 min.<br />
 PAÍS: Alemania<br />
@@ -38,7 +34,7 @@ SINOPSIS: Nansal, la hija mayor de una familia de nómadas mongoles, se encuentr
 </div>
 <div class="columns clearfix">
 <h3>Ping-Pong Mongol (Lü cao di)</h3>
-<img src="http://res.cloudinary.com/gazpachu/image/upload/v1425225181/mongolian-ping-pong-dvd_zgi9uy.jpg" class="right-column" />
+<img src="./images/mongolian-ping-pong-dvd_zgi9uy.jpg" class="right-column" />
 <p class="left-column">AÑO: 2005<br />
 DURACIÓN: 102 min.<br />
 PAÍS: China<br />
@@ -52,9 +48,9 @@ SINOPSIS: Una pelota blanca de ping-pong va flotando por un riachuelo hasta que 
 </div>
 <div class="columns clearfix">
 <h3>Urga, el territorio del amor</h3>
-<img src="http://res.cloudinary.com/gazpachu/image/upload/v1425225180/Urga_19_siv0pe.jpg" class="right-column" />
+<img src="./images/Urga_19_siv0pe.jpg" class="right-column" />
 <p class="left-column">
-AÑO: 1991<br /> 
+AÑO: 1991<br />
 DURACIÓN: 118 min.<br />
 PAÍS: Rusia<br />
 DIRECTOR: Nikita Mikhalkov<br />
@@ -68,7 +64,7 @@ SINOPSIS: En la estepa mongola vive una familia con un modesto y rural estilo de
 </div>
 <div class="columns clearfix">
 <h3>Mongol</h3>
-<img src="http://res.cloudinary.com/gazpachu/image/upload/v1425225179/Mongol-720978610-large_psfxog.jpg" class="right-column" />
+<img src="./images/Mongol-720978610-large_psfxog.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 2007<br />
 DURACIÓN: 126 min.<br />
@@ -79,15 +75,15 @@ MÚSICA: Tuomas Kantelinen<br />
 FOTOGRAFÍA: Rogier Stoffers, Sergei Trofimov<br />
 REPARTO: Tadanobu Asano, Aliya, Tegen Ao, Ying Bai,...<br />
 PRODUCTORA: Co-producción Kazajstán-Rusia-Alemania-Mongolia<br />
-WEB OFICIAL: <a href="http://www.mongolmovie.com">www.mongolmovie.com/</a><br /> 
+WEB OFICIAL: <a href="http://www.mongolmovie.com">www.mongolmovie.com/</a><br />
 PREMIOS: 2008, National Board of Review, Mejor película de habla no inglesa. 2007, nominada al Oscar a la mejor película de habla no inglesa<br /><br />
 SINOPSIS: Narra la vida del legendario y tembile Genghis Khan desde su esclavitud hasta que conquistó la mitad del mundo, incluyendo Rusia en 1206. Una superproducción de corte épico que fue seleccionada por Kazajstán como candidata al Oscar a la mejor película de habla no inglesa.</p>
 </div>
 <div class="columns clearfix">
 <h3>La historia del camello que llora</h3>
-<img src="http://res.cloudinary.com/gazpachu/image/upload/v1425225178/camello_qcwszg.jpg" class="right-column" />
+<img src="./images/camello_qcwszg.jpg" class="right-column" />
 <p class="left-column">
-TÍTULO ORIGINAL: Ingen Numsil – Die Geschichte vom weinenden Kamel<br />  
+TÍTULO ORIGINAL: Ingen Numsil – Die Geschichte vom weinenden Kamel<br />
 AÑO: 2003<br />
 DURACIÓN: 93 min.<br />
 PAÍS: Mongolia<br />
@@ -99,7 +95,7 @@ SINOPSIS: Documental ficcionado sobre una familia de pastores nómadas mongoles 
 </div>
 <div class="columns clearfix">
 <h3>El cazador (Dersu Uzala)</h3>
-<img src="http://res.cloudinary.com/gazpachu/image/upload/v1425225176/dersuuzalaposter-large1_t6wruk.jpg" class="right-column" />
+<img src="./images/dersuuzalaposter-large1_t6wruk.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 1975<br />
 DURACIÓN: 141 min.<br />
@@ -115,7 +111,7 @@ SINOPSIS: El capitán Vladimir Arseniev y su destacamento tienen que elaborar un
 </div>
 <div class="columns clearfix">
 <h3>Sueños del desierto – Hyazgar (Desert Dream)</h3>
-<img src="http://res.cloudinary.com/gazpachu/image/upload/v1425225175/suenos_desierto_ctdrbq.jpg" class="right-column" />
+<img src="./images/suenos_desierto_ctdrbq.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 2007<br />
 DURACIÓN: 123 min.<br />
@@ -130,7 +126,7 @@ SINOPSIS: Una pequeña ciudad en una región desértica, no lejos de la frontera
 </div>
 <div class="columns clearfix">
 <h3>State of Dogs</h3>
-<img src="http://res.cloudinary.com/gazpachu/image/upload/v1425225173/state_dogs_vosmnx.jpg" class="right-column" />
+<img src="./images/state_dogs_vosmnx.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 1998<br />
 DURACIÓN: 55 min / 91 min.<br />
@@ -144,7 +140,7 @@ SINOPSIS: Es una mezcla asombrosa de viaje personal y comentario social. Hermosa
 </div>
 <div class="columns clearfix">
 <h3>Genghis Khan: To the Ends of the Earth and Sea</h3>
-<img src="http://res.cloudinary.com/gazpachu/image/upload/v1425225171/Genghis_Khan_2007_film_poster_ocuddh.jpg" class="right-column" />
+<img src="./images/Genghis_Khan_2007_film_poster_ocuddh.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 2007<br />
 DURACIÓN: 136 min.<br />
@@ -157,7 +153,7 @@ SINOPSIS: Una mirada a la vida de Genghis Khan, desde su nacimiento a las conqui
 </div>
 <div class="columns clearfix">
 <h3>Kiran en Mongolia</h3>
-<img src="http://res.cloudinary.com/gazpachu/image/upload/v1425225170/splash_Mar_2007_01Layer1_ciavdg.jpg" class="right-column" />
+<img src="./images/splash_Mar_2007_01Layer1_ciavdg.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 2005<br />
 DURACIÓN: 60 min.<br />
@@ -173,7 +169,7 @@ SINOPSIS: Kuma, un joven hombre Kazak, reconstruye los pasos de su abuelo que fu
 </div>
 <div class="columns clearfix">
 <h3>Taiga</h3>
-<img src="http://res.cloudinary.com/gazpachu/image/upload/v1425225169/taiga_wzyvgg.jpg" class="right-column" />
+<img src="./images/taiga_wzyvgg.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 1992<br />
 DURACIÓN: 501 min.<br />
@@ -187,7 +183,7 @@ SINOPSIS: Un viaje al yak y renos nómadas de la tierra del norte de los mongole
 </div>
 <div class="columns clearfix">
 <h3>Johanna D’Arc of Mongolia</h3>
-<img src="http://res.cloudinary.com/gazpachu/image/upload/v1425225167/sisters-47-e992a634_foto_xq9i9a.jpg" class="right-column" />
+<img src="./images/sisters-47-e992a634_foto_xq9i9a.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 1988<br />
 DURACIÓN: 165 min.<br />
@@ -200,7 +196,7 @@ SINOPSIS: La aventura épica de Ulrike Ottinger narra el encuentro fantástico e
 </div>
 <div class="columns clearfix">
 <h3>A mongolian tale (Hei jun ma)</h3>
-<img src="http://res.cloudinary.com/gazpachu/image/upload/v1425225194/MongolianTale_c7jyyd.jpg" class="right-column" />
+<img src="./images/MongolianTale_c7jyyd.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 1995<br />
 DURACIÓN: 105 min.<br />
@@ -212,7 +208,7 @@ SINOPSIS: Bayinbulag y Somiya son educados desde una edad joven, como hermano y 
 </div>
 <div class="columns clearfix">
 <h3>All my love</h3>
-<img src="http://res.cloudinary.com/gazpachu/image/upload/v1425225193/2004105533_lgjgme.jpg" class="right-column" />
+<img src="./images/2004105533_lgjgme.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 2007<br />
 DURACIÓN: 90 min.<br />
@@ -224,7 +220,7 @@ SINOPSIS: En un momento en el que la mayoría de los cineastas independientes qu
 </div>
 <div class="columns clearfix">
 <h3>Destination Gobi</h3>
-<img src="http://res.cloudinary.com/gazpachu/image/upload/v1425225192/destination_gobi_mynfv8.jpg" class="right-column" />
+<img src="./images/destination_gobi_mynfv8.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 1953<br />
 DURACIÓN: 90 min.<br />
@@ -236,7 +232,7 @@ SINOPSIS: Un grupo de meteorólogos de la Marina de EE.UU. va a tomar medidas en
 </div>
 <div class="columns clearfix">
 <h3>La gran final (The great match)</h3>
-<img src="http://res.cloudinary.com/gazpachu/image/upload/v1425225191/The_Great_Match_hakd0g.jpg" class="right-column" />
+<img src="./images/The_Great_Match_hakd0g.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 2006<br />
 DURACIÓN: 88 min.<br />
@@ -248,7 +244,7 @@ SINOPSIS: Esta película cuenta la historia de aventuras de tres héroes, ningun
 </div>
 <div class="columns clearfix">
 <h3>Khadak (Color of Water)</h3>
-<img src="http://res.cloudinary.com/gazpachu/image/upload/v1425225190/47170340_jisowi.jpg" class="right-column" />
+<img src="./images/47170340_jisowi.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 2007<br />
 DURACIÓN: 104 min.<br />
@@ -260,7 +256,7 @@ SINOPSIS: El realismo mágico, la epilepsia, y las estepas de Mongolia. Un pilot
 </div>
 <div class="columns clearfix">
 <h3>Mujaan (El Artesano)</h3>
-<img src="http://res.cloudinary.com/gazpachu/image/upload/v1425225189/mujaan_k6j15p.jpg" class="right-column" />
+<img src="./images/mujaan_k6j15p.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 2005<br />
 PAÍS: EEUU<br />
@@ -271,7 +267,7 @@ SINOPSIS: En las lejanas estepas de Mongolia, utilizando herramientas simples, l
 </div>
 <div class="columns clearfix">
 <h3>My Beautiful Jinjiimaa</h3>
-<img src="http://res.cloudinary.com/gazpachu/image/upload/v1425225187/jinjiimaa_ad5v5g.jpg" class="right-column" />
+<img src="./images/jinjiimaa_ad5v5g.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 2006<br />
 PAÍS: Mongolia<br />

@@ -1,15 +1,10 @@
 ---
 title: "Increíble tesoro bajo la arena del Gobi"
-slug: "/increible-tesoro-bajo-la-arena-del-gobi"
-date: "2010-01-23T17:49:53.000Z"
-image: "./images/figura_af06kc.jpg"
-featured: false
-draft: false
-tags: ["Lugares","The Samurai Route"]
+cover: images/figura_af06kc.jpg
+category: samurai-route
 ---
 
-
-<span style="line-height: 1.5;">Mientras buscaba cosas interesantes sobre Mongolia en Internet, me he encontrado con esta noticia del año pasado… Esto de la arqueología y los tesoros, es una pasada!</span>
+Mientras buscaba cosas interesantes sobre Mongolia en Internet, me he encontrado con esta noticia del año pasado… Esto de la arqueología y los tesoros, es una pasada!
 
 Parece que el desierto del Gobi se pondrá de actualidad en los próximos meses y no será sólo por la posible existencia del “gusano de la muerte” bajo sus arenas, sino por otro tipo de buscadores, los cazadores de tesoros.
 
@@ -24,6 +19,3 @@ Estos últimos hallazgos serán expuestos en el Musero Ravjaa Danzan en Sainshan
 Alrededor de unas 20 cajas aun permanecen ocultas bajo la ardiente arena del desierto del Gobi.
 
 Via [Esencia21](http://esencia21.wordpress.com/2009/08/10/un-increible-tesoro-bajo-la-arena-del-desierto-del-gobi/)
-
-
-

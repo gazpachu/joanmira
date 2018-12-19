@@ -1,16 +1,10 @@
 ---
 title: "Enlaces a webs de viajeros y amigos"
-slug: "/enlaces-a-webs-de-viajeros-y-amigos"
-date: "2010-01-10T17:51:26.000Z"
-featured: false
-draft: false
-tags: ["Lugares","The Samurai Route"]
+cover: images/travellers.jpg
+category: samurai-route
 ---
 
-
 ### En dos ruedas por el mundo
-
-- - - - - -
 
 - Unus vita (Una vida), Mike y Ruby viajan en moto por el mundo: [www.unusvita.com](http://www.unusvita.com/)
 - De Tokio a Londres en moto: [www.tokyotolondon.com](http://www.tokyotolondon.com/)
@@ -36,8 +30,6 @@ tags: ["Lugares","The Samurai Route"]
 
 ### Otros viajeros por el mundo
 
-- - - - - -
-
 - Dos argentinas viajan por toda latinoamerica: [www.cinealaintemperie.com.ar](http://www.cinealaintemperie.com.ar/)
 - Una pareja argentina viaja por todo el mundo: [www.acrobatadelcamino.blogspot.com](http://www.acrobatadelcamino.blogspot.com/)
 - Dos ingleses recién graduados dan la vuelta al mundo: [www.twoguysaroundtheworld.com](http://www.twoguysaroundtheworld.com/)
@@ -57,8 +49,6 @@ tags: ["Lugares","The Samurai Route"]
 
 ### Webs de viajes en español
 
-- - - - - -
-
 - Blog para viajeros interesados en dar la vuelta al mundo: [www.vueltaalmundo.com](http://www.vueltaalmundo.com/)
 - Blog de viajes en Asia: [www.viajarasia.com](http://www.viajarasia.com/)
 - Blog de viajes de la revista Altaïr: [www.altairblog.com](http://www.altairblog.com/)
@@ -66,10 +56,5 @@ tags: ["Lugares","The Samurai Route"]
 
 ### Blogs interesantes
 
-- - - - - -
-
 - Blog de cultura en Mongolia [mongolculture.blogspot.com](http://mongolculture.blogspot.com/)
 - Eric Lobo, fotógrafo de viajes extremos: [www.eric-lobo.com](http://www.eric-lobo.com/)
-
-
-
