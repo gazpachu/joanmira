@@ -1,11 +1,7 @@
 ---
 title: "If content is king, data is queen"
-slug: "/english-if-content-is-king-data-is-queen"
-date: "2012-09-13T19:35:51.000Z"
-image: "./images/content_d4zfvf.jpg"
-featured: true
-draft: false
-tags: ["api","brands","Data","Data capture","hack","Intelligence tools","Internet","open data"]
+cover: images/content_d4zfvf.jpg
+category: work
 ---
 
 [Open data](http://en.wikipedia.org/wiki/Open_data) has become a very serious topic. Governments and corporations invest a lot of effort in1 developing software to capture, process, store and distribute data ([data.gov.uk](http://data.gov.uk/), [data.gov](http://data.gov/), [Google API](https://developers.google.com/products/),[Twitter API](https://dev.twitter.com/), [Flickr API](http://www.flickr.com/services/api/), [Facebook API](http://developers.facebook.com/) etc.), which is then offered back to the community.
@@ -23,6 +19,3 @@ Owning the data will give us unlimited power and agility to create bespoke [bus
 We could even build a program that captures data at regular intervals from Twitter, Facebook, Flickr, Google+, Google reviews and store it in our own database. This program could also crawl the web searching blog comments and other interesting brand data like logos, awards, statistics, etc.
 
 I believe open data is not enough. We must collect and store brand data to be able to process and deliver great artistic, informative and rich multimedia applications.
-
-
-

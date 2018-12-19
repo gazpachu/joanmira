@@ -1,7 +1,7 @@
 ---
 title: "La informática que cambió nuestras vidas"
 cover: images/web-design.jpg
-category: work
+category: tech
 ---
 
 ###INTRODUCCIÓN

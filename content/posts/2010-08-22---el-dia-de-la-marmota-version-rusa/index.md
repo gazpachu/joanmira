@@ -1,13 +1,8 @@
 ---
 title: "El día de la marmota versión rusa"
-slug: "/el-dia-de-la-marmota-version-rusa"
-date: "2010-08-22T19:20:09.000Z"
-image: "./images/vladivostok_port_wmjfgt.jpg"
-featured: false
-draft: false
-tags: ["Lugares","The Samurai Route"]
+cover: images/vladivostok_port_wmjfgt.jpg
+category: samurai-route
 ---
-
 
 Hace más de un mes que no me digno a escribir algo con un poco de sustancia literaria y además me voy a evitar contar todas las patéticas excusas que me vienen a la cabeza.
 
@@ -28,6 +23,3 @@ Cuando las autoridades rusas se cierran en banda y no hay forma de llegar a ning
 En el hotel donde nos alojamos también hemos coincidido con otros tres moteros que también están viajando por el mundo. Jesús, un vasco que viaja desde España hasta Australia tiene una moto Ural (marca rusa) con sidecar. Le gusta tocar la guitarra clásica, fuma, es pelirojo y a veces se tira un rato hablando sin mirarte a la cara. Eric, es francés pero su abuelo era español. Es fotógrafo de viajes extremos y viaja desde España a Shangai en una Harley Davidson de 350Kg (con dos cojones). Lleva 3 bidones de gasolina y puede hacer 700Km sin parar. Metió su moto en China dentro del maletero de un autobús pero le pillaron y tuvo que salir de China a los pocos días. El último es Alex, un motero suizo que va hasta Japón en una GS1200. Hoy se ha ido de vuelta a Moscú donde recojerá su moto que envió en el transiveriano desde Vladivostok.
 
 En fin, nos hemos juntado una cuadrilla interesante y nos reunimos de vez en cuando a contar historias de viajes y tomar cervezas. Así seguiremos un par de días más!
-
-
-

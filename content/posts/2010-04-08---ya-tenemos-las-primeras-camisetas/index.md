@@ -1,19 +1,13 @@
 ---
 title: "Ya tenemos las primeras camisetas!"
-slug: "/ya-tenemos-las-primeras-camisetas"
-date: "2010-04-08T19:42:32.000Z"
-image: "./images/camisetas_i5qeeq.jpg"
-featured: false
-draft: false
-tags: ["Lugares","The Samurai Route"]
+cover: images/camisetas_i5qeeq.jpg
+category: samurai-route
 ---
 
+![](./images/images/camisetas_i5qeeq.jpg)
 
-<span style="line-height: 1.5;">Gracias a nuestros patrocinador EstampAlicante, hemos conseguido una primera tirada de 100 camisetas. Muchas gracias ;-)</span>
+Gracias a nuestros patrocinador EstampAlicante, hemos conseguido una primera tirada de 100 camisetas. Muchas gracias ;-)
 
-A partir de hoy ya podemos enviaros las camisetas a cambio de una pequeña donación de 9€ :-) Para pedirlas, podéis hacerlo desde [aquí](http://www.rutasamurai.com/Camisetas/ver-todos-productos.html).
+A partir de hoy ya podemos enviaros las camisetas a cambio de una pequeña donación de 9€ :-) Para pedirlas, podéis hacerlo desde [aquí](http://rutasamurai.herokuapp.com/Camisetas/ver-todos-productos.html).
 
 Tenemos 13 de la talla XS (es la más pequeña), 4 de la talla S, 39 de la talla M, 28 de la talla L y 12 de la talla XL (la más grande). Date prisa que se acaban!
-
-
-

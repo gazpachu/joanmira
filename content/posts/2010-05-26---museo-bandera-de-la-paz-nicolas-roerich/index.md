@@ -1,19 +1,14 @@
 ---
 title: "Museo Bandera de la Paz Nicolás Roerich"
-slug: "/museo-bandera-de-la-paz-nicolas-roerich"
-date: "2010-05-26T19:30:16.000Z"
-image: "./images/jesucristo_u7y7qq.jpg"
-featured: false
-draft: false
-tags: ["Lugares","The Samurai Route"]
+cover: images/jesucristo_u7y7qq.jpg
+category: samurai-route
 ---
 
-
-<div>> Donde hay Paz, hay Cultura; Donde hay Cultura, hay Paz.
+Donde hay Paz, hay Cultura; Donde hay Cultura, hay Paz.
 
 Nicolás Roerich (1874-1947)
 
-</div>El [Museo Bandera de la Paz Nicolás Roerich](http://shambala-roerich.com/) es uno de los mayores benefactores del proyecto de La Ruta del Samurai y por eso queremos hablaros un poco acerca de la bandera de la paz que llevaremos en las motos y sobre  su creador, Nicolás Roerich.
+El [Museo Bandera de la Paz Nicolás Roerich](http://shambala-roerich.com/) es uno de los mayores benefactores del proyecto de La Ruta del Samurai y por eso queremos hablaros un poco acerca de la bandera de la paz que llevaremos en las motos y sobre  su creador, Nicolás Roerich.
 
 [El museo](http://shambala-roerich.com/) está enclavado en las montañas del País Vasco, recibe durante los fines de semana del verano a todos aquellos que sean amantes de la unión entre Oriente y Occidente, en su aspecto cultural, filosófico y espiritual. Pinturas de los Roerich, Agni-Yoga, India, Meditación Grupal de Luna Llena, Radiestésia-Radiónica, Viajes de aventuras espirituales, Lecturas de libros, Paseos por el campo. Todo esto y mucho más, lo encontrarás en la [Casa de campo Nicolás Roerich](http://shambala-roerich.com/) de Leonardo y Petri.
 
@@ -36,6 +31,3 @@ El Pacto fue presentado por Roerich en Nueva York en 1929 y mereció la nominaci
 Nicolás Roerich dijo: “La creatividad positiva es la cualidad fundamental del espíritu humano. Demos la bienvenida a todos aquellos quienes, superando las dificultades personales, impulsan sus espíritus en la tarea de la construcción de la Paz, garantizando de esta manera un futuro radiante”.
 
 Más información es: [http://shambala-roerich.com](http://shambala-roerich.com/)
-
-
-

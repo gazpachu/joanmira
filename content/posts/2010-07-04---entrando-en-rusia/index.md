@@ -1,13 +1,8 @@
 ---
 title: "Entrando en Rusia"
-slug: "/entrando-en-rusia"
-date: "2010-07-04T19:22:39.000Z"
-image: "./images/IMG_2610-_odlju0.jpg"
-featured: false
-draft: false
-tags: ["Lugares","The Samurai Route"]
+cover: images/IMG_2610-_odlju0.jpg
+category: samurai-route
 ---
-
 
 4 de Julio, 5:00 am, en el hotel de San Petersburgo
 
@@ -60,6 +55,3 @@ Y eso, ahora las 5 y media de la madruga, de día ya, de día como si fuesen cas
 Ya estamos en Rusia, nos queda una tirá, pero eso, que poco a poco se irá haciendo camino.
 
 Saludos a todos y todas y, en todo lo posible os iremos narrando y poniendo fotos de todo este algo loco viaje hacia el Japón, muchos abrazos.
-
-
-

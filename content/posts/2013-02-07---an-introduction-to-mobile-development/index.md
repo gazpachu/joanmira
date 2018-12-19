@@ -1,11 +1,7 @@
 ---
 title: "An introduction to mobile development"
-slug: "/english-an-introduction-to-mobile-development"
-date: "2013-02-07T20:58:51.000Z"
-image: "./images/mob_dev_dwbkru.jpg"
-featured: false
-draft: false
-tags: ["codebase","java","native","objective-c","smartphone"]
+cover: images/mob_dev_dwbkru.jpg
+category: work
 ---
 
 To understand the mobile development scene, we must first know who are the present industry leaders and who are the new contenders for 2013/14.
@@ -44,8 +40,9 @@ Luckily or not, there are several companies with products that promise to solve 
 
 **What are the challenges for both, native and non-native apps?**
 
-Programming mobile apps is harder than building desktop or web apps. The platform is very new and is getting more and more fragmented, which doesn’t help developers.  
- In example, [Android has hundreds of different devices](http://en.wikipedia.org/wiki/Comparison_of_Android_devices) in the market. Some of them have a 3.4’’ screen, others 7’’ or 10’’. Some of them run Android 2.1 and others run Android 4.3. Some of them have 3G, GPS and a 300dpi (dots per inch / pixel density), HD Ready or Full HD screen. The possible combinations are really intimidating and the truth is that every single user expects that your app will work flawlessly in his device.
+Programming mobile apps is harder than building desktop or web apps. The platform is very new and is getting more and more fragmented, which doesn’t help developers.
+
+In example, [Android has hundreds of different devices](http://en.wikipedia.org/wiki/Comparison_of_Android_devices) in the market. Some of them have a 3.4’’ screen, others 7’’ or 10’’. Some of them run Android 2.1 and others run Android 4.3. Some of them have 3G, GPS and a 300dpi (dots per inch / pixel density), HD Ready or Full HD screen. The possible combinations are really intimidating and the truth is that every single user expects that your app will work flawlessly in his device.
 
 **Some important aspects to bear in mind are:**
 
@@ -53,6 +50,3 @@ Programming mobile apps is harder than building desktop or web apps. The platfor
 - Performance in old devices… the bar has to be set at some point.
 - Responding quickly and successfully to complaints/bugs/feature requests in the Android market and App store. Remember about having duplicate codebases…
 - Finding the right marketing approach and value for an app ([freemium](http://en.wikipedia.org/wiki/Freemium) scheme or ads based). Some marketing strategies require a lot of customization in the code. Make sure to plan everything in advance.
-
-
-

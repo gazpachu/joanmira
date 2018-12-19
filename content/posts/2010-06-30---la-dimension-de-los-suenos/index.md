@@ -1,13 +1,8 @@
 ---
 title: "La dimensión de los sueños"
-slug: "/la-dimension-de-los-suenos"
-date: "2010-06-30T19:25:49.000Z"
-image: "./images/finlandia_vhxvby.jpg"
-featured: false
-draft: false
-tags: ["Lugares","The Samurai Route"]
+cover: images/finlandia_vhxvby.jpg
+category: samurai-route
 ---
-
 
 Esta entrada se la debo a los Foo Fighters. Si no es por ellos, no me habría puesto de humor para escribir algo.
 
@@ -15,7 +10,7 @@ Pobre iluso de mí. Había creado hasta 15 categorías distintas para ordenar la
 
 Hoy hace exactamente 25 días que salimos de Coria del Rio. Se han pasado volando. La carretera, la moto, la tienda de campaña, el equipaje, las fotos, la comida, la limpieza, la mecánica. Es lo primero que me viene a la cabeza, es como si nunca se terminara la planificación. Al terminar un día ya tenemos que planificar el día siguiente. Es la historia interminable. Cada vez me dan ganas de dejarlo todo en las manos del destino y la improvisación.
 
-<del>Europa ha sido terriblemente fácil, nada de aventuras, nada de riesgos. Durante estos días me he sentido casi casi como cuando veo una película en el salón de mi casa. Solo me faltaba un eyaculador de palomitas embebido en el casco. Cada país nuevo era una copia “mejorada” del anterior, eso sí, cuanto más al norte, más robotizada y atontada está la gente. Hasta llegar al punto de no contestar “hello” cuando se le saluda. Sin ganas de entablar conversación y con una tristeza crónica plasmada en sus caras.</del>
+Europa ha sido terriblemente fácil, nada de aventuras, nada de riesgos. Durante estos días me he sentido casi casi como cuando veo una película en el salón de mi casa. Solo me faltaba un eyaculador de palomitas embebido en el casco. Cada país nuevo era una copia “mejorada” del anterior, eso sí, cuanto más al norte, más robotizada y atontada está la gente. Hasta llegar al punto de no contestar “hello” cuando se le saluda. Sin ganas de entablar conversación y con una tristeza crónica plasmada en sus caras.
 
 Actualizado: viajar por europa ha sido más fácil de lo que esperaba. Las carreteras son buenas, hay muchos hostales, campings y todos los servicios funcionan a la perfección. La gente de los países escandinavos no es tan seca y tan atontada como pensaba. Hay de todo, pero si que se nota una cierta indiferencia o timidez a la hora de relacionarse con los extranjeros.
 
@@ -30,6 +25,3 @@ Ojalá nos encontremos a gente buena por el camino. Ya estoy cansado de escuchar
 Muchas gracias a todos los que nos habéis acompañado en Europa: Octavio, Tomás, Villahermosa, Juan, Moterus, José (el canario), Maria José, Equipo de Midland Francia, Fiodor, Pepo, Zarwash, Zoohal, Sio, Arrash, Miikka y Björn.
 
 Un abrazo grasiento a todos, persons!
-
-
-

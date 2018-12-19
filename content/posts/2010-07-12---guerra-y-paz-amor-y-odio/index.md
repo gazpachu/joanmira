@@ -1,13 +1,8 @@
 ---
 title: "Guerra y Paz. Amor y odio"
-slug: "/guerra-y-paz-amor-y-odio"
-date: "2010-07-12T19:21:02.000Z"
-image: "./images/moto_caida_yxyqu6.jpg"
-featured: false
-draft: false
-tags: ["Lugares","The Samurai Route"]
+cover: images/moto_caida_yxyqu6.jpg
+category: samurai-route
 ---
-
 
 13 de Julio de 2010. 2:06 am, en un hotel de Yekaterinburg, Rusia
 
@@ -29,7 +24,7 @@ Hace un par de días nos cazó un policia mientras haciamos un adelantamiento a 
 
 Ese mismo día Vicente y yo nos perdimos. Mientras yo paraba en el arcén, Vicente adelantaba a un camión y no lo vi pasarme. Al final gracias a los walkis que nos patrocina Midland pudimos volver a encontrarnos. Lo peor es que con las prisas no pude parar en un buen sitio y se ma cayó la moto al suelo. Aún así tuve suerte de que no se cayera por la ladera…
 
-<span style="font-family: Bitter, Georgia, serif; font-size: 22px; line-height: 1.3;">Algunas cosas curiosas</span>
+**Algunas cosas curiosas**
 
 Me ha sorprendido que en los menús de los restaurantes (aquí los llaman cafés) venga siempre especificado los gramos de los platos. Es muy práctico! El alcohol también lo miden en gramos. Un chupito normal de vodka son 50g. y uno doble 100g.
 
@@ -38,6 +33,3 @@ Por lo general, los rusos que nos hemos ido encontrando son buena gente. Nos han
 No hemos visto ni un solo vehículo extranjero en todo lo que llevamos de viaje en rusia. Solo algún motero como nosotros. Será por lo complicados que son los trámites.
 
 El aspecto en general de los pueblos y ciudades es bastante deprimente. Hay muchas cosas oxidadas, derruidas y viejas. Los edificios son sencillos, poco alegres, me imagino que son un legado de la época comunista. A nivel de diseño y estética urbana hay muchas carencias, sin embargo la gente viste bastante bien, le gusta arreglarse. Es un contraste muy obvio, sobre todo ahora en verano. Imagino que en Invierno el escenario será totalmente diferente.
-
-
-

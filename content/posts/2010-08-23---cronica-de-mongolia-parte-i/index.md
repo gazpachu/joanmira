@@ -1,13 +1,8 @@
 ---
 title: "Crónica de Mongolia. Parte I"
-slug: "/cronica-de-mongolia-parte-i"
-date: "2010-08-23T19:19:06.000Z"
-image: "./images/mongolia_suzl8x.jpg"
-featured: false
-draft: false
-tags: ["Lugares","The Samurai Route"]
+cover: images/mongolia_suzl8x.jpg
+category: samurai-route
 ---
-
 
 Llegamos a la frontera entre Rusia y Mongolia el 25 de Julio. El último pueblo de Rusia se llama Tashanta, una pequeña aldea que no tardamos en cruzar más de 2 minutos. Nos hacemos la foto de rigor frente al letrero de entrada al pueblo y seguimos hacia la frontera rusa.
 
@@ -36,6 +31,3 @@ Más tarde empiezan a venir vecinos y familiares. Somos la atracción y no puede
 Empieza a anochecer, los invitados se van a su casa y nosotros nos caemos rendidos en la cama, no si antes pasar un poquitin de vergüenza por tener que cambiarnos de ropa delante de toda la familia que no paraba de mirarnos. La cama es un horror pero la euforia que sentía por estar allí con ellos hace que ni si quiera se me pase por la cabeza lo incómoda que es la cama.
 
 Continuará…
-
-
-
