@@ -1,14 +1,10 @@
 ---
 title: "Hey!, quiero ser diseñador web"
-slug: "/hey-quiero-ser-disenador-web"
-date: "2007-05-07T06:00:38.000Z"
-featured: false
-draft: false
-tags: []
+cover: images/web-design.jpg
+category: work
 ---
 
-
-A continuación encontrarás una serie de consejos para llegar a ser un profesional del diseño web. Ésta guía está enfocada a aquellos que están empezando o tienen interés por el diseño web. Muchas de las sugerencias que encontréis aquí son fruto de nuestra experiencia y aprendizaje a lo largo de los años. Esperamos que os sean de utilidad.
+A continuación encontrarás una serie de consejos para llegar a ser un profesional del diseño web. Ésta guía está enfocada a aquellos que están empezando o tienen interés por el diseño web. Muchas de las sugerencias que encontréis aquí son fruto de mi experiencia y aprendizaje a lo largo de los años. Espero que os sean de utilidad.
 
 **Consejos generales** para convertirse en diseñador web / desarrollador web / diseñador gráfico:
 
@@ -69,6 +65,3 @@ A continuación tienes una lista de las herramientas más comunes para el desarr
 - Herramientas on-line: gestión de servidores web Unix/Windows, paneles de control (plesk, cpanel), Aplicaciones de Google ( adsense, adwords, analytics, herramientas para webmasters), Registro de dominios (Nameservers, Registars,…), Plataformas de pago( Paypal, Pasarelas bancarias, …), Inspector DOM y plugins de Firefox, CMS (WordPress, Drupal, Mambo, PHP-Nuke, Joomla), Foros (phpbb, vBulletin), etc…
 
 - Otros programas necesarios: clientes de FTP, Pando, Microsoft Outlook, Excel, programas de mensajeria instantánea, editor de texto, Sothink SWF Decompiler, Firefox, Opera, Internet Explorer, Apache, interprete de PHP, Servidor MySQL,…
-
-
-
