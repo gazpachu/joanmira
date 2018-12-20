@@ -27,6 +27,12 @@ const Search = props => {
 
       {/* --- STYLES --- */}
       <style jsx global>{`
+        .icon {
+          display: none !important;
+        }
+        .search {
+          margin-top: 90px;
+        }
         .ais-SearchBox {
           width: 100%;
         }

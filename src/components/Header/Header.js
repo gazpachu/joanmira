@@ -118,7 +118,7 @@ class Header extends React.Component {
           @from-width desktop {
             .header {
               align-items: center;
-              background-color: ${theme.color.neutral.white};
+              background-color: rgba(255, 255, 255, 0.7);
               display: flex;
               position: absolute;
               top: 0;

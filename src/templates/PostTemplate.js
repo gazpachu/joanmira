@@ -21,9 +21,23 @@ const PostTemplate = props => {
     <React.Fragment>
       <ThemeContext.Consumer>
         {theme => (
-          <Article theme={theme}>
-            <Post post={post} next={next} prev={prev} authornote={authorNote} theme={theme} />
-          </Article>
+          <React.Fragment>
+            <div className="hero" />
+            <Article theme={theme}>
+              <Post post={post} next={next} prev={prev} authornote={authorNote} theme={theme} />
+            </Article>
+            <style jsx>{`
+              .hero {
+                background-image: url(${post.frontmatter.cover
+                  ? post.frontmatter.cover.childImageSharp.resize.src
+                  : ""});
+                height: ${post.frontmatter.cover ? "400px" : "90px"};
+                background-repeat: no-repeat;
+                background-position: center 20%;
+                background-size: cover;
+              }
+            `}</style>
+          </React.Fragment>
         )}
       </ThemeContext.Consumer>
 

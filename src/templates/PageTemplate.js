@@ -15,9 +15,23 @@ const PageTemplate = props => {
     <React.Fragment>
       <ThemeContext.Consumer>
         {theme => (
-          <Article theme={theme}>
-            <Page page={page} theme={theme} />
-          </Article>
+          <React.Fragment>
+            <div className="hero" />
+            <Article theme={theme}>
+              <Page page={page} theme={theme} />
+            </Article>
+            <style jsx>{`
+              .hero {
+                background-image: url(${page.frontmatter.cover
+                  ? page.frontmatter.cover.childImageSharp.resize.src
+                  : ""});
+                height: ${page.frontmatter.cover ? "400px" : "90px"};
+                background-repeat: no-repeat;
+                background-position: center 20%;
+                background-size: cover;
+              }
+            `}</style>
+          </React.Fragment>
         )}
       </ThemeContext.Consumer>
 
@@ -40,6 +54,13 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
+        cover {
+          childImageSharp {
+            resize(width: 1200) {
+              src
+            }
+          }
+        }
       }
     }
   }

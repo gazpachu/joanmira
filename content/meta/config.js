@@ -1,25 +1,25 @@
 module.exports = {
-  siteTitle: "Momardi - Tuesday Gutierrez", // <title>
-  shortSiteTitle: "Momardi", // <title> ending for posts and pages
-  siteDescription: "Tuesday Gutierrez. Creative writer, agile content manager and visual artist",
-  siteUrl: "https://momardi.com",
+  siteTitle: "Joan Mira - Front-end Engineer / Creative Interactive Developer", // <title>
+  shortSiteTitle: "Joan Mira", // <title> ending for posts and pages
+  siteDescription: "Personal website of Joan Mira. A front-end engineer and code artist",
+  siteUrl: "https://joanmira.com",
   // pathPrefix: "",
   siteImage: "",
   siteLanguage: "en",
 
   /* author */
-  authorName: "Tuesday Gutierrez",
-  authorTwitterAccount: "tuesdaygutz",
+  authorName: "Joan Mira",
+  authorTwitterAccount: "gazpachu",
 
   /* info */
-  headerTitle: "MOMARDI",
+  headerTitle: "JOΛN MIRΛ",
 
   /* manifest.json */
-  manifestName: "Momardi - Tuesday Gutierrez",
-  manifestShortName: "Momardi", // max 12 characters
+  manifestName: "Joan Mira - Front-end Engineer",
+  manifestShortName: "JoanMira", // max 12 characters
   manifestStartUrl: "/index.html",
   manifestBackgroundColor: "white",
-  manifestThemeColor: "#1AA0CD",
+  manifestThemeColor: "#333",
   manifestDisplay: "standalone",
 
   // gravatar
@@ -31,7 +31,7 @@ module.exports = {
 
   // social
   authorSocialLinks: [
-    { name: "twitter", url: "https://twitter.com/tuesdaygutz" },
-    { name: "instagram", url: "http://instagram.com/tuesdaygutz" }
+    { name: "twitter", url: "https://twitter.com/gazpachu" },
+    { name: "instagram", url: "http://instagram.com/gazpachu" }
   ]
 };

@@ -1,14 +1,11 @@
 ---
 title: "Tutorial: how to build a multi-player quiz app with Sails.js"
-slug: "/tutorial-how-to-build-a-multi-player-quiz-app-with-sails-js"
-date: "2014-11-29T16:33:26.000Z"
-featured: false
-draft: false
-tags: ["bootstrap","ejs","express","git","heroku","html5","javascript","jquery","less","nodejs","parsley","Programación","sailsjs","socket","tutorial","waterline"]
+cover: images/desktop-view_ytdkg3.png
+category: work
 ---
 
-
 ![](./images/desktop-view_ytdkg3.png)
+
 <h2>1. Introduction</h2>
 This tutorial intends to explain how to build a game like <a href="http://quizwars.herokuapp.com/">Quiz Wars</a> with the MVC <a href="http://sailsjs.org/">Sails.js</a> framework. <a href="http://quizwars.herokuapp.com/">Quiz Wars</a> is a real time multi-player responsive web app to solve quizzes. The aim is to be the quickest answering quiz questions and win against other players. It has been developed trying to follow the <a href="http://bp.sapient-lab.com/">Sapient Dev Standards</a> as much as possible, with a mobile first approach in mind and a module pattern structure for the frontend. Currently it's in early development stages, but the main user journey to enter and finish a quiz with other players is working in any browser/device.
 
@@ -68,7 +65,7 @@ Once we have all the files and the dependencies downloaded, we can proceed to st
 <pre>sails lift</pre>
 At this point, if you visit (<a href="http://localhost:1337/">http://localhost:1337/</a>) you will see the Quiz Wars running or the default home page if you created a new project
 <h2>4. Sails.js folder structure</h2>
-<img style="float: left; margin-right: 30px;" src="http://res.cloudinary.com/gazpachu/image/upload/v1425225099/folder-structure_fqfmgc.png" alt="folder-structure" width="178" height="399" /></a>
+<img style="float: left; margin-right: 30px;" src="./images/folder-structure_fqfmgc.png" alt="folder-structure" width="178" height="399" /></a>
 <ul>
 <li><strong>/.tmp/public</strong>: where the distribution files are compiles. These files are what we see when we load the website</li>
 
@@ -106,9 +103,9 @@ At this point, if you visit (<a href="http://localhost:1337/">http://localhost:1
 };
 </pre>
 <h2>5. Flow diagram</h2>
-<a href="http://res.cloudinary.com/gazpachu/image/upload/v1425225100/quiz-wars-flow-diagram_bggdcc.png"><img class="alignnone size-medium wp-image-4460" src="http://res.cloudinary.com/gazpachu/image/upload/h_463,w_800/v1425225100/quiz-wars-flow-diagram_bggdcc.png" alt="quiz-wars-flow-diagram" width="800" height="463" /></a>
+<img class="alignnone size-medium wp-image-4460" src="./images/quiz-wars-flow-diagram_bggdcc.png" alt="quiz-wars-flow-diagram" width="800" height="463" />
 <h2>6. Architecture diagram</h2>
-<a href="http://res.cloudinary.com/gazpachu/image/upload/v1425225098/quiz-wars-architecture-diagram_ipzw4b.png"><img class="alignnone size-medium wp-image-4461" src="http://res.cloudinary.com/gazpachu/image/upload/h_598,w_800/v1425225098/quiz-wars-architecture-diagram_ipzw4b.png" alt="quiz-wars-architecture-diagram" width="800" height="597" /></a>
+<a <img class="alignnone size-medium wp-image-4461" src="./images/quiz-wars-architecture-diagram_ipzw4b.png" alt="quiz-wars-architecture-diagram" width="800" height="597" />
 <h2>7. The sitemap, layout and the views</h2>
 Whenever I build a new project, the first thing that comes to my mind is the sitemap. This elemental document is very important to create a picture in your mind of how is going to be the user journey and how the pages are interconnected. In Quiz Wars, the sitemap is very simple. There are only two views/pages, "index" and "quiz". The user journey consists on logging into the system or signing up as a new user. Then you get redirected to the quiz page, where you will remain until the end of your session.
 

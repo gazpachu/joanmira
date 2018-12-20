@@ -18,7 +18,7 @@ category: samurai-route
  Lugar de nacimiento: Alicante
  Reside en: Alicante
 
-</td></tr></tbody></table>[![motos](./images/motos_ukbsdz.jpg)](http://res.cloudinary.com/gazpachu/image/upload/v1425225195/motos_ukbsdz.jpg)<table border="0" cellpadding="8"><tbody><tr><td>### BMW F800GS
+</td></tr></tbody></table>![motos](./images/motos_ukbsdz.jpg)<table border="0" cellpadding="8"><tbody><tr><td>### BMW F800GS
 
 Tipo de motor: Motor bicilíndrico en línea de cuatro tiempos,
  refrigerado por agua, con cuatro válvulas por cilindro,

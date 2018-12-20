@@ -1,11 +1,21 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "gatsby";
+import Disqus from "disqus-react";
 
 import { FaArrowRight } from "react-icons/fa/";
 import { FaArrowLeft } from "react-icons/fa/";
 
 const NextPrev = props => {
+  const disqusShortname = "joanmira";
+  const disqusConfig = props.article
+    ? {
+        url: props.article.url,
+        identifier: props.article.id,
+        title: props.article.title
+      }
+    : null;
+
   const {
     theme,
     next: {
@@ -38,6 +48,8 @@ const NextPrev = props => {
           </Link>
         )}
       </div>
+
+      <Disqus.DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
 
       {/* --- STYLES --- */}
       <style jsx>{`
@@ -111,7 +123,8 @@ const NextPrev = props => {
 NextPrev.propTypes = {
   next: PropTypes.object,
   prev: PropTypes.object,
-  theme: PropTypes.object.isRequired
+  theme: PropTypes.object.isRequired,
+  article: PropTypes.shape
 };
 
 export default NextPrev;

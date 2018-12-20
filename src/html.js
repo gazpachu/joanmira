@@ -11,7 +11,7 @@ export default class HTML extends React.Component {
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
           <meta
             name="google-site-verification"
-            content="kIiGEK508Fpc6aMA1k4AQVMA9_MnA1R9D8WV6QidqGw"
+            content="w8oskvUdgwqiBP9tVkKPn2I4NDte44pr654uaT6Z1-k"
           />
           {this.props.headComponents}
           <meta name="apple-mobile-web-app-capable" content="yes" />

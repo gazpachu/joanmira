@@ -1,10 +1,6 @@
 ---
 title: "Curriculum vitae"
-slug: "/cv"
-date: "2015-05-09T13:02:47.000Z"
-featured: false
-draft: false
-tags: []
+menuTitle: CV
 ---
 
 ##Summary
@@ -40,13 +36,13 @@ Currently, **ReactJS** is my favourite front-end framework, although I also work
 * JavaScript: [Node.js](https://nodejs.org/) [Express.js](http://expressjs.com/), [Sails.js](http://sailsjs.org/), [Meteor](https://www.meteor.com/), [Ghost](https://ghost.org/), [MEAN stack](http://mean.io/#!/)
 * PHP: [Zend Framework](http://framework.zend.com/), [Laravel](https://laravel.com/), [LAMP stack](https://en.wikipedia.org/wiki/LAMP_(software_bundle))
 * BaaS: [Firebase](firebase.google.com)
-* CMS: [Wordpress](https://wordpress.org/), [Drupal](https://www.drupal.org/), [Joomla](http://www.joomla.org/) 
+* CMS: [Wordpress](https://wordpress.org/), [Drupal](https://www.drupal.org/), [Joomla](http://www.joomla.org/)
 * DB: [MySQL](https://www.mysql.com/), [MongoDB](https://www.mongodb.org/), [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL), [SQLite](https://en.wikipedia.org/wiki/SQLite), [MS-SQL](https://en.wikipedia.org/wiki/Microsoft_SQL_Server)
 * ORM: [Doctrine](http://www.doctrine-project.org/), [Waterline](https://github.com/balderdashy/waterline)
 
 **Creative Technologies**
 
-* [OpenFrameworks](http://www.openframeworks.cc/) ([C++](https://en.wikipedia.org/wiki/C%2B%2B)), [Processing](https://en.wikipedia.org/wiki/Processing_(programming_language)) ([Java](https://en.wikipedia.org/wiki/Java)), [QT](https://en.wikipedia.org/wiki/Qt_(software)), [DirectX](https://en.wikipedia.org/wiki/DirectX) 
+* [OpenFrameworks](http://www.openframeworks.cc/) ([C++](https://en.wikipedia.org/wiki/C%2B%2B)), [Processing](https://en.wikipedia.org/wiki/Processing_(programming_language)) ([Java](https://en.wikipedia.org/wiki/Java)), [QT](https://en.wikipedia.org/wiki/Qt_(software)), [DirectX](https://en.wikipedia.org/wiki/DirectX)
 * [NUI](https://en.wikipedia.org/wiki/Natural_user_interface), Hand/skeleton tracking with [Kinect](https://en.wikipedia.org/wiki/Kinect), [OpenNi](http://structure.io/openni) and [OpenCV](http://opencv.org/)
 
 **OS / Systems administration / Networks**
@@ -54,7 +50,7 @@ Currently, **ReactJS** is my favourite front-end framework, although I also work
 * Primary OS: MacOS, secondary: Windows and Ubuntu
 * Networking: [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol), [Apache](http://www.apache.org/), [Nginx](http://nginx.org/), [SSH](https://en.wikipedia.org/wiki/Secure_Shell), [DNS](https://en.wikipedia.org/wiki/Domain_Name_System), [SSL](https://en.wikipedia.org/wiki/SSL), [XAMPP](https://www.apachefriends.org/index.html), [MAMP](https://www.mamp.info/en/)
 * SEO: [Google Webmaster Tools](https://www.google.com/webmasters/tools/home), [Analytics](http://www.google.com/analytics/), [GTMetrix](https://gtmetrix.com/)
-* Caching: [Varnish](https://www.varnish-cache.org/), [Memcached](http://memcached.org/) 
+* Caching: [Varnish](https://www.varnish-cache.org/), [Memcached](http://memcached.org/)
 * Web hosting: [AWS](http://aws.amazon.com/), [Heroku](https://www.heroku.com/), [Firebase](firebase.google.com), [Rackspace](http://www.rackspace.co.uk/), [DigitalOcean](https://www.digitalocean.com/), [OVH](https://www.ovh.co.uk/), [WHM](http://cpanel.com/), [cPanel](http://cpanel.com/), [Plesk](http://www.plesk.com/), [WHMCS](http://www.whmcs.com/)
 
 **Software engineering**
@@ -154,9 +150,9 @@ Projects:
 * A Twitter [sentiment extraction](http://en.wikipedia.org/wiki/Sentiment_analysis) app
 * Several [Kinect](http://en.wikipedia.org/wiki/Kinect) driven (hand tracking) [particle systems](http://en.wikipedia.org/wiki/Particle_system)
 * A [Kinect](http://en.wikipedia.org/wiki/Kinect) driven (hand tracking) DJ sound mixing app with virtual vinyls and multi-screen support. It includes [sound scratching](http://en.wikipedia.org/wiki/Scratching) and reverse playback
-* A [Kinect](http://en.wikipedia.org/wiki/Kinect) driven demo (tracking the body) that forwards a video based on the user movement and position 
+* A [Kinect](http://en.wikipedia.org/wiki/Kinect) driven demo (tracking the body) that forwards a video based on the user movement and position
 * Several demos with [Box2d]([Box2d](https://code.google.com/p/box2dweb/) and [OpenCV](http://opencv.org/)
-* An augmented reality car racing game with real-time obstacles and level editor 
+* An augmented reality car racing game with real-time obstacles and level editor
 
 Some of the technologies used: [Zend](http://www.zend.com/), [C++](http://en.wikipedia.org/wiki/C%2B%2B), [OpenFrameworks](http://openframeworks.cc/), [OpenNI](http://en.wikipedia.org/wiki/OpenNI), [Epoc Emotiv](https://emotiv.com/epoc.php), [Arduino](http://www.arduino.cc/), [Android SDK](https://developer.android.com/sdk/index.html), [AndEngine](http://www.andengine.org/), [JAVA](https://www.java.com/en/), [Titanium SDK](http://www.appcelerator.com/product/), [Wordpress](https://wordpress.org/), [Drupal](https://www.drupal.org/),3rd party APIs, etc.
 
@@ -368,9 +364,9 @@ Core Value: **Creativity**
 Nominator: Denise Neves Santos (Manager of Interactive Development at SapientNitro)
 Date: 26-Oct-2015
 
-Joan is an extremely talented developer and technologist: no technology is a problem! Whether you are looking for a Vanilla JS, Angular, ReactJS, [insert library/framework/tech here], I'm positive Joan will deliver it, high quality, on time. 
+Joan is an extremely talented developer and technologist: no technology is a problem! Whether you are looking for a Vanilla JS, Angular, ReactJS, [insert library/framework/tech here], I'm positive Joan will deliver it, high quality, on time.
 
-His knowledge and attitude makes him one of the best developers I had the pleasure to work with, as he's not only committed to the quality of the code, but to the overall delivery of the project, which can make all the difference when delivering large-scale projects. Having Joan in the team is a joy, I wholeheartedly recommend Joan. 
+His knowledge and attitude makes him one of the best developers I had the pleasure to work with, as he's not only committed to the quality of the code, but to the overall delivery of the project, which can make all the difference when delivering large-scale projects. Having Joan in the team is a joy, I wholeheartedly recommend Joan.
 
 Joan is also a very good fußball player, although not as good as myself :)
 
@@ -433,5 +429,5 @@ Core Value: **Client focus delivery**
 Nominator: Carlos Ocaña (Graphic designer at Slater Labs)
 Date: 30-Sep-2008
 
-Joan es una persona seria y responsable, ante la aparición de cualquier problema o duda no para hasta obtener la solución al mismo. 
+Joan es una persona seria y responsable, ante la aparición de cualquier problema o duda no para hasta obtener la solución al mismo.
 En definitiva es una persona con gran talento.
