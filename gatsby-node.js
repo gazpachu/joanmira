@@ -26,7 +26,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       createNodeField({
         node,
         name: `slug`,
-        value: `${separtorIndex ? "/" : ""}work/${slug.substring(shortSlugStart)}`
+        value: `${separtorIndex ? "/" : ""}${slug.substring(shortSlugStart)}`
       });
     }
     createNodeField({
