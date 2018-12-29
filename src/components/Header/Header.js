@@ -93,6 +93,7 @@ const Header = props => {
             font-size: 18px;
             display: inline-block;
             color: black;
+            letter-spacing: 0;
           }
 
           :global(.cursor) {

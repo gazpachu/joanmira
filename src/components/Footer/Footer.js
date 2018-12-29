@@ -14,7 +14,7 @@ const Footer = props => {
           background: ${theme.color.neutral.white};
           padding: ${theme.space.inset.default};
           padding-top: 0;
-          padding-bottom: 120px;
+          padding-bottom: 30px;
 
           :global(ul) {
             list-style: none;

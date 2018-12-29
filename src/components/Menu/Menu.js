@@ -5,14 +5,6 @@ import { isMobile } from "react-device-detect";
 import Search from "../../images/svg/search.svg";
 
 class Menu extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      active: null
-    };
-  }
-
   checkMobile(event) {
     if (isMobile) event.preventDefault();
   }
