@@ -1,16 +1,28 @@
-import React from "react";
+import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 
 const Headline = props => {
-  const { title, children, theme } = props;
+  const { title, children, prefix, theme } = props;
 
   return (
     <React.Fragment>
-      {title ? <h1>{title}</h1> : <h1>{children}</h1>}
+      {title ? (
+        <h1>
+          <Fragment>
+            {title}
+            {prefix && prefix.length > 4 ? (
+              <time dateTime={prefix}>{prefix.substring(0, 4)}</time>
+            ) : null}
+          </Fragment>
+        </h1>
+      ) : (
+        <h1>{children}</h1>
+      )}
 
       {/* --- STYLES --- */}
       <style jsx>{`
         h1 {
+          text-align: center;
           font-size: ${theme.font.size.xxl};
           margin: ${theme.space.stack.l};
           animation-name: headlineEntry;
@@ -27,6 +39,17 @@ const Headline = props => {
           :global(svg) {
             height: 0.75em;
             fill: ${theme.color.brand.primary};
+          }
+
+          time {
+            font-size: 15px;
+            font-weight: 400;
+            vertical-align: super;
+            margin-left: 10px;
+            background-color: #5c93ab;
+            color: #fff;
+            padding: 1px 6px;
+            letter-spacing: initial;
           }
         }
 
@@ -56,7 +79,9 @@ const Headline = props => {
 };
 
 Headline.propTypes = {
+  prefix: PropTypes.string.isRequired,
   title: PropTypes.string,
+  date: PropTypes.string,
   children: PropTypes.node,
   theme: PropTypes.object.isRequired
 };

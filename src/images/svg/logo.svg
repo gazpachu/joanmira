@@ -1,0 +1,11 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="49.25px" height="40px" viewBox="0 0 49.25 40" enable-background="new 0 0 49.25 40" xml:space="preserve">
+  <g>
+    <path class="markers" fill-rule="evenodd" clip-rule="evenodd" stroke-width="0" stroke-miterlimit="10" d="
+        M28.382,17.243l9.509,4.913v2.005l-9.509,4.961v-2.151l7.529-3.813l-7.529-3.765V17.243z M26.477,16.73l-2.934,12.662h-0.978
+        l2.909-12.662H26.477z M20.61,19.394l-7.529,3.765l7.529,3.813v2.151l-9.51-4.961v-2.005l9.51-4.913V19.394z"></path>
+
+    <path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.1" stroke-miterlimit="3" d="
+    M3.792,23.012c2.786,10.266,9.59,15.237,20.411,14.911c10.821,0.327,17.625-4.645,20.411-14.911V2.186
+    c-4.204,0.929-7.626,3.593-10.267,7.993c-7.056-1.059-13.794-1.059-20.215,0c-2.656-4.465-6.104-7.169-10.34-8.115v20.826"></path>
+  </g>
+</svg>

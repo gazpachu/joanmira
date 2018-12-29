@@ -1,10 +1,5 @@
 ---
 title: "Hire me"
-slug: "/hire"
-date: "2015-09-11T06:35:00.000Z"
-featured: false
-draft: false
-tags: []
 ---
 
 <p class="align-center"><span class="btn btn-red icon icon-cross-mark">I'm currently not available</span></p>

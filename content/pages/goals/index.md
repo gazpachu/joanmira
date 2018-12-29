@@ -1,10 +1,5 @@
 ---
 title: "Things I would like to do"
-slug: "/goals"
-date: "2015-06-30T16:07:48.000Z"
-featured: false
-draft: false
-tags: []
 ---
 
 * Ride a <span class="tag red-tag">motorcycle</span> in a track

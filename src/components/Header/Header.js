@@ -1,188 +1,138 @@
+import React, { Component, Fragment } from "react";
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
-import React from "react";
-import VisibilitySensor from "react-visibility-sensor";
-
 import { ScreenWidthContext, FontLoadedContext } from "../../layouts";
 import config from "../../../content/meta/config";
 import Menu from "../Menu";
+import Logo from "../../images/svg/logo.svg";
+import Cursor from "../../images/gif/cursor.gif";
 
-class Header extends React.Component {
-  state = {
-    fixed: false
-  };
-
-  visibilitySensorChange = val => {
-    if (val) {
-      this.setState({ fixed: false });
-    } else {
-      this.setState({ fixed: true });
-    }
-  };
-
+class Header extends Component {
   getHeaderSize = () => {
-    const fixed = this.state.fixed ? "fixed" : "";
     const homepage = this.props.path === "/" ? "homepage" : "";
 
-    return `${fixed} ${homepage}`;
+    return `${homepage}`;
   };
 
   render() {
     const { pages, path, theme } = this.props;
-    const { fixed } = this.state;
 
     return (
-      <React.Fragment>
+      <Fragment>
         <header className={`header ${this.getHeaderSize()}`}>
-          <Link to="/" className="logoType">
-            <div className="type">
+          <div className="header-content">
+            <Link to="/" className="logo">
+              <Logo className="logo-symbol" />
               <h1>{config.headerTitle}</h1>
-            </div>
-          </Link>
-          <FontLoadedContext.Consumer>
-            {loaded => (
-              <ScreenWidthContext.Consumer>
-                {width => (
-                  <Menu
-                    path={path}
-                    fixed={fixed}
-                    screenWidth={width}
-                    fontLoaded={loaded}
-                    pages={pages}
-                    theme={theme}
-                  />
-                )}
-              </ScreenWidthContext.Consumer>
-            )}
-          </FontLoadedContext.Consumer>
+              <img src={Cursor} className="cursor" />
+            </Link>
+            <FontLoadedContext.Consumer>
+              {loaded => (
+                <ScreenWidthContext.Consumer>
+                  {width => (
+                    <Menu
+                      path={path}
+                      screenWidth={width}
+                      fontLoaded={loaded}
+                      pages={pages}
+                      theme={theme}
+                    />
+                  )}
+                </ScreenWidthContext.Consumer>
+              )}
+            </FontLoadedContext.Consumer>
+          </div>
         </header>
-        <VisibilitySensor onChange={this.visibilitySensorChange}>
-          <div className="sensor" />
-        </VisibilitySensor>
 
         {/* --- STYLES --- */}
         <style jsx>{`
           .header {
-            background-color: ${theme.color.neutral.white};
-            position: relative;
-            top: 0;
-            width: 100%;
-
-            &.homepage {
-              position: absolute;
-              background-color: transparent;
-            }
-          }
-
-          h1 {
-            font-size: ${theme.font.size.xxl};
-            font-weight: ${theme.font.weight.light};
-            margin: ${theme.space.stack.xs};
-          }
-
-          .sensor {
-            display: block;
             position: absolute;
-            bottom: 0;
-            z-index: 1;
+            top: 0;
             left: 0;
             right: 0;
-            height: 1px;
-            top: ${path === "/" ? theme.header.height.homepage : theme.header.height.default};
-          }
+            width: 100%;
+            padding: 36px 20px 0 20px;
+            text-align: center;
 
-          @from-width tablet {
-            .header {
-              padding: ${theme.space.inset.m};
+            @below tablet {
+              padding-top: 16px;
             }
-          }
 
-          @below desktop {
-            .header {
-              text-align: center;
-              padding: ${theme.space.inset.m};
-
-              &.homepage {
-                .logo {
-                  border: none;
-                }
-
-                :global(a.logoType),
-                h1 {
-                  color: ${theme.color.neutral.white};
-                }
-              }
-            }
-          }
-
-          @from-width desktop {
-            .header {
-              align-items: center;
-              background-color: rgba(255, 255, 255, 0.7);
-              display: flex;
+            &:after {
+              content: "";
               position: absolute;
               top: 0;
+              left: 0;
               width: 100%;
-              justify-content: space-between;
-              transition: padding 0.5s;
+              height: 150px;
+              background: linear-gradient(to bottom, #fff 0, rgba(255, 255, 255, 0) 100%);
+              filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=0 );
 
-              &.fixed {
-                height: ${theme.header.height.fixed};
-                background-color: ${theme.color.neutral.white};
-                left: 0;
-                padding: 0 ${theme.space.m};
-                position: fixed;
-                top: 0;
-                width: 100%;
-                z-index: 1;
-                border-bottom: 1px solid ${theme.color.neutral.gray.c};
-
-                h1 {
-                  margin: ${theme.space.stack.xxs};
-                }
-              }
-
-              :global(a.logoType) {
-                align-items: center;
-                display: flex;
-                flex-direction: "column";
-                color: ${theme.text.color.primary};
-
-                .logo {
-                  flex-shrink: 0;
-                }
-              }
-
-              &.homepage:not(.fixed) {
-                :global(a.logoType),
-                h1 {
-                  color: ${theme.color.neutral.white};
-                }
+              @below tablet {
+                height: 250px;
               }
             }
 
-            .header :global(a.logoType) {
-              text-align: left;
-              flex-direction: row;
-              flex-shrink: 0;
-              width: auto;
+            .header-content {
+              z-index: 1;
+              position: relative;
+              max-width: 979px;
+              margin: 0 auto;
+              padding-bottom: 5px;
+              border-bottom: 1px solid;
+              border-bottom-color: rgba(0, 0, 0, 0.15);
             }
 
-            .logo {
-              margin: ${theme.space.inline.default};
+            :global(.logo) {
+              display: block;
+              position: absolute;
+              letter0-spacing: initial;
+              opacity: 0.8;
 
-              .fixed & {
-                height: 36px;
-                width: 36px;
+              @below tablet {
+                position: initial;
+              }
+            }
+
+            :global(.logo-symbol) {
+              stroke: black;
+              margin-right: 15px;
+              vertical-align: middle;
+            }
+
+            h1 {
+              font-size: 18px;
+              display: inline-block;
+              color: black;
+            }
+
+            :global(.cursor) {
+              margin-left: 3px;
+              opacity: 0.5;
+            }
+
+            &.homepage {
+              .header-content {
+                border-bottom-color: rgba(255, 255, 255, 0.33);
               }
 
-              .header.homepage:not(.fixed) & {
-                border: none;
+              &:after {
+                display: none;
+              }
+
+              :global(.logo-symbol) {
+                stroke: white;
+                fill: #fff;
+              }
+
+              h1 {
+                color: white;
               }
             }
           }
         `}</style>
-      </React.Fragment>
+      </Fragment>
     );
   }
 }

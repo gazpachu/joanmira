@@ -6,7 +6,7 @@ import Article from "../components/Article";
 import Page from "../components/Page";
 import { ThemeContext } from "../layouts";
 
-const PageTemplate = props => {
+const WorkTemplate = props => {
   const {
     data: { page }
   } = props;
@@ -16,21 +16,9 @@ const PageTemplate = props => {
       <ThemeContext.Consumer>
         {theme => (
           <React.Fragment>
-            <div className="hero" />
             <Article theme={theme}>
               <Page page={page} theme={theme} />
             </Article>
-            <style jsx>{`
-              .hero {
-                background-image: url(${page.frontmatter.cover
-                  ? page.frontmatter.cover.childImageSharp.resize.src
-                  : ""});
-                height: ${page.frontmatter.cover ? "400px" : "90px"};
-                background-repeat: no-repeat;
-                background-position: center 20%;
-                background-size: cover;
-              }
-            `}</style>
           </React.Fragment>
         )}
       </ThemeContext.Consumer>
@@ -40,15 +28,15 @@ const PageTemplate = props => {
   );
 };
 
-PageTemplate.propTypes = {
+WorkTemplate.propTypes = {
   data: PropTypes.object.isRequired
 };
 
-export default PageTemplate;
+export default WorkTemplate;
 
 //eslint-disable-next-line no-undef
-export const pageQuery = graphql`
-  query PageByPath($slug: String!) {
+export const workQuery = graphql`
+  query WorkPageByPath($slug: String!) {
     page: markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       html
