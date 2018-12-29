@@ -11,7 +11,7 @@ const Header = props => {
 
   return (
     <Fragment>
-      <header className={`header ${path === "/" ? "homepage" : ""}`}>
+      <header className={`header ${path === "/" ? "inverted" : ""}`}>
         <div className="header-content">
           <Link to="/" className="logo">
             <Logo className="logo-symbol" />
@@ -64,12 +64,20 @@ const Header = props => {
             display: block;
             position: absolute;
             top: 36px;
+            height: 44px;
             z-index: 1;
             letter0-spacing: initial;
             opacity: 0.8;
 
             @below tablet {
               position: initial;
+            }
+
+            @above tablet {
+              &:hover {
+                border-bottom: 1px solid;
+                border-bottom-color: rgba(0, 0, 0, 0.67);
+              }
             }
           }
 
@@ -93,27 +101,8 @@ const Header = props => {
             filter: invert(100%);
           }
 
-          &.homepage {
-            .header-content {
-              border-bottom-color: rgba(255, 255, 255, 0.33);
-            }
-
-            &:after {
-              display: none;
-            }
-
-            :global(.logo-symbol) {
-              stroke: white;
-              fill: #fff;
-            }
-
-            h1 {
-              color: white;
-            }
-
-            :global(.cursor) {
-              filter: none;
-            }
+          &.inverted {
+            filter: invert(100%);
           }
         }
       `}</style>
