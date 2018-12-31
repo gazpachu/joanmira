@@ -143,7 +143,7 @@ export default IndexPage;
 export const query = graphql`
   query IndexQuery($skip: Int!, $limit: Int!) {
     posts: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "//posts/[0-9]+.*--/" } }
+      filter: { fileAbsolutePath: { regex: "//posts/[0-9]+.*---/" } }
       sort: { fields: [fields___prefix], order: DESC }
       limit: $limit
       skip: $skip

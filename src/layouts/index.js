@@ -82,23 +82,6 @@ class Layout extends React.Component {
       <StaticQuery
         query={graphql`
           query LayoutgQuery {
-            pages: allMarkdownRemark(
-              filter: { fileAbsolutePath: { regex: "//pages//" }, fields: { prefix: { regex: "/^\\d+$/" } } }
-              sort: { fields: [fields___prefix], order: ASC }
-            ) {
-              edges {
-                node {
-                  fields {
-                    slug
-                    prefix
-                  }
-                  frontmatter {
-                    title
-                    menuTitle
-                  }
-                }
-              }
-            }
             footnote: markdownRemark(fileAbsolutePath: { regex: "/footnote/" }) {
               id
               html
@@ -108,8 +91,7 @@ class Layout extends React.Component {
         render={data => {
           const { children } = this.props;
           const {
-            footnote: { html: footnoteHTML },
-            pages: { edges: pages }
+            footnote: { html: footnoteHTML }
           } = data;
 
           return (
@@ -117,11 +99,7 @@ class Layout extends React.Component {
               <FontLoadedContext.Provider value={this.state.font400loaded}>
                 <ScreenWidthContext.Provider value={this.state.screenWidth}>
                   <React.Fragment>
-                    <Header
-                      path={this.props.location.pathname}
-                      pages={pages}
-                      theme={this.state.theme}
-                    />
+                    <Header path={this.props.location.pathname} theme={this.state.theme} />
                     <main>{children}</main>
                     <Footer html={footnoteHTML} theme={this.state.theme} />
 
@@ -198,33 +176,3 @@ Layout.propTypes = {
 };
 
 export default Layout;
-
-//eslint-disable-next-line no-undef
-/*
-export const postQuery = graphql`
-  query LayoutQuery {
-    pages: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "//pages//" }, fields: { prefix: { regex: "/^\\d+$/" } } }
-      sort: { fields: [fields___prefix], order: ASC }
-    ) {
-      edges {
-        node {
-          fields {
-            slug
-            prefix
-          }
-          frontmatter {
-            title
-            menuTitle
-          }
-        }
-      }
-    }
-    footnote: markdownRemark(fileAbsolutePath: { regex: "/footnote/" }) {
-      id
-      html
-    }
-  }
-`;
-
-*/

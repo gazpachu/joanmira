@@ -12,27 +12,18 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     const slug = createFilePath({ node, getNode });
     const fileNode = getNode(node.parent);
     const source = fileNode.sourceInstanceName;
-    const separtorIndex = ~slug.indexOf("--") ? slug.indexOf("--") : 0;
-    const shortSlugStart = separtorIndex ? separtorIndex + 2 : 0;
+    const separatorIndex = slug.indexOf("---") ? slug.indexOf("---") : 0;
+    const shortSlugStart = separatorIndex > 0 ? separatorIndex + 3 : 0;
 
-    if (source !== "parts" && source !== "work") {
-      createNodeField({
-        node,
-        name: `slug`,
-        value: `${separtorIndex ? "/" : ""}${slug.substring(shortSlugStart)}`
-      });
-    }
-    if (source === "work") {
-      createNodeField({
-        node,
-        name: `slug`,
-        value: `${separtorIndex ? "/" : ""}${slug.substring(shortSlugStart)}`
-      });
-    }
+    createNodeField({
+      node,
+      name: `slug`,
+      value: `${separatorIndex ? "/" : ""}${slug.substring(shortSlugStart)}`
+    });
     createNodeField({
       node,
       name: `prefix`,
-      value: separtorIndex ? slug.substring(1, separtorIndex) : ""
+      value: separatorIndex ? slug.substring(1, separatorIndex) : ""
     });
     createNodeField({
       node,

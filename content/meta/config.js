@@ -3,7 +3,7 @@ module.exports = {
   shortSiteTitle: "Joan Mira", // <title> ending for posts and pages
   siteDescription: "Personal website of Joan Mira. A front-end engineer and code artist",
   siteUrl: "https://joanmira.com",
-  // pathPrefix: "",
+  pathPrefix: "joanmira",
   siteImage: "",
   siteLanguage: "en",
 

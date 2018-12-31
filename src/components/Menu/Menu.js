@@ -24,10 +24,10 @@ class Menu extends Component {
                 </li>
               ) : null}
               <li>
-                <Link to="/categories">Categories</Link>
+                <Link to="/category">Categories</Link>
               </li>
               <li>
-                <Link to="/categories">Popular posts</Link>
+                <Link to="/popular">Popular posts</Link>
               </li>
             </ul>
           </li>
