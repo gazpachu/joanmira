@@ -1,7 +1,7 @@
 ---
 title: "Bikesafe in London"
 cover: images/bikesafe.png
-category: personal
+category: london
 ---
 
 Hey!, amigos moteros, cómo os va la vida? Tenéis algún viaje programado para este verano?

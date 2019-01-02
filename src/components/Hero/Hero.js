@@ -1,132 +1,116 @@
-import React from "react";
+import React, { Fragment } from "react";
 import PropTypes from "prop-types";
-
-import { FaAngleDown } from "react-icons/fa/";
+import Boxes from "./Boxes";
 
 const Hero = props => {
-  const { scrollToContent, backgrounds, theme } = props;
+  const { scrollToContent, theme } = props;
 
   return (
-    <React.Fragment>
+    <Fragment>
       <section className="hero">
-        <h1>Hi!, I&#39;m Tuesday. An aspiring artist and creative content manager / strategist</h1>
+        <h1>
+          Hi! I&#39;m Joan, a frontend engineer / web designer who makes technology <i>easy as candy</i>
+        </h1>
+        <h2>Scroll down to read my latest stories</h2>
         <button onClick={scrollToContent} aria-label="scroll" title="Read my latest blog posts">
-          <FaAngleDown />
+          <svg xmlns="http://www.w3.org/2000/svg" width="40px" height="30px">
+            <polyline
+              fill="none"
+              strokeWidth="1"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              points="0,0 20,20 40,0"
+            />
+          </svg>
         </button>
+        <Boxes />
       </section>
 
-      {/* --- STYLES --- */}
       <style jsx>{`
         .hero {
-          align-items: center;
-          background: ${theme.hero.background};
-          background-image: url(${backgrounds.mobile});
-          background-size: cover;
-          color: ${theme.text.color.primary.inverse};
-          display: flex;
-          flex-flow: column nowrap;
-          justify-content: center;
-          min-height: 100vh;
-          height: 100px;
-          padding: ${theme.space.inset.l};
-          padding-top: ${theme.header.height.homepage};
+          color: white;
+          padding-top: 90px;
+          text-align: center;
+          height: 100vh;
+          background-image: -webkit-linear-gradient(
+              top,
+              rgba(17, 2, 49, 0.75),
+              rgba(17, 2, 49, 0)
+            ),
+            -webkit-linear-gradient(bottom left, #eb6670, #f67f7c, #f9ac97, #f1b79f, #e1bea7, #c3bcb0, #8aabb2, #4e95b2, #2588b6);
         }
 
         h1 {
-          text-align: center;
-          font-size: ${theme.hero.h1.size};
-          margin: ${theme.space.stack.l};
-          color: ${theme.hero.h1.color};
-          line-height: ${theme.hero.h1.lineHeight};
-          text-remove-gap: both 0 "Open Sans";
-          font-weight: ${theme.font.weight.light};
+          margin: 30px auto;
+          width: 100%;
+          max-width: 750px;
+          font-size: 36px;
+          line-height: 1.2;
+          padding: 0 30px;
+
+          @below tablet {
+            font-size: ${theme.font.size.xl};
+          }
+        }
+
+        h2 {
+          font-size: 20px;
+          line-height: 30px;
         }
 
         button {
-          background: rgba(255, 255, 255, .1);
+          background: rgba(255, 255, 255, 0.1);
           border: 0;
           border-radius: 50%;
           font-size: ${theme.font.size.m};
+          margin-top: 30px;
           padding: ${theme.space.s} ${theme.space.m};
           cursor: pointer;
           width: ${theme.space.xl};
           height: ${theme.space.xl};
 
-          &:focus {
+          &:focus,
+          &:hover {
             outline-style: none;
-            background: ${theme.color.brand.primary.active};
+            background: rgba(255, 255, 255, 0.2);
           }
 
           :global(svg) {
             position: relative;
-            top: 5px;
             fill: ${theme.color.neutral.white};
             stroke: ${theme.color.neutral.white};
             animation-duration: ${theme.time.duration.long};
             animation-name: buttonIconMove;
             animation-iteration-count: infinite;
           }
+
+          @from-width tablet {
+            font-size: ${theme.font.size.l};
+          }
+
+          @from-width desktop {
+            font-size: ${theme.font.size.xl};
+          }
         }
 
         @keyframes buttonIconMove {
           0% {
-            transform: translateY(0);
+            transform: translateY(15px);
           }
           50% {
-            transform: translateY(-10px);
+            transform: translateY(5px);
           }
           100% {
-            transform: translateY(0);
-          }
-        }
-
-        @below tablet {
-          .hero {
-            padding-top: 200px;
-          }
-
-          h1 {
-            font-size: ${theme.font.size.xl};
-          }
-        }
-
-        @from-width tablet {
-          .hero {
-            background-image: url(${backgrounds.tablet});
-          }
-
-          h1 {
-            max-width: 90%;
-            font-size: ${`calc(${theme.hero.h1.size} * 1.3)`};
-          }
-
-          button {
-            font-size: ${theme.font.size.l};
-          }
-        }
-
-        @from-width desktop {
-          .hero {
-            background-image: url(${backgrounds.desktop});
-          }
-
-          h1 {
-            max-width: 80%;
-            font-size: ${`calc(${theme.hero.h1.size} * 1.5)`};
-          }
-
-          button {
-            font-size: ${theme.font.size.xl};
+            transform: translateY(15px);
           }
         }
       `}</style>
-    </React.Fragment>
+    </Fragment>
   );
 };
 
 Hero.propTypes = {
   scrollToContent: PropTypes.func.isRequired,
-  backgrounds: PropTypes.object.isRequired,
   theme: PropTypes.object.isRequired
 };
 

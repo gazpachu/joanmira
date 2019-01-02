@@ -19,7 +19,6 @@ const Headline = props => {
         <h1>{children}</h1>
       )}
 
-      {/* --- STYLES --- */}
       <style jsx>{`
         h1 {
           text-align: center;

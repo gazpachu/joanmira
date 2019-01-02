@@ -56,6 +56,9 @@ const CategoryPage = props => {
             ))}
             {/* --- STYLES --- */}
             <style jsx>{`
+              header {
+                margin-top: 90px;
+              }
               h2 {
                 margin: 0 0 0.5em;
               }

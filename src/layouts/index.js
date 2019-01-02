@@ -1,8 +1,7 @@
 import "typeface-open-sans";
 import FontFaceObserver from "fontfaceobserver";
 import PropTypes from "prop-types";
-import React from "react";
-import { graphql, StaticQuery } from "gatsby";
+import React, { Fragment } from "react";
 
 import { getScreenWidth, timeoutThrottlerHandler } from "../utils/helpers";
 import Footer from "../components/Footer/";
@@ -53,14 +52,6 @@ class Layout extends React.Component {
     this.setState({ screenWidth: getScreenWidth() });
   };
 
-  isHomePage = () => {
-    if (this.props.location.pathname === "/") {
-      return true;
-    }
-
-    return false;
-  };
-
   loadFont = (name, family, weight) => {
     const font = new FontFaceObserver(family, {
       weight: weight
@@ -78,100 +69,86 @@ class Layout extends React.Component {
   };
 
   render() {
+    const { children } = this.props;
+
     return (
-      <StaticQuery
-        query={graphql`
-          query LayoutgQuery {
-            footnote: markdownRemark(fileAbsolutePath: { regex: "/footnote/" }) {
-              id
-              html
-            }
-          }
-        `}
-        render={data => {
-          const { children } = this.props;
-          const {
-            footnote: { html: footnoteHTML }
-          } = data;
+      <ThemeContext.Provider value={this.state.theme}>
+        <FontLoadedContext.Provider value={this.state.font400loaded}>
+          <ScreenWidthContext.Provider value={this.state.screenWidth}>
+            <Fragment>
+              <Header path={this.props.location.pathname} theme={this.state.theme} />
+              <main>{children}</main>
+              <Footer theme={this.state.theme} />
 
-          return (
-            <ThemeContext.Provider value={this.state.theme}>
-              <FontLoadedContext.Provider value={this.state.font400loaded}>
-                <ScreenWidthContext.Provider value={this.state.screenWidth}>
-                  <React.Fragment>
-                    <Header path={this.props.location.pathname} theme={this.state.theme} />
-                    <main>{children}</main>
-                    <Footer html={footnoteHTML} theme={this.state.theme} />
-
-                    {/* --- STYLES --- */}
-                    <style jsx>{`
-                      main {
-                        min-height: 80vh;
-                      }
-                    `}</style>
-                    <style jsx global>{`
-                      html {
-                        box-sizing: border-box;
-                      }
-                      *,
-                      *:after,
-                      *:before {
-                        box-sizing: inherit;
-                        margin: 0;
-                        padding: 0;
-                      }
-                      body {
-                        font-family: ${this.state.font400loaded
-                          ? "'Open Sans', sans-serif;"
-                          : "Arial, sans-serif;"};
-                      }
-                      h1,
-                      h2,
-                      h3 {
-                        font-weight: 100;
-                        line-height: 1.1;
-                        letter-spacing: -0.03em;
-                        margin: 0;
-                      }
-                      h1 {
-                        letter-spacing: -0.04em;
-                      }
-                      p {
-                        margin: 0;
-                      }
-                      strong {
-                        font-weight: 600;
-                      }
-                      a {
-                        text-decoration: none;
-                        color: #666;
-                      }
-                      main {
-                        width: auto;
-                        display: block;
-                      }
-                      figcaption {
-                        text-align: center;
-                        font-size: 14px;
-                        font-style: italic;
-                        color: #888;
-                        margin-bottom: 40px;
-                      }
-                    `}</style>
-                  </React.Fragment>
-                </ScreenWidthContext.Provider>
-              </FontLoadedContext.Provider>
-            </ThemeContext.Provider>
-          );
-        }}
-      />
+              <style jsx>{`
+                main {
+                  min-height: 80vh;
+                }
+              `}</style>
+              <style jsx global>{`
+                html {
+                  box-sizing: border-box;
+                }
+                *,
+                *:after,
+                *:before {
+                  box-sizing: inherit;
+                  margin: 0;
+                  padding: 0;
+                }
+                body {
+                  font-family: ${this.state.font400loaded
+                    ? "'Open Sans', sans-serif;"
+                    : "Arial, sans-serif;"};
+                }
+                h1,
+                h2,
+                h3 {
+                  font-weight: 100;
+                  line-height: 1.1;
+                  letter-spacing: -0.03em;
+                  margin: 0;
+                }
+                h1 {
+                  letter-spacing: -0.04em;
+                }
+                p {
+                  margin: 0;
+                }
+                strong {
+                  font-weight: 600;
+                }
+                a {
+                  color: ${this.state.theme.color.brand.primary};
+                  &:hover {
+                    color: ${this.state.theme.color.brand.primaryActive};
+                  }
+                }
+                ol {
+                  padding-left: 20px;
+                }
+                main {
+                  width: auto;
+                  display: block;
+                }
+                figcaption {
+                  text-align: center;
+                  font-size: 14px;
+                  font-style: italic;
+                  color: #888;
+                  margin-bottom: 40px;
+                }
+              `}</style>
+            </Fragment>
+          </ScreenWidthContext.Provider>
+        </FontLoadedContext.Provider>
+      </ThemeContext.Provider>
     );
   }
 }
 
 Layout.propTypes = {
   children: PropTypes.object.isRequired,
-  data: PropTypes.object.isRequired,
   location: PropTypes.object.isRequired
 };
 

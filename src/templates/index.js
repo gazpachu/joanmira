@@ -22,37 +22,16 @@ class IndexPage extends React.Component {
 
     const {
       data: {
-        posts: { edges: posts = [] },
-        bgDesktop: {
-          resize: { src: desktop }
-        },
-        bgTablet: {
-          resize: { src: tablet }
-        },
-        bgMobile: {
-          resize: { src: mobile }
-        }
+        posts: { edges: posts = [] }
       }
     } = this.props;
-
-    const backgrounds = {
-      desktop,
-      tablet,
-      mobile
-    };
 
     return (
       <React.Fragment>
         {isFirst ? (
           <React.Fragment>
             <ThemeContext.Consumer>
-              {theme => (
-                <Hero
-                  scrollToContent={this.scrollToContent}
-                  backgrounds={backgrounds}
-                  theme={theme}
-                />
-              )}
+              {theme => <Hero scrollToContent={this.scrollToContent} theme={theme} />}
             </ThemeContext.Consumer>
 
             <hr ref={this.separator} />
@@ -171,22 +150,5 @@ export const query = graphql`
         }
       }
     }
-    bgDesktop: imageSharp(fluid: { originalName: { regex: "/hero-background/" } }) {
-      resize(width: 1200, quality: 90, cropFocus: CENTER) {
-        src
-      }
-    }
-    bgTablet: imageSharp(fluid: { originalName: { regex: "/hero-background/" } }) {
-      resize(width: 800, height: 1100, quality: 90, cropFocus: CENTER) {
-        src
-      }
-    }
-    bgMobile: imageSharp(fluid: { originalName: { regex: "/hero-background/" } }) {
-      resize(width: 450, height: 850, quality: 90, cropFocus: CENTER) {
-        src
-      }
-    }
   }
 `;
-
-//hero-background

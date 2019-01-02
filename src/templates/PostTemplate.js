@@ -1,5 +1,5 @@
+import React, { Fragment } from "react";
 import PropTypes from "prop-types";
-import React from "react";
 import { graphql } from "gatsby";
 require("prismjs/themes/prism-okaidia.css");
 
@@ -10,21 +10,18 @@ import { ThemeContext } from "../layouts";
 
 const PostTemplate = props => {
   const {
-    data: {
-      post,
-      authornote: { html: authorNote }
-    },
+    data: { post },
     pageContext: { next, prev }
   } = props;
 
   return (
-    <React.Fragment>
+    <Fragment>
       <ThemeContext.Consumer>
         {theme => (
           <React.Fragment>
             <div className="hero" />
             <Article theme={theme}>
-              <Post post={post} next={next} prev={prev} authornote={authorNote} theme={theme} />
+              <Post post={post} next={next} prev={prev} theme={theme} />
             </Article>
             <style jsx>{`
               .hero {
@@ -42,7 +39,7 @@ const PostTemplate = props => {
       </ThemeContext.Consumer>
 
       <Seo data={post} />
-    </React.Fragment>
+    </Fragment>
   );
 };
 
@@ -74,10 +71,6 @@ export const postQuery = graphql`
           }
         }
       }
-    }
-    authornote: markdownRemark(fileAbsolutePath: { regex: "/author/" }) {
-      id
-      html
     }
   }
 `;

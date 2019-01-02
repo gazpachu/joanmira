@@ -104,6 +104,10 @@ const Header = props => {
 
           &.inverted {
             filter: invert(100%);
+
+            &:after {
+              display: none;
+            }
           }
         }
       `}</style>

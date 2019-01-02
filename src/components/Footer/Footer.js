@@ -1,56 +1,37 @@
-import React from "react";
+import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 
 const Footer = props => {
-  const { html, theme } = props;
+  const { theme } = props;
 
   return (
-    <React.Fragment>
-      <footer className="footer" dangerouslySetInnerHTML={{ __html: html }} />
+    <Fragment>
+      <footer className="footer">
+        <p>© Joan Mira | Front-end Engineer | Interactive Developer | Creative Web Designer</p>
+        <p>
+          Powered by <a href="https://www.gatsbyjs.org">Gatsby</a>, <a href="http://reactjs.org">React</a> and <a href="https://github.com">Github</a> | <a href="/credits">Credits and tech stack</a> | <a href="/stats">Stats and easter eggs</a> | <a href="/privacy">Privacy policy</a> | <a href="/rss.xml">RSS Feed</a>
+        </p>
+      </footer>
 
-      {/* --- STYLES --- */}
       <style jsx>{`
         .footer {
-          background: ${theme.color.neutral.white};
+          text-align: center;
           padding: ${theme.space.inset.default};
           padding-top: 0;
           padding-bottom: 30px;
+          max-width: 750px;
+          margin: 0 auto;
 
-          :global(ul) {
-            list-style: none;
-            text-align: center;
-            padding: 0;
-
-            :global(li) {
-              color: ${theme.color.neutral.gray.g};
-              font-size: ${theme.font.size.xxs};
-              padding: ${theme.space.xxs} ${theme.space.s};
-              position: relative;
-              display: inline-block;
-            }
-          }
-        }
-
-        @from-width desktop {
-          .footer {
-            padding: 0 1em 1.5em;
-            max-width: 800px;
-            margin: 0 auto;
-
-            :global(ul) :global(li) {
-              &::after {
-                content: "•";
-                position: absolute;
-                right: ${`calc(${theme.space.xs} * -1)`};
-              }
-              &:last-child::after {
-                content: "";
-              }
-            }
+          :global(p) {
+            color: ${theme.color.neutral.gray.g};
+            font-size: ${theme.font.size.xxs};
+            padding: ${theme.space.xxs} ${theme.space.s};
+            position: relative;
+            display: inline-block;
           }
         }
       `}</style>
-    </React.Fragment>
+    </Fragment>
   );
 };
 

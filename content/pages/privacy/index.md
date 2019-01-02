@@ -54,4 +54,4 @@ I may update this privacy policy from time-to-time, particularly as technology c
 
 ###Any questions?
 
-If you have any questions about this privacy policy or your personal data, please write to us by email to info [at] joanmira [.] com.
+If you have any questions about this privacy policy or your personal data, please write to me by email to hello [at] joanmira [.] com.

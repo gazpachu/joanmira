@@ -29,7 +29,6 @@ const List = props => {
         ul {
           margin: ${theme.space.stack.m};
           padding: ${theme.space.m};
-          list-style: circle;
         }
         li {
           padding: ${theme.space.xs} 0;

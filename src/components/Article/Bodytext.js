@@ -34,12 +34,11 @@ const Bodytext = props => {
             margin: 0 0 1.5em;
           }
           :global(ul) {
-            list-style: circle;
             margin: 0 0 1.5em;
             padding: 0 0 0 1.5em;
           }
           :global(li) {
-            margin: 0.7em 0;
+            margin: 0.4em 0;
             line-height: 1.5;
           }
           :global(a) {
