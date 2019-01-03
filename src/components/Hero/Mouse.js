@@ -10,8 +10,6 @@ class Mouse {
   constructor() {
     this.mouseX = 0;
     this.mouseY = 0;
-    this.startX = 0;
-    this.startY = 0;
     this.isMouseDown = false;
     this.selectedBody = null;
     this.mouseJoint = null;
@@ -58,7 +56,6 @@ class Mouse {
   }
 
   moveHandler(x, y) {
-    console.log(x, y);
     this.mouseX = (x - this.canvasPosition.x) / this.worldScale;
     this.mouseY = (y - this.canvasPosition.y) / this.worldScale;
   }

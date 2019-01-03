@@ -8,17 +8,18 @@ import Cursor from "../../images/gif/cursor.gif";
 
 const Header = props => {
   const { theme, path } = props;
+  const inverted = path === "/" ? "inverted" : "";
 
   return (
     <Fragment>
-      <header className={`header ${path === "/" ? "inverted" : ""}`}>
+      <header className={`header ${inverted}`}>
         <div className="header-content">
           <Link to="/" className="logo">
             <Logo className="logo-symbol" />
             <h1>{config.headerTitle}</h1>
             <img src={Cursor} className="cursor" />
           </Link>
-          <Menu theme={theme} />
+          <Menu theme={theme} inverted={inverted} />
         </div>
       </header>
 
@@ -104,7 +105,27 @@ const Header = props => {
           }
 
           &.inverted {
-            filter: invert(100%);
+            .logo,
+            :global(.logo-symbol),
+            :global(h1) {
+              filter: invert(100%);
+            }
+
+            :global(.cursor) {
+              filter: none;
+            }
+
+            :global(.logo) {
+              @above tablet {
+                &:hover {
+                  border-bottom-color: rgba(255, 255, 255, 0.67);
+                }
+              }
+            }
+
+            .header-content {
+              border-bottom-color: rgba(255, 255, 255, 0.15);
+            }
 
             &:after {
               display: none;

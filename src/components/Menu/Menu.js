@@ -12,7 +12,7 @@ class Menu extends Component {
   render() {
     return (
       <Fragment>
-        <ul className="main-menu">
+        <ul className={`main-menu ${this.props.inverted}`}>
           <li>
             <Link to="/" onClick={e => this.checkMobile(e)}>
               Blog
@@ -45,12 +45,6 @@ class Menu extends Component {
                 <Link to="/cv">Curriculum</Link>
               </li>
               <li>
-                <Link to="/skills">Skills</Link>
-              </li>
-              <li>
-                <Link to="/geek-life">Geek life</Link>
-              </li>
-              <li>
                 <Link to="/samurai-route">Samurai route</Link>
               </li>
             </ul>
@@ -80,6 +74,33 @@ class Menu extends Component {
 
             @below tablet {
               height: auto;
+            }
+
+            &.inverted > li {
+              :global(a),
+              :global(a.active),
+              :global(a:hover) {
+                color: white;
+
+                &:after {
+                  background: rgba(255, 255, 255, 0.67);
+                }
+              }
+
+              :global(.btn) {
+                @from-width tablet {
+                  border: 1px solid rgba(255, 255, 255, 0.33);
+                }
+
+                &:hover {
+                  border-color: rgba(255, 255, 255, 0.67);
+                  background-color: rgba(255, 255, 255, 0.1);
+                }
+              }
+
+              :global(.search-icon) {
+                fill: white;
+              }
             }
 
             > li {
@@ -291,7 +312,8 @@ class Menu extends Component {
 }
 
 Menu.propTypes = {
-  theme: PropTypes.object.isRequired
+  theme: PropTypes.object.isRequired,
+  inverted: PropTypes.string
 };
 
 export default Menu;
