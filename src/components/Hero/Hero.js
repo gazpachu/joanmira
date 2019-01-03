@@ -9,7 +9,7 @@ const Hero = props => {
     <Fragment>
       <section className="hero">
         <h1>
-          Hi! I&#39;m Joan, a frontend engineer / web designer who makes technology <i>easy as candy</i>
+          Hi! I&#39;m Joan, a frontend engineer &amp; web designer who makes technology <i>easy as candy</i>
         </h1>
         <h2>Scroll down to read my latest stories</h2>
         <button onClick={scrollToContent} aria-label="scroll" title="Read my latest blog posts">
@@ -32,11 +32,7 @@ const Hero = props => {
           padding-top: 90px;
           text-align: center;
           height: 100vh;
-          background-image: -webkit-linear-gradient(
-              top,
-              rgba(17, 2, 49, 0.75),
-              rgba(17, 2, 49, 0)
-            ),
+          background-image: -webkit-linear-gradient(top, rgba(17, 2, 49, 0.75), rgba(17, 2, 49, 0)),
             -webkit-linear-gradient(bottom left, #eb6670, #f67f7c, #f9ac97, #f1b79f, #e1bea7, #c3bcb0, #8aabb2, #4e95b2, #2588b6);
         }
 

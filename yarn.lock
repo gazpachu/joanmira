@@ -8793,6 +8793,10 @@ pkg-dir@^3.0.0:
   dependencies:
     find-up "^3.0.0"
 
+planck-js@^0.3.0-rc.2:
+  version "0.3.0-rc.2"
+  resolved "https://registry.yarnpkg.com/planck-js/-/planck-js-0.3.0-rc.2.tgz#49424ccc2ec029eadd7b2d8117c9e861beffb6ea"
+
 pleeease-filters@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/pleeease-filters/-/pleeease-filters-4.0.0.tgz#6632b2fb05648d2758d865384fbced79e1ccaec7"
