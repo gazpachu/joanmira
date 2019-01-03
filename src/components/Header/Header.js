@@ -25,6 +25,7 @@ const Header = props => {
       <style jsx>{`
         .header {
           position: absolute;
+          z-index: 1;
           top: 0;
           left: 0;
           right: 0;
