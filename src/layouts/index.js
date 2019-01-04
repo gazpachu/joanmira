@@ -78,7 +78,7 @@ class Layout extends React.Component {
             <Fragment>
               <Header path={this.props.location.pathname} theme={this.state.theme} />
               <main>{children}</main>
-              <Footer theme={this.state.theme} />
+              <Footer path={this.props.location.pathname} theme={this.state.theme} />
 
               <style jsx>{`
                 main {

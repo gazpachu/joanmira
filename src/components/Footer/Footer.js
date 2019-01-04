@@ -2,16 +2,18 @@ import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 
 const Footer = props => {
-  const { theme } = props;
+  const { theme, path } = props;
 
   return (
     <Fragment>
-      <footer className="footer">
-        <p>© Joan Mira | Front-end Engineer | Interactive Developer | Creative Web Designer</p>
-        <p>
-          Powered by <a href="https://www.gatsbyjs.org">Gatsby</a>, <a href="http://reactjs.org">React</a> and <a href="https://github.com">Github</a> | <a href="/credits">Credits and tech stack</a> | <a href="/stats">Stats and easter eggs</a> | <a href="/privacy">Privacy policy</a> | <a href="/rss.xml">RSS Feed</a>
-        </p>
-      </footer>
+      {path !== "/" ? (
+        <footer className="footer">
+          <p>© Joan Mira | Front-end Engineer | Interactive Developer | Creative Web Designer</p>
+          <p>
+            Powered by <a href="https://www.gatsbyjs.org">Gatsby</a>, <a href="http://reactjs.org">React</a> and <a href="https://github.com">Github</a> | <a href="/credits">Credits and tech stack</a> | <a href="/stats">Stats and easter eggs</a> | <a href="/privacy">Privacy policy</a> | <a href="/rss.xml">RSS Feed</a>
+          </p>
+        </footer>
+      ) : null}
 
       <style jsx>{`
         .footer {
@@ -37,6 +39,7 @@ const Footer = props => {
 
 Footer.propTypes = {
   html: PropTypes.string,
+  path: PropTypes.string.isRequired,
   theme: PropTypes.object.isRequired
 };
 

@@ -23,7 +23,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     createNodeField({
       node,
       name: `prefix`,
-      value: separatorIndex ? slug.substring(1, separatorIndex) : ""
+      value: separatorIndex ? slug.substring(0, separatorIndex) : ""
     });
     createNodeField({
       node,
@@ -74,6 +74,12 @@ exports.createPages = ({ graphql, actions }) => {
         }
 
         const items = result.data.allMarkdownRemark.edges;
+
+        // Create home page
+        createPage({
+          path: "/",
+          component: path.resolve("./src/templates/index.js")
+        });
 
         // Create category list
         const categorySet = new Set();
@@ -159,8 +165,8 @@ exports.createPages = ({ graphql, actions }) => {
 
         _.times(numPages, i => {
           createPage({
-            path: i === 0 ? `/` : `/${i + 1}`,
-            component: path.resolve("./src/templates/index.js"),
+            path: i === 0 ? `/blog` : `/blog/${i + 1}`,
+            component: path.resolve("./src/templates/BlogTemplate.js"),
             context: {
               limit: postsPerPage,
               skip: i * postsPerPage,

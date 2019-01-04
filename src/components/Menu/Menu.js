@@ -14,13 +14,13 @@ class Menu extends Component {
       <Fragment>
         <ul className={`main-menu ${this.props.inverted}`}>
           <li>
-            <Link to="/" onClick={e => this.checkMobile(e)}>
+            <Link to="/blog" onClick={e => this.checkMobile(e)}>
               Blog
             </Link>
             <ul>
               {isMobile ? (
                 <li>
-                  <Link to="/">Blog</Link>
+                  <Link to="/blog">Blog</Link>
                 </li>
               ) : null}
               <li>
