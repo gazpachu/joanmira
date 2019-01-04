@@ -10,8 +10,8 @@ class BlogTemplate extends React.Component {
     const { currentPage, numPages } = this.props.pageContext;
     const isFirst = currentPage === 1 || !currentPage;
     const isLast = currentPage === numPages;
-    const prevPage = currentPage - 1 === 1 ? "/" : (currentPage - 1).toString();
-    const nextPage = (currentPage + 1).toString();
+    const prevPage = currentPage - 1 === 1 ? "/blog/" : `/blog/${(currentPage - 1).toString()}`;
+    const nextPage = `/blog/${(currentPage + 1).toString()}`;
 
     const {
       data: {
@@ -66,7 +66,7 @@ class BlogTemplate extends React.Component {
               }}
             >
               <Link
-                to={`/${i === 0 ? "" : i + 1}`}
+                to={`/blog/${i === 0 ? "" : i + 1}`}
                 style={{
                   padding: "3px 8px",
                   borderRadius: "5px",
@@ -123,8 +123,8 @@ export const query = graphql`
             cover {
               children {
                 ... on ImageSharp {
-                  fluid(maxWidth: 800, maxHeight: 360) {
-                    ...GatsbyImageSharpFluid_withWebp
+                  fixed(width: 350, height: 250) {
+                    ...GatsbyImageSharpFixed_withWebp
                   }
                 }
               }
