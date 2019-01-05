@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Seo from "../components/Seo";
@@ -15,7 +15,7 @@ const PageTemplate = props => {
     <React.Fragment>
       <ThemeContext.Consumer>
         {theme => (
-          <React.Fragment>
+          <Fragment>
             <div className="hero" />
             <Article theme={theme}>
               <Page page={page} theme={theme} />
@@ -31,7 +31,7 @@ const PageTemplate = props => {
                 background-size: cover;
               }
             `}</style>
-          </React.Fragment>
+          </Fragment>
         )}
       </ThemeContext.Consumer>
 

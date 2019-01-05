@@ -11,7 +11,13 @@ const Item = props => {
     post: {
       excerpt,
       fields: { slug, prefix },
-      frontmatter: { title, category, cover }
+      frontmatter: {
+        title,
+        category,
+        cover: {
+          children: [{ fluid }]
+        }
+      }
     }
   } = props;
 
@@ -21,9 +27,7 @@ const Item = props => {
         <Link to={slug} key={slug} className="link">
           <h1>{title}</h1>
           <div className="item-wrapper">
-            <div className="gatsby-image-outer-wrapper">
-              {cover ? <Img fixed={cover.children[0].fixed} /> : null}
-            </div>
+            <div className="gatsby-image-outer-wrapper">{fluid ? <Img fluid={fluid} /> : null}</div>
             <div className="item-content">
               <p className="meta">
                 <span>
@@ -41,7 +45,6 @@ const Item = props => {
         </Link>
       </li>
 
-      {/* --- STYLES --- */}
       <style jsx>{`
         :global(.link) {
           text-decoration: none;
@@ -49,27 +52,22 @@ const Item = props => {
 
         li {
           position: relative;
-          margin-bottom: 120px;
-
-          :global(.gatsby-image-outer-wrapper) {
-            float: left;
-            width: 350px;
-            margin-right: 50px;
-            border-radius: 8px;
-            height: 250px;
-            overflow: hidden;
-          }
+          margin-bottom: 60px;
 
           &::after {
             border-top: 1px solid ${theme.line.color};
             content: "";
             height: 0;
             position: absolute;
-            bottom: -60px;
+            bottom: -30px;
             left: 50%;
             transform: translateX(-50%);
             transition: all ${theme.time.duration.default};
             width: 100%;
+          }
+
+          @below desktop {
+            padding: 0 20px;
           }
         }
 
@@ -81,29 +79,34 @@ const Item = props => {
         }
 
         .item-wrapper {
-          &::after {
-            content: "";
-            clear: both;
-            display: table;
+          display: grid;
+          grid-template-columns: 50% 50%;
+          grid-gap: 25px;
+
+          @below desktop {
+            display: block;
           }
         }
 
-        .item-content {
-          float: right;
-          width: calc(100% - 400px);
+        :global(.gatsby-image-outer-wrapper) {
+          border-radius: 8px;
         }
 
         .meta {
           display: flex;
           flex-flow: row wrap;
           font-size: 0.8em;
-          padding: ${theme.space.m} ${theme.space.s};
-          background: transparent;
+          margin-bottom: 30px;
+
+          @below desktop {
+            margin: 10px 0;
+          }
 
           :global(svg) {
             fill: ${theme.icon.color};
             margin: ${theme.space.inline.xs};
           }
+
           span {
             align-items: center;
             display: flex;

@@ -1,14 +1,13 @@
-import React from "react";
+import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 
 const Article = props => {
   const { children, theme } = props;
 
   return (
-    <React.Fragment>
+    <Fragment>
       <article className="article">{children}</article>
 
-      {/* --- STYLES --- */}
       <style jsx>{`
         .article {
           padding: ${theme.space.inset.default};
@@ -27,7 +26,7 @@ const Article = props => {
           }
         }
       `}</style>
-    </React.Fragment>
+    </Fragment>
   );
 };
 

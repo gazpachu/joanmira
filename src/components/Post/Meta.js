@@ -20,29 +20,24 @@ const Meta = props => {
         </span>
       )}
 
-      {/* --- STYLES --- */}
       <style jsx>{`
         .meta {
           display: flex;
           flex-flow: row wrap;
           font-size: 0.8em;
           margin: ${theme.space.m} 0;
-          background: transparent;
+          justify-content: center;
 
           :global(svg) {
             fill: ${theme.icon.color};
             margin: ${theme.space.inline.xs};
           }
+
           span {
             align-items: center;
             display: flex;
             text-transform: uppercase;
             margin: ${theme.space.xs} ${theme.space.s} ${theme.space.xs} 0;
-          }
-        }
-        @from-width tablet {
-          .meta {
-            margin: ${`calc(${theme.space.m} * 1.5) 0 ${theme.space.m}`};
           }
         }
       `}</style>

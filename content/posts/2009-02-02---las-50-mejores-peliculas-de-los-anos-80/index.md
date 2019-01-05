@@ -1,6 +1,6 @@
 ---
 title: "Las 65 mejores películas de los años 80"
-cover: images/11214203_1_ryjakm.jpg
+cover: images/blade-runner_yhvbqz.jpg
 category: work
 ---
 

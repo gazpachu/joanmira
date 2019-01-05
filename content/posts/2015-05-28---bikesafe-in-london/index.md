@@ -1,6 +1,6 @@
 ---
 title: "Bikesafe in London"
-cover: images/bikesafe.png
+cover: images/bikesafe.jpg
 category: london
 ---
 

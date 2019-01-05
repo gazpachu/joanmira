@@ -41,7 +41,7 @@ export const workQuery = graphql`
       id
       html
       fields {
-        prefix
+        prefix(formatString: "D MMMM YYYY")
       }
       frontmatter {
         title

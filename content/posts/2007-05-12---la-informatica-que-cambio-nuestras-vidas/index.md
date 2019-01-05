@@ -1,6 +1,6 @@
 ---
 title: "La informática que cambió nuestras vidas"
-cover: images/web-design.jpg
+cover: images/fiber_rbsrhb.jpg
 category: tech
 ---
 

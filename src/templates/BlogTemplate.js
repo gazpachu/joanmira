@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import React from "react";
+import React, { Fragment } from "react";
 import { Link, graphql } from "gatsby";
 import { ThemeContext } from "../layouts";
 import Blog from "../components/Blog";
@@ -20,81 +20,84 @@ class BlogTemplate extends React.Component {
     } = this.props;
 
     return (
-      <React.Fragment>
+      <Fragment>
         <ThemeContext.Consumer>
-          {theme => <Blog posts={posts} theme={theme} />}
+          {theme => (
+            <Fragment>
+              <Blog posts={posts} theme={theme} />
+
+              <div className="prev-next">
+                {!isFirst && (
+                  <Link to={prevPage} rel="prev" className="prev">
+                    ← Previous Page
+                  </Link>
+                )}
+
+                {!isLast && (
+                  <Link to={nextPage} rel="next">
+                    Next Page →
+                  </Link>
+                )}
+              </div>
+
+              <ul>
+                {Array.from({ length: numPages }, (_, i) => (
+                  <li key={`pagination-number${i + 1}`}>
+                    <Link
+                      to={`/blog/${i === 0 ? "" : i + 1}`}
+                      className="link"
+                      style={{
+                        color: i + 1 === currentPage ? "#ffffff" : "",
+                        background: i + 1 === currentPage ? theme.color.brand.primary : ""
+                      }}
+                    >
+                      {i + 1}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+
+              <Seo />
+
+              <style jsx>{`
+                .prev-next {
+                  max-width: 700px;
+                  margin: 0 auto 20px auto;
+                  text-align: center;
+
+                  :global(.prev) {
+                    margin-right: 10px;
+                  }
+                }
+
+                ul {
+                  display: flex;
+                  flex-wrap: wrap;
+                  max-width: 700px;
+                  margin: 0 auto 60px auto;
+                  align-items: center;
+                  justify-content: center;
+                  list-style: none;
+                  padding: 0 30px;
+                  line-height: 30px;
+                }
+
+                :global(.link) {
+                  padding: 3px 8px;
+                  border-radius: 5px;
+                  text-decoration: none;
+                }
+              `}</style>
+            </Fragment>
+          )}
         </ThemeContext.Consumer>
-
-        <div
-          style={{
-            maxWidth: "700px",
-            margin: "0 auto 20px auto",
-            textAlign: "center"
-          }}
-        >
-          {!isFirst && (
-            <Link to={prevPage} rel="prev">
-              ← Previous Page&nbsp;
-            </Link>
-          )}
-
-          {!isLast && (
-            <Link to={nextPage} rel="next">
-              &nbsp;Next Page →
-            </Link>
-          )}
-        </div>
-
-        <ul
-          style={{
-            display: "flex",
-            flexWrap: "wrap",
-            maxWidth: "700px",
-            margin: "0 auto 60px auto",
-            alignItems: "center",
-            justifyContent: "center",
-            listStyle: "none",
-            padding: "0 30px",
-            lineHeight: "30px"
-          }}
-        >
-          {Array.from({ length: numPages }, (_, i) => (
-            <li
-              key={`pagination-number${i + 1}`}
-              style={{
-                margin: 0
-              }}
-            >
-              <Link
-                to={`/blog/${i === 0 ? "" : i + 1}`}
-                style={{
-                  padding: "3px 8px",
-                  borderRadius: "5px",
-                  textDecoration: "none",
-                  color: i + 1 === currentPage ? "#ffffff" : "",
-                  background: i + 1 === currentPage ? "#007acc" : ""
-                }}
-              >
-                {i + 1}
-              </Link>
-            </li>
-          ))}
-        </ul>
-
-        <Seo />
-
-        <style jsx>{`
-          hr {
-            margin: 0;
-            border: 0;
-          }
-        `}</style>
-      </React.Fragment>
+      </Fragment>
     );
   }
 }
 
 BlogTemplate.propTypes = {
+  theme: PropTypes.object.isRequired,
   data: PropTypes.object.isRequired,
   pageContext: PropTypes.object.isRequired
 };
@@ -112,10 +115,10 @@ export const query = graphql`
     ) {
       edges {
         node {
-          excerpt
+          excerpt(pruneLength: 200)
           fields {
             slug
-            prefix
+            prefix(formatString: "D MMMM YYYY")
           }
           frontmatter {
             title
@@ -123,8 +126,8 @@ export const query = graphql`
             cover {
               children {
                 ... on ImageSharp {
-                  fixed(width: 350, height: 250) {
-                    ...GatsbyImageSharpFixed_withWebp
+                  fluid(quality: 90, maxWidth: 700, maxHeight: 250) {
+                    ...GatsbyImageSharpFluid_withWebp
                   }
                 }
               }

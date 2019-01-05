@@ -1,6 +1,6 @@
 import { FaTag } from "react-icons/fa/";
 import PropTypes from "prop-types";
-import React from "react";
+import React, { Fragment } from "react";
 import { graphql } from "gatsby";
 import Seo from "../components/Seo";
 import { ThemeContext } from "../layouts";
@@ -17,7 +17,7 @@ const CategoryTemplate = props => {
   } = props;
 
   return (
-    <React.Fragment>
+    <Fragment>
       <ThemeContext.Consumer>
         {theme => (
           <Article theme={theme}>
@@ -40,7 +40,7 @@ const CategoryTemplate = props => {
       </ThemeContext.Consumer>
 
       <Seo />
-    </React.Fragment>
+    </Fragment>
   );
 };
 
