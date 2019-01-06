@@ -20,22 +20,29 @@ const CategoryTemplate = props => {
     <Fragment>
       <ThemeContext.Consumer>
         {theme => (
-          <Article theme={theme}>
-            <header>
-              <Headline theme={theme}>
-                <span>Posts in category</span> <FaTag />
-                {category}
-              </Headline>
-              <p className="meta">
-                There {totalCount > 1 ? "are" : "is"} <strong>{totalCount}</strong> post{totalCount >
-                1
-                  ? "s"
-                  : ""}{" "}
-                in the category.
-              </p>
-              <List edges={edges} theme={theme} />
-            </header>
-          </Article>
+          <div className="category-wrapper">
+            <Article theme={theme}>
+              <header>
+                <Headline theme={theme}>
+                  <FaTag />{category}
+                </Headline>
+                <p className="meta">
+                  There {totalCount > 1 ? "are" : "is"} <strong>{totalCount}</strong> post{totalCount >
+                  1
+                    ? "s"
+                    : ""}{" "}
+                  in the category.
+                </p>
+                <List edges={edges} theme={theme} />
+              </header>
+            </Article>
+
+            <style jsx>{`
+              .category-wrapper {
+                margin-top: 90px;
+              }
+            `}</style>
+          </div>
         )}
       </ThemeContext.Consumer>
 

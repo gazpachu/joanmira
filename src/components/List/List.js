@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 import { Link } from "gatsby";
 
@@ -6,7 +6,7 @@ const List = props => {
   const { edges, theme } = props;
 
   return (
-    <React.Fragment>
+    <Fragment>
       <ul>
         {edges.map(edge => {
           const {
@@ -24,7 +24,6 @@ const List = props => {
         })}
       </ul>
 
-      {/* --- STYLES --- */}
       <style jsx>{`
         ul {
           margin: ${theme.space.stack.m};
@@ -36,7 +35,7 @@ const List = props => {
           line-height: ${theme.font.lineHeight.l};
         }
       `}</style>
-    </React.Fragment>
+    </Fragment>
   );
 };
 

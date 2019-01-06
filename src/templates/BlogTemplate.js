@@ -104,7 +104,6 @@ BlogTemplate.propTypes = {
 
 export default BlogTemplate;
 
-//eslint-disable-next-line no-undef
 export const query = graphql`
   query IndexQuery($skip: Int!, $limit: Int!) {
     posts: allMarkdownRemark(

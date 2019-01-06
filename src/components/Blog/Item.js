@@ -35,7 +35,8 @@ const Item = props => {
                 </span>
                 {category && (
                   <span>
-                    <FaTag size={18} /> {category}
+                    <FaTag size={18} />
+                    <Link to={`/category/${category.split(" ").join("-")}`}>{category}</Link>
                   </span>
                 )}
               </p>

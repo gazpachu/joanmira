@@ -1,7 +1,7 @@
 import { FaTag } from "react-icons/fa/";
 import PropTypes from "prop-types";
-import React from "react";
-import { graphql } from "gatsby";
+import React, { Fragment } from "react";
+import { Link, graphql } from "gatsby";
 import { ThemeContext } from "../layouts";
 import Article from "../components/Article/";
 import Headline from "../components/Article/Headline";
@@ -39,7 +39,7 @@ const CategoryPage = props => {
   }
 
   return (
-    <React.Fragment>
+    <Fragment>
       <ThemeContext.Consumer>
         {theme => (
           <Article theme={theme}>
@@ -49,12 +49,12 @@ const CategoryPage = props => {
             {categoryList.map(item => (
               <section key={item[0]}>
                 <h2>
-                  <FaTag /> {item[0]}
+                  <FaTag /> <Link to={`/category/${item[0].split(" ").join("-")}`}>{item[0]}</Link>
                 </h2>
                 <List edges={item[1]} theme={theme} />
               </section>
             ))}
-            {/* --- STYLES --- */}
+
             <style jsx>{`
               header {
                 margin-top: 90px;
@@ -72,7 +72,7 @@ const CategoryPage = props => {
       </ThemeContext.Consumer>
 
       <Seo />
-    </React.Fragment>
+    </Fragment>
   );
 };
 
