@@ -59,15 +59,6 @@ const Bodytext = props => {
             border-radius: 0.1em;
           }
         }
-
-        @keyframes bodytextEntry {
-          from {
-            opacity: 0;
-          }
-          to {
-            opacity: 1;
-          }
-        }
       `}</style>
     </Fragment>
   );

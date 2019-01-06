@@ -23,7 +23,7 @@ I passed the exam for the "big motorcycles" license and bought a [Yamaha XT660Z
 
 ![](./images/1.jpg "Loading the bike in Tokyo, ready to start the trip and the project's logo")
 
-There are also a [few blog entries related with the trip](/tag/ruta-samurai) (in Spanish)
+There are also a [few blog entries related with the trip](/category/samurai-route) (in Spanish)
 
 ![Loading the bike in Tokio](./images/ruta-samurai-loading-bike.jpg "Loading the bike in Tokyo")
 

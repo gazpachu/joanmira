@@ -8,7 +8,7 @@ const AboutPage = () => (
   <Fragment>
     <ThemeContext.Consumer>
       {theme => (
-        <div className="about-wrapper">
+        <div className="page-wrapper about">
           <header>
             <Headline title="About" theme={theme} />
           </header>
@@ -19,10 +19,7 @@ const AboutPage = () => (
           <p>And don't forget to add me in <a href="http://linkedin.com/in/joanmira">LinkedIn</a> and <a href="https://twitter.com/gazpachu/">Twitter</a>! ;-)</p>
 
           <style jsx>{`
-            .about-wrapper {
-              margin: 130px auto 0 auto;
-              max-width: 979px;
-
+            .about {
               @below desktop {
                 text-align: center;
               }

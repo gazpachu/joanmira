@@ -175,6 +175,20 @@ class Layout extends React.Component {
                   clear: both;
                   display: table;
                 }
+                .page-wrapper {
+                  margin: 130px auto 0 auto;
+                  max-width: 979px;
+                  animation-name: bodytextEntry;
+                  animation-duration: 1s;
+                }
+                @keyframes bodytextEntry {
+                  from {
+                    opacity: 0;
+                  }
+                  to {
+                    opacity: 1;
+                  }
+                }
               `}</style>
             </Fragment>
           </ScreenWidthContext.Provider>

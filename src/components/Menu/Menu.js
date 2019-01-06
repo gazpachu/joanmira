@@ -51,7 +51,7 @@ class Menu extends Component {
           </li>
 
           <li className="right">
-            <Link className="btn" to="/contact">
+            <Link className="menu-btn" to="/contact">
               Contact
             </Link>
             <Link to="/search/" className="search-button">
@@ -84,7 +84,7 @@ class Menu extends Component {
                 }
               }
 
-              :global(.btn) {
+              :global(.menu-btn) {
                 @from-width tablet {
                   border: 1px solid rgba(255, 255, 255, 0.33);
                 }
@@ -165,7 +165,7 @@ class Menu extends Component {
                 }
               }
 
-              :global(.btn) {
+              :global(.menu-btn) {
                 @from-width tablet {
                   border: 1px solid rgba(0, 0, 0, 0.33);
                   padding: 3px 6px 0;
