@@ -6,6 +6,7 @@ import Headline from "../Article/Headline";
 import Bodytext from "../Article/Bodytext";
 import Meta from "./Meta";
 import NextPrev from "./NextPrev";
+import Ads from "./Ads";
 
 const Share = asyncComponent(() =>
   import("./Share")
@@ -36,6 +37,7 @@ const Post = props => {
       </header>
       <Bodytext html={html} theme={theme} />
       <footer>
+        <Ads />
         <Share post={post} theme={theme} />
         <NextPrev next={nextPost} prev={prevPost} theme={theme} />
       </footer>

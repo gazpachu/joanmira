@@ -55,7 +55,7 @@ exports.createPages = ({ graphql, actions }) => {
                   id
                   fields {
                     slug
-                    prefix
+                    prefix(formatString: "D MMMM YYYY")
                     source
                   }
                   frontmatter {

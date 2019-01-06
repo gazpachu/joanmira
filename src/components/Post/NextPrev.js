@@ -51,7 +51,6 @@ const NextPrev = props => {
 
       <Disqus.DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
 
-      {/* --- STYLES --- */}
       <style jsx>{`
         .links {
           display: flex;

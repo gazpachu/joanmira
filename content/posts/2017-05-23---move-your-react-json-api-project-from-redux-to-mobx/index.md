@@ -10,32 +10,32 @@ Anyway, this post is going to be about MobX. I will explain step by step the cha
 
 First of all, you need to remove all the redux packages and references from your codebase. Then you have to install the following babel plugins to allow the use of decorators.
 
-```
+```javascript
 yarn add babel-plugin-transform-decorators-legacy -D
 yarn add babel-plugin-transform-class-properties -D
 ```
 
 And then add them to the plugins array in your `.babelrc` file:
 
-```
+```javascript
 "plugins": ["transform-decorators-legacy", "transform-class-properties"]
 ```
 
 Now we have to use babel as the ESLint parser. Add this package:
 
-```
+```javascript
 yarn add babel-eslint -D
 ```
 
 Then, update the parser in the `.eslintrc` file:
 
-```
+```javascript
 "parser": "babel-eslint"
 ```
 
 Now let's install the following MobX packages:
 
-```
+```javascript
 yarn add mobx -S
 yarn add mobx-jsonapi-store -S
 yarn add mobx-react -S
@@ -48,7 +48,7 @@ First of all, we are going to create a store to handle the app global states, li
 
 Create a new file called `store.jsx` and add the following code:
 
-```
+```javascript
 import { autorun, observable } from 'mobx';
 
 class MainStore {
@@ -75,7 +75,7 @@ In this file, we are just creating the state variables and making them observabl
 
 Now, let's refactor the `index.jsx` file. We are going to be using the latest version of react router (v4) and the [Material UI framework](www.material-ui.com), so bear that in mind.
 
-```
+```javascript
 import React from 'react';
 import ReactDOM from 'react-dom';
 import createBrowserHistory from 'history/createBrowserHistory';
@@ -113,7 +113,7 @@ The important bit to mention here is the object that contains the stores, one fo
 
 Now let's look at the `app.jsx` file, which will contain the routes and other common components:
 
-```
+```javascript
 import React, { Component } from 'react';
 import { inject, observer } from 'mobx-react';
 import { Route } from 'react-router-dom';
@@ -158,7 +158,7 @@ Another example of how to use MobX, is for the loader component. We need to know
 
 Let's look at the loader component:
 
-```
+```javascript
 import React, { Component } from 'react';
 import { inject, observer } from 'mobx-react';
 import classnames from 'classnames';
@@ -202,7 +202,7 @@ Finally, let's look at how to integrate JSON API with MobX. This is a bit more d
 
 A simple example of how to request data from the API and asign it a store would be the following:
 
-```
+```javascript
 import {Store, config} from 'mobx-jsonapi-store';
 const teststore = new Store();
 config.defaultHeaders = {'xxxxxx': 'xxxxxxxxxx'};

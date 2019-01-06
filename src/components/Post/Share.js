@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 import {
   FacebookShareButton,
@@ -29,7 +29,7 @@ const PostShare = props => {
   const filter = count => (count > 0 ? count : "");
 
   return (
-    <React.Fragment>
+    <Fragment>
       <div className="share">
         <span className="label">SHARE</span>
         <div className="links">
@@ -70,7 +70,6 @@ const PostShare = props => {
         </div>
       </div>
 
-      {/* --- STYLES --- */}
       <style jsx>{`
         .share {
           display: flex;
@@ -104,7 +103,7 @@ const PostShare = props => {
           }
         }
       `}</style>
-    </React.Fragment>
+    </Fragment>
   );
 };
 

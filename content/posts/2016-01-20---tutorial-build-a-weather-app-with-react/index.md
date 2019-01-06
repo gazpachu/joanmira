@@ -62,17 +62,23 @@ As you probably already know, the fundamental Node building block is called a mo
 
 Now, before we look at how to expose things out of a module, let's look at loading a module. This is where '**require**' comes in. 'require' is used to load a module, which is why its returned value is typically assigned to a variable:
 
-<pre>var moduleA = require('./filenameA');</pre>
+`var moduleA = require('./filenameA');`
 
 As long as our module doesn't expose anything, the above isn't very useful. To expose things we use '**module.exports**' and export everything we want. We can export objects or primitives in different ways:
 
-<pre>var User = function(name, email) { ... }
-module.exports = User;</pre>
+```javascript
+var User = function(name, email) { ... }
+module.exports = User;
+```
 
-<pre>module.exports = function(name, email) { ... }</pre>
+```javascript
+module.exports = function(name, email) { ... }
+```
 
-<pre>var x = 5;
-module.exports.x = x;</pre>
+```javascript
+var x = 5;
+module.exports.x = x;
+```
 
 In this app, we are only going to create one module, the **API module** (api.jsx), which is going to be taking care of fetching the data from the [Weather API](http://openweathermap.org/apihttp://openweathermap.org/api). We will talk about it more in detail later.
 
@@ -90,20 +96,20 @@ Now you should have a package.json file in your folder.
 
 Next we are going to download a few packages (which will be saved automatically in the '**node_modules**' folder) and save the reference in the package.json file:
 
-<pre>Use 'npm install <pkg> --save' afterwards to install a package and
-save it as a dependency in the package.json file.</pre>
+Use `npm install <pkg> --save` afterwards to install a package and save it as a dependency in the package.json file.
 
 We can also download several packages at the same time. So type the following:
 
-<pre>npm install --save browserify classnames gulp gulp-concat gulp-react gulp-sass gulp-server-livereload gulp-util gulp-watch node-notifier react react-dom reactify vinyl-source-stream watchify whatwg-fetch</pre>
+`npm install --save browserify classnames gulp gulp-concat gulp-react gulp-sass gulp-server-livereload gulp-util gulp-watch node-notifier react react-dom reactify vinyl-source-stream watchify whatwg-fetch`
 
 We are also going to install the gulp client globally (not only for this project). We use the option '-g'. We might need to give admin rights using 'sudo':
 
-<pre>sudo npm install -g gulp-cli</pre>
+`sudo npm install -g gulp-cli`
 
 It might take a while..., but you should end up with a package.json that looks like this:
 
-<pre>{
+```javascript
+{
   "name": "react-weather",
   "version": "1.0.0",
   "main": "index.js",
@@ -131,12 +137,14 @@ It might take a while..., but you should end up with a package.json that looks l
     "whatwg-fetch": "^0.11.0"
   },
   "devDependencies": {}
-}</pre>
+}
+```
 
 Next, we are going to install Bower (another package manager for the web) and download the weather icons. It will create a folder called '**bower_components**' and a registry file called '**bower.json**':
 
-<pre>npm install -g bower
-bower install weather-icons</pre>
+`npm install -g bower`
+
+`bower install weather-icons`
 
 If we were to upload this project into a Git code repository, we would have to create a '**.gitignore**' file and add 'node\_modules/' and 'bower\_components/' to it, as we don't want to upload all these dependencies to the repository. New users could type '**npm install**' and 'bower install' to download all the dependencies.
 
@@ -144,7 +152,8 @@ If we were to upload this project into a Git code repository, we would have to c
 
 We are going to create a few folders and files. We should end up with the following folder structure:
 
-<pre>/react-weather
+```javascript
+/react-weather
     bower.json
     package.json
     gulpfile.js
@@ -159,7 +168,8 @@ We are going to create a few folders and files. We should end up with the follow
     /src
         app.jsx
         /utils
-            api.jsx</pre>
+            api.jsx
+```
 
 The new files are:
 
@@ -178,7 +188,8 @@ When talking about React, we are not only looking at the framework itself. We ar
 
 First we are going to start by opening the **gulpfile.js** in the editor and requiring the dependencies:
 
-<pre>var gulp = require('gulp');
+```javascript
+var gulp = require('gulp');
 var gutil = require('gulp-util');
 var source = require('vinyl-source-stream');
 var browserify = require('browserify');
@@ -188,13 +199,15 @@ var notifier = require('node-notifier');
 var server = require('gulp-server-livereload');
 var concat = require('gulp-concat');
 var sass = require('gulp-sass');
-var watch = require('gulp-watch');</pre>
+var watch = require('gulp-watch');
+```
 
 As we mentioned before, we need to compile the SASS and JSX files, bundle the code and watch for changes. We also want to display formatted errors and reload the browser automatically when there's a change in the JS or SASS files.
 
 Let's start with the error messages:
 
-<pre>// Format error messages
+```javascript
+// Format error messages
 var notify = function (error) {
     var message = 'In: ';
     var title = 'Error: ';
@@ -216,7 +229,8 @@ var notify = function (error) {
     }
 
     notifier.notify({title: title, message: message});
-};</pre>
+};
+```
 
 The module 'node-notifier' creates nice alerts (at least in Mac Os) with the error messages that occurred during the build process. With the snippet above, we are just formatting the error message in a way that could be more readable.
 
@@ -228,7 +242,8 @@ ReactJS uses a special syntax called JSX, not the normal JS one. Usually, when y
 
 Conclusion, we will create a Browserify bundler and add a transformer to transform JSX to Javascript and then bundle everything together into a file called **main.js** that will sit in the root.
 
-<pre>// Bundle settings
+```javascript
+// Bundle settings
 var bundler = watchify(browserify({
     entries: ['./src/app.jsx'],
     transform: [reactify],
@@ -252,21 +267,25 @@ bundler.on('update', bundle);
 // Create bundle
 gulp.task('build', function() {
     bundle()
-});</pre>
+});
+```
 
 Now we are going to process the SASS files and put them all together (in the order specified in main.scss) in a unique CSS file (style.css) that will sit in the root folder:
 
-<pre>// Compile the SASS files from main.scss
+```javascript
+// Compile the SASS files from main.scss
 gulp.task('sass', function () {
     gulp.src('./sass/main.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(concat('style.css'))
         .pipe(gulp.dest('./'));
-});</pre>
+});
+```
 
 Next stage is to setup the live reload server. This module will reload the browser automatically each time there's a change in our code. This is a really nice feature! In this case, we are going to pass a test filter to the livereload module, so that it will check our compiled CSS and JS files before reloading the browser. You can read more about the module documentation [here](https://github.com/hiddentao/gulp-server-livereload).
 
-<pre>// Live reload server settings
+```javascript
+// Live reload server settings
 gulp.task('serve', function(done) {
     gulp.src('')
         .pipe(server({
@@ -283,17 +302,20 @@ gulp.task('serve', function(done) {
         },
         open: true
     }));
-});</pre>
+});
+```
 
 Finally, we are going to create the watch task for our SASS files and set the order in which all the created tasks need to be run:
 
-<pre>// Watch for changes in the SASS files
+```javascript
+// Watch for changes in the SASS files
 gulp.task('watch', function () {
     gulp.watch('./sass/**/*.scss', ['sass']);
 });
 
 // Run tasks in a specific order
-gulp.task('default', ['build', 'serve', 'sass', 'watch']);</pre>
+gulp.task('default', ['build', 'serve', 'sass', 'watch']);
+```
 
 At this point, if you are using Git, you should add **main.js** and **style.css** to your .gitignore file, as these files will be generated by Gulp and we don't need them in the repository.
 
@@ -307,25 +329,28 @@ We are going to create a basic HTML file with:
 * The weather icons CSS file
 * The compiled JS file
 
-I personally prefer to load fonts using &lt;link> rather than a &lt;script> tag, but for the sake of simplicity, we will go with this method this time.
+I personally prefer to load fonts using `<link>` rather than a `<script>` tag, but for the sake of simplicity, we will go with this method this time.
 
-<pre>&lt;html>
-    &lt;head>
-        &lt;script src="//use.edgefonts.net/league-gothic:n4:all.js">&lt;/script>
-        &lt;link rel="stylesheet" href="/style.css">
-        &lt;link rel="stylesheet" href="/bower_components/weather-icons/css/weather-icons.min.css">
-    &lt;/head>
-    &lt;body>
-        &lt;div class="container">&lt;/div>
-    &lt;/body>
-    &lt;script src="main.js">&lt;/script>
-&lt;/html></pre>
+```html
+<html>
+    <head>
+        <script src="//use.edgefonts.net/league-gothic:n4:all.js"></script>
+        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="/bower_components/weather-icons/css/weather-icons.min.css">
+    </head>
+    <body>
+        <div class="container"></div>
+    </body>
+    <script src="main.js"></script>
+</html>
+```
 
 ### Step 7. Add the reset CSS
 
 Just copy/paste the following code in /sass/partials/reset.scss
 
-<pre>html {
+```css
+html {
   box-sizing: border-box;
 }
 
@@ -367,7 +392,8 @@ q {
 
 table {
   border-collapse: collapse;
-  border-spacing: 0; }</pre>
+  border-spacing: 0; }
+```
 
 ### Step 8. Start building the React component
 
@@ -375,25 +401,30 @@ Finally we arrive to the moment where you can really start learning React! I'm s
 
 First we are going to open /src/app.jsx. This is where we will create our React component. We need to require some modules:
 
-<pre>var React = require('react');
+```javascript
+var React = require('react');
 var ReactDOM = require('react-dom');
 var classNames = require('classnames');
-var Api = require('./utils/api');</pre>
+var Api = require('./utils/api');
+```
 
 The two first modules correspond to the React framework. Classname is a 3rd party module (recommended by React) to build class names that contain dynamic data. In JSX we cannot use '+' like in JS to concatenate strings in the class attribute. The Api object is requiring the module that we will use to fetch data from the Weather API. Notice that to load this module, we have to build the relative path, as it's not a module that we have installed with NPM.
 
 Now we are going to define a few variables to handle the cities from the query string:
 
-<pre>var query = ''; // Expects something like this ?city=London,Paris,Berlin,Madrid
+```javascript
+var query = ''; // Expects something like this ?city=London,Paris,Berlin,Madrid
 var cities = []; // Transform query string cities into an array
 var citiesWeather = []; // API cache
-var currentCity = 0; // Index of current city displayed</pre>
+var currentCity = 0; // Index of current city displayed
+```
 
 Let's not go too deep in trying to explain what we are going to do with these variable. Their purpose will be revealed as we go along building the component.
 
 Now we can define the new React component like this:
 
-<pre>var Weather = React.createClass({
+```javascript
+var Weather = React.createClass({
     render: function() {
 
     }
@@ -401,7 +432,8 @@ Now we can define the new React component like this:
 
 // Assign the React component to a DOM element
 var element = React.createElement(Weather, {});
-ReactDOM.render(element, document.querySelector('.container'));</pre>
+ReactDOM.render(element, document.querySelector('.container'));
+```
 
 We basically created a React component called 'Weather' and render it inside the 'container' DIV.
 
@@ -409,7 +441,8 @@ From now on, we are going to work in the methods of the object defined inside th
 
 First method is getInitialState():
 
-<pre>// Init data for UI
+```javascript
+// Init data for UI
 getInitialState: function() {
     return {
         weather: '',
@@ -417,7 +450,8 @@ getInitialState: function() {
         humidity: 0,
         wind: 0
     }
-},</pre>
+},
+```
 
 Here, we are just initialising the props that we are going to use later to hold the values for out weather indicators in the UI.
 
@@ -427,7 +461,8 @@ Now we need to create the HTML structure for our weather component Let's use thi
 
 Inside the render() method, add the following:
 
-<pre>// Build class names with dynamic data
+```javascript
+// Build class names with dynamic data
 var weatherClass = classNames('wi wi-owm-' + this.state.weather);
 var bgColorClass = 'weather-widget '; // very-warm, warm, normal, cold, very-cold
 
@@ -459,7 +494,8 @@ return &lt;div className={bgColorClass}>
         &lt;div className="humidity">&lt;i className="wi wi-raindrop">&lt;/i>{this.state.humidity} %&lt;/div>
         &lt;div className="wind">&lt;i className="wi wi-small-craft-advisory"></i>{this.state.wind} &lt;span className="vel">Km/h&lt;/span>&lt;/div>
     &lt;/section>
-&lt;/div></pre>
+&lt;/div>
+```
 
 Let's analyse the code step by step.
 
@@ -475,9 +511,10 @@ Then we have variables wrapped in {}, like in Handlebars. This is how we render 
 
 Let's summarise. So far, we have a React component that initialises and renders its empty data. That's all. So, the next step is to fetch the API data and pass it on to the React component.
 
-Let's open the /src/utils/api.jsx file and write the following code:
+Let's open the `/src/utils/api.jsx` file and write the following code:
 
-<pre>var Fetch = require('whatwg-fetch');
+```javascript
+var Fetch = require('whatwg-fetch');
 var rootUrl = 'http://api.openweathermap.org/data/2.5/weather?q=';
 var apiUrl = '&appid=2de143494c0b295cca9337e1e96b00e0';
 
@@ -492,7 +529,8 @@ module.exports = {
             return response.json();
         });
     }
-};</pre>
+};
+```
 
 In this module, we are going to require 'whatwg-fetch', which is a [window.fetch JavaScript polyfill](https://github.com/github/fetch). We are also going to use an API key and the API URL. I think you don't need to register to generate a new key, as this one I got it from the API docs and seems to be working fine.
 
@@ -502,7 +540,8 @@ The fetching code is super simple. We compose the final URL by concatenating the
 
 Back in /src/app.jsx, we are going to create a new method called 'fetchData' that will try to load the data from our cache and if it cannot find it, then it will call the module we created in the previous step to get new data:
 
-<pre>fetchData: function() {
+```javascript
+fetchData: function() {
 
     // Get the data from the cache if possible
     if (citiesWeather[currentCity]) {
@@ -516,7 +555,8 @@ Back in /src/app.jsx, we are going to create a new method called 'fetchData' tha
                 this.updateData();
         }.bind(this));
     }
-},</pre>
+},
+```
 
 The array **citiesWeather** is our cache object. We are going to store here the JSON responses that we get from the API. Why are we doing this? Because when we have a list of cities rotating, we don't want to keep contacting the API every time we change the city.
 
@@ -526,7 +566,8 @@ When we want to request new data, we just call the get method in the Api module 
 
 At this point, the React component has just received [new data from the API](http://api.openweathermap.org/data/2.5/weather?q=London&appid=2de143494c0b295cca9337e1e96b00e0) and it's ready to update the UI with this new data. We are going to create a new method called updateData:
 
-<pre>updateData: function() {
+```javascript
+updateData: function() {
     // Update the data for the UI
     this.setState({
         weather: citiesWeather[currentCity].weather[0].id,
@@ -534,7 +575,7 @@ At this point, the React component has just received [new data from the API](htt
         humidity: Math.round(citiesWeather[currentCity].main.humidity),
         wind: Math.round(citiesWeather[currentCity].wind.speed)
     });
-},</pre>
+},```
 
 Modifying this.props or this.state directly is not a good idea, because React will not be able to pick up on the changes. That's because React does a shallow comparison of your post prop to determine if it has changed. So always use 'setState'.
 
@@ -542,7 +583,8 @@ Modifying this.props or this.state directly is not a good idea, because React wi
 
 Before we start with the styling of the app, there's one more step we have to tackle. We are going to create a new method called componentWillMount(), which is called before the render method is executed:
 
-<pre>// Called before the render method is executed
+```javascript
+// Called before the render method is executed
 componentWillMount: function() {
 
     // Get the query string data
@@ -573,7 +615,8 @@ componentWillMount: function() {
     }, (1000*60*5));
 
     this.fetchData();
-},</pre>
+},
+```
 
 There's a module called React Router that can be very useful for building single-page apps, but for the sake of simplicity, I decided not to include it. So we are going to use a very simple approach for reading the list of cities: a query string.
 
@@ -587,7 +630,8 @@ Congratulations, you arrived to the end of the Javascript part! Now let's quickl
 
 Copy/paste the following code into /sass/partials/base.scss:
 
-<pre>// Colours
+```scss
+// Colours
 $very-warm: #FF8500;
 $warm: #ffc600;
 $normal: #94AF10;
@@ -709,7 +753,8 @@ $mobile-width: 500px;
             font-size: 0.6em;
         }
     }
-}</pre>
+}
+```
 
 The SASS code is quite self-explanatory. It can be improved, but for the purpose of this tutorial, which is to learn React, I think it fulfills its purpose.
 
@@ -721,4 +766,4 @@ If it works, congratulations! if it doesn't, try to debug the error messages and
 
 This was my first React app and I'm excited to continue learning about Flux, Reflux, the router, etc. So, please, send me your suggestions or let me know if the app could be improved in any way. Thanks and I hope you enjoyed it! :-)
 
-**UPDATE**: You DO need to create your own API Key and set it in the apiUrl variable in /src/utils/api.jsx, otherwise your requests will be blocked at some point :-)
+**UPDATE**: You DO need to create your own API Key and set it in the apiUrl variable in `/src/utils/api.jsx`, otherwise your requests will be blocked at some point :-)

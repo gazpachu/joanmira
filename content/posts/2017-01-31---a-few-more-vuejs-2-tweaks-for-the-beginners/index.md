@@ -34,14 +34,14 @@ In the following example, you can see how to implement the `eventHub` so that ev
 
 1. In `main.js`, create the `eventHub` and assign it to Vue:
 
-```
+```javascript
 const eventHub = new Vue();
 Vue.prototype.$eventHub = eventHub;
 ```
 
 2. Then, pass the variable to Vue:
 
-```
+```javascript
 new Vue({
   router,
   eventHub,
@@ -50,7 +50,7 @@ new Vue({
 
 3. Now you can start using `emit` and `on` in your child components. Every time you `emit` a value, it will be sent to all components and only those who have a listener (`on`) for that event, will get the value.
 
-```
+```javascript
 this.$eventHub.$emit('whateverChanged', this.passThisValue);
 this.$eventHub.$on('whateverChanged', this.callThisFunction);
 ```

@@ -2,7 +2,7 @@ module.exports = {
   siteTitle: "Joan Mira - Front-end Engineer / Creative Interactive Developer", // <title>
   shortSiteTitle: "Joan Mira", // <title> ending for posts and pages
   siteDescription: "Personal website of Joan Mira. A front-end engineer and code artist",
-  siteUrl: "https://joanmira.com",
+  siteUrl: "https://v8.joanmira.com",
   pathPrefix: "",
   siteImage: "",
   siteLanguage: "en",

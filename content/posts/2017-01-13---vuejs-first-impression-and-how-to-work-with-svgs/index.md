@@ -16,7 +16,7 @@ My intention was to replicate the setup that I had with my previous React boiler
 
 To do so, in your newly created Vue project, you need to install this webpack loader called [svg-sprite-loader](https://github.com/kisenka/svg-sprite-loader). Then, in `build/webpack.base.conf.js` we just have to declare the new loader (line 88 to 92 aprox.):
 
-```
+```javascript
 loader: 'svg-sprite?' + JSON.stringify({
     name: '[name]_[hash]',
     prefixize: true
@@ -29,7 +29,7 @@ That's all we need as far as webpack configuration. The next step is to create a
 
 Create a new file called `Icon.vue` inside your `src/components` folder and paste the following code:
 
-```
+```javascript
 <template>
   <svg :class="className" :width="width" :height="height">
     <use :xlink:href="glyph" />
@@ -56,7 +56,7 @@ Finally, to load the SVGs, I'm going to show you a simple example of how to load
 
 Let's see first the code and then we can review it:
 
-```
+```javascript
 <template>
   <div id="app">
     <icon width="100" height="100" :glyph="Logo"></icon>

@@ -6,8 +6,6 @@ import Mouse from "./Mouse";
 const R2D = 180 / Math.PI; // Multiply to convert radians to degrees
 const PI2 = Math.PI * 2; // 360 degrees in radians
 const worldScale = 40;
-const canvasWidth = window.innerWidth;
-const canvasHeight = window.innerHeight;
 
 class Boxes extends PureComponent {
   constructor(props) {
@@ -50,30 +48,35 @@ class Boxes extends PureComponent {
 
     this.totalBoxes = 0;
     this.generator = null;
-
-    this.world = planck.World(Vec2(0, 20));
-    this.world.createBody().createFixture(planck.Edge(Vec2(-canvasWidth / worldScale, canvasHeight / worldScale), Vec2(canvasWidth / worldScale, canvasHeight / worldScale)), 0.0);
-    this.world.createBody().createFixture(planck.Edge(Vec2(0, -10), Vec2(0, canvasHeight / worldScale)), 0.0);
-    this.world.createBody().createFixture(planck.Edge(Vec2(canvasWidth / worldScale, -10), Vec2(canvasWidth / worldScale, canvasHeight / worldScale)), 0.0);
-    this.world.createBody().createFixture(planck.Edge(Vec2(0, -10), Vec2(canvasWidth / worldScale, -10)), 0.0);
-
-    this.mouse = new Mouse();
+    this.canvasWidth = null;
+    this.canvasHeight = null;
 
     this.update = this.update.bind(this);
   }
 
   componentDidMount() {
+    this.canvasWidth = window.innerWidth;
+    this.canvasHeight = window.innerHeight;
+
+    this.world = planck.World(Vec2(0, 20));
+    this.world.createBody().createFixture(planck.Edge(Vec2(-this.canvasWidth / worldScale, this.canvasHeight / worldScale), Vec2(this.canvasWidth / worldScale, this.canvasHeight / worldScale)), 0.0);
+    this.world.createBody().createFixture(planck.Edge(Vec2(0, -10), Vec2(0, this.canvasHeight / worldScale)), 0.0);
+    this.world.createBody().createFixture(planck.Edge(Vec2(this.canvasWidth / worldScale, -10), Vec2(this.canvasWidth / worldScale, this.canvasHeight / worldScale)), 0.0);
+    this.world.createBody().createFixture(planck.Edge(Vec2(0, -10), Vec2(this.canvasWidth / worldScale, -10)), 0.0);
+
+    this.mouse = new Mouse();
+
     this.animationFrame = requestAnimationFrame(this.update);
     this.mouse.init(this.world, worldScale);
 
     this.generator = setInterval(() => {
       if (this.totalBoxes < this.state.skills.length) {
         let multiplier = 20;
-        if (canvasWidth < 767) multiplier = 15;
+        if (this.canvasWidth < 767) multiplier = 15;
 
-        const x = Math.floor(Math.random() * canvasWidth) - 100;
-        const w = Math.floor((Math.random() * (this.state.skills[this.totalBoxes].rating * multiplier)) + canvasWidth / 12);
-        const h = Math.floor((Math.random() * (this.state.skills[this.totalBoxes].rating * multiplier)) + canvasHeight / 18);
+        const x = Math.floor(Math.random() * this.canvasWidth) - 100;
+        const w = Math.floor((Math.random() * (this.state.skills[this.totalBoxes].rating * multiplier)) + this.canvasWidth / 12);
+        const h = Math.floor((Math.random() * (this.state.skills[this.totalBoxes].rating * multiplier)) + this.canvasHeight / 18);
         const body = this.world.createDynamicBody(Vec2(x / worldScale, -5));
         body.createFixture(planck.Box(w / 2 / worldScale, h / 2 / worldScale), {
           density: 2.0,

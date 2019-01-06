@@ -34,43 +34,45 @@ First we are going to create a new template. I called it page-work.hbs (because 
 
 And this is the code we will use:
 
-<pre>&lt;section>
+```html
+<section>
     {{#post}}
         {{content}}
     {{/post}}
-&lt;/section>
+</section>
 
-&lt;main>
-    &lt;div class="work-navigation">
-        &lt;div id="filters" class="button-group">
-            &lt;button class="btn is-checked" data-filter="*">ALL&lt;/button>
-            &lt;button class="btn" data-filter=".web">WEB&lt;/button>
-            &lt;button class="btn" data-filter=".desktop">DESKTOP&lt;/button>
-            &lt;button class="btn" data-filter=".mobile">MOBILE&lt;/button>
-            &lt;button class="btn" data-filter=".prototype">PROTOTYPE&lt;/button>
-            &lt;button class="btn" data-filter=".installation">INSTALLATION&lt;/button>
-            &lt;button class="btn" data-filter=".open-source">OPEN SOURCE&lt;/button>
-            &lt;button class="btn" data-filter=".consultancy">CONSULTANCY&lt;/button>
-            &lt;button class="btn" data-filter=".design">DESIGN&lt;/button>
-            &lt;button class="btn" data-filter=".ux">UX&lt;/button>
-            &lt;button class="btn" data-filter=".video">VIDEO&lt;/button>
-            &lt;button class="btn" data-filter=".photo">PHOTO&lt;/button>
-        &lt;/div>
-    &lt;/div>
+<main>
+    <div class="work-navigation">
+        <div id="filters" class="button-group">
+            <button class="btn is-checked" data-filter="*">ALL</button>
+            <button class="btn" data-filter=".web">WEB</button>
+            <button class="btn" data-filter=".desktop">DESKTOP</button>
+            <button class="btn" data-filter=".mobile">MOBILE</button>
+            <button class="btn" data-filter=".prototype">PROTOTYPE</button>
+            <button class="btn" data-filter=".installation">INSTALLATION</button>
+            <button class="btn" data-filter=".open-source">OPEN SOURCE</button>
+            <button class="btn" data-filter=".consultancy">CONSULTANCY</button>
+            <button class="btn" data-filter=".design">DESIGN</button>
+            <button class="btn" data-filter=".ux">UX</button>
+            <button class="btn" data-filter=".video">VIDEO</button>
+            <button class="btn" data-filter=".photo">PHOTO</button>
+        </div>
+    </div>
 
-    &lt;div class="work-grid clearfix">
-        &lt;div class="grid-sizer">&lt;/div>
+    <div class="work-grid clearfix">
+        <div class="grid-sizer"></div>
         {{#get "posts" limit="all" include="tags" filter="tag:work+page:true"}}
             {{#foreach posts}}
-                &lt;a href="/{{slug}}" class="{{tags separator=" " autolink="false"}}">
-                    &lt;div class="work-thumb">&lt;/div>
-                    &lt;h2 class="name">{{title}}&lt;/h2>
-                    &lt;p class="meta"><span class="date">{{date published_at format="YYYY"}}&lt;/span>&lt;span class="country">{{#has tag="uk"}}UK{{/has}}{{#has tag="spain"}}Spain{{/has}}{{#has tag="multiple-regions"}}Multiple regions{{/has}}&lt;/span>&lt;/p>
-                &lt;/a>
+                <a href="/{{slug}}" class="{{tags separator=" " autolink="false"}}">
+                    <div class="work-thumb"></div>
+                    <h2 class="name">{{title}}</h2>
+                    <p class="meta"><span class="date">{{date published_at format="YYYY"}}</span><span class="country">{{#has tag="uk"}}UK{{/has}}{{#has tag="spain"}}Spain{{/has}}{{#has tag="multiple-regions"}}Multiple regions{{/has}}</span></p>
+                </a>
             {{/foreach}}
         {{/get}}
-    &lt;/div>
-&lt;/main></pre>
+    </div>
+</main>
+```
 
 The first part of the code will render the content that we enter in the markdown editor. Then we define the portfolio navigation buttons, each one of them has a filter attribute with a class name. When clicked, the isotope library will display only the portfolio entries that have the class name specified in the filter attribute of the button.
 
@@ -86,7 +88,8 @@ Now that our markup is ready, we need to download the [Isotope library](http://i
 
 Once we are sure that the library is loading, we need to set it up. Once again, the place where you should put the following code, depends on how your theme is structured, but you should have a Javascript file somewhere in your theme that you can use:
 
-<pre>// init Isotope
+```javascript
+// init Isotope
 var $grid = $('.work-grid').isotope({
     itemSelector: '.work',
     percentPosition: true,
@@ -108,7 +111,8 @@ $('.button-group').each( function(i, buttonGroup) {
         $buttonGroup.find('.is-checked').removeClass('is-checked');
         $(this).addClass('is-checked');
     });
-});</pre>
+});
+```
 
 In the first part of the code, we are just attaching Isotope to the work-grid block defined in our HTML template. Then we are telling Isotope that our portfolio thumbnails will have the class name 'work'. The rest of the settings are the ones indicated by the [Isotope documentation](http://isotope.metafizzy.co/#getting-started) to make the grid responsive.
 
@@ -134,22 +138,24 @@ So, if you just want to display normal project thumbnails as images, I would go 
 
 We are going to use this template as the base for every new portfolio page:
 
-<pre>{{#post}}
+```html
+{{#post}}
 
     {{#if image}}
-        &lt;section class="hero" style="background-image: url({{image}})">&lt;/section>
+        <section class="hero" style="background-image: url({{image}})"></section>
     {{/if}}
 
-    &lt;main class="content {{#if image}}{{else}}no-hero{{/if}}>
-        &lt;article class="{{post_class}}">
-            &lt;h1 class="post-title">{{{title}}}{{#if tags}}&lt;time datetime="{{date format="YYYY-MM-DD"}}">{{date format='YYYY'}}&lt;/time>{{/if}}&lt;/h1>
-            &lt;section class="post-content">
+    <main class="content {{#if image}}{{else}}no-hero{{/if}}>
+        <article class="{{post_class}}">
+            <h1 class="post-title">{{{title}}}{{#if tags}}<time datetime="{{date format="YYYY-MM-DD"}}">{{date format='YYYY'}}</time>{{/if}}</h1>
+            <section class="post-content">
                 {{content}}
-            &lt;/section>
-        &lt;/article>
-    &lt;/main>
+            </section>
+        </article>
+    </main>
 
-{{/post}}</pre>
+{{/post}}
+```
 
 Depending on which route you decided to take in the previous step and if you want to display the post image at the top of the portfolio entry page, you would need the first condition or not.
 
@@ -159,7 +165,8 @@ The rest of the code is just setting a basic HTML structure to render the conten
 
 In your CSS, add the following styles. I'm not including all the parts that relate only to my specific website, like the hover animations, background images, etc, but if you are interested, let me know in a comment and I will add them:
 
-<pre>.work-grid {
+```css
+.work-grid {
     .grid-sizer,
     .work {
         width: 16.67%;
@@ -237,7 +244,8 @@ In your CSS, add the following styles. I'm not including all the parts that rela
             }
         }
     }
-}</pre>
+}
+```
 
 ### Step 7. Ready to go!
 

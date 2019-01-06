@@ -26,7 +26,8 @@ If we have an object2, it can also point at the same prototype of object1. Objec
 
 Example:
 
-<pre>var person = {
+```javascript
+var person = {
     firstname: 'Default',
     lastname: 'Default',
     getFullName: function() {
@@ -44,11 +45,12 @@ var john = {
 john.__proto__ = person;
 console.log(john.getFullName());
 console.log(john.firstname); // It returns John's name, not Person's name because of the prototype chain priority.
-</pre>
+```
 
 ###Lecture 55: Everything is an object (or a primitive)
 
-<pre>var a = {};
+```javascript
+var a = {};
 var b = function() {};
 c = [];
 
@@ -59,7 +61,7 @@ console.log(b.__proto__); // returns function Empty() {} and we can access apply
 console.log(c.__proto__); // returns push, pop, indexOf, length, etc
 
 console.log(c.__proto__.__proto__); // that returns the base object
-</pre>
+```
 
 Everything leads to the base object. That's the bottom of the prototype chain.
 
@@ -67,7 +69,8 @@ Everything leads to the base object. That's the bottom of the prototype chain.
 
 Reflection: an object can look at itself, listing and changing its properties and methods. We can use that to implement the extend pattern. Let's look at how reflection works:
 
-<pre>var person = {
+```javascript
+var person = {
     firstname: 'Default',
     lastname: 'Default',
     getFullName: function() {
@@ -92,7 +95,8 @@ for (var prop in john) {
     if (john.hasOwnProperty(prop)) {
         console.log(prop + ': ' + john[prop]);
     }
-}</pre>
+}
+```
 
 Conceptual aside: look at the "_extend" method in the Underscore library. Analyse the 'createAssigner' method to understand how reflection is used. It basically uses two loops to assign the properties and methods of the objects passed as parameters to the first object passed as a parameter.
 
@@ -108,13 +112,14 @@ It was called Javascript to attract Java developers. The same way, Microsoft cre
 
 So, Java developers were used to create objects like this:
 
-<pre>var john = new Person();</pre>
+`var john = new Person();`
 
 Although, ES6 will introduce the class keyword, Javascript doesn't really have classes.
 
 So, Java developers thought Javascript was like Java and they recommended it.
 
-<pre>function Person(firstname, lastname) {
+```javascript
+function Person(firstname, lastname) {
     this.firstname = firstname;
     this.lastname = lastname;
 }
@@ -123,7 +128,8 @@ var john = new Person('John', 'Doe;);
 console.log(john);
 
 var jane = new Person('Jane', 'Doe;);
-console.log(jane);</pre>
+console.log(jane);
+```
 
 'new' immediately creates an empty object. Then it calls the function. Then 'this' will point to that empty object. So, the function becomes the constructor of that object.
 
@@ -131,7 +137,8 @@ console.log(jane);</pre>
 
 Functions have special properties, aside from name, code, etc, they also have a prototype property, which starts its life as an empty object and it's ONLY used by the new operator.
 
-<pre>function Person(firstname, lastname) {
+```javascript
+function Person(firstname, lastname) {
     this.firstname = firstname;
     this.lastname = lastname;
 }
@@ -150,7 +157,8 @@ Person.prototype.getFormalFullName = function() {
     return this.lastname + ', ' + this.firstname;
 }
 
-console.log(john.getFormalFullName());</pre>
+console.log(john.getFormalFullName());
+```
 
 So, we can add features to all those objects that we create by using the prototype.
 
@@ -164,11 +172,11 @@ In ES6, function constructors are likely going away.
 
 ###Lecture 60: Built-in function constructors
 
-<pre>var a = new Number(3);</pre>
+`var a = new Number(3);`
 
 That creates an object of the type Number with some special methods. We can use a.toFixed();
 
-<pre>var a = new String('John');</pre>
+`var a = new String('John');`
 
 Same thing and we can use a.indexOf('o');
 
@@ -178,38 +186,45 @@ They both store the value in a property called 'PrimitiveValue'. So they are not
 
 In the same way, we can do the same for dates:
 
-<pre>var a = new Date('10/12/2010');</pre>
+`var a = new Date('10/12/2010');`
 
 We can also do things like:
 
-<pre>String.prototype.isLengthGreaterThan = function(limit) {
+```javascript
+String.prototype.isLengthGreaterThan = function(limit) {
    return this.legth > limit;
 }
 console.log('John'.isLengthGreaterThan(3));
-</pre>
+```
 
 String is an object and we are adding a method to the prototype. We just enhanced the JS language just like that! We have to be careful not to overwrite an existing method.
 
-<pre>Number.prototype.isPositive = function() {
+```javascript
+Number.prototype.isPositive = function() {
     return this > 0;
 }
 
-console.log(3.isPositive()); // Returns error</pre>
+console.log(3.isPositive()); // Returns error
+```
 
 Javascript doesn't return a number into an object, so we have to do:
 
-<pre>var a = new Number(3);
-a.isPositive();</pre>
+```javascript
+var a = new Number(3);
+a.isPositive();
+```
 
 So, it's a good feature, but it gets a bit confusing, because not everything works the same way.
 
 ###Lecture 61: Dangerous aside. Built-in function constructors
 
-<pre>var a = 3;
+```javascript
+var a = 3;
 var b = new Number(3);
 
 a == b // returns true because of coercion
-a === b // returns false</pre>
+a === b // returns false
+```
 
 So, as you can see, that's not a very recommended situation. It's better not to use new to create primitives.
 
@@ -217,14 +232,15 @@ The same way, if we are going to work a lot with dates, it is recommended to use
 
 ###Lecture 62: Dangerous aside. Arrays and for..in
 
-<pre>Array.prototype.myCustomFeature = 'cool!';
+```javascript
+Array.prototype.myCustomFeature = 'cool!';
 
 var arr = ['John', 'Jane', 'Bob'];
 for (item in arr) {
     console.log(item + ': ' + arr[item]);
 }
 // That will render also myCustomFeature
-</pre>
+```
 
 So, in the case of arrays, don't use for..in. Use the for..i classic loop.
 
@@ -232,7 +248,8 @@ So, in the case of arrays, don't use for..in. Use the for..i classic loop.
 
 This is a new feature for new browsers. If we need to support older browser, we use a **polyfill**, which is code that adds a feature which the engine may lack.
 
-<pre>var person = {
+```javascript
+var person = {
     firstname = 'Default',
     lastname = 'Default',
     greet = function() {
@@ -242,19 +259,21 @@ This is a new feature for new browsers. If we need to support older browser, we 
 
 var john = Object.create(person);
 console.log(john);
-</pre>
+```
 
 That creates an empty object with a prototype with all the methods indicated above. So, if we want to override those default values, we can do:
 
-<pre>john.firstname = 'John';
+```javascript
+john.firstname = 'John';
 john.lastname = 'Doe';
-</pre>
+```
 
 So, the big advantage of prototype vs classic inheritance, is that we can add new methods on the fly and mutate things easily, without complex layers and interactions.
 
 ###Lecture 64: ES6 and classes
 
-<pre>class Person {
+```javascript
+class Person {
     constructor(firstname, lastname) {
         this.firstname = firstname;
         this.lastname = lastname;
@@ -265,13 +284,15 @@ So, the big advantage of prototype vs classic inheritance, is that we can add ne
     }
 }
 
-var john = new Person('John', 'Doe');</pre>
+var john = new Person('John', 'Doe');
+```
 
 That is an OBJECT.
 
 To set the prototype, we do it like this:
 
-<pre>class InformalPerson extends Person {
+```javascript
+class InformalPerson extends Person {
     constructor(firstname, lastname) {
         super(firstname, lastname);
     }
@@ -280,7 +301,7 @@ To set the prototype, we do it like this:
         return 'Yo ' + firstname;
     }
 }
-</pre>
+```
 
 Syntactic sugar: a different way to type something that doesn't change how it works under the hood.
 
@@ -292,7 +313,8 @@ Just talking about common syntax errors when creating big literal objects with a
 
 We can use typeof to figure out the type of primitive or object we are dealing with, but in the case of arrays, we have to use something like this:
 
-<pre>var d = [];
+```javascript
+var d = [];
 console.log(Object.prototype.toString.call(d));</pre>
 
 That would output [Object Array]
@@ -303,7 +325,7 @@ In the case of objects:
     this.name = name;
 }
 var e = new Person('Jane');
-</pre>
+```
 
 With instanceof Person, we are looking for an object of the type Person down the prototype chain.
 
@@ -315,11 +337,12 @@ And typeof functionName returns function.
 
 This tells the JS engine to process the code in a stricter way. For example, in the following case, we mistyped the variable but without the strict mode, it will not throw an error.
 
-<pre>var person;
+```javascript
+var person;
 
 persom = {};
 console.log(persom);
-</pre>
+```
 
 If we put "use strict"; at the beginning, it will throw an error because we are forced to declare a variable in order to use it.
 
@@ -335,8 +358,9 @@ These lectures are quite dense in terms of code reviewing, so I will skip commen
 
 I just like to mention the **method chaining**, which is a very useful way of chaining calls to methods. If you use jQuery, then very probably you already know about this. Like when you add a class and remove another class in the same line:
 
-<pre>$('.selector').addClass('a').removeClass('b');
-</pre>
+```javascript
+$('.selector').addClass('a').removeClass('b');
+```
 
 To achieve that, we only have to 'return this;' in the methods we are calling.
 
@@ -353,21 +377,24 @@ To achieve that, we only have to 'return this;' in the methods we are calling.
 
 First, create a file called Greetr.js. First we are going to create a new execution context with a self-invoking function.
 
-<pre>(function(global, $) {
+```javascript
+(function(global, $) {
 
 }(window, jQuery))
-</pre>
+```
 
 ###Lectures 75: Let's build a a framework / library. Our object and its prototype
 
 Create a file called app.js. We are going to imitate jQuery structure. So we don't want to use 'new', we want to use G$() like in jQuery and get an object as a result:
 
-<pre>var g = G$('John', 'Doe');
-</pre>
+```javascript
+var g = G$('John', 'Doe');
+```
 
 Then, in Greetr.js:
 
-<pre>(function(global, $) {
+```javascript
+(function(global, $) {
 
     var Greetr = function(firstName, lastName, language) {
     return new Greetr.init(firstName, lastName, language);
@@ -387,13 +414,14 @@ Then, in Greetr.js:
 }
 
 }(window, jQuery))
-</pre>
+```
 
 ###Lectures 76: Let's build a a framework / library. Properties and chainable methods
 
 Now we are just going to create methods in the prototype and return this in some of them to make then chainable.
 
-<pre>(function(global, $) {
+```javascript
+(function(global, $) {
 
     var Greetr = function(firstName, lastName, language) {
     return new Greetr.init(firstName, lastName, language);
@@ -473,13 +501,14 @@ Now we are just going to create methods in the prototype and return this in some
 }
 
 }(window, jQuery))
-</pre>
+```
 
 so now we can call it like this:
 
-<pre>var g = G$('John', 'Doe');
+```javascript
+var g = G$('John', 'Doe');
 g.greet().setLang('es').greet(true);
-</pre>
+```
 
 ###Lectures 77: Let's build a a framework / library. Adding jQuery support
 
@@ -489,7 +518,7 @@ Now we are going to add a method that accepts a jQuery selector and updates what
 
 To do this, we just need to add the following method in the prototype:
 
-<pre>
+```javascript
     HTMLGreeting: function(selector) {
         if (!$) throw 'jQuery not loaded';
 
@@ -502,7 +531,7 @@ To do this, we just need to add the following method in the prototype:
         $(selector).html(msg);
         return this;
     }
-</pre>
+```
 
 ###Lectures 78: Let's build a a framework / library. Good commenting
 

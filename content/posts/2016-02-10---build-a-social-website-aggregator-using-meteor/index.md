@@ -36,8 +36,7 @@ Go to [meteor.com](https://www.meteor.com/) and follow [the instructions](https:
 
 To create the app, open your terminal, go to the folder where you want to save the app and type:
 
-<pre>meteor create siteace
-</pre>
+`meteor create siteace`
 
 This will create a new folder called siteace (the name of the app we are building) with all of the files that a Meteor app needs:
 
@@ -48,9 +47,9 @@ This will create a new folder called siteace (the name of the app we are buildin
 
 To run the newly created app:
 
-<pre>cd siteace
-meteor
-</pre>
+`cd siteace`
+
+`meteor`
 
 Open your web browser and go to http://localhost:3000 to see the app running. If that's working, then you can stop it by pressing Ctrl+C.
 
@@ -60,11 +59,12 @@ Meteor is a client and server framework, which means we have code for the front-
 
 One way of deciding which code is going to run in the front-end or the back-end is to use the following conditional statements:
 
-<pre>if (Meteor.isClient) {
+```javascript
+if (Meteor.isClient) {
 }
 if (Meteor.isServer) {
 }
-</pre>
+```
 
 That is fine for very small apps, but there's a better way of dividing the code using folders:
 
@@ -91,90 +91,89 @@ For the sake of simplicity, we are going to stick with Meteor's default front-en
 
 First let's start by installing the router. Type the following in the terminal:
 
-<pre>meteor add iron:router
-</pre>
+`meteor add iron:router`
 
 Now we are going to define the application layout (the main placeholders) and the nav bar template. We use 'yield' to define the placeholder where later we will render the chosen templates in the routes. Open index.html and add the following:
 
-<pre>
-&lt;head>
-  &lt;title>Site Ace by Joan Mira</title>
-&lt;/head>
+```html
+<head>
+  <title>Site Ace by Joan Mira</title>
+</head>
 
-&lt;body>
-&lt;/body>
+<body>
+</body>
 
-&lt;template name="ApplicationLayout">
+<template name="ApplicationLayout">
     {{> yield "navbar"}}
-    &lt;div class="container">
+    <div class="container">
         {{> yield "form"}}
         {{> yield "main"}}
-    &lt;/div>
-&lt;/template>
+    </div>
+<;/template>
 
-&lt;!-- template that displays the header with the nav bar -->
-&lt;template name="navbar">
-    &lt;nav class="navbar navbar-default">
-      &lt;div class="container-fluid">
-        &lt;div class="navbar-header">
-            &lt;a class="navbar-brand" href="/">Site Ace, a social website aggregator by Joan Mira</a>
-        &lt;/div>
+<!-- template that displays the header with the nav bar -->
+<template name="navbar">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/">Site Ace, a social website aggregator by Joan Mira</a>
+        </div>
           {{> loginButtons align="right"}}
-      &lt;/div>
-    &lt;/nav>
-&lt;/template>
-</pre>
+      </div>
+    </nav>
+</template>
+```
 
 Now we are also adding three more templates, website\_form, website\_list and website\_item. The first one will render a form to allow the user to submit new URLs to the app. The second one will render a list of websites already in the DB and the third one is a partial to render an individual list item in the list of websites:
 
-<pre>
-&lt;template name="website_form">
-	&lt;a class="btn btn-default toggle-website-form js-toggle-website-form" href="#">
-  		&lt;span class="glyphicon glyphicon-plus" aria-hidden="true">&lt;/span>
-	&lt;/a>
-	&lt;div id="website_form" class="hidden_div">
-		&lt;form class="js-save-website-form">
-		  &lt;div class="form-group">
-		    &lt;label for="url">Site address&lt;/label>
-		    &lt;input type="text" class="form-control" id="url" placeholder="http://www.mysite.com">
-		  &lt;/div>
-		  &lt;button type="submit" class="btn btn-default">Submit&lt;/button>
-		&lt;/form>
-	&lt;/div>
-&lt;/template>
+```html
+<template name="website_form">
+	<a class="btn btn-default toggle-website-form js-toggle-website-form" href="#">
+  		<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+	</a>
+	<div id="website_form" class="hidden_div">
+		<form class="js-save-website-form">
+		  <div class="form-group">
+		    <label for="url">Site address</label>
+		    <input type="text" class="form-control" id="url" placeholder="http://www.mysite.com">
+		  </div>
+		  <button type="submit" class="btn btn-default">Submit</button>
+		</form>
+	</div>
+</template>
 
-&lt;!-- template that displays several website items -->
-&lt;template name="website_list">
-	&lt;ol>
+<!-- template that displays several website items -->
+<template name="website_list">
+	<ol>
 	{{#each websites}}
 	{{>website_item}}
 	{{/each}}
-	&lt;/ol>
-&lt;/template>
+	</ol>
+</template>
 
-&lt;!-- template that displays individual website entries -->
-&lt;template name="website_item">
-&lt;li>
-	&lt;a href="{{_id}}">{{title}}</a>
-	&lt;p>
+<!-- template that displays individual website entries -->
+<template name="website_item">
+<li>
+	<a href="{{_id}}">{{title}}</a>
+	<p>
 		{{description}}
-	&lt;/p>
-	&lt;a href="#" class="btn btn-default js-upvote">
-		&lt;span class="glyphicon glyphicon-arrow-up" aria-hidden="true">&lt;/span>
-	&lt;/a>
-	&lt;a href="#" class="btn btn-default js-downvote">
-		&lt;span class="glyphicon glyphicon-arrow-down" aria-hidden="true">&lt;/span>
-	&lt;/a>
-	&lt;!-- you will be putting your up and down vote buttons in here! -->
-&lt;/li>
-&lt;/template>
-</pre>
+	</p>
+	<a href="#" class="btn btn-default js-upvote">
+		<span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
+	</a>
+	<a href="#" class="btn btn-default js-downvote">
+		<span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>
+	</a>
+	<!-- you will be putting your up and down vote buttons in here! -->
+</li>
+</template>
+```
 
 Notice that instead of url, we used _id to compose the URL of the website link. That will be useful later when we are creating the detail page...
 
 Now we are going to define the Router configuration and the homepage/default route. Open main.js and add the following at the top:
 
-<pre>
+```javascript
 Router.configure({
     layoutTemplate: 'ApplicationLayout'
 });
@@ -190,19 +189,17 @@ Router.route('/', function () {
         to: 'main'
     });
 });
-</pre>
+```
 
 ### Part 4. Define the collection and the initial data
 
 Open collections.js and create a new one by typing:
 
-<pre>
-Websites = new Mongo.Collection("websites");
-</pre>
+`Websites = new Mongo.Collection("websites");`
 
 Now open startup.js and set some dummy data:
 
-<pre>
+```javascript
 // start up function that creates entries in the Websites databases.
 Meteor.startup(function () {
     // code to run on server at startup
@@ -234,13 +231,13 @@ Meteor.startup(function () {
         });
     }
 });
-</pre>
+```
 
 ### Part 5. Add some CSS
 
 The form to submit new URLs that we specified in the markup is hidden by default. It only opens when the user clicks in the '+' button. To make this form hidden, we just have to add the following CSS:
 
-<pre>
+```css
 .hidden_div {
 	display: none;
 }
@@ -317,19 +314,19 @@ ol li::before {
     float: right;
     max-width: 150px;
 }
-</pre>
+```
 
 ### Part 6. Add basic events
 
 In order to show/hide the form, we are going to need to capture the click event. Open the main.js file and add the following:
 
-<pre>
+```javascript
 Template.website_form.events({
     "click .js-toggle-website-form":function(event){
         $("#website_form").toggle('slow');
     }
 )};
-</pre>
+```
 
 Here we are just targeting the click event of the .js-toggle-website-form element and toggling its visible state.
 
@@ -341,25 +338,24 @@ At this point, the app should look similar to this (probably a bit better ;-)
 
 Before we start coding, we are going to need a Meteor package called HTTP to retrieve the title and description from the website we are adding. You can read more about the package [here](https://themeteorchef.com/snippets/using-the-http-package/). Type the following in the terminal to install it:
 
-<pre>meteor add http
-</pre>
+`meteor add http`
 
 Due to CORS restrictions, we need to contact the website from the server. So open the startup.js file and create a new method (inside the startup method) to get the title and description from the URL:
 
-<pre>
+```javascript
 Meteor.methods({
     getWebsiteData: function (url) {
         this.unblock();
         return Meteor.http.call("GET", url, {"npmRequestOptions" : {"gzip" : true}});
     }
 });
-</pre>
+```
 
 The GZIP option is to decompress the data in case the server returns it compressed.
 
 No we have to call that method from the front-end when the user submits the form. Open main.js and in the same function we were working in the previous part, add the following event to capture the form submit:
 
-<pre>
+```javascript
     "submit .js-save-website-form":function(event){
 
         // here is an example of how to get the url out of the form:
@@ -388,7 +384,7 @@ No we have to call that method from the front-end when the user submits the form
 
         return false; // stop the form submit from reloading the page
     }
-</pre>
+```
 
 You can try to add a few URLs and then reload the page. They new ones should remain there. If you want to reset the DB, just type in the terminal meteor reset.
 
@@ -396,37 +392,33 @@ You can try to add a few URLs and then reload the page. They new ones should rem
 
 There two Meteor packages that take care of user registration and authentication. To install them type this in the terminal:
 
-<pre>
-meteor add accounts-ui accounts-password
-</pre>
+`meteor add accounts-ui accounts-password`
 
 And then add the following partial to the navbar (beside the Site Ace title):
 
-<pre>
-{{> loginButtons }}
-</pre>
+`{{> loginButtons }}`
 
 By default, the only enabled fields for user registration are the email and password. If we also want to have a username field, we have to specify it in the package config. Open main.js and add the following at the top:
 
-<pre>
+```javascript
 Accounts.ui.config({
     passwordSignupFields: "USERNAME_AND_EMAIL"
 });
-</pre>
+```
 
 Also, from now on, if we need to check if the user is logged in or we want to access its data, we can do it like this:
 
-<pre>
+```javascript
 if (Meteor.user()) {
     Meteor.user().username;
 }
-</pre>
+```
 
 ### Part 9. Allow only logged in users to post new websites
 
 We could do it by hiding the form for not logged in users, but then this could be easily hacked by manipulating the DOM from the console. So we are going to use a form validation task instead. Open main.js and wrap everything inside the submit form event with the approach we specified in the previous part. Also add an else condition and display an alert window with an error message if the user is not logged in:
 
-<pre>
+```javascript
 "submit .js-save-website-form":function(event){
 
     if (Meteor.user()) {
@@ -438,34 +430,32 @@ We could do it by hiding the form for not logged in users, but then this could b
 
     return false;
 }
-</pre>
+```
 
 ### Part 10. Display the date and add votes
 
 In the listing page, we are going to display the date the website was added. We need to install a new package called Moments.js, a popular library to work with dates in Javascript:
 
-<pre>
-meteor add momentjs:moment
-</pre>
+`meteor add momentjs:moment`
 
 We also need to create a new template function to parse the date. In this case, we are going to make it global, so other templates can use it as well. Open main.js and add this:
 
-<pre>
+```javascript
 // format the date
 Template.registerHelper('formattedDate', function() {
      return moment(this.createdOn).format("MM/DD/YYYY");  // or whatever format you prefer
 });
-</pre>
+```
 
 Then, in index.html add a placeholder for the date and the votes right after the voting buttons:
 
-<pre>
-&lt;p class="website-meta">{{formattedDate}} | &lt;span class="js-votes-up">{{up}}&lt;/span>↑, &lt;span class="js-votes-down">{{down}}&lt;/span>↓</p>
-</pre>
+```html
+<p class="website-meta">{{formattedDate}} | <span class="js-votes-up">{{up}}</span>↑, <span class="js-votes-down">{{down}}</span>↓</p>
+```
 
 We also have to initialise the up and down fields for each website entry in the DB. Open startup.js and refactor the initial items like this. Do it as well in the form submit event in main.js!:
 
-<pre>
+```javascript
 Websites.insert({
     title:"Coursera",
     url:"http://www.coursera.org",
@@ -475,11 +465,11 @@ Websites.insert({
     up: 0,
     down: 0
 });
-</pre>
+```
 
 Finally, we have to save the votes in the DB. To do it, we have to use the 'update' method of the Websites collection. In this case, we are going to define the events for the parent template 'ApplicationLayout'. We do it like this to be able to use these events later in the detail page. Open main.js and add the following:
 
-<pre>
+```javascript
 Template.ApplicationLayout.events({
     "click .js-upvote":function(event){
         // example of how you can access the id for the website in the database
@@ -507,25 +497,25 @@ Template.ApplicationLayout.events({
         return false;// prevent the button from reloading the page
     }
 })
-</pre>
+```
 
 ### Part 11. Sort items by votes up
 
 This is an easy one. We know Meteor templates are reactive, meaning the UI gets updated automatically every time something changes. We are going to take advantage of that by defining a sorting in the website\_list template in main.js:
 
-<pre>
+```javascript
 Template.website_list.helpers({
     websites:function(){
         return Websites.find({}, {sort: {up:-1}});
     }
 });
-</pre>
+```
 
 ### Part 12. Implement a detail page using routing
 
 Now we need to create a new route in main.js that will take the website id as a parameter in the URL path and query the DB to get the data of that id. We will also render a new template in the main placeholder:
 
-<pre>
+```javascript
 Router.route('/:_id', function () {
     this.render('navbar', {
         to: 'navbar'
@@ -537,80 +527,78 @@ Router.route('/:_id', function () {
         }
     });
 });
-</pre>
+```
 
 Now let's create the new template in index.html:
 
-<pre>
-&lt;!-- template that displays a website detail -->
-&lt;template name="website_detail">
+```html
+<!-- template that displays a website detail -->
+<template name="website_detail">
 
-    &lt;h1>&lt;a href="{{url}}">{{title}}&lt;/a>&lt;/h1>
-    &lt;p>
+    <h1><a href="{{url}}">{{title}}</a></h1>
+    <p>
         {{description}}
-    &lt;/p>
-    &lt;a href="#" class="btn btn-default js-upvote">
-        &lt;span class="glyphicon glyphicon-arrow-up" aria-hidden="true">&lt;/span>
-    &lt;/a>
-    &lt;a href="#" class="btn btn-default js-downvote">
-        &lt;span class="glyphicon glyphicon-arrow-down" aria-hidden="true">&lt;/span>
-    &lt;/a>
-    &lt;p class="website-meta">Votes: &lt;span class="js-votes-up">{{up}}&lt;/span>↑, &lt;span class="js-votes-down">{{down}}&lt;/span>↓</p>
+    </p>
+    <a href="#" class="btn btn-default js-upvote">
+        <span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
+    </a>
+    <a href="#" class="btn btn-default js-downvote">
+        <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>
+    </a>
+    <p class="website-meta">Votes: <span class="js-votes-up">{{up}}</span>↑, <span class="js-votes-down">{{down}}</span>↓</p>
 
-&lt;/template>
-</pre>
+</template>
+```
 
 ### Part 13. Adding comments to the detail page
 
 First we are going to create a new Mongo collection in collections.js:
 
-<pre>
-Comments = new Mongo.Collection("comments");
-</pre>
+`Comments = new Mongo.Collection("comments");`
 
 Then two new main placeholders in the ApplicationLayout template and three new templates (very similar to the ones we already have) in index.html:
 
-<pre>
+```html
 {{> yield "comments"}}
 {{> yield "comment"}}
 
 (...)
 
-&lt;!-- template that displays several comments -->
-&lt;template name="comments_list">
-    &lt;h3>Comments&lt;/h3>
-    &lt;ol>
+<!-- template that displays several comments -->
+<template name="comments_list">
+    <h3>Comments</h3>
+    <ol>
         {{#each comments}}
         {{>comment_item}}
         {{/each}}
-    &lt;/ol>
-&lt;/template>
+    </ol>
+</template>
 
-&lt;!-- template that displays individual comment entries -->
-&lt;template name="comment_item">
-    &lt;li>
+<!-- template that displays individual comment entries -->
+<template name="comment_item">
+    <li>
         {{comment}}
-        &lt;p class="comment-meta">{{formattedDate}} by {{getUser user}}&lt;/p>
-    &lt;/li>
-&lt;/template>
+        <p class="comment-meta">{{formattedDate}} by {{getUser user}}</p>
+    </li>
+</template>
 
-&lt;!-- template that displays the form to submit a new comment -->
-&lt;template name="comment_form">
-    &lt;div id="comment_form">
-        &lt;form class="js-save-comment-form">
-          &lt;div class="form-group">
-            &lt;input type="text" class="form-control" id="comment" placeholder="Type your comment here...">
-          &lt;/div>
+<!-- template that displays the form to submit a new comment -->
+<template name="comment_form">
+    <div id="comment_form">
+        <form class="js-save-comment-form">
+          <div class="form-group">
+            <input type="text" class="form-control" id="comment" placeholder="Type your comment here...">
+          </div>
 
-          &lt;button type="submit" class="btn btn-default">Submit&lt;/button>
-        &lt;/form>
-    &lt;/div>
-&lt;/template>
-</pre>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+    </div>
+</template>
+```
 
 Now, before we continue. Notice that we are using a new helper called getUser. We need this to get the real username from a given user ID (that's what we have in the DB). So add this new helper into main.js:
 
-<pre>
+```javascript
 // helper function that returns the username for a given user ID
 Template.registerHelper('getUser', function(userId) {
      var user = Meteor.users.findOne({_id: userId});
@@ -621,22 +609,22 @@ Template.registerHelper('getUser', function(userId) {
         return "anonymous";
     }
 });
-</pre>
+```
 
 Then, we are going to update the detail page route (in main.js) and render the new templates:
 
-<pre>
+```javascript
 this.render('comments_list', {
     to: 'comments'
 });
 this.render('comment_form', {
     to: 'comment'
 });
-</pre>
+```
 
 Now we have to insert the new comments into the comments collection whenever a logged in user submits the comment form. The schema for this collection is going to store the ID of the website where the comment belongs, the comment itself, the date and the user who wrote it. Notice that to get hold of the website ID, we are going to use the Router params...
 
-<pre>
+```javascript
 Template.comment_form.events({
     "submit .js-save-comment-form":function(event){
 
@@ -661,28 +649,27 @@ Template.comment_form.events({
 
     }
 });
-</pre>
+```
 
 Now that we have the comments stored in the DB, we need a template helper to render the list of comments. We will filter the query by finding only the comments that have a website ID equal to the one of the current page:
 
-<pre>
+```javascript
 Template.comments_list.helpers({
     comments:function(){
         return Comments.find({website: Router.current().params._id});
     }
 });
-</pre>
+```
 
 ### Part 14. Secure and deploy
 
 Finally, we are just going to remove the insecure package (otherwise our DB could be easily compromised):
 
-<pre>meteor remove insecure
-</pre>
+`meteor remove insecure`
 
 And now we have to allow access to the different DB operations in collections.js:
 
-<pre>
+```javascript
 // set up security on collections
 Websites.allow({
     insert: function(userId, doc) {
@@ -717,12 +704,11 @@ Comments.allow({
         }
     }
 });
-</pre>
+```
 
 Now that we have some basic security in place, we are ready to deploy to the FREE Meteor servers:
 
-<pre>meteor deploy siteace-joanmira.meteor.com
-</pre>
+`meteor deploy siteace-joanmira.meteor.com`
 
 That's all! I hope you enjoyed the tutorial and please do let me know if you find any issues. Thanks.
 

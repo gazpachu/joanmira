@@ -83,7 +83,8 @@ Now open the default server block configuration file for editing:
 
 Delete everything in the file and insert the following configuration. Be sure to substitute your own domain name for the server_name directive. Additionally, change the port (8080) if your application is set to listen on a different port:
 
-<pre>server {
+```javascript
+server {
     listen 80;
 
     server_name example.com;
@@ -97,7 +98,7 @@ Delete everything in the file and insert the following configuration. Be sure to
         proxy_cache_bypass $http_upgrade;
     }
 }
-</pre>
+```
 
 This configures the server to respond to requests at its root. Assuming our server is available at example.com, accessing http://example.com/ via a web browser would send the request to your app, listening on port 8080 at localhost.
 
@@ -139,7 +140,8 @@ To set up authentication, you need to decide on the context to restrict. Among o
 
 Within this location block, use the auth_basic directive to turn on authentication and to choose a realm name to be displayed to the user when prompting for credentials. We will use the auth_basic_user_file directive to point Nginx to the password file we created:
 
-<pre>server {
+```javascript
+server {
     listen 80;
 
     server_name example.com;
@@ -155,7 +157,7 @@ Within this location block, use the auth_basic directive to turn on authenticati
         auth_basic_user_file /etc/nginx/.htpasswd;
     }
 }
-</pre>
+```
 
 Save and close the file when you are finished. Restart Nginx to implement your password policy:
 
@@ -189,7 +191,8 @@ In some cases, your app might use 'npm start' to start its execution. If that's 
 
 This also adds your application to PM2's process list, which is outputted every time you start an application:
 
-<pre><div class="secondary-code-label " title="Output">Output</div>[PM2] Spawning PM2 daemon
+```html
+[PM2] Spawning PM2 daemon
 [PM2] PM2 Successfully daemonized
 [PM2] Starting npm in fork_mode (1 instance)
 [PM2] Done.
@@ -198,8 +201,8 @@ This also adds your application to PM2's process list, which is outputted every 
 ├──────────┼────┼──────┼──────┼────────┼─────────┼────────┼─────────────┼──────────┤
 │ npm      │ 0  │ fork │ 3524 │ online │ 0       │ 0s     │ 21.566 MB   │ disabled │
 └──────────┴────┴──────┴──────┴────────┴─────────┴────────┴─────────────┴──────────┘
- Use `pm2 show &lt;id|name&gt;` to get more details about an app
-</pre>
+Use `pm2 show &lt;id|name&gt;` to get more details about an app
+```
 
 As you can see, PM2 automatically assigns an App name (based on the filename, without the .js extension) and a PM2 id. PM2 also maintains other information, such as the PID of the process, its current status, and memory usage.
 
