@@ -426,4 +426,4 @@ Daniel Larusso llega a Los Ángeles procedente de la costa Este de Estados Unido
 
 [![mac_and_me](./images/mac_and_me_ltf1kq.jpg "mac_and_me")](http://www.amazon.es/gp/product/B004P3FGIY/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B004P3FGIY&linkCode=as2&tag=gazpachu06-21)Un alienígena se escapa de un laboratorio de la NASA y se hace amigo de un niño paralítico. El muchacho esconde al extraterrestre para que no lo encuentre la agencia espacial americana y lo vuelva a encerrar.
 
-[Comprar ahora en Amazon](http://www.amazon.es/gp/product/B004P3FGIY/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B004P3FGIY&linkCode=as2&tag=gazpachu06-21) | [imdb](http://www.imdb.com/title/tt0095560/): 2,9 | [Rotten Tomatoes](http://www.rottentomatoes.com/m/mac_and_me/): 1.9 | **Media: 2,4 **
+[Comprar ahora en Amazon](http://www.amazon.es/gp/product/B004P3FGIY/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B004P3FGIY&linkCode=as2&tag=gazpachu06-21) | [imdb](http://www.imdb.com/title/tt0095560/): 2,9 | [Rotten Tomatoes](http://www.rottentomatoes.com/m/mac_and_me/): 1.9 | **Media: 2,4**

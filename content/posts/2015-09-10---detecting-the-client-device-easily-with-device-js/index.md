@@ -10,17 +10,18 @@ Device.js makes it easy to write conditional CSS and/or JavaScript based on devi
 
 Device.js will update automatically the classes in the HTML tag based on the device and orientation. Example:
 
-<pre>&lt;html lang="en" class=" desktop portrait"></pre>
+`<html lang="en" class=" desktop portrait">`
 
 When I change my user agent to iPad iOS 6, it shows:
 
-<pre>&lt;html lang="en" class="ios ipad tablet portrait"></pre>
+`<html lang="en" class="ios ipad tablet portrait">`
 
 Then you can use those classes to style your website accordingly.
 
 At the same time, on JavaScript, you can access the same information like this:
 
-<pre>device.portrait() === true
+```javascript
+device.portrait() === true
 device.landscape() === false
 device.mobile() === false
 device.tablet() === false
@@ -29,4 +30,5 @@ device.ipod() === false
 device.iphone() === false
 device.android() === false
 device.androidTablet() === false
-device.blackberryTablet() === false</pre>
+device.blackberryTablet() === false
+```

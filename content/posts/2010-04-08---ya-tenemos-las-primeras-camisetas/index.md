@@ -4,8 +4,6 @@ cover: images/camisetas_i5qeeq.jpg
 category: samurai-route
 ---
 
-![](./images/images/camisetas_i5qeeq.jpg)
-
 Gracias a nuestros patrocinador EstampAlicante, hemos conseguido una primera tirada de 100 camisetas. Muchas gracias ;-)
 
 A partir de hoy ya podemos enviaros las camisetas a cambio de una pequeña donación de 9€ :-) Para pedirlas, podéis hacerlo desde [aquí](http://rutasamurai.herokuapp.com/Camisetas/ver-todos-productos.html).

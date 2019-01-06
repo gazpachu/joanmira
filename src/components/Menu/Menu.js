@@ -26,9 +26,6 @@ class Menu extends Component {
               <li>
                 <Link to="/category">Categories</Link>
               </li>
-              <li>
-                <Link to="/popular">Popular posts</Link>
-              </li>
             </ul>
           </li>
           <li>
