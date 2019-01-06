@@ -2,14 +2,26 @@
 title: "The Samurai Route"
 ---
 
-<p class="work-links">
-<a class="btn icon icon-external" href="http://rutasamurai.herokuapp.com" target="_blank">Launch archived website</a>
+<style>
+.thumb-desc .gatsby-resp-image-wrapper {
+  float: left;
+  width: 150px;
+  margin-right: 10px !important;
+  margin-bottom: 10px;
+  border: 1px solid #888;
+  padding: 4px;
+}
+</style>
+
+<p class="align-center">
+<a class="btn" href="http://rutasamurai.herokuapp.com" target="_blank">Launch archived website</a>
 </p>
 
 In January 2010 I had a crazy idea: to **travel by motorbike from Spain to Japan** in 3 months (around 20.000Km) and then spend 2 months travelling around Japan. I've been riding motorcycles since I was 17 but never really travelled long distances with one of them, not even 500 Km!. I also wanted to explore my limits, get away from the computer for some time, feel more in contact with nature and of course, visit Japan!
 
-I passed the exam for the "big motorcycles" license and bought a [Yamaha XT660Z Teneré](https://en.wikipedia.org/wiki/Yamaha_XT660Z_T%C3%A9n%C3%A9r%C3%A9). It wasn't my favourite model, but at the end, it turned out to be a great choice for that kind of trip. I [spent a few months preparing the trip](http://joanmira.com/tag/ruta-samurai/page/2/), found some kind sponsors and a partner. Finally, on June, I left my hometown and started this great adventure :-) [ <a href="https://www.facebook.com/rutasamurai/photos_stream?tab=photos_albums" target="_blank">view pictures</a> ]
-<p style="text-align: center"><img style="display: inline-block" title="Cargando la moto en Tokio" src="./images/ruta_samurai1_ggnldj.jpg" alt="Cargando la moto en Tokio" width="200" height="130" /> <img style="display: inline-block" title="Preparados para salir desde Sevilla" src="./images/ruta_samurai2_h9d9av.jpg" alt="Preparados para salir desde Sevilla" width="200" height="130" /> <img style="display: inline-block" title="Logotipo del proyecto" src="./images/ruta_samurai3_tuoce3.jpg" alt="Logotipo del proyecto" width="200" height="130" /></p>
+I passed the exam for the "big motorcycles" license and bought a [Yamaha XT660Z Teneré](https://en.wikipedia.org/wiki/Yamaha_XT660Z_T%C3%A9n%C3%A9r%C3%A9). It wasn't my favourite model, but at the end, it turned out to be a great choice for that kind of trip. I [spent a few months preparing the trip](/category/samurai-route), found some kind sponsors and a partner. Finally, on June, I left my hometown and started this great adventure :-) [ <a href="https://www.facebook.com/rutasamurai/photos_stream?tab=photos_albums" target="_blank">view pictures</a> ]
+
+![](./images/1.jpg "Loading the bike in Tokyo, ready to start the trip and the project's logo")
 
 There are also a [few blog entries related with the trip](/tag/ruta-samurai) (in Spanish)
 

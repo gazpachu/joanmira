@@ -5,7 +5,6 @@ category: work
 ---
 
 <p class="align-center">
-<a class="btn icon icon-external" href="http://siteace-joanmira.meteor.com/" target="_blank">Launch Demo App</a>
 <a class="btn icon icon-external" href="https://github.com/gazpachu/siteace" target="_blank">Source code</a>
 </p>
 

@@ -6,7 +6,7 @@ menuTitle: CV
 <style>
 .highlight {
   background-color: rgba(0, 0, 0, 0.01);
-  border: 1px solid #ce6969;
+  border: 1px solid #EEE;
   border-radius: 8px;
   padding: 30px;
   font-size: 1.1em;
@@ -39,30 +39,9 @@ h4 {
   color: #333;
   margin-top: -30px;
 }
-.triangle {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  filter: grayscale(1) brightness(2);
-}
-.gradient {
-  background: linear-gradient(180deg,#d494a2 0,#9c1b36);
-  background-repeat: no-repeat;
-  height: 20000px;
-  overflow: hidden;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
 </style>
 
 <div class="updated">Last updated on 1st January 2019</div>
-
-<div class="gradient" />
-<img class="triangle" src="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMTc2Ljk5OSIgaGVpZ2h0PSIxMTc3LjAwMDciIHZpZXdCb3g9IjAgMCAxMTc2Ljk5OSAxMTc3LjAwMDciPgogIDxwYXRoIGQ9Ik0wLDBIMTE3Ni45OTlMMCwxMTc3LjAwMDdaIiBmaWxsPSIjZWQxYTNkIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIG9wYWNpdHk9IjAuNiIvPgo8L3N2Zz4K" aria-hidden="true" />
 
 ##Summary
 

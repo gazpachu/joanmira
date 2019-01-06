@@ -5,7 +5,8 @@ category: work
 ---
 
 <p class="align-center">
-<a class="btn icon icon-external" href="http://react-weather.herokuapp.com/?city=London,Paris,Berlin,Madrid,Rome" target="_blank">Launch React Weather App</a>
+<a class="btn" href="http://react-weather.herokuapp.com/?city=London,Paris,Berlin,Madrid,Rome" target="_blank">Launch React Weather App</a>
+<a class="btn" href="https://github.com/gazpachu/react-weather" target="_blank">Source code</a>
 </p>
 
 In this [React](https://facebook.github.io/react/) tutorial for beginners, we are going to learn how to build a small and simple [React](https://facebook.github.io/react/) app to display the weather of cities in the world. If you are interested in learning React, this beginners tutorial is a good starting point, as it doesn't cover very complex topics. At the same time, once you learn how to connect to an external API and display the results, it can be quite handy to build other types of single-page apps whose only requirement is to fetch data from an external source and display the results in any way.

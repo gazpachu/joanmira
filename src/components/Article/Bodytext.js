@@ -1,11 +1,11 @@
-import React from "react";
+import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 
 const Bodytext = props => {
   const { html, theme } = props;
 
   return (
-    <React.Fragment>
+    <Fragment>
       <div className="bodytext" dangerouslySetInnerHTML={{ __html: html }} />
 
       <style jsx>{`
@@ -29,7 +29,6 @@ const Bodytext = props => {
           }
 
           :global(p) {
-            font-size: ${theme.font.size.s};
             line-height: ${theme.font.lineHeight.xxl};
             margin: 0 0 1.5em;
           }
@@ -70,7 +69,7 @@ const Bodytext = props => {
           }
         }
       `}</style>
-    </React.Fragment>
+    </Fragment>
   );
 };
 
