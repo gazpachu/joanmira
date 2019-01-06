@@ -1,10 +1,12 @@
 ---
 title: "Geek life"
-cover: images/amiga_500_fqanhl.jpg
+cover: images/monkey-island-hero.jpg
 category: tech
 ---
 
 Since I was very young, I liked computers and tecky stuff; this hobby started at the age of 7, when I visited my cousins from Barcelona. I was really amazed by the things the [Amiga 500](http://en.wikipedia.org/wiki/Amiga_500) could do and more than anything, I was very jealous of the nearly 1000 videogames that my cousin was able to download from [BBS](http://en.wikipedia.org/wiki/Bulletin_board_system) and other *underground* channels...
+
+![](./images/1.jpg "Amiga 500, Monkey Island and Atari 2600")
 
 <img style="display: inline-block" title="Amiga 500" src="./images/amiga_500_fqanhl.jpg" alt="" />
 <img style="display: inline-block" title="Monkey Island" src="./images/monkeyisland1_nipjcs.jpg" alt="Monkey Island" />

@@ -163,10 +163,12 @@ If we try to convert null, undefined or "" to boolean, we always get false. Bool
 
 We can use this for our advantage. When we put something in a 'if' statement, it's going to try to convert it to a Boolean, so we can use it to check if a variable has content. In example:
 
-<pre>var a; // a is undefined
+```javascript
+var a; // a is undefined
 if (a) {
     console.log('Something is there.');
-}</pre>
+}
+```
 
 The only scenario where a will be coerced into false even if it has content is when a = 0, so we could change the condition to if (a || a === 0).
 
@@ -175,11 +177,13 @@ The only scenario where a will be coerced into false even if it has content is w
 When we use functions with parameters, if we don't pass the parameters when we call the function, these get initialised to undefined and that's it.
 But there's a neat trick to override this:
 
-<pre>function greet(name) {
+```javascript
+function greet(name) {
    name = name || 'Your name here';
    console.log('Hello' + name);
 }
-greet('Joan');</pre>
+greet('Joan');
+```
 
 So, basically it returns the value that can be coerced into true. So if we call greet() without any parameters, 'Your name here' will be reddened because it can be coerced to true.
 
@@ -190,7 +194,7 @@ Note: in ES6 there's a new way to do this...
 Let's image we have two libraries (lib1.js and lib2.js) that we are loading beside our app.js.
 Both libraries are declaring a variable called libraryName and setting it to 'Lib 1' and 'Lib 2' respectively. The problem here is that when we output that variable from app.js, the result will be 'Lib 2' because it overrides the previous one. To avoid this, what most libraries do is to assign the object to the global window object ONLY if there's nothing there:
 
-<pre>window.libraryName = window.libraryName || 'Lib 2';</pre>
+`window.libraryName = window.libraryName || 'Lib 2';`
 
 ###Lecture 30: Objects and functions
 
@@ -200,105 +204,123 @@ An object is a collection of values that are given names. An object can have pro
 
 We can create an object like this (there are better ways of doing it, but for the moment let's do it like this):
 
-<pre>var person = new Object();</pre>
+`var person = new Object();`
 
 To create a primitive (a string) using a computed member access:
 
-<pre>person["firstname"] = "Joan Mira";</pre>
+`person["firstname"] = "Joan Mira";`
 
 The brackets are an operator that looks for that property in the person object. This is useful if we need to precompose the name of the member property.
 
 We can also store the primitive name in a variable and use it to locate that primitive in the object:
 
-<pre>var firstNameProperty = "firstname";
-console.log(person[firstNameProperty]);</pre>
+```javascript
+var firstNameProperty = "firstname";
+console.log(person[firstNameProperty]);
+```
 
 We can also use the '.' operator to access the member primitive (which is the recommended way):
 
-<pre>console.log(person.firstname);</pre>
+`console.log(person.firstname);`
 
 We can also create an object sitting inside the person object:
 
-<pre>person.address = new Object();
+```javascript
+person.address = new Object();
 person.address.street = "111 Main St.";
-person.address.city = "London";</pre>
+person.address.city = "London";
+```
 
 ###Lecture 31: Objects and object literals
 
 To create object literals, we use the curly braces, which is not an operator. It's just the JS engine assuming that we are creating an object.
 
-<pre>var person = {};</pre>
+`var person = {};`
 
 We can also set and initialised properties and methods:
 
-<pre>var person = { firstname: 'Joan', lastname: 'Mira' };</pre>
+`var person = { firstname: 'Joan', lastname: 'Mira' };`
 
 It's also recommended to use white space and put each property on a different line:
 
-<pre>var Joan = {
+```javascript
+var Joan = {
     firstname: 'Joan',
     lastname: 'Mira',
     address: {
         street: '111 Main St.',
         city: 'London'
     }
-};</pre>
+};
+```
 
 And we can pass the object to a function:
 
-<pre>function greet(person) {
+```javascript
+function greet(person) {
     console.log('Hi ' + person.firstname;
 }
-greet(Joan);</pre>
+greet(Joan);
+```
 
 We can also create objects on-the-fly:
 
-<pre>greet({
+```javascript
+greet({
     firstname: 'Mary',
     lastname: 'Doe'
-});</pre>
+});
+```
 
 ###Lecture 32: Faking namespaces
 
 **Namespace**: a container for variables and functions. Typically to keep variables and functions with the same name separate.
 
-<pre>var greet = 'Hello!';
+```javascript
+var greet = 'Hello!';
 var greet = 'Hola!';
 
-console.log(greet); // Renders Hola!</pre>
+console.log(greet); // Renders Hola!
+```
 
 We can prevent that collision by creating containers:
 
-<pre>var english = {};
+```javascript
+var english = {};
 var spanish = {};
 
 english.greet = 'Hello!';
-spanish.greet = 'Hola!';</pre>
+spanish.greet = 'Hola!';
+```
 
 ###Lecture 33: JSON and object literals
 
 JSON (JavaScript Object Notation) looks a lot to the JS object syntax but let's not fall into that mistake.
 
-<pre>var objectLiteral = {
+```javascript
+var objectLiteral = {
     firstname: 'Mary',
     isAProgrammer: true
-};</pre>
+};
+```
 
 JSON format:
-<pre>{
+```javascript
+{
     "firstname": "Mary",
     "isAProgrammer": true
-}</pre>
+}
+```
 
 In JSON, properties need to be wrapped in quotes.
 
 There are also utilities to convert objects into JSON:
 
-<pre>JSON.stringify(objectLiteral);</pre>
+`JSON.stringify(objectLiteral);`
 
 And to parse them (convert from JSON into JS object):
 
-<pre>var jsonValue = JSON.parse('{ "firstname": "Mary", "isAProgrammer": true }');</pre>
+`var jsonValue = JSON.parse('{ "firstname": "Mary", "isAProgrammer": true }');`
 
 ###Lecture 34: Functions are objects
 
@@ -310,11 +332,13 @@ We have to think of functions as objects, whose code happens to be a property of
 
 It can be moved around, copied, just like a string or a number or another object.
 
-<pre>function greet() {
+```javascript
+function greet() {
     console.log('hi');
 }
 
-greet.language = 'english';</pre>
+greet.language = 'english';
+```
 
 Yes! we can add properties to a function. FUNCTIONS ARE OBJECTS.
 
@@ -328,15 +352,19 @@ On the other hand, a statement is something that doesn't return a value, like fo
 
 With functions there's a similar scenario. The following is a function statement that doesn't return a value:
 
-<pre>function greet() {
+```javascript
+function greet() {
     console.log('hi');
-}</pre>
+}
+```
 
 On the other hand, this a function expression:
 
-<pre>var anonymousGreet = function() {
+```javascript
+var anonymousGreet = function() {
     console.log('hi');
-}</pre>
+}
+```
 
 We are creating an object on the fly and assigning it to a variable. The difference is that anonymousGreet has the ADDRESS in memory of the anonymous function.
 
@@ -361,7 +389,7 @@ A lot of people think that JS has a bug when we create a new method inside that 
 
 To fix this Bug, we can use this popular trick:
 
-<pre>var self = this;</pre>
+`var self = this;`
 
 That will create a reference to the right object scope that we can use to target its properties and methods, so we can communicate from inside the method with other properties and methods of the object.
 
@@ -373,9 +401,11 @@ Arrays can be defined with = new Array() or using the literal format with bracke
 
 **Arguments**: the parameters you pass to a function. Javascript gives you a keyword of that same name that contains them all. Example:
 
-<pre>function greet(firstname, lastname, language) {
+```javascript
+function greet(firstname, lastname, language) {
     console.log(arguments);
-}</pre>
+}
+```
 
 The reserved word arguments will return an pseudo-array with the parameters that the function received.
 
@@ -403,24 +433,30 @@ Make your code readable, understandable. Write comments! Don't be too bothered w
 
 We already know that the parenthesis () are used to invoke a function, so that's basically what we are going to use for IIFEs:
 
-<pre>var greeting = function(name) {
+```javascript
+var greeting = function(name) {
     return 'Hello ' + name;
 }('John');
 
-console.log(greeting);</pre>
+console.log(greeting);
+```
 
 That's fine for function expressions, but how can we do IIFEs with normal functions statements like this one:?
 
-<pre>function name() {
+```javascript
+function name() {
     return 'Hello ' + name;
-}</pre>
+}
+```
 
 There's a trick to make the syntax parser think that the function is a expression. We just need to wrap the function in parenthesis. Because they are an operator and we only use them with expressions, the parser treats it as such. Example:
 
-<pre>(function name() {
+```javascript
+(function name() {
     var greeting = 'Hello';
     return greeting + ' ' + name;
-}('John'))</pre>
+}('John'))
+```
 
 By the way, we can invoke it before or after the wrapping parenthesis.
 
@@ -428,18 +464,21 @@ By the way, we can invoke it before or after the wrapping parenthesis.
 
 There are scenarios where a variable (in this case 'greeting') can be defined in two different contexts. So that means, we are not overwriting the greeting variable. They both exist in different context.
 
-<pre>var greeting = 'Hola';
+```javascript
+var greeting = 'Hola';
 
 (function(name) {
     var greeting = 'Hello';
     return greeting + ' ' + name;
 }('John'))
 
-console.log(greeting);</pre>
+console.log(greeting);
+```
 
 In case we want to pass the global object into the wrapped function, we can do it by passing the window parameter. Remember that objects pass by reference, so we are not copying anything, we are just passing a reference to the global object:
 
-<pre>var greeting = 'Hola';
+```javascript
+var greeting = 'Hola';
 
 (function(global, name) {
     var greeting = 'Hello';
@@ -449,7 +488,8 @@ In case we want to pass the global object into the wrapped function, we can do i
     return greeting + ' ' + name;
 }(window, 'John'))
 
-console.log(greeting);</pre>
+console.log(greeting);
+```
 
 We are just calling it global because we might want to use the code in the server (where there's no browser).
 
@@ -457,19 +497,22 @@ We are just calling it global because we might want to use the code in the serve
 
 This a notorious topic. It's absolutely vital to understand it to advance in the language.
 
-<pre>function greet(whattosay) {
+```javascript
+function greet(whattosay) {
     return function(name) {
         console.log(whattosay + ' ' + name);
     }
 }
 
 greet('Hi')('Joan');
-</pre>
+```
 
 Here we have a function that returns a function. Then we invoke the function and invoke again the returned function. We could also call it like this:
 
-<pre>var sayHi = greet('Hi');
-sayHi('Joan');</pre>
+```javascript
+var sayHi = greet('Hi');
+sayHi('Joan');
+```
 
 The question is, how is it possible that whattosay still exists in the second function? It should be gone, because the context of that function is no longer in the execution stack. Well, that's possible thanks to closures. The JS engine released the execution context of the first function, but the whattosay value is still hanging around...
 
@@ -485,7 +528,8 @@ It's just a feature to make sure that when we run a function, everything works a
 
 There is a classic example to explain closures:
 
-<pre>function buildFunctions() {
+```javascript
+function buildFunctions() {
     var arr = [];
 
     for (var i = 0; i < 3; i++) {
@@ -501,7 +545,7 @@ var fs = buildFunctions();
 fs[0]();
 fs[1]();
 fs[2]();
-</pre>
+```
 
 So we are just creating three functions in an array using a for loop. Then we invoked the functions and render i. What would i be?
 
@@ -514,7 +558,8 @@ So, in this case, we still have the i variable in memory but it's not holding th
 So how do we fix it to render the numbers we want?
 In ES 6, we could use let to create de-scoped variables, but we can also prevent the value of i by creating a new execution context for each of the functions that we are pushing to the array. So we could do that by using IIFEs:
 
-<pre>function buildFunctions2() {
+```javascript
+function buildFunctions2() {
     var arr = [];
 
     for (var i = 0; i < 3; i++) {
@@ -535,13 +580,14 @@ var fs2 = buildFunctions2();
 fs2[0]();
 fs2[1]();
 fs2[2]();
-</pre>
+```
 
 ###Lecture 48: Function factories
 
 A factory means a function that returns and mix something for us.
 
-<pre>function makeGreeting(language) {
+```javascript
+function makeGreeting(language) {
 
     return function(firstname, lastname) {
 
@@ -560,13 +606,14 @@ var greetSpanish = makeGreeting('es');
 
 greetEnglish('John', 'Doe');
 greetSpanish('Laura', 'Diaz');
-</pre>
+```
 
 Here we are taking advantage of closures to create a factory that returns functions to greet in different languages. This helps us to avoid passing the same parameters all the time for the desired language.
 
 ###Lecture 49: Closures and callbacks
 
-<pre>function sayHiLater() {
+```javascript
+function sayHiLater() {
 
     var greeting = 'Hi!';
 
@@ -575,18 +622,22 @@ Here we are taking advantage of closures to create a factory that returns functi
     }, 3000);
 }
 
-sayHiLater();</pre>
+sayHiLater();
+```
 
 In this case, we are using a closure (the greeting variable) and a first class function inside the timeout that acts like a function expression. Thanks to the closure, we still have access to the greeting 3 seconds later!
 
 In jQuery, we are also using the same things type of function expressions and first-class functions
 
-<pre>$("button").click(function() {
-});</pre>
+```javascript
+$("button").click(function() {
+});
+```
 
 **Callback function**: a function you give to another function, to be run when the other function is finished. So the function you call (i.e. invoke), 'calls back' by calling the function you gave it when it finishes.
 
-<pre>function tellMeWhenDone(callback) {
+```javascript
+function tellMeWhenDone(callback) {
     var a = 1000; // some work
     var b = 2000; // some work
 
@@ -596,7 +647,7 @@ In jQuery, we are also using the same things type of function expressions and fi
 tellMeWhenDone(function() {
     console.log('I am done!');
 });
-</pre>
+```
 
 ###Lecture 50: Call(), Apply() and Bind()
 
@@ -608,7 +659,8 @@ All functions hace access to a call, apply and bind method.
 
 **Bind** doesn't invoke the function, it actually creates a copy of the function we are calling and passes the context of an object.
 
-<pre>var person = {
+```javascript
+var person = {
     firstname: 'John',
     lastname: 'Doe',
     getFullName: function() {
@@ -628,32 +680,33 @@ logPersonName('en');
 
 logName.call(person, 'en', 'es');
 logName.apply(person, ['en', 'es']);
-</pre>
+```
 
 With bind, we are creating a new copy of logName and assigning it the execution context of person. So, the value of 'this' will be the correct one rather than the global object.
 
 We can also use call and apply for function borrowing:
 
-<pre>
+```javascript
 var person2 = {
     firstname: 'John',
     lastname: 'Doe'
 }
 
 console.log(person.getFullName.apply(person2));
-</pre>
+```
 
 We can also do function currying. With bind we create a new copy of the function, so what happens if we pass parameters to it?
 
 Giving the parameters sets the permanent values of these parameters when the copy is made.
 
-<pre>function multiply(a, b) {
+```javascript
+function multiply(a, b) {
     return a*b;
 }
 
 var multiplyByTwo = multiply.bind(this, 2);
 console.log(multiplyByTwo(4));
-</pre>
+```
 
 So, in this example, the variable 'a' will always be a 2, and the 4 will be the second parameter.
 If we passed 2 parameters to the bind, then it means those values would always be the same.
@@ -664,7 +717,8 @@ If we passed 2 parameters to the bind, then it means those values would always b
 
 We can think and code in terms of functions. It introduces an approach that you can't do in other programming languages that don't have first-class functions.
 
-<pre>var arr1 = [1,2,3];
+```javascript
+var arr1 = [1,2,3];
 console.log(arr1);
 
 var arr2 = [];
@@ -672,11 +726,12 @@ for (var i=0; i < arr1.length; i++) {
     arr2.push(arr1[i] * 2);
 }
 
-console.log(arr2);</pre>
+console.log(arr2);
+```
 
 But we can do something better with functions, to be more flexible. In this way, we are segmenting our code in a more clean way:
 
-<pre>
+```javascript
 function mapForEach(arr, fn) {
     var newArr = [];
     for (var i=0; i < arr1.length; i++) {
@@ -716,7 +771,7 @@ var checkPastLimitSimplified = function(limiter) {
 
 var arr5 = mapForEach(arr5, checkPastLimitSimplified(1));
 console.log(arr5);
-</pre>
+```
 
 Functional programming is what takes Javascript to the next level.
 
@@ -730,14 +785,14 @@ There's another library called [lodash](https://lodash.com/) which works like un
 
 Some things we can do with underscore:
 
-<pre>
+```javascript
 // underscore
 var arr6 = _.map(arr1, function(item) { return item * 3; });
 console.log(arr6);
 
 var arr7 = _.filter([2,3,4,5,6,7], function(item) { return item % 2 === 0; });
 console.log(arr7);
-</pre>
+```
 
 So, play with underscore, learn how is done and try to build those utilities by yourself.
 
