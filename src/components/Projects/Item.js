@@ -2,6 +2,26 @@ import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 import { Link } from "gatsby";
 import Img from "gatsby-image";
+import Shortlisted from "../../images/png/fwa-shortlisted-badge.png";
+
+const invertedItems = [
+  "lloyds",
+  "savethechildren",
+  "saga",
+  "barclays",
+  "vitality",
+  "dyson",
+  "quizwars",
+  "sapientnitro",
+  "ylmls",
+  "marksandspencer",
+  "artrules",
+  "sky",
+  "bandq",
+  "kittitian"
+];
+
+const shortlistedItems = ["artrules"];
 
 const Item = props => {
   const {
@@ -17,10 +37,13 @@ const Item = props => {
       }
     }
   } = props;
+  const trimmedSlug = slug.substring(1, slug.length - 1);
+  const inverted = invertedItems.indexOf(trimmedSlug) !== -1 ? "inverted" : "";
+  const shortlisted = shortlistedItems.indexOf(trimmedSlug) !== -1 ? "shortlisted" : "";
 
   return (
     <Fragment>
-      <li className={slug.substring(1, slug.length - 1)}>
+      <li className={`${trimmedSlug} ${inverted} ${shortlisted}`}>
         <Link to={slug} key={slug} className="link">
           <Img
             className="logo"
@@ -48,6 +71,16 @@ const Item = props => {
           height: 200px;
           position: relative;
 
+          &.dyson,
+          &.ylmls,
+          &.sky,
+          &.artrules {
+            background-color: #000;
+          }
+          &.wcrs,
+          &.artemis {
+            background-color: #f5f5f5;
+          }
           &.lloyds {
             background-color: #006a4c;
           }
@@ -63,9 +96,6 @@ const Item = props => {
           &.vitality {
             background-color: #fb0068;
           }
-          &.dyson {
-            background-color: #000;
-          }
           &.quizwars {
             background-color: #222;
           }
@@ -75,11 +105,14 @@ const Item = props => {
           &.bt {
             background-color: #efefef;
           }
-          &.ylmls {
-            background-color: #0d0b0c;
-          }
           &.marksandspencer {
             background-color: #044e44;
+          }
+          &.bandq {
+            background-color: #f60;
+          }
+          &.kittitian {
+            background-color: #f17d28;
           }
 
           &:before,
@@ -93,22 +126,24 @@ const Item = props => {
             opacity: 0;
             transition: all 0.35s, transform 0.35s;
             pointer-events: none;
+            border-color: #000;
           }
 
           &:before {
-            border-top: 1px solid #fff;
-            border-bottom: 1px solid #fff;
+            border-top: 1px solid;
+            border-bottom: 1px solid;
             transform: scale(0, 1);
           }
 
           &:after {
             transform: scale(1, 0);
-            border-right: 1px solid #fff;
-            border-left: 1px solid #fff;
+            border-right: 1px solid;
+            border-left: 1px solid;
           }
 
           :global(a) {
             text-decoration: none;
+            color: black;
           }
 
           :global(.logo) {
@@ -127,7 +162,7 @@ const Item = props => {
             transform: translate3d(0, 0, 0);
             opacity: 0;
             position: relative;
-            color: white;
+            color: #000;
             margin-bottom: 20px;
           }
 
@@ -136,11 +171,35 @@ const Item = props => {
             transform: translate3d(0, 70px, 0);
             opacity: 0;
             position: relative;
-            color: #fff;
           }
 
           :global(.date) {
             margin-right: 5px;
+          }
+
+          &.inverted {
+            &:before,
+            &:after {
+              border-color: white;
+            }
+            :global(a),
+            :global(.name) {
+              color: white;
+            }
+          }
+
+          &.shortlisted {
+            :global(.logo) {
+              &:after {
+                content: "";
+                position: absolute;
+                background: url(${Shortlisted}) no-repeat;
+                top: 0;
+                right: 0;
+                width: 100px;
+                height: 100px;
+              }
+            }
           }
 
           &:hover {
