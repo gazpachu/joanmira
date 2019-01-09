@@ -1,5 +1,7 @@
 ---
 title: "Warburtons facebook app"
+cover: "images/logo.jpg"
+location: UK
 ---
 
 ![](./images/1.jpg)

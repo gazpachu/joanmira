@@ -1,5 +1,7 @@
 ---
 title: "Formatio"
+cover: "images/logo.jpg"
+location: Spain
 ---
 
 ![](./images/0.jpg)

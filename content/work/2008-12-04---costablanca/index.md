@@ -1,5 +1,7 @@
 ---
 title: "Autoescuelas CostaBlanca website"
+cover: "images/logo.png"
+location: Spain
 ---
 
 <p class="work-links">

@@ -141,7 +141,7 @@ class Layout extends React.Component {
                 .align-center {
                   text-align: center;
                 }
-                a.btn {
+                .btn {
                   height: 24px;
                   font-weight: normal !important;
                   font-size: 14px;
@@ -154,6 +154,7 @@ class Layout extends React.Component {
                   cursor: pointer;
                   white-space: nowrap;
                   padding: 10px;
+                  outline: none;
 
                   &[target="_blank"]:before {
                     content: "";

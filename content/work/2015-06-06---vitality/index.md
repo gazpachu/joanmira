@@ -1,5 +1,7 @@
 ---
 title: "Vitality prototype"
+cover: "images/logo.jpg"
+location: UK
 ---
 
 The project brief consisted of creating an animated journey for an iTunes contest in the Vitality's mobile app. The idea was to reveal slowly the price won by the user and the design involved the use of particles and dynamic random prize withdrawal.

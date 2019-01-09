@@ -1,5 +1,7 @@
 ---
 title: "Tension Studio"
+cover: "images/logo.png"
+location: Spain
 ---
 
 <p class="work-links">

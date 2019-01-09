@@ -1,5 +1,7 @@
 ---
 title: "Save Guimaras"
+cover: "images/logo.jpg"
+location: Spain
 ---
 
 <p class="work-links">

@@ -1,5 +1,7 @@
 ---
 title: "Radox Radettes Facebook App"
+cover: "images/logo.jpg"
+location: UK
 ---
 
 ![](./images/1.jpg)

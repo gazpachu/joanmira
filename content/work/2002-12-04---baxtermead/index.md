@@ -1,5 +1,7 @@
 ---
 title: "Baxtermead"
+cover: "images/logo.jpg"
+location: Spain
 ---
 
 <p class="work-links">

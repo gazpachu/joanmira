@@ -1,5 +1,7 @@
 ---
 title: "GAZ New Media Design"
+cover: "images/logo.png"
+location: Spain
 ---
 
 <p class="work-links">

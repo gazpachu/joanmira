@@ -1,5 +1,7 @@
 ---
 title: "Local7"
+cover: "images/logo.jpg"
+location: Spain
 ---
 
 <p class="work-links">

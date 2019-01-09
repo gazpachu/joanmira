@@ -1,5 +1,7 @@
 ---
 title: "Marks and Spencer website case study"
+cover: "images/logo.png"
+location: UK
 ---
 
 ![](./images/1.jpg)

@@ -1,5 +1,7 @@
 ---
 title: "Proyecto Hombre"
+cover: "images/logo.jpg"
+location: Spain
 ---
 
 <p class="work-links">

@@ -1,5 +1,7 @@
 ---
 title: "Saga car insurance mobile journey case study"
+cover: "images/logo.jpg"
+location: UK
 ---
 
 <p class="work-links">

@@ -1,5 +1,7 @@
 ---
 title: "Grupo innovaconst"
+cover: "images/logo.png"
+location: Spain
 ---
 
 <p class="work-links">

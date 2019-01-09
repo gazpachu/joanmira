@@ -1,5 +1,7 @@
 ---
 title: "Philippines Gov. websites"
+cover: "images/logo.jpg"
+location: UK
 ---
 
 <p class="work-links">

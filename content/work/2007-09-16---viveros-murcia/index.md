@@ -1,5 +1,7 @@
 ---
 title: "Viveros Murcia"
+cover: "images/logo.jpg"
+location: Spain
 ---
 
 <p class="work-links">

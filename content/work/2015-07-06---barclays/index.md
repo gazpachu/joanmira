@@ -1,5 +1,7 @@
 ---
 title: "Barclays prototype"
+cover: "images/logo.jpg"
+location: UK
 ---
 
 While working at SapientNitro, I built an iPad prototype for Barclays based on Adobe AIR and compiled as a native iOS app.

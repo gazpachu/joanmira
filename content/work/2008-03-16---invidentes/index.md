@@ -1,5 +1,7 @@
 ---
 title: "Invidentes"
+cover: "images/logo.png"
+location: Spain
 ---
 
 <p class="work-links">

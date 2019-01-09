@@ -1,5 +1,7 @@
 ---
 title: "Mila Martos Rubio websites"
+cover: "images/logo.png"
+location: UK
 ---
 
 <p class="work-links">

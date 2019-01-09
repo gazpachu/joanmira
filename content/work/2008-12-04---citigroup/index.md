@@ -1,5 +1,7 @@
 ---
 title: "Citi Group prototype"
+cover: "images/logo.png"
+location: Spain
 ---
 
 <p class="work-links">

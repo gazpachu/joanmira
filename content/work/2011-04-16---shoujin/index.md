@@ -1,5 +1,7 @@
 ---
 title: "Shoujin Karate Kai"
+cover: "images/logo.png"
+location: UK
 ---
 
 <p class="work-links">

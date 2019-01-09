@@ -1,5 +1,7 @@
 ---
 title: "MINI Prototype"
+cover: "images/logo.jpg"
+location: UK
 ---
 
 ![](./images/1.jpg)

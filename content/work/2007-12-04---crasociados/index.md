@@ -1,5 +1,7 @@
 ---
 title: "CR Asociados"
+cover: "images/logo.png"
+location: Spain
 ---
 
 <p class="work-links">

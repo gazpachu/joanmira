@@ -1,5 +1,7 @@
 ---
 title: "ESUMA website"
+cover: "images/logo.jpg"
+location: Spain
 ---
 
 ![](./images/1.jpg)

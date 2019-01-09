@@ -1,5 +1,7 @@
 ---
 title: "Editex desktop apps"
+cover: "images/logo.png"
+location: Spain
 ---
 
 ![](./images/1.jpg)

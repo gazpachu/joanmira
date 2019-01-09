@@ -1,5 +1,7 @@
 ---
 title: "IES Miguel Hernández"
+cover: "images/logo.png"
+location: Spain
 ---
 
 <p class="work-links">

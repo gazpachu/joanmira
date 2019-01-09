@@ -1,5 +1,7 @@
 ---
 title: "Apoya la crisis microsite"
+cover: "images/logo.jpg"
+location: Spain
 ---
 
 <p class="work-links">

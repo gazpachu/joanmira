@@ -1,5 +1,7 @@
 ---
 title: "Momardi website"
+cover: "images/logo.jpg"
+location: UK
 ---
 
 <p class="work-links">

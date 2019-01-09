@@ -1,5 +1,7 @@
 ---
 title: "Emmebi website"
+cover: "images/logo.png"
+location: Spain
 ---
 
 ![](./images/1.jpg)

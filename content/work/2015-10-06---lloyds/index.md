@@ -1,5 +1,7 @@
 ---
 title: "Lloyds Bank microsite"
+cover: "images/logo.jpg"
+location: UK
 ---
 
 

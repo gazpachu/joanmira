@@ -1,5 +1,7 @@
 ---
 title: "Travelers website"
+cover: "images/logo.jpg"
+location: UK
 ---
 
 While working at SapientNitro, I got involved in the Travelers account. I helped with the front-end development of the new responsive insurance quote journey.

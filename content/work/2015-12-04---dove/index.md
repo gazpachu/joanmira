@@ -1,5 +1,7 @@
 ---
 title: "Dove website case study"
+cover: "images/logo.png"
+location: UK
 ---
 
 <p class="work-links">

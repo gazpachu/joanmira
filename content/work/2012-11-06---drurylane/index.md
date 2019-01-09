@@ -1,5 +1,7 @@
 ---
 title: "Drury Lane website"
+cover: "images/logo.jpg"
+location: UK
 ---
 
 <p class="work-links">

@@ -1,5 +1,7 @@
 ---
 title: "Villas termales"
+cover: "images/logo.png"
+location: Spain
 ---
 
 <p class="work-links">

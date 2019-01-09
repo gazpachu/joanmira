@@ -1,5 +1,7 @@
 ---
 title: "Proyecto 2025"
+cover: "images/logo.png"
+location: Spain
 ---
 
 <p class="work-links">

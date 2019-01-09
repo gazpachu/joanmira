@@ -1,5 +1,7 @@
 ---
 title: "BT Consumer - Pre-sales redesign"
+cover: "images/logo.png"
+location: UK
 ---
 
 <p class="work-links">

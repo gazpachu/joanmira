@@ -1,5 +1,7 @@
 ---
 title: "Promoseekers"
+cover: "images/logo.png"
+location: Spain
 ---
 
 ![](./images/1.jpg)

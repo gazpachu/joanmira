@@ -1,5 +1,7 @@
 ---
 title: "Save the children tech audit"
+cover: "images/logo.jpg"
+location: UK
 ---
 
 ![](./images/1.jpg)

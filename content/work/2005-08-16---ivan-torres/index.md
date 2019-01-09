@@ -1,5 +1,7 @@
 ---
 title: "Iván Torres"
+cover: "images/logo.png"
+location: Spain
 ---
 
 <p class="work-links">

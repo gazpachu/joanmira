@@ -1,5 +1,7 @@
 ---
 title: "Royal Opera House website case study"
+cover: "images/logo.png"
+location: UK
 ---
 
 The Royal Opera House was my first professional experience in the UK. I was hired as a Digital Developer by the Design & Development manager (former lead designer of BBC programs) with a very important objective: to completely rebuild the ROH website from scratch. A business critical project that required a major overhaul in the online ticketing system, server infrastructure, information architecture, user experience, content management and online shop to match the high standards of the organisation.

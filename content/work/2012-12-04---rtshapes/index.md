@@ -1,5 +1,7 @@
 ---
 title: "rtShapes demo"
+cover: "images/logo.jpg"
+location: UK
 ---
 
 <p class="work-links">

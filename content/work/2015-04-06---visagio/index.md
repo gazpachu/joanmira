@@ -1,5 +1,7 @@
 ---
 title: "Visagio website"
+cover: "images/logo.png"
+location: UK
 ---
 
 <p class="work-links">

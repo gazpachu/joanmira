@@ -1,5 +1,7 @@
 ---
 title: "Digital Toy Shop & Neoteo"
+cover: "images/logo.png"
+location: Spain
 ---
 
 <p class="work-links">

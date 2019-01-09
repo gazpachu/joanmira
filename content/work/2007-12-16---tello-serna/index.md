@@ -1,5 +1,7 @@
 ---
 title: "Tello Serna Flash website"
+cover: "images/logo.png"
+location: Spain
 ---
 
 <p class="work-links">

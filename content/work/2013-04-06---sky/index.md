@@ -1,5 +1,7 @@
 ---
 title: "SKY prototypes"
+cover: "images/logo.jpg"
+location: UK
 ---
 
 While I was working at WCRS, I got involved in several prototypes and promotional ideas for SKY. One of the prototypes involved R&D with Javascript and CSS to animate the panels of the following design. I built a few responsive demos with reactive and unfolding animations. When the panels were clicked, the new sections would reveal themselves and push the other panels to the border of the screen.

@@ -1,5 +1,7 @@
 ---
 title: "Stephane et Celine"
+cover: "images/logo.png"
+location: Spain
 ---
 
 <p class="work-links">

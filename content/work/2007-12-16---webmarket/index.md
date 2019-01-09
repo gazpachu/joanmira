@@ -1,5 +1,7 @@
 ---
 title: "Webmarket"
+cover: "images/logo.png"
+location: Spain
 ---
 
 <p class="work-links"><a class="btn icon icon-external" href="http://webmarket-v6.herokuapp.com" target="_blank">v6 Wordpress</a> <a class="btn icon icon-external" href="http://webmarket-joomla.herokuapp.com" target="_blank">v5 Joomla</a> <a class="btn icon icon-external" href="http://webmarket-wp.herokuapp.com" target="_blank">v5 Wordpress</a> <a class="btn icon icon-external" href="http://work.joanmira.com/webs/webmarket/v3/" target="_blank">v4 Flash</a></p>

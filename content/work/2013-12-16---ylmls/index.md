@@ -1,5 +1,7 @@
 ---
 title: "Y la muerte lo seguia"
+cover: "images/logo.jpg"
+location: UK
 ---
 
 <p class="work-links">

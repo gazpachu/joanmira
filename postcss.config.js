@@ -2,6 +2,7 @@ module.exports = ctx => ({
   plugins: {
     "postcss-easy-media-query": {
       breakpoints: {
+        mobile: 380,
         tablet: 600,
         desktop: 1024
       }

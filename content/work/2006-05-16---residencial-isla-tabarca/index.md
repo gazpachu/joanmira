@@ -1,5 +1,7 @@
 ---
 title: "Residencial Isla Tabarca"
+cover: "images/logo.png"
+location: Spain
 ---
 
 <p class="work-links">

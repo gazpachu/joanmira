@@ -1,5 +1,7 @@
 ---
 title: "ICA Art Rules case study"
+cover: "images/logo.jpg"
+location: UK
 ---
 
 <p class="work-links">

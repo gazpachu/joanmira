@@ -1,5 +1,7 @@
 ---
 title: "Volvo prototype"
+cover: "images/logo.jpg"
+location: UK
 ---
 
 I built this quick prototype for Volvo Trucks while working at SapientNitro. The requirements consisted of a responsive single page app with dynamic vertical navigation highlighting while scrolling.

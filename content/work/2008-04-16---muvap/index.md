@@ -1,5 +1,7 @@
 ---
 title: "Muvap - Leer.es"
+cover: "images/logo.png"
+location: Spain
 ---
 
 <p class="work-links">

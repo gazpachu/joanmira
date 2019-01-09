@@ -1,5 +1,7 @@
 ---
 title: "Mi primer atlas"
+cover: "images/logo.png"
+location: Spain
 ---
 
 ![](./images/1.jpg)

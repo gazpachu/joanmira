@@ -1,5 +1,7 @@
 ---
 title: "rPong demo"
+cover: "images/logo.jpg"
+location: UK
 ---
 
 <p class="work-links">

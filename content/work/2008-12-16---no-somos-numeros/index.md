@@ -1,5 +1,7 @@
 ---
 title: "No somos numeros"
+cover: "images/logo.jpg"
+location: Spain
 ---
 
 ![](./images/1.jpg)
