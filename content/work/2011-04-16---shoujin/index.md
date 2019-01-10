@@ -2,10 +2,11 @@
 title: "Shoujin Karate Kai"
 cover: "images/logo.png"
 location: UK
+categories: web
 ---
 
-<p class="work-links">
-<a class="btn icon icon-external" href="http://shoujin.co.uk" target="_blank">Launch live website</a>
+<p class="align-center">
+<a class="btn" href="http://shoujin.co.uk" target="_blank">Launch live website</a>
 </p>
 
 ![](./images/1.jpg)

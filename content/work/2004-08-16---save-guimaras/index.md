@@ -2,10 +2,11 @@
 title: "Save Guimaras"
 cover: "images/logo.jpg"
 location: Spain
+categories: web
 ---
 
-<p class="work-links">
-<a class="btn icon icon-external" href="http://saveguimaras.herokuapp.com" target="_blank">Launch archived website</a>
+<p class="align-center">
+<a class="btn" href="http://saveguimaras.herokuapp.com" target="_blank">Launch archived website</a>
 </p>
 
 ![](./images/1.jpg)

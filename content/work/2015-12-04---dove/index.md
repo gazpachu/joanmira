@@ -2,10 +2,12 @@
 title: "Dove website case study"
 cover: "images/logo.png"
 location: UK
+color: white
+categories: sapientnitro animation inverted web backbonejs
 ---
 
-<p class="work-links">
-<a class="btn icon icon-external" href="http://www.dove.com/uk" target="_blank">Launch website</a>
+<p class="align-center">
+<a class="btn" href="http://www.dove.com/uk" target="_blank">Launch website</a>
 </p>
 
 The new Dove website is part of an ambitious Unilever project led by SapientNitro to change the platform used by many of its brands.
@@ -26,7 +28,7 @@ One of the areas I clearly took responsibility of was the animations and the nav
 
 Another interesting part of my work in this project is related with the navigation. I built both, the main navigation and the anchor link navigation. The first one features an innovative single column scrollable menu in the desktop view and a multi-column scrollable menu in the mobile view. Both approaches use the same markup, which was quite an achievement due to the complexity and differences between both modes.
 
-Aside from the development tasks, I also was involved in many of the interactions with the design, UX, content, platform and QA teams. We followed a an Agile methodology, which means morning stand-ups, continuos refactoring, Jira issue tracking, back-end and front-end integration stage, etc. We also started to use Sketch and Zeplin rather than the classing Photoshop PSDs.
+Aside from the development tasks, I also was involved in many of the interactions with the design, UX, content, platform and QA teams. We followed a an Agile methodology, which means morning stand-ups, continuous refactoring, Jira issue tracking, back-end and front-end integration stage, etc. We also started to use Sketch and Zeplin rather than the classing Photoshop PSDs.
 
 ![](./images/3.jpg)
 

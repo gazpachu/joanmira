@@ -2,10 +2,11 @@
 title: "Tension Studio"
 cover: "images/logo.png"
 location: Spain
+categories: web
 ---
 
-<p class="work-links">
-<a class="btn icon icon-external" href="http://tensionstudio.com" target="_blank">Launch website</a>
+<p class="align-center">
+<a class="btn" href="http://tensionstudio.com" target="_blank">Launch website</a>
 </p>
 
 ![](./images/0.jpg)

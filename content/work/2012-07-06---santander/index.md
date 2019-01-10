@@ -2,6 +2,7 @@
 title: "Santander microsites, blog and apps"
 cover: "images/logo.jpg"
 location: UK
+categories: web
 ---
 
 ![](./images/1.jpg)

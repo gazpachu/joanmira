@@ -2,11 +2,12 @@
 title: "Philippines Gov. websites"
 cover: "images/logo.jpg"
 location: UK
+categories: web
 ---
 
-<p class="work-links">
-<a class="btn icon icon-external" href="http://investphilippines.org/siliconvalley/" target="_blank">Invest Philippines USA</a>
-<a class="btn icon icon-external" href="http://philembassy.herokuapp.com/" target="_blank">Philippine Embassy London (archived version)</a>
+<p class="align-center">
+<a class="btn" href="http://investphilippines.org/siliconvalley/" target="_blank">Invest Philippines USA</a>
+<a class="btn" href="http://philembassy.herokuapp.com/" target="_blank">Philippine Embassy London (archived version)</a>
 </p>
 
 ![](./images/1.jpg)

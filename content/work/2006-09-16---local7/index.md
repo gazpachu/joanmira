@@ -2,10 +2,11 @@
 title: "Local7"
 cover: "images/logo.jpg"
 location: Spain
+categories: web
 ---
 
-<p class="work-links">
-<a class="btn icon icon-external" href="http://work.joanmira.com/webs/local7/" target="_blank">Launch archived website without DB</a>
+<p class="align-center">
+<a class="btn" href="http://work.joanmira.com/webs/local7/" target="_blank">Launch archived website without DB</a>
 </p>
 
 Local7 contacted us (Webmarket) to build an online shop to sell their products. They wanted a very personal style combined with great UX and an easy payment method.

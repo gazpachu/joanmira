@@ -2,10 +2,11 @@
 title: "Drury Lane website"
 cover: "images/logo.jpg"
 location: UK
+categories: web
 ---
 
-<p class="work-links">
-<a class="btn icon icon-external" href="http://www.drurylanefilms.com/" target="_blank">Launch website</a>
+<p class="align-center">
+<a class="btn" href="http://www.drurylanefilms.com/" target="_blank">Launch website</a>
 </p>
 
 ![](./images/1.jpg)

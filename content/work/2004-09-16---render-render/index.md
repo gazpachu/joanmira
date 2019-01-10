@@ -2,10 +2,11 @@
 title: "Render Render"
 cover: "images/logo.png"
 location: Spain
+categories: web
 ---
 
-<p class="work-links">
-<a class="btn icon icon-external" href="http://work.joanmira.com/webs/renderrender/" target="_blank">Launch archived demo</a></p>
+<p class="align-center">
+<a class="btn" href="http://work.joanmira.com/webs/renderrender/" target="_blank">Launch archived demo</a></p>
 
 Render Render is an R&D project I built while working at Slater Labs in Madrid. My aim was to mimic a Windows OS inside a Flash website.
 

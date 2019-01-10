@@ -2,10 +2,11 @@
 title: "Salvador Grau"
 cover: "images/logo.png"
 location: Spain
+categories: web
 ---
 
-<p class="work-links">
-<a class="btn icon icon-external" href="http://www.salvadorgrau.com/" target="_blank">Launch website</a>
+<p class="align-center">
+<a class="btn" href="http://www.salvadorgrau.com/" target="_blank">Launch website</a>
 </p>
 
 ![](./images/1.jpg)

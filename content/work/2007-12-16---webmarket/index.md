@@ -2,9 +2,10 @@
 title: "Webmarket"
 cover: "images/logo.png"
 location: Spain
+categories: web
 ---
 
-<p class="work-links"><a class="btn icon icon-external" href="http://webmarket-v6.herokuapp.com" target="_blank">v6 Wordpress</a> <a class="btn icon icon-external" href="http://webmarket-joomla.herokuapp.com" target="_blank">v5 Joomla</a> <a class="btn icon icon-external" href="http://webmarket-wp.herokuapp.com" target="_blank">v5 Wordpress</a> <a class="btn icon icon-external" href="http://work.joanmira.com/webs/webmarket/v3/" target="_blank">v4 Flash</a></p>
+<p class="align-center"><a class="btn" href="http://webmarket-v6.herokuapp.com" target="_blank">v6 Wordpress</a> <a class="btn" href="http://webmarket-joomla.herokuapp.com" target="_blank">v5 Joomla</a> <a class="btn" href="http://webmarket-wp.herokuapp.com" target="_blank">v5 Wordpress</a> <a class="btn" href="http://work.joanmira.com/webs/webmarket/v3/" target="_blank">v4 Flash</a></p>
 
 In 2006, I co-founded a small digital agency. After the first year, I continued as a solo venture and partnered with other agencies and freelancers at some points. We specialised in design and development of multimedia applications and websites based on Adobe Flash (AS2), MdM Zinc, Wordpress and front-end technologies.
 

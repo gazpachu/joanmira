@@ -2,6 +2,7 @@
 title: "QRCube game"
 cover: "images/logo.jpg"
 location: UK
+categories: web
 ---
 
 

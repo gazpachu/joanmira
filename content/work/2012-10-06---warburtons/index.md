@@ -2,6 +2,7 @@
 title: "Warburtons facebook app"
 cover: "images/logo.jpg"
 location: UK
+categories: web
 ---
 
 ![](./images/1.jpg)

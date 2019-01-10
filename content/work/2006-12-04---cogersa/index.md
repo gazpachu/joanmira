@@ -2,10 +2,11 @@
 title: "Cogersa desktop app"
 cover: "images/logo.jpg"
 location: Spain
+categories: web
 ---
 
-<p class="work-links">
-<a class="btn icon icon-external" href="http://work.joanmira.com/desktop/cogersa/cms.swf" target="_blank">Launch app without DB</a>
+<p class="align-center">
+<a class="btn" href="http://work.joanmira.com/desktop/cogersa/cms.swf" target="_blank">Launch app without DB</a>
 </p>
 
 ![](./images/1.jpg)

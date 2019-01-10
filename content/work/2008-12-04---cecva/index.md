@@ -2,10 +2,11 @@
 title: "CECVA website"
 cover: "images/logo.png"
 location: Spain
+categories: web
 ---
 
-<p class="work-links">
-<a class="btn icon icon-external" href="http://cecva.herokuapp.com" target="_blank">Launch archived website</a>
+<p class="align-center">
+<a class="btn" href="http://cecva.herokuapp.com" target="_blank">Launch archived website</a>
 </p>
 
 ![](./images/1.jpg)

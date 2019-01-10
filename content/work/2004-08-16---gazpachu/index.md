@@ -2,14 +2,15 @@
 title: "GAZ New Media Design"
 cover: "images/logo.png"
 location: Spain
+categories: web
 ---
 
-<p class="work-links">
-<a class="btn icon icon-external" href="http://gazpachu.herokuapp.com" target="_blank">v5 Wordpress</a>
-<a class="btn icon icon-external" href="http://work.joanmira.com/webs/gazpachu/v4/" target="_blank">v4</a>
-<a class="btn icon icon-external" href="http://work.joanmira.com/webs/gazpachu/v3/" target="_blank">v3</a>
-<a class="btn icon icon-external" href="http://work.joanmira.com/webs/gazpachu/v2/" target="_blank">v2</a>
-<a class="btn icon icon-external" href="http://work.joanmira.com/webs/gazpachu/v1/" target="_blank">v1</a>
+<p class="align-center">
+<a class="btn" href="http://gazpachu.herokuapp.com" target="_blank">v5 Wordpress</a>
+<a class="btn" href="http://work.joanmira.com/webs/gazpachu/v4/" target="_blank">v4</a>
+<a class="btn" href="http://work.joanmira.com/webs/gazpachu/v3/" target="_blank">v3</a>
+<a class="btn" href="http://work.joanmira.com/webs/gazpachu/v2/" target="_blank">v2</a>
+<a class="btn" href="http://work.joanmira.com/webs/gazpachu/v1/" target="_blank">v1</a>
 </p>
 
 ![](./images/1.jpg)

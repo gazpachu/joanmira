@@ -2,10 +2,12 @@
 title: "Quiz Wars"
 cover: "images/logo.png"
 location: UK
+color: "#222"
+categories: sapientnitro web prototype ux design sockets sailsjs spa
 ---
 
-<p class="work-links">
-<a class="btn icon icon-external" href="http://quizwars.herokuapp.com" target="_blank">Launch demo app</a>
+<p class="align-center">
+<a class="btn" href="http://quizwars.herokuapp.com" target="_blank">Launch demo app</a>
 </p>
 
 QuizWars is an R&D experiment that I did while working at SapientNitro. My aim was to learn about realtime bidirectional communication between the server and the clients.

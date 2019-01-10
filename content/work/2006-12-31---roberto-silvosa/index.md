@@ -2,10 +2,11 @@
 title: "Roberto Silvosa"
 cover: "images/logo.jpg"
 location: Spain
+categories: web
 ---
 
-<p class="work-links">
-<a class="btn icon icon-external" href="http://work.joanmira.com/webs/robertosilvosa/" target="_blank">Launch archived template</a></p>
+<p class="align-center">
+<a class="btn" href="http://work.joanmira.com/webs/robertosilvosa/" target="_blank">Launch archived template</a></p>
 
 Roberto Silvosa contacted me to design and build a custom website for his business with an special emphasis on the aesthetics. He also needed to be able to upload new photos of his floral projects.
 

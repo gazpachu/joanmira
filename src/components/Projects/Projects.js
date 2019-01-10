@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Item from "./Item";
 
 const Projects = props => {
-  const { posts, theme } = props;
+  const { posts, theme, filter } = props;
 
   return (
     <Fragment>
@@ -15,7 +15,7 @@ const Projects = props => {
               fields: { slug }
             }
           } = post;
-          return <Item key={slug} post={node} theme={theme} />;
+          return <Item key={slug} post={node} filter={filter} theme={theme} />;
         })}
       </ul>
 
@@ -23,6 +23,7 @@ const Projects = props => {
         :global(.items) {
           list-style: none;
           padding: 0;
+          margin-bottom: 40px;
           display: grid;
           grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         }

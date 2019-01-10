@@ -2,10 +2,11 @@
 title: "Villas termales"
 cover: "images/logo.png"
 location: Spain
+categories: web
 ---
 
-<p class="work-links">
-<a class="btn icon icon-external" href="http://work.joanmira.com/webs/villastermales/" target="_blank">Launch archived template</a>
+<p class="align-center">
+<a class="btn" href="http://work.joanmira.com/webs/villastermales/" target="_blank">Launch archived template</a>
 </p>
 
 This project was a collaboration with Narcea Multimedia. I was hired to develop a Flash interface driven by a MySQL database to display information about the villas termales in Spain. I work with a graphic designer from Narcea to complete the project. This project was also related with the [Ministry of Industry](http://www.minetur.gob.es/) in Spain and [FEMP](http://www.femp.es/).

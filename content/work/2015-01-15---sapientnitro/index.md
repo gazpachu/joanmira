@@ -2,6 +2,8 @@
 title: "SapientNitro Skills Matrix"
 cover: "images/logo.png"
 location: UK
+color: "#de2728"
+categories: sapientnitro web prototype ux design sailsjs mongodb bootstrap
 ---
 
 As part of my work as a senior interactive developer at SapientNitro, I started to architect and build an internal application to manage the technical skills of Sapient developers across the world.

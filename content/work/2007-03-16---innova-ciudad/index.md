@@ -2,10 +2,11 @@
 title: "Innova ciudad"
 cover: "images/logo.png"
 location: Spain
+categories: web
 ---
 
-<p class="work-links">
-<a class="btn icon icon-external" href="http://work.joanmira.com/webs/innovaciudad" target="_blank">Launch archived website without DB</a>
+<p class="align-center">
+<a class="btn" href="http://work.joanmira.com/webs/innovaciudad" target="_blank">Launch archived website without DB</a>
 </p>
 
 Innova ciudad required a custom website to showcase their real state properties. They also wanted some intro animations, video playback and a CMS to update the properties' details.

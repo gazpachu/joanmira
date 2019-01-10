@@ -18,19 +18,43 @@ const invertedItems = [
   "artrules",
   "sky",
   "bandq",
-  "kittitian"
+  "kittitian",
+  "philippines",
+  "warburtons",
+  "mini",
+  "santander",
+  "roh",
+  "momardi",
+  "german-linares",
+  "emmebi",
+  "famasystems",
+  "afrogitano",
+  "lapcm",
+  "invidentes",
+  "webmarket",
+  "mic-mic",
+  "nosurrender",
+  "atolon3d",
+  "residencial-isla-tabarca",
+  "ivan-torres",
+  "render-render",
+  "gazpachu"
 ];
+
+const coverItems = ["rpong", "rtshapes"];
 
 const shortlistedItems = ["artrules"];
 
 const Item = props => {
   const {
     theme,
+    filter,
     post: {
       fields: { slug, prefix },
       frontmatter: {
         title,
         location,
+        categories,
         cover: {
           children: [{ fixed }]
         }
@@ -40,10 +64,12 @@ const Item = props => {
   const trimmedSlug = slug.substring(1, slug.length - 1);
   const inverted = invertedItems.indexOf(trimmedSlug) !== -1 ? "inverted" : "";
   const shortlisted = shortlistedItems.indexOf(trimmedSlug) !== -1 ? "shortlisted" : "";
+  const cover = coverItems.indexOf(trimmedSlug) !== -1 ? "cover" : "";
+  const hidden = filter !== "all" && categories.indexOf(filter) === -1 ? "hidden" : "";
 
   return (
     <Fragment>
-      <li className={`${trimmedSlug} ${inverted} ${shortlisted}`}>
+      <li className={`${trimmedSlug} ${inverted} ${shortlisted} ${cover} ${hidden}`}>
         <Link to={slug} key={slug} className="link">
           <Img
             className="logo"
@@ -74,11 +100,24 @@ const Item = props => {
           &.dyson,
           &.ylmls,
           &.sky,
-          &.artrules {
+          &.artrules,
+          &.mini,
+          &.afrogitano,
+          &.atolon3d,
+          &.ivan-torres,
+          &.render-render,
+          &.gazpachu {
             background-color: #000;
           }
           &.wcrs,
-          &.artemis {
+          &.artemis,
+          &.newtir,
+          &.logeddie,
+          &.no-somos-numeros,
+          &.agustilopez,
+          &.villas-termales,
+          &.crasociados,
+          &.grupo-innovaconst {
             background-color: #f5f5f5;
           }
           &.lloyds {
@@ -113,6 +152,57 @@ const Item = props => {
           }
           &.kittitian {
             background-color: #f17d28;
+          }
+          &.philippines {
+            background-color: #0769b3;
+          }
+          &.warburtons {
+            background-color: #f08229;
+          }
+          &.santander {
+            background-color: #fe0000;
+          }
+          &.roh {
+            background-color: #c60c30;
+          }
+          &.momardi {
+            background-color: #399dca;
+          }
+          &.german-linares {
+            background-color: #292929;
+          }
+          &.emmebi {
+            background-color: #7abb51;
+          }
+          &.famasystems {
+            background-color: #32679d;
+          }
+          &.lapcm {
+            background-color: #368a18;
+          }
+          &.invidentes {
+            background-color: #444;
+          }
+          &.webmarket {
+            background-color: #9c3;
+          }
+          &.mic-mic {
+            background-color: #1e1e1e;
+          }
+          &.nosurrender {
+            background-color: #ab0616;
+          }
+          &.local7 {
+            background-color: #94d5ff;
+          }
+          &.residencial-isla-tabarca {
+            background-color: #071931;
+          }
+          &.save-guimaras {
+            background-color: #a9d4ff;
+          }
+          &.la-solidaridad {
+            background-color: #a3a2a8;
           }
 
           &:before,
@@ -202,6 +292,18 @@ const Item = props => {
             }
           }
 
+          &.cover {
+            :global(img) {
+              width: 100% !important;
+              height: 100% !important;
+              object-fit: cover !important;
+            }
+          }
+
+          &.hidden {
+            display: none;
+          }
+
           &:hover {
             &:before,
             &:after {
@@ -226,7 +328,8 @@ const Item = props => {
 
 Item.propTypes = {
   post: PropTypes.object.isRequired,
-  theme: PropTypes.object.isRequired
+  theme: PropTypes.object.isRequired,
+  filter: PropTypes.string.isRequired
 };
 
 export default Item;

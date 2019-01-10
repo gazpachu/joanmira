@@ -2,11 +2,12 @@
 title: "Grupo Soledad"
 cover: "images/logo.png"
 location: Spain
+categories: web
 ---
 
-<p class="work-links">
-<a class="btn icon icon-external" href="http://work.joanmira.com/webs/gruposoledad/francia/" target="_blank">Launch France website</a>
-<a class="btn icon icon-external" href="http://work.joanmira.com/webs/gruposoledad/insaturbo/" target="_blank">Launch InsaTurbo intro</a>
+<p class="align-center">
+<a class="btn" href="http://work.joanmira.com/webs/gruposoledad/francia/" target="_blank">Launch France website</a>
+<a class="btn" href="http://work.joanmira.com/webs/gruposoledad/insaturbo/" target="_blank">Launch InsaTurbo intro</a>
 </p>
 
 Grupo Soledad asked me to create a visually attractive website for the French market. They wanted to showcase their catalog of car tyres and batteries and be able to update the offers of the website using a simple CMS.

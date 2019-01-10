@@ -2,10 +2,11 @@
 title: "No Surrender"
 cover: "images/logo.jpg"
 location: Spain
+categories: web
 ---
 
-<p class="work-links">
-<a class="btn icon icon-external" href="http://work.joanmira.com/webs/nosurrender/" target="_blank">Launch archived website without DB</a>
+<p class="align-center">
+<a class="btn" href="http://work.joanmira.com/webs/nosurrender/" target="_blank">Launch archived website without DB</a>
 </p>
 
 No Surrender contacted me to build an online shop to sell their products. They wanted a very personal style combined with great UX and an easy payment method.

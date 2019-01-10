@@ -2,11 +2,12 @@
 title: "rPong demo"
 cover: "images/logo.jpg"
 location: UK
+categories: web
 ---
 
-<p class="work-links">
-<a class="btn icon icon-external" href="http://open.joanmira.com/rpong" target="_blank">Launch website</a>
-<a class="btn icon icon-external" href="https://github.com/gazpachu/rpong" target="_blank">Source code</a>
+<p class="align-center">
+<a class="btn" href="http://open.joanmira.com/rpong" target="_blank">Launch website</a>
+<a class="btn" href="https://github.com/gazpachu/rpong" target="_blank">Source code</a>
 </p>
 
 ![](./images/1.jpg)

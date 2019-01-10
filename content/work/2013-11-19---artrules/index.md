@@ -2,10 +2,11 @@
 title: "ICA Art Rules case study"
 cover: "images/logo.jpg"
 location: UK
+categories: web
 ---
 
-<p class="work-links">
-<a class="btn icon icon-external" href="http://artrules.ica.org.uk" target="_blank">Launch website</a>
+<p class="align-center">
+<a class="btn" href="http://artrules.ica.org.uk" target="_blank">Launch website</a>
 <a class="btn icon icon-star" href="http://www.thefwa.com/shortlist/art-rules" target="_blank">FWA Shortlist</a>
 </p>
 

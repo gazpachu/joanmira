@@ -2,11 +2,12 @@
 title: "Momardi website"
 cover: "images/logo.jpg"
 location: UK
+categories: web
 ---
 
-<p class="work-links">
-<a class="btn icon icon-external" href="http://momardi.com" target="_blank">Launch website</a>
-<a class="btn icon icon-external" href="http://momardi-wp.herokuapp.com/" target="_blank">Launch archived v1 website</a>
+<p class="align-center">
+<a class="btn" href="http://momardi.com" target="_blank">Launch website</a>
+<a class="btn" href="http://momardi-wp.herokuapp.com/" target="_blank">Launch archived v1 website</a>
 </p>
 
 ![](./images/1.jpg)

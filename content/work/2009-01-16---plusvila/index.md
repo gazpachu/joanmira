@@ -2,6 +2,7 @@
 title: "Plusvila"
 cover: "images/logo.png"
 location: Spain
+categories: web
 ---
 
 ![](./images/1.jpg)

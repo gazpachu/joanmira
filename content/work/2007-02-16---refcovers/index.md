@@ -2,10 +2,11 @@
 title: "RefCovers"
 cover: "images/logo.png"
 location: Spain
+categories: web
 ---
 
-<p class="work-links">
-<a class="btn icon icon-external" href="http://work.joanmira.com/webs/refcovers/" target="_blank">Launch archived template</a></p>
+<p class="align-center">
+<a class="btn" href="http://work.joanmira.com/webs/refcovers/" target="_blank">Launch archived template</a></p>
 
 The RefCovers company based in Alicante, Spain, contacted us (Webmarket) to build an interactive website to feature their products. They also required a custom CMS to upload pictures of the projects.
 

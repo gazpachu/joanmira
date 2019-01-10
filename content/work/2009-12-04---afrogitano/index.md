@@ -2,6 +2,7 @@
 title: "Afrogitano website"
 cover: "images/logo.jpg"
 location: Spain
+categories: web
 ---
 
 ![](./images/1.jpg)

@@ -2,6 +2,7 @@
 title: "Kittitian prototype"
 cover: "images/logo.jpg"
 location: UK
+categories: web
 ---
 
 As part of WCRS pitching activities, I was asked to build a responsive HTML5 prototype with a dynamically driven masonry type layout.

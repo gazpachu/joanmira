@@ -2,10 +2,11 @@
 title: "Mic mic"
 cover: "images/logo.png"
 location: Spain
+categories: web
 ---
 
-<p class="work-links">
-<a class="btn icon icon-external" href="http://work.joanmira.com/desktop/mic-mic/" target="_blank">Launch app</a>
+<p class="align-center">
+<a class="btn" href="http://work.joanmira.com/desktop/mic-mic/" target="_blank">Launch app</a>
 </p>
 
 ![](./images/1.jpg)

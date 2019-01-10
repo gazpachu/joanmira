@@ -2,10 +2,12 @@
 title: "Visagio website"
 cover: "images/logo.png"
 location: UK
+color: white
+categories: inverted web wordpress
 ---
 
-<p class="work-links">
-<a class="btn icon icon-external" href="http://biz157.inmotionhosting.com/~visagi5/" target="_blank">Launch beta version website</a>
+<p class="align-center">
+<a class="btn" href="http://biz157.inmotionhosting.com/~visagi5/" target="_blank">Launch beta version website</a>
 </p>
 
 ![Content coming soon](./images/1.jpg)
