@@ -3,7 +3,7 @@ title: "Quiz Wars"
 cover: "images/logo.png"
 location: UK
 color: "#222"
-categories: sapientnitro web prototype ux design sockets sailsjs spa
+categories: sapientnitro web prototype ux design sockets sailsjs spa inverted
 ---
 
 <p class="align-center">

@@ -3,7 +3,7 @@ title: "BT Consumer - Pre-sales redesign"
 cover: "images/logo.png"
 location: UK
 color: "#efefef"
-categories: sapientnitro inverted web animation assemble grunt
+categories: sapientnitro web animation assemble grunt
 ---
 
 <p class="align-center">

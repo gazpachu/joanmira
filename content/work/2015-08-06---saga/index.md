@@ -3,7 +3,7 @@ title: "Saga car insurance mobile journey case study"
 cover: "images/logo.jpg"
 location: UK
 color: "#009bde"
-categories: sapientnitro web forms
+categories: sapientnitro web forms inverted
 ---
 
 SAGA and SapientNitro worked together in a new mobile journey for SAGA's car insurance service. As part of the development team, I took responsibility of the front-end, working together with a junior developer and a senior manager to implement the new designs.

@@ -1,8 +1,9 @@
 ---
 title: "Mila Martos Rubio websites"
 cover: "images/logo.png"
-location: UK
-categories: web
+location: Spain
+color: white
+categories: web ux design ghostjs wordpress
 ---
 
 <p class="align-center">

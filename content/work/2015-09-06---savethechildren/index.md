@@ -3,7 +3,7 @@ title: "Save the children tech audit"
 cover: "images/logo.jpg"
 location: UK
 color: "#e92934"
-categories: sapientnitro web drupal consultancy
+categories: sapientnitro web drupal consultancy inverted
 ---
 
 ![](./images/1.jpg)

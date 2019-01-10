@@ -3,7 +3,7 @@ title: "Travelers website"
 cover: "images/logo.jpg"
 location: UK
 color: white
-categories: sapientnitro inverted web vanilla-js
+categories: sapientnitro web vanilla-js
 ---
 
 While working at SapientNitro, I got involved in the Travelers account. I helped with the front-end development of the new responsive insurance quote journey.

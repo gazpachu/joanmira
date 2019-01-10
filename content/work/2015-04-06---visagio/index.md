@@ -3,7 +3,7 @@ title: "Visagio website"
 cover: "images/logo.png"
 location: UK
 color: white
-categories: inverted web wordpress
+categories: web wordpress design
 ---
 
 <p class="align-center">
