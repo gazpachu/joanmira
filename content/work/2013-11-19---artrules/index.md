@@ -2,7 +2,8 @@
 title: "ICA Art Rules case study"
 cover: "images/logo.jpg"
 location: UK
-categories: web
+color: black
+categories: sapientnitro animation shortlisted web ruby box2d
 ---
 
 <p class="align-center">

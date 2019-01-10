@@ -6,10 +6,6 @@ color: "#009bde"
 categories: sapientnitro web forms
 ---
 
-<p class="align-center">
-<a class="btn" href="https://m.saga.co.uk/insurance/car-insurance/get-quote/Vehicle" target="_blank">Launch website (check on mobile)</a>
-</p>
-
 SAGA and SapientNitro worked together in a new mobile journey for SAGA's car insurance service. As part of the development team, I took responsibility of the front-end, working together with a junior developer and a senior manager to implement the new designs.
 
 ![Content coming soon.](./images/0.jpg)

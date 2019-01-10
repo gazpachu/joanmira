@@ -15,15 +15,21 @@ const WorkTemplate = props => {
     <React.Fragment>
       <ThemeContext.Consumer>
         {theme => (
-          <React.Fragment>
+          <div className="page-wrapper work-page">
             <Article theme={theme}>
               <Page page={page} theme={theme} />
             </Article>
-          </React.Fragment>
+          </div>
         )}
       </ThemeContext.Consumer>
 
       <Seo data={page} />
+
+      <style jsx>{`
+        .work-page {
+          margin-top: 90px;
+        }
+      `}</style>
     </React.Fragment>
   );
 };
@@ -41,7 +47,7 @@ export const workQuery = graphql`
       id
       html
       fields {
-        prefix(formatString: "D MMMM YYYY")
+        prefix(formatString: "YYYY")
       }
       frontmatter {
         title

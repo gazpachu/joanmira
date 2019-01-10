@@ -2,7 +2,8 @@
 title: "Marks and Spencer website case study"
 cover: "images/logo.png"
 location: UK
-categories: web
+color: "#044e44"
+categories: sapientnitro web vanilla-js
 ---
 
 ![](./images/1.jpg)

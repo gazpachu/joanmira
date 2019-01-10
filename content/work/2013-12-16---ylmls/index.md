@@ -1,8 +1,9 @@
 ---
 title: "Y la muerte lo seguia"
 cover: "images/logo.jpg"
-location: UK
-categories: web
+location: Spain
+color: black
+categories: web ux design wordpress
 ---
 
 <p class="align-center">
