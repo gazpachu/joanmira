@@ -2,7 +2,8 @@
 title: "Muvap - Leer.es"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: white
+categories: flash narcea
 ---
 
 <p class="align-center">

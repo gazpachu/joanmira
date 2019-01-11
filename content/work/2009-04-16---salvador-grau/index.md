@@ -2,7 +2,8 @@
 title: "Salvador Grau"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: white
+categories: web joomla design ux webmarket
 ---
 
 <p class="align-center">

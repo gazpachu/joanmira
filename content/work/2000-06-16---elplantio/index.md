@@ -2,7 +2,8 @@
 title: "El Plantio"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: white
+categories: web flash ux design animation
 ---
 
 <p class="align-center">

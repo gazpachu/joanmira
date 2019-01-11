@@ -2,7 +2,8 @@
 title: "Momardi website"
 cover: "images/logo.jpg"
 location: UK
-categories: web
+color: "#399dca"
+categories: web ux design wordpress ghostjs gatsbyjs inverted
 ---
 
 <p class="align-center">
@@ -12,9 +13,9 @@ categories: web
 
 ![](./images/1.jpg)
 
-I built Momardi.com initially with a custom template for Wordpress, but after a couple of years, we moved it into the Ghost platform and built another custom theme.
+I built Momardi.com initially with a custom template for Wordpress, but after a couple of years, we moved it into the Ghost platform and built another custom theme. And then, after a few more years, I moved to a GatsbyJS platform.
 
-Momardi is an Art blog in London. It showcases the exhibits in the galleries / museums and also features articles about new artists.
+Momardi is the personal website of Tuesday Gutierrez. It showcases art exhibits in galleries / museums and also features articles about new artists.
 
 ![](./images/3.jpg)
 

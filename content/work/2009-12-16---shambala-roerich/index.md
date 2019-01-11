@@ -2,7 +2,8 @@
 title: "Shambala Roerich"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: white
+categories: web ux design wordpress joomla
 ---
 
 ![](./images/1.jpg)
@@ -15,4 +16,4 @@ He needed help with the maintenance of the museum's website, which at that point
 
 A year later, we decided to build a responsive website using Wordpress and implement an e-commerce module to sell his books.
 
-I am also very grateful to Leonardo and his wife Petri for having supported my [Samurai Route](http://joanmira.com/samurairoute) trip with their sponsorship.
+I am also very grateful to Leonardo and his wife Petri for having supported my [Samurai Route](/samurai-route) trip with their sponsorship.

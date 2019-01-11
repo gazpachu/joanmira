@@ -2,7 +2,8 @@
 title: "Radox Radettes Facebook App"
 cover: "images/logo.jpg"
 location: UK
-categories: web
+color: white
+categories: wcrs web facebook
 ---
 
 ![](./images/1.jpg)

@@ -2,7 +2,8 @@
 title: "Estrella Galicia desktop app"
 cover: "images/logo.jpg"
 location: Spain
-categories: web
+color: white
+categories: flash ux design custom-cms
 ---
 
 ![](./images/0.jpg)

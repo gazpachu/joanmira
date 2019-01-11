@@ -2,7 +2,8 @@
 title: "Mi primer atlas"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: white
+categories: flash animation ibcmass
 ---
 
 ![](./images/1.jpg)

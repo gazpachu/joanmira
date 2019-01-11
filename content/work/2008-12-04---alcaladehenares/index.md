@@ -2,7 +2,8 @@
 title: "Alcala de Henares desktop app"
 cover: "images/logo.jpg"
 location: Spain
-categories: web
+color: white
+categories: flash animation ibcmass
 ---
 
 ![](./images/1.jpg)

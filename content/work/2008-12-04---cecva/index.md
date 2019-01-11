@@ -2,7 +2,8 @@
 title: "CECVA website"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: white
+categories: web joomla customer
 ---
 
 <p class="align-center">

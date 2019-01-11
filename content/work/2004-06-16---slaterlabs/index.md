@@ -2,7 +2,8 @@
 title: "Slater Labs"
 cover: "images/logo.jpg"
 location: Spain
-categories: web
+color: white
+categories: web flash animation
 ---
 
 <p class="align-center">

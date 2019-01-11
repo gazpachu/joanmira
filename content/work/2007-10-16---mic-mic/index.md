@@ -2,7 +2,8 @@
 title: "Mic mic"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: "#1e1e1e"
+categories: flash design
 ---
 
 <p class="align-center">

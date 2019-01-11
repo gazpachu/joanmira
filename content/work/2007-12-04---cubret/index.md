@@ -2,7 +2,8 @@
 title: "Cubre-t"
 cover: "images/logo.jpg"
 location: Spain
-categories: web
+color: white
+categories: web custom-cms flash ux design animation webmarket mysql php
 ---
 
 <p class="align-center">

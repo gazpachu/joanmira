@@ -2,7 +2,8 @@
 title: "Artemis ads and website"
 cover: "images/logo.png"
 location: UK
-categories: web
+color: "#f5f5f5"
+categories: wcrs web animation
 ---
 
 While working at WCRS, I was asked to build an animated responsive HTML Artemis ad for the iPad. This ad was displayed in the Times and Sunday websites. I used the libraries [spritely](http://spritely.net/) and [transit](http://ricostacruz.com/jquery.transit/) to create the sequence of animated sprites and the CSS3 animations.

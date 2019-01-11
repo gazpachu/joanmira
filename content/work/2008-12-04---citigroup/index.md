@@ -2,7 +2,8 @@
 title: "Citi Group prototype"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: white
+categories: web flash animation collaboration
 ---
 
 <p class="align-center">

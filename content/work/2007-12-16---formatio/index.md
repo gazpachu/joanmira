@@ -2,7 +2,8 @@
 title: "Formatio"
 cover: "images/logo.jpg"
 location: Spain
-categories: web
+color: white
+categories: web flash custom-cms mysql php
 ---
 
 ![](./images/0.jpg)

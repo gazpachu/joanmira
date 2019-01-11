@@ -2,7 +2,8 @@
 title: "Proyecto Hombre"
 cover: "images/logo.jpg"
 location: Spain
-categories: web
+color: white
+categories: web flash ux design animation
 ---
 
 <p class="align-center">

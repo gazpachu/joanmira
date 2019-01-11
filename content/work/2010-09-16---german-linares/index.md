@@ -2,7 +2,8 @@
 title: "German Linares"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: "#292929"
+categories: web wordpress inverted
 ---
 
 <p class="align-center">

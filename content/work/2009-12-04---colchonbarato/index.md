@@ -2,7 +2,8 @@
 title: "Colchonbarato website"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: white
+categories: joomla web
 ---
 
 ![](./images/1.jpg)

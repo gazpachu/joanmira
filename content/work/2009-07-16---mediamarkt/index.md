@@ -2,7 +2,8 @@
 title: "Mediamarkt"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: white
+categories: web customer
 ---
 
 ![](./images/1.jpg)

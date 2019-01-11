@@ -2,7 +2,8 @@
 title: "Emmebi website"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: "#7abb51"
+categories: joomla web ux design inverted
 ---
 
 ![](./images/1.jpg)

@@ -2,7 +2,8 @@
 title: "Atolon 3d"
 cover: "images/logo.jpg"
 location: Spain
-categories: web
+color: black
+categories: web flash animation inverted custom-cms ux design webmarket mysql php
 ---
 
 <p class="align-center">

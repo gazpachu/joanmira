@@ -2,7 +2,8 @@
 title: "Viveros Murcia"
 cover: "images/logo.jpg"
 location: Spain
-categories: web
+color: white
+categories: prototypes design animation web prototype flash webmarket
 ---
 
 <p class="align-center">

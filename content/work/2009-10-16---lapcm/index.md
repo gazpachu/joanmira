@@ -2,7 +2,8 @@
 title: "La PCM"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: "#368a18"
+categories: web wordpress design ux inverted
 ---
 
 <p class="align-center">

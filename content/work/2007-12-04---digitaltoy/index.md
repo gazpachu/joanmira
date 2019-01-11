@@ -2,7 +2,8 @@
 title: "Digital Toy Shop & Neoteo"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: white
+categories: design web prototype flash webmarket
 ---
 
 <p class="align-center">

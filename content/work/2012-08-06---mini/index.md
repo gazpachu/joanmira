@@ -2,7 +2,8 @@
 title: "MINI Prototype"
 cover: "images/logo.jpg"
 location: UK
-categories: web
+color: black
+categories: wcrs prototype webcam inverted
 ---
 
 ![](./images/1.jpg)

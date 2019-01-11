@@ -2,7 +2,8 @@
 title: "Invidentes"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: "#444"
+categories: web joomla webmarket
 ---
 
 <p class="align-center">

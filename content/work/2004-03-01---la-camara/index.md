@@ -2,7 +2,8 @@
 title: "La Cámara"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: white
+categories: prototype web ux design
 ---
 
 <p class="align-center">

@@ -2,7 +2,8 @@
 title: "Busaf website"
 cover: "images/logo.jpg"
 location: Spain
-categories: web
+color: white
+categories: web joomla
 ---
 
 ![](./images/1.jpg)

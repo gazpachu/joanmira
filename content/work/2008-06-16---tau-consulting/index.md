@@ -2,7 +2,8 @@
 title: "Tau consulting"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: white
+categories: web joomla webmarket
 ---
 
 ![](./images/1.jpg)

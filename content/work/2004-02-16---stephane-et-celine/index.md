@@ -2,7 +2,8 @@
 title: "Stephane et Celine"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: white
+categories: web ux design flash animation
 ---
 
 <p class="align-center">

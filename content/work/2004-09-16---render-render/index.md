@@ -2,7 +2,8 @@
 title: "Render Render"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: black
+categories: web flash animation
 ---
 
 <p class="align-center">

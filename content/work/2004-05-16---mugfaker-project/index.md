@@ -2,7 +2,8 @@
 title: "Mugfaker project"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: white
+categories: web php-nuke ux design
 ---
 
 ![](./images/1.jpg)

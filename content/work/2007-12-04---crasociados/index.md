@@ -2,7 +2,8 @@
 title: "CR Asociados"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: "#f5f5f5"
+categories: web flash custom-cms ux design mysql php webmarket
 ---
 
 <p class="align-center">

@@ -2,7 +2,8 @@
 title: "Santillana desktop app"
 cover: "images/logo.jpg"
 location: Spain
-categories: web
+color: white
+categories: narcea flash animation
 ---
 
 ![](./images/0.jpg)

@@ -2,15 +2,15 @@
 title: "Royal Opera House website case study"
 cover: "images/logo.png"
 location: UK
-categories: web
+color: "#c60c30"
+categories: web wordpress zend inverted
 ---
 
 The Royal Opera House was my first professional experience in the UK. I was hired as a Digital Developer by the Design & Development manager (former lead designer of BBC programs) with a very important objective: to completely rebuild the ROH website from scratch. A business critical project that required a major overhaul in the online ticketing system, server infrastructure, information architecture, user experience, content management and online shop to match the high standards of the organisation.
 
 At the beginning, the development team was very small (just the two of us). Once we understood the issues with the old website, we decided to start building [the news section](http://www.roh.org.uk/news), which is quite an isolated piece that could be driven by a Wordpress installation with custom theme and plugins.
 
-![](./images/1.jpg)
-*Screenshot of the ROH current news section*
+![](./images/1.jpg "Screenshot of the ROH current news section")
 
 ### The requirements and the plan
 
@@ -26,10 +26,9 @@ At this point, another developer joined the team. We were now three!, still a sm
 
 ### Framework and infrastructure
 
-![](./images/3.jpg)
-*Evaluating the current website and developing the new © ROH 2011*
+![](./images/3.jpg "Evaluating the current website and developing the new © ROH 2011")
 
-Once we understood the problem, we studied the different open source PHP frameworks out there to build the rest of the website. Although the static pages we decided to build them with Wordpress. Why open source and why PHP? Well, the ROH is partly funded with public money and we believed in Open Data, Web Standards and making things as open and accesible as possible. I remember that Zend, CodeIgniter or Symfony were the most popular at that time, so we decided to go with Zend due to its robustness and huge community. We also decided to use Doctrine (Symfony's ORM), Apache, Linux and MySQL. A classic LAMP stack.
+Once we understood the problem, we studied the different open source PHP frameworks out there to build the rest of the website. Although the static pages we decided to build them with Wordpress. Why open source and why PHP? Well, the ROH is partly funded with public money and we believed in Open Data, Web Standards and making things as open and accessible as possible. I remember that Zend, CodeIgniter or Symfony were the most popular at that time, so we decided to go with Zend due to its robustness and huge community. We also decided to use Doctrine (Symfony's ORM), Apache, Linux and MySQL. A classic LAMP stack.
 
 For the infrastructure, we started with Rackspace but soon moved to Amazon AWS elastic cloud. This would allow us to scale the website during the ticket sale days to allow more traffic and make the purchase experience more enjoyable.
 
@@ -45,8 +44,7 @@ So we customised a Flickr Wordpress plugin (for the news section) and created a 
 
 ### Less is more
 
-![](./images/0.jpg)
-*The Royal Opera House home page*
+![](./images/0.jpg "The Royal Opera House home page")
 
 Another lesson I learned in this project is about minimalism and simple design, or how is commonly known as "less is more". The best example is when we were discussing about adding the social media icons to share the news articles. Having a personal blog and knowing the benefits of having those buttons, I was totally convinced that the same principle would apply to the ROH website but I was wrong.
 

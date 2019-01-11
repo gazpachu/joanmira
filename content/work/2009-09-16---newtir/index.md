@@ -2,7 +2,8 @@
 title: "Newtir"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: "#f5f5f5"
+categories: web joomla
 ---
 
 <p class="align-center">

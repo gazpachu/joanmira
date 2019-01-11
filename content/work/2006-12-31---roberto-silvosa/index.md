@@ -2,7 +2,8 @@
 title: "Roberto Silvosa"
 cover: "images/logo.jpg"
 location: Spain
-categories: web
+color: white
+categories: web flash animation custom-cms ux design mysql php webmarket
 ---
 
 <p class="align-center">

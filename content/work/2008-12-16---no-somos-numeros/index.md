@@ -2,7 +2,8 @@
 title: "No somos numeros"
 cover: "images/logo.jpg"
 location: Spain
-categories: web
+color: "#f5f5f5"
+categories: web joomla webprof
 ---
 
 ![](./images/1.jpg)

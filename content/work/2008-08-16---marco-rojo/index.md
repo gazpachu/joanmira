@@ -2,7 +2,8 @@
 title: "Marco rojo"
 cover: "images/logo.jpg"
 location: Spain
-categories: web
+color: white
+categories: web flash animation wordpress custom-cms mysql php narcea
 ---
 
 <p class="align-center">

@@ -2,7 +2,8 @@
 title: "Afrogitano website"
 cover: "images/logo.jpg"
 location: Spain
-categories: web
+color: black
+categories: web joomla design ux inverted
 ---
 
 ![](./images/1.jpg)

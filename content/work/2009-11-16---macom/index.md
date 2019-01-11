@@ -2,7 +2,8 @@
 title: "Macom"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: white
+categories: web joomla
 ---
 
 <p class="align-center">

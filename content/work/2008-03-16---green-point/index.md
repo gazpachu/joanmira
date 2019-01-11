@@ -2,7 +2,8 @@
 title: "Green point"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: white
+categories: video 3d webmarket
 ---
 
 ![](./images/1.jpg)

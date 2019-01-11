@@ -2,7 +2,8 @@
 title: "Apoya la crisis microsite"
 cover: "images/logo.jpg"
 location: Spain
-categories: web
+color: white
+categories: web joomla
 ---
 
 <p class="align-center">

@@ -2,7 +2,8 @@
 title: "No Surrender"
 cover: "images/logo.jpg"
 location: Spain
-categories: web
+color: "#ab0616"
+categories: web mysql php web flash custom-cms ux design webmarket
 ---
 
 <p class="align-center">

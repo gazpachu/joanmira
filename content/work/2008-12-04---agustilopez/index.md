@@ -2,7 +2,8 @@
 title: "Agusti Lopez website"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: "#f5f5f5"
+categories: web wordpress design ux webmarket
 ---
 
 <p class="align-center">

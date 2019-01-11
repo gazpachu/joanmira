@@ -2,7 +2,8 @@
 title: "Yo no cocino"
 cover: "images/logo.jpg"
 location: Spain
-categories: web
+color: white
+categories: web wordpress ux design
 ---
 
 <p class="align-center">

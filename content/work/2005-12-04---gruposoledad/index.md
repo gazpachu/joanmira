@@ -2,7 +2,8 @@
 title: "Grupo Soledad"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: white
+categories: web flash custom-cms ux design animation mysql php
 ---
 
 <p class="align-center">

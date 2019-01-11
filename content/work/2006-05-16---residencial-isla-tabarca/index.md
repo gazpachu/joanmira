@@ -2,7 +2,8 @@
 title: "Residencial Isla Tabarca"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: "#071931"
+categories: web wordpress inverted
 ---
 
 <p class="align-center">

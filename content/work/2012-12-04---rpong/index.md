@@ -2,7 +2,8 @@
 title: "rPong demo"
 cover: "images/logo.jpg"
 location: UK
-categories: web
+color: white
+categories: wcrs open-source web installation prototype ux design cover webcam
 ---
 
 <p class="align-center">
@@ -12,7 +13,7 @@ categories: web
 
 ![](./images/1.jpg)
 
-UPDATE: Unfortunately, getUserMedia() no longer works without HTTPS, so the demo is not working. I will fix it whenever is posible. Thanks.
+UPDATE: Unfortunately, getUserMedia() no longer works without HTTPS, so the demo is not working.
 
 This is the second demo (first one was [rtshapes](http://joanmira.com/rtshapes)) of my series of experiments with real time shape recognition using HTML5 [getUserMedia](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia), [OpenCV](http://docs.opencv.org/3.1.0/d9/d6d/tutorial_table_of_content_aruco.html#gsc.tab=0) and [Box2D](https://github.com/hecht-software/box2dweb).
 

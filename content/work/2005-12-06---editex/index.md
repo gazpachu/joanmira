@@ -2,7 +2,8 @@
 title: "Editex desktop apps"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: white
+categories: flash narcea custom-cms
 ---
 
 ![](./images/1.jpg)

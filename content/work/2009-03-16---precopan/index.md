@@ -2,7 +2,8 @@
 title: "Precopan"
 cover: "images/logo.jpg"
 location: Spain
-categories: web
+color: white
+categories: web joomla design ux customer
 ---
 
 <p class="align-center">

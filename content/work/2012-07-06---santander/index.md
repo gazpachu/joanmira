@@ -2,7 +2,8 @@
 title: "Santander microsites, blog and apps"
 cover: "images/logo.jpg"
 location: UK
-categories: web
+color: "#fe0000"
+categories: wcrs web wordpress facebook inverted
 ---
 
 ![](./images/1.jpg)

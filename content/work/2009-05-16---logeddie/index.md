@@ -2,7 +2,8 @@
 title: "Logeddie"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: "#f5f5f5"
+categories: web joomla webprof
 ---
 
 As part of my partnership with WebsiteProfesional, I built a Joomla website for Logeddie, a logistic and transport company. It features standard corporate pages.

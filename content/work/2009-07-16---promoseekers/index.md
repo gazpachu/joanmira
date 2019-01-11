@@ -2,7 +2,8 @@
 title: "Promoseekers"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: white
+categories: web joomla ux design webmarket
 ---
 
 ![](./images/1.jpg)

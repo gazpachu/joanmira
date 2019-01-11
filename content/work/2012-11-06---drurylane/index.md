@@ -2,7 +2,8 @@
 title: "Drury Lane website"
 cover: "images/logo.jpg"
 location: UK
-categories: web
+color: white
+categories: wcrs web wordpress
 ---
 
 <p class="align-center">

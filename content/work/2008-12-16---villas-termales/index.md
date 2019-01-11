@@ -2,7 +2,8 @@
 title: "Villas termales"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: "#f5f5f5"
+categories: web flash animation custom-cms mysql php narcea
 ---
 
 <p class="align-center">

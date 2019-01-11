@@ -2,7 +2,8 @@
 title: "Save Guimaras"
 cover: "images/logo.jpg"
 location: Spain
-categories: web
+color: "#a9d4ff"
+categories: web wordpress ux design
 ---
 
 <p class="align-center">

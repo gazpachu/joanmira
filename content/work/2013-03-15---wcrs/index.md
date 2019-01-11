@@ -3,7 +3,7 @@ title: "WCRS Creative Work"
 cover: "images/logo.jpg"
 location: UK
 color: white
-categories: wcrs web wordpress animation
+categories: wcrs web wordpress animation webcam
 ---
 
 During my tenure at WCRS, I was involved in several brainstorms, promotional ideas, internal projects, hack evenings, small microsites and games. Some of them include:

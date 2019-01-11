@@ -2,7 +2,8 @@
 title: "GAZ New Media Design"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: black
+categories: web flash wordpress animation custom-cms joomla
 ---
 
 <p class="align-center">

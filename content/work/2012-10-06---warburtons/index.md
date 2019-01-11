@@ -2,7 +2,8 @@
 title: "Warburtons facebook app"
 cover: "images/logo.jpg"
 location: UK
-categories: web
+color: "#f08229"
+categories: wcrs web facebook inverted
 ---
 
 ![](./images/1.jpg)

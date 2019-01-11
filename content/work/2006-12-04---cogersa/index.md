@@ -2,7 +2,8 @@
 title: "Cogersa desktop app"
 cover: "images/logo.jpg"
 location: Spain
-categories: web
+color: white
+categories: flash ibcmass nitsnets
 ---
 
 <p class="align-center">
@@ -11,7 +12,7 @@ categories: web
 
 ![](./images/1.jpg)
 
-As part of my business relationship with [IBCMass](http://www.ibcmass.com/), I was asked to create an app for Cogersa to showcase the recycling hotspots in the province of asturias. The app reads an XML feed and loads all the information from an external source, which gets updated by a 3rd party software. Due to a high work load, I asked my partners at [Nitsnets](www.nitsnets.com) to develop this project, so in this case, I worked more as a project manager than a developer.
+As part of my business relationship with [IBCMass](http://www.ibcmass.com/), I was asked to create an app for Cogersa to showcase the recycling hotspots in the province of asturias. The app reads an XML feed and loads all the information from an external source, which gets updated by a 3rd party software. Due to a high work load, I asked my partners at [Nitsnets](www.nitsnets.com) to develop this project, so in this case, I worked more as a project manager than a developer/designer.
 
 ![](./images/2.jpg)
 

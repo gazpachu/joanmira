@@ -2,7 +2,8 @@
 title: "Philippines Gov. websites"
 cover: "images/logo.jpg"
 location: UK
-categories: web
+color: "#0769b3"
+categories: web ux design joomla wordpress inverted
 ---
 
 <p class="align-center">

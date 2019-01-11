@@ -2,7 +2,8 @@
 title: "La solidaridad"
 cover: "images/logo.jpg"
 location: Spain
-categories: web
+color: "#a3a2a8"
+categories: web flash joomla php-nuke ux design
 ---
 
 <p class="align-center">

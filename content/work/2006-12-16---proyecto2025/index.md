@@ -2,7 +2,8 @@
 title: "Proyecto 2025"
 cover: "images/logo.png"
 location: Spain
-categories: web
+color: white
+categories: web flash animation custom-cms ux design mysql php webmarket
 ---
 
 <p class="align-center">
