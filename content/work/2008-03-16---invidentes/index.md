@@ -3,7 +3,7 @@ title: "Invidentes"
 cover: "images/logo.png"
 location: Spain
 color: "#444"
-categories: web joomla webmarket
+categories: web joomla webmarket inverted
 ---
 
 <p class="align-center">

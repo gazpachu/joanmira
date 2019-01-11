@@ -3,7 +3,7 @@ title: "Render Render"
 cover: "images/logo.png"
 location: Spain
 color: black
-categories: web flash animation
+categories: web flash animation inverted
 ---
 
 <p class="align-center">

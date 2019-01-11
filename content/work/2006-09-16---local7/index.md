@@ -3,7 +3,7 @@ title: "Local7"
 cover: "images/logo.jpg"
 location: Spain
 color: "#94d5ff"
-categories: web mysql php web flash inverted custom-cms ux design webmarket
+categories: web mysql php web flash custom-cms ux design webmarket
 ---
 
 <p class="align-center">

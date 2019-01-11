@@ -125,6 +125,7 @@ export const categoryQuery = graphql`
           frontmatter {
             title
             location
+            color
             categories
             cover {
               children {

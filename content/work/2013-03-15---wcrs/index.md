@@ -2,7 +2,7 @@
 title: "WCRS Creative Work"
 cover: "images/logo.jpg"
 location: UK
-color: white
+color: "#f5f5f5"
 categories: wcrs web wordpress animation webcam
 ---
 
