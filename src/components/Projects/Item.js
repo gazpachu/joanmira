@@ -84,6 +84,8 @@ const Item = props => {
           :global(a) {
             text-decoration: none;
             color: black;
+            display: block;
+            height: 100%;
           }
 
           :global(.logo) {

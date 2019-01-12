@@ -7,7 +7,7 @@ categories: sapientnitro web prototype wordpress inverted
 ---
 
 
-![](../images/multi-device-top-secret.jpg)
+![](../multi-device-top-secret.jpg)
 
 As part of SapientNitro's pitching activities with Lloyds Bank, I was asked to build a microsite to encapsulate all the information, documents, videos and event logs.
 

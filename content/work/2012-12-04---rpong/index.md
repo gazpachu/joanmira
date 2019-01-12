@@ -13,8 +13,6 @@ categories: wcrs open-source web installation prototype ux design cover webcam
 
 ![](./images/1.jpg)
 
-UPDATE: Unfortunately, getUserMedia() no longer works without HTTPS, so the demo is not working.
-
 This is the second demo (first one was [rtshapes](http://joanmira.com/rtshapes)) of my series of experiments with real time shape recognition using HTML5 [getUserMedia](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia), [OpenCV](http://docs.opencv.org/3.1.0/d9/d6d/tutorial_table_of_content_aruco.html#gsc.tab=0) and [Box2D](https://github.com/hecht-software/box2dweb).
 
 While I was working as a creative technologist at [WCRS](http://www.wcrs.com/), I started to play with Box2d a lot. I was also experimenting with Kinect and [OpenFrameworks](http://openframeworks.cc/) to recognise shapes/blobs in real time, which led me to build some demos mixing both technologies.

@@ -6,10 +6,6 @@ color: white
 categories: web wordpress consultancy
 ---
 
-<p class="align-center">
-<a class="btn" href="http://tensionstudio.com" target="_blank">Launch website</a>
-</p>
-
 ![](./images/0.jpg)
 
 I met Josep Manen in 2002 and since then, we have partnered in many cultural and artistic projects. He's a very talented musician, specialiasing in sound engineering for multimedia productions and his website features his services and the projects he has created.

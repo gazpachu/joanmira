@@ -1,14 +1,10 @@
 ---
-title: "German Linares"
+title: "Germán Linares"
 cover: "images/logo.png"
 location: Spain
 color: "#292929"
 categories: web wordpress inverted
 ---
-
-<p class="align-center">
-<a class="btn" href="http://germanlinares.com/" target="_blank">Launch website</a>
-</p>
 
 ![](./images/1.jpg)
 
