@@ -153,7 +153,9 @@ Aside from web development, I also helped with the management of the dev team, o
 
 **June - July 2015**: lead developer for the creation of microsites for a high street bank pitch and incubation design service. Worked with [Handlebars](http://handlebarsjs.com/), [Assemble.io](http://assemble.io/), a custom static site generator, [LESS](http://lesscss.org/), [Grunt](http://gruntjs.com/), etc.
 
-**May 2015**: (individual work) created an artistic installation that lets users throw fireworks using their hands. The demo was built with [Kinect](http://en.wikipedia.org/wiki/Kinect) and [OpenFrameworks](http://openframeworks.cc/) for a creative technology event in SapientNitro's Spitalfields office. The demo is currently installed in [Eden House's exhibit area](https://www.youtube.com/watch?v=pgPIYp36Miw).
+**May 2015**: (individual work) created an artistic installation that lets users throw fireworks using their hands. The demo was built with [Kinect](http://en.wikipedia.org/wiki/Kinect) and [OpenFrameworks](http://openframeworks.cc/) for a creative technology event in SapientNitro's Spitalfields office. The demo was installed in Eden House's exhibit area:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pgPIYp36Miw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **April - May 2015**: lead developer for the creation of a [new mobile journey](https://m.saga.co.uk/insurance/car-insurance/get-quote/Vehicle) for the car insurance services of [SAGA](http://SAGA.co.uk). Using [MS Visual Studio 2012](https://www.visualstudio.com/), [.Net](https://www.microsoft.com/net), [LESS](http://lesscss.org/), [JavaScript](http://en.wikipedia.org/wiki/JavaScript), [HTML5](http://en.wikipedia.org/wiki/HTML5), [CSS3](http://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3), [jQuery](https://jquery.com/), [Knockout.js](http://knockoutjs.com/) and [Grunt](http://gruntjs.com/).
 
@@ -181,6 +183,8 @@ SapientNitro has lead M&S through quite literally the biggest multi-channel reta
 **Jul - Sep 2013**: worked on a microsite for the [ICA (Institute of Contemporary Art)](https://www.ica.org.uk/) in London called [The Art Rules](http://artrules.ica.org.uk). I was mainly focussed working on the physics and animations. Tech used includes: [Ruby on Rails (RoR)](http://rubyonrails.org/), [HAML](http://haml.info/), [Heroku](https://www.heroku.com/), [Github](https://github.com/) (including issue tracking), [SASS](http://sass-lang.com/), [CSS3](http://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3) animations and Javascript [Box2d 2D physics]([Box2d](https://code.google.com/p/box2dweb/)). It got [shortlisted in theFWA](http://www.thefwa.com/shortlist/art-rules) and showcased for a few months on [Eden House's coffee & exhibit space](https://instagram.com/p/jHwVviLfXP/?taken-by=gazpachu).
 
 ![](./images/sapient-devs.jpg "With my co-workers, Owen and Mark during 'frinks' (Friday drinks)")
+
+![](./images/sapient-toys.jpg "We had many toys...")
 
 ###Creative Technologist
 <h4><span class="tag red-tag">Aug 2012 - Jun 2013</span><a class="tag gold-tag" href="http://www.wcrs.com">WCRS</a><span class="tag blue-tag">Oxford Circus, London (UK)</span></h4>
@@ -238,6 +242,8 @@ Relevant articles:
 * [Our website, a look forward](http://www.roh.org.uk/news/our-website-a-look-forward)
 
 ![](./images/roh-dev-team.jpg "With my co-workers, Aaron and Jamie")
+
+[Read the full ROH case study](/roh)
 
 ###Co-founder, CTO & Web developer
 <h4><span class="tag red-tag">Sep 2006 - Jul 2012</span><a class="tag gold-tag" href="http://www.webmarket.es">Webmarket S.C.</a><span class="tag blue-tag">Alicante (Spain)</span></h4>

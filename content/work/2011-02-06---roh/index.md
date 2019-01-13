@@ -8,7 +8,9 @@ categories: web wordpress zend inverted
 
 The Royal Opera House was my first professional experience in the UK. I was hired as a Digital Developer by the Design & Development manager (former lead designer of BBC programs) with a very important objective: to completely rebuild the ROH website from scratch. A business critical project that required a major overhaul in the online ticketing system, server infrastructure, information architecture, user experience, content management and online shop to match the high standards of the organisation.
 
-At the beginning, the development team was very small (just the two of us). Once we understood the issues with the old website, we decided to start building [the news section](http://www.roh.org.uk/news), which is quite an isolated piece that could be driven by a Wordpress installation with custom theme and plugins.
+![](./images/roh-office.jpg "The development team was small but talented!. Just two developers and one designer/manager)")
+
+Once we understood the issues with the old website, we decided to start building [the news section](http://www.roh.org.uk/news), which is quite an isolated piece that could be driven by a Wordpress installation with custom theme and plugins.
 
 ![](./images/1.jpg "Screenshot of the ROH current news section")
 
@@ -68,3 +70,7 @@ It was a great professional experience and I learned a lot. It was also my first
 21/02/2012: [www.roh.org.uk/news/our-new-website-an-update-on-progress](http://www.roh.org.uk/news/our-new-website-an-update-on-progress)
 
 12/01/2012: [www.roh.org.uk/news/our-website-a-look-forward](http://www.roh.org.uk/news/our-website-a-look-forward)
+
+![](./images/roh-workspace.jpg "My workspace")
+
+![](./images/roh-team-2.jpg "The digital media team")

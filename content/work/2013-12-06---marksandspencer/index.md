@@ -25,3 +25,5 @@ SapientNitro has lead M&S through quite literally the biggest multi-channel reta
 ![](./images/6.jpg)
 
 ![](./images/7.jpg)
+
+![](./images/paddington.jpg "The M&S office was in Paddington area")

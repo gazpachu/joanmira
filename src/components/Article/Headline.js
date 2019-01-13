@@ -10,7 +10,7 @@ const Headline = props => {
         <h1>
           <Fragment>
             {title}
-            {prefix && prefix.length > 4 ? (
+            {prefix && prefix.length >= 4 ? (
               <time dateTime={prefix}>{prefix.substring(0, 4)}</time>
             ) : null}
           </Fragment>

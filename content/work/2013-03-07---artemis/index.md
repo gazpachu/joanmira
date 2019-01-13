@@ -16,4 +16,12 @@ While working at WCRS, I was asked to build an animated responsive HTML Artemis 
 
 I was also involved in several content updates for the Artemis website and newsletter.
 
+![](./images/wcrs-artemis-storyboard.jpg)
+
+![](./images/wcrs-artemis-storyboard2.jpg)
+
+![](./images/wcrs-artemis.jpg)
+
+![](./images/wcrs-artemis-taxi.jpg)
+
 ![](./images/2.jpg)

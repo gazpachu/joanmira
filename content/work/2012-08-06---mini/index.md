@@ -15,3 +15,5 @@ In this particular application of the technology, the user had to stare for as l
 ![](./images/2.jpg)
 
 ![](./images/3.jpg)
+
+![](./images/mini-wcrs.jpg)

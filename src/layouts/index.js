@@ -136,6 +136,7 @@ class Layout extends React.Component {
                   font-size: 14px;
                   font-style: italic;
                   color: #888;
+                  margin-top: 5px;
                   margin-bottom: 40px;
                 }
                 .align-center {

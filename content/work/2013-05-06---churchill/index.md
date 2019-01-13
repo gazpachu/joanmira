@@ -31,3 +31,5 @@ While I was working at [WCRS](http://www.wcrs.com/) as a creative technologist, 
 ![](./images/11.jpg)
 
 ![](./images/12.jpg)
+
+![](./images/churchill-birthday.jpg)

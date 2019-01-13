@@ -31,3 +31,5 @@ Once we went live with the site, I continued involved in the project for a few w
 ![](./images/5.jpg)
 
 ![](./images/6.jpg)
+
+![](./images/dimitri-bt.jpg "My co-worker Dimitri thinking...")
