@@ -48,7 +48,7 @@ h4 {
 <div class="highlight">
   <p>A pixel-focused, creative, positive, curious, tidy and proactive all-around senior <strong>front-end engineer / interactive developer / web designer</strong> with 18 years of experience.</p>
 
-  <p><strong>Loves learning</strong> new stuff, organising and <strong>making things look pretty</strong>, being challenged on ambitious long projects or code beautiful interactive and innovative experiences.</p>
+  <p><strong>Loves to learn</strong> new stuff, organise and <strong>make things look pretty</strong>, be challenged on ambitious projects or code beautiful interactive and innovative experiences.</p>
 
   <ul style="margin-bottom: 0">
     <li>Autodidact. Extensive education in computer science, multimedia & web design</li>
@@ -61,9 +61,9 @@ h4 {
 
 ##Skills
 
-In the past I have worked as a full-stack developer and web designer, but the current complexity of the Internet led me to focus primary in the front-end, although I still like to play with servers and design interfaces.
+In the past I have worked as a full-stack developer and web designer, but the current complexity of the web industry led me to focus primary in the front-end, although I still like to play with servers and design interfaces.
 
-My interests are more aligned with the **creative tracks** (the visual, artistic, interactive and UI/UX side of the front-end work). Although I'm also experienced and comfortable with all the other aspects of the front-end work
+My interests are more aligned with the **creative tracks** (the visual, artistic, interactive and UI/UX side of the front-end work). Although I'm also experienced and comfortable with all the other aspects of the front-end work, like dealing with APIs, tooling/configuration, architecture, unit tests, etc.
 
 Currently, [ReactJS](https://facebook.github.io/react) and [Styled-Components](https://styled-components.com) are my favourite front-end technologies, but I'm also learning [GatsbyJS](https://www.gatsbyjs.org/) and [GraphQL](http://graphql.org/).
 
@@ -122,7 +122,9 @@ Currently, [ReactJS](https://facebook.github.io/react) and [Styled-Components](h
 
 * Conceptualised, designed, built, tested and supported web apps (mostly SPAs) for the sales & digital operations of the Vodafone Global Enterprise division. Some of them were intended to aid the sales team with the visualisation of the pipeline, revenue and sales forecast, data quality, sales opportunities and other data related with performance. Others were more related with internal comms, problem solving and HR.
 
-* Worked with data scientists, business analysts, back-end developers and designers to improve sales performance & management in Vodafone
+* Worked 95% of the time remotely from different countries and used tools like slack, github and skype to communicate and manage our agile work methodology
+
+* Collaborated with data scientists, business analysts, back-end developers and designers to improve sales performance & productivity in the organisation
 
 * Successfully led the migration from jQuery/Angular to a React based architecture for all apps by creating a custom boilerplate
 
@@ -133,6 +135,8 @@ Currently, [ReactJS](https://facebook.github.io/react) and [Styled-Components](h
 * Identified the need of improving the UI consistency and led the creation of a UI library (based on React) and a design system
 
 * Also worked with VueJS, Webpack, Highcharts, D3, MaterialUI, WebRTC, Express, CircleCI, GhostJS, HoneyBadger, CodeClimate, Jest, React testing library, JSON API, REST, etc
+
+![](./images/vodafone-home-desk.jpg "My home desk except in winter season :-)")
 
 ###Senior interactive developer
 <h4><span class="tag red-tag">Jul 2013 - Nov 2015</span><a class="tag gold-tag" href="http://sapientnitro.com">SapientNitro</a><span class="tag blue-tag">Spitalfields, London (UK)</span></h4>
@@ -176,10 +180,12 @@ SapientNitro has lead M&S through quite literally the biggest multi-channel reta
 
 **Jul - Sep 2013**: worked on a microsite for the [ICA (Institute of Contemporary Art)](https://www.ica.org.uk/) in London called [The Art Rules](http://artrules.ica.org.uk). I was mainly focussed working on the physics and animations. Tech used includes: [Ruby on Rails (RoR)](http://rubyonrails.org/), [HAML](http://haml.info/), [Heroku](https://www.heroku.com/), [Github](https://github.com/) (including issue tracking), [SASS](http://sass-lang.com/), [CSS3](http://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3) animations and Javascript [Box2d 2D physics]([Box2d](https://code.google.com/p/box2dweb/)). It got [shortlisted in theFWA](http://www.thefwa.com/shortlist/art-rules) and showcased for a few months on [Eden House's coffee & exhibit space](https://instagram.com/p/jHwVviLfXP/?taken-by=gazpachu).
 
+![](./images/sapient-devs.jpg "With my co-workers, Owen and Mark during 'frinks' (Friday drinks)")
+
 ###Creative Technologist
 <h4><span class="tag red-tag">Aug 2012 - Jun 2013</span><a class="tag gold-tag" href="http://www.wcrs.com">WCRS</a><span class="tag blue-tag">Oxford Circus, London (UK)</span></h4>
 
-[WCRS](http://www.wcrs.com) belongs to the [Engine Group](http://www.theenginegroup.com), which is the [number #5 digital agency in the UK](http://econsultancy.com/uk/reports/top-100-digital-agencies).
+[WCRS](http://www.wcrs.com) belongs to the [Engine Group](http://www.theenginegroup.com), which was the number #5 digital agency in the UK at the time of my tenure.
 
 During my tenure at WCRS, I worked on these accounts: [BMW](https://www.bmw.co.uk), [MINI](http://www.mini.co.uk/), [Santander](http://www.santander.co.uk/), [Sky](http://www.sky.com/), [Subway](http://www.subway.co.uk/), [Bupa](http://www.bupa.co.uk/), [Unilever](http://www.unilever.co.uk/), [Warburtons](http://www.warburtons.co.uk/), [Royal Navy](http://www.royalnavy.mod.uk/), [Churchill](http://www.churchill.com/), [Artemis](http://www.artemis.co.uk/) and [B&Q](http://www.diy.com/).
 
@@ -210,6 +216,8 @@ UPDATE: the articles are no longer available at WCRS' blog, so I replaced the li
 * [An introduction to mobile development](https://www.wcrs.com/wp-content/uploads/2013/02/Mobile-Development.pdf)
 * [If content is king, data is queen](/english-if-content-is-king-data-is-queen/)
 
+![](./images/wcrs-tech-team.jpg "My co-worker, Silvia Rebelo, showing our new Tech Team area")
+
 ###Digital developer
 <h4><span class="tag red-tag">Feb 2011 - Sep 2012</span><a class="tag gold-tag" href="http://www.roh.org.uk">Royal Opera House</a><span class="tag blue-tag">Covent Garden, London (UK)</span></h4>
 
@@ -228,6 +236,8 @@ Relevant articles:
 
 * [Our new website](http://www.roh.org.uk/news/our-new-website-an-update-on-progress)
 * [Our website, a look forward](http://www.roh.org.uk/news/our-website-a-look-forward)
+
+![](./images/roh-dev-team.jpg "With my co-workers, Aaron and Jamie")
 
 ###Co-founder, CTO & Web developer
 <h4><span class="tag red-tag">Sep 2006 - Jul 2012</span><a class="tag gold-tag" href="http://www.webmarket.es">Webmarket S.C.</a><span class="tag blue-tag">Alicante (Spain)</span></h4>
@@ -304,47 +314,7 @@ IT support to update the company software installed on the customers machines to
 
 Homologated in the EU. Euro-Inf certified. 60 ECTS = 1700 hours
 
-Multimedia foundations
-Video
-English I, II
-Programming
-Mathematics I, II
-Interactive narrative
-Information architecture
-Administration and management of organisations
-Languages ​​and Web Standards
-Graphic Design
-Image and visual language
-Web Programming
-3D graphics
-Physics
-Animation
-Design of interfaces
-Integrating digital content
-Networks
-Database Design
-Interactive Media
-Processing and publication of image and video
-Audio editing and publishing
-Digital composition
-Project Management
-Market and legislation
-Methodology and project development
-Creativity and aesthetics
-Digital Photography
-Advanced Web Programming
-Safety and quality in web servers
-User Testing
-Usability
-Virtual Reality
-Interaction Design
-Content Management Systems
-Publication and distribution platforms
-Audiovisual documentation
-Software Engineering
-OO Design and programming
-Analysis and design patterns
-Entrepreneurship of organisations
+Multimedia foundations, Video, English I, II, Programming, Mathematics I, II, Interactive narrative, Information architecture, Administration and management of organisations, Languages ​​and Web Standards, Graphic Design, Image and visual language, Web Programming, 3D graphics, Physics, Animation, Design of interfaces, Integrating digital content, Networks, Database Design, Interactive Media, Processing and publication of image and video, Audio editing and publishing, Digital composition, Project Management, Market and legislation, Methodology and project development, Creativity and aesthetics, Digital Photography, Advanced Web Programming, Safety and quality in web servers, User Testing, Usability, Virtual Reality, Interaction Design, Content Management Systems, Publication and distribution platforms, Audiovisual documentation, Software Engineering, OO Design and programming, Analysis and design patterns, Entrepreneurship of organisations.
 
 ###Certificate in profesional videogames creation (1 year)
 ####<span class="tag red-tag">Oct 2002 - Jun 2003</span><a class="tag gold-tag" href="http://www.upf.edu/en/">Universitat Pompeu Fabra</a><span class="tag blue-tag">Barcelona (Spain)</span>
