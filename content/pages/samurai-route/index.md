@@ -2,17 +2,6 @@
 title: "The Samurai Route"
 ---
 
-<style>
-.thumb-desc .gatsby-resp-image-wrapper {
-  float: left;
-  width: 150px;
-  margin-right: 10px !important;
-  margin-bottom: 10px;
-  border: 1px solid #888;
-  padding: 4px;
-}
-</style>
-
 <p class="align-center">
 <a class="btn" href="http://rutasamurai.herokuapp.com" target="_blank">Launch archived website</a>
 </p>
@@ -33,32 +22,24 @@ There are also a [few blog entries related with the trip](/category/samurai-rout
 
 ### Sponsored by
 
-<div class="thumb-desc clearfix"><a href="http://www.bagster.com/es/"><img class="thumb" src="./images/bagster_xz9rpk.jpg" /></a>
-<p class="desc"><a href="http://www.bagster.com/es/">Bagster</a> designs and manufactures increasingly practical and innovative items for motorcycle travels. Trades in virtually 100% of the outlets and facilities for motorcycles. For the Samurai Route, Bagster sponsored us with mittens, deposit bags and backpacks.</p></div>
+![](./images/sponsors.jpg)
 
-<div class="thumb-desc clearfix"><a href="http://www.creacionescasbas.com/"><img class="thumb" src="./images/casbas_ijnkdl.jpg" /></a>
-<p class="desc"><a href="http://www.creacionescasbas.com/">Winter Mountain / Casbas Creations</a> is the 6th Generation of mountain clothing fashion designers and manufacturers. They produce garments for the best and most representative firms nationally and internationally, such as Mango, Nike, Kikers, Trango among others.</p></div>
+[Bagster](http://www.bagster.com/es/) designs and manufactures increasingly practical and innovative items for motorcycle travels. Trades in virtually 100% of the outlets and facilities for motorcycles. For the Samurai Route, Bagster sponsored us with mittens, deposit bags and backpacks.
 
-<div class="thumb-desc clearfix"><a href="http://explorasur.com/"><img class="thumb" src="./images/explorasur_bmo6s4.jpg" /></a>
-<p class="desc"><a href="http://explorasur.com/">Explora Sur</a> is a shop with items for: climbing, caving, canyoning, hiking, cycling and running, textile, camping, etc. They are totally reliable and have very good prices. The best that can be found on the Internet!</p></div>
+[Winter Mountain / Casbas Creations](http://www.creacionescasbas.com/) is the 6th Generation of mountain clothing fashion designers and manufacturers. They produce garments for the best and most representative firms nationally and internationally, such as Mango, Nike, Kikers, Trango among others.
 
-<div class="thumb-desc clearfix"><a href="http://www.pionono.es/"><img class="thumb" src="./images/pionono_rslie8.jpg" /></a>
-<p class="desc"><a href="http://www.pionono.es/">Pionono</a> creates delicious treats that cannot be explained. You have to try them!. They are proud to offer a home-made craft product of Santa Fe, Granada. Check the <a href="https://www.youtube.com/watch?v=So5_lX2Cgn4">promo video for the Samurai Route</a>.</p></div>
+[Explora Sur](http://explorasur.com/) is a shop with items for: climbing, caving, canyoning, hiking, cycling and running, textile, camping, etc. They are totally reliable and have very good prices. The best that can be found on the Internet!
 
-<div class="thumb-desc clearfix"><a href="http://www.midland.es/"><img class="thumb" src="./images/midland_logo_uukqca.jpg" /></a>
-<p class="desc"><a href="http://www.midland.es/">Midland</a> is the famous company behind the Bluetooth Walkie intercom that we used and gave us everything we needed! GPS connection, Walki, telephone, MP3, PMR446 and PTT.</p></div>
+[Pionono](http://www.pionono.es/) creates delicious treats that cannot be explained. You have to try them!. They are proud to offer a home-made craft product of Santa Fe, Granada. Check the <a href="https://www.youtube.com/watch?v=So5_lX2Cgn4">promo video for the Samurai Route</a>.
 
-<div class="thumb-desc clearfix"><a href="http://shambala-roerich.com/"><img class="thumb" src="./images/roerich_xym3c4.jpg" /></a>
-<p class="desc"><a href="http://shambala-roerich.com/">Roerich Museum House</a> is managed by Leonardo and Petri. They maintained it with great effort since the non-profit ADA Roerich Association was founded in 1997. Its objective is to bring inspiration, beauty, contemplation and education about the Roerich to the current society. They are leaders in Spain in the Roerich culture and philosophy and their success depends on the good will of those who have awakened the vision, understanding and compassion. This is the challenge today. If you appreciate their efforts will understand the need for extensive financial support from those who are committed to peace, service and culture of synthesis. Your contribution will be well used and gratefully received. Thank you.</p></div>
+[Midland](http://www.midland.es/) is the famous company behind the Bluetooth Walkie intercom that we used and gave us everything we needed! GPS connection, Walki, telephone, MP3, PMR446 and PTT.
 
-<div class="thumb-desc clearfix"><a href="http://www.ayto-coriadelrio.es/"><img class="thumb"src="./images/coria_del_rio_wkxyvw.jpg" /></a>
-<p class="desc"><a href="http://www.ayto-coriadelrio.es/">The council house of Coria del Rio</a> helped us prepare the trip. They also gave us a gift and a letter for the council of the Japanese city of Sendai.</p></div>
+[Roerich Museum House](http://shambala-roerich.com/) is managed by Leonardo and Petri. They maintained it with great effort since the non-profit ADA Roerich Association was founded in 1997. Its objective is to bring inspiration, beauty, contemplation and education about the Roerich to the current society. They are leaders in Spain in the Roerich culture and philosophy and their success depends on the good will of those who have awakened the vision, understanding and compassion. This is the challenge today. If you appreciate their efforts will understand the need for extensive financial support from those who are committed to peace, service and culture of synthesis. Your contribution will be well used and gratefully received. Thank you.
 
-<div class="thumb-desc clearfix"><a href="#"><img class="thumb" src="./images/estampalicante2_ofy6rf.jpg" /></a>
-<p class="desc"><a href="#">EstampAlicante</a> specializes in t-shirt printing and provided the official Samurai Route t-shirts, available is the following sizes: XS, S, M, L and XL.</p></div>
+[The council house of Coria del Rio](http://www.ayto-coriadelrio.es/) helped us prepare the trip. They also gave us a gift and a letter for the council of the Japanese city of Sendai.
 
-<div class="thumb-desc clearfix"><a href="http://www.altairblog.com/"><img class="thumb" src="./images/altair_gjvjmy.jpg" /></a>
-<p class="desc"><a href="http://www.altairblog.com/">Altaïr</a> helped us promote the Samurai Route story and gave us copies of the magazine.</p></div>
+EstampAlicante specializes in t-shirt printing and provided the official Samurai Route t-shirts, available is the following sizes: XS, S, M, L and XL.
 
-<div class="thumb-desc clearfix"><a href="http://www.kmcero.es/"><img class="thumb" src="./images/kmcero_pjpd4h.jpg" /></a>
-<p class="desc"><a href="http://">Km Zero</a> provided us with maximum coverage motorcycle insurance in Russia and Mongolia. They also offered us a large space in their magazine to publish promote the adventure and gave us some shirts, anti-puncture foam, patches for clothing, backpacks, scarves, earplugs,...</p></div>
+[Altaïr](http://www.altairblog.com/) helped us promote the Samurai Route story and gave us copies of the magazine.
+
+[Km Zero](http://www.kmcero.es/) provided us with maximum coverage motorcycle insurance in Russia and Mongolia. They also offered us a large space in their magazine to publish promote the adventure and gave us some shirts, anti-puncture foam, patches for clothing, backpacks, scarves, earplugs,...

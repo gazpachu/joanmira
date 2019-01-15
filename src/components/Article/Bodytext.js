@@ -45,11 +45,14 @@ const Bodytext = props => {
             color: ${theme.color.brand.primary};
             text-decoration: underline;
           }
+          :global(.gatsby-resp-image-wrapper) {
+            width: 126%;
+            max-width: none !important;
+            margin: 0 -13% !important;
+          }
           :global(a.gatsby-resp-image-link) {
             border: 0;
             display: block;
-            margin: 1em 0;
-            overflow: hidden;
           }
           :global(code.language-text) {
             background: ${theme.color.neutral.gray.c};
