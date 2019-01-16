@@ -3,15 +3,15 @@ import { ThemeContext } from "../layouts";
 import { Link } from "gatsby";
 import Headline from "../components/Article/Headline";
 import Pach from "../images/png/pach.png";
-import Calpe from "../images/jpg/calpe.jpg";
+import Palmeral from "../images/jpg/palmeral.jpg";
 import Elephant from "../images/jpg/elephant.jpg";
 import London1 from "../images/jpg/london1.jpg";
 import Aitana from "../images/jpg/aitana.jpg";
 import Bob from "../images/jpg/bob.jpg";
 import Remo from "../images/jpg/remo.jpg";
 import Moraig from "../images/jpg/moraig.jpg";
-import Me from "../images/jpg/pach.jpg";
-import Granada from "../images/jpg/granada.jpg";
+import Tapas from "../images/jpg/tapas.jpg";
+import Postiguet from "../images/jpg/postiguet.jpg";
 import Paris from "../images/jpg/paris.jpg";
 import USA from "../images/jpg/usa.jpg";
 import Tokyo from "../images/jpg/tokyo.jpg";
@@ -51,18 +51,18 @@ const AboutPage = () => (
           </div>
 
           <div className="slide clearfix gallery">
-            <div title="From London to Alicante by motorbike"><img src={Paris} alt="From London to Alicante by motorbike" /></div>
+            <div title="Tapas & Pinchos in San Sebastian"><img src={Tapas} alt="Tapas & Pinchos in San Sebastian" /></div>
             <div title="In the Grand Canyon of Colorado"><img src={USA} alt="In the Grand Canyon of Colorado" /></div>
             <div title="Tokyo, my favourite city"><img src={Tokyo} alt="Tokyo, my favourite city" /></div>
-            <div title="Penyal d'Ifac from Toix in Calpe"><img src={Calpe} alt="Penyal d'Ifac from Toix in Calpe" /></div>
+            <div title="Palmeral park in Alicante"><img src={Palmeral} alt="Palmeral park in Alicante" /></div>
             <div title="In Elephant & Castle, London"><img src={Elephant} alt="In Elephant & Castle, London" /></div>
             <div title="Cycling in London with Ari"><img src={London1} alt="Cycling in London with Ari" /></div>
             <div title="Aitana mountain from Sella"><img src={Aitana} alt="Aitana from Sella" /></div>
+            <div title="Postiguet beach in Alicante"><img src={Postiguet} alt="Postiguet beach in Alicante" /></div>
             <div title="With my father"><img src={Bob} alt="With my father" /></div>
             <div title="Regatta in Santa Pola. We won!"><img src={Remo} alt="Regatta in Santa Pola. We won!" /></div>
             <div title="Moraig cove in Alicante"><img src={Moraig} alt="Moraig cove in Alicante" /></div>
-            <div title="Selfie in Albir beach"><img src={Me} alt="Selfie in Albir beach" /></div>
-            <div title="In the Alhambra, Granada"><img src={Granada} alt="In the Alhambra, Granada" /></div>
+            <div title="From London to Alicante by motorbike"><img src={Paris} alt="From London to Alicante by motorbike" /></div>
           </div>
 
           <style jsx>{`
