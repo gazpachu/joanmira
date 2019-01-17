@@ -9,6 +9,7 @@ import Cursor from "../../images/gif/cursor.gif";
 const Header = props => {
   const { theme, path } = props;
   const inverted = path === "/" ? "inverted" : "";
+  console.log(path);
 
   return (
     <Fragment>
