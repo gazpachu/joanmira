@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Joan Mira - Front-end Engineer / Creative Interactive Developer]]></title><description><![CDATA[Personal website of Joan Mira. A front-end engineer and code artist]]></description><link>https://v8.joanmira.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 17 Jan 2019 11:08:20 GMT</lastBuildDate><item><title><![CDATA[Move your React JSON API project from Redux to MobX]]></title><description><![CDATA[After a few projects using Redux, I’ve realised that it might not be the best solution for all kind of projects. Don’t get me wrong, redux…]]></description><link>https://v8.joanmira.com/move-your-react-json-api-project-from-redux-to-mobx/</link><guid isPermaLink="false">https://v8.joanmira.com/move-your-react-json-api-project-from-redux-to-mobx/</guid><content:encoded>&lt;p&gt;After a few projects using Redux, I’ve realised that it might not be the best solution for all kind of projects. Don’t get me wrong, redux works great, but I tend to find myself procrastinating a bit whenever I have to add a new value to the state tree. Perhaps is due to the amount of code required to do it.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Joan Mira - Front-end Engineer / Creative Interactive Developer]]></title><description><![CDATA[Personal website of Joan Mira. A front-end engineer and code artist]]></description><link>https://v8.joanmira.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 17 Jan 2019 12:11:37 GMT</lastBuildDate><item><title><![CDATA[Move your React JSON API project from Redux to MobX]]></title><description><![CDATA[After a few projects using Redux, I’ve realised that it might not be the best solution for all kind of projects. Don’t get me wrong, redux…]]></description><link>https://v8.joanmira.com/move-your-react-json-api-project-from-redux-to-mobx/</link><guid isPermaLink="false">https://v8.joanmira.com/move-your-react-json-api-project-from-redux-to-mobx/</guid><content:encoded>&lt;p&gt;After a few projects using Redux, I’ve realised that it might not be the best solution for all kind of projects. Don’t get me wrong, redux works great, but I tend to find myself procrastinating a bit whenever I have to add a new value to the state tree. Perhaps is due to the amount of code required to do it.&lt;/p&gt;
 &lt;p&gt;Anyway, this post is going to be about MobX. I will explain step by step the changes I had to do to make it work. Note that I am also using JSON API, so I will cover this aspect as well.&lt;/p&gt;
 &lt;p&gt;First of all, you need to remove all the redux packages and references from your codebase. Then you have to install the following babel plugins to allow the use of decorators.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;yarn add babel&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;plugin&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;transform&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;decorators&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;legacy &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;D&lt;/span&gt;
@@ -7954,40 +7954,7 @@ io&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;socket&lt;span c
     &lt;/p&gt;
 &lt;video class=&quot;full-img&quot; style=&quot;border: 1px solid #CCC; border-radius: 30px;&quot; width=&quot;100%&quot; controls&gt;
     &lt;source src=&quot;/kittitian-a69c2e8840e097706cf512c3fcddf7ce.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-&lt;/video&gt;</content:encoded></item><item><title><![CDATA[Philippines Gov. websites]]></title><description><![CDATA[While directing Webmarket.es, I partnered with the Philippines government to build a few websites for their embassies and investment centres…]]></description><link>https://v8.joanmira.com/philippines/</link><guid isPermaLink="false">https://v8.joanmira.com/philippines/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
-&lt;a class=&quot;btn&quot; href=&quot;http://investphilippines.org/siliconvalley/&quot; target=&quot;_blank&quot;&gt;Invest Philippines USA&lt;/a&gt;
-&lt;a class=&quot;btn&quot; href=&quot;http://philembassy.herokuapp.com/&quot; target=&quot;_blank&quot;&gt;Philippine Embassy London (archived version)&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 34.9%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB0pCwf//EABkQAAMAAwAAAAAAAAAAAAAAAAECAwAREv/aAAgBAQABBQLhgAlMWba//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGRABAAMBAQAAAAAAAAAAAAAAAQACIYGR/9oACAEBAAY/AkF9mWezbT//xAAbEAACAQUAAAAAAAAAAAAAAAAAAREhMVGBkf/aAAgBAQABPyGdxPBAdblkXAez/9oADAMBAAIAAwAAABBzz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABoQAQACAwEAAAAAAAAAAAAAAAEAESExUYH/2gAIAQEAAT8QM9U9m8clGoFHAa5HpQW7Vep//9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;1&quot;
-        title=&quot;&quot;
-        src=&quot;/static/e22886f9a48579a53a36c1aea04a7002/877ff/1.jpg&quot;
-        srcset=&quot;/static/e22886f9a48579a53a36c1aea04a7002/d2504/1.jpg 500w,
-/static/e22886f9a48579a53a36c1aea04a7002/877ff/1.jpg 1000w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  &lt;/p&gt;
-&lt;p&gt;While directing Webmarket.es, I partnered with the Philippines government to build a few websites for their embassies and investment centres:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Trade and investment centre in the UK (Joomla)&lt;/li&gt;
-&lt;li&gt;Philippine embassy in Brussels (Joomla)&lt;/li&gt;
-&lt;li&gt;Philippine embassy in London (Wordpress)&lt;/li&gt;
-&lt;li&gt;Trade and investment centre in the USA (Wordpress)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The oldest websites were built with Joomla (only desktop view) while the new ones were built with Wordpress and were fully responsive. In both cases, I used a custom template and graphic design.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[QRCube game]]></title><description><![CDATA[QRCube is a trivial game that uses QR Codes to trigger the questions. It’s built using a custom template (50x50x50 mm) that you need to…]]></description><link>https://v8.joanmira.com/qrcube/</link><guid isPermaLink="false">https://v8.joanmira.com/qrcube/</guid><content:encoded>&lt;p&gt;
+&lt;/video&gt;</content:encoded></item><item><title><![CDATA[QRCube game]]></title><description><![CDATA[QRCube is a trivial game that uses QR Codes to trigger the questions. It’s built using a custom template (50x50x50 mm) that you need to…]]></description><link>https://v8.joanmira.com/qrcube/</link><guid isPermaLink="false">https://v8.joanmira.com/qrcube/</guid><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/fa22a9fd530f1183689a3ee1d952c382/877ff/1.jpg&quot;
@@ -8022,9 +7989,9 @@ io&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;socket&lt;span c
 &lt;p&gt;QRCube is a trivial game that uses QR Codes to trigger the questions. It’s built using a custom template (50x50x50 mm) that you need to print and glue to form a cube.&lt;/p&gt;
 &lt;p&gt;Each side has a QR Code with a different color and represents a team or a player. Each team has to throw the cube by turns and scan the code on top. After scanning, you get redirected to a URL with a random question for the team whose color corresponds to the code scanned.&lt;/p&gt;
 &lt;p&gt;The app allows the players and teams to signup (to create their own QR code) and join the game and also keeps track of the correct/failed answers.&lt;/p&gt;
-&lt;p&gt;UPDATE: Sorry, I wasn’t able to upload the source code yet, as  it is currently mixed with other business logic.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[rPong demo]]></title><description><![CDATA[This is the second demo (first one was  rtshapes ) of my series of experiments with real time shape recognition using HTML5  getUserMedia…]]></description><link>https://v8.joanmira.com/rpong/</link><guid isPermaLink="false">https://v8.joanmira.com/rpong/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
-&lt;a class=&quot;btn&quot; href=&quot;http://open.joanmira.com/rpong&quot; target=&quot;_blank&quot;&gt;Launch website&lt;/a&gt;
-&lt;a class=&quot;btn&quot; href=&quot;https://github.com/gazpachu/rpong&quot; target=&quot;_blank&quot;&gt;Source code&lt;/a&gt;
+&lt;p&gt;UPDATE: Sorry, I wasn’t able to upload the source code yet, as  it is currently mixed with other business logic.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Philippines Gov. websites]]></title><description><![CDATA[While directing Webmarket.es, I partnered with the Philippines government to build a few websites for their embassies and investment centres…]]></description><link>https://v8.joanmira.com/philippines/</link><guid isPermaLink="false">https://v8.joanmira.com/philippines/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+&lt;a class=&quot;btn&quot; href=&quot;http://investphilippines.org/siliconvalley/&quot; target=&quot;_blank&quot;&gt;Invest Philippines USA&lt;/a&gt;
+&lt;a class=&quot;btn&quot; href=&quot;http://philembassy.herokuapp.com/&quot; target=&quot;_blank&quot;&gt;Philippine Embassy London (archived version)&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;
   &lt;span
@@ -8033,47 +8000,29 @@ io&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;socket&lt;span c
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 75.6%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABfXQWxA8K/8QAGxAAAgIDAQAAAAAAAAAAAAAAAAIBAxESIRP/2gAIAQEAAQUCxxFjavh5MIjyLWf/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8BxH//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPwGn/8QAHxAAAgECBwAAAAAAAAAAAAAAAAECEVExMkFxcoKR/9oACAEBAAY/ApN3ua+ktzOqcTGK6jrKrZ//xAAbEAEBAAIDAQAAAAAAAAAAAAABEQAhMVFh0f/aAAgBAQABPyGNnz3XeQSo9WJgWHbwyAhsLGsSaw8/cUqwuiZ//9oADAMBAAIAAwAAABAE/wD/xAAXEQEBAQEAAAAAAAAAAAAAAAABABEh/9oACAEDAQE/EB49hgDf/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAgEBPxB0iT12/8QAHBABAAIDAQEBAAAAAAAAAAAAAQARITFBUWFx/9oACAEBAAE/EFmGtK9J7GIYzl8/ZeI4Ip6dlumoHS1d39iBphJEckBE6DWfJ//Z&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 34.9%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB0pCwf//EABkQAAMAAwAAAAAAAAAAAAAAAAECAwAREv/aAAgBAQABBQLhgAlMWba//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGRABAAMBAQAAAAAAAAAAAAAAAQACIYGR/9oACAEBAAY/AkF9mWezbT//xAAbEAACAQUAAAAAAAAAAAAAAAAAAREhMVGBkf/aAAgBAQABPyGdxPBAdblkXAez/9oADAMBAAIAAwAAABBzz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABoQAQACAwEAAAAAAAAAAAAAAAEAESExUYH/2gAIAQEAAT8QM9U9m8clGoFHAa5HpQW7Vep//9k=&apos;); background-size: cover; display: block;&quot;
     &gt;
       &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
         alt=&quot;1&quot;
         title=&quot;&quot;
-        src=&quot;/static/d19d5116d720d10314e63bba8b6eb5b5/877ff/1.jpg&quot;
-        srcset=&quot;/static/d19d5116d720d10314e63bba8b6eb5b5/d2504/1.jpg 500w,
-/static/d19d5116d720d10314e63bba8b6eb5b5/877ff/1.jpg 1000w&quot;
+        src=&quot;/static/e22886f9a48579a53a36c1aea04a7002/877ff/1.jpg&quot;
+        srcset=&quot;/static/e22886f9a48579a53a36c1aea04a7002/d2504/1.jpg 500w,
+/static/e22886f9a48579a53a36c1aea04a7002/877ff/1.jpg 1000w&quot;
         sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
   &lt;/p&gt;
-&lt;p&gt;This is the second demo (first one was &lt;a href=&quot;http://joanmira.com/rtshapes&quot;&gt;rtshapes&lt;/a&gt;) of my series of experiments with real time shape recognition using HTML5 &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia&quot;&gt;getUserMedia&lt;/a&gt;, &lt;a href=&quot;http://docs.opencv.org/3.1.0/d9/d6d/tutorial_table_of_content_aruco.html#gsc.tab=0&quot;&gt;OpenCV&lt;/a&gt; and &lt;a href=&quot;https://github.com/hecht-software/box2dweb&quot;&gt;Box2D&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;While I was working as a creative technologist at &lt;a href=&quot;http://www.wcrs.com/&quot;&gt;WCRS&lt;/a&gt;, I started to play with Box2d a lot. I was also experimenting with Kinect and &lt;a href=&quot;http://openframeworks.cc/&quot;&gt;OpenFrameworks&lt;/a&gt; to recognise shapes/blobs in real time, which led me to build some demos mixing both technologies.&lt;/p&gt;
-&lt;p&gt;In this HTML5 demo, I’m using a webcam to get a live video stream of some shapes drawn in a paper sheet. These video is analysed with JavaScript (using OpenCV) to identify the shapes. Once we have the 2D coordinates of those shapes, I use Box2d to create their representation in the Box2d world.&lt;/p&gt;
-&lt;p&gt;In the following image, you can see the pieces of paper that are being used to create the pads that will interact with the ball. One pad corresponds to to goalkeeper and the other one to the platform that is used to bounce the ball to try to score a goal.&lt;/p&gt;
-&lt;p&gt;
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 800px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAGiduUVCSP/xAAaEAACAwEBAAAAAAAAAAAAAAAAAgEDEgQU/9oACAEBAAEFAmUlTJa2a46pPQp//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGRAAAwADAAAAAAAAAAAAAAAAAAECECEx/9oACAEBAAY/AsujcnGf/8QAGhAAAgIDAAAAAAAAAAAAAAAAAAEhQRARcf/aAAgBAQABPyGTBKi6mlBRnwWoP//aAAwDAQACAAMAAAAQcz//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8QZH//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAcEAACAgIDAAAAAAAAAAAAAAABEQAhMUFRYXH/2gAIAQEAAT8QFZAy7AhYSQLNVFdkm51Hx7ZKJmLqf//Z&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;2&quot;
-        title=&quot;&quot;
-        src=&quot;/static/c8a0ede209c61745801fd8ba03f1cbca/1cc37/2.jpg&quot;
-        srcset=&quot;/static/c8a0ede209c61745801fd8ba03f1cbca/7eff5/2.jpg 500w,
-/static/c8a0ede209c61745801fd8ba03f1cbca/1cc37/2.jpg 800w&quot;
-        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  &lt;/p&gt;</content:encoded></item><item><title><![CDATA[rtShapes demo]]></title><description><![CDATA[This is the first demo of my series of experiments with real time shape recognition using HTML5  getUserMedia ,  OpenCV  and  Box2D . While…]]></description><link>https://v8.joanmira.com/rtshapes/</link><guid isPermaLink="false">https://v8.joanmira.com/rtshapes/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+&lt;p&gt;While directing Webmarket.es, I partnered with the Philippines government to build a few websites for their embassies and investment centres:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Trade and investment centre in the UK (Joomla)&lt;/li&gt;
+&lt;li&gt;Philippine embassy in Brussels (Joomla)&lt;/li&gt;
+&lt;li&gt;Philippine embassy in London (Wordpress)&lt;/li&gt;
+&lt;li&gt;Trade and investment centre in the USA (Wordpress)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The oldest websites were built with Joomla (only desktop view) while the new ones were built with Wordpress and were fully responsive. In both cases, I used a custom template and graphic design.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[rtShapes demo]]></title><description><![CDATA[This is the first demo of my series of experiments with real time shape recognition using HTML5  getUserMedia ,  OpenCV  and  Box2D . While…]]></description><link>https://v8.joanmira.com/rtshapes/</link><guid isPermaLink="false">https://v8.joanmira.com/rtshapes/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
 &lt;a class=&quot;btn&quot; href=&quot;http://open.joanmira.com/rtshapes&quot; target=&quot;_blank&quot;&gt;Launch website&lt;/a&gt;
 &lt;a class=&quot;btn&quot; href=&quot;https://github.com/gazpachu/rtshapes&quot; target=&quot;_blank&quot;&gt;Source code&lt;/a&gt;
 &lt;/p&gt;
@@ -8144,6 +8093,57 @@ io&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;socket&lt;span c
 /static/a5517c3cb53183ace8a47849f7043fcf/d3c44/3.jpg 1000w,
 /static/a5517c3cb53183ace8a47849f7043fcf/c31e9/3.jpg 1581w&quot;
         sizes=&quot;(max-width: 1581px) 100vw, 1581px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;/p&gt;</content:encoded></item><item><title><![CDATA[rPong demo]]></title><description><![CDATA[This is the second demo (first one was  rtshapes ) of my series of experiments with real time shape recognition using HTML5  getUserMedia…]]></description><link>https://v8.joanmira.com/rpong/</link><guid isPermaLink="false">https://v8.joanmira.com/rpong/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+&lt;a class=&quot;btn&quot; href=&quot;http://open.joanmira.com/rpong&quot; target=&quot;_blank&quot;&gt;Launch website&lt;/a&gt;
+&lt;a class=&quot;btn&quot; href=&quot;https://github.com/gazpachu/rpong&quot; target=&quot;_blank&quot;&gt;Source code&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75.6%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABfXQWxA8K/8QAGxAAAgIDAQAAAAAAAAAAAAAAAAIBAxESIRP/2gAIAQEAAQUCxxFjavh5MIjyLWf/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8BxH//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPwGn/8QAHxAAAgECBwAAAAAAAAAAAAAAAAECEVExMkFxcoKR/9oACAEBAAY/ApN3ua+ktzOqcTGK6jrKrZ//xAAbEAEBAAIDAQAAAAAAAAAAAAABEQAhMVFh0f/aAAgBAQABPyGNnz3XeQSo9WJgWHbwyAhsLGsSaw8/cUqwuiZ//9oADAMBAAIAAwAAABAE/wD/xAAXEQEBAQEAAAAAAAAAAAAAAAABABEh/9oACAEDAQE/EB49hgDf/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAgEBPxB0iT12/8QAHBABAAIDAQEBAAAAAAAAAAAAAQARITFBUWFx/9oACAEBAAE/EFmGtK9J7GIYzl8/ZeI4Ip6dlumoHS1d39iBphJEckBE6DWfJ//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/d19d5116d720d10314e63bba8b6eb5b5/877ff/1.jpg&quot;
+        srcset=&quot;/static/d19d5116d720d10314e63bba8b6eb5b5/d2504/1.jpg 500w,
+/static/d19d5116d720d10314e63bba8b6eb5b5/877ff/1.jpg 1000w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;/p&gt;
+&lt;p&gt;This is the second demo (first one was &lt;a href=&quot;http://joanmira.com/rtshapes&quot;&gt;rtshapes&lt;/a&gt;) of my series of experiments with real time shape recognition using HTML5 &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia&quot;&gt;getUserMedia&lt;/a&gt;, &lt;a href=&quot;http://docs.opencv.org/3.1.0/d9/d6d/tutorial_table_of_content_aruco.html#gsc.tab=0&quot;&gt;OpenCV&lt;/a&gt; and &lt;a href=&quot;https://github.com/hecht-software/box2dweb&quot;&gt;Box2D&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;While I was working as a creative technologist at &lt;a href=&quot;http://www.wcrs.com/&quot;&gt;WCRS&lt;/a&gt;, I started to play with Box2d a lot. I was also experimenting with Kinect and &lt;a href=&quot;http://openframeworks.cc/&quot;&gt;OpenFrameworks&lt;/a&gt; to recognise shapes/blobs in real time, which led me to build some demos mixing both technologies.&lt;/p&gt;
+&lt;p&gt;In this HTML5 demo, I’m using a webcam to get a live video stream of some shapes drawn in a paper sheet. These video is analysed with JavaScript (using OpenCV) to identify the shapes. Once we have the 2D coordinates of those shapes, I use Box2d to create their representation in the Box2d world.&lt;/p&gt;
+&lt;p&gt;In the following image, you can see the pieces of paper that are being used to create the pads that will interact with the ball. One pad corresponds to to goalkeeper and the other one to the platform that is used to bounce the ball to try to score a goal.&lt;/p&gt;
+&lt;p&gt;
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 800px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAGiduUVCSP/xAAaEAACAwEBAAAAAAAAAAAAAAAAAgEDEgQU/9oACAEBAAEFAmUlTJa2a46pPQp//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGRAAAwADAAAAAAAAAAAAAAAAAAECECEx/9oACAEBAAY/AsujcnGf/8QAGhAAAgIDAAAAAAAAAAAAAAAAAAEhQRARcf/aAAgBAQABPyGTBKi6mlBRnwWoP//aAAwDAQACAAMAAAAQcz//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8QZH//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAcEAACAgIDAAAAAAAAAAAAAAABEQAhMUFRYXH/2gAIAQEAAT8QFZAy7AhYSQLNVFdkm51Hx7ZKJmLqf//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;2&quot;
+        title=&quot;&quot;
+        src=&quot;/static/c8a0ede209c61745801fd8ba03f1cbca/1cc37/2.jpg&quot;
+        srcset=&quot;/static/c8a0ede209c61745801fd8ba03f1cbca/7eff5/2.jpg 500w,
+/static/c8a0ede209c61745801fd8ba03f1cbca/1cc37/2.jpg 800w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
@@ -12545,39 +12545,7 @@ Alojamiento en Barcelona: pedir información en info@rutasamurai.com&lt;/p&gt;
   &lt;/span&gt;
   
   &lt;/a&gt;
-    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[ESUMA website]]></title><description><![CDATA[As part of my partnership with Esuma, where I also was a teacher in one of their master programs, I built a Joomla website for the…]]></description><link>https://v8.joanmira.com/esuma/</link><guid isPermaLink="false">https://v8.joanmira.com/esuma/</guid><content:encoded>&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/2bd228d3e1a12a4b5082c1b83bf6abd5/877ff/1.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 75.6%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHfOrohg4r/xAAaEAACAwEBAAAAAAAAAAAAAAAAAQIDExIh/9oACAEBAAEFAlV2tULx5yRGuyQqz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EAB4QAAEEAQUAAAAAAAAAAAAAAAEAAhEhAxASUXKh/9oACAEBAAY/ApnnRwCp9dVeTxHc6SV//8QAGxABAQACAwEAAAAAAAAAAAAAAREAITFBYVH/2gAIAQEAAT8hELitb53kXg165zwF++GdZhUGs6ZnnHKoLQmf/9oADAMBAAIAAwAAABBvD//EABcRAAMBAAAAAAAAAAAAAAAAAAEQEUH/2gAIAQMBAT8QE1f/xAAXEQADAQAAAAAAAAAAAAAAAAABEBFB/9oACAECAQE/EDcX/8QAGxABAQADAQEBAAAAAAAAAAAAAREAITFhUaH/2gAIAQEAAT8QbldKevuWiye9cViEwplbDSCAFFV7fcab2Em79xraQCOBzfzP/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;1&quot;
-        title=&quot;&quot;
-        src=&quot;/static/2bd228d3e1a12a4b5082c1b83bf6abd5/877ff/1.jpg&quot;
-        srcset=&quot;/static/2bd228d3e1a12a4b5082c1b83bf6abd5/d2504/1.jpg 500w,
-/static/2bd228d3e1a12a4b5082c1b83bf6abd5/877ff/1.jpg 1000w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;p&gt;As part of my partnership with Esuma, where I also was a teacher in one of their master programs, I built a Joomla website for the institution. It features a login area with private pages for the students and teachers and other static pages with content related with the educational offer and latest news.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Fama Systems website]]></title><description><![CDATA[As part of my partnership with WebsiteProfesional.com, I built a Joomla website for Fama Systems. It’s an standard corporate website with…]]></description><link>https://v8.joanmira.com/famasystems/</link><guid isPermaLink="false">https://v8.joanmira.com/famasystems/</guid><content:encoded>&lt;p&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Fama Systems website]]></title><description><![CDATA[As part of my partnership with WebsiteProfesional.com, I built a Joomla website for Fama Systems. It’s an standard corporate website with…]]></description><link>https://v8.joanmira.com/famasystems/</link><guid isPermaLink="false">https://v8.joanmira.com/famasystems/</guid><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/5009ff0d22a8567c2c598a406999fdb3/877ff/1.jpg&quot;
@@ -12609,7 +12577,39 @@ Alojamiento en Barcelona: pedir información en info@rutasamurai.com&lt;/p&gt;
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;p&gt;As part of my partnership with WebsiteProfesional.com, I built a Joomla website for Fama Systems. It’s an standard corporate website with contact form and mostly static pages.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[El evento iWeekend de Alicante ha sido un éxito]]></title><description><![CDATA[El pasado fin de semana he participado en la primera edición del  iWeekend en Alicante  y la experiencia no ha podido ser mejor. Han sido…]]></description><link>https://v8.joanmira.com/el-evento-iweekend-de-alicante-ha-sido-un-exito/</link><guid isPermaLink="false">https://v8.joanmira.com/el-evento-iweekend-de-alicante-ha-sido-un-exito/</guid><content:encoded>&lt;p&gt;El pasado fin de semana he participado en la primera edición del &lt;a href=&quot;http://iweekend.com/2009/alicante&quot;&gt;iWeekend en Alicante&lt;/a&gt; y la experiencia no ha podido ser mejor. Han sido tres dias muy intensos, jornadas sin descanso, desde las 9 de la mañana hasta las 12 de la noche, donde 50 emprendedores lo han dado todo con un único objetivo: crear una empresa REAL!&lt;/p&gt;
+&lt;p&gt;As part of my partnership with WebsiteProfesional.com, I built a Joomla website for Fama Systems. It’s an standard corporate website with contact form and mostly static pages.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[ESUMA website]]></title><description><![CDATA[As part of my partnership with Esuma, where I also was a teacher in one of their master programs, I built a Joomla website for the…]]></description><link>https://v8.joanmira.com/esuma/</link><guid isPermaLink="false">https://v8.joanmira.com/esuma/</guid><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2bd228d3e1a12a4b5082c1b83bf6abd5/877ff/1.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75.6%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFBP/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHfOrohg4r/xAAaEAACAwEBAAAAAAAAAAAAAAAAAQIDExIh/9oACAEBAAEFAlV2tULx5yRGuyQqz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EAB4QAAEEAQUAAAAAAAAAAAAAAAEAAhEhAxASUXKh/9oACAEBAAY/ApnnRwCp9dVeTxHc6SV//8QAGxABAQACAwEAAAAAAAAAAAAAAREAITFBYVH/2gAIAQEAAT8hELitb53kXg165zwF++GdZhUGs6ZnnHKoLQmf/9oADAMBAAIAAwAAABBvD//EABcRAAMBAAAAAAAAAAAAAAAAAAEQEUH/2gAIAQMBAT8QE1f/xAAXEQADAQAAAAAAAAAAAAAAAAABEBFB/9oACAECAQE/EDcX/8QAGxABAQADAQEBAAAAAAAAAAAAAREAITFhUaH/2gAIAQEAAT8QbldKevuWiye9cViEwplbDSCAFFV7fcab2Em79xraQCOBzfzP/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/2bd228d3e1a12a4b5082c1b83bf6abd5/877ff/1.jpg&quot;
+        srcset=&quot;/static/2bd228d3e1a12a4b5082c1b83bf6abd5/d2504/1.jpg 500w,
+/static/2bd228d3e1a12a4b5082c1b83bf6abd5/877ff/1.jpg 1000w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;As part of my partnership with Esuma, where I also was a teacher in one of their master programs, I built a Joomla website for the institution. It features a login area with private pages for the students and teachers and other static pages with content related with the educational offer and latest news.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[El evento iWeekend de Alicante ha sido un éxito]]></title><description><![CDATA[El pasado fin de semana he participado en la primera edición del  iWeekend en Alicante  y la experiencia no ha podido ser mejor. Han sido…]]></description><link>https://v8.joanmira.com/el-evento-iweekend-de-alicante-ha-sido-un-exito/</link><guid isPermaLink="false">https://v8.joanmira.com/el-evento-iweekend-de-alicante-ha-sido-un-exito/</guid><content:encoded>&lt;p&gt;El pasado fin de semana he participado en la primera edición del &lt;a href=&quot;http://iweekend.com/2009/alicante&quot;&gt;iWeekend en Alicante&lt;/a&gt; y la experiencia no ha podido ser mejor. Han sido tres dias muy intensos, jornadas sin descanso, desde las 9 de la mañana hasta las 12 de la noche, donde 50 emprendedores lo han dado todo con un único objetivo: crear una empresa REAL!&lt;/p&gt;
 &lt;p&gt;El viernes empezamos con un “speed networking”, donde en 45 segundos teniamos que explicar quienes eramos, cual es nuestro trabajo y a continuación cambiar de silla y vuelta a empezar. Decir el discurso 50 veces es agotador! pero divertido.&lt;/p&gt;
 &lt;p&gt;El resto del dia lo dedicamos a presentar ideas de negocio, hacer votaciones y finalmente elegir una idea ganadora. Se presentaron algunas ideas interesantes, pero nada realmente revolucionario o muy original. El ganador fué, &lt;a href=&quot;http://oscardelrio.interacso.com/&quot;&gt;Oscar del Rio&lt;/a&gt;, con su idea de crear un portal al más puro estilo Web 2.0 para pedir comida a domicilio: &lt;a href=&quot;http://yonococino.com&quot;&gt;yonococino.com&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;El sábado y el domingo los dedicamos a trabajar para levantar la empresa. Creamos varios grupos, formados básicamente por: programadores (frontend y backend), diseñadores gráficos, equipo de marketing, comunicación y equipo financiero.&lt;/p&gt;
@@ -14017,39 +14017,7 @@ Alojamiento en Barcelona: pedir información en info@rutasamurai.com&lt;/p&gt;
   &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;igoogle2&lt;/figcaption&gt;
   &lt;/figure&gt;
       &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.google.es/ig/directory?hl=es&amp;#x26;gl=es&amp;#x26;type=themes&amp;#x26;url=webmarketigoogle.googlecode.com/svn/trunk/theme.xml&quot;&gt;&lt;em&gt;Colorful Beat theme para iGoogle&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Mediamarkt]]></title><description><![CDATA[The Mediamarkt shop in Tarragona asked to build a landing page to find people interested to work in the shop.]]></description><link>https://v8.joanmira.com/mediamarkt/</link><guid isPermaLink="false">https://v8.joanmira.com/mediamarkt/</guid><content:encoded>&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/ea0d2b4b8e89defa7fdbc57c4b3d16a7/877ff/1.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 63.3%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIDBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABsJohUgwz/8QAGxABAQACAwEAAAAAAAAAAAAAAgMBEgQREyP/2gAIAQEAAQUCrZnku9MCee5+X1U9iDqf/8QAFhEBAQEAAAAAAAAAAAAAAAAAARBB/9oACAEDAQE/ARDJ/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAHBAAAgICAwAAAAAAAAAAAAAAAAECESFBMVFh/9oACAEBAAY/ApR1XA3RF+Dnt4Gm8MUej//EABkQAQEBAQEBAAAAAAAAAAAAAAERACExQf/aAAgBAQABPyEFVBSHCCJ97me9QuiF5Vz5n5ex5oZ4Jv/aAAwDAQACAAMAAAAQP8//xAAWEQEBAQAAAAAAAAAAAAAAAAABEBH/2gAIAQMBAT8QMR1P/8QAFhEBAQEAAAAAAAAAAAAAAAAAARBR/9oACAECAQE/EEdn/8QAHRABAAICAgMAAAAAAAAAAAAAAQARITFBUWGBkf/aAAgBAQABPxBVx2I271LRUuv1THbt47UiI0Oiko4xfiFlUCVUfcJZYg1wT//Z&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;1&quot;
-        title=&quot;&quot;
-        src=&quot;/static/ea0d2b4b8e89defa7fdbc57c4b3d16a7/877ff/1.jpg&quot;
-        srcset=&quot;/static/ea0d2b4b8e89defa7fdbc57c4b3d16a7/d2504/1.jpg 500w,
-/static/ea0d2b4b8e89defa7fdbc57c4b3d16a7/877ff/1.jpg 1000w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;p&gt;The Mediamarkt shop in Tarragona asked to build a landing page to find people interested to work in the shop.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Promoseekers]]></title><description><![CDATA[While working at Webmarket, a client approached me with a business idea, a briefing and a budget to build a website similar to Groupon. We…]]></description><link>https://v8.joanmira.com/promoseekers/</link><guid isPermaLink="false">https://v8.joanmira.com/promoseekers/</guid><content:encoded>&lt;p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.google.es/ig/directory?hl=es&amp;#x26;gl=es&amp;#x26;type=themes&amp;#x26;url=webmarketigoogle.googlecode.com/svn/trunk/theme.xml&quot;&gt;&lt;em&gt;Colorful Beat theme para iGoogle&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Promoseekers]]></title><description><![CDATA[While working at Webmarket, a client approached me with a business idea, a briefing and a budget to build a website similar to Groupon. We…]]></description><link>https://v8.joanmira.com/promoseekers/</link><guid isPermaLink="false">https://v8.joanmira.com/promoseekers/</guid><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/6f06b25e9bcc80ad5ce73dffc94c5c4e/877ff/1.jpg&quot;
@@ -14243,7 +14211,39 @@ Alojamiento en Barcelona: pedir información en info@rutasamurai.com&lt;/p&gt;
   &lt;/span&gt;
   
   &lt;/a&gt;
-    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Mi primer atlas]]></title><description><![CDATA[As part of my partnership with  IBCMass , I built an interactive Flash educational app for kids. All the user interface is custom made, with…]]></description><link>https://v8.joanmira.com/mi-primer-atlas/</link><guid isPermaLink="false">https://v8.joanmira.com/mi-primer-atlas/</guid><content:encoded>&lt;p&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Mediamarkt]]></title><description><![CDATA[The Mediamarkt shop in Tarragona asked to build a landing page to find people interested to work in the shop.]]></description><link>https://v8.joanmira.com/mediamarkt/</link><guid isPermaLink="false">https://v8.joanmira.com/mediamarkt/</guid><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ea0d2b4b8e89defa7fdbc57c4b3d16a7/877ff/1.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 63.3%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIDBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABsJohUgwz/8QAGxABAQACAwEAAAAAAAAAAAAAAgMBEgQREyP/2gAIAQEAAQUCrZnku9MCee5+X1U9iDqf/8QAFhEBAQEAAAAAAAAAAAAAAAAAARBB/9oACAEDAQE/ARDJ/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAHBAAAgICAwAAAAAAAAAAAAAAAAECESFBMVFh/9oACAEBAAY/ApR1XA3RF+Dnt4Gm8MUej//EABkQAQEBAQEBAAAAAAAAAAAAAAERACExQf/aAAgBAQABPyEFVBSHCCJ97me9QuiF5Vz5n5ex5oZ4Jv/aAAwDAQACAAMAAAAQP8//xAAWEQEBAQAAAAAAAAAAAAAAAAABEBH/2gAIAQMBAT8QMR1P/8QAFhEBAQEAAAAAAAAAAAAAAAAAARBR/9oACAECAQE/EEdn/8QAHRABAAICAgMAAAAAAAAAAAAAAQARITFBUWGBkf/aAAgBAQABPxBVx2I271LRUuv1THbt47UiI0Oiko4xfiFlUCVUfcJZYg1wT//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/ea0d2b4b8e89defa7fdbc57c4b3d16a7/877ff/1.jpg&quot;
+        srcset=&quot;/static/ea0d2b4b8e89defa7fdbc57c4b3d16a7/d2504/1.jpg 500w,
+/static/ea0d2b4b8e89defa7fdbc57c4b3d16a7/877ff/1.jpg 1000w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;The Mediamarkt shop in Tarragona asked to build a landing page to find people interested to work in the shop.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Mi primer atlas]]></title><description><![CDATA[As part of my partnership with  IBCMass , I built an interactive Flash educational app for kids. All the user interface is custom made, with…]]></description><link>https://v8.joanmira.com/mi-primer-atlas/</link><guid isPermaLink="false">https://v8.joanmira.com/mi-primer-atlas/</guid><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/ce1740e6150d765762581b8e69f36281/877ff/1.jpg&quot;
@@ -16633,39 +16633,7 @@ Alojamiento en Barcelona: pedir información en info@rutasamurai.com&lt;/p&gt;
 &lt;p&gt;Asociate con alguien para tener más oportunidades de trabajo.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Y bueno, esas son las que se me ocurren a mí, si a alguien se le ocurre alguna otra, siéntase libre de mandar un comentario.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No somos numeros]]></title><description><![CDATA[As part of my business relationship with WebsiteProfesional, I built a custom Joomla website for No Somos Numberos, a social movement to…]]></description><link>https://v8.joanmira.com/no-somos-numeros/</link><guid isPermaLink="false">https://v8.joanmira.com/no-somos-numeros/</guid><content:encoded>&lt;p&gt;
-  &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/db7967e2ec883fbe38293be10ec0ca50/877ff/1.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 63.3%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBBAX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHRXdBhAf/EABsQAAICAwEAAAAAAAAAAAAAAAECAAMREiEx/9oACAEBAAEFArnKSu3dh4QZhoOD/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAHRAAAQQCAwAAAAAAAAAAAAAAMQABEBECEiEyof/aAAgBAQAGPwJjy9KtcyYK7eR//8QAGhABAAMBAQEAAAAAAAAAAAAAAQARMSFBgf/aAAgBAQABPyFhg/M5HwfHXJlFOT5KsEFoW5//2gAMAwEAAgADAAAAEGTP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHRABAAMAAgMBAAAAAAAAAAAAAQARIUFRMXHR8P/aAAgBAQABPxDnQKwFeWNwI3Wp24ZFey+4lQF3VvsCYT97hkCOQqf/2Q==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;1&quot;
-        title=&quot;&quot;
-        src=&quot;/static/db7967e2ec883fbe38293be10ec0ca50/877ff/1.jpg&quot;
-        srcset=&quot;/static/db7967e2ec883fbe38293be10ec0ca50/d2504/1.jpg 500w,
-/static/db7967e2ec883fbe38293be10ec0ca50/877ff/1.jpg 1000w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
-  &lt;/a&gt;
-    &lt;/p&gt;
-&lt;p&gt;As part of my business relationship with WebsiteProfesional, I built a custom Joomla website for No Somos Numberos, a social movement to raise awareness regarding the poor working conditions in some areas in Spain. The website features static and dynamic content together with videos and contact forms.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Villas termales]]></title><description><![CDATA[This project was a collaboration with Narcea Multimedia. I was hired to develop a Flash interface driven by a MySQL database to display…]]></description><link>https://v8.joanmira.com/villas-termales/</link><guid isPermaLink="false">https://v8.joanmira.com/villas-termales/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+&lt;p&gt;Y bueno, esas son las que se me ocurren a mí, si a alguien se le ocurre alguna otra, siéntase libre de mandar un comentario.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Villas termales]]></title><description><![CDATA[This project was a collaboration with Narcea Multimedia. I was hired to develop a Flash interface driven by a MySQL database to display…]]></description><link>https://v8.joanmira.com/villas-termales/</link><guid isPermaLink="false">https://v8.joanmira.com/villas-termales/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
 &lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/villastermales/&quot; target=&quot;_blank&quot;&gt;Launch archived template&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;This project was a collaboration with Narcea Multimedia. I was hired to develop a Flash interface driven by a MySQL database to display information about the villas termales in Spain. I work with a graphic designer from Narcea to complete the project. This project was also related with the &lt;a href=&quot;http://www.minetur.gob.es/&quot;&gt;Ministry of Industry&lt;/a&gt; in Spain and &lt;a href=&quot;http://www.femp.es/&quot;&gt;FEMP&lt;/a&gt;.&lt;/p&gt;
@@ -16757,7 +16725,39 @@ Alojamiento en Barcelona: pedir información en info@rutasamurai.com&lt;/p&gt;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
-  &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Agusti Lopez website]]></title><description><![CDATA[As part of my business relationship with Agustí López, I built a Wordpress website for his blog posts. It’s a standard blog with a slightly…]]></description><link>https://v8.joanmira.com/agustilopez/</link><guid isPermaLink="false">https://v8.joanmira.com/agustilopez/</guid><content:encoded>&lt;p&gt;
+  &lt;/p&gt;</content:encoded></item><item><title><![CDATA[No somos numeros]]></title><description><![CDATA[As part of my business relationship with WebsiteProfesional, I built a custom Joomla website for No Somos Numberos, a social movement to…]]></description><link>https://v8.joanmira.com/no-somos-numeros/</link><guid isPermaLink="false">https://v8.joanmira.com/no-somos-numeros/</guid><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/db7967e2ec883fbe38293be10ec0ca50/877ff/1.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 63.3%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBBAX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHRXdBhAf/EABsQAAICAwEAAAAAAAAAAAAAAAECAAMREiEx/9oACAEBAAEFArnKSu3dh4QZhoOD/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAHRAAAQQCAwAAAAAAAAAAAAAAMQABEBECEiEyof/aAAgBAQAGPwJjy9KtcyYK7eR//8QAGhABAAMBAQEAAAAAAAAAAAAAAQARMSFBgf/aAAgBAQABPyFhg/M5HwfHXJlFOT5KsEFoW5//2gAMAwEAAgADAAAAEGTP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHRABAAMAAgMBAAAAAAAAAAAAAQARIUFRMXHR8P/aAAgBAQABPxDnQKwFeWNwI3Wp24ZFey+4lQF3VvsCYT97hkCOQqf/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/db7967e2ec883fbe38293be10ec0ca50/877ff/1.jpg&quot;
+        srcset=&quot;/static/db7967e2ec883fbe38293be10ec0ca50/d2504/1.jpg 500w,
+/static/db7967e2ec883fbe38293be10ec0ca50/877ff/1.jpg 1000w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;As part of my business relationship with WebsiteProfesional, I built a custom Joomla website for No Somos Numberos, a social movement to raise awareness regarding the poor working conditions in some areas in Spain. The website features static and dynamic content together with videos and contact forms.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Agusti Lopez website]]></title><description><![CDATA[As part of my business relationship with Agustí López, I built a Wordpress website for his blog posts. It’s a standard blog with a slightly…]]></description><link>https://v8.joanmira.com/agustilopez/</link><guid isPermaLink="false">https://v8.joanmira.com/agustilopez/</guid><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/091bd4037e8867c8f4fd985756fc23a5/877ff/1.jpg&quot;
@@ -16949,32 +16949,7 @@ Alojamiento en Barcelona: pedir información en info@rutasamurai.com&lt;/p&gt;
   &lt;/span&gt;
   
   &lt;/a&gt;
-    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[CECVA website]]></title><description><![CDATA[I built a couple of Joomla websites for CECVA. The last one includes a video player with playlist and many different static pages and…]]></description><link>https://v8.joanmira.com/cecva/</link><guid isPermaLink="false">https://v8.joanmira.com/cecva/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
-&lt;a class=&quot;btn&quot; href=&quot;http://cecva.herokuapp.com&quot; target=&quot;_blank&quot;&gt;Launch archived website&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 63.3%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHVG1HEB//EABkQAQEBAAMAAAAAAAAAAAAAAAEAAhIhMf/aAAgBAQABBQLbosKx4jcGOj//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAdEAABAgcAAAAAAAAAAAAAAAAAECEBESIxMoGh/9oACAEBAAY/AmhMqbaXMuJ//8QAGxAAAgMAAwAAAAAAAAAAAAAAAREAITEQQZH/2gAIAQEAAT8hMbCcaiRHODtxFHHktBSoEoJc/9oADAMBAAIAAwAAABDwz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABwQAQEBAAIDAQAAAAAAAAAAAAERACExQZHB8P/aAAgBAQABPxDnMx2wAaYZfYY95U83JEIWzn9zCAqn44yBHkJv/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;1&quot;
-        title=&quot;&quot;
-        src=&quot;/static/d1699f89a10dceb103eb4bfda2ad1b85/877ff/1.jpg&quot;
-        srcset=&quot;/static/d1699f89a10dceb103eb4bfda2ad1b85/d2504/1.jpg 500w,
-/static/d1699f89a10dceb103eb4bfda2ad1b85/877ff/1.jpg 1000w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  &lt;/p&gt;
-&lt;p&gt;I built a couple of Joomla websites for CECVA. The last one includes a video player with playlist and many different static pages and dynamic content.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Citi Group prototype]]></title><description><![CDATA[This is a collaboration with my friend Fiodor Tonti. I helped him with the initial stages of research and development regarding the Flash…]]></description><link>https://v8.joanmira.com/citigroup/</link><guid isPermaLink="false">https://v8.joanmira.com/citigroup/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Citi Group prototype]]></title><description><![CDATA[This is a collaboration with my friend Fiodor Tonti. I helped him with the initial stages of research and development regarding the Flash…]]></description><link>https://v8.joanmira.com/citigroup/</link><guid isPermaLink="false">https://v8.joanmira.com/citigroup/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
 &lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/citigroup/&quot; target=&quot;_blank&quot;&gt;Launch banner prototype&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;This is a collaboration with my friend Fiodor Tonti. I helped him with the initial stages of research and development regarding the Flash led scroller and with the background and panel design.&lt;/p&gt;
@@ -16999,7 +16974,32 @@ Alojamiento en Barcelona: pedir información en info@rutasamurai.com&lt;/p&gt;
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
-  &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Autoescuelas CostaBlanca website]]></title><description><![CDATA[I built a custom Joomla website with classic static pages to showcase the driving school services.]]></description><link>https://v8.joanmira.com/costablanca/</link><guid isPermaLink="false">https://v8.joanmira.com/costablanca/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+  &lt;/p&gt;</content:encoded></item><item><title><![CDATA[CECVA website]]></title><description><![CDATA[I built a couple of Joomla websites for CECVA. The last one includes a video player with playlist and many different static pages and…]]></description><link>https://v8.joanmira.com/cecva/</link><guid isPermaLink="false">https://v8.joanmira.com/cecva/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+&lt;a class=&quot;btn&quot; href=&quot;http://cecva.herokuapp.com&quot; target=&quot;_blank&quot;&gt;Launch archived website&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 63.3%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHVG1HEB//EABkQAQEBAAMAAAAAAAAAAAAAAAEAAhIhMf/aAAgBAQABBQLbosKx4jcGOj//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAdEAABAgcAAAAAAAAAAAAAAAAAECEBESIxMoGh/9oACAEBAAY/AmhMqbaXMuJ//8QAGxAAAgMAAwAAAAAAAAAAAAAAAREAITEQQZH/2gAIAQEAAT8hMbCcaiRHODtxFHHktBSoEoJc/9oADAMBAAIAAwAAABDwz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABwQAQEBAAIDAQAAAAAAAAAAAAERACExQZHB8P/aAAgBAQABPxDnMx2wAaYZfYY95U83JEIWzn9zCAqn44yBHkJv/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/d1699f89a10dceb103eb4bfda2ad1b85/877ff/1.jpg&quot;
+        srcset=&quot;/static/d1699f89a10dceb103eb4bfda2ad1b85/d2504/1.jpg 500w,
+/static/d1699f89a10dceb103eb4bfda2ad1b85/877ff/1.jpg 1000w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;/p&gt;
+&lt;p&gt;I built a couple of Joomla websites for CECVA. The last one includes a video player with playlist and many different static pages and dynamic content.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Autoescuelas CostaBlanca website]]></title><description><![CDATA[I built a custom Joomla website with classic static pages to showcase the driving school services.]]></description><link>https://v8.joanmira.com/costablanca/</link><guid isPermaLink="false">https://v8.joanmira.com/costablanca/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
 &lt;a class=&quot;btn&quot; href=&quot;http://costablanca.herokuapp.com&quot; target=&quot;_blank&quot;&gt;Launch website&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;
@@ -17654,7 +17654,80 @@ qui bat comme un cœur de bois… – que golpea como un corazón de madera…&l
   
   &lt;/a&gt;
     &lt;/p&gt;
-&lt;p&gt;As part of my friendship with the people behind invidentes.org, I helped to setup a Joomla website with basic information about their project and a hosting for their app.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Formatio]]></title><description><![CDATA[Formatio required an online platform for their academy, something like a custom  LMS . I built their website using Wordpress and the CMS was…]]></description><link>https://v8.joanmira.com/formatio/</link><guid isPermaLink="false">https://v8.joanmira.com/formatio/</guid><content:encoded>&lt;p&gt;
+&lt;p&gt;As part of my friendship with the people behind invidentes.org, I helped to setup a Joomla website with basic information about their project and a hosting for their app.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Tello Serna Flash website]]></title><description><![CDATA[This was one of Webmarket’s first projects. It’s a straightforward Flash website with a custom design, animated content and desktop…]]></description><link>https://v8.joanmira.com/tello-serna/</link><guid isPermaLink="false">https://v8.joanmira.com/tello-serna/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/telloserna/v1&quot; target=&quot;_blank&quot;&gt;v1&lt;/a&gt;
+&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/telloserna/v2&quot; target=&quot;_blank&quot;&gt;v2&lt;/a&gt;
+&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/telloserna/v4&quot; target=&quot;_blank&quot;&gt;v4&lt;/a&gt;
+&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/telloserna/v5&quot; target=&quot;_blank&quot;&gt;v5&lt;/a&gt;
+&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/telloserna/v6&quot; target=&quot;_blank&quot;&gt;v6&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;This was one of Webmarket’s first projects. It’s a straightforward Flash website with a custom design, animated content and desktop responsive layout. To complete the project, we hired a freelance graphic designer to create the final version (v6).&lt;/p&gt;
+&lt;p&gt;
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 57.099999999999994%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABQBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAbssUF4C/wD/xAAbEAACAwADAAAAAAAAAAAAAAACAwEREwAyM//aAAgBAQABBQJ17HFQryYAmWIcX1//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAdEAABAwUBAAAAAAAAAAAAAAAAAhEhARIiMXGh/9oACAEBAAY/AoTdGnYhHchPB1UNejH/xAAbEAEAAwADAQAAAAAAAAAAAAABABExIWFx8P/aAAgBAQABPyFcaTT2rnh3Fa9Y5sObPmoaIw4J/9oADAMBAAIAAwAAABDbD//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAEDAQE/EIf/xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPxCH/8QAHhABAQACAgIDAAAAAAAAAAAAAREAIVFhMYFBcfD/2gAIAQEAAT8QixhYgVd30YB3v2PtucYiyqqq9GLQPRs1xpwf5/jvAuKwtgeDP//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/f62af76fabd05f343b46d47090a84b61/877ff/1.jpg&quot;
+        srcset=&quot;/static/f62af76fabd05f343b46d47090a84b61/d2504/1.jpg 500w,
+/static/f62af76fabd05f343b46d47090a84b61/877ff/1.jpg 1000w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;/p&gt;
+&lt;p&gt;
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 49.7%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgH/2gAMAwEAAhADEAAAAd7+XYGRQZ//xAAZEAEAAwEBAAAAAAAAAAAAAAABAAIRAxD/2gAIAQEAAQUC41GWrQmQUmr5/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8Bqv/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPwGMf//EABkQAQADAQEAAAAAAAAAAAAAAAEAEBEhMf/aAAgBAQAGPwJ0hoFezrX/xAAbEAACAgMBAAAAAAAAAAAAAAAAARExIVGBcf/aAAgBAQABPyHHV8LQzuiGikZdHcH6yXs//9oADAMBAAIAAwAAABCr/wD/xAAWEQADAAAAAAAAAAAAAAAAAAAAEVH/2gAIAQMBAT8QSCQ//8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERUf/aAAgBAgEBPxBooytP/8QAHBAAAwACAwEAAAAAAAAAAAAAAAERMWEhQVGR/9oACAEBAAE/EEbM1Ja9JZBKkumDSL3PZjIVRNmMZsfT/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;2&quot;
+        title=&quot;&quot;
+        src=&quot;/static/7e2c5547baba68b746523f2c22522838/877ff/2.jpg&quot;
+        srcset=&quot;/static/7e2c5547baba68b746523f2c22522838/d2504/2.jpg 500w,
+/static/7e2c5547baba68b746523f2c22522838/877ff/2.jpg 1000w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;/p&gt;
+&lt;p&gt;
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 49.8%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgH/2gAMAwEAAhADEAAAAd7OdYGRQZ//xAAZEAEAAgMAAAAAAAAAAAAAAAABABICAxD/2gAIAQEAAQUC04jGtoKSzz//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPwGq/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AYx//8QAGhAAAQUBAAAAAAAAAAAAAAAAAQADEBExYf/aAAgBAQAGPwI2FQbB7GrTH//EABwQAAICAgMAAAAAAAAAAAAAAAABESExUWFxgf/aAAgBAQABPyGvjjaI6Ay1ELRjGXo+05Jez//aAAwDAQACAAMAAAAQq/8A/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAFREf/aAAgBAwEBPxBJDEP/xAAXEQADAQAAAAAAAAAAAAAAAAAAARFR/9oACAECAQE/EGihWn//xAAbEAEAAwADAQAAAAAAAAAAAAABABEhMVFhkf/aAAgBAQABPxB7gytO5dGmlQDV0dtS/QSy3uaREFLC3Wz0fZ//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;3&quot;
+        title=&quot;&quot;
+        src=&quot;/static/b30f979126abb2d717d8ef76c84c6088/877ff/3.jpg&quot;
+        srcset=&quot;/static/b30f979126abb2d717d8ef76c84c6088/d2504/3.jpg 500w,
+/static/b30f979126abb2d717d8ef76c84c6088/877ff/3.jpg 1000w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Formatio]]></title><description><![CDATA[Formatio required an online platform for their academy, something like a custom  LMS . I built their website using Wordpress and the CMS was…]]></description><link>https://v8.joanmira.com/formatio/</link><guid isPermaLink="false">https://v8.joanmira.com/formatio/</guid><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/3c41fceb3d95f3462b324d7434a33ea4/877ff/0.jpg&quot;
@@ -18183,79 +18256,6 @@ qui bat comme un cœur de bois… – que golpea como un corazón de madera…&l
       /&gt;
     &lt;/span&gt;
   &lt;/span&gt;
-  &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Tello Serna Flash website]]></title><description><![CDATA[This was one of Webmarket’s first projects. It’s a straightforward Flash website with a custom design, animated content and desktop…]]></description><link>https://v8.joanmira.com/tello-serna/</link><guid isPermaLink="false">https://v8.joanmira.com/tello-serna/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
-&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/telloserna/v1&quot; target=&quot;_blank&quot;&gt;v1&lt;/a&gt;
-&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/telloserna/v2&quot; target=&quot;_blank&quot;&gt;v2&lt;/a&gt;
-&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/telloserna/v4&quot; target=&quot;_blank&quot;&gt;v4&lt;/a&gt;
-&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/telloserna/v5&quot; target=&quot;_blank&quot;&gt;v5&lt;/a&gt;
-&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/telloserna/v6&quot; target=&quot;_blank&quot;&gt;v6&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;This was one of Webmarket’s first projects. It’s a straightforward Flash website with a custom design, animated content and desktop responsive layout. To complete the project, we hired a freelance graphic designer to create the final version (v6).&lt;/p&gt;
-&lt;p&gt;
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 57.099999999999994%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABQBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAbssUF4C/wD/xAAbEAACAwADAAAAAAAAAAAAAAACAwEREwAyM//aAAgBAQABBQJ17HFQryYAmWIcX1//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAdEAABAwUBAAAAAAAAAAAAAAAAAhEhARIiMXGh/9oACAEBAAY/AoTdGnYhHchPB1UNejH/xAAbEAEAAwADAQAAAAAAAAAAAAABABExIWFx8P/aAAgBAQABPyFcaTT2rnh3Fa9Y5sObPmoaIw4J/9oADAMBAAIAAwAAABDbD//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAEDAQE/EIf/xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPxCH/8QAHhABAQACAgIDAAAAAAAAAAAAAREAIVFhMYFBcfD/2gAIAQEAAT8QixhYgVd30YB3v2PtucYiyqqq9GLQPRs1xpwf5/jvAuKwtgeDP//Z&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;1&quot;
-        title=&quot;&quot;
-        src=&quot;/static/f62af76fabd05f343b46d47090a84b61/877ff/1.jpg&quot;
-        srcset=&quot;/static/f62af76fabd05f343b46d47090a84b61/d2504/1.jpg 500w,
-/static/f62af76fabd05f343b46d47090a84b61/877ff/1.jpg 1000w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  &lt;/p&gt;
-&lt;p&gt;
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 49.7%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgH/2gAMAwEAAhADEAAAAd7+XYGRQZ//xAAZEAEAAwEBAAAAAAAAAAAAAAABAAIRAxD/2gAIAQEAAQUC41GWrQmQUmr5/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8Bqv/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPwGMf//EABkQAQADAQEAAAAAAAAAAAAAAAEAEBEhMf/aAAgBAQAGPwJ0hoFezrX/xAAbEAACAgMBAAAAAAAAAAAAAAAAARExIVGBcf/aAAgBAQABPyHHV8LQzuiGikZdHcH6yXs//9oADAMBAAIAAwAAABCr/wD/xAAWEQADAAAAAAAAAAAAAAAAAAAAEVH/2gAIAQMBAT8QSCQ//8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERUf/aAAgBAgEBPxBooytP/8QAHBAAAwACAwEAAAAAAAAAAAAAAAERMWEhQVGR/9oACAEBAAE/EEbM1Ja9JZBKkumDSL3PZjIVRNmMZsfT/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;2&quot;
-        title=&quot;&quot;
-        src=&quot;/static/7e2c5547baba68b746523f2c22522838/877ff/2.jpg&quot;
-        srcset=&quot;/static/7e2c5547baba68b746523f2c22522838/d2504/2.jpg 500w,
-/static/7e2c5547baba68b746523f2c22522838/877ff/2.jpg 1000w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  &lt;/p&gt;
-&lt;p&gt;
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 49.8%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgH/2gAMAwEAAhADEAAAAd7OdYGRQZ//xAAZEAEAAgMAAAAAAAAAAAAAAAABABICAxD/2gAIAQEAAQUC04jGtoKSzz//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPwGq/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AYx//8QAGhAAAQUBAAAAAAAAAAAAAAAAAQADEBExYf/aAAgBAQAGPwI2FQbB7GrTH//EABwQAAICAgMAAAAAAAAAAAAAAAABESExUWFxgf/aAAgBAQABPyGvjjaI6Ay1ELRjGXo+05Jez//aAAwDAQACAAMAAAAQq/8A/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAFREf/aAAgBAwEBPxBJDEP/xAAXEQADAQAAAAAAAAAAAAAAAAAAARFR/9oACAECAQE/EGihWn//xAAbEAEAAwADAQAAAAAAAAAAAAABABEhMVFhkf/aAAgBAQABPxB7gytO5dGmlQDV0dtS/QSy3uaREFLC3Wz0fZ//2Q==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;3&quot;
-        title=&quot;&quot;
-        src=&quot;/static/b30f979126abb2d717d8ef76c84c6088/877ff/3.jpg&quot;
-        srcset=&quot;/static/b30f979126abb2d717d8ef76c84c6088/d2504/3.jpg 500w,
-/static/b30f979126abb2d717d8ef76c84c6088/877ff/3.jpg 1000w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
   &lt;/p&gt;</content:encoded></item><item><title><![CDATA[CR Asociados]]></title><description><![CDATA[CR Asociados required a custom website to showcase their financing services. I also built a bespoke CMS feature with many user details…]]></description><link>https://v8.joanmira.com/crasociados/</link><guid isPermaLink="false">https://v8.joanmira.com/crasociados/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
 &lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/crasociados/&quot; target=&quot;_blank&quot;&gt;Launch archived website&lt;/a&gt;
 &lt;/p&gt;
@@ -18277,53 +18277,6 @@ qui bat comme un cœur de bois… – que golpea como un corazón de madera…&l
         src=&quot;/static/82fbeba8325d5ec4eab40cb45262895f/877ff/1.jpg&quot;
         srcset=&quot;/static/82fbeba8325d5ec4eab40cb45262895f/d2504/1.jpg 500w,
 /static/82fbeba8325d5ec4eab40cb45262895f/877ff/1.jpg 1000w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Cubre-t]]></title><description><![CDATA[Cubre-t contacted us to build a new Flash website to showcase their swimming-pool covers. They wanted an animated intro and a CMS to upload…]]></description><link>https://v8.joanmira.com/cubret/</link><guid isPermaLink="false">https://v8.joanmira.com/cubret/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
-&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/cubre-t/&quot; target=&quot;_blank&quot;&gt;Launch archived website&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Cubre-t contacted us to build a new Flash website to showcase their swimming-pool covers. They wanted an animated intro and a CMS to upload new photos in the future.&lt;/p&gt;
-&lt;p&gt;
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 63.3%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAeqnVVHkC//EABoQAQEAAgMAAAAAAAAAAAAAAAECABIDITH/2gAIAQEAAQUC5Vki1o8qds0cOj//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAACAgMAAAAAAAAAAAAAAAABEAARMWGh/9oACAEBAAY/Ar3ALeeL/8QAGhABAQADAQEAAAAAAAAAAAAAAREAITEQUf/aAAgBAQABPyFSHem3I8RfvkvSS3mBNDcFgtz/2gAMAwEAAgADAAAAEFzP/8QAFhEAAwAAAAAAAAAAAAAAAAAAEBEh/9oACAEDAQE/EKx//8QAFREBAQAAAAAAAAAAAAAAAAAAECH/2gAIAQIBAT8Qh//EABsQAQACAwEBAAAAAAAAAAAAAAEAESExQZHx/9oACAEBAAE/EKA63IVXI3H5Fde7is5Xe5jHigXh9gs0afqGQI6FT//Z&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;1&quot;
-        title=&quot;&quot;
-        src=&quot;/static/80cea16011c82f1a10a36b1dc9ca4584/877ff/1.jpg&quot;
-        srcset=&quot;/static/80cea16011c82f1a10a36b1dc9ca4584/d2504/1.jpg 500w,
-/static/80cea16011c82f1a10a36b1dc9ca4584/877ff/1.jpg 1000w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
-      /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  &lt;/p&gt;
-&lt;p&gt;
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 57.099999999999994%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAIBAwQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAekjVpuIF//EABsQAAEEAwAAAAAAAAAAAAAAAAIAAQMyEyIz/9oACAEBAAEFApbM28fMxYixio6//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGxAAAgMAAwAAAAAAAAAAAAAAAAERQXECkbH/2gAIAQEABj8CeIVnHCX6X2Qf/8QAHRABAAICAgMAAAAAAAAAAAAAAQARITFBcWGRof/aAAgBAQABPyF9pR9gUCjkmfUj2y9bE8fthojRgn//2gAMAwEAAgADAAAAEBwP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFREBAQAAAAAAAAAAAAAAAAAAECH/2gAIAQIBAT8Qh//EAB0QAQACAgIDAAAAAAAAAAAAAAEAESExQbFxgfD/2gAIAQEAAT8QYQugW6tt1FoYt2jGolKquZ8QzWNjA9MPge4F4toW6Dif/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;2&quot;
-        title=&quot;&quot;
-        src=&quot;/static/969431fd9a2d0e8c87717c6da3bb5acd/877ff/2.jpg&quot;
-        srcset=&quot;/static/969431fd9a2d0e8c87717c6da3bb5acd/d2504/2.jpg 500w,
-/static/969431fd9a2d0e8c87717c6da3bb5acd/877ff/2.jpg 1000w&quot;
         sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
       /&gt;
     &lt;/span&gt;
@@ -18384,7 +18337,54 @@ qui bat comme un cœur de bois… – que golpea como un corazón de madera…&l
   &lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/digitaltoy/logos/vendio2.jpg&quot; target=&quot;_blank&quot;&gt;Vendio&lt;/a&gt;
   &lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/digitaltoy/logos/vendio3.jpg&quot; target=&quot;_blank&quot;&gt;Vendio&lt;/a&gt;
   &lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/digitaltoy/logos/vendioes.jpg&quot; target=&quot;_blank&quot;&gt;Vendio&lt;/a&gt;
-&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Santillana desktop app]]></title><description><![CDATA[As part of my business relationship with Narcea Multimedia, I built several interactive CDs for  Santillana , a well known book publisher…]]></description><link>https://v8.joanmira.com/santillana/</link><guid isPermaLink="false">https://v8.joanmira.com/santillana/</guid><content:encoded>&lt;p&gt;
+&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Cubre-t]]></title><description><![CDATA[Cubre-t contacted us to build a new Flash website to showcase their swimming-pool covers. They wanted an animated intro and a CMS to upload…]]></description><link>https://v8.joanmira.com/cubret/</link><guid isPermaLink="false">https://v8.joanmira.com/cubret/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/cubre-t/&quot; target=&quot;_blank&quot;&gt;Launch archived website&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;Cubre-t contacted us to build a new Flash website to showcase their swimming-pool covers. They wanted an animated intro and a CMS to upload new photos in the future.&lt;/p&gt;
+&lt;p&gt;
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 63.3%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAeqnVVHkC//EABoQAQEAAgMAAAAAAAAAAAAAAAECABIDITH/2gAIAQEAAQUC5Vki1o8qds0cOj//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAACAgMAAAAAAAAAAAAAAAABEAARMWGh/9oACAEBAAY/Ar3ALeeL/8QAGhABAQADAQEAAAAAAAAAAAAAAREAITEQUf/aAAgBAQABPyFSHem3I8RfvkvSS3mBNDcFgtz/2gAMAwEAAgADAAAAEFzP/8QAFhEAAwAAAAAAAAAAAAAAAAAAEBEh/9oACAEDAQE/EKx//8QAFREBAQAAAAAAAAAAAAAAAAAAECH/2gAIAQIBAT8Qh//EABsQAQACAwEBAAAAAAAAAAAAAAEAESExQZHx/9oACAEBAAE/EKA63IVXI3H5Fde7is5Xe5jHigXh9gs0afqGQI6FT//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/80cea16011c82f1a10a36b1dc9ca4584/877ff/1.jpg&quot;
+        srcset=&quot;/static/80cea16011c82f1a10a36b1dc9ca4584/d2504/1.jpg 500w,
+/static/80cea16011c82f1a10a36b1dc9ca4584/877ff/1.jpg 1000w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;/p&gt;
+&lt;p&gt;
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 57.099999999999994%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAIBAwQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAekjVpuIF//EABsQAAEEAwAAAAAAAAAAAAAAAAIAAQMyEyIz/9oACAEBAAEFApbM28fMxYixio6//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGxAAAgMAAwAAAAAAAAAAAAAAAAERQXECkbH/2gAIAQEABj8CeIVnHCX6X2Qf/8QAHRABAAICAgMAAAAAAAAAAAAAAQARITFBcWGRof/aAAgBAQABPyF9pR9gUCjkmfUj2y9bE8fthojRgn//2gAMAwEAAgADAAAAEBwP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFREBAQAAAAAAAAAAAAAAAAAAECH/2gAIAQIBAT8Qh//EAB0QAQACAgIDAAAAAAAAAAAAAAEAESExQbFxgfD/2gAIAQEAAT8QYQugW6tt1FoYt2jGolKquZ8QzWNjA9MPge4F4toW6Dif/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;2&quot;
+        title=&quot;&quot;
+        src=&quot;/static/969431fd9a2d0e8c87717c6da3bb5acd/877ff/2.jpg&quot;
+        srcset=&quot;/static/969431fd9a2d0e8c87717c6da3bb5acd/d2504/2.jpg 500w,
+/static/969431fd9a2d0e8c87717c6da3bb5acd/877ff/2.jpg 1000w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Santillana desktop app]]></title><description><![CDATA[As part of my business relationship with Narcea Multimedia, I built several interactive CDs for  Santillana , a well known book publisher…]]></description><link>https://v8.joanmira.com/santillana/</link><guid isPermaLink="false">https://v8.joanmira.com/santillana/</guid><content:encoded>&lt;p&gt;
   &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/a4ea94e2eb7c6eb8febbab90f2d96f83/877ff/0.jpg&quot;
