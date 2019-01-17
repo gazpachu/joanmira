@@ -8,7 +8,7 @@ import Cursor from "../../images/gif/cursor.gif";
 
 const Header = props => {
   const { theme } = props;
-  const inverted = window.location.pathname === "/" ? "inverted" : "";
+  const inverted = typeof window !== 'undefined' && window.location.pathname === "/" ? "inverted" : "";
   console.log(window.location.pathname, inverted);
 
   return (
