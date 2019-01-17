@@ -146,6 +146,7 @@ class Boxes extends PureComponent {
 
         <style jsx>{`
           .boxes {
+            overflow: hidden;
             position: absolute;
             top: 0;
             left: 0;
