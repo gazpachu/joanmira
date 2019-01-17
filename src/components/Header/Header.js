@@ -7,8 +7,9 @@ import Logo from "../../images/svg/logo.svg";
 import Cursor from "../../images/gif/cursor.gif";
 
 const Header = props => {
-  const { theme, path } = props;
-  const inverted = path.length > 1 ? "" : "inverted";
+  const { theme } = props;
+  const inverted = window.location.pathname === "/" ? "inverted" : "";
+  console.log(window.location.pathname, inverted);
 
   return (
     <Fragment>
