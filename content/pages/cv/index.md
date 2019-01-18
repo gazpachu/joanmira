@@ -41,7 +41,7 @@ h4 {
 }
 </style>
 
-<div class="updated">Last updated on 1st January 2019</div>
+<div class="updated">Last updated on January 2019</div>
 
 ##Summary
 

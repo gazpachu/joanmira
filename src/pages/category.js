@@ -71,7 +71,7 @@ const CategoryPage = props => {
         )}
       </ThemeContext.Consumer>
 
-      <Seo />
+      <Seo title="Categories" />
     </Fragment>
   );
 };

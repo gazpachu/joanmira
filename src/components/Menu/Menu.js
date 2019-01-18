@@ -54,7 +54,7 @@ class Menu extends Component {
             <Link className="menu-btn" to="/contact">
               Contact
             </Link>
-            <Link to="/search/" className="search-button">
+            <Link to="/search/" className="search-button" aria-label="Search">
               <Search className="search-icon" />
             </Link>
           </li>

@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import { ThemeContext } from "../layouts";
 import { Link } from "gatsby";
 import Headline from "../components/Article/Headline";
+import Seo from "../components/Seo";
 import Pach from "../images/png/pach.png";
 import Palmeral from "../images/jpg/palmeral.jpg";
 import Elephant from "../images/jpg/elephant.jpg";
@@ -64,6 +65,8 @@ const AboutPage = () => (
             <div title="Moraig cove in Alicante"><img src={Moraig} alt="Moraig cove in Alicante" /></div>
             <div title="From London to Alicante by motorbike"><img src={Paris} alt="From London to Alicante by motorbike" /></div>
           </div>
+
+          <Seo title="About" />
 
           <style jsx>{`
             .about {
