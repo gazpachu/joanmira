@@ -51,6 +51,7 @@ export const workQuery = graphql`
       }
       frontmatter {
         title
+        categories
         cover {
           childImageSharp {
             resize(width: 1200) {

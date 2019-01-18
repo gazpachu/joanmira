@@ -22,7 +22,7 @@ cover: images/stats.jpg
 * 70% of the users speak Spanish and 25% English
 * 80% of the traffic comes from organic search, 15% access directly and 5% from referrals
 
-###Most popular pages
+### Most popular pages
 
 1. [/las-50-mejores-peliculas-de-los-anos-80/](/las-50-mejores-peliculas-de-los-anos-80/) (38%)
 2. [/1001-pelis-para-ver-antes-de-morir/](/1001-pelis-para-ver-antes-de-morir/) (23%)
@@ -35,7 +35,8 @@ cover: images/stats.jpg
 8. [/50-animes-para-ver-this-summer/](/50-animes-para-ver-this-summer/) (1%)
 10. [/a-few-more-vuejs-2-tweaks-for-the-beginners/](/a-few-more-vuejs-2-tweaks-for-the-beginners/) (1%)
 
-###Page speed
+### Page audit
 
 ![](./images/page-speed-report.jpg)
-Report provided by [GTMetrix](https://gtmetrix.com/). There are still a few improvements that can be done around images and Nginx tuning.
+
+Page audit provided by [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)

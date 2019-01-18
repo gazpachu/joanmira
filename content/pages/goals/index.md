@@ -30,11 +30,10 @@ title: "Things I would like to do"
 * Live more than one year in USA
 * Live more than one year in <span class="tag blue-tag">Japan</span>
 * Live more than one year in Singapore
-* Finish my degree (<a href="http://www.uoc.edu" target="_blank">working on it</a>)
+* ~~Finish my university degree~~ (done)
 * Be comfortable with 2d and 3d maths and physics (<a href="http://www.uoc.edu" target="_blank">working on it</a>)
 * Produce a movie
 * Make my own wine
-* Start a <span class="tag gold-tag">company</span> related with wine
 * Start a <span class="tag gold-tag">company</span> related with <span class="tag red-tag">motorcycles</span>
 * Be in zero gravity
 * Build my own <span class="tag red-tag">motorcycle</span>

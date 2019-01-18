@@ -8,7 +8,7 @@ Privacy matters but it can be confusing. This page explains my approach to priva
 ###Short version
 
 * I collect anonymous statistics about your visit, like which of my pages you viewed.
-* Some 3rd parties like Facebook and Twitter may know you visited this website, if you use their services. I can’t control them but I don’t believe this knowledge poses any threat to you.
+* Some 3rd parties like Facebook, Twitter and Disqus may know you visited this website, if you use their services. I can’t control them but I don’t believe this knowledge poses any threat to you.
 * If you sign up with me, I take great care to keep your information safe and I’ll never share it with others without your express permission.
 * I never share your data with 3rd parties except to help me deliver my own services.
 

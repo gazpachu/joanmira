@@ -25,7 +25,7 @@ const Page = props => {
     page: {
       html,
       fields: { prefix },
-      frontmatter: { title }
+      frontmatter: { title, categories }
     },
     theme
   } = props;
@@ -34,8 +34,20 @@ const Page = props => {
     <Fragment>
       <header>
         <Headline title={title} theme={theme} prefix={prefix} />
+        {categories ? <div className="tags">Tags: {categories.replace("inverted", "")}</div> : null}
       </header>
       <Bodytext html={html} theme={theme} />
+
+      <style jsx>{`
+        .tags {
+          text-align: center;
+          margin-bottom: 40px;
+          margin-top: -30px;
+          font-size: 14px;
+          color: #888;
+          font-style: italic;
+        }
+      `}</style>
     </Fragment>
   );
 };

@@ -38,6 +38,17 @@ const SearchPage = props => {
         .icon :global(svg) {
           height: 30px;
         }
+        :global(.ais-SearchBox-input) {
+          outline: none;
+          color: #333;
+        }
+        :global(.ais-SearchBox-reset) {
+          display: none;
+        }
+        :global(.ais-SearchBox-submitIcon) {
+          width: 18px;
+          height: 18px;
+        }
       `}</style>
     </Fragment>
   );

@@ -10,7 +10,7 @@ const Footer = props => {
         <footer className="footer">
           <p>© Joan Mira | Front-end Engineer | Interactive Developer | Creative Web Designer</p>
           <p>
-            Powered by <a href="https://www.gatsbyjs.org">Gatsby</a>, <a href="http://reactjs.org">React</a> and <a href="https://github.com">Github</a> | <a href="/credits">Credits and tech stack</a> | <a href="/stats">Stats and easter eggs</a> | <a href="/privacy">Privacy policy</a> | <a href="/rss.xml">RSS Feed</a>
+            Powered by <a href="https://www.gatsbyjs.org">Gatsby</a>, <a href="http://reactjs.org">React</a> and <a href="https://github.com">Github</a> | <a href="/credits">Credits and tech stack</a> | <a href="/stats">Stats and audit</a> | <a href="/privacy">Privacy policy</a> | <a href="/rss.xml">RSS Feed</a>
           </p>
         </footer>
       ) : null}
