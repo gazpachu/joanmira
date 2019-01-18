@@ -57,7 +57,7 @@ class BlogTemplate extends React.Component {
                 ))}
               </ul>
 
-              <Seo />
+              <Seo title="Blog" />
 
               <style jsx>{`
                 .prev-next {

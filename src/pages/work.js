@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
+import Seo from "../components/Seo";
 import { ThemeContext } from "../layouts";
 import Headline from "../components/Article/Headline";
 import Projects from "../components/Projects/Projects";
@@ -66,6 +67,8 @@ class WorkPage extends Component {
               </div>
 
               <Projects posts={posts} filter={activeFilter} theme={theme} />
+
+              <Seo title="Work" />
 
               <style jsx>{`
                 .work {

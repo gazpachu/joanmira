@@ -1,10 +1,16 @@
-import React, { Component } from "react";
+import React, { Fragment, Component } from "react";
 import { ThemeContext } from "../layouts";
+import Seo from "../components/Seo";
 import Hero from "../components/Hero";
 
 class IndexPage extends Component {
   render() {
-    return <ThemeContext.Consumer>{theme => <Hero theme={theme} />}</ThemeContext.Consumer>;
+    return (
+      <Fragment>
+        <ThemeContext.Consumer>{theme => <Hero theme={theme} />}</ThemeContext.Consumer>
+        <Seo />
+      </Fragment>
+    );
   }
 }
 

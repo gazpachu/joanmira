@@ -46,7 +46,7 @@ const CategoryTemplate = props => {
         )}
       </ThemeContext.Consumer>
 
-      <Seo />
+      <Seo title={category} />
     </Fragment>
   );
 };

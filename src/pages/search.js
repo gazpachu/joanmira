@@ -27,7 +27,7 @@ const SearchPage = props => {
         )}
       </ThemeContext.Consumer>
 
-      <Seo />
+      <Seo title="Search" />
 
       <style jsx>{`
         .icon {

@@ -1,8 +1,8 @@
 module.exports = {
-  siteTitle: "Joan Mira - Front-end Engineer / Creative Interactive Developer", // <title>
+  siteTitle: "Joan Mira", // <title>
   shortSiteTitle: "Joan Mira", // <title> ending for posts and pages
-  siteDescription: "Personal website of Joan Mira. A front-end engineer and code artist",
-  siteUrl: "https://v8.joanmira.com",
+  siteDescription: "Personal website of Joan Mira. A Front-end Engineer / Creative Interactive Developer",
+  siteUrl: "https://joanmira.com",
   pathPrefix: "",
   siteImage: "",
   siteLanguage: "en",
@@ -14,7 +14,7 @@ module.exports = {
   manifestShortName: "JoanMira", // max 12 characters
   manifestStartUrl: "/index.html",
   manifestBackgroundColor: "white",
-  manifestThemeColor: "#333",
+  manifestThemeColor: "#192652",
   manifestDisplay: "standalone",
 
   authorSocialLinks: [
