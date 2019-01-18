@@ -31,7 +31,7 @@ class Header extends Component {
             <Link to="/" className="logo">
               <Logo className="logo-symbol" />
               <h1>{config.headerTitle}</h1>
-              <img src={Cursor} className="cursor" />
+              <img src={Cursor} className="cursor" alt="Cursor" />
             </Link>
             <Menu theme={theme} inverted={this.state.inverted} />
           </div>
