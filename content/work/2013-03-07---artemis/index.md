@@ -10,7 +10,7 @@ While working at WCRS, I was asked to build an animated responsive HTML Artemis 
 
 ![](./images/1.jpg)
 
-<video class="full-img" style="border: 1px solid #CCC; border-radius: 30px;" width="100%" controls>
+<video width="100%" controls>
     <source src="./images/artemis-profit-hunter.mp4" type="video/mp4" />
 </video>
 

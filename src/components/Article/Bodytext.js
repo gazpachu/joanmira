@@ -45,7 +45,9 @@ const Bodytext = props => {
             color: ${theme.color.brand.primary};
             text-decoration: underline;
           }
-          :global(.gatsby-resp-image-wrapper) {
+          :global(.gatsby-resp-image-wrapper),
+          :global(video),
+          :global(.gif) {
             width: 126%;
             max-width: none !important;
             margin: 0 -13% !important;
