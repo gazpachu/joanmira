@@ -22,6 +22,7 @@ const AboutPage = () => (
     <ThemeContext.Consumer>
       {theme => (
         <div className="page-wrapper about">
+
           <header>
             <Headline title="About" theme={theme} />
           </header>
@@ -69,6 +70,28 @@ const AboutPage = () => (
           <Seo title="About" />
 
           <style jsx>{`
+            .shape {
+              width: 100%;
+              height: 500px;
+              background-size: cover;
+              position: absolute;
+              left: 0;
+              z-index: -1;
+              overflow: hidden;
+            }
+
+            .shape1 {
+              top: 0;
+              background-color: #5c93ab;
+              clip-path: polygon(0% 100%, 100% 0%, 0% 0%);
+            }
+
+            .shape2 {
+              top: 500px;
+              background-color: #BDBEB8;
+              clip-path: polygon(0% 100%, 100% 0%, 0% 0%);
+            }
+
             .about {
               @below desktop {
                 text-align: center;
@@ -78,7 +101,7 @@ const AboutPage = () => (
             .slide {
               padding-bottom: 30px;
               margin-bottom: 50px;
-              border-bottom: 1px solid #eee;
+              border-bottom: 1px solid rgba(0, 0, 0, .1);
 
               @below desktop {
                 padding-bottom: 0;

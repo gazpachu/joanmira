@@ -46,7 +46,7 @@ h4 {
 ##Summary
 
 <div class="highlight">
-  <p>A pixel-focused, creative, positive, curious, tidy and proactive all-around senior <strong>front-end engineer / interactive developer / web designer</strong> with 18 years of experience.</p>
+  <p>A pixel-focused, creative, proactive and organised all-around senior <strong>front-end engineer / interactive developer / UX designer</strong> with 18 years of experience.</p>
 
   <p><strong>Loves to learn</strong> new stuff, organise and <strong>make things look pretty</strong>, be challenged on ambitious projects or code beautiful interactive and innovative experiences.</p>
 
@@ -61,11 +61,13 @@ h4 {
 
 ##Skills
 
-In the past I have worked as a full-stack developer and web designer, but the current complexity of the web industry led me to focus primary in the front-end, although I still like to play with servers and design interfaces.
+In the past I have worked as a full-stack developer and web designer, but the current complexity of the web industry led me to focus primary in the front-end and the UX, although I still like to play with servers and design interfaces sometimes.
 
-My interests are more aligned with the **creative tracks** (the visual, artistic, interactive and UI/UX side of the front-end work). Although I'm also experienced and comfortable with all the other aspects of the front-end work, like dealing with APIs, tooling/configuration, architecture, unit tests, etc.
+My interests are more aligned with the **creative tracks** (the visual, artistic, interactive and UI/UX side of the front-end work). Although I'm also experienced and comfortable with all the other aspects, like dealing with APIs, tooling/configuration, architecture, unit tests, etc.
 
 Currently, [ReactJS](https://facebook.github.io/react) and [Styled-Components](https://styled-components.com) are my favourite front-end technologies, but I'm also learning [GatsbyJS](https://www.gatsbyjs.org/) and [GraphQL](http://graphql.org/).
+
+In the UX side, I particularly enjoy wireframing and user testing sessions.
 
 **Front End**
 
@@ -101,8 +103,8 @@ Currently, [ReactJS](https://facebook.github.io/react) and [Styled-Components](h
 
 **Design**
 
-* UX: IA (sitemaps), Wireframes, Storyboards, User Testing sessions, Clickable prototypes
-* Software: [Invision](https://www.invisionapp.com), [Sketch](http://bohemiancoding.com/sketch/), [Zeplin](https://zeplin.io/), [Adobe CC](https://www.adobe.com/creativecloud.html), [3dS Max](http://www.autodesk.es/products/3ds-max/overview)
+* UX: IA (sitemaps), wireframes, storyboards, target audience/Personas, user testing sessions, clickable prototypes
+* Software: [Invision](https://www.invisionapp.com), [Sketch](http://bohemiancoding.com/sketch/), [Zeplin](https://zeplin.io/), [Adobe CC](https://www.adobe.com/creativecloud.html) (Photoshop, Illustrator, Premiere, After Effects, XD, Audition), [3dS Max](http://www.autodesk.es/products/3ds-max/overview)
 
 **Systems administration**
 

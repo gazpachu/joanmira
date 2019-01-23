@@ -12,6 +12,8 @@ Stack was my first project when I started to work at Vodafone. Stack's purpose w
 
 The project was built using the AngularJS framework (v1.6.4) in the frontend and all the data was fetched from an external API. We also used Grunt, SASS, SVG sprites, ShuffleJS and HightCharts.
 
+I built the front-end together with two other co-workers.
+
 <video class="full-img" width="100%" controls>
   <source src="./images/stack_v1.4.mp4" type="video/mp4" />
 </video>

@@ -1,5 +1,6 @@
 ---
 title: "Contact"
+cover: images/cover.jpg
 ---
 
 <div style="text-align: center">

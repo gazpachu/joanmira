@@ -61,10 +61,6 @@ class Header extends Component {
               height: 150px;
               background: linear-gradient(to bottom, #fff 0, rgba(255, 255, 255, 0) 100%);
               filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=0 );
-
-              @below tablet {
-                height: 250px;
-              }
             }
 
             .header-content {

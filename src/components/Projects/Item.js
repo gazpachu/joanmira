@@ -99,7 +99,8 @@ const Item = props => {
             white-space: pre-wrap;
             overflow: hidden;
             text-overflow: ellipsis;
-            max-height: 55px;
+            max-height: 60px;
+            line-height: 30px;
             transition: transform 0.35s;
             transform: translate3d(0, 0, 0);
             opacity: 0;

@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: "Joan Mira", // <title>
   shortSiteTitle: "Joan Mira", // <title> ending for posts and pages
-  siteDescription: "Personal website of Joan Mira. A Front-end Engineer / Creative Interactive Developer",
+  siteDescription: "Personal website of Joan Mira. A Front-end Engineer / Interactive Developer / UX Designer",
   siteUrl: "https://joanmira.com",
   pathPrefix: "",
   siteImage: "",
@@ -10,7 +10,7 @@ module.exports = {
   headerTitle: "JOΛN MIRΛ",
   authorTwitterAccount: "gazpachu",
 
-  manifestName: "Joan Mira - Front-end Engineer",
+  manifestName: "Joan Mira - Front-end Engineer & UX Designer",
   manifestShortName: "JoanMira", // max 12 characters
   manifestStartUrl: "/index.html",
   manifestBackgroundColor: "white",
