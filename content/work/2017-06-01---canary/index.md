@@ -24,15 +24,13 @@ When the user clicks on a cell, an overlay appears with more information regardi
 
 Canary won the prestigious Knowledge Management Innovation award in the UK legal industry: [eiseverywhere.com](https://www.eiseverywhere.com/ehome/legalweekinnovationawards/567021/) [legalweek.com](https://www.law.com/legal-week/sites/legalweek/2017/06/27/legal-week-innovation-awards-knowledge-management-innovation-award-vodafone-global-enterprise/?slreturn=20170528041243)
 
-Initial prototype (It was called Canario):
-
-<video class="full-img" width="100%" controls>
-  <source src="./images/canario.mp4" type="video/mp4" />
-</video>
+### Initial prototypes
 
 ![](./images/3.jpg "Second prototype")
 
 ![](./images/2.jpg "Second prototype")
+
+![](./images/4.jpg "First prototype")
 
 <p style="text-align: center; margin-top: 30px">
   <img class="loader" src="./images/loader.gif" alt="loader" />
