@@ -8,7 +8,12 @@ categories: vodafone react redux webpack web ux design
 
 ![](./images/1.jpg)
 
-Fingertips (aka Dashboard) is the main app that hosts all the other apps I built while working at Vodafone. Its purpose is to serve as the platform to access all the other available apps.
+Fingertips (aka Dashboard) is the main app that hosts all the other apps I built while working at Vodafone. Its purpose is to serve as:
+
+- the platform to access all the other available apps
+- inform the users about news and updates
+- have quick summaries about the apps using Widgets
+- give feedback and have real-time support
 
 Initially, there was just a page with boxes for the apps, but I thought we could rebuild it into something that has more information and would allow us to connect with our users. That's how I came out with the dashboard and widgets design.
 
