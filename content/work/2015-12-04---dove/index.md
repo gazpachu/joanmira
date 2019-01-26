@@ -35,3 +35,7 @@ Aside from the development tasks, I also was involved in many of the interaction
 All an all, it was project with a very tight timeframe and ambitious requirements but with a setup which allowed me to have a more managerial perspective than previous projects. The target is always to learn new things and continue to improve my skills in web development, so I'm glad we could deliver it on time and with the right quality.
 
 ![](./images/4.jpg)
+
+![](./images/board.jpg "Mood and project wall")
+
+![](./images/team.jpg "Dove team")

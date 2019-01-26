@@ -17,12 +17,12 @@ class Boxes extends PureComponent {
         { name: "CSS3", rating: 5 },
         { name: "JavaScript", rating: 5 },
         { name: "ReactJS", rating: 5 },
-        { name: "CSS in JS", rating: 4 },
+        { name: "CSSinJS", rating: 4 },
         { name: "Redux", rating: 4 },
-        { name: "Material UI", rating: 4 },
+        { name: "MaterialUI", rating: 4 },
         { name: "SASS", rating: 4 },
         { name: "Webpack", rating: 4 },
-        { name: "Eslint", rating: 4 },
+        { name: "OpenSource", rating: 4 },
         { name: "JEST", rating: 3 },
         { name: "PWA", rating: 3 },
         { name: "GSAP", rating: 3 },
@@ -37,12 +37,12 @@ class Boxes extends PureComponent {
         { name: "Scrum", rating: 4 },
         { name: "GatsbyJS", rating: 3 },
         { name: "Slack", rating: 4 },
-        { name: "Atlassian", rating: 4 },
+        { name: "LAMP", rating: 4 },
         { name: "Heroku", rating: 3 },
         { name: "REST", rating: 3 },
         { name: "JSON API", rating: 4 },
         { name: "Styleguidist", rating: 4 },
-        { name: "Prettier", rating: 4 }
+        { name: "GraphQL", rating: 2 }
       ]
     };
 

@@ -65,6 +65,12 @@ There are many interesting topics that I could continue talking about, like the 
 
 It was a great professional experience and I learned a lot. It was also my first job in the UK, so I was unaware of many cultural differences, which made it even more interesting. As of today, **I still consider this project one of my career best achievements**, mainly because it was a very small team with a high responsibility and I was surrounded with very talented professionals that mentored me and made me a more thoughtful and capable developer.
 
+### Ballet screens
+
+Another side project I had the pleasure to work on, was the ballet screens. An app that runs on the tv screens of the dancing studios of the ROH. It's basically an HTML page with some CSS with data coming from an XSLT document.
+
+![](./images/ballet.jpg)
+
 ### Related articles
 
 21/02/2012: [www.roh.org.uk/news/our-new-website-an-update-on-progress](http://www.roh.org.uk/news/our-new-website-an-update-on-progress)

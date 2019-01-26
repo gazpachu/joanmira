@@ -23,3 +23,5 @@ The journey is basically a chain of complex forms, which are navigated using a t
 ![](./images/5.jpg)
 
 ![](./images/6.jpg)
+
+![](./images/board.jpg "Project board")

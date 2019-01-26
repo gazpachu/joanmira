@@ -46,7 +46,7 @@ h4 {
 ##Summary
 
 <div class="highlight">
-  <p>A pixel-focused, creative, proactive and organised all-around senior <strong>front-end engineer / interactive developer / UX designer</strong> with 18 years of experience.</p>
+  <p>A pixel-focused, creative, proactive and organised all-around <strong>front-end engineer / interactive developer / creative technologist / UX designer</strong> with 18 years of experience.</p>
 
   <p><strong>Loves to learn</strong> new stuff, organise and <strong>make things look pretty</strong>, be challenged on ambitious projects or code beautiful interactive and innovative experiences.</p>
 

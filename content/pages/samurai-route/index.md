@@ -18,6 +18,12 @@ There are also a [few blog entries related with the trip](/category/samurai-rout
 
 <iframe frameborder="0" height="550" marginheight="0" marginwidth="0" scrolling="no" src="//maps.google.es/maps/ms?hl=es&ie=UTF8&t=h&msa=0&msid=109521630100610492151.00047cbcf9d4d2e0c9663&ll=45.58329,65.742188&spn=84.257979,149.414063&z=2&output=embed" style="border: 1px solid #CCCCCC;" width="100%"></iframe>
 
+## Entrevista en Radio Euskadi
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/564940968&color=%23080506&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+## Reportaje de TV Giralda
+
 <iframe allowfullscreen="allowfullscreen" frameborder="0" width="800" height="450" src="//www.youtube.com/embed/mDsD1S7m3_A?rel=0"></iframe>
 
 ### Sponsored by

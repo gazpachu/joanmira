@@ -39,4 +39,6 @@ Note: Kinect cameras cannot be connected to mobile devices or tablets, although 
 
 The demo was installed in Eden House’s exhibit area (SapientNitro's office) to allow visitors and employees to use it.
 
+![](./images/1.jpg "Wall installation")
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pgPIYp36Miw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
