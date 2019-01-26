@@ -3,16 +3,14 @@ title: "Royal Opera House website case study"
 cover: "images/logo.png"
 location: UK
 color: "#c60c30"
-categories: web wordpress zend inverted
+categories: web wordpress zend php inverted
 ---
 
 The Royal Opera House was my first professional experience in the UK. I was hired as a Digital Developer by the Design & Development manager (former lead designer of BBC programs) with a very important objective: to completely rebuild the ROH website from scratch. A business critical project that required a major overhaul in the online ticketing system, server infrastructure, information architecture, user experience, content management and online shop to match the high standards of the organisation.
 
-![](./images/roh-office.jpg "The development team was small but talented!. Just two developers and one designer/manager)")
-
 Once we understood the issues with the old website, we decided to start building [the news section](http://www.roh.org.uk/news), which is quite an isolated piece that could be driven by a Wordpress installation with custom theme and plugins.
 
-![](./images/1.jpg "Screenshot of the ROH current news section")
+![](./images/1.jpg "Screenshot of the ROH news section")
 
 ### The requirements and the plan
 
@@ -65,18 +63,58 @@ There are many interesting topics that I could continue talking about, like the 
 
 It was a great professional experience and I learned a lot. It was also my first job in the UK, so I was unaware of many cultural differences, which made it even more interesting. As of today, **I still consider this project one of my career best achievements**, mainly because it was a very small team with a high responsibility and I was surrounded with very talented professionals that mentored me and made me a more thoughtful and capable developer.
 
-### Ballet screens
-
-Another side project I had the pleasure to work on, was the ballet screens. An app that runs on the tv screens of the dancing studios of the ROH. It's basically an HTML page with some CSS with data coming from an XSLT document.
-
-![](./images/ballet.jpg)
-
 ### Related articles
 
 21/02/2012: [www.roh.org.uk/news/our-new-website-an-update-on-progress](http://www.roh.org.uk/news/our-new-website-an-update-on-progress)
 
 12/01/2012: [www.roh.org.uk/news/our-website-a-look-forward](http://www.roh.org.uk/news/our-website-a-look-forward)
 
+### Some screenshots
+
+![](./images/15.jpg "Home page")
+
+![](./images/14.jpg "Production page")
+
+![](./images/4.jpg "About page")
+
+![](./images/5.jpg "Article page")
+
+![](./images/6.jpg "User account page")
+
+![](./images/7.jpg "Restaurant reservation")
+
+![](./images/8.jpg "Ticket selection")
+
+![](./images/9.jpg "Seat selection")
+
+![](./images/9.jpg "Order placed")
+
+![](./images/11.jpg "Lunchtime booking")
+
+![](./images/12.jpg "Upcoming events")
+
+![](./images/13.jpg "Calendar by week")
+
+![](./images/16.jpg "Article with me and Jamie")
+
+### Ballet screens
+
+Another side project I had the pleasure to work on, was the ballet screens. An app that runs on the tv screens of the dancing studios of the ROH. It's basically an HTML page with some CSS with data coming from an XSLT document.
+
+![](./images/ballet.jpg)
+
+### Team and office
+
+![](./images/roh-office.jpg "The development team was small but talented!. Just two developers and one designer/manager)")
+
 ![](./images/roh-workspace.jpg "My workspace")
 
 ![](./images/roh-team-2.jpg "The digital media team")
+
+## Old design
+
+![](./images/old-home.jpg "Old home page")
+
+![](./images/old-whats-on.jpg "Old What's on page")
+
+![](./images/old-discover.jpg "Old discover landing page")
