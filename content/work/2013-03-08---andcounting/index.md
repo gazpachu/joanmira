@@ -3,7 +3,7 @@ title: "AndCounting"
 cover: "images/logo.png"
 location: UK
 color: "#EE6B26"
-categories: android
+categories: mobile open-source
 ---
 
 <p class="align-center">

@@ -3,7 +3,7 @@ title: "React weather"
 cover: "images/logo.jpg"
 location: UK
 color: "#FFF"
-categories: react web cover
+categories: react web cover open-source
 ---
 
 <p class="align-center">

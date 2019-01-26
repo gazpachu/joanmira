@@ -3,7 +3,7 @@ title: "Momardi website"
 cover: "images/logo.jpg"
 location: UK
 color: "#399dca"
-categories: web ux design wordpress ghostjs gatsbyjs inverted
+categories: web ux design wordpress ghostjs gatsbyjs inverted open-source
 ---
 
 <p class="align-center">

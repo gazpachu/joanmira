@@ -3,7 +3,7 @@ title: "Joan Mira"
 cover: "images/logo.png"
 location: UK
 color: "#487F99"
-categories: web ux design ghost grunt sass inverted
+categories: web ux design ghost grunt sass inverted open-source
 ---
 
 <p class="align-center">

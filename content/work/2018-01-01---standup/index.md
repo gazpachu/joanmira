@@ -3,7 +3,7 @@ title: "Standup"
 cover: "images/logo.png"
 location: UK
 color: "#000"
-categories: vodafone react webrtc webpack web ux design inverted
+categories: vodafone react webrtc webpack web ux design inverted open-source
 ---
 
 <p class="align-center">

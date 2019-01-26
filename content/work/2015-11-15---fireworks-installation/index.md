@@ -3,7 +3,7 @@ title: "SapientNitro Fireworks installation"
 cover: "images/logo.png"
 location: UK
 color: "#58B85F"
-categories: sapientnitro prototype design installation inverted
+categories: sapientnitro prototype design installation inverted open-source
 ---
 
 ## A Kinect driven hand tracking experiment

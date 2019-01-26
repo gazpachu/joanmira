@@ -3,7 +3,7 @@ title: "IBCMass"
 cover: "images/logo.png"
 location: Spain
 color: white
-categories: flash animation ibcmass
+categories: flash animation ibcmass desktop
 ---
 
 <p class="align-center">

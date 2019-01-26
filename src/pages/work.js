@@ -12,14 +12,15 @@ const filters = [
   "animation",
   "prototype",
   "open-source",
-  "android",
-  "ios",
+  "mobile",
+  "desktop",
   "installation",
   "consultancy",
   "design",
   "ux",
   "video",
-  "photo"
+  "photo",
+  "talks"
 ];
 
 class WorkPage extends Component {

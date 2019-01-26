@@ -6,6 +6,10 @@ color: black
 categories: sapientnitro animation shortlisted web ruby box2d inverted
 ---
 
+<p class="align-center">
+<a class="btn" href="http://work.joanmira.com/demos/artrules/" target="_blank" rel="noopener noreferrer">Check animation prototypes</a>
+</p>
+
 The [ICA, Institute of Contemporary Art](https://www.ica.org.uk/), has been in the forefront for arts for decades. It was finding difficulties keeping up with today’s social media age and needed to be part of the online art conversation. We ([SapientNitro](http://www.sapientnitro.com/), London) built a platform to encourage people to challenge what art really means.
 
 ![](./images/0.jpg)

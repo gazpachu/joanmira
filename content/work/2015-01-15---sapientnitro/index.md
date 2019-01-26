@@ -16,6 +16,10 @@ The DB was driven by Mongo (we used Mongolabs for testing) and for the UI we use
 
 Developers can update their skills (using a level criteria) and managers can review them and also assign a value to them.
 
+![](./images/0.jpg)
+
+![](./images/6.jpg)
+
 ![](./images/1.jpg)
 
 ![](./images/3.jpg)
@@ -23,3 +27,5 @@ Developers can update their skills (using a level criteria) and managers can rev
 ![](./images/4.jpg)
 
 ![](./images/5.jpg)
+
+![](./images/board.jpg "Scrum board")
