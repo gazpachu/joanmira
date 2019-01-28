@@ -48,7 +48,7 @@ h4 {
 <div class="highlight">
   <p>A pixel-focused, creative, proactive and organised all-around <strong>front-end engineer / interactive developer / creative technologist / UX designer</strong> with 18 years of experience.</p>
 
-  <p><strong>Loves to learn</strong> new stuff, organise and <strong>make things look pretty</strong>, be challenged on ambitious projects or code beautiful interactive and innovative experiences.</p>
+  <p><strong>Loves to learn</strong> new stuff, organise and <strong>make things look pretty and cool</strong>, be challenged on ambitious projects or code beautiful interactive and innovative experiences.</p>
 
   <ul style="margin-bottom: 0">
     <li>Autodidact. Extensive education in computer science, multimedia & web design</li>
@@ -65,19 +65,28 @@ In the past I have worked as a full-stack developer and web designer, but the cu
 
 My interests are more aligned with the **creative tracks** (the visual, artistic, interactive and UI/UX side of the front-end work). Although I'm also experienced and comfortable with all the other aspects, like dealing with APIs, tooling/configuration, architecture, unit tests, etc.
 
-Currently, [ReactJS](https://facebook.github.io/react) and [Styled-Components](https://styled-components.com) are my favourite front-end technologies, but I'm also learning [GatsbyJS](https://www.gatsbyjs.org/) and [GraphQL](http://graphql.org/).
+Currently, [ReactJS](https://facebook.github.io/react) is my favourite framework. I'm also learning [GatsbyJS](https://www.gatsbyjs.org/) and [GraphQL](http://graphql.org/) and would like to learn more about the [WebGL](https://gist.github.com/dmnsgn/76878ba6903cf15789b712464875cfdc) and [WebVR](https://medium.freecodecamp.org/how-to-build-a-multiplayer-vr-web-app-7b989964fb38) ecosystems...
 
-In the UX side, I particularly enjoy wireframing and user testing sessions.
+![](./images/tech.jpg)
 
 **Front End**
 
+I will omit web browsers, sub-modules, polyfills, plugins, presets, loaders and minor modules.
+
 * Core: [JavaScript ES2015](https://en.wikipedia.org/wiki/ECMAScript#6th_Edition_-_ECMAScript_2015), [HTML5](https://en.wikipedia.org/wiki/HTML5), [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3)
 * Frameworks: [ReactJS](https://facebook.github.io/react), [VueJS](https://vuejs.org), [AngularJS](https://angularjs.org/)
-* Libraries: [Styled-Components](https://styled-components.com), [LESS](http://lesscss.org/)/[SASS](http://sass-lang.com/), [Redux](http://redux.js.org/), [Material UI](https://material-ui.com/), [Styleguidist](https://react-styleguidist.js.org/), [Vue Material](https://vuematerial.github.io/#/), [Highcharts](http://www.highcharts.com/), [Bootstrap](http://getbootstrap.com/), [jQuery](https://en.wikipedia.org/wiki/JQuery), [Require.js](http://requirejs.org/), [Assemble](http://assemble.io/), [Handlebars](http://handlebarsjs.com/), [Mustache](https://mustache.github.io/), [HAML](http://haml.info/), [EJS](http://www.embeddedjs.com/)
-* Tooling: [Yarn](https://yarnpkg.com/lang/en/)/[NPM](https://www.npmjs.com/), [Webpack](https://webpack.github.io/), [Babel](https://babeljs.io), [Grunt](http://gruntjs.com/)/[Gulp](http://gulpjs.com/), [Bower](http://bower.io/)
+* State management: [Redux](http://redux.js.org/), [Reselect](https://github.com/reduxjs/reselect), [Vuex](https://github.com/vuejs/vuex), [MobX](https://mobx.js.org/)
+* React modules: [CreateReactApp](https://github.com/facebook/create-react-app), [ReactRouter](https://github.com/ReactTraining/react-router), [React-dnd](https://github.com/react-dnd/react-dnd), [Froala](https://github.com/froala/react-froala-wysiwyg)
+* CSS: [Styled Components](https://styled-components.com), [LESS](http://lesscss.org/), [SASS](http://sass-lang.com/), [PostCSS](https://postcss.org/)
+* Component libraries: [Styleguidist](https://react-styleguidist.js.org/), [Material UI](https://material-ui.com/), [Vue Material](https://vuematerial.github.io/#/), [Bootstrap](http://getbootstrap.com/)
+* Utility libraries: [Axios](https://github.com/axios/axios), [Lodash](https://lodash.com/), [date-fns](https://date-fns.org/), [Moment.js](https://momentjs.com/), [Showdown](https://github.com/showdownjs/showdown), [History](https://github.com/ReactTraining/history), [jQuery](https://en.wikipedia.org/wiki/JQuery), [Require.js](http://requirejs.org/), [Browserify](http://browserify.org/), [VeeValidate](https://github.com/baianat/vee-validate), [Iframe resizer](https://github.com/davidjbradshaw/iframe-resizer)
+* Other libraries: [Highcharts](http://www.highcharts.com/), [OrgChart](https://github.com/dabeng/OrgChart)
+* Static site generators: [Assemble](http://assemble.io/), [GatsbyJS](https://www.gatsbyjs.org/)
+* Templating: [Handlebars](http://handlebarsjs.com/), [Mustache](https://mustache.github.io/), [HAML](http://haml.info/), [EJS](http://www.embeddedjs.com/)
+* Tooling: [Yarn](https://yarnpkg.com/lang/en/)/[NPM](https://www.npmjs.com/), [Webpack](https://webpack.github.io/), [Babel](https://babeljs.io), [ShipIt](https://github.com/shipitjs/shipit), [Grunt](http://gruntjs.com/), [Gulp](http://gulpjs.com/), [Bower](http://bower.io/)
 * Testing: [Prettier](https://prettier.io/), [ESlint](http://eslint.org/), [Jest](https://jestjs.io/), [React Testing Library](https://github.com/kentcdodds/react-testing-library)
-* Principles: [PWA](https://developers.google.com/web/progressive-web-apps/), [ITCSS](https://speakerdeck.com/dafed/managing-css-projects-with-itcss), [BEM](https://en.bem.info/), [Responsive design](https://en.wikipedia.org/wiki/Responsive_web_design), [Mobile First](https://en.wikipedia.org/wiki/Responsive_web_design), [Semantic Markup](https://en.wikipedia.org/wiki/Semantic_HTML), [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization), [Accessibility](https://en.wikipedia.org/wiki/Web_accessibility)
 * Animation: [GSAP](http://greensock.com/gsap), [Phaser](http://phaser.io/), [Box2d](https://en.wikipedia.org/wiki/Box2D), [ActionScript](https://en.wikipedia.org/wiki/ActionScript)
+* Real-time: [Socket.io](https://socket.io/), [SignalMaster](https://github.com/andyet/signalmaster), [SimpleWebRTC](https://github.com/andyet/SimpleWebRTC)
 
 **Back End**
 
@@ -90,16 +99,16 @@ In the UX side, I particularly enjoy wireframing and user testing sessions.
 
 **Software engineering**
 
-* Principles: [Common design patterns](https://sourcemaking.com/design_patterns), [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller), [domain driven design](https://en.wikipedia.org/wiki/Responsive_web_design), [REST](https://en.wikipedia.org/wiki/Representational_state_transfer)
-* Version control: [GIT](https://git-scm.com/), [SVN](https://subversion.apache.org/), [SourceTree](https://www.atlassian.com/software/sourcetree), [TortoiseSVN](https://tortoisesvn.net/), Source Safe
+* Principles: [PWA](https://developers.google.com/web/progressive-web-apps/), [ITCSS](https://speakerdeck.com/dafed/managing-css-projects-with-itcss), [BEM](https://en.bem.info/), [Responsive design](https://en.wikipedia.org/wiki/Responsive_web_design), [Mobile First](https://en.wikipedia.org/wiki/Responsive_web_design), [Semantic Markup](https://en.wikipedia.org/wiki/Semantic_HTML), [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization), [Accessibility](https://en.wikipedia.org/wiki/Web_accessibility), [Common design patterns](https://sourcemaking.com/design_patterns), [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller), [domain driven design](https://en.wikipedia.org/wiki/Responsive_web_design), [REST](https://en.wikipedia.org/wiki/Representational_state_transfer), [JSON API](https://jsonapi.org/)
+* Version control: [GIT](https://git-scm.com/), [SVN](https://subversion.apache.org/), [SourceTree](https://www.atlassian.com/software/sourcetree), [TortoiseSVN](https://tortoisesvn.net/)
 * Project management: [ZenHub](https://www.zenhub.com/), [Atlassian software](https://www.atlassian.com/) ([Trello](https://trello.com/), [Bitbucket](https://bitbucket.org/), [Jira](https://www.atlassian.com/software/jira), [Confluence](https://www.atlassian.com/software/confluence)), [Basecamp](https://basecamp.com/)
 * Code Quality: [Honeybadger](https://www.honeybadger.io/), [Codeclimate](https://codeclimate.com/), [SonarQube](https://www.sonarqube.org/)
 * Continuous Integration: [Travis](https://travis-ci.org), [CircleCI](https://circleci.com), [Jenkins](https://jenkins-ci.org/), [Vagrant](https://www.vagrantup.com/), [Docker](https://www.docker.com/)
 * Methodologies: [Agile](https://en.wikipedia.org/wiki/Agile_software_development), [Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)), [Waterfall](https://en.wikipedia.org/wiki/Waterfall_model), [Kanban](https://en.wikipedia.org/wiki/Kanban_(development))
 * Editors: [Atom](https://atom.io/), [SublimeText](http://www.sublimetext.com/), [Eclipse](https://eclipse.org/), [Xcode](https://developer.apple.com/xcode/), [CodeBlocks](http://www.codeblocks.org/), [Visual Studio](https://www.visualstudio.com/)
-* Solutions architect: project analysis, tasks breakdown, documentation, prototyping, time estimates
-* SaaS, IaaS, PaaS: [Slack](https://slack.com), [Github](https://github.com/), [AWS](http://aws.amazon.com/), [Heroku](https://www.heroku.com/), [Firebase](firebase.google.com), [Xirsys](xirsys.com), [Sendgrid](https://sendgrid.com/), [Mailchimp](https://mailchimp.com/), [Twilio](https://www.twilio.com/)
+* SaaS, IaaS, PaaS: [Slack](https://slack.com), [Github](https://github.com/), [AWS](http://aws.amazon.com/), [Heroku](https://www.heroku.com/), [Netlify](https://www.netlify.com/), [Firebase](firebase.google.com), [Xirsys](xirsys.com), [Sendgrid](https://sendgrid.com/), [Mailchimp](https://mailchimp.com/), [Twilio](https://www.twilio.com/)
 * SEO & Performance: [Webmaster Tools](https://www.google.com/webmasters/tools/home), [Analytics](http://www.google.com/analytics/), [GTMetrix](https://gtmetrix.com/), [Lighthouse](https://developers.google.com/web/tools/lighthouse/), [Varnish](https://www.varnish-cache.org/), [Memcached](http://memcached.org/)
+* Solutions architect: project analysis, tasks breakdown, documentation, prototyping, time estimates
 
 **Design**
 
@@ -108,7 +117,7 @@ In the UX side, I particularly enjoy wireframing and user testing sessions.
 
 **Systems administration**
 
-* Primary OS: [MacOS](https://www.apple.com/macos), secondary: [Ubuntu](http://ubuntu.com)/[CentOS](http://centos.org) and Windows
+* Primary OS: [MacOS](https://www.apple.com/macos), secondary: Windows and [Ubuntu](http://ubuntu.com)/[CentOS](http://centos.org)
 * Networking: [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol), [Apache](http://www.apache.org/), [Nginx](http://nginx.org/), [SSH](https://en.wikipedia.org/wiki/Secure_Shell), [DNS](https://en.wikipedia.org/wiki/Domain_Name_System), [SSL](https://en.wikipedia.org/wiki/SSL), [XAMPP](https://www.apachefriends.org/index.html), [MAMP](https://www.mamp.info/en/)
 * Hosting: [Rackspace](http://www.rackspace.co.uk/), [DigitalOcean](https://www.digitalocean.com/), [OVH](https://www.ovh.co.uk/), [WHM](http://cpanel.com/), [cPanel](http://cpanel.com/), [Plesk](http://www.plesk.com/), [WHMCS](http://www.whmcs.com/)
 
