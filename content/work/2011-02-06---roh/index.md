@@ -111,6 +111,8 @@ Another side project I had the pleasure to work on, was the ballet screens. An a
 
 ![](./images/roh-team-2.jpg "The digital media team")
 
+![](./images/party.jpg "ROH Party")
+
 ## Old design
 
 ![](./images/old-home.jpg "Old home page")

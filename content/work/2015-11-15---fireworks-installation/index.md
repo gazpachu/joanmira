@@ -3,8 +3,12 @@ title: "SapientNitro Fireworks installation"
 cover: "images/logo.png"
 location: UK
 color: "#58B85F"
-categories: sapientnitro prototype design installation inverted open-source
+categories: sapientnitro prototype design kinect openni openframeworks installation inverted open-source
 ---
+
+<p class="align-center">
+<a class="btn" href="https://github.com/gazpachu/fireworks" target="_blank">Source code</a>
+</p>
 
 ## A Kinect driven hand tracking experiment
 

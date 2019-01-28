@@ -18,6 +18,6 @@ I also built a prototype with folding panels, which uses CSS3 to create the pane
 
 ![](./images/4.jpg)
 
-The highlight of these prototyping works was a installation demo I built using OpenFrameworks and Microsoft Kinect to promote the new Disney Channel in Sky [**video coming soon**]. The demo app tracks the hand of the user and translate the movements into Tinkerbell's magic dust, therefore the user can move Tinkerbell with his hands. It uses a particle system, shaders, blur and other graphic techniques to increase the visual appeal.
+The highlight of these prototyping works was a installation demo I built using OpenFrameworks and Microsoft Kinect to promote the new Disney Channel in Sky. The demo app tracks the hand of the user and translate the movements into Tinkerbell's magic dust, therefore the user can move Tinkerbell with his hands. It uses a particle system, shaders, blur and other graphic techniques to increase the visual appeal.
 
 ![](./images/5.jpg)

@@ -3,7 +3,7 @@ title: "Box2d talks"
 cover: "images/logo.png"
 location: UK
 color: "#FFF"
-categories: sapientnitro prototype open-source talks
+categories: sapientnitro prototype box2d animation open-source talks
 ---
 
 <p class="align-center">

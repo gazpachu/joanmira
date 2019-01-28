@@ -1,12 +1,14 @@
 ---
-title: "The Samurai Route"
+title: "La Ruta del Samurái (The Samurai Route)"
 ---
 
 <p class="align-center">
 <a class="btn" href="http://rutasamurai.herokuapp.com" target="_blank">Launch archived website</a>
 </p>
 
-In January 2010 I had a crazy idea: to **travel by motorbike from Spain to Japan** in 3 months (around 20.000Km) and then spend 2 months travelling around Japan. I've been riding motorcycles since I was 17 but never really travelled long distances with one of them, not even 500 Km!. I also wanted to explore my limits, get away from the computer for some time, feel more in contact with nature and of course, visit Japan!
+In January 2010 I had a crazy idea: to **travel by motorbike from Spain to Japan** in 3 months (around 20.000Km) and then spend 2 months travelling around Japan. We called it "La Ruta del samurai" (The Samurai Route).
+
+I've been riding motorcycles since I was 17 but never really travelled long distances with one of them, not even 500 Km!. I also wanted to explore my limits, get away from the computer for some time, feel more in contact with nature and of course, visit Japan!
 
 I passed the exam for the "big motorcycles" license and bought a [Yamaha XT660Z Teneré](https://en.wikipedia.org/wiki/Yamaha_XT660Z_T%C3%A9n%C3%A9r%C3%A9). It wasn't my favourite model, but at the end, it turned out to be a great choice for that kind of trip. I [spent a few months preparing the trip](/category/samurai-route), found some kind sponsors and a partner. Finally, on June, I left my hometown and started this great adventure :-) [ <a href="https://www.facebook.com/rutasamurai/photos_stream?tab=photos_albums" target="_blank">view pictures</a> ]
 
@@ -32,7 +34,7 @@ There are also a [few blog entries related with the trip](/category/samurai-rout
 
 [Bagster](http://www.bagster.com/es/) designs and manufactures increasingly practical and innovative items for motorcycle travels. Trades in virtually 100% of the outlets and facilities for motorcycles. For the Samurai Route, Bagster sponsored us with mittens, deposit bags and backpacks.
 
-[Winter Mountain / Casbas Creations](http://www.creacionescasbas.com/) is the 6th Generation of mountain clothing fashion designers and manufacturers. They produce garments for the best and most representative firms nationally and internationally, such as Mango, Nike, Kikers, Trango among others.
+[Winter Mountain / Casbas Creations](http://www.creacionescasbas.com/) is the 6th Generation of mountain clothing fashion designers and manufacturers. They produce garments for the best and most representative firms nationally and internationally, such as Mango, Nike, Kikers, Trango among others. [Blog post about the sponsorship](https://www.creacionescasbas.com/blog/patrocinadores-la-ruta-del-samurai/)
 
 [Explora Sur](http://explorasur.com/) is a shop with items for: climbing, caving, canyoning, hiking, cycling and running, textile, camping, etc. They are totally reliable and have very good prices. The best that can be found on the Internet!
 
