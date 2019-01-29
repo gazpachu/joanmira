@@ -2,6 +2,7 @@ import "typeface-open-sans";
 import FontFaceObserver from "fontfaceobserver";
 import PropTypes from "prop-types";
 import React, { Fragment } from "react";
+import Konami from "react-konami-code";
 
 import { getScreenWidth, timeoutThrottlerHandler } from "../utils/helpers";
 import Footer from "../components/Footer/";
@@ -75,6 +76,7 @@ class Layout extends React.Component {
         <FontLoadedContext.Provider value={this.state.font400loaded}>
           <ScreenWidthContext.Provider value={this.state.screenWidth}>
             <Fragment>
+              <Konami action={() => window.location.replace("https://gazpachu.github.io/pachu/")} />
               <Header path={this.props.location.pathname} theme={this.state.theme} />
               <main>{children}</main>
               <Footer path={this.props.location.pathname} theme={this.state.theme} />

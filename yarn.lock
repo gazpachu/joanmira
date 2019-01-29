@@ -10078,7 +10078,7 @@ react-dom@^15.6.1:
     object-assign "^4.1.0"
     prop-types "^15.5.10"
 
-react-dom@^16.5.2:
+react-dom@^16.3.1, react-dom@^16.5.2:
   version "16.7.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.7.0.tgz#a17b2a7ca89ee7390bc1ed5eb81783c7461748b8"
   dependencies:
@@ -10152,6 +10152,13 @@ react-instantsearch@^5.2.2:
     react-instantsearch-dom "^5.3.2"
     react-instantsearch-native "^5.3.2"
 
+react-konami-code@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/react-konami-code/-/react-konami-code-1.4.0.tgz#5b6508bcc57e91a02f696451c11f0873caaa8dce"
+  dependencies:
+    react "^16.3.1"
+    react-dom "^16.3.1"
+
 react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
@@ -10193,7 +10200,7 @@ react@^15.6.1:
     object-assign "^4.1.0"
     prop-types "^15.5.10"
 
-react@^16.5.2:
+react@^16.3.1, react@^16.5.2:
   version "16.7.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.7.0.tgz#b674ec396b0a5715873b350446f7ea0802ab6381"
   dependencies:
