@@ -61,9 +61,9 @@ h4 {
 
 ##Skills
 
-In the past I have worked as a full-stack developer and web designer, but the current complexity of the web industry led me to focus primary in the front-end and the UX, although I still like to play with servers and design interfaces sometimes.
+In the past I have worked as a full-stack developer and web designer, but [the current complexity of the web industry](/full-stack-developers) led me to focus primary in the front-end and the UX, although I still like to play with servers and design interfaces sometimes.
 
-My interests are more aligned with the **creative tracks** (the visual, artistic, interactive and UI/UX side of the front-end work). Although I'm also experienced and comfortable with all the other aspects, like dealing with APIs, tooling/configuration, architecture, unit tests, etc.
+My interests and abilities are more aligned with the **creative tracks** (the visual, artistic, interactive and UI/UX side of the front-end work). Although I'm also experienced and comfortable with all the other aspects, like dealing with APIs, tooling/configuration, architecture, testing, performance, etc.
 
 Currently, [ReactJS](https://facebook.github.io/react) is my favourite framework. I'm also learning [GatsbyJS](https://www.gatsbyjs.org/) and [GraphQL](http://graphql.org/) and would like to learn more about the [WebGL](https://gist.github.com/dmnsgn/76878ba6903cf15789b712464875cfdc) and [WebVR](https://medium.freecodecamp.org/how-to-build-a-multiplayer-vr-web-app-7b989964fb38) ecosystems...
 

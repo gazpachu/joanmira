@@ -46,9 +46,9 @@ const AboutPage = () => (
               />
             </div>
 
-            <p>I was borned and raised in <a href="https://en.wikipedia.org/wiki/Alicante" target="_blank" rel="noreferrer noopener">Alicante</a>. A popular tourist area in the south east of Spain.</p>
+            <p>I was born and raised in <a href="https://en.wikipedia.org/wiki/Alicante" target="_blank" rel="noreferrer noopener">Alicante</a>. A popular tourist area in the south east of Spain.</p>
             <p>If you haven&#39;t heard before about Alicante, then you should know that it is a region with <a href="https://www.alicanteturismo.com/discover-alicante/beaches/?lang=en" rel="noreferrer noopener">splendid beaches</a>, <a href="https://www.climatestotravel.com/climate/spain/alicante" target="_blank" rel="noreferrer noopener">very good weather</a> and remarkable gastronomy. To the point that, <a href="https://en.wikipedia.org/wiki/Ferran_Adri%C3%A0">Ferran Adriá</a> once said it is <a href="https://www.diarioinformacion.com/cultura/2011/08/13/ferran-adria-inspira-alicante/1158013.html" rel="noreferrer noopener">one of the best places in the World to eat!</a></p>
-            <p>It is also the area of the world-renown <a href="https://en.wikipedia.org/wiki/Paella" target="_blank" rel="noreferrer noopener">paella</a>, <a href="https://en.wikipedia.org/wiki/Turr%C3%B3n" target="_blank" rel="noreferrer noopener">turron</a> and the <a href="https://vinosalicantedop.org/?lang=en" rel="noreferrer noopener">alicante wines</a>.</p>
+            <p>It&#39;s also the area of the world-renowned <a href="https://en.wikipedia.org/wiki/Paella" target="_blank" rel="noreferrer noopener">paella</a>, <a href="https://en.wikipedia.org/wiki/Turr%C3%B3n" target="_blank" rel="noreferrer noopener">turron</a> and the <a href="https://vinosalicantedop.org/?lang=en" rel="noreferrer noopener">alicante wines</a>.</p>
             <p>Alicante is also undergoing a major <a href="https://alicantec.com/en/" target="_blank" rel="noreferrer noopener">revamping in the digital industry</a>, with a government driven project called the <a href="https://www.facebook.com/GVAddigital" target="_blank" rel="noreferrer noopener">Digital District</a> that is attracting startups and big IT companies to settle in the area.</p>
           </div>
 
