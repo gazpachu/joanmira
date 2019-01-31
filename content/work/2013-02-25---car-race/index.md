@@ -19,6 +19,8 @@ The cars and the rest of the logic was all C++ and OpenFrameworks. All the captu
 
 ![](./images/1.jpg)
 
+![](./images/3.jpg)
+
 Later on, I also started to play with the idea of using characters rather than cars and platforms rather than a track. The idea was that the user would draw the platforms and the characters in the paper and the app would load all this information into the app...
 
 ![](./images/2.jpg)
