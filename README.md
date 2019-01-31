@@ -12,7 +12,6 @@ Powered by [GatsbyJS](https://gatsbyjs.org/), [ReactJS](https://reactjs.org) and
 - **CSS** with `styled-jsx` and `PostCSS`
 - **SEO** (sitemap generation, robot.txt, meta and OpenGraph Tags)
 - **Social** sharing (Twitter, Facebook, Google, LinkedIn)
-- **Comments** (Facebook)
 - **Images** lazy loading and `webp` support (gatsby-image)
 - Post **categories** (category based post list)
 - Full text **searching** (Algolia)
