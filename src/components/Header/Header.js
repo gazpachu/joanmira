@@ -60,7 +60,6 @@ class Header extends Component {
               width: 100%;
               height: 150px;
               background: linear-gradient(to bottom, #fff 0, rgba(255, 255, 255, 0) 100%);
-              filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=0 );
             }
 
             .header-content {
