@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Joan Mira]]></title><description><![CDATA[Personal website of Joan Mira. A Front-end Engineer / Interactive Developer / Creative Technologist / UX Designer]]></description><link>https://joanmira.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 04 Feb 2019 20:45:43 GMT</lastBuildDate><item><title><![CDATA[sugUI UI Library & Design System]]></title><description><![CDATA[sugUI is an open source UI components library and design system template based on React, Styled Components, Styleguidist and React Testing…]]></description><link>https://joanmira.com/sugui/</link><guid isPermaLink="false">https://joanmira.com/sugui/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Joan Mira]]></title><description><![CDATA[Personal website of Joan Mira. A Front-end Engineer / Interactive Developer / Creative Technologist / UX Designer]]></description><link>https://joanmira.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 05 Feb 2019 15:47:19 GMT</lastBuildDate><item><title><![CDATA[sugUI UI Library & Design System]]></title><description><![CDATA[sugUI is an open source UI components library and design system template based on React, Styled Components, Styleguidist and React Testing…]]></description><link>https://joanmira.com/sugui/</link><guid isPermaLink="false">https://joanmira.com/sugui/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
 &lt;a class=&quot;btn&quot; href=&quot;https://gazpachu.github.io/sugui-design-system/&quot; target=&quot;_blank&quot;&gt;Project website&lt;/a&gt;
 &lt;a class=&quot;btn&quot; href=&quot;https://github.com/gazpachu/sugui&quot; target=&quot;_blank&quot;&gt;UI Library Github repo&lt;/a&gt;
 &lt;a class=&quot;btn&quot; href=&quot;https://github.com/gazpachu/sugui-design-system&quot; target=&quot;_blank&quot;&gt;Design System Github repo&lt;/a&gt;
@@ -537,7 +537,35 @@
   &lt;/figure&gt;&lt;/p&gt;
 &lt;video class=&quot;full-img&quot; width=&quot;100%&quot; controls&gt;
   &lt;source src=&quot;/tour-2d38f0401189234bc8daf179b6e61673.mp4&quot; type=&quot;video/mp4&quot; /&gt;
-&lt;/video&gt;</content:encoded></item><item><title><![CDATA[Standup]]></title><description><![CDATA[I built the Standup app as an experiment to make remote scrum standup sessions more fun! The app uses a technology called WebRTC to…]]></description><link>https://joanmira.com/standup/</link><guid isPermaLink="false">https://joanmira.com/standup/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+&lt;/video&gt;</content:encoded></item><item><title><![CDATA[Migrate from GhostJS to GatsbyJS]]></title><description><![CDATA[I’ve been using the community version (self-hosted) of  GhostJS  since 2016 in my personal websites. At the beginning it was all good, I…]]></description><link>https://joanmira.com/migrate-from-ghostjs-to-gatsbyjs/</link><guid isPermaLink="false">https://joanmira.com/migrate-from-ghostjs-to-gatsbyjs/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+&lt;a class=&quot;btn icon icon-external&quot; href=&quot;https://github.com/gazpachu/joanmira&quot; target=&quot;_blank&quot;&gt;Source code&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;I’ve been using the community version (self-hosted) of &lt;a href=&quot;http://ghost.org&quot;&gt;GhostJS&lt;/a&gt; since 2016 in my personal websites. At the beginning it was all good, I loved it. I decided to migrate from Wordpress to Ghost because WP was getting always targeted by hackers and the code was becoming messy with all sorts of plugins, bugs, etc.&lt;/p&gt;
+&lt;p&gt;But then, after a couple of years, I started falling out of love. I don’t blame Ghost, it was probably me. I became lazy to upgrade to the latest version of Ghost, which required a lot of changes in the codebase and also in the VPS config I had in &lt;a href=&quot;http://ovh.es&quot;&gt;OVH&lt;/a&gt;. Due to this situation, I didn’t really update my websites much.&lt;/p&gt;
+&lt;p&gt;Time passed and then I realised I really needed to update my website with new projects. I also wanted to leave my hosting provider and hopefully find a modern and free web hosting service I could use and integrate in a CI/CD pipeline. That’s when I started researching about modern static site generators and how I found &lt;a href=&quot;http://gatsbyjs.org&quot;&gt;GatsbyJS&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;There are other static site generators out there like &lt;a href=&quot;https://nextjs.org/&quot;&gt;NextJS&lt;/a&gt;, or &lt;a href=&quot;https://www.netlify.com/blog/2017/05/25/top-ten-static-site-generators-of-2017/&quot;&gt;these other&lt;/a&gt;. I was interested in Gatsby because it uses GraphQL, a technology I want to learn and it’s also based on ReactJS.&lt;/p&gt;
+&lt;h2&gt;Preparing the migration&lt;/h2&gt;
+&lt;p&gt;After installing GatsbyJS and exploring a bit how it works, I started researching how could I transfer all my blog posts and static pages into Gatsby’s folder structure, with the posts as markdown files and the images stored in subfolders. Luckily enough, there was a kind soul that &lt;a href=&quot;https://github.com/InsidersByte/ghost-to-gatsby&quot;&gt;built a module&lt;/a&gt; to do exactly that.&lt;/p&gt;
+&lt;p&gt;The module takes the export file from Ghost and automatically creates the folders for the posts renamed with the post date and the post slug. It then places inside the post in markdown format and downloads the images into an &lt;code class=&quot;language-text&quot;&gt;images&lt;/code&gt; folder. Unfortunately, the module didn’t fully download all the images nor produced all the markdown files, but still, I got a lot of the work done for free!&lt;/p&gt;
+&lt;h2&gt;Finding a starter package&lt;/h2&gt;
+&lt;p&gt;In the Gatsby community, there are many boilerplates/templates, or how they call it, &lt;a href=&quot;https://www.gatsbyjs.org/starters/?v=2&quot;&gt;starter packages&lt;/a&gt;. There are different approaches for building a new website. You could start it completely from scratch, just using the &lt;code class=&quot;language-text&quot;&gt;gatsby-cli&lt;/code&gt; tool or you could install a starter and then build from there. In my case, I chose the &lt;a href=&quot;https://github.com/greglobinski/gatsby-starter-hero-blog&quot;&gt;starter-hero-blog&lt;/a&gt;, as it already had some features I was interested to learn.&lt;/p&gt;
+&lt;h2&gt;Start formatting the posts&lt;/h2&gt;
+&lt;p&gt;A new concept I learned with Gatsby is the &lt;code class=&quot;language-text&quot;&gt;frontmatter&lt;/code&gt;. The frontmatter is the first section of a book and is generally the shortest; it is also sometimes called the prelims, or preliminary matter. In Gatsby and also in the static site generators world, the frontmatter is the data at the top of the markdown files that is going to be like its &lt;code class=&quot;language-text&quot;&gt;meta data&lt;/code&gt;. So it will contain the name of the featured image, the category the post belongs to, the slug, date, etc. The structure is open, so you can decide what data you want to use.&lt;/p&gt;
+&lt;p&gt;In my case, because the posts folders already contain the post date and the slug, I decided not to include them again in the frontmatter. For blog posts, I decided to store only the category, title and cover image.&lt;/p&gt;
+&lt;p&gt;This part of choosing which meta data to use in all blog posts is quite important, as every markdown file will have to contain these values, so think well what you need. You can always use the &lt;code class=&quot;language-text&quot;&gt;search in all files&lt;/code&gt; feature of your text editor to rename stuff, but it’s not ideal to keep doing that…&lt;/p&gt;
+&lt;p&gt;After the blog posts from Ghost were imported into Gatsby, I’ve realised that I had to format a bit the &lt;code class=&quot;language-text&quot;&gt;frontmatter&lt;/code&gt;, so this, together with fixing image URLs, cleaning up markup and improving some articles, will take a considerable amount of time, depending of how many posts you have in your website.&lt;/p&gt;
+&lt;h2&gt;Adding new features&lt;/h2&gt;
+&lt;p&gt;In my case, I needed to add a few new things:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Blog pagination&lt;/strong&gt;: this would allow users to divide the listing page into several pages, otherwise all the blog posts would show up, which is not ideal&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Moving the blog from the index to &lt;code class=&quot;language-text&quot;&gt;/blog&lt;/code&gt;&lt;/strong&gt;: I wanted to have the homepage for something else, so I had to do a few changes in the &lt;code class=&quot;language-text&quot;&gt;gatsby-config.js&lt;/code&gt; file to accomodate the blog in a different URL&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create nodes for projects and static pages&lt;/strong&gt;: these changes would require new layout files and changes in the config&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Check the &lt;a href=&quot;https://github.com/gazpachu/joanmira&quot;&gt;source code&lt;/a&gt; if you want to explore how I did these changes.&lt;/p&gt;
+&lt;h2&gt;Setting up CI/CD and deploying to github pages&lt;/h2&gt;
+&lt;p&gt;One of the benefits of moving to a static site generator is that I no longer need to maintain a server by myself. I can just generate the html, css and javascript files and upload them into github pages. That’s it!&lt;/p&gt;
+&lt;p&gt;To deploy to github, there’s no need to have a continuous integration and continuous delivery pipeline. You can just install the &lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt; package and the deploy script (&lt;code class=&quot;language-text&quot;&gt;&amp;quot;deploy&amp;quot;: &amp;quot;gh-pages -d public&amp;quot;&lt;/code&gt;) to your &lt;code class=&quot;language-text&quot;&gt;package.json&lt;/code&gt; file.&lt;/p&gt;
+&lt;p&gt;But, if you want an automatic way to deploy your website everytime you push something new to the &lt;code class=&quot;language-text&quot;&gt;master&lt;/code&gt; branch, have a look at my &lt;a href=&quot;https://github.com/gazpachu/joanmira/blob/master/.travis.yml&quot;&gt;.travis.yml&lt;/a&gt; file and setup your own pipeline in &lt;a href=&quot;http://travisci.com&quot;&gt;TravisCI&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Standup]]></title><description><![CDATA[I built the Standup app as an experiment to make remote scrum standup sessions more fun! The app uses a technology called WebRTC to…]]></description><link>https://joanmira.com/standup/</link><guid isPermaLink="false">https://joanmira.com/standup/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
 &lt;a class=&quot;btn&quot; href=&quot;https://fingertips-standup.herokuapp.com/&quot; target=&quot;_blank&quot;&gt;Demo&lt;/a&gt;
 &lt;a class=&quot;btn&quot; href=&quot;https://github.com/gazpachu/standup&quot; target=&quot;_blank&quot;&gt;Source code&lt;/a&gt;
 &lt;/p&gt;
@@ -17544,51 +17572,7 @@ Alojamiento en Barcelona: pedir información en info@rutasamurai.com&lt;/p&gt;
         sizes=&quot;(max-width: 680px) 100vw, 680px&quot;
       /&gt;
   &lt;/span&gt;
-  &lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CECVA website]]></title><description><![CDATA[I built a couple of Joomla websites for CECVA. The last one includes a video player with playlist and many different static pages and…]]></description><link>https://joanmira.com/cecva/</link><guid isPermaLink="false">https://joanmira.com/cecva/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
-&lt;a class=&quot;btn&quot; href=&quot;http://cecva.herokuapp.com&quot; target=&quot;_blank&quot;&gt;Launch archived website&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 63.3%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHVG1HEB//EABkQAQEBAAMAAAAAAAAAAAAAAAEAAhIhMf/aAAgBAQABBQLbosKx4jcGOj//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAdEAABAgcAAAAAAAAAAAAAAAAAECEBESIxMoGh/9oACAEBAAY/AmhMqbaXMuJ//8QAGxAAAgMAAwAAAAAAAAAAAAAAAREAITEQQZH/2gAIAQEAAT8hMbCcaiRHODtxFHHktBSoEoJc/9oADAMBAAIAAwAAABDwz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABwQAQEBAAIDAQAAAAAAAAAAAAERACExQZHB8P/aAAgBAQABPxDnMx2wAaYZfYY95U83JEIWzn9zCAqn44yBHkJv/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;1&quot;
-        title=&quot;&quot;
-        src=&quot;/static/d1699f89a10dceb103eb4bfda2ad1b85/877ff/1.jpg&quot;
-        srcset=&quot;/static/d1699f89a10dceb103eb4bfda2ad1b85/d2504/1.jpg 500w,
-/static/d1699f89a10dceb103eb4bfda2ad1b85/877ff/1.jpg 1000w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
-      /&gt;
-  &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;I built a couple of Joomla websites for CECVA. The last one includes a video player with playlist and many different static pages and dynamic content.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Autoescuelas CostaBlanca website]]></title><description><![CDATA[I built a custom Joomla website with classic static pages to showcase the driving school services.]]></description><link>https://joanmira.com/costablanca/</link><guid isPermaLink="false">https://joanmira.com/costablanca/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
-&lt;a class=&quot;btn&quot; href=&quot;http://costablanca.herokuapp.com&quot; target=&quot;_blank&quot;&gt;Launch website&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 63.3%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHUYWGEB//EABoQAAIDAQEAAAAAAAAAAAAAAAACARExAxL/2gAIAQEAAQUC6Myi3JGMnopiM//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EAB0QAAECBwAAAAAAAAAAAAAAAAACEAEhMTJBkaH/2gAIAQEABj8CkmKjO2qXcb//xAAaEAEAAgMBAAAAAAAAAAAAAAABABEhQWEQ/9oACAEBAAE/IcxdOnkoCgvWnkiLGGzE5oKUW5//2gAMAwEAAgADAAAAELDP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHhABAAICAQUAAAAAAAAAAAAAAQARIUFRMWFxkfD/2gAIAQEAAT8QzOFEroMN8zGWhUrXEVnK+YxUK7V9wDoX3vDYEbCp/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;1&quot;
-        title=&quot;&quot;
-        src=&quot;/static/eda97e04b01eb3b55f6280ce3fb1983b/877ff/1.jpg&quot;
-        srcset=&quot;/static/eda97e04b01eb3b55f6280ce3fb1983b/d2504/1.jpg 500w,
-/static/eda97e04b01eb3b55f6280ce3fb1983b/877ff/1.jpg 1000w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
-      /&gt;
-  &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;I built a custom Joomla website with classic static pages to showcase the driving school services.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Citi Group prototype]]></title><description><![CDATA[This is a collaboration with my friend Fiodor Tonti. I helped him with the initial stages of research and development regarding the Flash…]]></description><link>https://joanmira.com/citigroup/</link><guid isPermaLink="false">https://joanmira.com/citigroup/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+  &lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Citi Group prototype]]></title><description><![CDATA[This is a collaboration with my friend Fiodor Tonti. I helped him with the initial stages of research and development regarding the Flash…]]></description><link>https://joanmira.com/citigroup/</link><guid isPermaLink="false">https://joanmira.com/citigroup/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
 &lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/citigroup/&quot; target=&quot;_blank&quot;&gt;Launch banner prototype&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;This is a collaboration with my friend Fiodor Tonti. I helped him with the initial stages of research and development regarding the Flash led scroller and with the background and panel design.&lt;/p&gt;
@@ -17610,7 +17594,51 @@ Alojamiento en Barcelona: pedir información en info@rutasamurai.com&lt;/p&gt;
 /static/315a48040b2eb57d5b34e1aab25e17fd/877ff/1.jpg 1000w&quot;
         sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
       /&gt;
-  &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Website Profesional]]></title><description><![CDATA[As part of my business relationship with WebsiteProfesional, I built their Joomla website to showcase their services. It’s a standard…]]></description><link>https://joanmira.com/website-profesional/</link><guid isPermaLink="false">https://joanmira.com/website-profesional/</guid><content:encoded>&lt;p&gt;&lt;a
+  &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Autoescuelas CostaBlanca website]]></title><description><![CDATA[I built a custom Joomla website with classic static pages to showcase the driving school services.]]></description><link>https://joanmira.com/costablanca/</link><guid isPermaLink="false">https://joanmira.com/costablanca/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+&lt;a class=&quot;btn&quot; href=&quot;http://costablanca.herokuapp.com&quot; target=&quot;_blank&quot;&gt;Launch website&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 63.3%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHUYWGEB//EABoQAAIDAQEAAAAAAAAAAAAAAAACARExAxL/2gAIAQEAAQUC6Myi3JGMnopiM//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EAB0QAAECBwAAAAAAAAAAAAAAAAACEAEhMTJBkaH/2gAIAQEABj8CkmKjO2qXcb//xAAaEAEAAgMBAAAAAAAAAAAAAAABABEhQWEQ/9oACAEBAAE/IcxdOnkoCgvWnkiLGGzE5oKUW5//2gAMAwEAAgADAAAAELDP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHhABAAICAQUAAAAAAAAAAAAAAQARIUFRMWFxkfD/2gAIAQEAAT8QzOFEroMN8zGWhUrXEVnK+YxUK7V9wDoX3vDYEbCp/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/eda97e04b01eb3b55f6280ce3fb1983b/877ff/1.jpg&quot;
+        srcset=&quot;/static/eda97e04b01eb3b55f6280ce3fb1983b/d2504/1.jpg 500w,
+/static/eda97e04b01eb3b55f6280ce3fb1983b/877ff/1.jpg 1000w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+      /&gt;
+  &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I built a custom Joomla website with classic static pages to showcase the driving school services.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CECVA website]]></title><description><![CDATA[I built a couple of Joomla websites for CECVA. The last one includes a video player with playlist and many different static pages and…]]></description><link>https://joanmira.com/cecva/</link><guid isPermaLink="false">https://joanmira.com/cecva/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+&lt;a class=&quot;btn&quot; href=&quot;http://cecva.herokuapp.com&quot; target=&quot;_blank&quot;&gt;Launch archived website&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 63.3%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHVG1HEB//EABkQAQEBAAMAAAAAAAAAAAAAAAEAAhIhMf/aAAgBAQABBQLbosKx4jcGOj//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAdEAABAgcAAAAAAAAAAAAAAAAAECEBESIxMoGh/9oACAEBAAY/AmhMqbaXMuJ//8QAGxAAAgMAAwAAAAAAAAAAAAAAAREAITEQQZH/2gAIAQEAAT8hMbCcaiRHODtxFHHktBSoEoJc/9oADAMBAAIAAwAAABDwz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABwQAQEBAAIDAQAAAAAAAAAAAAERACExQZHB8P/aAAgBAQABPxDnMx2wAaYZfYY95U83JEIWzn9zCAqn44yBHkJv/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/d1699f89a10dceb103eb4bfda2ad1b85/877ff/1.jpg&quot;
+        srcset=&quot;/static/d1699f89a10dceb103eb4bfda2ad1b85/d2504/1.jpg 500w,
+/static/d1699f89a10dceb103eb4bfda2ad1b85/877ff/1.jpg 1000w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+      /&gt;
+  &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I built a couple of Joomla websites for CECVA. The last one includes a video player with playlist and many different static pages and dynamic content.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Website Profesional]]></title><description><![CDATA[As part of my business relationship with WebsiteProfesional, I built their Joomla website to showcase their services. It’s a standard…]]></description><link>https://joanmira.com/website-profesional/</link><guid isPermaLink="false">https://joanmira.com/website-profesional/</guid><content:encoded>&lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/2eceb484b467b646fef21f1d47a50044/877ff/1.jpg&quot;
     style=&quot;display: block&quot;

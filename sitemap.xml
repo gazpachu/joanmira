@@ -11,6 +11,7 @@
 <url> <loc>https://joanmira.com/category/games/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://joanmira.com/category/literature/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://joanmira.com/category/marketing/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://joanmira.com/migrate-from-ghostjs-to-gatsbyjs/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://joanmira.com/move-your-react-json-api-project-from-redux-to-mobx/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://joanmira.com/a-few-more-vuejs-2-tweaks-for-the-beginners/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://joanmira.com/vuejs-first-impression-and-how-to-work-with-svgs/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -179,9 +180,9 @@
 <url> <loc>https://joanmira.com/villas-termales/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://joanmira.com/agustilopez/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://joanmira.com/alcaladehenares/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://joanmira.com/cecva/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://joanmira.com/costablanca/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://joanmira.com/citigroup/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://joanmira.com/costablanca/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://joanmira.com/cecva/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://joanmira.com/website-profesional/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://joanmira.com/marco-rojo/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://joanmira.com/tau-consulting/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
