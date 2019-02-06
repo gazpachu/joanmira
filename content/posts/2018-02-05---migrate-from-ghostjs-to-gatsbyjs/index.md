@@ -50,6 +50,6 @@ Check the [source code](https://github.com/gazpachu/joanmira) if you want to exp
 
 One of the benefits of moving to a static site generator is that I no longer need to maintain a server by myself. I can just generate the html, css and javascript files and upload them into github pages. That's it!
 
-To deploy to github, there's no need to have a continuous integration and continuous delivery pipeline. You can just install the `gh-pages` package and the deploy script (`"deploy": "gh-pages -d public"`) to your `package.json` file.
+To deploy to github, there's no need to have a continuous integration and continuous delivery pipeline. You can just install the `gh-pages` package and add the deploy script (`"deploy": "gh-pages -d public"`) to your `package.json` file.
 
-But, if you want an automatic way to deploy your website everytime you push something new to the `master` branch, have a look at my [.travis.yml](https://github.com/gazpachu/joanmira/blob/master/.travis.yml) file and setup your own pipeline in [TravisCI](http://travisci.com)
+But, if you want an automatic way to deploy your website everytime you push something new to the `master` branch, have a look at my [.travis.yml](https://github.com/gazpachu/joanmira/blob/master/.travis.yml) file and setup your own pipeline in [TravisCI](http://travis-ci.org)
