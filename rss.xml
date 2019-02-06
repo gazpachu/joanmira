@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Joan Mira]]></title><description><![CDATA[Personal website of Joan Mira. A Front-end Engineer / Interactive Developer / Creative Technologist / UX Designer]]></description><link>https://joanmira.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 05 Feb 2019 15:47:19 GMT</lastBuildDate><item><title><![CDATA[sugUI UI Library & Design System]]></title><description><![CDATA[sugUI is an open source UI components library and design system template based on React, Styled Components, Styleguidist and React Testing…]]></description><link>https://joanmira.com/sugui/</link><guid isPermaLink="false">https://joanmira.com/sugui/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Joan Mira]]></title><description><![CDATA[Personal website of Joan Mira. A Front-end Engineer / Interactive Developer / Creative Technologist / UX Designer]]></description><link>https://joanmira.com</link><generator>RSS for Node</generator><lastBuildDate>Wed, 06 Feb 2019 18:10:02 GMT</lastBuildDate><item><title><![CDATA[sugUI UI Library & Design System]]></title><description><![CDATA[sugUI is an open source UI components library and design system template based on React, Styled Components, Styleguidist and React Testing…]]></description><link>https://joanmira.com/sugui/</link><guid isPermaLink="false">https://joanmira.com/sugui/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
 &lt;a class=&quot;btn&quot; href=&quot;https://gazpachu.github.io/sugui-design-system/&quot; target=&quot;_blank&quot;&gt;Project website&lt;/a&gt;
 &lt;a class=&quot;btn&quot; href=&quot;https://github.com/gazpachu/sugui&quot; target=&quot;_blank&quot;&gt;UI Library Github repo&lt;/a&gt;
 &lt;a class=&quot;btn&quot; href=&quot;https://github.com/gazpachu/sugui-design-system&quot; target=&quot;_blank&quot;&gt;Design System Github repo&lt;/a&gt;
@@ -564,8 +564,8 @@
 &lt;p&gt;Check the &lt;a href=&quot;https://github.com/gazpachu/joanmira&quot;&gt;source code&lt;/a&gt; if you want to explore how I did these changes.&lt;/p&gt;
 &lt;h2&gt;Setting up CI/CD and deploying to github pages&lt;/h2&gt;
 &lt;p&gt;One of the benefits of moving to a static site generator is that I no longer need to maintain a server by myself. I can just generate the html, css and javascript files and upload them into github pages. That’s it!&lt;/p&gt;
-&lt;p&gt;To deploy to github, there’s no need to have a continuous integration and continuous delivery pipeline. You can just install the &lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt; package and the deploy script (&lt;code class=&quot;language-text&quot;&gt;&amp;quot;deploy&amp;quot;: &amp;quot;gh-pages -d public&amp;quot;&lt;/code&gt;) to your &lt;code class=&quot;language-text&quot;&gt;package.json&lt;/code&gt; file.&lt;/p&gt;
-&lt;p&gt;But, if you want an automatic way to deploy your website everytime you push something new to the &lt;code class=&quot;language-text&quot;&gt;master&lt;/code&gt; branch, have a look at my &lt;a href=&quot;https://github.com/gazpachu/joanmira/blob/master/.travis.yml&quot;&gt;.travis.yml&lt;/a&gt; file and setup your own pipeline in &lt;a href=&quot;http://travisci.com&quot;&gt;TravisCI&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Standup]]></title><description><![CDATA[I built the Standup app as an experiment to make remote scrum standup sessions more fun! The app uses a technology called WebRTC to…]]></description><link>https://joanmira.com/standup/</link><guid isPermaLink="false">https://joanmira.com/standup/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+&lt;p&gt;To deploy to github, there’s no need to have a continuous integration and continuous delivery pipeline. You can just install the &lt;code class=&quot;language-text&quot;&gt;gh-pages&lt;/code&gt; package and add the deploy script (&lt;code class=&quot;language-text&quot;&gt;&amp;quot;deploy&amp;quot;: &amp;quot;gh-pages -d public&amp;quot;&lt;/code&gt;) to your &lt;code class=&quot;language-text&quot;&gt;package.json&lt;/code&gt; file.&lt;/p&gt;
+&lt;p&gt;But, if you want an automatic way to deploy your website everytime you push something new to the &lt;code class=&quot;language-text&quot;&gt;master&lt;/code&gt; branch, have a look at my &lt;a href=&quot;https://github.com/gazpachu/joanmira/blob/master/.travis.yml&quot;&gt;.travis.yml&lt;/a&gt; file and setup your own pipeline in &lt;a href=&quot;http://travis-ci.org&quot;&gt;TravisCI&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Standup]]></title><description><![CDATA[I built the Standup app as an experiment to make remote scrum standup sessions more fun! The app uses a technology called WebRTC to…]]></description><link>https://joanmira.com/standup/</link><guid isPermaLink="false">https://joanmira.com/standup/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
 &lt;a class=&quot;btn&quot; href=&quot;https://fingertips-standup.herokuapp.com/&quot; target=&quot;_blank&quot;&gt;Demo&lt;/a&gt;
 &lt;a class=&quot;btn&quot; href=&quot;https://github.com/gazpachu/standup&quot; target=&quot;_blank&quot;&gt;Source code&lt;/a&gt;
 &lt;/p&gt;
@@ -726,7 +726,7 @@
 &lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
     &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/228f8374094f0281884be36cf836d538/8ae4e/3.jpg&quot;
+    href=&quot;/static/bcad90f2ffc498fd7a278893a1e03aed/8ae4e/3.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -737,16 +737,16 @@
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 61.74698795180722%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAdddZFYf/8QAGBAAAgMAAAAAAAAAAAAAAAAAAxMAESD/2gAIAQEAAQUCSOKFaR4//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEAAwAAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/Aays/8QAFxAAAwEAAAAAAAAAAAAAAAAAAAEyIP/aAAgBAQAGPwKESiFj/8QAGhAAAwADAQAAAAAAAAAAAAAAAAEREJGh8f/aAAgBAQABPyFpVekpHM8XFKf/2gAMAwEAAgADAAAAEIQf/8QAFhEAAwAAAAAAAAAAAAAAAAAAAAER/9oACAEDAQE/EIiI/8QAFREBAQAAAAAAAAAAAAAAAAAAAGH/2gAIAQIBAT8Qss//xAAXEAEBAQEAAAAAAAAAAAAAAAABEQAh/9oACAEBAAE/EEgYdcgVKUMlpU1at//Z&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 61.74698795180722%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAdddZFYf/8QAGBAAAgMAAAAAAAAAAAAAAAAAAxMAESD/2gAIAQEAAQUCSOKFaR4//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEAAwAAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/Aays/8QAFxAAAwEAAAAAAAAAAAAAAAAAAAEyIP/aAAgBAQAGPwKESiFj/8QAGhAAAwADAQAAAAAAAAAAAAAAAAEREJGh8f/aAAgBAQABPyFpVekpHM8XFKf/2gAMAwEAAgADAAAAEIQf/8QAFhEAAwAAAAAAAAAAAAAAAAAAAAER/9oACAEDAQE/EIiI/8QAFREBAQAAAAAAAAAAAAAAAAAAAGH/2gAIAQIBAT8Qss//xAAXEAEBAQEAAAAAAAAAAAAAAAABEQAh/9oACAEBAAE/EEgYdyBUpQyWlTVq3//Z&apos;); background-size: cover; display: block;&quot;
     &gt;&lt;/span&gt;
     &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
         alt=&quot;3&quot;
         title=&quot;Targets&quot;
-        src=&quot;/static/228f8374094f0281884be36cf836d538/8ae4e/3.jpg&quot;
-        srcset=&quot;/static/228f8374094f0281884be36cf836d538/14349/3.jpg 500w,
-/static/228f8374094f0281884be36cf836d538/8ae4e/3.jpg 996w&quot;
+        src=&quot;/static/bcad90f2ffc498fd7a278893a1e03aed/8ae4e/3.jpg&quot;
+        srcset=&quot;/static/bcad90f2ffc498fd7a278893a1e03aed/14349/3.jpg 500w,
+/static/bcad90f2ffc498fd7a278893a1e03aed/8ae4e/3.jpg 996w&quot;
         sizes=&quot;(max-width: 996px) 100vw, 996px&quot;
       /&gt;
   &lt;/span&gt;
@@ -762,7 +762,7 @@
 &lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
     &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/62e4d1784cf05f3ba2fd513de605fa49/877ff/1.jpg&quot;
+    href=&quot;/static/30e7d60930b620b6509c410927f3a93d/877ff/1.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -773,16 +773,16 @@
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 57.099999999999994%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAQD/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAb8KcmbgV//EABsQAAIDAAMAAAAAAAAAAAAAAAIDAAETEjIz/9oACAEBAAEFAnVybmMV5MCiLIYvr//EABYRAAMAAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPwE1f//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EAB4QAAEDBAMAAAAAAAAAAAAAAAABAhEDITEyQnHh/9oACAEBAAY/Arq7HE2qjeiVPSD/xAAdEAEAAwABBQAAAAAAAAAAAAABACExEUFhcZGx/9oACAEBAAE/IRpIGl5m/wBp1LzWJRVzWdl9oeCMKJ//2gAMAwEAAgADAAAAEBcP/8QAFxEBAAMAAAAAAAAAAAAAAAAAARARIf/aAAgBAwEBPxAXxj//xAAWEQADAAAAAAAAAAAAAAAAAAABEBH/2gAIAQIBAT8QEX//xAAgEAEAAwAABgMAAAAAAAAAAAABABEhMUFRYYGRobHw/9oACAEBAAE/EHlchQNdPolnU9ufMSqi1V1wgeBxBZ4Yfv8A7gXi2hboOU//2Q==&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 57.099999999999994%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAQD/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAb8Kc2bQV//EABsQAAIDAAMAAAAAAAAAAAAAAAIDAAETEjIz/9oACAEBAAEFAnVybmMV5MCiLIYvr//EABYRAAMAAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPwE1f//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EAB8QAAEDAwUAAAAAAAAAAAAAAAABAhEDITEyQnGR4f/aAAgBAQAGPwK6uxtNVXsbwSp6Qf/EABwQAQADAAIDAAAAAAAAAAAAAAEAITERQWFxkf/aAAgBAQABPyEaSBpe5tB2XmsSirms8L9Q8EYUT//aAAwDAQACAAMAAAAQBw//xAAXEQEAAwAAAAAAAAAAAAAAAAABEBEh/9oACAEDAQE/EBfGP//EABYRAAMAAAAAAAAAAAAAAAAAAAEQEf/aAAgBAgEBPxARf//EAB8QAQACAQMFAAAAAAAAAAAAAAEAESExQaFRYYGR8P/aAAgBAQABPxB5XIUDLk+iW9X2Y5iVUWVdXBA8DUFjwwf7+YF4toW6Daf/2Q==&apos;); background-size: cover; display: block;&quot;
     &gt;&lt;/span&gt;
     &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
         alt=&quot;1&quot;
         title=&quot;Opportunity page&quot;
-        src=&quot;/static/62e4d1784cf05f3ba2fd513de605fa49/877ff/1.jpg&quot;
-        srcset=&quot;/static/62e4d1784cf05f3ba2fd513de605fa49/d2504/1.jpg 500w,
-/static/62e4d1784cf05f3ba2fd513de605fa49/877ff/1.jpg 1000w&quot;
+        src=&quot;/static/30e7d60930b620b6509c410927f3a93d/877ff/1.jpg&quot;
+        srcset=&quot;/static/30e7d60930b620b6509c410927f3a93d/d2504/1.jpg 500w,
+/static/30e7d60930b620b6509c410927f3a93d/877ff/1.jpg 1000w&quot;
         sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
       /&gt;
   &lt;/span&gt;
@@ -792,7 +792,7 @@
 &lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
     &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/dbf44e4df536b49b7b57d5856735f3e0/877ff/2.jpg&quot;
+    href=&quot;/static/5b0c10c3bdfeee15724571e4e0fef91f/877ff/2.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -803,16 +803,16 @@
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 69.69999999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAOABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAUBAv/EABUBAQEAAAAAAAAAAAAAAAAAAAAE/9oADAMBAAIQAxAAAAHVrogqZR//xAAbEAABBAMAAAAAAAAAAAAAAAAAAQIEMgMRFP/aAAgBAQABBQJITlOF4sTQypkt/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAECEf/aAAgBAwEBPwFkwsP/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAZEAACAwEAAAAAAAAAAAAAAAAAAQIQMiH/2gAIAQEABj8C0jaOzFf/xAAcEAACAgIDAAAAAAAAAAAAAAAAARFhITGhsfH/2gAIAQEAAT8hSSo7TPDYx4zUjgC0dZ//2gAMAwEAAgADAAAAEAgP/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAEDAQE/EBiyypf/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPxCq/8QAHBAAAgICAwAAAAAAAAAAAAAAAAERIXGhQYGx/9oACAEBAAE/EESXWrXcMTEnhKDhvfHtlMYR6nkP/9k=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 69.69999999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAOABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAUB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAT/2gAMAwEAAhADEAAAAdWtISmUf//EABsQAAEEAwAAAAAAAAAAAAAAAAABAgQyAxEU/9oACAEBAAEFAkhOU4nixNDKmS3/xAAXEQADAQAAAAAAAAAAAAAAAAAAAQIR/9oACAEDAQE/AWTCw//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABkQAAIDAQAAAAAAAAAAAAAAAAABAhAyIf/aAAgBAQAGPwLSNo7MV//EABwQAAIBBQEAAAAAAAAAAAAAAAABESExQWGhsf/aAAgBAQABPyFJKj2mZubGPFbSOAVjzP/aAAwDAQACAAMAAAAQGA//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QGLLKl//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/EKr/xAAdEAACAgIDAQAAAAAAAAAAAAAAAREhcaExQYGx/9oACAEBAAE/EESXWrXsMTksEoOHz69spjCPU+Q//9k=&apos;); background-size: cover; display: block;&quot;
     &gt;&lt;/span&gt;
     &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
         alt=&quot;2&quot;
         title=&quot;Won, in progress or implemented table template&quot;
-        src=&quot;/static/dbf44e4df536b49b7b57d5856735f3e0/877ff/2.jpg&quot;
-        srcset=&quot;/static/dbf44e4df536b49b7b57d5856735f3e0/d2504/2.jpg 500w,
-/static/dbf44e4df536b49b7b57d5856735f3e0/877ff/2.jpg 1000w&quot;
+        src=&quot;/static/5b0c10c3bdfeee15724571e4e0fef91f/877ff/2.jpg&quot;
+        srcset=&quot;/static/5b0c10c3bdfeee15724571e4e0fef91f/d2504/2.jpg 500w,
+/static/5b0c10c3bdfeee15724571e4e0fef91f/877ff/2.jpg 1000w&quot;
         sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
       /&gt;
   &lt;/span&gt;
@@ -899,7 +899,7 @@
 &lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
     &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/e163ab783cf6ce81f41f6442be9f96f0/877ff/1.jpg&quot;
+    href=&quot;/static/ca9f1a2104d6eb93edc3db2a682a7513/877ff/1.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -910,16 +910,16 @@
   &gt;
     &lt;span
       class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 62.1%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMCBAb/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAGonRhEeH//xAAdEAACAgEFAAAAAAAAAAAAAAABAgQSAAMRFCI0/9oACAEBAAEFApjHlKU2heavapzTFV//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAcEAACAgIDAAAAAAAAAAAAAAAAAQIRITKBkaH/2gAIAQEABj8Cnl0Zb7I8jak1ZvLwo//EAB0QAQADAAEFAAAAAAAAAAAAAAEAESHRMUFhsfH/2gAIAQEAAT8hAFeOj4jBXe9qO9r32i9TLQrifG4TCK6ts//aAAwDAQACAAMAAAAQ88//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAWEQADAAAAAAAAAAAAAAAAAAAQEUH/2gAIAQIBAT8QiH//xAAaEAEBAAMBAQAAAAAAAAAAAAABEQAhQTFh/9oACAEBAAE/EIyBEcPOKPENnfz5iMV4FVZeKaEwZYHVwMsZCxushVWvk65//9k=&apos;); background-size: cover; display: block;&quot;
+      style=&quot;padding-bottom: 62.1%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMCBAb/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAGonRhEeH//xAAdEAACAgEFAAAAAAAAAAAAAAABAgQSAAMRFCI0/9oACAEBAAEFApjHlKU2heavapzTFV//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAcEAACAgIDAAAAAAAAAAAAAAAAAQIRITKBkaH/2gAIAQEABj8Cnl0Zb7I8jak1ZvLwo//EAB0QAQADAAEFAAAAAAAAAAAAAAEAESHRMUFhsfH/2gAIAQEAAT8hAFeOj4jBXe9qO9r32i9TLQrifG4TCK6ts//aAAwDAQACAAMAAAAQ88//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAWEQADAAAAAAAAAAAAAAAAAAAQEUH/2gAIAQIBAT8QiH//xAAaEAEBAAMBAQAAAAAAAAAAAAABEQAhQTFh/9oACAEBAAE/EIyBEcPOKPENnfz5iMV4FVZeK1wwZYHVwMsZCxushVWvk65//9k=&apos;); background-size: cover; display: block;&quot;
     &gt;&lt;/span&gt;
     &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
         alt=&quot;1&quot;
         title=&quot;Home page&quot;
-        src=&quot;/static/e163ab783cf6ce81f41f6442be9f96f0/877ff/1.jpg&quot;
-        srcset=&quot;/static/e163ab783cf6ce81f41f6442be9f96f0/d2504/1.jpg 500w,
-/static/e163ab783cf6ce81f41f6442be9f96f0/877ff/1.jpg 1000w&quot;
+        src=&quot;/static/ca9f1a2104d6eb93edc3db2a682a7513/877ff/1.jpg&quot;
+        srcset=&quot;/static/ca9f1a2104d6eb93edc3db2a682a7513/d2504/1.jpg 500w,
+/static/ca9f1a2104d6eb93edc3db2a682a7513/877ff/1.jpg 1000w&quot;
         sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
       /&gt;
   &lt;/span&gt;
@@ -17572,7 +17572,29 @@ Alojamiento en Barcelona: pedir información en info@rutasamurai.com&lt;/p&gt;
         sizes=&quot;(max-width: 680px) 100vw, 680px&quot;
       /&gt;
   &lt;/span&gt;
-  &lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Citi Group prototype]]></title><description><![CDATA[This is a collaboration with my friend Fiodor Tonti. I helped him with the initial stages of research and development regarding the Flash…]]></description><link>https://joanmira.com/citigroup/</link><guid isPermaLink="false">https://joanmira.com/citigroup/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+  &lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CECVA website]]></title><description><![CDATA[I built a couple of Joomla websites for CECVA. The last one includes a video player with playlist and many different static pages and…]]></description><link>https://joanmira.com/cecva/</link><guid isPermaLink="false">https://joanmira.com/cecva/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+&lt;a class=&quot;btn&quot; href=&quot;http://cecva.herokuapp.com&quot; target=&quot;_blank&quot;&gt;Launch archived website&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 63.3%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHVG1HEB//EABkQAQEBAAMAAAAAAAAAAAAAAAEAAhIhMf/aAAgBAQABBQLbosKx4jcGOj//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAdEAABAgcAAAAAAAAAAAAAAAAAECEBESIxMoGh/9oACAEBAAY/AmhMqbaXMuJ//8QAGxAAAgMAAwAAAAAAAAAAAAAAAREAITEQQZH/2gAIAQEAAT8hMbCcaiRHODtxFHHktBSoEoJc/9oADAMBAAIAAwAAABDwz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABwQAQEBAAIDAQAAAAAAAAAAAAERACExQZHB8P/aAAgBAQABPxDnMx2wAaYZfYY95U83JEIWzn9zCAqn44yBHkJv/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/d1699f89a10dceb103eb4bfda2ad1b85/877ff/1.jpg&quot;
+        srcset=&quot;/static/d1699f89a10dceb103eb4bfda2ad1b85/d2504/1.jpg 500w,
+/static/d1699f89a10dceb103eb4bfda2ad1b85/877ff/1.jpg 1000w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+      /&gt;
+  &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I built a couple of Joomla websites for CECVA. The last one includes a video player with playlist and many different static pages and dynamic content.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Citi Group prototype]]></title><description><![CDATA[This is a collaboration with my friend Fiodor Tonti. I helped him with the initial stages of research and development regarding the Flash…]]></description><link>https://joanmira.com/citigroup/</link><guid isPermaLink="false">https://joanmira.com/citigroup/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
 &lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/citigroup/&quot; target=&quot;_blank&quot;&gt;Launch banner prototype&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;This is a collaboration with my friend Fiodor Tonti. I helped him with the initial stages of research and development regarding the Flash led scroller and with the background and panel design.&lt;/p&gt;
@@ -17616,29 +17638,7 @@ Alojamiento en Barcelona: pedir información en info@rutasamurai.com&lt;/p&gt;
         sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
       /&gt;
   &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;I built a custom Joomla website with classic static pages to showcase the driving school services.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CECVA website]]></title><description><![CDATA[I built a couple of Joomla websites for CECVA. The last one includes a video player with playlist and many different static pages and…]]></description><link>https://joanmira.com/cecva/</link><guid isPermaLink="false">https://joanmira.com/cecva/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
-&lt;a class=&quot;btn&quot; href=&quot;http://cecva.herokuapp.com&quot; target=&quot;_blank&quot;&gt;Launch archived website&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 63.3%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHVG1HEB//EABkQAQEBAAMAAAAAAAAAAAAAAAEAAhIhMf/aAAgBAQABBQLbosKx4jcGOj//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAdEAABAgcAAAAAAAAAAAAAAAAAECEBESIxMoGh/9oACAEBAAY/AmhMqbaXMuJ//8QAGxAAAgMAAwAAAAAAAAAAAAAAAREAITEQQZH/2gAIAQEAAT8hMbCcaiRHODtxFHHktBSoEoJc/9oADAMBAAIAAwAAABDwz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABwQAQEBAAIDAQAAAAAAAAAAAAERACExQZHB8P/aAAgBAQABPxDnMx2wAaYZfYY95U83JEIWzn9zCAqn44yBHkJv/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;1&quot;
-        title=&quot;&quot;
-        src=&quot;/static/d1699f89a10dceb103eb4bfda2ad1b85/877ff/1.jpg&quot;
-        srcset=&quot;/static/d1699f89a10dceb103eb4bfda2ad1b85/d2504/1.jpg 500w,
-/static/d1699f89a10dceb103eb4bfda2ad1b85/877ff/1.jpg 1000w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
-      /&gt;
-  &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;I built a couple of Joomla websites for CECVA. The last one includes a video player with playlist and many different static pages and dynamic content.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Website Profesional]]></title><description><![CDATA[As part of my business relationship with WebsiteProfesional, I built their Joomla website to showcase their services. It’s a standard…]]></description><link>https://joanmira.com/website-profesional/</link><guid isPermaLink="false">https://joanmira.com/website-profesional/</guid><content:encoded>&lt;p&gt;&lt;a
+&lt;p&gt;I built a custom Joomla website with classic static pages to showcase the driving school services.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Website Profesional]]></title><description><![CDATA[As part of my business relationship with WebsiteProfesional, I built their Joomla website to showcase their services. It’s a standard…]]></description><link>https://joanmira.com/website-profesional/</link><guid isPermaLink="false">https://joanmira.com/website-profesional/</guid><content:encoded>&lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/2eceb484b467b646fef21f1d47a50044/877ff/1.jpg&quot;
     style=&quot;display: block&quot;
@@ -22929,7 +22929,66 @@ FUTURO: Posiblemente, en un futuro cercano, todas las viviendas estaran equipad
 &lt;h3&gt;Updates to this policy&lt;/h3&gt;
 &lt;p&gt;I may update this privacy policy from time-to-time, particularly as technology changes. You can always check this page for the latest version. I may also notify you of changes to our privacy policy by email.&lt;/p&gt;
 &lt;h3&gt;Any questions?&lt;/h3&gt;
-&lt;p&gt;If you have any questions about this privacy policy or your personal data, please write to me by email to hello [at] joanmira [.] com.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[La Ruta del Samurái (The Samurai Route)]]></title><description><![CDATA[In January 2010 I had a crazy idea: to  travel by motorbike from Spain to Japan  in 3 months (around 20.000Km) and then spend 2 months…]]></description><link>https://joanmira.com//samurai-route/</link><guid isPermaLink="false">https://joanmira.com//samurai-route/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+&lt;p&gt;If you have any questions about this privacy policy or your personal data, please write to me by email to hello [at] joanmira [.] com.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Statistics]]></title><description><![CDATA[Audience overview The average number of unique users per month is 4.000 The average number of page views per month is 6.000 The average…]]></description><link>https://joanmira.com//stats/</link><guid isPermaLink="false">https://joanmira.com//stats/</guid><content:encoded>&lt;style&gt;
+.updated {
+  text-align: center;
+  font-size: 12px;
+  color: #333;
+  margin-top: -30px;
+}
+&lt;/style&gt;
+&lt;div class=&quot;updated&quot;&gt;Last updated on January 2019&lt;/div&gt;
+&lt;h3&gt;Audience overview&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The average number of unique users per month is 4.000&lt;/li&gt;
+&lt;li&gt;The average number of page views per month is 6.000&lt;/li&gt;
+&lt;li&gt;The average session duration is 55 seconds&lt;/li&gt;
+&lt;li&gt;70% of the users speak Spanish and 25% English&lt;/li&gt;
+&lt;li&gt;80% of the traffic comes from organic search, 15% access directly and 5% from referrals&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Most popular pages&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;/las-50-mejores-peliculas-de-los-anos-80/&quot;&gt;/las-50-mejores-peliculas-de-los-anos-80/&lt;/a&gt; (38%)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/1001-pelis-para-ver-antes-de-morir/&quot;&gt;/1001-pelis-para-ver-antes-de-morir/&lt;/a&gt; (23%)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/tutorial-build-a-weather-app-with-react/&quot;&gt;/tutorial-build-a-weather-app-with-react/&lt;/a&gt; (8%)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/open-source-lms-with-react-and-node-js/&quot;&gt;/open-source-lms-with-react-and-node-js/&lt;/a&gt; (7%)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/vuejs-first-impression-and-how-to-work-with-svgs/&quot;&gt;/vuejs-first-impression-and-how-to-work-with-svgs/&lt;/a&gt; (5%)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/&quot;&gt;/&lt;/a&gt; (4%)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/how-to-set-up-a-react-es6-app-for-production-on-ubuntu/&quot;&gt;/how-to-set-up-a-react-es6-app-for-production-on-ubuntu/&lt;/a&gt; (2%)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/peliculas-sobre-mongolia-que-tienes-que-ver/&quot;&gt;/peliculas-sobre-mongolia-que-tienes-que-ver/&lt;/a&gt; (1%)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/50-animes-para-ver-this-summer/&quot;&gt;/50-animes-para-ver-this-summer/&lt;/a&gt; (1%)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/a-few-more-vuejs-2-tweaks-for-the-beginners/&quot;&gt;/a-few-more-vuejs-2-tweaks-for-the-beginners/&lt;/a&gt; (1%)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Page audit&lt;/h3&gt;
+&lt;p&gt;&lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/dbb1a378b135d51092175c7c2637ec25/ad559/page-speed-report.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 34.91666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3KAH/8QAFRABAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQEAAQUCj//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEABj8Cf//EABYQAQEBAAAAAAAAAAAAAAAAAAEAEP/aAAgBAQABPyHAX//aAAwDAQACAAMAAAAQ88//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAEAAgMBAAAAAAAAAAAAAAABADERIVGh/9oACAEBAAE/ENVQt7cRL75MhvNz/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;page speed report&quot;
+        title=&quot;&quot;
+        src=&quot;/static/dbb1a378b135d51092175c7c2637ec25/ad559/page-speed-report.jpg&quot;
+        srcset=&quot;/static/dbb1a378b135d51092175c7c2637ec25/657e6/page-speed-report.jpg 500w,
+/static/dbb1a378b135d51092175c7c2637ec25/5a530/page-speed-report.jpg 1000w,
+/static/dbb1a378b135d51092175c7c2637ec25/ad559/page-speed-report.jpg 1200w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Page audit provided by &lt;a href=&quot;https://developers.google.com/web/tools/lighthouse&quot;&gt;Google Lighthouse&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[La Ruta del Samurái (The Samurai Route)]]></title><description><![CDATA[In January 2010 I had a crazy idea: to  travel by motorbike from Spain to Japan  in 3 months (around 20.000Km) and then spend 2 months…]]></description><link>https://joanmira.com//samurai-route/</link><guid isPermaLink="false">https://joanmira.com//samurai-route/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
 &lt;a class=&quot;btn&quot; href=&quot;http://rutasamurai.herokuapp.com&quot; target=&quot;_blank&quot;&gt;Launch archived website&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;In January 2010 I had a crazy idea: to &lt;strong&gt;travel by motorbike from Spain to Japan&lt;/strong&gt; in 3 months (around 20.000Km) and then spend 2 months travelling around Japan. We called it “La Ruta del samurai” (The Samurai Route).&lt;/p&gt;
@@ -23027,66 +23086,7 @@ FUTURO: Posiblemente, en un futuro cercano, todas las viviendas estaran equipad
 &lt;p&gt;&lt;a href=&quot;http://www.ayto-coriadelrio.es/&quot;&gt;The council house of Coria del Rio&lt;/a&gt; helped us prepare the trip. They also gave us a gift and a letter for the council of the Japanese city of Sendai.&lt;/p&gt;
 &lt;p&gt;EstampAlicante specializes in t-shirt printing and provided the official Samurai Route t-shirts, available is the following sizes: XS, S, M, L and XL.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.altairblog.com/&quot;&gt;Altaïr&lt;/a&gt; helped us promote the Samurai Route story and gave us copies of the magazine.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.kmcero.es/&quot;&gt;Km Zero&lt;/a&gt; provided us with maximum coverage motorcycle insurance in Russia and Mongolia. They also offered us a large space in their magazine to publish promote the adventure and gave us some shirts, anti-puncture foam, patches for clothing, backpacks, scarves, earplugs,…&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Statistics]]></title><description><![CDATA[Audience overview The average number of unique users per month is 4.000 The average number of page views per month is 6.000 The average…]]></description><link>https://joanmira.com//stats/</link><guid isPermaLink="false">https://joanmira.com//stats/</guid><content:encoded>&lt;style&gt;
-.updated {
-  text-align: center;
-  font-size: 12px;
-  color: #333;
-  margin-top: -30px;
-}
-&lt;/style&gt;
-&lt;div class=&quot;updated&quot;&gt;Last updated on January 2019&lt;/div&gt;
-&lt;h3&gt;Audience overview&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;The average number of unique users per month is 4.000&lt;/li&gt;
-&lt;li&gt;The average number of page views per month is 6.000&lt;/li&gt;
-&lt;li&gt;The average session duration is 55 seconds&lt;/li&gt;
-&lt;li&gt;70% of the users speak Spanish and 25% English&lt;/li&gt;
-&lt;li&gt;80% of the traffic comes from organic search, 15% access directly and 5% from referrals&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Most popular pages&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&quot;/las-50-mejores-peliculas-de-los-anos-80/&quot;&gt;/las-50-mejores-peliculas-de-los-anos-80/&lt;/a&gt; (38%)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/1001-pelis-para-ver-antes-de-morir/&quot;&gt;/1001-pelis-para-ver-antes-de-morir/&lt;/a&gt; (23%)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/tutorial-build-a-weather-app-with-react/&quot;&gt;/tutorial-build-a-weather-app-with-react/&lt;/a&gt; (8%)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/open-source-lms-with-react-and-node-js/&quot;&gt;/open-source-lms-with-react-and-node-js/&lt;/a&gt; (7%)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/vuejs-first-impression-and-how-to-work-with-svgs/&quot;&gt;/vuejs-first-impression-and-how-to-work-with-svgs/&lt;/a&gt; (5%)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/&quot;&gt;/&lt;/a&gt; (4%)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/how-to-set-up-a-react-es6-app-for-production-on-ubuntu/&quot;&gt;/how-to-set-up-a-react-es6-app-for-production-on-ubuntu/&lt;/a&gt; (2%)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/peliculas-sobre-mongolia-que-tienes-que-ver/&quot;&gt;/peliculas-sobre-mongolia-que-tienes-que-ver/&lt;/a&gt; (1%)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/50-animes-para-ver-this-summer/&quot;&gt;/50-animes-para-ver-this-summer/&lt;/a&gt; (1%)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/a-few-more-vuejs-2-tweaks-for-the-beginners/&quot;&gt;/a-few-more-vuejs-2-tweaks-for-the-beginners/&lt;/a&gt; (1%)&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3&gt;Page audit&lt;/h3&gt;
-&lt;p&gt;&lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/dbb1a378b135d51092175c7c2637ec25/ad559/page-speed-report.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1200px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 34.91666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3KAH/8QAFRABAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQEAAQUCj//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAABD/2gAIAQEABj8Cf//EABYQAQEBAAAAAAAAAAAAAAAAAAEAEP/aAAgBAQABPyHAX//aAAwDAQACAAMAAAAQ88//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAEAAgMBAAAAAAAAAAAAAAABADERIVGh/9oACAEBAAE/ENVQt7cRL75MhvNz/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;page speed report&quot;
-        title=&quot;&quot;
-        src=&quot;/static/dbb1a378b135d51092175c7c2637ec25/ad559/page-speed-report.jpg&quot;
-        srcset=&quot;/static/dbb1a378b135d51092175c7c2637ec25/657e6/page-speed-report.jpg 500w,
-/static/dbb1a378b135d51092175c7c2637ec25/5a530/page-speed-report.jpg 1000w,
-/static/dbb1a378b135d51092175c7c2637ec25/ad559/page-speed-report.jpg 1200w&quot;
-        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
-      /&gt;
-  &lt;/span&gt;
-  &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Page audit provided by &lt;a href=&quot;https://developers.google.com/web/tools/lighthouse&quot;&gt;Google Lighthouse&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Curriculum vitae]]></title><description><![CDATA[Summary Skills In the past I have worked as a full-stack developer and web designer, but  the current complexity of the web industry  led me…]]></description><link>https://joanmira.com//cv/</link><guid isPermaLink="false">https://joanmira.com//cv/</guid><content:encoded>&lt;style&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.kmcero.es/&quot;&gt;Km Zero&lt;/a&gt; provided us with maximum coverage motorcycle insurance in Russia and Mongolia. They also offered us a large space in their magazine to publish promote the adventure and gave us some shirts, anti-puncture foam, patches for clothing, backpacks, scarves, earplugs,…&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Curriculum vitae]]></title><description><![CDATA[Summary Skills In the past I have worked as a full-stack developer and web designer, but  the current complexity of the web industry  led me…]]></description><link>https://joanmira.com//cv/</link><guid isPermaLink="false">https://joanmira.com//cv/</guid><content:encoded>&lt;style&gt;
 .highlight {
   background-color: rgba(0, 0, 0, 0.01);
   border: 1px solid #EEE;
