@@ -53,7 +53,7 @@ class WorkPage extends Component {
                 <Headline title="My Binary Sugar Treats" theme={theme} />
               </header>
 
-              <h2>These are some of my works (<strong>sorted by date</strong>) as a permanent employee of agencies/companies, as a freelancer or for personal projects since 1998</h2>
+              <h2>These are some of my works (<strong>sorted by date</strong>) as a permanent employee of agencies/companies, as a freelancer or for personal projects since 2000</h2>
 
               <div className="filters">
                 {filters.map(filter => (
