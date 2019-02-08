@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Joan Mira]]></title><description><![CDATA[Personal website of Joan Mira. A Front-end Engineer / Interactive Developer / Creative Technologist / UX Designer]]></description><link>https://joanmira.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 07 Feb 2019 15:18:44 GMT</lastBuildDate><item><title><![CDATA[sugUI UI Library & Design System]]></title><description><![CDATA[sugUI is an open source UI components library and design system template based on React, Styled Components, Styleguidist and React Testing…]]></description><link>https://joanmira.com/sugui/</link><guid isPermaLink="false">https://joanmira.com/sugui/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Joan Mira]]></title><description><![CDATA[Personal website of Joan Mira. A Front-end Engineer / Interactive Developer / Creative Technologist / UX Designer]]></description><link>https://joanmira.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 08 Feb 2019 18:59:58 GMT</lastBuildDate><item><title><![CDATA[sugUI UI Library & Design System]]></title><description><![CDATA[sugUI is an open source UI components library and design system template based on React, Styled Components, Styleguidist and React Testing…]]></description><link>https://joanmira.com/sugui/</link><guid isPermaLink="false">https://joanmira.com/sugui/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
 &lt;a class=&quot;btn&quot; href=&quot;https://gazpachu.github.io/sugui-design-system/&quot; target=&quot;_blank&quot;&gt;Project website&lt;/a&gt;
 &lt;a class=&quot;btn&quot; href=&quot;https://github.com/gazpachu/sugui&quot; target=&quot;_blank&quot;&gt;UI Library Github repo&lt;/a&gt;
 &lt;a class=&quot;btn&quot; href=&quot;https://github.com/gazpachu/sugui-design-system&quot; target=&quot;_blank&quot;&gt;Design System Github repo&lt;/a&gt;
@@ -17437,7 +17437,73 @@ Alojamiento en Barcelona: pedir información en info@rutasamurai.com&lt;/p&gt;
       /&gt;
   &lt;/span&gt;
   &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;As part of my business relationship with Agustí López, I built a Wordpress website for his blog posts. It’s a standard blog with a slightly modified theme.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Alcala de Henares desktop app]]></title><description><![CDATA[As part of my business relationship with IBCMass, I built an interactive educational Flash app, featuring original illustrations…]]></description><link>https://joanmira.com/alcaladehenares/</link><guid isPermaLink="false">https://joanmira.com/alcaladehenares/</guid><content:encoded>&lt;p&gt;&lt;a
+&lt;p&gt;As part of my business relationship with Agustí López, I built a Wordpress website for his blog posts. It’s a standard blog with a slightly modified theme.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CECVA website]]></title><description><![CDATA[I built a couple of Joomla websites for CECVA. The last one includes a video player with playlist and many different static pages and…]]></description><link>https://joanmira.com/cecva/</link><guid isPermaLink="false">https://joanmira.com/cecva/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+&lt;a class=&quot;btn&quot; href=&quot;http://cecva.herokuapp.com&quot; target=&quot;_blank&quot;&gt;Launch archived website&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 63.3%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHVG1HEB//EABkQAQEBAAMAAAAAAAAAAAAAAAEAAhIhMf/aAAgBAQABBQLbosKx4jcGOj//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAdEAABAgcAAAAAAAAAAAAAAAAAECEBESIxMoGh/9oACAEBAAY/AmhMqbaXMuJ//8QAGxAAAgMAAwAAAAAAAAAAAAAAAREAITEQQZH/2gAIAQEAAT8hMbCcaiRHODtxFHHktBSoEoJc/9oADAMBAAIAAwAAABDwz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABwQAQEBAAIDAQAAAAAAAAAAAAERACExQZHB8P/aAAgBAQABPxDnMx2wAaYZfYY95U83JEIWzn9zCAqn44yBHkJv/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/d1699f89a10dceb103eb4bfda2ad1b85/877ff/1.jpg&quot;
+        srcset=&quot;/static/d1699f89a10dceb103eb4bfda2ad1b85/d2504/1.jpg 500w,
+/static/d1699f89a10dceb103eb4bfda2ad1b85/877ff/1.jpg 1000w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+      /&gt;
+  &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I built a couple of Joomla websites for CECVA. The last one includes a video player with playlist and many different static pages and dynamic content.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Citi Group prototype]]></title><description><![CDATA[This is a collaboration with my friend Fiodor Tonti. I helped him with the initial stages of research and development regarding the Flash…]]></description><link>https://joanmira.com/citigroup/</link><guid isPermaLink="false">https://joanmira.com/citigroup/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/citigroup/&quot; target=&quot;_blank&quot;&gt;Launch banner prototype&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;This is a collaboration with my friend Fiodor Tonti. I helped him with the initial stages of research and development regarding the Flash led scroller and with the background and panel design.&lt;/p&gt;
+&lt;p&gt;&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 34.9%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB1QUD/8QAFxABAQEBAAAAAAAAAAAAAAAAAQASAv/aAAgBAQABBQLKAdWVv//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABkQAAIDAQAAAAAAAAAAAAAAAAERABCRIf/aAAgBAQAGPwIgPZx7X//EABoQAAEFAQAAAAAAAAAAAAAAAAABESExgbH/2gAIAQEAAT8hMB1LhJlaf//aAAwDAQACAAMAAAAQA8//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAACAwEBAAAAAAAAAAAAAAABEQAhQTGB/9oACAEBAAE/EAFbaq+PksVopAwHZDjmf//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/315a48040b2eb57d5b34e1aab25e17fd/877ff/1.jpg&quot;
+        srcset=&quot;/static/315a48040b2eb57d5b34e1aab25e17fd/d2504/1.jpg 500w,
+/static/315a48040b2eb57d5b34e1aab25e17fd/877ff/1.jpg 1000w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+      /&gt;
+  &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Autoescuelas CostaBlanca website]]></title><description><![CDATA[I built a custom Joomla website with classic static pages to showcase the driving school services.]]></description><link>https://joanmira.com/costablanca/</link><guid isPermaLink="false">https://joanmira.com/costablanca/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+&lt;a class=&quot;btn&quot; href=&quot;http://costablanca.herokuapp.com&quot; target=&quot;_blank&quot;&gt;Launch website&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 63.3%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHUYWGEB//EABoQAAIDAQEAAAAAAAAAAAAAAAACARExAxL/2gAIAQEAAQUC6Myi3JGMnopiM//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EAB0QAAECBwAAAAAAAAAAAAAAAAACEAEhMTJBkaH/2gAIAQEABj8CkmKjO2qXcb//xAAaEAEAAgMBAAAAAAAAAAAAAAABABEhQWEQ/9oACAEBAAE/IcxdOnkoCgvWnkiLGGzE5oKUW5//2gAMAwEAAgADAAAAELDP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHhABAAICAQUAAAAAAAAAAAAAAQARIUFRMWFxkfD/2gAIAQEAAT8QzOFEroMN8zGWhUrXEVnK+YxUK7V9wDoX3vDYEbCp/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/eda97e04b01eb3b55f6280ce3fb1983b/877ff/1.jpg&quot;
+        srcset=&quot;/static/eda97e04b01eb3b55f6280ce3fb1983b/d2504/1.jpg 500w,
+/static/eda97e04b01eb3b55f6280ce3fb1983b/877ff/1.jpg 1000w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+      /&gt;
+  &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I built a custom Joomla website with classic static pages to showcase the driving school services.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Alcala de Henares desktop app]]></title><description><![CDATA[As part of my business relationship with IBCMass, I built an interactive educational Flash app, featuring original illustrations…]]></description><link>https://joanmira.com/alcaladehenares/</link><guid isPermaLink="false">https://joanmira.com/alcaladehenares/</guid><content:encoded>&lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/fb6e831a9f312dc1047a72aea4ba3248/877ff/1.jpg&quot;
     style=&quot;display: block&quot;
@@ -17572,73 +17638,7 @@ Alojamiento en Barcelona: pedir información en info@rutasamurai.com&lt;/p&gt;
         sizes=&quot;(max-width: 680px) 100vw, 680px&quot;
       /&gt;
   &lt;/span&gt;
-  &lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CECVA website]]></title><description><![CDATA[I built a couple of Joomla websites for CECVA. The last one includes a video player with playlist and many different static pages and…]]></description><link>https://joanmira.com/cecva/</link><guid isPermaLink="false">https://joanmira.com/cecva/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
-&lt;a class=&quot;btn&quot; href=&quot;http://cecva.herokuapp.com&quot; target=&quot;_blank&quot;&gt;Launch archived website&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 63.3%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHVG1HEB//EABkQAQEBAAMAAAAAAAAAAAAAAAEAAhIhMf/aAAgBAQABBQLbosKx4jcGOj//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAdEAABAgcAAAAAAAAAAAAAAAAAECEBESIxMoGh/9oACAEBAAY/AmhMqbaXMuJ//8QAGxAAAgMAAwAAAAAAAAAAAAAAAREAITEQQZH/2gAIAQEAAT8hMbCcaiRHODtxFHHktBSoEoJc/9oADAMBAAIAAwAAABDwz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABwQAQEBAAIDAQAAAAAAAAAAAAERACExQZHB8P/aAAgBAQABPxDnMx2wAaYZfYY95U83JEIWzn9zCAqn44yBHkJv/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;1&quot;
-        title=&quot;&quot;
-        src=&quot;/static/d1699f89a10dceb103eb4bfda2ad1b85/877ff/1.jpg&quot;
-        srcset=&quot;/static/d1699f89a10dceb103eb4bfda2ad1b85/d2504/1.jpg 500w,
-/static/d1699f89a10dceb103eb4bfda2ad1b85/877ff/1.jpg 1000w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
-      /&gt;
-  &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;I built a couple of Joomla websites for CECVA. The last one includes a video player with playlist and many different static pages and dynamic content.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Citi Group prototype]]></title><description><![CDATA[This is a collaboration with my friend Fiodor Tonti. I helped him with the initial stages of research and development regarding the Flash…]]></description><link>https://joanmira.com/citigroup/</link><guid isPermaLink="false">https://joanmira.com/citigroup/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
-&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/citigroup/&quot; target=&quot;_blank&quot;&gt;Launch banner prototype&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;This is a collaboration with my friend Fiodor Tonti. I helped him with the initial stages of research and development regarding the Flash led scroller and with the background and panel design.&lt;/p&gt;
-&lt;p&gt;&lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 34.9%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB1QUD/8QAFxABAQEBAAAAAAAAAAAAAAAAAQASAv/aAAgBAQABBQLKAdWVv//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABkQAAIDAQAAAAAAAAAAAAAAAAERABCRIf/aAAgBAQAGPwIgPZx7X//EABoQAAEFAQAAAAAAAAAAAAAAAAABESExgbH/2gAIAQEAAT8hMB1LhJlaf//aAAwDAQACAAMAAAAQA8//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAaEAACAwEBAAAAAAAAAAAAAAABEQAhQTGB/9oACAEBAAE/EAFbaq+PksVopAwHZDjmf//Z&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;1&quot;
-        title=&quot;&quot;
-        src=&quot;/static/315a48040b2eb57d5b34e1aab25e17fd/877ff/1.jpg&quot;
-        srcset=&quot;/static/315a48040b2eb57d5b34e1aab25e17fd/d2504/1.jpg 500w,
-/static/315a48040b2eb57d5b34e1aab25e17fd/877ff/1.jpg 1000w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
-      /&gt;
-  &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Autoescuelas CostaBlanca website]]></title><description><![CDATA[I built a custom Joomla website with classic static pages to showcase the driving school services.]]></description><link>https://joanmira.com/costablanca/</link><guid isPermaLink="false">https://joanmira.com/costablanca/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
-&lt;a class=&quot;btn&quot; href=&quot;http://costablanca.herokuapp.com&quot; target=&quot;_blank&quot;&gt;Launch website&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 63.3%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHUYWGEB//EABoQAAIDAQEAAAAAAAAAAAAAAAACARExAxL/2gAIAQEAAQUC6Myi3JGMnopiM//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EAB0QAAECBwAAAAAAAAAAAAAAAAACEAEhMTJBkaH/2gAIAQEABj8CkmKjO2qXcb//xAAaEAEAAgMBAAAAAAAAAAAAAAABABEhQWEQ/9oACAEBAAE/IcxdOnkoCgvWnkiLGGzE5oKUW5//2gAMAwEAAgADAAAAELDP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHhABAAICAQUAAAAAAAAAAAAAAQARIUFRMWFxkfD/2gAIAQEAAT8QzOFEroMN8zGWhUrXEVnK+YxUK7V9wDoX3vDYEbCp/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;1&quot;
-        title=&quot;&quot;
-        src=&quot;/static/eda97e04b01eb3b55f6280ce3fb1983b/877ff/1.jpg&quot;
-        srcset=&quot;/static/eda97e04b01eb3b55f6280ce3fb1983b/d2504/1.jpg 500w,
-/static/eda97e04b01eb3b55f6280ce3fb1983b/877ff/1.jpg 1000w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
-      /&gt;
-  &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;I built a custom Joomla website with classic static pages to showcase the driving school services.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Website Profesional]]></title><description><![CDATA[As part of my business relationship with WebsiteProfesional, I built their Joomla website to showcase their services. It’s a standard…]]></description><link>https://joanmira.com/website-profesional/</link><guid isPermaLink="false">https://joanmira.com/website-profesional/</guid><content:encoded>&lt;p&gt;&lt;a
+  &lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Website Profesional]]></title><description><![CDATA[As part of my business relationship with WebsiteProfesional, I built their Joomla website to showcase their services. It’s a standard…]]></description><link>https://joanmira.com/website-profesional/</link><guid isPermaLink="false">https://joanmira.com/website-profesional/</guid><content:encoded>&lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/2eceb484b467b646fef21f1d47a50044/877ff/1.jpg&quot;
     style=&quot;display: block&quot;
@@ -21482,66 +21482,6 @@ FUTURO: Posiblemente, en un futuro cercano, todas las viviendas estaran equipad
 /static/701fe61577b7c7645801799eded4bc38/906c8/8.jpg 1062w&quot;
         sizes=&quot;(max-width: 1062px) 100vw, 1062px&quot;
       /&gt;
-  &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Atolon 3d]]></title><description><![CDATA[Atolon 3d is a studio of digital architecture. They asked us (Webmarket) to create a Flash website to promote their services and display…]]></description><link>https://joanmira.com/atolon3d/</link><guid isPermaLink="false">https://joanmira.com/atolon3d/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
-&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/atolon3d/&quot; target=&quot;_blank&quot;&gt;Launch archived website&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;Atolon 3d is a studio of digital architecture. They asked us (Webmarket) to create a Flash website to promote their services and display their portfolio of works. They also required a custom Flash CMS to be able to upload new images of their work.&lt;/p&gt;
-&lt;p&gt;&lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 34.9%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB0phUH//EABgQAQEBAQEAAAAAAAAAAAAAAAIBEQAD/9oACAEBAAEFAqXkntpDvf/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABkQAQEAAwEAAAAAAAAAAAAAAAEAAjGhsf/aAAgBAQAGPwJMfbXZVv/EABgQAQEBAQEAAAAAAAAAAAAAAAERACFR/9oACAEBAAE/ITllnvdwAXpsQCvAV3//2gAMAwEAAgADAAAAEHAP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGhABAQEBAAMAAAAAAAAAAAAAAREhADFhkf/aAAgBAQABPxApChQNtH1eUxVAOumD96ITWSEDV8tHv//Z&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;1&quot;
-        title=&quot;&quot;
-        src=&quot;/static/d165c6c985a01c70446f108009210086/877ff/1.jpg&quot;
-        srcset=&quot;/static/d165c6c985a01c70446f108009210086/d2504/1.jpg 500w,
-/static/d165c6c985a01c70446f108009210086/877ff/1.jpg 1000w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
-      /&gt;
-  &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 620px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 42.58064516129032%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB7NF0QoS//8QAGRAAAgMBAAAAAAAAAAAAAAAAAAERITFB/9oACAEBAAEFAkiCxZw//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFxAAAwEAAAAAAAAAAAAAAAAAAAExIP/aAAgBAQAGPwKsrz//xAAaEAEBAAIDAAAAAAAAAAAAAAABABARMaGx/9oACAEBAAE/IUTfZEF35xnqb//aAAwDAQACAAMAAAAQyC//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPxBX/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8QZ//EABoQAAMBAAMAAAAAAAAAAAAAAAABETEQIdH/2gAIAQEAAT8QQElYGejEWV71w4jR/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;2&quot;
-        title=&quot;&quot;
-        src=&quot;/static/b591a31b50410f2a3d0370fb83371bf7/13453/2.jpg&quot;
-        srcset=&quot;/static/b591a31b50410f2a3d0370fb83371bf7/0994e/2.jpg 500w,
-/static/b591a31b50410f2a3d0370fb83371bf7/13453/2.jpg 620w&quot;
-        sizes=&quot;(max-width: 620px) 100vw, 620px&quot;
-      /&gt;
-  &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 624px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 41.82692307692307%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAdugkR//xAAVEAEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAQABBQKP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFhAAAwAAAAAAAAAAAAAAAAAAARAx/9oACAEBAAY/AqX/AP/EABgQAAMBAQAAAAAAAAAAAAAAAAABEUEx/9oACAEBAAE/IeEGWsdxs//aAAwDAQACAAMAAAAQcD//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBn/8QAFxABAQEBAAAAAAAAAAAAAAAAAREhAP/aAAgBAQABPxAdHbceSJGBXnlUJe//2Q==&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;3&quot;
-        title=&quot;&quot;
-        src=&quot;/static/8a0cba8c5bd02d4aad26e778684e26c6/d4166/3.jpg&quot;
-        srcset=&quot;/static/8a0cba8c5bd02d4aad26e778684e26c6/707e9/3.jpg 500w,
-/static/8a0cba8c5bd02d4aad26e778684e26c6/d4166/3.jpg 624w&quot;
-        sizes=&quot;(max-width: 624px) 100vw, 624px&quot;
-      /&gt;
   &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Cogersa desktop app]]></title><description><![CDATA[As part of my business relationship with  IBCMass , I was asked to create a desktop interactive app for Cogersa to showcase the recycling…]]></description><link>https://joanmira.com/cogersa/</link><guid isPermaLink="false">https://joanmira.com/cogersa/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
 &lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/desktop/cogersa/cms.swf&quot; target=&quot;_blank&quot;&gt;Launch app without DB&lt;/a&gt;
 &lt;/p&gt;
@@ -21639,6 +21579,66 @@ FUTURO: Posiblemente, en un futuro cercano, todas las viviendas estaran equipad
         srcset=&quot;/static/9a45eea3b44e063aacae8cac80a6f59f/54111/5.jpg 500w,
 /static/9a45eea3b44e063aacae8cac80a6f59f/352f9/5.jpg 680w&quot;
         sizes=&quot;(max-width: 680px) 100vw, 680px&quot;
+      /&gt;
+  &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Atolon 3d]]></title><description><![CDATA[Atolon 3d is a studio of digital architecture. They asked us (Webmarket) to create a Flash website to promote their services and display…]]></description><link>https://joanmira.com/atolon3d/</link><guid isPermaLink="false">https://joanmira.com/atolon3d/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/atolon3d/&quot; target=&quot;_blank&quot;&gt;Launch archived website&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;Atolon 3d is a studio of digital architecture. They asked us (Webmarket) to create a Flash website to promote their services and display their portfolio of works. They also required a custom Flash CMS to be able to upload new images of their work.&lt;/p&gt;
+&lt;p&gt;&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 34.9%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB0phUH//EABgQAQEBAQEAAAAAAAAAAAAAAAIBEQAD/9oACAEBAAEFAqXkntpDvf/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABkQAQEAAwEAAAAAAAAAAAAAAAEAAjGhsf/aAAgBAQAGPwJMfbXZVv/EABgQAQEBAQEAAAAAAAAAAAAAAAERACFR/9oACAEBAAE/ITllnvdwAXpsQCvAV3//2gAMAwEAAgADAAAAEHAP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGhABAQEBAAMAAAAAAAAAAAAAAREhADFhkf/aAAgBAQABPxApChQNtH1eUxVAOumD96ITWSEDV8tHv//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/d165c6c985a01c70446f108009210086/877ff/1.jpg&quot;
+        srcset=&quot;/static/d165c6c985a01c70446f108009210086/d2504/1.jpg 500w,
+/static/d165c6c985a01c70446f108009210086/877ff/1.jpg 1000w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+      /&gt;
+  &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 620px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 42.58064516129032%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB7NF0QoS//8QAGRAAAgMBAAAAAAAAAAAAAAAAAAERITFB/9oACAEBAAEFAkiCxZw//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFxAAAwEAAAAAAAAAAAAAAAAAAAExIP/aAAgBAQAGPwKsrz//xAAaEAEBAAIDAAAAAAAAAAAAAAABABARMaGx/9oACAEBAAE/IUTfZEF35xnqb//aAAwDAQACAAMAAAAQyC//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPxBX/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8QZ//EABoQAAMBAAMAAAAAAAAAAAAAAAABETEQIdH/2gAIAQEAAT8QQElYGejEWV71w4jR/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;2&quot;
+        title=&quot;&quot;
+        src=&quot;/static/b591a31b50410f2a3d0370fb83371bf7/13453/2.jpg&quot;
+        srcset=&quot;/static/b591a31b50410f2a3d0370fb83371bf7/0994e/2.jpg 500w,
+/static/b591a31b50410f2a3d0370fb83371bf7/13453/2.jpg 620w&quot;
+        sizes=&quot;(max-width: 620px) 100vw, 620px&quot;
+      /&gt;
+  &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 624px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 41.82692307692307%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAIABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAdugkR//xAAVEAEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAQABBQKP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFhAAAwAAAAAAAAAAAAAAAAAAARAx/9oACAEBAAY/AqX/AP/EABgQAAMBAQAAAAAAAAAAAAAAAAABEUEx/9oACAEBAAE/IeEGWsdxs//aAAwDAQACAAMAAAAQcD//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBn/8QAFxABAQEBAAAAAAAAAAAAAAAAAREhAP/aAAgBAQABPxAdHbceSJGBXnlUJe//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;3&quot;
+        title=&quot;&quot;
+        src=&quot;/static/8a0cba8c5bd02d4aad26e778684e26c6/d4166/3.jpg&quot;
+        srcset=&quot;/static/8a0cba8c5bd02d4aad26e778684e26c6/707e9/3.jpg 500w,
+/static/8a0cba8c5bd02d4aad26e778684e26c6/d4166/3.jpg 624w&quot;
+        sizes=&quot;(max-width: 624px) 100vw, 624px&quot;
       /&gt;
   &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[INMOFlash y TIENDAFlash]]></title><description><![CDATA[Tras varios meses de desarrollo, finalmente ponemos a disposición de nuestros clientes la versión 1.0 de INMOFlash y TIENDAFlash. INMOFlash…]]></description><link>https://joanmira.com/inmoflash-y-tiendaflash/</link><guid isPermaLink="false">https://joanmira.com/inmoflash-y-tiendaflash/</guid><content:encoded>&lt;p&gt;Tras varios meses de desarrollo, finalmente ponemos a disposición de nuestros clientes la versión 1.0 de INMOFlash y TIENDAFlash. INMOFlash es una aplicación web que contempla todas las necesidades de la empresa inmobiliaria para darse a conocer y promocionar sus servicios en Internet. La aplicación consiste de los siguientes modulos:&lt;/p&gt;
 &lt;p&gt;INMOFlash – Página web&lt;/p&gt;
@@ -23139,7 +23139,7 @@ h4 {
 &lt;h2&gt;Skills&lt;/h2&gt;
 &lt;p&gt;In the past I have worked as a full-stack developer and web designer, but &lt;a href=&quot;/full-stack-developers&quot;&gt;the current complexity of the web industry&lt;/a&gt; led me to focus primary in the front-end and the UX, although I still like to play with servers and design interfaces sometimes.&lt;/p&gt;
 &lt;p&gt;My interests and abilities are more aligned with the &lt;strong&gt;creative tracks&lt;/strong&gt; (the visual, artistic, interactive and UI/UX side of the front-end work). Although I’m also experienced and comfortable with all the other aspects, like dealing with APIs, tooling/configuration, architecture, testing, performance, etc.&lt;/p&gt;
-&lt;p&gt;Currently, &lt;a href=&quot;https://facebook.github.io/react&quot;&gt;ReactJS&lt;/a&gt; is my favourite framework. I’m also learning &lt;a href=&quot;https://www.gatsbyjs.org/&quot;&gt;GatsbyJS&lt;/a&gt; and &lt;a href=&quot;http://graphql.org/&quot;&gt;GraphQL&lt;/a&gt; and would like to learn more about the &lt;a href=&quot;https://gist.github.com/dmnsgn/76878ba6903cf15789b712464875cfdc&quot;&gt;WebGL&lt;/a&gt; and &lt;a href=&quot;https://medium.freecodecamp.org/how-to-build-a-multiplayer-vr-web-app-7b989964fb38&quot;&gt;WebVR&lt;/a&gt; ecosystems…&lt;/p&gt;
+&lt;p&gt;Currently, &lt;a href=&quot;https://facebook.github.io/react&quot;&gt;ReactJS&lt;/a&gt; is my favourite framework. I’m also learning &lt;a href=&quot;https://www.gatsbyjs.org/&quot;&gt;GatsbyJS&lt;/a&gt;, &lt;a href=&quot;http://graphql.org/&quot;&gt;GraphQL&lt;/a&gt;, &lt;a href=&quot;https://www.netlify.com/docs/functions/&quot;&gt;Lambda functions on Netlify&lt;/a&gt;, &lt;a href=&quot;https://www.apollographql.com/&quot;&gt;Apollo&lt;/a&gt;, &lt;a href=&quot;http://fauna.com&quot;&gt;FaunaDB&lt;/a&gt; and would like to learn more about the &lt;a href=&quot;https://gist.github.com/dmnsgn/76878ba6903cf15789b712464875cfdc&quot;&gt;WebGL&lt;/a&gt; and &lt;a href=&quot;https://medium.freecodecamp.org/how-to-build-a-multiplayer-vr-web-app-7b989964fb38&quot;&gt;WebVR&lt;/a&gt; ecosystems…&lt;/p&gt;
 &lt;p&gt;&lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
     style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
