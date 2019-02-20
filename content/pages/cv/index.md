@@ -46,7 +46,7 @@ h4 {
 ##Summary
 
 <div class="highlight">
-  <p>A pixel-focused, creative, proactive and organised all-around <strong>front-end engineer / interactive developer / creative technologist / UX designer</strong> with 18 years of experience.</p>
+  <p>A pixel-focused, creative and proactive all-around <strong>front-end engineer / interactive developer / creative technologist / UX designer</strong> with 18 years of experience.</p>
 
   <p><strong>Loves to learn</strong> new stuff, organise and <strong>make things look pretty and cool</strong>, be challenged on ambitious projects or code beautiful interactive and innovative experiences.</p>
 
@@ -137,13 +137,15 @@ I will omit web browsers, sub-modules, polyfills, plugins, presets, loaders and 
 
 * Collaborated with data scientists, business analysts, back-end developers and designers to improve sales performance & productivity in the organisation
 
-* Successfully led the migration from jQuery/Angular to a React based architecture for all apps by creating a custom boilerplate
+* Successfully led the migration from jQuery/Angular to a React based architecture for all apps by creating a custom boilerplate with Redux state management, Webpack, JSON API integration, SASS and other modern technologies
+
+* Helped the rest of the front-end team to embrace the new React architecture
 
 * Owned the front-end development of 8 prototypes and participated in the development of a few others.
 
-* Led the creation of a dashboard with widgets to replace the previous main page of the main platform
+* Led the redesign and development of a new dashboard app with widgets for the main website of the department
 
-* Identified the need of improving the UI consistency and led the creation of a UI library (based on React) and a design system
+* Identified the need of improving the UI and UX consistency of our apps and led the creation of a UI library (based on React and Styled Components) and a design system based on Vodafone's design guidelines
 
 * Also worked with VueJS, Webpack, Highcharts, D3, MaterialUI, WebRTC, Express, CircleCI, GhostJS, HoneyBadger, CodeClimate, Jest, React testing library, JSON API, REST, etc
 
