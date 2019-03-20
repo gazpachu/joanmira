@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Joan Mira]]></title><description><![CDATA[Personal website of Joan Mira. A Front-end Engineer / Interactive Developer / Creative Technologist / UX Designer]]></description><link>https://joanmira.com</link><generator>RSS for Node</generator><lastBuildDate>Wed, 20 Feb 2019 08:27:18 GMT</lastBuildDate><item><title><![CDATA[sugUI UI Library & Design System]]></title><description><![CDATA[sugUI is an open source UI components library and design system template based on React, Styled Components, Styleguidist and React Testing…]]></description><link>https://joanmira.com/sugui/</link><guid isPermaLink="false">https://joanmira.com/sugui/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Joan Mira]]></title><description><![CDATA[Personal website of Joan Mira. A Front-end Engineer / Interactive Developer / Creative Technologist / UX Designer]]></description><link>https://joanmira.com</link><generator>RSS for Node</generator><lastBuildDate>Wed, 20 Mar 2019 09:09:48 GMT</lastBuildDate><item><title><![CDATA[sugUI UI Library & Design System]]></title><description><![CDATA[sugUI is an open source UI components library and design system template based on React, Styled Components, Styleguidist and React Testing…]]></description><link>https://joanmira.com/sugui/</link><guid isPermaLink="false">https://joanmira.com/sugui/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
 &lt;a class=&quot;btn&quot; href=&quot;https://gazpachu.github.io/sugui-design-system/&quot; target=&quot;_blank&quot;&gt;Project website&lt;/a&gt;
 &lt;a class=&quot;btn&quot; href=&quot;https://github.com/gazpachu/sugui&quot; target=&quot;_blank&quot;&gt;UI Library Github repo&lt;/a&gt;
 &lt;a class=&quot;btn&quot; href=&quot;https://github.com/gazpachu/sugui-design-system&quot; target=&quot;_blank&quot;&gt;Design System Github repo&lt;/a&gt;
@@ -13947,34 +13947,7 @@ Alojamiento en Barcelona: pedir información en info@rutasamurai.com&lt;/p&gt;
         sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
       /&gt;
   &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;As part of my involvement with La PCM, I built a Wordpress website to help raise awareness of the organisation objectives. The website features a classic blog and some static pages with a carousel and forms to contact or subscribe.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[MK Creativo]]></title><description><![CDATA[Iván Martínez Masó, the owner of MK Creativo, asked me to build a Wordpress website with a custom template. It features standard static…]]></description><link>https://joanmira.com/mk-creativo/</link><guid isPermaLink="false">https://joanmira.com/mk-creativo/</guid><content:encoded>&lt;p&gt;&lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/890160cfd606f60c3ff4d4ff625d6865/877ff/1.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 63.3%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUBAwT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABZ5WIlhAv/8QAGxAAAQQDAAAAAAAAAAAAAAAAAQACEjEDBBH/2gAIAQEAAQUCyPiTsxQogrjkK//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EAB4QAAAEBwAAAAAAAAAAAAAAAAABEDECAyEygZGh/9oACAEBAAY/AmM8isuLaOLuJ//EABwQAQACAQUAAAAAAAAAAAAAAAEAERAhMWGRof/aAAgBAQABPyFvMUjoNVjKdnU4kFKLc//aAAwDAQACAAMAAAAQ5M//xAAXEQADAQAAAAAAAAAAAAAAAAAQESEx/9oACAEDAQE/EFdH/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHBABAAICAwEAAAAAAAAAAAAAAQARITFBUfDB/9oACAEBAAE/EElWVwlNTpQyJ+RWcrFaFb7uaaxecw2BHIVP/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;1&quot;
-        title=&quot;&quot;
-        src=&quot;/static/890160cfd606f60c3ff4d4ff625d6865/877ff/1.jpg&quot;
-        srcset=&quot;/static/890160cfd606f60c3ff4d4ff625d6865/d2504/1.jpg 500w,
-/static/890160cfd606f60c3ff4d4ff625d6865/877ff/1.jpg 1000w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
-      /&gt;
-  &lt;/span&gt;
-  &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Iván Martínez Masó, the owner of MK Creativo, asked me to build a Wordpress website with a custom template. It features standard static pages with modules to subscribe to a newsletters or contact.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Newtir]]></title><description><![CDATA[Newtir asked me to build a Joomla website to showcase their company’s services and corporate info. The website features standard static…]]></description><link>https://joanmira.com/newtir/</link><guid isPermaLink="false">https://joanmira.com/newtir/</guid><content:encoded>&lt;p&gt;&lt;a
+&lt;p&gt;As part of my involvement with La PCM, I built a Wordpress website to help raise awareness of the organisation objectives. The website features a classic blog and some static pages with a carousel and forms to contact or subscribe.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Newtir]]></title><description><![CDATA[Newtir asked me to build a Joomla website to showcase their company’s services and corporate info. The website features standard static…]]></description><link>https://joanmira.com/newtir/</link><guid isPermaLink="false">https://joanmira.com/newtir/</guid><content:encoded>&lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/f1a3603dc890242e8545629956a16280/877ff/1.jpg&quot;
     style=&quot;display: block&quot;
@@ -14001,7 +13974,34 @@ Alojamiento en Barcelona: pedir información en info@rutasamurai.com&lt;/p&gt;
       /&gt;
   &lt;/span&gt;
   &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Newtir asked me to build a Joomla website to showcase their company’s services and corporate info. The website features standard static pages with login area and contact form.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[50 animes para ver this summer]]></title><description><![CDATA[Aprovechando que es Agosto y siguiendo en la línea de la lista de las  65 mejores películas de los años 80  (que tanto éxito tuvo, en parte…]]></description><link>https://joanmira.com/50-animes-para-ver-this-summer/</link><guid isPermaLink="false">https://joanmira.com/50-animes-para-ver-this-summer/</guid><content:encoded>&lt;p&gt;Aprovechando que es Agosto y siguiendo en la línea de la lista de las &lt;a href=&quot;http://gazpachu.com/las-50-mejores-peliculas-de-los-anos-80/&quot;&gt;65 mejores películas de los años 80&lt;/a&gt; (que tanto éxito tuvo, en parte gracias al efecto &lt;a href=&quot;http://www.microsiervos.com/archivo/peliculas-tv/65-grandes-peliculas-80.html&quot;&gt;Microsiervos&lt;/a&gt;), hemos preparado ahora una selección de los 50 animes que mas nos han gustado de los que hemos visto, algunos creo que no han salido en España y solo están subtitulados.&lt;/p&gt;
+&lt;p&gt;Newtir asked me to build a Joomla website to showcase their company’s services and corporate info. The website features standard static pages with login area and contact form.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[MK Creativo]]></title><description><![CDATA[Iván Martínez Masó, the owner of MK Creativo, asked me to build a Wordpress website with a custom template. It features standard static…]]></description><link>https://joanmira.com/mk-creativo/</link><guid isPermaLink="false">https://joanmira.com/mk-creativo/</guid><content:encoded>&lt;p&gt;&lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/890160cfd606f60c3ff4d4ff625d6865/877ff/1.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 63.3%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUBAwT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABZ5WIlhAv/8QAGxAAAQQDAAAAAAAAAAAAAAAAAQACEjEDBBH/2gAIAQEAAQUCyPiTsxQogrjkK//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EAB4QAAAEBwAAAAAAAAAAAAAAAAABEDECAyEygZGh/9oACAEBAAY/AmM8isuLaOLuJ//EABwQAQACAQUAAAAAAAAAAAAAAAEAERAhMWGRof/aAAgBAQABPyFvMUjoNVjKdnU4kFKLc//aAAwDAQACAAMAAAAQ5M//xAAXEQADAQAAAAAAAAAAAAAAAAAQESEx/9oACAEDAQE/EFdH/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHBABAAICAwEAAAAAAAAAAAAAAQARITFBUfDB/9oACAEBAAE/EElWVwlNTpQyJ+RWcrFaFb7uaaxecw2BHIVP/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/890160cfd606f60c3ff4d4ff625d6865/877ff/1.jpg&quot;
+        srcset=&quot;/static/890160cfd606f60c3ff4d4ff625d6865/d2504/1.jpg 500w,
+/static/890160cfd606f60c3ff4d4ff625d6865/877ff/1.jpg 1000w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Iván Martínez Masó, the owner of MK Creativo, asked me to build a Wordpress website with a custom template. It features standard static pages with modules to subscribe to a newsletters or contact.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[50 animes para ver this summer]]></title><description><![CDATA[Aprovechando que es Agosto y siguiendo en la línea de la lista de las  65 mejores películas de los años 80  (que tanto éxito tuvo, en parte…]]></description><link>https://joanmira.com/50-animes-para-ver-this-summer/</link><guid isPermaLink="false">https://joanmira.com/50-animes-para-ver-this-summer/</guid><content:encoded>&lt;p&gt;Aprovechando que es Agosto y siguiendo en la línea de la lista de las &lt;a href=&quot;http://gazpachu.com/las-50-mejores-peliculas-de-los-anos-80/&quot;&gt;65 mejores películas de los años 80&lt;/a&gt; (que tanto éxito tuvo, en parte gracias al efecto &lt;a href=&quot;http://www.microsiervos.com/archivo/peliculas-tv/65-grandes-peliculas-80.html&quot;&gt;Microsiervos&lt;/a&gt;), hemos preparado ahora una selección de los 50 animes que mas nos han gustado de los que hemos visto, algunos creo que no han salido en España y solo están subtitulados.&lt;/p&gt;
 &lt;p&gt;Atención!, &lt;strong&gt;están ordenados por fecha&lt;/strong&gt;, quizás habría sido más interesante ordenarlos de peor a mejor, pero son géneros distintos y realmente sería muy difícil hacer un ranking muy objetivo de ellos sin colapsar a criticas por parte de los comentaristas. He puesto los capítulos de muchas de las series, pero muchas de ellas tienen aparte OVAS y películas.&lt;/p&gt;
 &lt;p&gt;En la web de &lt;a href=&quot;http://www.mcanime.net/enciclopedia&quot;&gt;McAnime&lt;/a&gt; tienen un ranking de los animes mas populares en estas fechas (&lt;em&gt;una pagina muy recomendada&lt;/em&gt;) y también tengo que darle las &lt;strong&gt;gracias a “Hackito” por su gran ayuda&lt;/strong&gt; a la hora de confeccionar la lista. Esperamos que os guste y encontréis algo bueno para estos días de calor!&lt;/p&gt;
 &lt;h3&gt;1971. Lupin iii (ルパン三世)&lt;/h3&gt;
@@ -18455,71 +18455,7 @@ qui bat comme un cœur de bois… – que golpea como un corazón de madera…&l
         sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
       /&gt;
   &lt;/span&gt;
-  &lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Tello Serna Flash website]]></title><description><![CDATA[This was one of Webmarket’s first projects. It’s a straightforward Flash website with a custom design, animated content and desktop…]]></description><link>https://joanmira.com/tello-serna/</link><guid isPermaLink="false">https://joanmira.com/tello-serna/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
-&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/telloserna/v1&quot; target=&quot;_blank&quot;&gt;v1&lt;/a&gt;
-&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/telloserna/v2&quot; target=&quot;_blank&quot;&gt;v2&lt;/a&gt;
-&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/telloserna/v4&quot; target=&quot;_blank&quot;&gt;v4&lt;/a&gt;
-&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/telloserna/v5&quot; target=&quot;_blank&quot;&gt;v5&lt;/a&gt;
-&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/telloserna/v6&quot; target=&quot;_blank&quot;&gt;v6&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;This was one of Webmarket’s first projects. It’s a straightforward Flash website with a custom design, animated content and desktop responsive layout. To complete the project, we hired a freelance graphic designer to create the final version (v6).&lt;/p&gt;
-&lt;p&gt;&lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 57.099999999999994%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABQBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAbssUF4C/wD/xAAbEAACAwADAAAAAAAAAAAAAAACAwEREwAyM//aAAgBAQABBQJ17HFQryYAmWIcX1//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAdEAABAwUBAAAAAAAAAAAAAAAAAhEhARIiMXGh/9oACAEBAAY/AoTdGnYhHchPB1UNejH/xAAcEAEAAwACAwAAAAAAAAAAAAABABExIVFhcfD/2gAIAQEAAT8hXGk09q56PMVq9Y5sObPmoaIw4J//2gAMAwEAAgADAAAAENsP/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Qh//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAECAQE/EIf/xAAeEAEBAAICAgMAAAAAAAAAAAABEQAhUWExgUFx8P/aAAgBAQABPxCJGFiBV3fRgHe/Y+25xiJFVVXoxaB6NmuNOD/P8d4FxWFsDwZ//9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;1&quot;
-        title=&quot;&quot;
-        src=&quot;/static/f62af76fabd05f343b46d47090a84b61/877ff/1.jpg&quot;
-        srcset=&quot;/static/f62af76fabd05f343b46d47090a84b61/d2504/1.jpg 500w,
-/static/f62af76fabd05f343b46d47090a84b61/877ff/1.jpg 1000w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
-      /&gt;
-  &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 49.7%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgH/2gAMAwEAAhADEAAAAd7+XYGRQZ//xAAZEAEAAwEBAAAAAAAAAAAAAAABAAIRAxD/2gAIAQEAAQUC41GWrQmQUmr5/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AYx//8QAGRABAAMBAQAAAAAAAAAAAAAAAQAQIREx/9oACAEBAAY/AnIdAr2a1//EABwQAAICAgMAAAAAAAAAAAAAAAABETEhUWFxgf/aAAgBAQABPyHPVccFoZ3RDRSMvR3B9sl7P//aAAwDAQACAAMAAAAQr9//xAAXEQEBAQEAAAAAAAAAAAAAAAABABFR/9oACAEDAQE/EBLTl//EABcRAAMBAAAAAAAAAAAAAAAAAAABEVH/2gAIAQIBAT8QaIrT/8QAHBAAAwACAwEAAAAAAAAAAAAAAAERMWEhQVGR/9oACAEBAAE/EEbO4lr0lkEqS6YNIvc9mMhVE1sYzY+n/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;2&quot;
-        title=&quot;&quot;
-        src=&quot;/static/7e2c5547baba68b746523f2c22522838/877ff/2.jpg&quot;
-        srcset=&quot;/static/7e2c5547baba68b746523f2c22522838/d2504/2.jpg 500w,
-/static/7e2c5547baba68b746523f2c22522838/877ff/2.jpg 1000w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
-      /&gt;
-  &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 49.8%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgD/2gAMAwEAAhADEAAAAd7OdYGRQb//xAAZEAEAAgMAAAAAAAAAAAAAAAABABICAxD/2gAIAQEAAQUC04jGtoKSzz//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPwEn/8QAGhAAAQUBAAAAAAAAAAAAAAAAAQADEBExYf/aAAgBAQAGPwI2FQbB7GrTH//EABwQAAICAgMAAAAAAAAAAAAAAAABESExUWFxgf/aAAgBAQABPyGvjjaI6Ay1ELRhGXo+05Jez//aAAwDAQACAAMAAAAQr8//xAAXEQEBAQEAAAAAAAAAAAAAAAABAFER/9oACAEDAQE/EBMumX//xAAXEQADAQAAAAAAAAAAAAAAAAAAARFR/9oACAECAQE/EGiI9P/EABwQAAICAgMAAAAAAAAAAAAAAAERACExUUFhkf/aAAgBAQABPxDjjFZuOhoyFABTQ2VH2sdX2UQhARMCu1zsez//2Q==&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;3&quot;
-        title=&quot;&quot;
-        src=&quot;/static/b30f979126abb2d717d8ef76c84c6088/877ff/3.jpg&quot;
-        srcset=&quot;/static/b30f979126abb2d717d8ef76c84c6088/d2504/3.jpg 500w,
-/static/b30f979126abb2d717d8ef76c84c6088/877ff/3.jpg 1000w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
-      /&gt;
-  &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Webmarket]]></title><description><![CDATA[In 2006, I co-founded a small digital agency. After the first year, I continued as a solo venture and partnered with other agencies and…]]></description><link>https://joanmira.com/webmarket/</link><guid isPermaLink="false">https://joanmira.com/webmarket/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;&lt;a class=&quot;btn&quot; href=&quot;http://webmarket-v6.herokuapp.com&quot; target=&quot;_blank&quot;&gt;v6 Wordpress&lt;/a&gt; &lt;a class=&quot;btn&quot; href=&quot;http://webmarket-joomla.herokuapp.com&quot; target=&quot;_blank&quot;&gt;v5 Joomla&lt;/a&gt; &lt;a class=&quot;btn&quot; href=&quot;http://webmarket-wp.herokuapp.com&quot; target=&quot;_blank&quot;&gt;v5 Wordpress&lt;/a&gt; &lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/webmarket/v3/&quot; target=&quot;_blank&quot;&gt;v4 Flash&lt;/a&gt;&lt;/p&gt;
+  &lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Webmarket]]></title><description><![CDATA[In 2006, I co-founded a small digital agency. After the first year, I continued as a solo venture and partnered with other agencies and…]]></description><link>https://joanmira.com/webmarket/</link><guid isPermaLink="false">https://joanmira.com/webmarket/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;&lt;a class=&quot;btn&quot; href=&quot;http://webmarket-v6.herokuapp.com&quot; target=&quot;_blank&quot;&gt;v6 Wordpress&lt;/a&gt; &lt;a class=&quot;btn&quot; href=&quot;http://webmarket-joomla.herokuapp.com&quot; target=&quot;_blank&quot;&gt;v5 Joomla&lt;/a&gt; &lt;a class=&quot;btn&quot; href=&quot;http://webmarket-wp.herokuapp.com&quot; target=&quot;_blank&quot;&gt;v5 Wordpress&lt;/a&gt; &lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/webmarket/v3/&quot; target=&quot;_blank&quot;&gt;v4 Flash&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;In 2006, I co-founded a small digital agency. After the first year, I continued as a solo venture and partnered with other agencies and freelancers at some points. We specialised in design and development of multimedia applications and websites based on Adobe Flash (AS2), MdM Zinc, Wordpress and front-end technologies.&lt;/p&gt;
 &lt;p&gt;&lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
@@ -18699,6 +18635,70 @@ qui bat comme un cœur de bois… – que golpea como un corazón de madera…&l
         srcset=&quot;/static/5ee9c61c9efde1ce171847d075ee7159/7eff5/6.jpg 500w,
 /static/5ee9c61c9efde1ce171847d075ee7159/1cc37/6.jpg 800w&quot;
         sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+      /&gt;
+  &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Tello Serna Flash website]]></title><description><![CDATA[This was one of Webmarket’s first projects. It’s a straightforward Flash website with a custom design, animated content and desktop…]]></description><link>https://joanmira.com/tello-serna/</link><guid isPermaLink="false">https://joanmira.com/tello-serna/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/telloserna/v1&quot; target=&quot;_blank&quot;&gt;v1&lt;/a&gt;
+&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/telloserna/v2&quot; target=&quot;_blank&quot;&gt;v2&lt;/a&gt;
+&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/telloserna/v4&quot; target=&quot;_blank&quot;&gt;v4&lt;/a&gt;
+&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/telloserna/v5&quot; target=&quot;_blank&quot;&gt;v5&lt;/a&gt;
+&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/telloserna/v6&quot; target=&quot;_blank&quot;&gt;v6&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;This was one of Webmarket’s first projects. It’s a straightforward Flash website with a custom design, animated content and desktop responsive layout. To complete the project, we hired a freelance graphic designer to create the final version (v6).&lt;/p&gt;
+&lt;p&gt;&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 57.099999999999994%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABQBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAbssUF4C/wD/xAAbEAACAwADAAAAAAAAAAAAAAACAwEREwAyM//aAAgBAQABBQJ17HFQryYAmWIcX1//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAdEAABAwUBAAAAAAAAAAAAAAAAAhEhARIiMXGh/9oACAEBAAY/AoTdGnYhHchPB1UNejH/xAAcEAEAAwACAwAAAAAAAAAAAAABABExIVFhcfD/2gAIAQEAAT8hXGk09q56PMVq9Y5sObPmoaIw4J//2gAMAwEAAgADAAAAENsP/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Qh//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAECAQE/EIf/xAAeEAEBAAICAgMAAAAAAAAAAAABEQAhUWExgUFx8P/aAAgBAQABPxCJGFiBV3fRgHe/Y+25xiJFVVXoxaB6NmuNOD/P8d4FxWFsDwZ//9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/f62af76fabd05f343b46d47090a84b61/877ff/1.jpg&quot;
+        srcset=&quot;/static/f62af76fabd05f343b46d47090a84b61/d2504/1.jpg 500w,
+/static/f62af76fabd05f343b46d47090a84b61/877ff/1.jpg 1000w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+      /&gt;
+  &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 49.7%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgH/2gAMAwEAAhADEAAAAd7+XYGRQZ//xAAZEAEAAwEBAAAAAAAAAAAAAAABAAIRAxD/2gAIAQEAAQUC41GWrQmQUmr5/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AYx//8QAGRABAAMBAQAAAAAAAAAAAAAAAQAQIREx/9oACAEBAAY/AnIdAr2a1//EABwQAAICAgMAAAAAAAAAAAAAAAABETEhUWFxgf/aAAgBAQABPyHPVccFoZ3RDRSMvR3B9sl7P//aAAwDAQACAAMAAAAQr9//xAAXEQEBAQEAAAAAAAAAAAAAAAABABFR/9oACAEDAQE/EBLTl//EABcRAAMBAAAAAAAAAAAAAAAAAAABEVH/2gAIAQIBAT8QaIrT/8QAHBAAAwACAwEAAAAAAAAAAAAAAAERMWEhQVGR/9oACAEBAAE/EEbO4lr0lkEqS6YNIvc9mMhVE1sYzY+n/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;2&quot;
+        title=&quot;&quot;
+        src=&quot;/static/7e2c5547baba68b746523f2c22522838/877ff/2.jpg&quot;
+        srcset=&quot;/static/7e2c5547baba68b746523f2c22522838/d2504/2.jpg 500w,
+/static/7e2c5547baba68b746523f2c22522838/877ff/2.jpg 1000w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+      /&gt;
+  &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 49.8%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgD/2gAMAwEAAhADEAAAAd7OdYGRQb//xAAZEAEAAgMAAAAAAAAAAAAAAAABABICAxD/2gAIAQEAAQUC04jGtoKSzz//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPwEn/8QAGhAAAQUBAAAAAAAAAAAAAAAAAQADEBExYf/aAAgBAQAGPwI2FQbB7GrTH//EABwQAAICAgMAAAAAAAAAAAAAAAABESExUWFxgf/aAAgBAQABPyGvjjaI6Ay1ELRhGXo+05Jez//aAAwDAQACAAMAAAAQr8//xAAXEQEBAQEAAAAAAAAAAAAAAAABAFER/9oACAEDAQE/EBMumX//xAAXEQADAQAAAAAAAAAAAAAAAAAAARFR/9oACAECAQE/EGiI9P/EABwQAAICAgMAAAAAAAAAAAAAAAERACExUUFhkf/aAAgBAQABPxDjjFZuOhoyFABTQ2VH2sdX2UQhARMCu1zsez//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;3&quot;
+        title=&quot;&quot;
+        src=&quot;/static/b30f979126abb2d717d8ef76c84c6088/877ff/3.jpg&quot;
+        srcset=&quot;/static/b30f979126abb2d717d8ef76c84c6088/d2504/3.jpg 500w,
+/static/b30f979126abb2d717d8ef76c84c6088/877ff/3.jpg 1000w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
       /&gt;
   &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CR Asociados]]></title><description><![CDATA[CR Asociados required a custom website to showcase their financing services. I also built a bespoke CMS feature with many user details…]]></description><link>https://joanmira.com/crasociados/</link><guid isPermaLink="false">https://joanmira.com/crasociados/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
 &lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/crasociados/&quot; target=&quot;_blank&quot;&gt;Launch archived website&lt;/a&gt;
@@ -22371,7 +22371,29 @@ FUTURO: Posiblemente, en un futuro cercano, todas las viviendas estaran equipad
 /static/61ad2de1ed6847802909957447b0e27b/877ff/2.jpg 1000w&quot;
         sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
       /&gt;
-  &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[GAZ New Media Design]]></title><description><![CDATA[GAZ New Media Design (aka gazpachu.com) was my first identity as a freelance web designer. It was created as a very naive and unpretentious…]]></description><link>https://joanmira.com/gazpachu/</link><guid isPermaLink="false">https://joanmira.com/gazpachu/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+  &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Save Guimaras]]></title><description><![CDATA[This is a simple Wordpress blog I built with a custom theme.]]></description><link>https://joanmira.com/save-guimaras/</link><guid isPermaLink="false">https://joanmira.com/save-guimaras/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+&lt;a class=&quot;btn&quot; href=&quot;http://saveguimaras.herokuapp.com&quot; target=&quot;_blank&quot;&gt;Launch archived website&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 63.3%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHWq6EYAP8A/8QAGRABAQADAQAAAAAAAAAAAAAAAREAAhIx/9oACAEBAAEFAm9Fmvkby4EP/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Bh//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAECAQE/Aaf/xAAZEAADAAMAAAAAAAAAAAAAAAAAEDEBEaH/2gAIAQEABj8CyXapeL//xAAaEAEBAQADAQAAAAAAAAAAAAABABEhMZFh/9oACAEBAAE/IeuX2XIZS0zsQeXzzJF2/9oADAMBAAIAAwAAABDjz//EABURAQEAAAAAAAAAAAAAAAAAABBx/9oACAEDAQE/EKP/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/EB//xAAbEAEAAwEAAwAAAAAAAAAAAAABABEhQWHB4f/aAAgBAQABPxBoBF5qjIsXTRFjLW2o8Cvm/cxoM8fcYER2qn//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/c137f1c3205f6f82916438517d477a74/877ff/1.jpg&quot;
+        srcset=&quot;/static/c137f1c3205f6f82916438517d477a74/d2504/1.jpg 500w,
+/static/c137f1c3205f6f82916438517d477a74/877ff/1.jpg 1000w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+      /&gt;
+  &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This is a simple Wordpress blog I built with a custom theme.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[GAZ New Media Design]]></title><description><![CDATA[GAZ New Media Design (aka gazpachu.com) was my first identity as a freelance web designer. It was created as a very naive and unpretentious…]]></description><link>https://joanmira.com/gazpachu/</link><guid isPermaLink="false">https://joanmira.com/gazpachu/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
 &lt;a class=&quot;btn&quot; href=&quot;http://gazpachu.herokuapp.com&quot; target=&quot;_blank&quot;&gt;v5 Wordpress&lt;/a&gt;
 &lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/gazpachu/v4/&quot; target=&quot;_blank&quot;&gt;v4&lt;/a&gt;
 &lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/gazpachu/v3/&quot; target=&quot;_blank&quot;&gt;v3&lt;/a&gt;
@@ -22475,29 +22497,7 @@ FUTURO: Posiblemente, en un futuro cercano, todas las viviendas estaran equipad
 /static/6a303f346cf33b014bbe384c2f245ddb/352f9/5.jpg 680w&quot;
         sizes=&quot;(max-width: 680px) 100vw, 680px&quot;
       /&gt;
-  &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Save Guimaras]]></title><description><![CDATA[This is a simple Wordpress blog I built with a custom theme.]]></description><link>https://joanmira.com/save-guimaras/</link><guid isPermaLink="false">https://joanmira.com/save-guimaras/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
-&lt;a class=&quot;btn&quot; href=&quot;http://saveguimaras.herokuapp.com&quot; target=&quot;_blank&quot;&gt;Launch archived website&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 63.3%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHWq6EYAP8A/8QAGRABAQADAQAAAAAAAAAAAAAAAREAAhIx/9oACAEBAAEFAm9Fmvkby4EP/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Bh//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAECAQE/Aaf/xAAZEAADAAMAAAAAAAAAAAAAAAAAEDEBEaH/2gAIAQEABj8CyXapeL//xAAaEAEBAQADAQAAAAAAAAAAAAABABEhMZFh/9oACAEBAAE/IeuX2XIZS0zsQeXzzJF2/9oADAMBAAIAAwAAABDjz//EABURAQEAAAAAAAAAAAAAAAAAABBx/9oACAEDAQE/EKP/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/EB//xAAbEAEAAwEAAwAAAAAAAAAAAAABABEhQWHB4f/aAAgBAQABPxBoBF5qjIsXTRFjLW2o8Cvm/cxoM8fcYER2qn//2Q==&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;1&quot;
-        title=&quot;&quot;
-        src=&quot;/static/c137f1c3205f6f82916438517d477a74/877ff/1.jpg&quot;
-        srcset=&quot;/static/c137f1c3205f6f82916438517d477a74/d2504/1.jpg 500w,
-/static/c137f1c3205f6f82916438517d477a74/877ff/1.jpg 1000w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
-      /&gt;
-  &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;This is a simple Wordpress blog I built with a custom theme.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Slater Labs]]></title><description><![CDATA[While I was working at Slater Labs as a software engineer, I took the creation of the company website as a side project. I wanted to explore…]]></description><link>https://joanmira.com/slaterlabs/</link><guid isPermaLink="false">https://joanmira.com/slaterlabs/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+  &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Slater Labs]]></title><description><![CDATA[While I was working at Slater Labs as a software engineer, I took the creation of the company website as a side project. I wanted to explore…]]></description><link>https://joanmira.com/slaterlabs/</link><guid isPermaLink="false">https://joanmira.com/slaterlabs/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
 &lt;a class=&quot;btn&quot; href=&quot;/samples-of-work-ac457d43c60e7c96d7ff78c49c2fdcfa.pdf&quot; target=&quot;_blank&quot;&gt;Samples of work (PDF)&lt;/a&gt;
 &lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/slater/&quot; target=&quot;_blank&quot;&gt;Launch archived template&lt;/a&gt;
 &lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/slaterusa/&quot; target=&quot;_blank&quot;&gt;Launch archived USA template&lt;/a&gt;
