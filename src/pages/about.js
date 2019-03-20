@@ -28,7 +28,7 @@ const AboutPage = () => (
           </header>
           <div className="slide clearfix">
             <img className="pach" src={Pach} alt="Joan Mira" />
-            <p>My name in japanese is <strong>ジョーン</strong> (Jōn) <strong>ミラ</strong> (Mira).</p>
+            <p>My name in japanese is <strong>ジョアン</strong> (Joan) <strong>ミラ</strong> (Mira).</p>
             <p>I define myself as an explorer, web and tech geek, biker, rower, DIY enthusiast and cinema buff. But among all, I'm passionate about art, creativity and inspired by Japan.</p>
             <p>This is my personal website, where I write about my life, interests and work as a Web Developer with the only intention of sharing knowledge and experiences.</p>
             <p>If you want to know more about me, you can read my <Link to="/geek-life">geek life</Link>, <Link to="/cv">curriculum</Link> or my motorcycle adventure called the <Link to="/samurai-route/">Samurai route</Link>. Alternatively, I'm always up for a ping-pong or fußball game. And don't forget to add me in <a href="http://linkedin.com/in/joanmira">LinkedIn</a> and <a href="https://twitter.com/gazpachu/">Twitter</a>! ;-)</p>
