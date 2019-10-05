@@ -46,14 +46,14 @@ h4 {
 ##Summary
 
 <div class="highlight">
-  <p>A pixel-focused, creative and proactive all-around <strong>front-end engineer / interactive developer / creative technologist / UX designer</strong> with 18 years of experience.</p>
+  <p>A pixel-focused, creative, all-around <strong>front-end engineer / interactive developer / UX designer</strong> with 18 years of experience.</p>
 
   <p><strong>Loves to learn</strong> new stuff, organise and <strong>make things look pretty and cool</strong>, be challenged on ambitious projects or code beautiful interactive and innovative experiences.</p>
 
   <ul style="margin-bottom: 0">
     <li>Autodidact. Extensive education in computer science, multimedia & web design</li>
     <li>Entrepreneurial spirit. Started work at age 17 & co-founded a company at age 26</li>
-    <li>Multi-cultural attitude. Lived in <a href="https://en.wikipedia.org/wiki/Barcelona">Barcelona</a>, <a href="https://en.wikipedia.org/wiki/Alicante">Alicante</a>, <a href="https://en.wikipedia.org/wiki/Madrid">Madrid</a> & <a href="https://en.wikipedia.org/wiki/London">London</a></li>
+    <li>Multi-cultural attitude. Lived in <a href="https://en.wikipedia.org/wiki/Barcelona">Barcelona</a>, <a href="https://en.wikipedia.org/wiki/Alicante">Alicante</a>, <a href="https://en.wikipedia.org/wiki/Madrid">Madrid</a>, <a href="https://en.wikipedia.org/wiki/London">London</a> and <a href="https://en.wikipedia.org/wiki/Tokyo">Tokyo</a></li>
     <li>Speaks Spanish, <a href="https://en.wikipedia.org/wiki/Catalan_language">Catalan</a> and English. Learning Japanese</li>
     <li>Went on a <a href="/samurai-route">motorcycle adventure across the world</a>, from Spain to Japan</li>
   </ul>
@@ -61,11 +61,11 @@ h4 {
 
 ##Skills
 
-In the past I have worked as a full-stack developer and web designer, but [the current complexity of the web industry](/full-stack-developers) led me to focus primary in the front-end and the UX, although I still like to play with servers and design interfaces sometimes.
+In the past I have worked as a full-stack developer and web designer, but [the current complexity of the web industry](/full-stack-developers) led me to focus primary in the front-end, specially the UI, although I still like to play with servers and back-end code once in a while.
 
-My interests and abilities are more aligned with the **creative tracks** (the visual, artistic, interactive and UI/UX side of the front-end work). Although I'm also experienced and comfortable with all the other aspects, like dealing with APIs, tooling/configuration, architecture, testing, performance, etc.
+My interests and abilities are more aligned with the **creative tracks** (the visual, artistic, interactive and UI/UX side of the front-end work). Although I'm also experienced and comfortable with all the other aspects, like dealing with REST/GraphQL APIs, tooling/configuration, testing, performance optimisation, etc.
 
-Currently, [ReactJS](https://facebook.github.io/react) is my favourite framework. I'm also learning [GatsbyJS](https://www.gatsbyjs.org/), [GraphQL](http://graphql.org/), [Lambda functions on Netlify](https://www.netlify.com/docs/functions/), [Apollo](https://www.apollographql.com/), [FaunaDB](http://fauna.com) and would like to learn more about the [WebGL](https://gist.github.com/dmnsgn/76878ba6903cf15789b712464875cfdc) and [WebVR](https://medium.freecodecamp.org/how-to-build-a-multiplayer-vr-web-app-7b989964fb38) ecosystems...
+Currently, [ReactJS](https://facebook.github.io/react) is my favourite framework. I'm also using [GatsbyJS](https://www.gatsbyjs.org/), [GraphQL](http://graphql.org/), [Lambda functions on Netlify](https://www.netlify.com/docs/functions/), [Apollo](https://www.apollographql.com/), [FaunaDB](http://fauna.com) and would like to learn more about the [WebGL](https://gist.github.com/dmnsgn/76878ba6903cf15789b712464875cfdc) and [WebVR](https://medium.freecodecamp.org/how-to-build-a-multiplayer-vr-web-app-7b989964fb38) ecosystems...
 
 ![](./images/tech.jpg)
 
@@ -76,14 +76,15 @@ I will omit web browsers, sub-modules, polyfills, plugins, presets, loaders and 
 * Core: [JavaScript ES2015](https://en.wikipedia.org/wiki/ECMAScript#6th_Edition_-_ECMAScript_2015), [HTML5](https://en.wikipedia.org/wiki/HTML5), [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3)
 * Frameworks: [ReactJS](https://facebook.github.io/react), [VueJS](https://vuejs.org), [AngularJS](https://angularjs.org/)
 * State management: [Redux](http://redux.js.org/), [Reselect](https://github.com/reduxjs/reselect), [Vuex](https://github.com/vuejs/vuex), [MobX](https://mobx.js.org/)
-* React modules: [CreateReactApp](https://github.com/facebook/create-react-app), [ReactRouter](https://github.com/ReactTraining/react-router), [React-dnd](https://github.com/react-dnd/react-dnd), [Froala](https://github.com/froala/react-froala-wysiwyg)
-* CSS: [Styled Components](https://styled-components.com), [LESS](http://lesscss.org/), [SASS](http://sass-lang.com/), [PostCSS](https://postcss.org/)
+* React modules: [ReactVis](https://uber.github.io/react-vis/), [ReactRouter](https://github.com/ReactTraining/react-router), [React-dnd](https://github.com/react-dnd/react-dnd)
+* CSS: [Emotion](https://emotion.sh), [Styled Components](https://styled-components.com), [LESS](http://lesscss.org/), [SASS](http://sass-lang.com/), [PostCSS](https://postcss.org/)
 * Component libraries: [Styleguidist](https://react-styleguidist.js.org/), [Material UI](https://material-ui.com/), [Vue Material](https://vuematerial.github.io/#/), [Bootstrap](http://getbootstrap.com/)
-* Utility libraries: [Axios](https://github.com/axios/axios), [Lodash](https://lodash.com/), [date-fns](https://date-fns.org/), [Moment.js](https://momentjs.com/), [Showdown](https://github.com/showdownjs/showdown), [History](https://github.com/ReactTraining/history), [jQuery](https://en.wikipedia.org/wiki/JQuery), [Require.js](http://requirejs.org/), [Browserify](http://browserify.org/), [VeeValidate](https://github.com/baianat/vee-validate), [Iframe resizer](https://github.com/davidjbradshaw/iframe-resizer)
+* Utility libraries: [Apollo](https://www.apollographql.com), [FlowJS](https://flow.org/), [Axios](https://github.com/axios/axios), [Lodash](https://lodash.com/), [date-fns](https://date-fns.org/), [Moment.js](https://momentjs.com/), [Showdown](https://github.com/showdownjs/showdown), [History](https://github.com/ReactTraining/history), [jQuery](https://en.wikipedia.org/wiki/JQuery), [Require.js](http://requirejs.org/), [Browserify](http://browserify.org/), [VeeValidate](https://github.com/baianat/vee-validate), [Iframe resizer](https://github.com/davidjbradshaw/iframe-resizer)
 * Other libraries: [Highcharts](http://www.highcharts.com/), [OrgChart](https://github.com/dabeng/OrgChart)
 * Static site generators: [Assemble](http://assemble.io/), [GatsbyJS](https://www.gatsbyjs.org/)
 * Templating: [Handlebars](http://handlebarsjs.com/), [Mustache](https://mustache.github.io/), [HAML](http://haml.info/), [EJS](http://www.embeddedjs.com/)
 * Tooling: [Yarn](https://yarnpkg.com/lang/en/)/[NPM](https://www.npmjs.com/), [Webpack](https://webpack.github.io/), [Babel](https://babeljs.io), [ShipIt](https://github.com/shipitjs/shipit), [Grunt](http://gruntjs.com/), [Gulp](http://gulpjs.com/), [Bower](http://bower.io/)
+* Localisation: [i18next](https://www.i18next.com/), [Lokalize](https://lokalise.com/)
 * Testing: [Prettier](https://prettier.io/), [ESlint](http://eslint.org/), [Jest](https://jestjs.io/), [React Testing Library](https://github.com/kentcdodds/react-testing-library)
 * Animation: [GSAP](http://greensock.com/gsap), [Phaser](http://phaser.io/), [Box2d](https://en.wikipedia.org/wiki/Box2D), [ActionScript](https://en.wikipedia.org/wiki/ActionScript)
 * Real-time: [Socket.io](https://socket.io/), [SignalMaster](https://github.com/andyet/signalmaster), [SimpleWebRTC](https://github.com/andyet/SimpleWebRTC)
@@ -127,6 +128,19 @@ I will omit web browsers, sub-modules, polyfills, plugins, presets, loaders and 
 * [NUI](https://en.wikipedia.org/wiki/Natural_user_interface), Hand/skeleton tracking with [Kinect](https://en.wikipedia.org/wiki/Kinect), [OpenNi](http://structure.io/openni) and [OpenCV](http://opencv.org/)
 
 ##Experience
+
+###Senior Frontend Engineer
+<h4><span class="tag red-tag">Feb 2019 - Now</span><a class="tag gold-tag" href="http://tablecheck.com">TableCheck</a><span class="tag blue-tag">Ginza, Tokyo (Japan)</span></h4>
+
+Successfully led the front-end architecture of insight, TableCheck's data analytics app for the hospitality sector.
+
+Together with the Head of Data Science and a team of 3 front-end engineers and 3 back-end engineers, we built one of the most advanced analytics suite in the industry for TableCheck's customers like Hilton, IHG Intercontinental, Hyatt, Westin or Okura hotels.
+
+Managed to bring the product from its initial prototyping stages until its release in August 2019 in 3 languages: Japanese, English and Spanish. Since then, we continued adding new features, languages and improving its performance.
+
+The front-end tech stack involved React 16, GraphQL, Apollo, MobX, Flow, Emotion, ReactVis, i18Next, Lokalise, ReactPDF, Lodash, MomentJS, TableCheck's own design system and UI component library and other NPM modules.
+
+CI and code reviews were driven by Gitlab and the back-end involved Amazon AWS, RedShift, Elixir, K8S and other technologies to manage millions of records related with customers' reservations, revenue data, sms messages, surveys data, etc.
 
 ###Agile Prototyping Analyst
 <h4><span class="tag red-tag">Mar 2016 - Feb 2019</span><a class="tag gold-tag" href="http://vodafone.com">Vodafone Global Enterprise</a><span class="tag blue-tag">Newbury (UK) & Alicante (Spain)</span></h4>
