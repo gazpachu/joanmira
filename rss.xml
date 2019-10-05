@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Joan Mira]]></title><description><![CDATA[Personal website of Joan Mira. A Front-end Engineer / Interactive Developer / Creative Technologist / UX Designer]]></description><link>https://joanmira.com</link><generator>RSS for Node</generator><lastBuildDate>Wed, 20 Mar 2019 09:09:48 GMT</lastBuildDate><item><title><![CDATA[sugUI UI Library & Design System]]></title><description><![CDATA[sugUI is an open source UI components library and design system template based on React, Styled Components, Styleguidist and React Testing…]]></description><link>https://joanmira.com/sugui/</link><guid isPermaLink="false">https://joanmira.com/sugui/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Joan Mira]]></title><description><![CDATA[Personal website of Joan Mira. A Front-end Engineer / Interactive Developer / Creative Technologist / UX Designer]]></description><link>https://joanmira.com</link><generator>RSS for Node</generator><lastBuildDate>Sat, 05 Oct 2019 02:11:12 GMT</lastBuildDate><item><title><![CDATA[sugUI UI Library & Design System]]></title><description><![CDATA[sugUI is an open source UI components library and design system template based on React, Styled Components, Styleguidist and React Testing…]]></description><link>https://joanmira.com/sugui/</link><guid isPermaLink="false">https://joanmira.com/sugui/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
 &lt;a class=&quot;btn&quot; href=&quot;https://gazpachu.github.io/sugui-design-system/&quot; target=&quot;_blank&quot;&gt;Project website&lt;/a&gt;
 &lt;a class=&quot;btn&quot; href=&quot;https://github.com/gazpachu/sugui&quot; target=&quot;_blank&quot;&gt;UI Library Github repo&lt;/a&gt;
 &lt;a class=&quot;btn&quot; href=&quot;https://github.com/gazpachu/sugui-design-system&quot; target=&quot;_blank&quot;&gt;Design System Github repo&lt;/a&gt;
@@ -660,98 +660,6 @@
       /&gt;
   &lt;/span&gt;
     &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;Admin panel - list of pages and posts&lt;/figcaption&gt;
-  &lt;/figure&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Maple]]></title><description><![CDATA[Maple is an app to manage the sales hierarchy in Vodafone. It allows to add new employees, assign them roles and targets and move them under…]]></description><link>https://joanmira.com/maple/</link><guid isPermaLink="false">https://joanmira.com/maple/</guid><content:encoded>&lt;p&gt;Maple is an app to manage the sales hierarchy in Vodafone. It allows to add new employees, assign them roles and targets and move them under new teams.&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
-    &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/cb98864452d269a516f4cb9110f31ae0/877ff/1.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 63.3%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFAf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAac6usOGh//EABwQAAEFAAMAAAAAAAAAAAAAAAIAAQMREhMUIf/aAAgBAQABBQKXVc0iD0CHTdYULUP/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAACAgMAAAAAAAAAAAAAAAAAAQIRITEy/9oACAEBAAY/ApSUmjoQ1eGbKP/EABsQAQACAgMAAAAAAAAAAAAAAAEAESExEEFx/9oACAEBAAE/IQKyaJhw18jVu0joDsxwK611P//aAAwDAQACAAMAAAAQmA//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPxCn/8QAHBABAAIDAAMAAAAAAAAAAAAAAQARMUFRgdHx/9oACAEBAAE/EGThsQTUoVc1SKPYVeswrgPuckeH3MHhoan/2Q==&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;1&quot;
-        title=&quot;Home page&quot;
-        src=&quot;/static/cb98864452d269a516f4cb9110f31ae0/877ff/1.jpg&quot;
-        srcset=&quot;/static/cb98864452d269a516f4cb9110f31ae0/d2504/1.jpg 500w,
-/static/cb98864452d269a516f4cb9110f31ae0/877ff/1.jpg 1000w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
-      /&gt;
-  &lt;/span&gt;
-  &lt;/a&gt;
-    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;Home page&lt;/figcaption&gt;
-  &lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;In this project, I owned the 100% of the front-end build until it was published. Later on, I worked in a couple of more journeys (joiners/leavers, change teams) and features with another co-worker.&lt;/p&gt;
-&lt;p&gt;Maple was built using VueJS, Vuex (to manage the global state) and the Material-UI library for Vue. It also uses a library called &lt;a href=&quot;https://github.com/dabeng/OrgChart&quot;&gt;OrgChart&lt;/a&gt; to build the organigram in the homepage. I also added a chatbot with speech recognition powered by &lt;a href=&quot;https://dialogflow.com/&quot;&gt;Dialogflow&lt;/a&gt; (formerly known as Api.ai).&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
-    &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/3fd6f456c7109c9d32890422d36d23ec/877ff/2.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 61.8%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHsLysysP/EABoQAAICAwAAAAAAAAAAAAAAAAADAhMBEBH/2gAIAQEAAQUCpWUrKV6xLsj/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAWEQADAAAAAAAAAAAAAAAAAAAAARH/2gAIAQIBAT8BrKz/xAAXEAADAQAAAAAAAAAAAAAAAAAAATIQ/9oACAEBAAY/AoRCIWPP/8QAGBAAAwEBAAAAAAAAAAAAAAAAAAHxEEH/2gAIAQEAAT8hikEg45J8Gf/aAAwDAQACAAMAAAAQVN//xAAXEQEAAwAAAAAAAAAAAAAAAAAAAREh/9oACAEDAQE/EMVD/8QAFREBAQAAAAAAAAAAAAAAAAAAAGH/2gAIAQIBAT8Qss//xAAXEAEBAQEAAAAAAAAAAAAAAAABABEh/9oACAEBAAE/EBravaI03CKYwc5Lt//Z&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;2&quot;
-        title=&quot;Adding a new employee&quot;
-        src=&quot;/static/3fd6f456c7109c9d32890422d36d23ec/877ff/2.jpg&quot;
-        srcset=&quot;/static/3fd6f456c7109c9d32890422d36d23ec/d2504/2.jpg 500w,
-/static/3fd6f456c7109c9d32890422d36d23ec/877ff/2.jpg 1000w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
-      /&gt;
-  &lt;/span&gt;
-  &lt;/a&gt;
-    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;Adding a new employee&lt;/figcaption&gt;
-  &lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
-    &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/bcad90f2ffc498fd7a278893a1e03aed/8ae4e/3.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 996px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 61.74698795180722%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAdddZFYf/8QAGBAAAgMAAAAAAAAAAAAAAAAAAxMAESD/2gAIAQEAAQUCSOKFaR4//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEAAwAAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/Aays/8QAFxAAAwEAAAAAAAAAAAAAAAAAAAEyIP/aAAgBAQAGPwKESiFj/8QAGhAAAwADAQAAAAAAAAAAAAAAAAEREJGh8f/aAAgBAQABPyFpVekpHM8XFKf/2gAMAwEAAgADAAAAEIQf/8QAFhEAAwAAAAAAAAAAAAAAAAAAAAER/9oACAEDAQE/EIiI/8QAFREBAQAAAAAAAAAAAAAAAAAAAGH/2gAIAQIBAT8Qss//xAAXEAEBAQEAAAAAAAAAAAAAAAABEQAh/9oACAEBAAE/EEgYdyBUpQyWlTVq3//Z&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;3&quot;
-        title=&quot;Targets&quot;
-        src=&quot;/static/bcad90f2ffc498fd7a278893a1e03aed/8ae4e/3.jpg&quot;
-        srcset=&quot;/static/bcad90f2ffc498fd7a278893a1e03aed/14349/3.jpg 500w,
-/static/bcad90f2ffc498fd7a278893a1e03aed/8ae4e/3.jpg 996w&quot;
-        sizes=&quot;(max-width: 996px) 100vw, 996px&quot;
-      /&gt;
-  &lt;/span&gt;
-  &lt;/a&gt;
-    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;Targets&lt;/figcaption&gt;
   &lt;/figure&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Wippy]]></title><description><![CDATA[Wippy is a Vodafone app that allows users to adjust the IYR (in year revenue) of an opportunity and track changes as well as the reasons and…]]></description><link>https://joanmira.com/wippy/</link><guid isPermaLink="false">https://joanmira.com/wippy/</guid><content:encoded>&lt;style&gt;
 .loader {
   border-radius: 100%;
@@ -851,7 +759,99 @@
   &lt;/figure&gt;&lt;/p&gt;
 &lt;p style=&quot;text-align: center&quot;&gt;
   &lt;img class=&quot;loader&quot; src=&quot;/loader-de1c14ad2d235dab59bc611e961a0378.gif&quot; alt=&quot;loader&quot;&gt;
-&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Vodafone]]></title><description><![CDATA[While working at Vodafone, I was tasked to do an interactive data visualisation piece for one of its clients. The idea was to show a world…]]></description><link>https://joanmira.com/vodafone/</link><guid isPermaLink="false">https://joanmira.com/vodafone/</guid><content:encoded>&lt;p&gt;&lt;a
+&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Maple]]></title><description><![CDATA[Maple is an app to manage the sales hierarchy in Vodafone. It allows to add new employees, assign them roles and targets and move them under…]]></description><link>https://joanmira.com/maple/</link><guid isPermaLink="false">https://joanmira.com/maple/</guid><content:encoded>&lt;p&gt;Maple is an app to manage the sales hierarchy in Vodafone. It allows to add new employees, assign them roles and targets and move them under new teams.&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/cb98864452d269a516f4cb9110f31ae0/877ff/1.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 63.3%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFAf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAac6usOGh//EABwQAAEFAAMAAAAAAAAAAAAAAAIAAQMREhMUIf/aAAgBAQABBQKXVc0iD0CHTdYULUP/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAaEAACAgMAAAAAAAAAAAAAAAAAAQIRITEy/9oACAEBAAY/ApSUmjoQ1eGbKP/EABsQAQACAgMAAAAAAAAAAAAAAAEAESExEEFx/9oACAEBAAE/IQKyaJhw18jVu0joDsxwK611P//aAAwDAQACAAMAAAAQmA//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPxCn/8QAHBABAAIDAAMAAAAAAAAAAAAAAQARMUFRgdHx/9oACAEBAAE/EGThsQTUoVc1SKPYVeswrgPuckeH3MHhoan/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;1&quot;
+        title=&quot;Home page&quot;
+        src=&quot;/static/cb98864452d269a516f4cb9110f31ae0/877ff/1.jpg&quot;
+        srcset=&quot;/static/cb98864452d269a516f4cb9110f31ae0/d2504/1.jpg 500w,
+/static/cb98864452d269a516f4cb9110f31ae0/877ff/1.jpg 1000w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;Home page&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;In this project, I owned the 100% of the front-end build until it was published. Later on, I worked in a couple of more journeys (joiners/leavers, change teams) and features with another co-worker.&lt;/p&gt;
+&lt;p&gt;Maple was built using VueJS, Vuex (to manage the global state) and the Material-UI library for Vue. It also uses a library called &lt;a href=&quot;https://github.com/dabeng/OrgChart&quot;&gt;OrgChart&lt;/a&gt; to build the organigram in the homepage. I also added a chatbot with speech recognition powered by &lt;a href=&quot;https://dialogflow.com/&quot;&gt;Dialogflow&lt;/a&gt; (formerly known as Api.ai).&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3fd6f456c7109c9d32890422d36d23ec/877ff/2.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 61.8%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHsLysysP/EABoQAAICAwAAAAAAAAAAAAAAAAADAhMBEBH/2gAIAQEAAQUCpWUrKV6xLsj/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAWEQADAAAAAAAAAAAAAAAAAAAAARH/2gAIAQIBAT8BrKz/xAAXEAADAQAAAAAAAAAAAAAAAAAAATIQ/9oACAEBAAY/AoRCIWPP/8QAGBAAAwEBAAAAAAAAAAAAAAAAAAHxEEH/2gAIAQEAAT8hikEg45J8Gf/aAAwDAQACAAMAAAAQVN//xAAXEQEAAwAAAAAAAAAAAAAAAAAAAREh/9oACAEDAQE/EMVD/8QAFREBAQAAAAAAAAAAAAAAAAAAAGH/2gAIAQIBAT8Qss//xAAXEAEBAQEAAAAAAAAAAAAAAAABABEh/9oACAEBAAE/EBravaI03CKYwc5Lt//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;2&quot;
+        title=&quot;Adding a new employee&quot;
+        src=&quot;/static/3fd6f456c7109c9d32890422d36d23ec/877ff/2.jpg&quot;
+        srcset=&quot;/static/3fd6f456c7109c9d32890422d36d23ec/d2504/2.jpg 500w,
+/static/3fd6f456c7109c9d32890422d36d23ec/877ff/2.jpg 1000w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;Adding a new employee&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&quot;gatsby-resp-image-figure&quot; style=&quot;&quot;&gt;
+    &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/bcad90f2ffc498fd7a278893a1e03aed/8ae4e/3.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 996px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 61.74698795180722%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAdddZFYf/8QAGBAAAgMAAAAAAAAAAAAAAAAAAxMAESD/2gAIAQEAAQUCSOKFaR4//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEAAwAAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/Aays/8QAFxAAAwEAAAAAAAAAAAAAAAAAAAEyIP/aAAgBAQAGPwKESiFj/8QAGhAAAwADAQAAAAAAAAAAAAAAAAEREJGh8f/aAAgBAQABPyFpVekpHM8XFKf/2gAMAwEAAgADAAAAEIQf/8QAFhEAAwAAAAAAAAAAAAAAAAAAAAER/9oACAEDAQE/EIiI/8QAFREBAQAAAAAAAAAAAAAAAAAAAGH/2gAIAQIBAT8Qss//xAAXEAEBAQEAAAAAAAAAAAAAAAABEQAh/9oACAEBAAE/EEgYdyBUpQyWlTVq3//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;3&quot;
+        title=&quot;Targets&quot;
+        src=&quot;/static/bcad90f2ffc498fd7a278893a1e03aed/8ae4e/3.jpg&quot;
+        srcset=&quot;/static/bcad90f2ffc498fd7a278893a1e03aed/14349/3.jpg 500w,
+/static/bcad90f2ffc498fd7a278893a1e03aed/8ae4e/3.jpg 996w&quot;
+        sizes=&quot;(max-width: 996px) 100vw, 996px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;
+    &lt;figcaption class=&quot;gatsby-resp-image-figcaption&quot;&gt;Targets&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Vodafone]]></title><description><![CDATA[While working at Vodafone, I was tasked to do an interactive data visualisation piece for one of its clients. The idea was to show a world…]]></description><link>https://joanmira.com/vodafone/</link><guid isPermaLink="false">https://joanmira.com/vodafone/</guid><content:encoded>&lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/39bda915162c854896f3c918b4e1a6c8/877ff/1.jpg&quot;
     style=&quot;display: block&quot;
@@ -13947,34 +13947,7 @@ Alojamiento en Barcelona: pedir información en info@rutasamurai.com&lt;/p&gt;
         sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
       /&gt;
   &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;As part of my involvement with La PCM, I built a Wordpress website to help raise awareness of the organisation objectives. The website features a classic blog and some static pages with a carousel and forms to contact or subscribe.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Newtir]]></title><description><![CDATA[Newtir asked me to build a Joomla website to showcase their company’s services and corporate info. The website features standard static…]]></description><link>https://joanmira.com/newtir/</link><guid isPermaLink="false">https://joanmira.com/newtir/</guid><content:encoded>&lt;p&gt;&lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/f1a3603dc890242e8545629956a16280/877ff/1.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 63.3%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBBAX/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHVXZgWAJ//xAAbEAACAgMBAAAAAAAAAAAAAAAAAQISAxEhMv/aAAgBAQABBQKV7bykfLTKyFxf/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Bp//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABwQAAIBBQEAAAAAAAAAAAAAAAABoRARMTIzov/aAAgBAQAGPwJ2UnP2IybRT//EAB0QAAICAQUAAAAAAAAAAAAAAAABETEQQVFhgZH/2gAIAQEAAT8h2MVVng7gduS9Rp08wSuBuT//2gAMAwEAAgADAAAAEHjP/8QAFhEBAQEAAAAAAAAAAAAAAAAAARBR/9oACAEDAQE/EAZP/8QAFhEAAwAAAAAAAAAAAAAAAAAAEBFh/9oACAECAQE/EFR//8QAHRABAQACAgMBAAAAAAAAAAAAAREAQSExUXGh4f/aAAgBAQABPxC9dKvszTXvAjvpIxCMZwtj4u8SIRad59zp4cNL+sMgRsJn/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;1&quot;
-        title=&quot;&quot;
-        src=&quot;/static/f1a3603dc890242e8545629956a16280/877ff/1.jpg&quot;
-        srcset=&quot;/static/f1a3603dc890242e8545629956a16280/d2504/1.jpg 500w,
-/static/f1a3603dc890242e8545629956a16280/877ff/1.jpg 1000w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
-      /&gt;
-  &lt;/span&gt;
-  &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Newtir asked me to build a Joomla website to showcase their company’s services and corporate info. The website features standard static pages with login area and contact form.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[MK Creativo]]></title><description><![CDATA[Iván Martínez Masó, the owner of MK Creativo, asked me to build a Wordpress website with a custom template. It features standard static…]]></description><link>https://joanmira.com/mk-creativo/</link><guid isPermaLink="false">https://joanmira.com/mk-creativo/</guid><content:encoded>&lt;p&gt;&lt;a
+&lt;p&gt;As part of my involvement with La PCM, I built a Wordpress website to help raise awareness of the organisation objectives. The website features a classic blog and some static pages with a carousel and forms to contact or subscribe.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[MK Creativo]]></title><description><![CDATA[Iván Martínez Masó, the owner of MK Creativo, asked me to build a Wordpress website with a custom template. It features standard static…]]></description><link>https://joanmira.com/mk-creativo/</link><guid isPermaLink="false">https://joanmira.com/mk-creativo/</guid><content:encoded>&lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/890160cfd606f60c3ff4d4ff625d6865/877ff/1.jpg&quot;
     style=&quot;display: block&quot;
@@ -14001,7 +13974,34 @@ Alojamiento en Barcelona: pedir información en info@rutasamurai.com&lt;/p&gt;
       /&gt;
   &lt;/span&gt;
   &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Iván Martínez Masó, the owner of MK Creativo, asked me to build a Wordpress website with a custom template. It features standard static pages with modules to subscribe to a newsletters or contact.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[50 animes para ver this summer]]></title><description><![CDATA[Aprovechando que es Agosto y siguiendo en la línea de la lista de las  65 mejores películas de los años 80  (que tanto éxito tuvo, en parte…]]></description><link>https://joanmira.com/50-animes-para-ver-this-summer/</link><guid isPermaLink="false">https://joanmira.com/50-animes-para-ver-this-summer/</guid><content:encoded>&lt;p&gt;Aprovechando que es Agosto y siguiendo en la línea de la lista de las &lt;a href=&quot;http://gazpachu.com/las-50-mejores-peliculas-de-los-anos-80/&quot;&gt;65 mejores películas de los años 80&lt;/a&gt; (que tanto éxito tuvo, en parte gracias al efecto &lt;a href=&quot;http://www.microsiervos.com/archivo/peliculas-tv/65-grandes-peliculas-80.html&quot;&gt;Microsiervos&lt;/a&gt;), hemos preparado ahora una selección de los 50 animes que mas nos han gustado de los que hemos visto, algunos creo que no han salido en España y solo están subtitulados.&lt;/p&gt;
+&lt;p&gt;Iván Martínez Masó, the owner of MK Creativo, asked me to build a Wordpress website with a custom template. It features standard static pages with modules to subscribe to a newsletters or contact.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Newtir]]></title><description><![CDATA[Newtir asked me to build a Joomla website to showcase their company’s services and corporate info. The website features standard static…]]></description><link>https://joanmira.com/newtir/</link><guid isPermaLink="false">https://joanmira.com/newtir/</guid><content:encoded>&lt;p&gt;&lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f1a3603dc890242e8545629956a16280/877ff/1.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 63.3%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBBAX/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHVXZgWAJ//xAAbEAACAgMBAAAAAAAAAAAAAAAAAQISAxEhMv/aAAgBAQABBQKV7bykfLTKyFxf/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Bp//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABwQAAIBBQEAAAAAAAAAAAAAAAABoRARMTIzov/aAAgBAQAGPwJ2UnP2IybRT//EAB0QAAICAQUAAAAAAAAAAAAAAAABETEQQVFhgZH/2gAIAQEAAT8h2MVVng7gduS9Rp08wSuBuT//2gAMAwEAAgADAAAAEHjP/8QAFhEBAQEAAAAAAAAAAAAAAAAAARBR/9oACAEDAQE/EAZP/8QAFhEAAwAAAAAAAAAAAAAAAAAAEBFh/9oACAECAQE/EFR//8QAHRABAQACAgMBAAAAAAAAAAAAAREAQSExUXGh4f/aAAgBAQABPxC9dKvszTXvAjvpIxCMZwtj4u8SIRad59zp4cNL+sMgRsJn/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/f1a3603dc890242e8545629956a16280/877ff/1.jpg&quot;
+        srcset=&quot;/static/f1a3603dc890242e8545629956a16280/d2504/1.jpg 500w,
+/static/f1a3603dc890242e8545629956a16280/877ff/1.jpg 1000w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Newtir asked me to build a Joomla website to showcase their company’s services and corporate info. The website features standard static pages with login area and contact form.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[50 animes para ver this summer]]></title><description><![CDATA[Aprovechando que es Agosto y siguiendo en la línea de la lista de las  65 mejores películas de los años 80  (que tanto éxito tuvo, en parte…]]></description><link>https://joanmira.com/50-animes-para-ver-this-summer/</link><guid isPermaLink="false">https://joanmira.com/50-animes-para-ver-this-summer/</guid><content:encoded>&lt;p&gt;Aprovechando que es Agosto y siguiendo en la línea de la lista de las &lt;a href=&quot;http://gazpachu.com/las-50-mejores-peliculas-de-los-anos-80/&quot;&gt;65 mejores películas de los años 80&lt;/a&gt; (que tanto éxito tuvo, en parte gracias al efecto &lt;a href=&quot;http://www.microsiervos.com/archivo/peliculas-tv/65-grandes-peliculas-80.html&quot;&gt;Microsiervos&lt;/a&gt;), hemos preparado ahora una selección de los 50 animes que mas nos han gustado de los que hemos visto, algunos creo que no han salido en España y solo están subtitulados.&lt;/p&gt;
 &lt;p&gt;Atención!, &lt;strong&gt;están ordenados por fecha&lt;/strong&gt;, quizás habría sido más interesante ordenarlos de peor a mejor, pero son géneros distintos y realmente sería muy difícil hacer un ranking muy objetivo de ellos sin colapsar a criticas por parte de los comentaristas. He puesto los capítulos de muchas de las series, pero muchas de ellas tienen aparte OVAS y películas.&lt;/p&gt;
 &lt;p&gt;En la web de &lt;a href=&quot;http://www.mcanime.net/enciclopedia&quot;&gt;McAnime&lt;/a&gt; tienen un ranking de los animes mas populares en estas fechas (&lt;em&gt;una pagina muy recomendada&lt;/em&gt;) y también tengo que darle las &lt;strong&gt;gracias a “Hackito” por su gran ayuda&lt;/strong&gt; a la hora de confeccionar la lista. Esperamos que os guste y encontréis algo bueno para estos días de calor!&lt;/p&gt;
 &lt;h3&gt;1971. Lupin iii (ルパン三世)&lt;/h3&gt;
@@ -17303,34 +17303,7 @@ Alojamiento en Barcelona: pedir información en info@rutasamurai.com&lt;/p&gt;
 &lt;p&gt;Asociate con alguien para tener más oportunidades de trabajo.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Y bueno, esas son las que se me ocurren a mí, si a alguien se le ocurre alguna otra, siéntase libre de mandar un comentario.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No somos numeros]]></title><description><![CDATA[As part of my business relationship with WebsiteProfesional, I built a custom Joomla website for No Somos Numberos, a social movement to…]]></description><link>https://joanmira.com/no-somos-numeros/</link><guid isPermaLink="false">https://joanmira.com/no-somos-numeros/</guid><content:encoded>&lt;p&gt;&lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/db7967e2ec883fbe38293be10ec0ca50/877ff/1.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 63.3%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBBAX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHRXdBhAf/EABsQAAICAwEAAAAAAAAAAAAAAAECAAMREiEx/9oACAEBAAEFArnKSu3dh4QZhoOD/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAHRAAAQQCAwAAAAAAAAAAAAAAMQABEBECEiEyof/aAAgBAQAGPwJjy9KtcyYK7eR//8QAGhABAAMBAQEAAAAAAAAAAAAAAQARMSFBgf/aAAgBAQABPyFhg/M5HwfHXJlFOT5KsEFoW5//2gAMAwEAAgADAAAAEGTP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHRABAAMAAgMBAAAAAAAAAAAAAQARIUFRMXHR8P/aAAgBAQABPxDnQKwFeWNwI3Wp24ZFey+4lQF3VvsCYT97hkCOQqf/2Q==&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;1&quot;
-        title=&quot;&quot;
-        src=&quot;/static/db7967e2ec883fbe38293be10ec0ca50/877ff/1.jpg&quot;
-        srcset=&quot;/static/db7967e2ec883fbe38293be10ec0ca50/d2504/1.jpg 500w,
-/static/db7967e2ec883fbe38293be10ec0ca50/877ff/1.jpg 1000w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
-      /&gt;
-  &lt;/span&gt;
-  &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;As part of my business relationship with WebsiteProfesional, I built a custom Joomla website for No Somos Numberos, a social movement to raise awareness regarding the poor working conditions in some areas in Spain. The website features static and dynamic content together with videos and contact forms.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Villas termales]]></title><description><![CDATA[This project was a collaboration with Narcea Multimedia. I was hired to develop a Flash interface driven by a MySQL database to display…]]></description><link>https://joanmira.com/villas-termales/</link><guid isPermaLink="false">https://joanmira.com/villas-termales/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+&lt;p&gt;Y bueno, esas son las que se me ocurren a mí, si a alguien se le ocurre alguna otra, siéntase libre de mandar un comentario.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Villas termales]]></title><description><![CDATA[This project was a collaboration with Narcea Multimedia. I was hired to develop a Flash interface driven by a MySQL database to display…]]></description><link>https://joanmira.com/villas-termales/</link><guid isPermaLink="false">https://joanmira.com/villas-termales/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
 &lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/villastermales/&quot; target=&quot;_blank&quot;&gt;Launch archived template&lt;/a&gt;
 &lt;/p&gt;
 &lt;p&gt;This project was a collaboration with Narcea Multimedia. I was hired to develop a Flash interface driven by a MySQL database to display information about the villas termales in Spain. I work with a graphic designer from Narcea to complete the project. This project was also related with the &lt;a href=&quot;http://www.minetur.gob.es/&quot;&gt;Ministry of Industry&lt;/a&gt; in Spain and &lt;a href=&quot;http://www.femp.es/&quot;&gt;FEMP&lt;/a&gt;.&lt;/p&gt;
@@ -17410,7 +17383,34 @@ Alojamiento en Barcelona: pedir información en info@rutasamurai.com&lt;/p&gt;
 /static/bd1bf33e8f31ebffca05c93e4b092338/352f9/4.jpg 680w&quot;
         sizes=&quot;(max-width: 680px) 100vw, 680px&quot;
       /&gt;
-  &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Agusti Lopez website]]></title><description><![CDATA[As part of my business relationship with Agustí López, I built a Wordpress website for his blog posts. It’s a standard blog with a slightly…]]></description><link>https://joanmira.com/agustilopez/</link><guid isPermaLink="false">https://joanmira.com/agustilopez/</guid><content:encoded>&lt;p&gt;&lt;a
+  &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[No somos numeros]]></title><description><![CDATA[As part of my business relationship with WebsiteProfesional, I built a custom Joomla website for No Somos Numberos, a social movement to…]]></description><link>https://joanmira.com/no-somos-numeros/</link><guid isPermaLink="false">https://joanmira.com/no-somos-numeros/</guid><content:encoded>&lt;p&gt;&lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/db7967e2ec883fbe38293be10ec0ca50/877ff/1.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 63.3%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBBAX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHRXdBhAf/EABsQAAICAwEAAAAAAAAAAAAAAAECAAMREiEx/9oACAEBAAEFArnKSu3dh4QZhoOD/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAHRAAAQQCAwAAAAAAAAAAAAAAMQABEBECEiEyof/aAAgBAQAGPwJjy9KtcyYK7eR//8QAGhABAAMBAQEAAAAAAAAAAAAAAQARMSFBgf/aAAgBAQABPyFhg/M5HwfHXJlFOT5KsEFoW5//2gAMAwEAAgADAAAAEGTP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHRABAAMAAgMBAAAAAAAAAAAAAQARIUFRMXHR8P/aAAgBAQABPxDnQKwFeWNwI3Wp24ZFey+4lQF3VvsCYT97hkCOQqf/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/db7967e2ec883fbe38293be10ec0ca50/877ff/1.jpg&quot;
+        srcset=&quot;/static/db7967e2ec883fbe38293be10ec0ca50/d2504/1.jpg 500w,
+/static/db7967e2ec883fbe38293be10ec0ca50/877ff/1.jpg 1000w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;As part of my business relationship with WebsiteProfesional, I built a custom Joomla website for No Somos Numberos, a social movement to raise awareness regarding the poor working conditions in some areas in Spain. The website features static and dynamic content together with videos and contact forms.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Agusti Lopez website]]></title><description><![CDATA[As part of my business relationship with Agustí López, I built a Wordpress website for his blog posts. It’s a standard blog with a slightly…]]></description><link>https://joanmira.com/agustilopez/</link><guid isPermaLink="false">https://joanmira.com/agustilopez/</guid><content:encoded>&lt;p&gt;&lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/091bd4037e8867c8f4fd985756fc23a5/877ff/1.jpg&quot;
     style=&quot;display: block&quot;
@@ -18455,7 +18455,71 @@ qui bat comme un cœur de bois… – que golpea como un corazón de madera…&l
         sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
       /&gt;
   &lt;/span&gt;
-  &lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Webmarket]]></title><description><![CDATA[In 2006, I co-founded a small digital agency. After the first year, I continued as a solo venture and partnered with other agencies and…]]></description><link>https://joanmira.com/webmarket/</link><guid isPermaLink="false">https://joanmira.com/webmarket/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;&lt;a class=&quot;btn&quot; href=&quot;http://webmarket-v6.herokuapp.com&quot; target=&quot;_blank&quot;&gt;v6 Wordpress&lt;/a&gt; &lt;a class=&quot;btn&quot; href=&quot;http://webmarket-joomla.herokuapp.com&quot; target=&quot;_blank&quot;&gt;v5 Joomla&lt;/a&gt; &lt;a class=&quot;btn&quot; href=&quot;http://webmarket-wp.herokuapp.com&quot; target=&quot;_blank&quot;&gt;v5 Wordpress&lt;/a&gt; &lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/webmarket/v3/&quot; target=&quot;_blank&quot;&gt;v4 Flash&lt;/a&gt;&lt;/p&gt;
+  &lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Tello Serna Flash website]]></title><description><![CDATA[This was one of Webmarket’s first projects. It’s a straightforward Flash website with a custom design, animated content and desktop…]]></description><link>https://joanmira.com/tello-serna/</link><guid isPermaLink="false">https://joanmira.com/tello-serna/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/telloserna/v1&quot; target=&quot;_blank&quot;&gt;v1&lt;/a&gt;
+&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/telloserna/v2&quot; target=&quot;_blank&quot;&gt;v2&lt;/a&gt;
+&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/telloserna/v4&quot; target=&quot;_blank&quot;&gt;v4&lt;/a&gt;
+&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/telloserna/v5&quot; target=&quot;_blank&quot;&gt;v5&lt;/a&gt;
+&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/telloserna/v6&quot; target=&quot;_blank&quot;&gt;v6&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;This was one of Webmarket’s first projects. It’s a straightforward Flash website with a custom design, animated content and desktop responsive layout. To complete the project, we hired a freelance graphic designer to create the final version (v6).&lt;/p&gt;
+&lt;p&gt;&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 57.099999999999994%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABQBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAbssUF4C/wD/xAAbEAACAwADAAAAAAAAAAAAAAACAwEREwAyM//aAAgBAQABBQJ17HFQryYAmWIcX1//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAdEAABAwUBAAAAAAAAAAAAAAAAAhEhARIiMXGh/9oACAEBAAY/AoTdGnYhHchPB1UNejH/xAAcEAEAAwACAwAAAAAAAAAAAAABABExIVFhcfD/2gAIAQEAAT8hXGk09q56PMVq9Y5sObPmoaIw4J//2gAMAwEAAgADAAAAENsP/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Qh//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAECAQE/EIf/xAAeEAEBAAICAgMAAAAAAAAAAAABEQAhUWExgUFx8P/aAAgBAQABPxCJGFiBV3fRgHe/Y+25xiJFVVXoxaB6NmuNOD/P8d4FxWFsDwZ//9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/f62af76fabd05f343b46d47090a84b61/877ff/1.jpg&quot;
+        srcset=&quot;/static/f62af76fabd05f343b46d47090a84b61/d2504/1.jpg 500w,
+/static/f62af76fabd05f343b46d47090a84b61/877ff/1.jpg 1000w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+      /&gt;
+  &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 49.7%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgH/2gAMAwEAAhADEAAAAd7+XYGRQZ//xAAZEAEAAwEBAAAAAAAAAAAAAAABAAIRAxD/2gAIAQEAAQUC41GWrQmQUmr5/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AYx//8QAGRABAAMBAQAAAAAAAAAAAAAAAQAQIREx/9oACAEBAAY/AnIdAr2a1//EABwQAAICAgMAAAAAAAAAAAAAAAABETEhUWFxgf/aAAgBAQABPyHPVccFoZ3RDRSMvR3B9sl7P//aAAwDAQACAAMAAAAQr9//xAAXEQEBAQEAAAAAAAAAAAAAAAABABFR/9oACAEDAQE/EBLTl//EABcRAAMBAAAAAAAAAAAAAAAAAAABEVH/2gAIAQIBAT8QaIrT/8QAHBAAAwACAwEAAAAAAAAAAAAAAAERMWEhQVGR/9oACAEBAAE/EEbO4lr0lkEqS6YNIvc9mMhVE1sYzY+n/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;2&quot;
+        title=&quot;&quot;
+        src=&quot;/static/7e2c5547baba68b746523f2c22522838/877ff/2.jpg&quot;
+        srcset=&quot;/static/7e2c5547baba68b746523f2c22522838/d2504/2.jpg 500w,
+/static/7e2c5547baba68b746523f2c22522838/877ff/2.jpg 1000w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+      /&gt;
+  &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 49.8%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgD/2gAMAwEAAhADEAAAAd7OdYGRQb//xAAZEAEAAgMAAAAAAAAAAAAAAAABABICAxD/2gAIAQEAAQUC04jGtoKSzz//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPwEn/8QAGhAAAQUBAAAAAAAAAAAAAAAAAQADEBExYf/aAAgBAQAGPwI2FQbB7GrTH//EABwQAAICAgMAAAAAAAAAAAAAAAABESExUWFxgf/aAAgBAQABPyGvjjaI6Ay1ELRhGXo+05Jez//aAAwDAQACAAMAAAAQr8//xAAXEQEBAQEAAAAAAAAAAAAAAAABAFER/9oACAEDAQE/EBMumX//xAAXEQADAQAAAAAAAAAAAAAAAAAAARFR/9oACAECAQE/EGiI9P/EABwQAAICAgMAAAAAAAAAAAAAAAERACExUUFhkf/aAAgBAQABPxDjjFZuOhoyFABTQ2VH2sdX2UQhARMCu1zsez//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;3&quot;
+        title=&quot;&quot;
+        src=&quot;/static/b30f979126abb2d717d8ef76c84c6088/877ff/3.jpg&quot;
+        srcset=&quot;/static/b30f979126abb2d717d8ef76c84c6088/d2504/3.jpg 500w,
+/static/b30f979126abb2d717d8ef76c84c6088/877ff/3.jpg 1000w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+      /&gt;
+  &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Webmarket]]></title><description><![CDATA[In 2006, I co-founded a small digital agency. After the first year, I continued as a solo venture and partnered with other agencies and…]]></description><link>https://joanmira.com/webmarket/</link><guid isPermaLink="false">https://joanmira.com/webmarket/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;&lt;a class=&quot;btn&quot; href=&quot;http://webmarket-v6.herokuapp.com&quot; target=&quot;_blank&quot;&gt;v6 Wordpress&lt;/a&gt; &lt;a class=&quot;btn&quot; href=&quot;http://webmarket-joomla.herokuapp.com&quot; target=&quot;_blank&quot;&gt;v5 Joomla&lt;/a&gt; &lt;a class=&quot;btn&quot; href=&quot;http://webmarket-wp.herokuapp.com&quot; target=&quot;_blank&quot;&gt;v5 Wordpress&lt;/a&gt; &lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/webmarket/v3/&quot; target=&quot;_blank&quot;&gt;v4 Flash&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;In 2006, I co-founded a small digital agency. After the first year, I continued as a solo venture and partnered with other agencies and freelancers at some points. We specialised in design and development of multimedia applications and websites based on Adobe Flash (AS2), MdM Zinc, Wordpress and front-end technologies.&lt;/p&gt;
 &lt;p&gt;&lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
@@ -18635,70 +18699,6 @@ qui bat comme un cœur de bois… – que golpea como un corazón de madera…&l
         srcset=&quot;/static/5ee9c61c9efde1ce171847d075ee7159/7eff5/6.jpg 500w,
 /static/5ee9c61c9efde1ce171847d075ee7159/1cc37/6.jpg 800w&quot;
         sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
-      /&gt;
-  &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Tello Serna Flash website]]></title><description><![CDATA[This was one of Webmarket’s first projects. It’s a straightforward Flash website with a custom design, animated content and desktop…]]></description><link>https://joanmira.com/tello-serna/</link><guid isPermaLink="false">https://joanmira.com/tello-serna/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
-&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/telloserna/v1&quot; target=&quot;_blank&quot;&gt;v1&lt;/a&gt;
-&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/telloserna/v2&quot; target=&quot;_blank&quot;&gt;v2&lt;/a&gt;
-&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/telloserna/v4&quot; target=&quot;_blank&quot;&gt;v4&lt;/a&gt;
-&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/telloserna/v5&quot; target=&quot;_blank&quot;&gt;v5&lt;/a&gt;
-&lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/telloserna/v6&quot; target=&quot;_blank&quot;&gt;v6&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;This was one of Webmarket’s first projects. It’s a straightforward Flash website with a custom design, animated content and desktop responsive layout. To complete the project, we hired a freelance graphic designer to create the final version (v6).&lt;/p&gt;
-&lt;p&gt;&lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 57.099999999999994%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABQBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAbssUF4C/wD/xAAbEAACAwADAAAAAAAAAAAAAAACAwEREwAyM//aAAgBAQABBQJ17HFQryYAmWIcX1//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAdEAABAwUBAAAAAAAAAAAAAAAAAhEhARIiMXGh/9oACAEBAAY/AoTdGnYhHchPB1UNejH/xAAcEAEAAwACAwAAAAAAAAAAAAABABExIVFhcfD/2gAIAQEAAT8hXGk09q56PMVq9Y5sObPmoaIw4J//2gAMAwEAAgADAAAAENsP/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Qh//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAECAQE/EIf/xAAeEAEBAAICAgMAAAAAAAAAAAABEQAhUWExgUFx8P/aAAgBAQABPxCJGFiBV3fRgHe/Y+25xiJFVVXoxaB6NmuNOD/P8d4FxWFsDwZ//9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;1&quot;
-        title=&quot;&quot;
-        src=&quot;/static/f62af76fabd05f343b46d47090a84b61/877ff/1.jpg&quot;
-        srcset=&quot;/static/f62af76fabd05f343b46d47090a84b61/d2504/1.jpg 500w,
-/static/f62af76fabd05f343b46d47090a84b61/877ff/1.jpg 1000w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
-      /&gt;
-  &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 49.7%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgH/2gAMAwEAAhADEAAAAd7+XYGRQZ//xAAZEAEAAwEBAAAAAAAAAAAAAAABAAIRAxD/2gAIAQEAAQUC41GWrQmQUmr5/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/AYx//8QAGRABAAMBAQAAAAAAAAAAAAAAAQAQIREx/9oACAEBAAY/AnIdAr2a1//EABwQAAICAgMAAAAAAAAAAAAAAAABETEhUWFxgf/aAAgBAQABPyHPVccFoZ3RDRSMvR3B9sl7P//aAAwDAQACAAMAAAAQr9//xAAXEQEBAQEAAAAAAAAAAAAAAAABABFR/9oACAEDAQE/EBLTl//EABcRAAMBAAAAAAAAAAAAAAAAAAABEVH/2gAIAQIBAT8QaIrT/8QAHBAAAwACAwEAAAAAAAAAAAAAAAERMWEhQVGR/9oACAEBAAE/EEbO4lr0lkEqS6YNIvc9mMhVE1sYzY+n/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;2&quot;
-        title=&quot;&quot;
-        src=&quot;/static/7e2c5547baba68b746523f2c22522838/877ff/2.jpg&quot;
-        srcset=&quot;/static/7e2c5547baba68b746523f2c22522838/d2504/2.jpg 500w,
-/static/7e2c5547baba68b746523f2c22522838/877ff/2.jpg 1000w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
-      /&gt;
-  &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 49.8%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgD/2gAMAwEAAhADEAAAAd7OdYGRQb//xAAZEAEAAgMAAAAAAAAAAAAAAAABABICAxD/2gAIAQEAAQUC04jGtoKSzz//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPwEn/8QAGhAAAQUBAAAAAAAAAAAAAAAAAQADEBExYf/aAAgBAQAGPwI2FQbB7GrTH//EABwQAAICAgMAAAAAAAAAAAAAAAABESExUWFxgf/aAAgBAQABPyGvjjaI6Ay1ELRhGXo+05Jez//aAAwDAQACAAMAAAAQr8//xAAXEQEBAQEAAAAAAAAAAAAAAAABAFER/9oACAEDAQE/EBMumX//xAAXEQADAQAAAAAAAAAAAAAAAAAAARFR/9oACAECAQE/EGiI9P/EABwQAAICAgMAAAAAAAAAAAAAAAERACExUUFhkf/aAAgBAQABPxDjjFZuOhoyFABTQ2VH2sdX2UQhARMCu1zsez//2Q==&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;3&quot;
-        title=&quot;&quot;
-        src=&quot;/static/b30f979126abb2d717d8ef76c84c6088/877ff/3.jpg&quot;
-        srcset=&quot;/static/b30f979126abb2d717d8ef76c84c6088/d2504/3.jpg 500w,
-/static/b30f979126abb2d717d8ef76c84c6088/877ff/3.jpg 1000w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
       /&gt;
   &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CR Asociados]]></title><description><![CDATA[CR Asociados required a custom website to showcase their financing services. I also built a bespoke CMS feature with many user details…]]></description><link>https://joanmira.com/crasociados/</link><guid isPermaLink="false">https://joanmira.com/crasociados/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
 &lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/crasociados/&quot; target=&quot;_blank&quot;&gt;Launch archived website&lt;/a&gt;
@@ -22371,29 +22371,7 @@ FUTURO: Posiblemente, en un futuro cercano, todas las viviendas estaran equipad
 /static/61ad2de1ed6847802909957447b0e27b/877ff/2.jpg 1000w&quot;
         sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
       /&gt;
-  &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Save Guimaras]]></title><description><![CDATA[This is a simple Wordpress blog I built with a custom theme.]]></description><link>https://joanmira.com/save-guimaras/</link><guid isPermaLink="false">https://joanmira.com/save-guimaras/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
-&lt;a class=&quot;btn&quot; href=&quot;http://saveguimaras.herokuapp.com&quot; target=&quot;_blank&quot;&gt;Launch archived website&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 63.3%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHWq6EYAP8A/8QAGRABAQADAQAAAAAAAAAAAAAAAREAAhIx/9oACAEBAAEFAm9Fmvkby4EP/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Bh//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAECAQE/Aaf/xAAZEAADAAMAAAAAAAAAAAAAAAAAEDEBEaH/2gAIAQEABj8CyXapeL//xAAaEAEBAQADAQAAAAAAAAAAAAABABEhMZFh/9oACAEBAAE/IeuX2XIZS0zsQeXzzJF2/9oADAMBAAIAAwAAABDjz//EABURAQEAAAAAAAAAAAAAAAAAABBx/9oACAEDAQE/EKP/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/EB//xAAbEAEAAwEAAwAAAAAAAAAAAAABABEhQWHB4f/aAAgBAQABPxBoBF5qjIsXTRFjLW2o8Cvm/cxoM8fcYER2qn//2Q==&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
-        alt=&quot;1&quot;
-        title=&quot;&quot;
-        src=&quot;/static/c137f1c3205f6f82916438517d477a74/877ff/1.jpg&quot;
-        srcset=&quot;/static/c137f1c3205f6f82916438517d477a74/d2504/1.jpg 500w,
-/static/c137f1c3205f6f82916438517d477a74/877ff/1.jpg 1000w&quot;
-        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
-      /&gt;
-  &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;This is a simple Wordpress blog I built with a custom theme.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[GAZ New Media Design]]></title><description><![CDATA[GAZ New Media Design (aka gazpachu.com) was my first identity as a freelance web designer. It was created as a very naive and unpretentious…]]></description><link>https://joanmira.com/gazpachu/</link><guid isPermaLink="false">https://joanmira.com/gazpachu/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+  &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[GAZ New Media Design]]></title><description><![CDATA[GAZ New Media Design (aka gazpachu.com) was my first identity as a freelance web designer. It was created as a very naive and unpretentious…]]></description><link>https://joanmira.com/gazpachu/</link><guid isPermaLink="false">https://joanmira.com/gazpachu/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
 &lt;a class=&quot;btn&quot; href=&quot;http://gazpachu.herokuapp.com&quot; target=&quot;_blank&quot;&gt;v5 Wordpress&lt;/a&gt;
 &lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/gazpachu/v4/&quot; target=&quot;_blank&quot;&gt;v4&lt;/a&gt;
 &lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/gazpachu/v3/&quot; target=&quot;_blank&quot;&gt;v3&lt;/a&gt;
@@ -22497,7 +22475,29 @@ FUTURO: Posiblemente, en un futuro cercano, todas las viviendas estaran equipad
 /static/6a303f346cf33b014bbe384c2f245ddb/352f9/5.jpg 680w&quot;
         sizes=&quot;(max-width: 680px) 100vw, 680px&quot;
       /&gt;
-  &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Slater Labs]]></title><description><![CDATA[While I was working at Slater Labs as a software engineer, I took the creation of the company website as a side project. I wanted to explore…]]></description><link>https://joanmira.com/slaterlabs/</link><guid isPermaLink="false">https://joanmira.com/slaterlabs/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+  &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Save Guimaras]]></title><description><![CDATA[This is a simple Wordpress blog I built with a custom theme.]]></description><link>https://joanmira.com/save-guimaras/</link><guid isPermaLink="false">https://joanmira.com/save-guimaras/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
+&lt;a class=&quot;btn&quot; href=&quot;http://saveguimaras.herokuapp.com&quot; target=&quot;_blank&quot;&gt;Launch archived website&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 63.3%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHWq6EYAP8A/8QAGRABAQADAQAAAAAAAAAAAAAAAREAAhIx/9oACAEBAAEFAm9Fmvkby4EP/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Bh//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAECAQE/Aaf/xAAZEAADAAMAAAAAAAAAAAAAAAAAEDEBEaH/2gAIAQEABj8CyXapeL//xAAaEAEBAQADAQAAAAAAAAAAAAABABEhMZFh/9oACAEBAAE/IeuX2XIZS0zsQeXzzJF2/9oADAMBAAIAAwAAABDjz//EABURAQEAAAAAAAAAAAAAAAAAABBx/9oACAEDAQE/EKP/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/EB//xAAbEAEAAwEAAwAAAAAAAAAAAAABABEhQWHB4f/aAAgBAQABPxBoBF5qjIsXTRFjLW2o8Cvm/cxoM8fcYER2qn//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px transparent;&quot;
+        alt=&quot;1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/c137f1c3205f6f82916438517d477a74/877ff/1.jpg&quot;
+        srcset=&quot;/static/c137f1c3205f6f82916438517d477a74/d2504/1.jpg 500w,
+/static/c137f1c3205f6f82916438517d477a74/877ff/1.jpg 1000w&quot;
+        sizes=&quot;(max-width: 1000px) 100vw, 1000px&quot;
+      /&gt;
+  &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This is a simple Wordpress blog I built with a custom theme.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Slater Labs]]></title><description><![CDATA[While I was working at Slater Labs as a software engineer, I took the creation of the company website as a side project. I wanted to explore…]]></description><link>https://joanmira.com/slaterlabs/</link><guid isPermaLink="false">https://joanmira.com/slaterlabs/</guid><content:encoded>&lt;p class=&quot;align-center&quot;&gt;
 &lt;a class=&quot;btn&quot; href=&quot;/samples-of-work-ac457d43c60e7c96d7ff78c49c2fdcfa.pdf&quot; target=&quot;_blank&quot;&gt;Samples of work (PDF)&lt;/a&gt;
 &lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/slater/&quot; target=&quot;_blank&quot;&gt;Launch archived template&lt;/a&gt;
 &lt;a class=&quot;btn&quot; href=&quot;http://work.joanmira.com/webs/slaterusa/&quot; target=&quot;_blank&quot;&gt;Launch archived USA template&lt;/a&gt;
@@ -23126,20 +23126,20 @@ h4 {
 &lt;div class=&quot;updated&quot;&gt;Last updated on January 2019&lt;/div&gt;
 &lt;h2&gt;Summary&lt;/h2&gt;
 &lt;div class=&quot;highlight&quot;&gt;
-  &lt;p&gt;A pixel-focused, creative and proactive all-around &lt;strong&gt;front-end engineer / interactive developer / creative technologist / UX designer&lt;/strong&gt; with 18 years of experience.&lt;/p&gt;
+  &lt;p&gt;A pixel-focused, creative, all-around &lt;strong&gt;front-end engineer / interactive developer / UX designer&lt;/strong&gt; with 18 years of experience.&lt;/p&gt;
   &lt;p&gt;&lt;strong&gt;Loves to learn&lt;/strong&gt; new stuff, organise and &lt;strong&gt;make things look pretty and cool&lt;/strong&gt;, be challenged on ambitious projects or code beautiful interactive and innovative experiences.&lt;/p&gt;
   &lt;ul style=&quot;margin-bottom: 0&quot;&gt;
     &lt;li&gt;Autodidact. Extensive education in computer science, multimedia &amp; web design&lt;/li&gt;
     &lt;li&gt;Entrepreneurial spirit. Started work at age 17 &amp; co-founded a company at age 26&lt;/li&gt;
-    &lt;li&gt;Multi-cultural attitude. Lived in &lt;a href=&quot;https://en.wikipedia.org/wiki/Barcelona&quot;&gt;Barcelona&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Alicante&quot;&gt;Alicante&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Madrid&quot;&gt;Madrid&lt;/a&gt; &amp; &lt;a href=&quot;https://en.wikipedia.org/wiki/London&quot;&gt;London&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;Multi-cultural attitude. Lived in &lt;a href=&quot;https://en.wikipedia.org/wiki/Barcelona&quot;&gt;Barcelona&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Alicante&quot;&gt;Alicante&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Madrid&quot;&gt;Madrid&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/London&quot;&gt;London&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Tokyo&quot;&gt;Tokyo&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;Speaks Spanish, &lt;a href=&quot;https://en.wikipedia.org/wiki/Catalan_language&quot;&gt;Catalan&lt;/a&gt; and English. Learning Japanese&lt;/li&gt;
     &lt;li&gt;Went on a &lt;a href=&quot;/samurai-route&quot;&gt;motorcycle adventure across the world&lt;/a&gt;, from Spain to Japan&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/div&gt;
 &lt;h2&gt;Skills&lt;/h2&gt;
-&lt;p&gt;In the past I have worked as a full-stack developer and web designer, but &lt;a href=&quot;/full-stack-developers&quot;&gt;the current complexity of the web industry&lt;/a&gt; led me to focus primary in the front-end and the UX, although I still like to play with servers and design interfaces sometimes.&lt;/p&gt;
-&lt;p&gt;My interests and abilities are more aligned with the &lt;strong&gt;creative tracks&lt;/strong&gt; (the visual, artistic, interactive and UI/UX side of the front-end work). Although I’m also experienced and comfortable with all the other aspects, like dealing with APIs, tooling/configuration, architecture, testing, performance, etc.&lt;/p&gt;
-&lt;p&gt;Currently, &lt;a href=&quot;https://facebook.github.io/react&quot;&gt;ReactJS&lt;/a&gt; is my favourite framework. I’m also learning &lt;a href=&quot;https://www.gatsbyjs.org/&quot;&gt;GatsbyJS&lt;/a&gt;, &lt;a href=&quot;http://graphql.org/&quot;&gt;GraphQL&lt;/a&gt;, &lt;a href=&quot;https://www.netlify.com/docs/functions/&quot;&gt;Lambda functions on Netlify&lt;/a&gt;, &lt;a href=&quot;https://www.apollographql.com/&quot;&gt;Apollo&lt;/a&gt;, &lt;a href=&quot;http://fauna.com&quot;&gt;FaunaDB&lt;/a&gt; and would like to learn more about the &lt;a href=&quot;https://gist.github.com/dmnsgn/76878ba6903cf15789b712464875cfdc&quot;&gt;WebGL&lt;/a&gt; and &lt;a href=&quot;https://medium.freecodecamp.org/how-to-build-a-multiplayer-vr-web-app-7b989964fb38&quot;&gt;WebVR&lt;/a&gt; ecosystems…&lt;/p&gt;
+&lt;p&gt;In the past I have worked as a full-stack developer and web designer, but &lt;a href=&quot;/full-stack-developers&quot;&gt;the current complexity of the web industry&lt;/a&gt; led me to focus primary in the front-end, specially the UI, although I still like to play with servers and back-end code once in a while.&lt;/p&gt;
+&lt;p&gt;My interests and abilities are more aligned with the &lt;strong&gt;creative tracks&lt;/strong&gt; (the visual, artistic, interactive and UI/UX side of the front-end work). Although I’m also experienced and comfortable with all the other aspects, like dealing with REST/GraphQL APIs, tooling/configuration, testing, performance optimisation, etc.&lt;/p&gt;
+&lt;p&gt;Currently, &lt;a href=&quot;https://facebook.github.io/react&quot;&gt;ReactJS&lt;/a&gt; is my favourite framework. I’m also using &lt;a href=&quot;https://www.gatsbyjs.org/&quot;&gt;GatsbyJS&lt;/a&gt;, &lt;a href=&quot;http://graphql.org/&quot;&gt;GraphQL&lt;/a&gt;, &lt;a href=&quot;https://www.netlify.com/docs/functions/&quot;&gt;Lambda functions on Netlify&lt;/a&gt;, &lt;a href=&quot;https://www.apollographql.com/&quot;&gt;Apollo&lt;/a&gt;, &lt;a href=&quot;http://fauna.com&quot;&gt;FaunaDB&lt;/a&gt; and would like to learn more about the &lt;a href=&quot;https://gist.github.com/dmnsgn/76878ba6903cf15789b712464875cfdc&quot;&gt;WebGL&lt;/a&gt; and &lt;a href=&quot;https://medium.freecodecamp.org/how-to-build-a-multiplayer-vr-web-app-7b989964fb38&quot;&gt;WebVR&lt;/a&gt; ecosystems…&lt;/p&gt;
 &lt;p&gt;&lt;span
     class=&quot;gatsby-resp-image-wrapper&quot;
     style=&quot;position: relative; display: block;  max-width: 1000px; margin-left: auto; margin-right: auto;&quot;
@@ -23165,14 +23165,15 @@ h4 {
 &lt;li&gt;Core: &lt;a href=&quot;https://en.wikipedia.org/wiki/ECMAScript#6th_Edition_-_ECMAScript_2015&quot;&gt;JavaScript ES2015&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/HTML5&quot;&gt;HTML5&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3&quot;&gt;CSS3&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Frameworks: &lt;a href=&quot;https://facebook.github.io/react&quot;&gt;ReactJS&lt;/a&gt;, &lt;a href=&quot;https://vuejs.org&quot;&gt;VueJS&lt;/a&gt;, &lt;a href=&quot;https://angularjs.org/&quot;&gt;AngularJS&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;State management: &lt;a href=&quot;http://redux.js.org/&quot;&gt;Redux&lt;/a&gt;, &lt;a href=&quot;https://github.com/reduxjs/reselect&quot;&gt;Reselect&lt;/a&gt;, &lt;a href=&quot;https://github.com/vuejs/vuex&quot;&gt;Vuex&lt;/a&gt;, &lt;a href=&quot;https://mobx.js.org/&quot;&gt;MobX&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;React modules: &lt;a href=&quot;https://github.com/facebook/create-react-app&quot;&gt;CreateReactApp&lt;/a&gt;, &lt;a href=&quot;https://github.com/ReactTraining/react-router&quot;&gt;ReactRouter&lt;/a&gt;, &lt;a href=&quot;https://github.com/react-dnd/react-dnd&quot;&gt;React-dnd&lt;/a&gt;, &lt;a href=&quot;https://github.com/froala/react-froala-wysiwyg&quot;&gt;Froala&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;CSS: &lt;a href=&quot;https://styled-components.com&quot;&gt;Styled Components&lt;/a&gt;, &lt;a href=&quot;http://lesscss.org/&quot;&gt;LESS&lt;/a&gt;, &lt;a href=&quot;http://sass-lang.com/&quot;&gt;SASS&lt;/a&gt;, &lt;a href=&quot;https://postcss.org/&quot;&gt;PostCSS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;React modules: &lt;a href=&quot;https://uber.github.io/react-vis/&quot;&gt;ReactVis&lt;/a&gt;, &lt;a href=&quot;https://github.com/ReactTraining/react-router&quot;&gt;ReactRouter&lt;/a&gt;, &lt;a href=&quot;https://github.com/react-dnd/react-dnd&quot;&gt;React-dnd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;CSS: &lt;a href=&quot;https://emotion.sh&quot;&gt;Emotion&lt;/a&gt;, &lt;a href=&quot;https://styled-components.com&quot;&gt;Styled Components&lt;/a&gt;, &lt;a href=&quot;http://lesscss.org/&quot;&gt;LESS&lt;/a&gt;, &lt;a href=&quot;http://sass-lang.com/&quot;&gt;SASS&lt;/a&gt;, &lt;a href=&quot;https://postcss.org/&quot;&gt;PostCSS&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Component libraries: &lt;a href=&quot;https://react-styleguidist.js.org/&quot;&gt;Styleguidist&lt;/a&gt;, &lt;a href=&quot;https://material-ui.com/&quot;&gt;Material UI&lt;/a&gt;, &lt;a href=&quot;https://vuematerial.github.io/#/&quot;&gt;Vue Material&lt;/a&gt;, &lt;a href=&quot;http://getbootstrap.com/&quot;&gt;Bootstrap&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Utility libraries: &lt;a href=&quot;https://github.com/axios/axios&quot;&gt;Axios&lt;/a&gt;, &lt;a href=&quot;https://lodash.com/&quot;&gt;Lodash&lt;/a&gt;, &lt;a href=&quot;https://date-fns.org/&quot;&gt;date-fns&lt;/a&gt;, &lt;a href=&quot;https://momentjs.com/&quot;&gt;Moment.js&lt;/a&gt;, &lt;a href=&quot;https://github.com/showdownjs/showdown&quot;&gt;Showdown&lt;/a&gt;, &lt;a href=&quot;https://github.com/ReactTraining/history&quot;&gt;History&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/JQuery&quot;&gt;jQuery&lt;/a&gt;, &lt;a href=&quot;http://requirejs.org/&quot;&gt;Require.js&lt;/a&gt;, &lt;a href=&quot;http://browserify.org/&quot;&gt;Browserify&lt;/a&gt;, &lt;a href=&quot;https://github.com/baianat/vee-validate&quot;&gt;VeeValidate&lt;/a&gt;, &lt;a href=&quot;https://github.com/davidjbradshaw/iframe-resizer&quot;&gt;Iframe resizer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Utility libraries: &lt;a href=&quot;https://www.apollographql.com&quot;&gt;Apollo&lt;/a&gt;, &lt;a href=&quot;https://flow.org/&quot;&gt;FlowJS&lt;/a&gt;, &lt;a href=&quot;https://github.com/axios/axios&quot;&gt;Axios&lt;/a&gt;, &lt;a href=&quot;https://lodash.com/&quot;&gt;Lodash&lt;/a&gt;, &lt;a href=&quot;https://date-fns.org/&quot;&gt;date-fns&lt;/a&gt;, &lt;a href=&quot;https://momentjs.com/&quot;&gt;Moment.js&lt;/a&gt;, &lt;a href=&quot;https://github.com/showdownjs/showdown&quot;&gt;Showdown&lt;/a&gt;, &lt;a href=&quot;https://github.com/ReactTraining/history&quot;&gt;History&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/JQuery&quot;&gt;jQuery&lt;/a&gt;, &lt;a href=&quot;http://requirejs.org/&quot;&gt;Require.js&lt;/a&gt;, &lt;a href=&quot;http://browserify.org/&quot;&gt;Browserify&lt;/a&gt;, &lt;a href=&quot;https://github.com/baianat/vee-validate&quot;&gt;VeeValidate&lt;/a&gt;, &lt;a href=&quot;https://github.com/davidjbradshaw/iframe-resizer&quot;&gt;Iframe resizer&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Other libraries: &lt;a href=&quot;http://www.highcharts.com/&quot;&gt;Highcharts&lt;/a&gt;, &lt;a href=&quot;https://github.com/dabeng/OrgChart&quot;&gt;OrgChart&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Static site generators: &lt;a href=&quot;http://assemble.io/&quot;&gt;Assemble&lt;/a&gt;, &lt;a href=&quot;https://www.gatsbyjs.org/&quot;&gt;GatsbyJS&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Templating: &lt;a href=&quot;http://handlebarsjs.com/&quot;&gt;Handlebars&lt;/a&gt;, &lt;a href=&quot;https://mustache.github.io/&quot;&gt;Mustache&lt;/a&gt;, &lt;a href=&quot;http://haml.info/&quot;&gt;HAML&lt;/a&gt;, &lt;a href=&quot;http://www.embeddedjs.com/&quot;&gt;EJS&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Tooling: &lt;a href=&quot;https://yarnpkg.com/lang/en/&quot;&gt;Yarn&lt;/a&gt;/&lt;a href=&quot;https://www.npmjs.com/&quot;&gt;NPM&lt;/a&gt;, &lt;a href=&quot;https://webpack.github.io/&quot;&gt;Webpack&lt;/a&gt;, &lt;a href=&quot;https://babeljs.io&quot;&gt;Babel&lt;/a&gt;, &lt;a href=&quot;https://github.com/shipitjs/shipit&quot;&gt;ShipIt&lt;/a&gt;, &lt;a href=&quot;http://gruntjs.com/&quot;&gt;Grunt&lt;/a&gt;, &lt;a href=&quot;http://gulpjs.com/&quot;&gt;Gulp&lt;/a&gt;, &lt;a href=&quot;http://bower.io/&quot;&gt;Bower&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Localisation: &lt;a href=&quot;https://www.i18next.com/&quot;&gt;i18next&lt;/a&gt;, &lt;a href=&quot;https://lokalise.com/&quot;&gt;Lokalize&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Testing: &lt;a href=&quot;https://prettier.io/&quot;&gt;Prettier&lt;/a&gt;, &lt;a href=&quot;http://eslint.org/&quot;&gt;ESlint&lt;/a&gt;, &lt;a href=&quot;https://jestjs.io/&quot;&gt;Jest&lt;/a&gt;, &lt;a href=&quot;https://github.com/kentcdodds/react-testing-library&quot;&gt;React Testing Library&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Animation: &lt;a href=&quot;http://greensock.com/gsap&quot;&gt;GSAP&lt;/a&gt;, &lt;a href=&quot;http://phaser.io/&quot;&gt;Phaser&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/Box2D&quot;&gt;Box2d&lt;/a&gt;, &lt;a href=&quot;https://en.wikipedia.org/wiki/ActionScript&quot;&gt;ActionScript&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Real-time: &lt;a href=&quot;https://socket.io/&quot;&gt;Socket.io&lt;/a&gt;, &lt;a href=&quot;https://github.com/andyet/signalmaster&quot;&gt;SignalMaster&lt;/a&gt;, &lt;a href=&quot;https://github.com/andyet/SimpleWebRTC&quot;&gt;SimpleWebRTC&lt;/a&gt;&lt;/li&gt;
@@ -23216,6 +23217,13 @@ h4 {
 &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Natural_user_interface&quot;&gt;NUI&lt;/a&gt;, Hand/skeleton tracking with &lt;a href=&quot;https://en.wikipedia.org/wiki/Kinect&quot;&gt;Kinect&lt;/a&gt;, &lt;a href=&quot;http://structure.io/openni&quot;&gt;OpenNi&lt;/a&gt; and &lt;a href=&quot;http://opencv.org/&quot;&gt;OpenCV&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Experience&lt;/h2&gt;
+&lt;h3&gt;Senior Frontend Engineer&lt;/h3&gt;
+&lt;h4&gt;&lt;span class=&quot;tag red-tag&quot;&gt;Feb 2019 - Now&lt;/span&gt;&lt;a class=&quot;tag gold-tag&quot; href=&quot;http://tablecheck.com&quot;&gt;TableCheck&lt;/a&gt;&lt;span class=&quot;tag blue-tag&quot;&gt;Ginza, Tokyo (Japan)&lt;/span&gt;&lt;/h4&gt;
+&lt;p&gt;Successfully led the front-end architecture of insight, TableCheck’s data analytics app for the hospitality sector.&lt;/p&gt;
+&lt;p&gt;Together with the Head of Data Science and a team of 3 front-end engineers and 3 back-end engineers, we built one of the most advanced analytics suite in the industry for TableCheck’s customers like Hilton, IHG Intercontinental, Hyatt, Westin or Okura hotels.&lt;/p&gt;
+&lt;p&gt;Managed to bring the product from its initial prototyping stages until its release in August 2019 in 3 languages: Japanese, English and Spanish. Since then, we continued adding new features, languages and improving its performance.&lt;/p&gt;
+&lt;p&gt;The front-end tech stack involved React 16, GraphQL, Apollo, MobX, Flow, Emotion, ReactVis, i18Next, Lokalise, ReactPDF, Lodash, MomentJS, TableCheck’s own design system and UI component library and other NPM modules.&lt;/p&gt;
+&lt;p&gt;CI and code reviews were driven by Gitlab and the back-end involved Amazon AWS, RedShift, Elixir, K8S and other technologies to manage millions of records related with customers’ reservations, revenue data, sms messages, surveys data, etc.&lt;/p&gt;
 &lt;h3&gt;Agile Prototyping Analyst&lt;/h3&gt;
 &lt;h4&gt;&lt;span class=&quot;tag red-tag&quot;&gt;Mar 2016 - Feb 2019&lt;/span&gt;&lt;a class=&quot;tag gold-tag&quot; href=&quot;http://vodafone.com&quot;&gt;Vodafone Global Enterprise&lt;/a&gt;&lt;span class=&quot;tag blue-tag&quot;&gt;Newbury (UK) &amp; Alicante (Spain)&lt;/span&gt;&lt;/h4&gt;
 &lt;ul&gt;
