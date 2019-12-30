@@ -1,7 +1,7 @@
 {
   "name": "joanmira",
   "version": "1.0.0",
-  "author": "Joan Mira <joanmira@gmail.com>",
+  "author": "Joan Mira <hello@joanmira.com>",
   "license": "MIT",
   "dependencies": {
     "disqus-react": "^1.0.5",
