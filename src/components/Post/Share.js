@@ -5,7 +5,6 @@ import {
   LinkedinShareButton,
   TwitterShareButton,
   FacebookShareCount,
-  LinkedinShareCount,
   FacebookIcon,
   TwitterIcon,
   LinkedinIcon
@@ -13,7 +12,7 @@ import {
 
 import config from "../../../content/meta/config";
 
-const PostShare = props => {
+const PostShare = (props) => {
   const {
     post: {
       fields: { slug },
@@ -26,7 +25,7 @@ const PostShare = props => {
   const url = config.siteUrl + config.pathPrefix + slug;
 
   const iconSize = 36;
-  const filter = count => (count > 0 ? count : "");
+  const filter = (count) => (count > 0 ? count : "");
 
   return (
     <Fragment>
@@ -51,7 +50,7 @@ const PostShare = props => {
           >
             <FacebookIcon round size={iconSize} />
             <FacebookShareCount url={url}>
-              {count => <div className="share-count">{filter(count)}</div>}
+              {(count) => <div className="share-count">{filter(count)}</div>}
             </FacebookShareCount>
           </FacebookShareButton>
           <LinkedinShareButton
@@ -63,9 +62,6 @@ const PostShare = props => {
             }}
           >
             <LinkedinIcon round size={iconSize} />
-            <LinkedinShareCount url={url}>
-              {count => <div className="share-count">{filter(count)}</div>}
-            </LinkedinShareCount>
           </LinkedinShareButton>
         </div>
       </div>

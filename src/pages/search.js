@@ -1,14 +1,13 @@
 import PropTypes from "prop-types";
 import React, { Fragment } from "react";
 import { graphql } from "gatsby";
-require("core-js/fn/array/find");
 
 import Article from "../components/Article";
 import Search from "../components/Search";
 import { ThemeContext } from "../layouts";
 import Seo from "../components/Seo";
 
-const SearchPage = props => {
+const SearchPage = (props) => {
   const {
     data: {
       site: {
@@ -20,7 +19,7 @@ const SearchPage = props => {
   return (
     <Fragment>
       <ThemeContext.Consumer>
-        {theme => (
+        {(theme) => (
           <Article theme={theme}>
             <Search algolia={algolia} theme={theme} />
           </Article>
@@ -60,7 +59,7 @@ SearchPage.propTypes = {
 
 export default SearchPage;
 
-//eslint-disable-next-line no-undef
+// eslint-disable-next-line no-undef
 export const query = graphql`
   query SearchQuery {
     site {

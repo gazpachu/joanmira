@@ -55,6 +55,7 @@ class Header extends Component {
             &:after {
               content: "";
               position: absolute;
+              pointer-events: none;
               top: 0;
               left: 0;
               width: 100%;

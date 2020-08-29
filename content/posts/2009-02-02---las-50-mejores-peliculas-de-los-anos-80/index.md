@@ -1,12 +1,12 @@
 ---
 title: "Las 65 mejores películas de los años 80"
 cover: images/blade-runner_yhvbqz.jpg
-category: work
+category: film
 ---
 
 Condensadores de fluzo, starfighters, guerras en las galaxias, historias de replicantes, extraterrestres, arqueólogos aventureros, mostruos mocosos, aliens, robocops… durante los años 80, surgieron multitud de maravillosas películas que han marcado a toda una generación de niños que ahora son adultos y recuerdan con mucho cariño esas historias llenas de creatividad y aventuras.
 
-He montado un *ranking* de las mejores películas de los años 80, **ordenadas de menor a mayor nota**, según una media de puntuación obtenida a partir de las bases de datos de [imdb](http://www.imdb.com/) y [rotten tomatoes](http://www.rottentomatoes.com/). Esta lista puede que esté un poco influenciada por el genero de ciencia ficción y seguramente me he olvidado de alguna película importante (ojalá que no muchas!)…, aún así espero que os guste ;-)
+He montado un _ranking_ de las mejores películas de los años 80, **ordenadas de menor a mayor nota**, según una media de puntuación obtenida a partir de las bases de datos de [imdb](http://www.imdb.com/) y [rotten tomatoes](http://www.rottentomatoes.com/). Esta lista puede que esté un poco influenciada por el genero de ciencia ficción y seguramente me he olvidado de alguna película importante (ojalá que no muchas!)…, aún así espero que os guste ;-)
 
 ### 65. [Young Sherlock Holmes / El secreto de la pirámide](http://www.amazon.es/gp/product/B006RQD954/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B006RQD954&linkCode=as2&tag=gazpachu06-21) (1985)
 
