@@ -12,7 +12,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     const slug = createFilePath({ node, getNode });
     const fileNode = getNode(node.parent);
     const source = fileNode.sourceInstanceName;
-    const separatorIndex = slug.indexOf("---") ? slug.indexOf("---") : 0;
+    const separatorIndex = slug.indexOf("---") >= 0 ? slug.indexOf("---") : null;
     const shortSlugStart = separatorIndex > 0 ? separatorIndex + 3 : 0;
 
     createNodeField({
@@ -23,7 +23,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     createNodeField({
       node,
       name: `prefix`,
-      value: separatorIndex ? slug.substring(1, separatorIndex) : ""
+      value: separatorIndex ? slug.substring(1, separatorIndex) : "1900-01-01"
     });
     createNodeField({
       node,
@@ -55,7 +55,7 @@ exports.createPages = ({ graphql, actions }) => {
                   id
                   fields {
                     slug
-                    prefix
+                    prefix(formatString: "D MMMM YYYY")
                     source
                   }
                   frontmatter {
