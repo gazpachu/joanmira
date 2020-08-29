@@ -1,4 +1,4 @@
-//const webpack = require("webpack");
+// const webpack = require("webpack");
 const _ = require("lodash");
 const BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 const path = require("path");
@@ -55,7 +55,7 @@ exports.createPages = ({ graphql, actions }) => {
                   id
                   fields {
                     slug
-                    prefix(formatString: "D MMMM YYYY")
+                    prefix
                     source
                   }
                   frontmatter {
@@ -67,11 +67,13 @@ exports.createPages = ({ graphql, actions }) => {
             }
           }
         `
-      ).then(result => {
+      ).then((result) => {
         if (result.errors) {
           console.log(result.errors);
           reject(result.errors);
         }
+
+        console.log(result);
 
         const items = result.data.allMarkdownRemark.edges;
 
@@ -83,7 +85,7 @@ exports.createPages = ({ graphql, actions }) => {
 
         // Create category list
         const categorySet = new Set();
-        items.forEach(edge => {
+        items.forEach((edge) => {
           const {
             node: {
               frontmatter: { category }
@@ -97,7 +99,7 @@ exports.createPages = ({ graphql, actions }) => {
 
         // Create category pages
         const categoryList = Array.from(categorySet);
-        categoryList.forEach(category => {
+        categoryList.forEach((category) => {
           createPage({
             path: `/category/${_.kebabCase(category)}/`,
             component: categoryTemplate,
@@ -108,7 +110,7 @@ exports.createPages = ({ graphql, actions }) => {
         });
 
         // Create posts
-        const posts = items.filter(item => item.node.fields.source === "posts");
+        const posts = items.filter((item) => item.node.fields.source === "posts");
         posts.forEach(({ node }, index) => {
           const slug = node.fields.slug;
           const next = index === 0 ? undefined : posts[index - 1].node;
@@ -128,7 +130,7 @@ exports.createPages = ({ graphql, actions }) => {
         });
 
         // pages
-        const pages = items.filter(item => item.node.fields.source === "pages");
+        const pages = items.filter((item) => item.node.fields.source === "pages");
         pages.forEach(({ node }) => {
           const slug = node.fields.slug;
           const source = node.fields.source;
@@ -144,7 +146,7 @@ exports.createPages = ({ graphql, actions }) => {
         });
 
         // work
-        const work = items.filter(item => item.node.fields.source === "work");
+        const work = items.filter((item) => item.node.fields.source === "work");
         work.forEach(({ node }) => {
           const slug = node.fields.slug;
           const source = node.fields.source;
@@ -163,7 +165,7 @@ exports.createPages = ({ graphql, actions }) => {
         const postsPerPage = 5;
         const numPages = Math.ceil(posts.length / postsPerPage);
 
-        _.times(numPages, i => {
+        _.times(numPages, (i) => {
           createPage({
             path: i === 0 ? `/blog` : `/blog/${i + 1}`,
             component: path.resolve("./src/templates/BlogTemplate.js"),

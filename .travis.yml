@@ -13,9 +13,9 @@ deploy:
   on:
     branch: master
 before_script:
-  - "yarn global add gatsby-cli"
-  - "yarn"
+  - "npm i -g gatsby-cli"
+  - "npm"
 script:
-  - "yarn run build"
+  - "npm run build"
 after_success:
-  - "yarn run deploy"
+  - "npm run deploy"
