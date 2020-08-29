@@ -58,7 +58,7 @@
   ],
   "scripts": {
     "build": "gatsby build --prefix-paths",
-    "develop": "gatsby develop",
+    "develop": "GATSBY_SCREENSHOT_PLACEHOLDER=true gatsby develop",
     "deploy": "gh-pages -d public",
     "devhost": "gatsby develop --host 192.168.0.112",
     "format": "prettier --write 'src/**/*.js'",
