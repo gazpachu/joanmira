@@ -4,7 +4,7 @@ cover: images/online-learning.jpg
 category: work
 ---
 
-**UPDATE 08/2016**: The project has been renamed from **Hypatia** to **Nekomy** and [this is the temporal website](https://nekomy.com) and [Github repository](https://github.com/nekomy/nekomy-platform). Please refer to that site for the latest news regarding the project. Thanks!
+**UPDATE 08/2016**: Please refer to [this page](https://joanmira.com/hypatia) for the latest news regarding the project. Thanks!
 
 If everything goes as expected, next semester I will start my final project for my university degree. I decided to take advantage of that "obligation" to make something useful for the community and at the same time improve my React and Node.js skills. That's how I arrived to the idea of building an **Open Source Learning Management System**.
 
