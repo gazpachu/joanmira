@@ -34,7 +34,7 @@
     "js-yaml": "^3.14.0",
     "normalize.css": "^8.0.1",
     "planck-js": "^0.3.22",
-    "prismjs": "^1.21.0",
+    "prismjs": "^1.23.0",
     "react": "^16.13.1",
     "react-addons-perf": "^15.4.2",
     "react-device-detect": "^1.13.1",
