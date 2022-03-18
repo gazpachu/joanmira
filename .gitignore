@@ -61,6 +61,7 @@ typings/
 .DS_Store
 public/
 yarn-error.log
+.history
 
 # editors
 .idea/

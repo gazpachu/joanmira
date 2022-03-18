@@ -6,9 +6,9 @@ const Hero = props => {
     <Fragment>
       <section className="hero">
         <h1>
-          Hi! I&#39;m Joan, a front-end engineer, UX Designer &amp; Creative Technologist who makes technology <i>easy as candy</i>
+          Hi! I&#39;m Joan, a Front-end Engineering Manager and Creative Technologist who makes tech <i>easy as candy</i>
         </h1>
-        <h2>These are some of my relevant skills</h2>
+        <h2>These are some of my current tools</h2>
         <Boxes />
       </section>
 
