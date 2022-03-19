@@ -13,10 +13,7 @@ const Item = props => {
       fields: { slug, prefix },
       frontmatter: {
         title,
-        category,
-        cover: {
-          children: [{ fluid }]
-        }
+        category
       }
     }
   } = props;
@@ -27,7 +24,7 @@ const Item = props => {
         <Link to={slug} key={slug} className="link">
           <h1>{title}</h1>
           <div className="item-wrapper">
-            <div className="gatsby-image-outer-wrapper">{fluid ? <Img fluid={fluid} /> : null}</div>
+            <div className="gatsby-image-outer-wrapper">{props.post.frontmatter.cover ? <Img fluid={props.post.frontmatter.cover.children[0].fluid} /> : null}</div>
             <div className="item-content">
               <p className="meta">
                 <span>
