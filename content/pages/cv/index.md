@@ -80,7 +80,7 @@ These are some technologies and tools that I've been using in the last years.
 
 * Core: [Typescript](https://en.wikipedia.org/wiki/TypeScript), [HTML5](https://en.wikipedia.org/wiki/HTML5), [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3)
 * Frameworks: [ReactJS](https://facebook.github.io/react). I've used [VueJS](https://vuejs.org) and [AngularJS](https://angularjs.org/) in the past but I won't use them again
-* State management: [Redux](http://redux.js.org/), [xState](http://xstate.com). I've used [Vuex](https://github.com/vuejs/vuex) and [MobX](https://mobx.js.org/) also in the past but not anymore
+* State management: [Redux](http://redux.js.org/), [xState](https://xstate.js.org/). I've used [Vuex](https://github.com/vuejs/vuex) and [MobX](https://mobx.js.org/) also in the past but not anymore
 * CSS: [Emotion](https://emotion.sh), [Styled Components](https://styled-components.com), [LESS](http://lesscss.org/), [SASS](http://sass-lang.com/), [PostCSS](https://postcss.org/)
 * Component libraries: [Storybook](https://storybook.js.org/), [Styleguidist](https://react-styleguidist.js.org/), [Material UI](https://material-ui.com/), [Vue Material](https://vuematerial.github.io/#/), [Bootstrap](http://getbootstrap.com/)
 * Utility libraries: [Apollo](https://www.apollographql.com), [FlowJS](https://flow.org/), [Axios](https://github.com/axios/axios), [Lodash](https://lodash.com/), [Husky](https://typicode.github.io/husky), [CommitLint](https://commitlint.js.org/), [Semantic Release](https://github.com/semantic-release/semantic-release), [date-fns](https://date-fns.org/), [Moment.js](https://momentjs.com/), [Showdown](https://github.com/showdownjs/showdown), [History](https://github.com/ReactTraining/history), [React Hook Forms](https://react-hook-form.com/), [Yup](https://github.com/jquense/yup), [Iframe resizer](https://github.com/davidjbradshaw/iframe-resizer)
@@ -253,11 +253,11 @@ Some of the technologies used: [Zend](http://www.zend.com/), [C++](http://en.wik
 
 My articles in the WCRS blog:
 
-UPDATE: the articles are no longer available at WCRS' blog, so I replaced the links to relevant publications from other media outlets.
+UPDATE: the articles are no longer available at WCRS' blog, so I published them on my website.
 
-* [Churchill beats Spiderman to world record](https://www.thedrum.com/news/2012/10/24/churchill-stunt-sees-it-break-most-contributions-greeting-card-world-record)
-* [An introduction to mobile development](https://www.wcrs.com/wp-content/uploads/2013/02/Mobile-Development.pdf)
-* [If content is king, data is queen](/english-if-content-is-king-data-is-queen/)
+* [Churchill beats Spiderman to world record](/churchill-beats-spiderman-to-world-record)
+* [An introduction to mobile development](/an-introduction-to-mobile-development)
+* [If content is king, data is queen](/if-content-is-king-data-is-queen/)
 
 ![](./images/wcrs-tech-team.jpg "My co-worker, Silvia Rebelo, showing our new Tech Team area")
 
@@ -277,8 +277,9 @@ Technologies used (in no particular order): [HTML5](http://en.wikipedia.org/wiki
 
 Relevant articles:
 
-* [Our new website](http://www.roh.org.uk/news/our-new-website-an-update-on-progress)
-* [Our website, a look forward](http://www.roh.org.uk/news/our-website-a-look-forward)
+* [Our new website](/our-new-website-an-update-on-progress)
+* [Our website, a look forward](/our-website-a-look-forward)
+* [The Royal Opera House in numbers 2011/12](/the-royal-opera-house-in-numbers)
 
 ![](./images/roh-dev-team.jpg "With my co-workers, Aaron and Jamie")
 
@@ -412,15 +413,21 @@ Pascal, Assembler, Cobol, Delphi, SQL (Access), C, OO programming, Linux, Networ
 
 ##Recognitions
 
-* **June 2018**: Top performer. Recognised by my line manager as one of the two awarded top performers in a team with dozens of employees at Vodafone Global Enterprise
+* **Aug 2021**: 1st position (Grand Prize) in the second TableCheck Hackathon. Issued by TableCheck
+
+* **Jan 2020**: 1st position (Grand Prize) in the first TableCheck Hackathon. Issued by TableCheck
+
+* **Feb 2020**: 2019 MVP Award to the best team: Data Science. Issued by TableCheck
+
+* **Jun 2018**: Top performer. Recognised by my line manager as one of the two awarded top performers in a team with dozens of employees at Vodafone Global Enterprise
 
 * **May 2017**: Winner of the Knowledge Management Innovation award. One of the apps that my team and I developed, won this prestigious award in the UK legal industry.  [eiseverywhere.com](https://www.eiseverywhere.com/ehome/legalweekinnovationawards/567021/) [legalweek.com](http://www.legalweek.com/sites/legalweek/2017/06/27/legal-week-innovation-awards-knowledge-management-innovation-award-vodafone-global-enterprise/?slreturn=20170528041243)
 
-* **January 2017**: EduTECH Emprèn. My final project was selected and I was granted a course financed by the Catalunya and EU governments for mentoring entrepreneurs and accelerate their eLearning projects
+* **Jan 2017**: EduTECH Emprèn. My final project was selected and I was granted a course financed by the Catalunya and EU governments for mentoring entrepreneurs and accelerate their eLearning projects
 
-* **November 2016**: Recognised by my line manager with the innovation award at Vodafone Global Enterprise
+* **Nov 2016**: Recognised by my line manager with the innovation award at Vodafone Global Enterprise
 
-* **February 2014**: the Art Rules project were I was heavily involved in the front-end was shortlisted for a prestigious FWA award
+* **Feb 2014**: the Art Rules project were I was heavily involved in the front-end was shortlisted for a prestigious FWA award
 
 The following are some recognitions from my former co-workers, partners and clients. Some of them know me as “Pach” (my nickname).
 
