@@ -92,7 +92,7 @@ These are some technologies and tools that I've been using in the last years.
 * Testing: [Prettier](https://prettier.io/), [ESlint](http://eslint.org/), [Jest](https://jestjs.io/), [React Testing Library](https://github.com/kentcdodds/react-testing-library), [Cypress](http://cypress.io)
 * Animation: [SVG Gator](https://www.svgator.com/), [GSAP](http://greensock.com/gsap), [Phaser](http://phaser.io/), [Box2d](https://en.wikipedia.org/wiki/Box2D)
 * Real-time: [Socket.io](https://socket.io/), [SignalMaster](https://github.com/andyet/signalmaster), [SimpleWebRTC](https://github.com/andyet/SimpleWebRTC)
-* Mobile: [Cordova](https://cordova.apache.org/), [Fastlane](https://fastlane.tools/), [React Native](https://reactnative.dev/) 
+* Mobile: [Cordova](https://cordova.apache.org/), [Fastlane](https://fastlane.tools/), [React Native](https://reactnative.dev/)
 
 **Back End**
 
@@ -100,7 +100,7 @@ These are some technologies and tools that I've been using in the last years.
 * PHP: [Zend Framework](http://framework.zend.com/), [Laravel](https://laravel.com/), [LAMP stack](https://en.wikipedia.org/wiki/LAMP_(software_bundle))
 * BaaS: [Firebase](firebase.google.com)
 * CMS: [Storyblok](http://storyblok.com), [Wordpress](https://wordpress.org/), [Drupal](https://www.drupal.org/), [Joomla](http://www.joomla.org/)
-* DB: [MongoDB](https://www.mongodb.org/), [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL), [SQLite](https://en.wikipedia.org/wiki/SQLite), [MySQL](https://www.mysql.com/), 
+* DB: [MongoDB](https://www.mongodb.org/), [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL), [SQLite](https://en.wikipedia.org/wiki/SQLite), [MySQL](https://www.mysql.com/),
 * ORM: [Doctrine](http://www.doctrine-project.org/), [Waterline](https://github.com/balderdashy/waterline)
 
 **Software engineering**
@@ -139,7 +139,7 @@ These are some technologies and tools that I've been using in the last years.
 
 Currently leading TableCheck's front-end team, consisting of 9 engineers of all levels working across 3 different time zones.
 
-Supervised and participated as an individual contributor in the creation of the new booking form and the new global marketing website.
+Supervised and participated as an individual contributor in the creation of the new booking form, the new global marketing website, the new diner app, the SSO and the merchant portal.
 
 ###Senior Frontend Engineer
 <h4><span class="tag red-tag">Feb 2019 - Mar 2020</span><a class="tag gold-tag" href="http://www.tablecheck.com/en/join/">TableCheck</a><span class="tag blue-tag">Ginza, Tokyo (Japan)</span></h4>
