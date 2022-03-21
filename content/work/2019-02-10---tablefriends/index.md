@@ -3,7 +3,7 @@ title: "TableFriends"
 cover: "images/logo.png"
 location: Spain
 color: "#6b56cf"
-categories: react graphql apollo emotion netlify prisma lambda netlify-functions open-source web
+categories: react graphql apollo emotion netlify prisma lambda netlify-functions open-source web inverted
 ---
 
 <p class="align-center">
