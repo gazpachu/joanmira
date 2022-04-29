@@ -7,7 +7,7 @@ categories: react ssr redux emotion web inverted
 ---
 
 <p class="align-center">
-<a class="btn" href="https://bfdemo.netlify.app/en/gallery" target="_blank">Demo App</a>
+<a class="btn" href="https://booking-demo.tablecheck.com/en/gallery" target="_blank">Demo App</a>
 </p>
 
 ![](./images/1.jpg)
