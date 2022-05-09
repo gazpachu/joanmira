@@ -86,35 +86,60 @@ async function processPage(pagePath) {
     const fileData = await fs.readFile(pagePath, 'utf-8');
     const { attributes: frontmatter, body: markdown } = await fm(fileData);
     if (frontmatter.template) {
-        templatePath = `templates/${frontmatter.template}.html`;
+      templatePath = `templates/${frontmatter.template}.html`;
     }
     const dom = await JSDOM.fromFile(templatePath);
     const parsedHtml = marked(markdown);
     const document = dom.window.document;
-
-    const headContentElement = document.getElementById('head-content');
+    const headerDom = await JSDOM.fromFile('templates/header.html');
+    const headerDocument = headerDom.window.document;
     const pageContentElement = document.getElementById('page-content');
     const blogContentElement = document.getElementById('blog-content');
+    const headerElement = headerDocument.getElementById('header');
+    const mainWrapper = document.getElementById('main-wrapper');
+    const htmlElement = document.getElementsByTagName('html');
+    const bodyElement = document.querySelector('body');
+    const headElement = document.querySelector('head');
+    const scriptsElement = document.getElementById('scripts');
+    const pagePathParts = pagePath.replace('pages/', '').split('/');
+    const pageName = pagePathParts.pop().split('.md')[0];
+    let targetPath = pagePathParts.join('/');
+    targetPath = frontmatter.template === 'post' ? targetPath.replace(dateRegEx, '') : targetPath;
 
-    if (pageContentElement) {
-        pageContentElement.innerHTML = `
-        ${frontmatter.subtitle
-          ? `<hgroup><h1>${frontmatter.title}</h1><h2>${frontmatter.subtitle}</h2></hgroup>`
-          : `<h1>${frontmatter.title}</h1>`}
-        ${parsedHtml}`;
-    } else {
-        console.log(
-            `Could not find element with id 'page-content' in template ${templatePath}. Generating page without markdown content.`
-        );
-    }
-
-    const wrapperHtmlElement = document.getElementsByTagName('html');
-    if (!wrapperHtmlElement.length) {
+    if (!htmlElement.length) {
         console.log(`Templates should contain the 'html' tag.`);
         process.exit(1);
     }
 
-    headContentElement.innerHTML = `<meta charset="UTF-8" />
+    if (mainWrapper) {
+      mainWrapper.prepend(headerElement);
+    } else {
+      bodyElement.prepend(headerElement);
+    }
+
+    if (pageContentElement) {
+      const image = `/${targetPath}/${frontmatter.cover}`;
+      pageContentElement.innerHTML = `
+      ${frontmatter.cover
+        ? `<picture>
+            <source srcset="${image.replace('.jpg', '.webp')}" type="image/webp">
+            <source srcset="${image}" type="image/jpeg">
+            <img class="image" src="${image}" alt="${frontmatter.title}" width="1024" height="500" loading="lazy">
+          </picture>`
+        : ''}
+      <div class="post-content">
+        ${frontmatter.subtitle
+          ? `<hgroup><h1>${frontmatter.title}</h1><h2>${frontmatter.subtitle}</h2></hgroup>`
+          : `<h1>${frontmatter.title}</h1>`}
+        ${parsedHtml}
+      </div>`;
+    } else {
+      console.log(
+        `Could not find element with id 'page-content' in template ${templatePath}. Generating page without markdown content.`
+      );
+    }
+
+    headElement.innerHTML = `<meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>${frontmatter.title} • Joan Mira</title>
@@ -122,17 +147,20 @@ async function processPage(pagePath) {
       rel="stylesheet"
       href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css"
     />
-    ${headContentElement.innerHTML}`;
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/header.css" />
+    ${headElement.innerHTML}`;
+
+    scriptsElement.innerHTML = `
+      ${scriptsElement.innerHTML}
+      <script src="/js/main.js" type="application/javascript" />
+    `;
 
     if (frontmatter.template === 'blog' && blogContentElement) {
       await processDirectory('pages/blog', processBlogListingItem, blogContentElement, frontmatter.category);
     }
 
     const finalHtml = document.getElementsByTagName('html')[0].outerHTML;
-    const pagePathParts = pagePath.replace('pages/', '').split('/');
-    const pageName = pagePathParts.pop().split('.md')[0];
-    let targetPath = pagePathParts.join('/');
-    targetPath = frontmatter.template === 'post' ? targetPath.replace(dateRegEx, '') : targetPath;
     await fs.writeFile(`public/${targetPath}/${pageName}.html`, finalHtml);
 }
 
@@ -145,17 +173,23 @@ async function processBlogListingItem(pagePath, blogContentElement, category = n
   const date = new Date(pagePath.substring(11, 21));
   let slug = pagePath.replace('/index.md', '').substring(24, pagePath.length);
   slug = `/blog/${slug}`;
+  const image = `${slug}/${frontmatter.cover.replace('.jpg', '-mobile.jpg')}`;
   blogContentElement.innerHTML = `${blogContentElement.innerHTML}
   <li>
-    <a href="${slug}">
-      <picture>
-        <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" media="(max-width: 768px)"> 
-        <img class="image" src="${slug}/${frontmatter.cover}" alt="${frontmatter.title}" width="250" height="170" loading="lazy">
-      </picture>
-    </a>
-    <a href="/blog/category/${frontmatter.category}" class="category">${frontmatter.category.replace('-', ' ')}</a>
-    <a href="${slug}">${frontmatter.title}</a>
-    <p>${date.toLocaleDateString()}</p>
+    <article class="blog-list-item">
+      <a href="${slug}">
+        <picture>
+          <source srcset="${image.replace('.jpg', '.webp')}" type="image/webp">
+          <source srcset="${image}" type="image/jpeg">
+          <img class="image" src="${image}" alt="${frontmatter.title}" width="250" height="170" loading="lazy">
+        </picture>
+      </a>
+      <div class="blog-list-item-content">
+        <a href="/blog/category/${frontmatter.category}" class="category">${frontmatter.category.replace('-', ' ')}</a>
+        <a href="${slug}">${frontmatter.title}</a>
+        <div>${date.toLocaleDateString()}</div>
+      </div>
+    </article>
   </li>`;
 }
 

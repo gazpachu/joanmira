@@ -1,21 +1,35 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
-  <head id="head-content">
+<html lang="en">
+  <head>
     <style>
-      article {
-        padding: 40px 20px;
-        max-width: 1024px;
-        margin: 0px auto;
+      #page-content {
+        text-align: center;
       }
-      ul {
+      #page-content h1 {
+        margin: 16px 0;
+      }
+      #blog-content {
         padding: 0;
         margin: 0;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
         grid-gap: 24px;
       }
-      ul li {
+      @media screen and (min-width: 500px) {
+        #blog-content { grid-template-columns: repeat(2, 1fr); }
+      }
+      @media screen and (min-width: 768px) {
+        #blog-content { grid-template-columns: repeat(3, 1fr); }
+      }
+      #blog-content li {
         list-style-type: none;
+      }
+      #blog-content .blog-list-item {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      #blog-content .blog-list-item-content {
+        padding: 16px;
       }
       .image {
         object-fit: cover;
@@ -27,10 +41,11 @@
       }
     </style>
   </head>
-  <body data-theme="dark">
-    <article>
+  <body>
+    <div id="main-wrapper">
       <div id="page-content"></div>
       <ul id="blog-content"></ul>
-    </article>
+    </div>
+    <div id="scripts"></div>
   </body>
 </html>

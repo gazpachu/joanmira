@@ -10,8 +10,6 @@ category: work
 <a class="btn icon icon-external" href="https://github.com/gazpachu/joanmira" target="_blank">Source code</a>
 </p>
 
-![](/blog/migrate-from-ghostjs-to-gatsbyjs/images/1.jpg)
-
 I've been using the community version (self-hosted) of [GhostJS](http://ghost.org) since 2016 in my personal websites. At the beginning it was all good, I loved it. I decided to migrate from Wordpress to Ghost because WP was getting always targeted by hackers and the code was becoming messy with all sorts of plugins, bugs, etc.
 
 But then, after a couple of years, I started falling out of love. I don't blame Ghost, it was probably me. I became lazy to upgrade to the latest version of Ghost, which required a lot of changes in the codebase and also in the VPS config I had in [OVH](http://ovh.es). Due to this situation, I didn't really update my websites much.

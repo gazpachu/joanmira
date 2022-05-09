@@ -1,0 +1,166 @@
+#header {
+  width: 100%;
+  text-align: center;
+}
+
+.header-content {
+  position: relative;
+  margin: 0 auto;
+  border-bottom: 1px solid;
+  border-bottom-color: rgba(0,0,0,.15);
+}
+
+[data-theme="dark"] .header-content {
+  filter: invert(100%);
+}
+
+.header-content h1 {
+  font-size: 18px;
+  display: inline-block;
+  color: black;
+  letter-spacing: 0;
+}
+
+.header-content .logo {
+  display: block;
+  position: absolute;
+  text-decoration: none;
+  top: 36px;
+  height: 44px;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.header-content .logo:hover {
+  border-bottom: 1px solid;
+  border-bottom-color: rgba(0,0,0,.67);
+}
+
+.header-content .logo-symbol {
+  stroke: black;
+  fill: black;
+  margin-right: 10px;
+  vertical-align: middle;
+  position: relative;
+  top: -4px;
+}
+
+.header-content .cursor {
+  margin-left: 3px;
+  position: absolute;
+  top: 24px;
+  opacity: 0.5;
+  filter: invert(100%);
+}
+
+.main-menu {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  height: 79px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.main-menu li {
+  display: inline-block;
+  position: relative;
+}
+
+.main-menu li a,
+.main-menu li div {
+  display: inline-block;
+  position: relative;
+  color: black;
+  padding: 48px 0 0;
+  font-size: 12px;
+  font-weight: normal;
+  height: 79px;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-width: 0 14px;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.main-menu li a:hover,
+.main-menu li div:hover {
+  color: black;
+}
+
+.main-menu li a:hover::after {
+  display: block;
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 79px;
+  width: 100%;
+  height: 1px;
+  background: rgba(0,0,0,.67);
+}
+
+.main-menu li.right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.main-menu .menu-btn {
+  border: 1px solid rgba(0,0,0,.33);
+  padding: 2px 6px 0;
+  height: 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color ease 0.3s;
+  margin-right: 5px;
+  margin-top: 42px;
+}
+
+.main-menu .menu-btn:hover {
+  border-color: rgba(0,0,0,.67);
+  background-color: rgba(0,0,0,.1);
+}
+
+.main-menu .search-button,
+.main-menu .theme-toggle {
+  margin-left: 12px;
+  padding: 0;
+  height: auto;
+  height: initial;
+  font-size: 16px;
+  border-width: 0;
+}
+
+.main-menu .search-button svg,
+.main-menu .theme-toggle svg {
+  fill: black;
+  opacity: 0.8;
+  vertical-align: middle;
+  width: 1em;
+  height: 1em;
+}
+
+.main-menu .search-button svg:hover,
+.main-menu .theme-toggle svg:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.main-menu .theme-toggle {
+  background: none;
+}
+
+.main-menu .theme-toggle svg {
+  fill: black;
+  opacity: 0.8;
+  vertical-align: middle;
+  width: 1em;
+  height: 1em;
+}
+
+.main-menu .menu-btn:hover::after,
+.main-menu .search-button:hover::after {
+  display: none;
+}
