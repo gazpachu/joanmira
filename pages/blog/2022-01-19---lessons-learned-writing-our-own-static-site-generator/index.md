@@ -35,36 +35,24 @@ And finally, for the search functionality, Joan Mira suggested using [Algolia](h
 
 This is the approved tech stack for our custom statically generated website:
 
-*   AWS, serverless, and Seed.run
-    
-*   Typescript
-    
-*   React SSR
-    
-*   Emotion, Tablekit & CSS variables
-    
-*   Storyblok
-    
-*   Algolia and Calendly
-    
+* AWS, serverless, and Seed.run
+* Typescript
+* React SSR
+* Emotion, Tablekit & CSS variables
+* Storyblok
+* Algolia and Calendly
 
 ### Website architecture
 
 Once we decided on the technologies to use, TableCheck’s principal front-end engineer, Simeon Cheeseman, suggested using React SSR to build the pages. We brainstormed about how to make it work and ended up with the following:
 
-1.  Content gets added/updated in Storyblok and the user clicks the save button
-    
-2.  A webhook gets triggered in Storyblok
-    
-3.  A NodeJS Express server running on a lambda function receives the webhook call
-    
-4.  A server-side script reads the story ID from the URL passed to the server
-    
-5.  The script calls the Storyblok API with that ID and gets all the data needed to build that specific page
-    
-6.  Then it generates the HTML using React components
-    
-7.  And finally, it uploads the file to an S3 bucket from where it’d be served to the Internet
+1. Content gets added/updated in Storyblok and the user clicks the save button
+2. A webhook gets triggered in Storyblok
+3. A NodeJS Express server running on a lambda function receives the webhook call
+4. A server-side script reads the story ID from the URL passed to the server
+5. The script calls the Storyblok API with that ID and gets all the data needed to build that specific page
+6. Then it generates the HTML using React components
+7. And finally, it uploads the file to an S3 bucket from where it’d be served to the Internet
     
 We all agreed with this approach and Alexandr Shostyr (project technical lead) built a POC.
 
@@ -74,11 +62,9 @@ We all agreed with this approach and Alexandr Shostyr (project technical lead) b
 
 Once the POC was approved and the architecture validated, we continued the development with the help of Irina Soupel (front-end engineer). We soon realized that we'd have to do certain things slightly different from other TableCheck projects, especially because we were not using React in the front-end:
 
-*   Use [emotion for SSR](https://emotion.sh/docs/ssr ) to support `nth-child` selectors
-    
-*   Figure out how to use CSS variables with Tablekit's theme provider
-    
-*   Create a simple Button and Input styled component to bypass an issue with hexToRgba
+* Use [emotion for SSR](https://emotion.sh/docs/ssr ) to support `nth-child` selectors
+* Figure out how to use CSS variables with Tablekit's theme provider
+* Create a simple Button and Input styled component to bypass an issue with hexToRgba
     
 
 Another considerable hiccup we encountered was regarding building individual pages vs all pages. There are some Storyblok blocks that are common to all pages, like the top navigation or the footer. Therefore, whenever a content editor changes one of these blocks, we have to regenerate all the pages on the website. This represented a challenge since we would need to have a way to tell the build script if all pages need to be built or not. We are currently still investigating this point and will update the article once we find the appropriate solution.
@@ -91,9 +77,13 @@ We also had other challenges regarding the sitemap, legacy redirects, build comp
 
 Going forward, we still want to continue doing improvements. We will update the article in the future with more details. Here are some of the things we are considering doing:
 
-*   The build speed: especially with supporting individual page builds
+* The build speed: especially with supporting individual page builds 
+* Preload critical assets and pages (like Gatsby does) to make the website load even faster than it already does, probably because we have very little JS code on it
     
-*   Preload critical assets and pages (like Gatsby does) to make the website load even faster than it already does, probably because we have very little JS code on it
-    
-
 Overall, it was a great experience building something new from scratch that we have full control over. More cool things will come. Stay tuned and follow us!
+
+### March 2022 Update
+
+Good news! after a bit of work, we were able to implement individual page builds with StoryBlok.
+
+The way we ended up doing it is by copy/pasting the page ID into an input within a modal dialog that appears when clicking on a custom task. This allows us to pass the ID of the page we want to build to the Lambda function.

@@ -53,7 +53,7 @@ async function renameFolders(dir, from, to) {
   });
  }
 
-async function processDirectory(directoryPath, processor, container) {
+async function processDirectory(directoryPath, processor, container, category) {
   let contents = await fs.readdir(`${directoryPath}/`);
   contents = contents.reverse();
   const processPagePromises = [];
@@ -61,10 +61,10 @@ async function processDirectory(directoryPath, processor, container) {
     if (!element.includes('.') || element.includes('.md')) {
       const isDirectory = (await fs.lstat(`${directoryPath}/${element}`)).isDirectory();
       if (isDirectory) {
-        await processDirectory(`${directoryPath}/${element}`, processor, container, processPagePromises);
+        await processDirectory(`${directoryPath}/${element}`, processor, container, category, processPagePromises);
         continue;
       }
-      processPagePromises.push(processor(`${directoryPath}/${element}`, container));
+      processPagePromises.push(processor(`${directoryPath}/${element}`, container, category));
     }
   }
   await Promise.all(processPagePromises);
@@ -117,7 +117,7 @@ async function processPage(pagePath) {
     headContentElement.innerHTML = `<meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>${frontmatter.title}</title>
+    <title>${frontmatter.title} • Joan Mira</title>
     <link
       rel="stylesheet"
       href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css"
@@ -125,7 +125,7 @@ async function processPage(pagePath) {
     ${headContentElement.innerHTML}`;
 
     if (frontmatter.template === 'blog' && blogContentElement) {
-        await processDirectory('pages/blog', processBlogListingItem, blogContentElement);
+      await processDirectory('pages/blog', processBlogListingItem, blogContentElement, frontmatter.category);
     }
 
     const finalHtml = document.getElementsByTagName('html')[0].outerHTML;
@@ -136,20 +136,27 @@ async function processPage(pagePath) {
     await fs.writeFile(`public/${targetPath}/${pageName}.html`, finalHtml);
 }
 
-async function processBlogListingItem(pagePath, blogContentElement) {
-    if (pagePath === 'pages/blog/index.md') return;
-    const fileData = await fs.readFile(pagePath, 'utf-8');
-    let slug = pagePath.replace('/index.md', '').substring(24, pagePath.length);
-    slug = `blog/${slug}`;
-    const { attributes: frontmatter, body: markdown } = await fm(fileData);
-    blogContentElement.innerHTML = `${blogContentElement.innerHTML}
-    <li>
-        <a href="${slug}">
-            <img src="${slug}/${frontmatter.cover}" alt="${frontmatter.title}" />
-            <span>${frontmatter.title}</span>
-        </a>
-        <p>${frontmatter.date.toLocaleDateString()}</p>
-    </li>`;
+async function processBlogListingItem(pagePath, blogContentElement, category = null) {
+  if (pagePath === 'pages/blog/index.md' || pagePath.includes('/category/')) return;
+  const fileData = await fs.readFile(pagePath, 'utf-8');
+  const { attributes: frontmatter } = await fm(fileData);
+
+  if (category && frontmatter.category !== category) return;
+  const date = new Date(pagePath.substring(11, 21));
+  let slug = pagePath.replace('/index.md', '').substring(24, pagePath.length);
+  slug = `/blog/${slug}`;
+  blogContentElement.innerHTML = `${blogContentElement.innerHTML}
+  <li>
+    <a href="${slug}">
+      <picture>
+        <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" media="(max-width: 768px)"> 
+        <img class="image" src="${slug}/${frontmatter.cover}" alt="${frontmatter.title}" width="250" height="170" loading="lazy">
+      </picture>
+    </a>
+    <a href="/blog/category/${frontmatter.category}" class="category">${frontmatter.category.replace('-', ' ')}</a>
+    <a href="${slug}">${frontmatter.title}</a>
+    <p>${date.toLocaleDateString()}</p>
+  </li>`;
 }
 
 function startServer(port) {
