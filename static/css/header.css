@@ -84,6 +84,11 @@
   border-style: solid;
 }
 
+.main-menu li a:focus,
+.main-menu li div:focus {
+  background: none;
+}
+
 .main-menu li a:hover,
 .main-menu li div:hover {
   color: black;

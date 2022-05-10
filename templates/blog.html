@@ -13,19 +13,23 @@
         margin: 0;
         display: grid;
         grid-gap: 24px;
-      }
-      @media screen and (min-width: 500px) {
-        #blog-content { grid-template-columns: repeat(2, 1fr); }
-      }
-      @media screen and (min-width: 768px) {
-        #blog-content { grid-template-columns: repeat(3, 1fr); }
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
       }
       #blog-content li {
         list-style-type: none;
+        height: 310px;
+        margin-bottom: 0;
       }
       #blog-content .blog-list-item {
         margin: 0;
         padding: 0;
+        overflow: hidden;
+        height: 100%;
+      }
+      #blog-content .blog-list-item-title {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;  
         overflow: hidden;
       }
       #blog-content .blog-list-item-content {
