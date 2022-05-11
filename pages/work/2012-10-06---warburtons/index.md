@@ -4,6 +4,7 @@ cover: "images/logo.jpg"
 location: UK
 color: "#f08229"
 categories: wcrs web facebook inverted
+template: project
 ---
 
 ![](./images/1.jpg)

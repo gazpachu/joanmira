@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: Japan
 color: "#F9D9EB"
 categories: react firebase rss open-source web
+template: project
 ---
 
 <p class="align-center">

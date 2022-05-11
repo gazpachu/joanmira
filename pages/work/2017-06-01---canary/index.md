@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: UK
 color: "#f5c95f"
 categories: vodafone react webpack web
+template: project
 ---
 
 <style>

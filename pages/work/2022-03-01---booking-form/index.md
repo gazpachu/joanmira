@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: Japan
 color: "#7935d2"
 categories: react ssr redux emotion web inverted
+template: project
 ---
 
 <p class="align-center">

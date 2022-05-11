@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: Spain
 color: "#2a6eb5"
 categories: react redux webpack web ux design open-source prototype inverted
+template: project
 ---
 
 <p class="align-center">

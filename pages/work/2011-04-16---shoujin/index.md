@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: UK
 color: white
 categories: web ux design photo video wordpress
+template: project
 ---
 
 ![](./images/1.jpg)

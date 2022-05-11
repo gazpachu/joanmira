@@ -4,6 +4,7 @@ cover: "images/logo.jpg"
 location: Spain
 color: white
 categories: flash ibcmass nitsnets desktop
+template: project
 ---
 
 <p class="align-center">

@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: Spain
 color: black
 categories: web flash custom-cms ux consultancy inverted
+template: project
 ---
 
 <p class="align-center">

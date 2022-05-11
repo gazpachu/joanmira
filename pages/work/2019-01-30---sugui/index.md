@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: Spain
 color: white
 categories: react webpack web ux design open-source styleguidist styled-components
+template: project
 ---
 
 <p class="align-center">

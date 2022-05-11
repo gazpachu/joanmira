@@ -4,6 +4,7 @@ cover: "images/logo.jpg"
 location: UK
 color: "#f5f5f5"
 categories: wcrs web wordpress animation webcam installation
+template: project
 ---
 
 During my tenure at WCRS, I was involved in several brainstorms, promotional ideas, internal projects, hack evenings, small microsites and games. Some of them include:

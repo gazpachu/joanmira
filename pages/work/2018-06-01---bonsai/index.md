@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: UK
 color: "#5e2750"
 categories: vodafone react redux webpack web ux design inverted
+template: project
 ---
 
 ![](./images/1.jpg)

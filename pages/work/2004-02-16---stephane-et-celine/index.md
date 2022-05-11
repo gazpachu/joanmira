@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: Spain
 color: white
 categories: web ux design flash animation
+template: project
 ---
 
 <p class="align-center">

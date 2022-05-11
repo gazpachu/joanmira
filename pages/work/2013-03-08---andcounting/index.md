@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: UK
 color: "#EE6B26"
 categories: mobile open-source
+template: project
 ---
 
 <p class="align-center">

@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: UK
 color: "#044e44"
 categories: sapientnitro web vanilla-js inverted
+template: project
 ---
 
 ![](./images/1.jpg)

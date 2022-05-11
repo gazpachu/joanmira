@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: UK
 color: white
 categories: sapientnitro animation web backbonejs
+template: project
 ---
 
 <p class="align-center">

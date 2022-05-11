@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: Spain
 color: white
 categories: flash animation ibcmass desktop
+template: project
 ---
 
 <p class="align-center">

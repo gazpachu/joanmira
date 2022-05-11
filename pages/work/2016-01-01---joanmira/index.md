@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: UK
 color: "#487F99"
 categories: web ux design ghost grunt sass inverted open-source
+template: project
 ---
 
 <p class="align-center">

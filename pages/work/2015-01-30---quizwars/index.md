@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: UK
 color: "#222"
 categories: sapientnitro web prototype ux design sockets sailsjs spa inverted open-source
+template: project
 ---
 
 <p class="align-center">

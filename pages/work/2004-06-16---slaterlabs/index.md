@@ -4,6 +4,7 @@ cover: "images/logo.jpg"
 location: Spain
 color: white
 categories: web flash animation desktop
+template: project
 ---
 
 <p class="align-center">

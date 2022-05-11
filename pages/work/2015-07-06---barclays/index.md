@@ -4,6 +4,7 @@ cover: "images/logo.jpg"
 location: UK
 color: "#00adef"
 categories: mobile sapientnitro prototype adobe-air flash inverted
+template: project
 ---
 
 While working at SapientNitro, I built an iPad prototype for Barclays based on Adobe AIR and compiled as a native iOS app.

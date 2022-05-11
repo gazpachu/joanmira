@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: UK
 color: "#714762"
 categories: wcrs prototype design kinect openni openframeworks installation inverted open-source
+template: project
 ---
 
 <p class="align-center">

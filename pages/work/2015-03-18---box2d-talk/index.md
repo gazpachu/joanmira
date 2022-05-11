@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: UK
 color: "#FFF"
 categories: sapientnitro prototype box2d animation open-source talks
+template: project
 ---
 
 <p class="align-center">

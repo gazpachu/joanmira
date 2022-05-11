@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: Spain
 color: white
 categories: video ux design flash
+template: project
 ---
 
 ![](./images/1.jpg)

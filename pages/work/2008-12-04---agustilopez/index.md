@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: Spain
 color: "#f5f5f5"
 categories: web wordpress design ux webmarket
+template: project
 ---
 
 ![](./images/1.jpg)

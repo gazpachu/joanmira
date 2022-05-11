@@ -4,6 +4,7 @@ cover: "images/logo.jpg"
 location: Spain
 color: white
 categories: narcea flash animation desktop
+template: project
 ---
 
 ![](./images/0.jpg)

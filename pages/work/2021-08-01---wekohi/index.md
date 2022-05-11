@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: Japan
 color: "#A31A6B"
 categories: react emotion mapbox web prototype inverted
+template: project
 ---
 
 <p class="align-center">

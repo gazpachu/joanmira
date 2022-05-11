@@ -4,6 +4,7 @@ cover: "images/logo.jpg"
 location: Spain
 color: black
 categories: web joomla design ux inverted
+template: project
 ---
 
 ![](./images/1.jpg)

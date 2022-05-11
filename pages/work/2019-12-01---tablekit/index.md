@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: Japan
 color: "#ff9848"
 categories: react emotion typescript styleguidist storybook open-source web inverted
+template: project
 ---
 
 <p class="align-center">

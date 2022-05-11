@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: Spain
 color: white
 categories: prototype web ux design
+template: project
 ---
 
 <p class="align-center">

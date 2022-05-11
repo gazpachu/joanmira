@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: UK
 color: "#5c6ab4"
 categories: vodafone vue vuex webpack material-ui web design ux inverted
+template: project
 ---
 
 Maple is an app to manage the sales hierarchy in Vodafone. It allows to add new employees, assign them roles and targets and move them under new teams.

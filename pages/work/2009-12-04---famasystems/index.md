@@ -4,6 +4,7 @@ cover: "images/logo.jpg"
 location: Spain
 color: "#32679d"
 categories: web joomla inverted
+template: project
 ---
 
 ![](./images/1.jpg)

@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: Spain
 color: black
 categories: web flash animation inverted
+template: project
 ---
 
 <p class="align-center">

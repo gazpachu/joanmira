@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: UK
 color: "#efefef"
 categories: sapientnitro web animation assemble grunt
+template: project
 ---
 
 <p class="align-center">

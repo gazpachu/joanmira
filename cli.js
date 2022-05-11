@@ -25,21 +25,41 @@ switch (command) {
 }
 
 async function build(folder) {
+  if (!folder) {
+    console.log('Cleaning public folder...');
     await fs.emptyDir('public/');
 
+    console.log('Copying templates...');
     await safeExecute(
       async () =>
         await fs.copy('templates/', 'public/', { filter: (f) => !f.startsWith('.') && !f.endsWith('.html') })
     );
 
+    console.log('Copying pages...');
     await safeExecute(
       async () => await fs.copy('pages/', 'public/', { filter: (f) => !f.startsWith('.') && !f.endsWith('.md') })
     );
 
+    console.log('Copying static files...');
     await safeExecute(async () => await fs.copy('static/', 'public/'), { filter: (f) => !f.startsWith('.') });
 
+    console.log('Renaming blog files...');
     await renameFolders('public/blog', dateRegEx, '');
-    await processDirectory(folder || 'pages', processPage);
+    console.log('Renaming work files...');
+    await renameFolders('public/work', dateRegEx, '');
+  }
+  await processDirectory(folder || 'pages', processPage);
+}
+
+async function develop(folder, port) {
+  await build(folder);
+  const server = startServer(port);
+  const watcher = chokidar.watch(['pages/', 'static/', 'templates/']).on('change', async (path, _) => {
+    console.log(`Detected change in file ${path}. Restarting development server.`);
+    server.close();
+    await watcher.close();
+    await develop(folder, port);
+  });
 }
 
 async function renameFolders(dir, from, to) {
@@ -53,7 +73,7 @@ async function renameFolders(dir, from, to) {
   });
  }
 
-async function processDirectory(directoryPath, processor, container, category) {
+async function processDirectory(directoryPath, processor, container, listingSlug, category) {
   let contents = await fs.readdir(`${directoryPath}/`);
   contents = contents.reverse();
   const processPagePromises = [];
@@ -61,24 +81,13 @@ async function processDirectory(directoryPath, processor, container, category) {
     if (!element.includes('.') || element.includes('.md')) {
       const isDirectory = (await fs.lstat(`${directoryPath}/${element}`)).isDirectory();
       if (isDirectory) {
-        await processDirectory(`${directoryPath}/${element}`, processor, container, category, processPagePromises);
+        await processDirectory(`${directoryPath}/${element}`, processor, container, listingSlug, category, processPagePromises);
         continue;
       }
-      processPagePromises.push(processor(`${directoryPath}/${element}`, container, category));
+      processPagePromises.push(processor(`${directoryPath}/${element}`, container, listingSlug, category));
     }
   }
   await Promise.all(processPagePromises);
-}
-
-async function develop(folder, port) {
-  await build(folder);
-  const server = startServer(port);
-  const watcher = chokidar.watch(['pages/', 'static/', 'templates/']).on('change', async (path, _) => {
-    console.log(`Detected change in file ${path}. Restarting development server.`);
-    server.close();
-    await watcher.close();
-    await develop(folder, port);
-  });
 }
 
 async function processPage(pagePath) {
@@ -94,9 +103,13 @@ async function processPage(pagePath) {
   const document = dom.window.document;
   const headerDom = await JSDOM.fromFile('templates/header.html');
   const headerDocument = headerDom.window.document;
+  const footerDom = await JSDOM.fromFile('templates/footer.html');
+  const footerDocument = footerDom.window.document;
   const pageContentElement = document.getElementById('page-content');
   const blogContentElement = document.getElementById('blog-content');
+  const workContentElement = document.getElementById('work-content');
   const headerElement = headerDocument.getElementById('header');
+  const footerElement = footerDocument.getElementById('footer');
   const mainWrapper = document.getElementById('main-wrapper');
   const htmlElement = document.getElementsByTagName('html');
   const bodyElement = document.querySelector('body');
@@ -105,7 +118,9 @@ async function processPage(pagePath) {
   const pagePathParts = pagePath.replace('pages/', '').split('/');
   const pageName = pagePathParts.pop().split('.md')[0];
   let targetPath = pagePathParts.join('/');
-  targetPath = frontmatter.template === 'post' ? targetPath.replace(dateRegEx, '') : targetPath;
+  targetPath = frontmatter.template === 'post' || frontmatter.template === 'project'
+    ? targetPath.replace(dateRegEx, '')
+    : targetPath;
 
   if (!htmlElement.length) {
       console.log(`Templates should contain the 'html' tag.`);
@@ -117,6 +132,7 @@ async function processPage(pagePath) {
   } else {
     bodyElement.prepend(headerElement);
   }
+  bodyElement.append(footerElement);
 
   if (pageContentElement) {
     const image = `/${targetPath}/${frontmatter.cover}`;
@@ -129,9 +145,9 @@ async function processPage(pagePath) {
         </picture>`
       : ''}
     <div class="post-content">
-      ${frontmatter.subtitle
-        ? `<hgroup><h1>${frontmatter.title}</h1><h2>${frontmatter.subtitle}</h2></hgroup>`
-        : `<h1>${frontmatter.title}</h1>`}
+      ${frontmatter.title && frontmatter.subtitle
+        ? `<hgroup><h1>${frontmatter.title}</h1><h2>${frontmatter.subtitle}</h2></hgroup>` : ''}
+      ${frontmatter.shouldHideTitle ? '' : `<h1>${frontmatter.title}</h1>`}
       ${parsedHtml}
     </div>`;
   } else {
@@ -145,7 +161,7 @@ async function processPage(pagePath) {
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>${frontmatter.title} • Joan Mira</title>
+  <title>${frontmatter.title} • Joan Mira • Freelance Software Engineer • Tokyo, Japan</title>
   <link
     rel="stylesheet"
     href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css"
@@ -162,26 +178,29 @@ async function processPage(pagePath) {
   }
 
   if (frontmatter.template === 'blog' && blogContentElement) {
-    await processDirectory('pages/blog', processBlogListingItem, blogContentElement, frontmatter.category);
+    await processDirectory('pages/blog', processListingItem, blogContentElement, 'blog', frontmatter.category);
+  } else if (frontmatter.template === 'work' && workContentElement) {
+    await processDirectory('pages/work', processListingItem, workContentElement, 'work', null);
   }
 
   const finalHtml = document.getElementsByTagName('html')[0].outerHTML;
   await fs.writeFile(`public/${targetPath}/${pageName}.html`, finalHtml);
 }
 
-async function processBlogListingItem(pagePath, blogContentElement, category = null) {
-  if (pagePath === 'pages/blog/index.md' || pagePath.includes('/category/')) return;
+async function processListingItem(pagePath, contentElement, listingSlug, category = null) {
+  if (pagePath === `pages/${listingSlug}/index.md` || pagePath.includes('/category/')) return;
   const fileData = await fs.readFile(pagePath, 'utf-8');
   const { attributes: frontmatter } = await fm(fileData);
 
   if (category && frontmatter.category !== category) return;
   const date = new Date(pagePath.substring(11, 21));
   let slug = pagePath.replace('/index.md', '').substring(24, pagePath.length);
-  slug = `/blog/${slug}`;
+  slug = `/${listingSlug}/${slug}`;
   const image = `${slug}/${frontmatter.cover.replace('.jpg', '-mobile.jpg')}`;
-  blogContentElement.innerHTML = `${blogContentElement.innerHTML}
-  <li>
-    <article class="blog-list-item">
+  contentElement.innerHTML = `${contentElement.innerHTML}
+  ${listingSlug === 'blog'
+  ? `<li>
+    <article class="list-item">
       <a href="${slug}">
         <picture>
           <source srcset="${image.replace('.jpg', '.webp')}" type="image/webp">
@@ -189,13 +208,28 @@ async function processBlogListingItem(pagePath, blogContentElement, category = n
           <img class="image" src="${image}" alt="${frontmatter.title}" width="250" height="170" loading="lazy">
         </picture>
       </a>
-      <div class="blog-list-item-content">
-        <a href="/blog/category/${frontmatter.category}" class="category">${frontmatter.category.replace('-', ' ')}</a>
-        <a class="blog-list-item-title" href="${slug}">${frontmatter.title}</a>
+      <div class="list-item-content">
+        ${frontmatter.category ? `<a href="/${listingSlug}/category/${frontmatter.category}" class="category">${frontmatter.category.replace('-', ' ')}</a>` : ''}
+        <a class="list-item-title" href="${slug}">${frontmatter.title}</a>
         <div>${date.toLocaleDateString()}</div>
       </div>
     </article>
-  </li>`;
+  </li>`
+  : `<li class="${frontmatter.categories}" style="background-color: ${frontmatter.color};">
+    <a href="${slug}" class="link">
+      <picture>
+        <source srcset="${slug}/${frontmatter.cover.replace('.jpg', '.webp')}" type="image/webp">
+        <source srcset="${slug}/${frontmatter.cover}" type="image/jpeg">
+        <img class="logo" src="${slug}/${frontmatter.cover}" alt="${frontmatter.title}" width="250" height="170" loading="lazy">
+      </picture>
+      <h2 class="name">${frontmatter.title}</h2>
+      <p class="meta">
+        <span class="date">${new Date(date).getFullYear()}</span>
+        <span class="country">${frontmatter.location}</span>
+      </p>
+    </a>
+  </li>
+  `}`;
 }
 
 function startServer(port) {

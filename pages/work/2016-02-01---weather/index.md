@@ -4,6 +4,7 @@ cover: "images/logo.jpg"
 location: UK
 color: "#FFF"
 categories: react web cover open-source
+template: project
 ---
 
 <p class="align-center">

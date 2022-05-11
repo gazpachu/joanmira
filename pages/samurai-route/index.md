@@ -1,9 +1,6 @@
 ---
 title: "La Ruta del Samurái (The Samurai Route)"
-template: post
 ---
-
-# La Ruta del Samurái (The Samurai Route)
 
 <p class="align-center">
 <a class="btn" href="http://rutasamurai.herokuapp.com" target="_blank">Launch archived website</a>
@@ -13,11 +10,11 @@ In January 2010 I had a crazy idea: to **travel by motorbike from Spain to Japan
 
 I've been riding motorcycles since I was 17 but never really travelled long distances with one of them, not even 500 Km!. I also wanted to explore my limits, get away from the computer for some time, feel more in contact with nature and of course, visit Japan!
 
-I passed the exam for the "big motorcycles" license and bought a [Yamaha XT660Z Teneré](https://en.wikipedia.org/wiki/Yamaha_XT660Z_T%C3%A9n%C3%A9r%C3%A9). It wasn't my favourite model, but at the end, it turned out to be a great choice for that kind of trip. I [spent a few months preparing the trip](/category/samurai-route), found some kind sponsors and a partner. Finally, on June, I left my hometown and started this great adventure :-) [ <a href="https://www.facebook.com/rutasamurai/photos_stream?tab=photos_albums" target="_blank">view pictures</a> ]
+I passed the exam for the "big motorcycles" license and bought a [Yamaha XT660Z Teneré](https://en.wikipedia.org/wiki/Yamaha_XT660Z_T%C3%A9n%C3%A9r%C3%A9). It wasn't my favourite model, but at the end, it turned out to be a great choice for that kind of trip. I [spent a few months preparing the trip](/blog/category/samurai-route), found some kind sponsors and a partner. Finally, on June, I left my hometown and started this great adventure :-) [ <a href="https://www.facebook.com/rutasamurai/photos_stream?tab=photos_albums" target="_blank">view pictures</a> ]
 
 ![](/samurai-route/images/1.jpg "Loading the bike in Tokyo, ready to start the trip and the project's logo")
 
-There are also a [few blog entries related with the trip](/category/samurai-route) (in Spanish)
+There are also a [few blog entries related with the trip](/blog/category/samurai-route) (in Spanish)
 
 ![Loading the bike in Tokio](/samurai-route/images/ruta-samurai-loading-bike.jpg "Loading the bike in Tokyo")
 

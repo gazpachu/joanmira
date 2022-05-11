@@ -4,6 +4,7 @@ cover: "images/logo.jpg"
 location: UK
 color: white
 categories: sapientnitro web vanilla-js
+template: project
 ---
 
 While working at SapientNitro, I got involved in the Travelers account. I helped with the front-end development of the new responsive insurance quote journey.

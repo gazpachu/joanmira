@@ -4,6 +4,7 @@ cover: "images/logo.jpg"
 location: Spain
 color: "#ab0616"
 categories: web mysql php web flash custom-cms ux design webmarket inverted
+template: project
 ---
 
 <p class="align-center">

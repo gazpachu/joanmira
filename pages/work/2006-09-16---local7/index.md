@@ -4,6 +4,7 @@ cover: "images/logo.jpg"
 location: Spain
 color: "#94d5ff"
 categories: web mysql php web flash custom-cms ux design webmarket
+template: project
 ---
 
 <p class="align-center">

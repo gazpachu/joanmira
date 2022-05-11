@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: UK
 color: "#404647"
 categories: vodafone angular grunt sass web highcharts animation inverted
+template: project
 ---
 
 ![](./images/0.jpg)

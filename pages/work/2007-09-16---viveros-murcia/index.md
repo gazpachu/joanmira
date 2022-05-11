@@ -4,6 +4,7 @@ cover: "images/logo.jpg"
 location: Spain
 color: white
 categories: prototypes design animation web prototype flash webmarket
+template: project
 ---
 
 <p class="align-center">

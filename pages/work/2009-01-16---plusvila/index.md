@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: Spain
 color: white
 categories: web joomla design ux
+template: project
 ---
 
 ![](./images/1.jpg)

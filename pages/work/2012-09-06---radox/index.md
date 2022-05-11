@@ -4,6 +4,7 @@ cover: "images/logo.jpg"
 location: UK
 color: white
 categories: wcrs web facebook
+template: project
 ---
 
 ![](./images/1.jpg)

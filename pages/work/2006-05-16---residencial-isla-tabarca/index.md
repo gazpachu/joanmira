@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: Spain
 color: "#071931"
 categories: web wordpress inverted
+template: project
 ---
 
 <p class="align-center">

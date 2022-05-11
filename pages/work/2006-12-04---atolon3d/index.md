@@ -4,6 +4,7 @@ cover: "images/logo.jpg"
 location: Spain
 color: black
 categories: web flash animation inverted custom-cms ux design webmarket mysql php
+template: project
 ---
 
 <p class="align-center">

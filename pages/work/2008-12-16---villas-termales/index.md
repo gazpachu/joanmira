@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: Spain
 color: "#F6F9F8"
 categories: web flash animation custom-cms mysql php narcea
+template: project
 ---
 
 <p class="align-center">

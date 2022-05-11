@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: Spain
 color: "#1e1e1e"
 categories: flash design inverted
+template: project
 ---
 
 <p class="align-center">

@@ -4,6 +4,7 @@ cover: "images/logo.jpg"
 location: Spain
 color: "#a9d4ff"
 categories: web wordpress ux design
+template: project
 ---
 
 <p class="align-center">

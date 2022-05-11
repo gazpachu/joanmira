@@ -4,6 +4,7 @@ cover: "images/logo.jpg"
 location: UK
 color: black
 categories: sapientnitro animation shortlisted web ruby box2d inverted
+template: project
 ---
 
 <p class="align-center">

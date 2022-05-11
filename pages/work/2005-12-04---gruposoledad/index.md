@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: Spain
 color: white
 categories: web flash custom-cms ux design animation mysql php
+template: project
 ---
 
 <p class="align-center">

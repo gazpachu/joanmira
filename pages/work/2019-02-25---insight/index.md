@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: Japan
 color: "#488DFF"
 categories: react graphql apollo emotion react-vis web inverted
+template: project
 ---
 
 ![](./images/1.jpg)

@@ -4,6 +4,7 @@ cover: "images/logo.jpg"
 location: UK
 color: white
 categories: wcrs web wordpress
+template: project
 ---
 
 ![](./images/1.jpg)

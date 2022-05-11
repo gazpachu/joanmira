@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: UK
 color: "#2BCFFA"
 categories: wcrs prototype kinect opencv box2d openframeworks animation design installation inverted open-source
+template: project
 ---
 
 <p class="align-center">

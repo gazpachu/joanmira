@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: Spain
 color: black
 categories: web flash wordpress animation custom-cms joomla inverted
+template: project
 ---
 
 <p class="align-center">

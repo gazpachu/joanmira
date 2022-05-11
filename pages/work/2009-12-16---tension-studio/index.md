@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: Spain
 color: white
 categories: web wordpress consultancy
+template: project
 ---
 
 ![](./images/0.jpg)

@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: UK
 color: "#122d59"
 categories: vodafone react redux webpack web highcharts ux inverted
+template: project
 ---
 
 <style>

@@ -4,6 +4,7 @@ cover: "images/logo.jpg"
 location: UK
 color: "#e92934"
 categories: sapientnitro web drupal consultancy inverted
+template: project
 ---
 
 ![](./images/1.jpg)

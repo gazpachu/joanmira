@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: Spain
 color: white
 categories: web flash animation webmarket
+template: project
 ---
 
 <p class="align-center">

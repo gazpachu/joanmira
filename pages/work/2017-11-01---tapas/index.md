@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: UK
 color: "#78CED4"
 categories: vodafone react redux ghost webpack web ux design inverted
+template: project
 ---
 
 <p class="align-center">

@@ -4,6 +4,7 @@ cover: "images/logo.jpg"
 location: Spain
 color: white
 categories: web flash custom-cms mysql php
+template: project
 ---
 
 ![](./images/0.jpg)

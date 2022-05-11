@@ -4,6 +4,7 @@ cover: "images/logo.jpg"
 location: UK
 color: "#0769b3"
 categories: web ux design joomla wordpress inverted
+template: project
 ---
 
 <p class="align-center">

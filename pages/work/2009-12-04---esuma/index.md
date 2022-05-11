@@ -4,6 +4,7 @@ cover: "images/logo.jpg"
 location: Spain
 color: white
 categories: web ux design joomla consultancy
+template: project
 ---
 
 ![](./images/1.jpg)

@@ -1,27 +1,9 @@
 ---
-title: "Curriculum vitae"
+title: "Curriculum Vitae"
 menuTitle: CV
 ---
 
 <style>
-.highlight {
-  background-color: rgba(0, 0, 0, 0.01);
-  border: 1px solid #EEE;
-  border-radius: 8px;
-  padding: 30px;
-  font-size: 1.1em;
-  line-height: 1.5em;
-}
-h3 {
-  border-bottom: 1px solid #DDD;
-  padding-bottom: 10px;
-  margin-bottom: 0;
-}
-h4 {
-  text-rendering: optimizeLegibility;
-  font-weight: lighter;
-  line-height: 1.5em;
-}
 .tag {
   margin-right: 5px;
   color: #fff !important;
@@ -36,39 +18,32 @@ h4 {
 .updated {
   text-align: center;
   font-size: 12px;
-  color: #333;
-  margin-top: -30px;
+  margin-top: -10px;
 }
 </style>
 
 <div class="updated">Last updated on March 2022</div>
 
-##Summary
+## Summary
 
-<div class="highlight">
-  <p>A generalist <strong>front-end engineering manager</strong> with a knack for <strong>delightful</strong> and <strong>usable UIs</strong>. Extensive industry experience. From tech start-ups like <a href="http://www.tablecheck.com/en/join/">TableCheck</a> to solid brands like <a href="https://www.bt.com/">British Telecom</a>, <a href="https://www.vodafone.com/">Vodafone</a>, <a href="https://www.unilever.com/">Unilever</a>, <a href="https://www.roh.org.uk/">Royal Opera House</a>, <a href="https://www.barclays.com/">Barclays</a>, <a href="https://www.santander.co.uk/">Santander</a>, <a href="https://www.marksandspencer.com/">M&S</a> and more.</p>
+A generalist **front-end engineering manager** with a knack for **delightful** and **usable UIs**. Extensive industry experience. From tech start-ups like [TableCheck](http://www.tablecheck.com/en/join/) to solid brands like [British Telecom](https://www.bt.com/), [Vodafone](https://www.vodafone.com/), [Unilever](https://www.unilever.com/), [Royal Opera House](https://www.roh.org.uk/), [Barclays](https://www.barclays.com/), [Santander](https://www.santander.co.uk/), [M&S](https://www.marksandspencer.com/) and more.
 
-  <ul style="margin-bottom: 0">
-    <li>Front-end engineering. <strong>20 years experience</strong> using the latest technologies and workflows</li>
-    <li>Strategic and <strong>creative mindset</strong>. Ability to see the big picture and constantly generate new ideas for profitable products and services</li>
-    <li>Marketing and Multimedia experience. Worked in top digital agencies and graduated with a <strong>degree in multimedia</strong></li>
-    <li>Team management. <strong>Led async agile engineering teams</strong> across the world in different timezones</li>
-    <li>Project/People management. Hiring, training, processes to increase productivity, code reviews, 1:1s, perf. reviews</li>
-    <li>Results oriented. Strong focus on problem solving, delivery and meeting deadlines</li>
-    <li>Thrives building <strong>design systems</strong>, user-centered web apps and interactive pieces</li>
-  </ul>
+* Front-end engineering. **20 years experience** using the latest technologies and workflows
+* Strategic and **creative mindset**. Ability to see the big picture and constantly generate new ideas for profitable products and services
+* Marketing and Multimedia experience. Worked in top digital agencies and graduated with a **degree in multimedia**
+* Team management. **Led async agile engineering teams** across the world in different timezones
+* Project/People management. Hiring, training, processes to increase productivity, code reviews, 1:1s, perf. reviews
+* Results oriented. Strong focus on problem solving, delivery and meeting deadlines
+* Thrives building **design systems**, user-centered web apps and interactive pieces
 
-  <h3>Life highlights</h3>
+### Life highlights
 
-  <ul style="margin-bottom: 0">
-    <li>Entrepreneurial spirit. Started to work at age 17 and <a href="/webmarket">co-founded a small digital agency</a> at age 26</li>
-    <li>International and multi-cultural attitude: lived in <a href="https://en.wikipedia.org/wiki/Barcelona">Barcelona</a>, <a href="https://en.wikipedia.org/wiki/Alicante">Alicante</a>, <a href="https://en.wikipedia.org/wiki/Madrid">Madrid</a>, <a href="https://en.wikipedia.org/wiki/London">London</a> and <a href="https://en.wikipedia.org/wiki/Tokyo">Tokyo</a>. Also a bit in Paris and Manila</li>
-    <li>Speaks Spanish, <a href="https://en.wikipedia.org/wiki/Valencian_language">Valencian</a> and English. Learning Japanese</li>
-    <li>Travelled on a <a href="/samurai-route">self-organised motorcycle adventure</a> across the world, from Spain to Japan (5 months & 30.000 Km)</li>
-  </ul>
-</div>
+* Entrepreneurial spirit. Started to work at age 17 and [co-founded a small digital agency](/webmarket) at age 26
+* International and multi-cultural attitude: lived in [Barcelona](https://en.wikipedia.org/wiki/Barcelona), [Alicante](https://en.wikipedia.org/wiki/Alicante), [Madrid](https://en.wikipedia.org/wiki/Madrid), [London](https://en.wikipedia.org/wiki/London) and [Tokyo](https://en.wikipedia.org/wiki/Tokyo). Also a bit in Paris and Manila
+* Speaks Spanish, [Valencian](https://en.wikipedia.org/wiki/Valencian_language) and English. Learning Japanese
+* Travelled on a [self-organised motorcycle adventure](/samurai-route) across the world, from Spain to Japan (5 months & 30.000 Km)
 
-##Skills
+## Skills
 
 My interests and abilities are more aligned with the **creative tracks** (the visual, artistic, interactive and UI/UX side of the front-end work). Although I'm also experienced and comfortable with all the other aspects, like dealing with REST/GraphQL APIs, tooling/configuration, testing, performance optimisation, etc.
 
@@ -132,16 +107,16 @@ These are some technologies and tools that I've been using in the last years.
 * [OpenFrameworks](http://www.openframeworks.cc/) ([C++](https://en.wikipedia.org/wiki/C%2B%2B)), [Processing](https://en.wikipedia.org/wiki/Processing_(programming_language)) ([Java](https://en.wikipedia.org/wiki/Java)), [QT](https://en.wikipedia.org/wiki/Qt_(software)), [DirectX](https://en.wikipedia.org/wiki/DirectX)
 * [NUI](https://en.wikipedia.org/wiki/Natural_user_interface), Hand/skeleton tracking with [Kinect](https://en.wikipedia.org/wiki/Kinect), [OpenNi](http://structure.io/openni) and [OpenCV](http://opencv.org/)
 
-##Experience
+## Experience
 
-###Global Front-end Engineering Manager
+### Global Front-end Engineering Manager
 <h4><span class="tag red-tag">Mar 2020 - Now</span><a class="tag gold-tag" href="http://www.tablecheck.com/en/join/">TableCheck</a><span class="tag blue-tag">Ginza, Tokyo (Japan)</span></h4>
 
 Currently leading TableCheck's front-end team, consisting of 9 engineers of all levels working across 3 different time zones.
 
 Supervised and participated as an individual contributor in the creation of the new booking form, the new global marketing website, the new diner app, the SSO and the merchant portal.
 
-###Senior Frontend Engineer
+### Senior Frontend Engineer
 <h4><span class="tag red-tag">Feb 2019 - Mar 2020</span><a class="tag gold-tag" href="http://www.tablecheck.com/en/join/">TableCheck</a><span class="tag blue-tag">Ginza, Tokyo (Japan)</span></h4>
 
 Successfully led the front-end architecture of insight, TableCheck's data analytics app for the hospitality sector.
@@ -154,7 +129,7 @@ The front-end tech stack involved React 16, GraphQL, Apollo, MobX, Flow, Emotion
 
 CI and code reviews were driven by Gitlab and the back-end involved Amazon AWS, RedShift, Elixir, K8S and other technologies to manage millions of records related with customers' reservations, revenue data, sms messages, surveys data, etc.
 
-###Agile Prototyping Analyst
+### Agile Prototyping Analyst
 <h4><span class="tag red-tag">Mar 2016 - Feb 2019</span><a class="tag gold-tag" href="http://vodafone.com">Vodafone Global Enterprise</a><span class="tag blue-tag">Newbury (UK) & Alicante (Spain)</span></h4>
 
 * Conceptualised, designed, built, tested and supported web apps (mostly SPAs) for the sales & digital operations of the Vodafone Global Enterprise division. Some of them were intended to aid the sales team with the visualisation of the pipeline, revenue and sales forecast, data quality, sales opportunities and other data related with performance. Others were more related with internal comms, problem solving and HR.
@@ -175,9 +150,9 @@ CI and code reviews were driven by Gitlab and the back-end involved Amazon AWS, 
 
 * Also worked with VueJS, Webpack, Highcharts, D3, MaterialUI, WebRTC, Express, CircleCI, GhostJS, HoneyBadger, CodeClimate, Jest, React testing library, JSON API, REST, etc
 
-![](./images/vodafone-home-desk.jpg "My home desk except in winter season :-)")
+![](/cv/images/vodafone-home-desk.jpg "My home desk except in winter season :-)")
 
-###Senior interactive developer
+### Senior interactive developer
 <h4><span class="tag red-tag">Jul 2013 - Nov 2015</span><a class="tag gold-tag" href="http://sapientnitro.com">SapientNitro</a><span class="tag blue-tag">Spitalfields, London (UK)</span></h4>
 
 [SapientNitro](http://sapientnitro.com) was the number #1 digital agency in the UK at the time of my tenure. It's also a division of [Sapient corporation](http://www.sapient.com/), which belongs to the [Publicis group](http://www.publicisgroupe.com/).
@@ -194,7 +169,7 @@ Aside from web development, I also helped with the management of the dev team, o
 
 **May 2015**: (individual work) created an artistic installation that lets users throw fireworks using their hands. The demo was built with [Kinect](http://en.wikipedia.org/wiki/Kinect) and [OpenFrameworks](http://openframeworks.cc/) for a creative technology event in SapientNitro's Spitalfields office. The demo was installed in Eden House's exhibit area:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pgPIYp36Miw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/pgPIYp36Miw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **April - May 2015**: lead developer for the creation of a [new mobile journey](https://m.saga.co.uk/insurance/car-insurance/get-quote/Vehicle) for the car insurance services of [SAGA](http://SAGA.co.uk). Using [MS Visual Studio 2012](https://www.visualstudio.com/), [.Net](https://www.microsoft.com/net), [LESS](http://lesscss.org/), [JavaScript](http://en.wikipedia.org/wiki/JavaScript), [HTML5](http://en.wikipedia.org/wiki/HTML5), [CSS3](http://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3), [jQuery](https://jquery.com/), [Knockout.js](http://knockoutjs.com/) and [Grunt](http://gruntjs.com/).
 
@@ -221,11 +196,11 @@ SapientNitro has lead M&S through quite literally the biggest multi-channel reta
 
 **Jul - Sep 2013**: worked on a microsite for the [ICA (Institute of Contemporary Art)](https://www.ica.org.uk/) in London called [The Art Rules](http://artrules.ica.org.uk). I was mainly focussed working on the physics and animations. Tech used includes: [Ruby on Rails (RoR)](http://rubyonrails.org/), [HAML](http://haml.info/), [Heroku](https://www.heroku.com/), [Github](https://github.com/) (including issue tracking), [SASS](http://sass-lang.com/), [CSS3](http://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3) animations and Javascript [Box2d 2D physics]([Box2d](https://code.google.com/p/box2dweb/)). It got [shortlisted in theFWA](http://www.thefwa.com/shortlist/art-rules) and showcased for a few months on [Eden House's coffee & exhibit space](https://instagram.com/p/jHwVviLfXP/?taken-by=gazpachu).
 
-![](./images/sapient-devs.jpg "With my co-workers, Owen and Mark during 'frinks' (Friday drinks)")
+![](/cv/images/sapient-devs.jpg "With my co-workers, Owen and Mark during 'frinks' (Friday drinks)")
 
-![](./images/sapient-toys.jpg "We had many toys...")
+![](/cv/images/sapient-toys.jpg "We had many toys...")
 
-###Creative Technologist
+### Creative Technologist
 <h4><span class="tag red-tag">Aug 2012 - Jun 2013</span><a class="tag gold-tag" href="http://www.wcrs.com">WCRS</a><span class="tag blue-tag">Oxford Circus, London (UK)</span></h4>
 
 [WCRS](http://www.wcrs.com) belongs to the [Engine Group](http://www.theenginegroup.com), which was the number #5 digital agency in the UK at the time of my tenure.
@@ -259,7 +234,7 @@ UPDATE: the articles are no longer available at WCRS' blog, so I published them 
 * [An introduction to mobile development](/an-introduction-to-mobile-development)
 * [If content is king, data is queen](/if-content-is-king-data-is-queen/)
 
-![](./images/wcrs-tech-team.jpg "My co-worker, Silvia Rebelo, showing our new Tech Team area")
+![](/cv/images/wcrs-tech-team.jpg "My co-worker, Silvia Rebelo, showing our new Tech Team area")
 
 ###Digital developer
 <h4><span class="tag red-tag">Feb 2011 - Sep 2012</span><a class="tag gold-tag" href="http://www.roh.org.uk">Royal Opera House</a><span class="tag blue-tag">Covent Garden, London (UK)</span></h4>
@@ -281,11 +256,11 @@ Relevant articles:
 * [Our website, a look forward](/our-website-a-look-forward)
 * [The Royal Opera House in numbers 2011/12](/the-royal-opera-house-in-numbers)
 
-![](./images/roh-dev-team.jpg "With my co-workers, Aaron and Jamie")
+![](/cv/images/roh-dev-team.jpg "With my co-workers, Aaron and Jamie")
 
 [Read the full ROH case study](/roh)
 
-###Co-founder, CTO & Web developer
+### Co-founder, CTO & Web developer
 <h4><span class="tag red-tag">Sep 2006 - Jul 2012</span><a class="tag gold-tag" href="http://www.webmarket.es">Webmarket S.C.</a><span class="tag blue-tag">Alicante (Spain)</span></h4>
 
 Co-founded a small digital agency specialised in design and development of multimedia applications and websites based on [Adobe Flash (AS2)](http://help.adobe.com/en_US/AS2LCR/Flash_10.0/help.html), [MdM Zinc](http://www.multidmedia.com/software/zinc/), [Wordpress](https://wordpress.org/) and front-end technologies.
@@ -300,24 +275,24 @@ Some of the bespoke products we created:
 
 We also provided [web hosting](http://en.wikipedia.org/wiki/Web_hosting_service) with [cPanel](http://cpanel.com/)/[WHMCS](http://www.whmcs.com/) and [digital marketing](http://en.wikipedia.org/wiki/Digital_marketing) services to our clients (mainly [SMEs](http://en.wikipedia.org/wiki/Small_and_medium-sized_enterprises)) and collaborated with other freelance designers, developers and agencies in Spain.
 
-###Web design teacher
+### Web design teacher
 <h4><span class="tag red-tag">Feb 2009 - May 2009</span><a class="tag gold-tag" href="https://www.esuma.com/">ESUMA</a><span class="tag blue-tag">Alicante (Spain)</span></h4>
 
 Web design teacher in the Master of Marketing and Advertising of ESUMA
 
-###Joomla web designer / developer
+### Joomla web designer / developer
 <h4><span class="tag red-tag">Mar 2008 - Sep 2008</span><a class="tag gold-tag" href="http://www.webempresa.com">Webempresa</a><span class="tag blue-tag">Barcelona (Spain)</span></h4>
 
 Web development and design using Dreamweaver, Fireworks, Photoshop, Joomla CMS, Joomla Components, HTML, CSS, PHP, MySQL, JavaScript and Google Apps.
 
 Some of the projects I worked on include: [Escuela de cocina Hoffman](http://www.hofmann-bcn.com/), [Hoyesarte.com](http://www.hoyesarte.com/), [Gimnasio femenino 30 minutos](http://www.30minutos.net/), Aarcs, [Altair consultores](http://www.altair-consultores.com/), [Aurall](http://www.aurall.com/), Aitor Aurrekoetxea, [Baldirialeu](http://complexbaldirialeu.com/), Dimas, BGT Musics, [Fama Systems](http://www.fama-systems.com/), [Geograma](http://www.geograma.com/en/), Infolimpieza, Lluisa Sallent, Lodisoft, LOPDYA, Segurodelhogar, Torques, Noelia Compte, Trabajos y reformas, Mongrafic, Norma3, NRC Courier, Orbitel, Lexicos traducciones, Agrocesped, ByPerson, Circulo hostelero, Training home,...
 
-###Web designer / developer
+### Web designer / developer
 <h4><span class="tag red-tag">Sep 2001 - Sep 2006</span><span class="tag gold-tag">Freelance</span><span class="tag blue-tag">Múltiple locations</span></h4>
 
 Freelance web design and development for local [SMEs](http://en.wikipedia.org/wiki/Small_and_medium-sized_enterprises) using [Frontpage](http://en.wikipedia.org/wiki/Microsoft_FrontPage), [Photoimpact](http://en.wikipedia.org/wiki/Ulead_PhotoImpact), [Sound Forge](http://en.wikipedia.org/wiki/Sound_Forge), [Power Director](http://www.cyberlink.com/downloads/trials/powerdirector-ultra/download_en_US.html), [Premiere](http://en.wikipedia.org/wiki/Adobe_Premiere_Pro), [Dreamweaver](http://en.wikipedia.org/wiki/Adobe_Dreamweaver), [Fireworks](http://en.wikipedia.org/wiki/Fireworks), [Photoshop](http://en.wikipedia.org/wiki/Adobe_Photoshop), [Freehand](http://en.wikipedia.org/wiki/Adobe_FreeHand), [Flash](http://en.wikipedia.org/wiki/Adobe_Flash), [ActionScript](http://en.wikipedia.org/wiki/ActionScript) 1 and 2, XML, HTML, CSS, PHP, MySQL, JavaScript and [PHP-Nuke](http://en.wikipedia.org/wiki/PHP-Nuke).
 
-###Software Engineer
+### Software Engineer
 <h4><span class="tag red-tag">Sep 2003 - Jul 2005</span><span class="tag gold-tag">Slater Software Laboratories S.L.</span><span class="tag blue-tag">Cuzco, Madrid (Spain)</span></h4>
 
 Participated in the development of three desktop applications for real-time TV production, from initial conceptualisation to final development (HP business partner). Based on [C++](http://en.wikipedia.org/wiki/C%2B%2B), [QT](http://www.qt.io/), [DirectX](http://en.wikipedia.org/wiki/DirectX) 9 and other API’s.
@@ -328,54 +303,54 @@ Solid experience in C++ OO programming, QT 3.2, DirectX 9 (DirectMusic, DirectAu
 
 Working experience in DSP (Sound effects, spectrum analysers, Oscilloscopes, sound editing programming, multi Channel (I/O) audio engines.
 
-###IT computer technician
+### IT computer technician
 <h4><span class="tag red-tag">Oct 2001 - Jul 2002</span><span class="tag gold-tag">PC City Sverige AB</span><span class="tag blue-tag">Alicante (Spain)</span></h4>
 
 IT support for customers and custom builds of desktop computers
 
-###CTO & Network Administrator
+### CTO & Network Administrator
 <h4><span class="tag red-tag">Sep 2001 - Nov 2001</span><span class="tag gold-tag">Times Cafe</span><span class="tag blue-tag">Alicante (Spain)</span></h4>
 
 Designed a technical implementation for a local area network in a cyber coffee shop. Purchased the equipment and software. Installed all the machines and programs. Managed the day to day computer rental operations and maintenance.
 
-###Junior web designer / developer
+### Junior web designer / developer
 <h4><span class="tag red-tag">May 2001 - Aug 2001</span><span class="tag gold-tag">Grupo Odessa S.L.</span><span class="tag blue-tag">San Juan, Alicante (Spain)</span></h4>
 
 Built websites for [SMEs](http://en.wikipedia.org/wiki/Small_and_medium-sized_enterprises) using XHTML, CSS, Flash 5, Photoshop and Javascript
 
-###Computer technician
+### Computer technician
 <h4><span class="tag red-tag">Jan 2000 - May 2000</span><span class="tag gold-tag">BEEP</span><span class="tag blue-tag">Alicante (Spain)</span></h4>
 
 IT support for customers, retail assistant and custom builds of desktop computers
 
-###Computer technician
+### Computer technician
 <h4><span class="tag red-tag">Oct 1999 - Jan 2000</span><span class="tag gold-tag">Necomplus</span><span class="tag blue-tag">Alicante (Spain)</span></h4>
 
 IT support to update the company software installed on the customers machines to avoid the “Y2K effect”.
 
-##Education
+## Education
 
-###BA & Sc in Multimedia, minor in web engineering (4 years)
+### BA & Sc in Multimedia, minor in web engineering (4 years)
 <h4><span class="tag red-tag">Oct 2006 - 2017</span><a class="tag gold-tag" href="http://www.uoc.edu">Universitat Oberta de Catalunya</a><span class="tag blue-tag">Online (4 years, 240 ECTS)</span></h4>
 
 Homologated in the EU. Euro-Inf certified. 60 ECTS = 1700 hours
 
 Multimedia foundations, Video, English I, II, Programming, Mathematics I, II, Interactive narrative, Information architecture, Administration and management of organisations, Languages ​​and Web Standards, Graphic Design, Image and visual language, Web Programming, 3D graphics, Physics, Animation, Design of interfaces, Integrating digital content, Networks, Database Design, Interactive Media, Processing and publication of image and video, Audio editing and publishing, Digital composition, Project Management, Market and legislation, Methodology and project development, Creativity and aesthetics, Digital Photography, Advanced Web Programming, Safety and quality in web servers, User Testing, Usability, Virtual Reality, Interaction Design, Content Management Systems, Publication and distribution platforms, Audiovisual documentation, Software Engineering, OO Design and programming, Analysis and design patterns, Entrepreneurship of organisations.
 
-###Certificate in profesional videogames creation (1 year)
-####<span class="tag red-tag">Oct 2002 - Jun 2003</span><a class="tag gold-tag" href="http://www.upf.edu/en/">Universitat Pompeu Fabra</a><span class="tag blue-tag">Barcelona (Spain)</span>
+### Certificate in profesional videogames creation (1 year)
+<span class="tag red-tag">Oct 2002 - Jun 2003</span><a class="tag gold-tag" href="http://www.upf.edu/en/">Universitat Pompeu Fabra</a><span class="tag blue-tag">Barcelona (Spain)</span>
 
 C++, OpenGL, Direct3D, Quadtree, Octree, PVS, Clipping with LOD’s, BSP’s, Portals, ROAM and 3D Studio SDK, IA (FSM, DFA and FA programming experience. Syncronized IA’s programming using Rules Sytem. Theoretical Knowledge in Boids algorithm and Path Finding A*), Gameplay programming (Coldet), Motion Capture systems, Scripting with LUA, Skeletton animation, Cal3D. Working Knowledge in EAX HD 4.0, BASS, PortAudio and FMOD
 
-###HND in Computer Science (2 years)
+### HND in Computer Science (2 years)
 <h4><span class="tag red-tag">Oct 1998 - Jun 2000</span><a class="tag gold-tag" href="http://iesmarenostrum.edu.gva.es/">Instituto Mare Nostrum</a><span class="tag blue-tag">Alicante (Spain)</span></h4>
 
 Pascal, Assembler, Cobol, Delphi, SQL (Access), C, OO programming, Linux, Network Management, Business Administration, English language
 
-###High School Diploma (3 years)
+### High School Diploma (3 years)
 <h4><span class="tag red-tag">Oct 1994 - Jun 1997</span><a class="tag gold-tag" href="http://www.iesbahiadebabel.com/">IB Bahía Babel</a><span class="tag blue-tag">Alicante (Spain)</span></h4>
 
-##Courses, events, conferences and certifications
+## Courses, events, conferences and certifications
 
 * Sep 2018: React Alicante, Spain
 * Jun 2018: Alicante Frontend: agile development in real life
@@ -411,7 +386,7 @@ Pascal, Assembler, Cobol, Delphi, SQL (Access), C, OO programming, Linux, Networ
 * Feb 2002: Advanced Shaders (cg) programming
 * Mar 2002: Business Management of the videogames industry, ArtFutura Festival - Ubi Soft
 
-##Recognitions
+## Recognitions
 
 * **Aug 2021**: 1st position (Grand Prize) in the second TableCheck Hackathon. Issued by TableCheck
 

@@ -4,6 +4,7 @@ cover: "images/logo.jpg"
 location: UK
 color: black
 categories: wcrs prototype webcam inverted
+template: project
 ---
 
 ![](./images/1.jpg)

@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: Spain
 color: "#444"
 categories: web joomla webmarket inverted
+template: project
 ---
 
 ![](./images/1.jpg)

@@ -4,6 +4,7 @@ cover: "images/logo.jpg"
 location: UK
 color: "#fb0068"
 categories: sapientnitro web prototype animation box2d canvas inverted
+template: project
 ---
 
 <p class="align-center">

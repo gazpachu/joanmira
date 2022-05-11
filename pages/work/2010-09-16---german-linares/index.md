@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: Spain
 color: "#292929"
 categories: web wordpress inverted
+template: project
 ---
 
 ![](./images/1.jpg)

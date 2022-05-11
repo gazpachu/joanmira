@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: Spain
 color: white
 categories: web wordpress design ux customer
+template: project
 ---
 
 ![](./images/1.jpg)

@@ -4,6 +4,7 @@ cover: "images/logo.jpg"
 location: Spain
 color: "#a3a2a8"
 categories: web flash joomla php-nuke ux design
+template: project
 ---
 
 <p class="align-center">

@@ -4,6 +4,7 @@ cover: "images/logo.jpg"
 location: UK
 color: white
 categories: wcrs open-source web installation prototype ux design
+template: project
 ---
 
 ![](./images/1.jpg)

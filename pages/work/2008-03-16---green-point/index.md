@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: Spain
 color: white
 categories: video 3d webmarket
+template: project
 ---
 
 ![](./images/1.jpg)

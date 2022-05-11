@@ -4,6 +4,7 @@ cover: "images/logo.png"
 location: UK
 color: white
 categories: web wordpress design
+template: project
 ---
 
 ![Content coming soon](./images/1.jpg)
