@@ -7,7 +7,7 @@ function findImages(directory) {
   fs.readdirSync(directory).forEach(file => {
     const absolutePath = path.join(directory, file);
     if (fs.statSync(absolutePath).isDirectory()) return findImages(absolutePath);
-    else if (absolutePath.includes('.jpg') && !absolutePath.includes('-mobile.jpg')) return files.push(absolutePath);
+    else if ((absolutePath.includes('.jpg') || absolutePath.includes('.png')) && !absolutePath.includes('-mobile.')) return files.push(absolutePath);
     else return;
   });
 }
