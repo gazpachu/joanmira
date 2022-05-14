@@ -3,7 +3,7 @@ title: "SapientNitro Fireworks installation"
 cover: "images/logo.png"
 location: UK
 color: "#58B85F"
-categories: sapientnitro prototype design kinect openni openframeworks installation inverted open-source
+categories: sapientnitro prototype design kinect openni openframeworks creative-tech inverted open-source
 template: project
 ---
 

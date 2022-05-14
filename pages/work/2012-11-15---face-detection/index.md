@@ -3,7 +3,7 @@ title: "Xmas card with face detection"
 cover: "images/logo.png"
 location: UK
 color: "#714762"
-categories: wcrs prototype design webcam installation inverted open-source
+categories: wcrs prototype design webcam creative-tech inverted open-source
 template: project
 ---
 

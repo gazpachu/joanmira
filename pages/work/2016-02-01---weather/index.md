@@ -3,7 +3,7 @@ title: "React weather"
 cover: "images/logo.jpg"
 location: UK
 color: "#FFF"
-categories: react web cover open-source
+categories: react web-app cover open-source
 template: project
 ---
 

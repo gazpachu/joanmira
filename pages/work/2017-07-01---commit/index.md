@@ -3,7 +3,7 @@ title: "Commit"
 cover: "images/logo.png"
 location: UK
 color: "#333"
-categories: vodafone react redux webpack web inverted
+categories: vodafone react redux webpack web-app inverted
 template: project
 ---
 

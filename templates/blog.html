@@ -4,7 +4,7 @@
     <style>
       #blog-content {
         padding: 0;
-        margin: 0;
+        margin: 20px 0;
         display: grid;
         grid-gap: 24px;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -19,6 +19,11 @@
         padding: 0;
         overflow: hidden;
         height: 100%;
+      }
+      @media screen and (max-width: 768px) {
+        #blog-content .list-item {
+          border-radius: 0;
+        }
       }
       #blog-content .list-item-title {
         display: -webkit-box;
@@ -44,6 +49,5 @@
       <div id="page-content"></div>
       <ul id="blog-content"></ul>
     </div>
-    <div id="scripts"></div>
   </body>
 </html>

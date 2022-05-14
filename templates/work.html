@@ -2,11 +2,15 @@
 <html lang="en">
   <head>
     <style>
-      .work {
+      #main-wrapper {
         text-align: center;
         max-width: 100%;
+        padding: 0;
       }
-      h2 {
+      .work h1 {
+        padding: 0 20px;
+      }
+      .work h2 {
         font-size: 20px;
         line-height: 30px;
         margin: 30px auto;
@@ -56,7 +60,7 @@
         opacity: 0;
         transition: all 0.35s, transform 0.35s;
         pointer-events: none;
-        border-color: #000;
+        border-color: #000 !important;
       }
       #work-content li:before {
         border-top: 1px solid;
@@ -123,7 +127,7 @@
       }
       #work-content li.inverted:before,
       #work-content li.inverted:after {
-        border-color: white;
+        border-color: white !important;
       }
       #work-content li.inverted a,
       #work-content li.inverted .name,
@@ -164,21 +168,21 @@
     </style>
   </head>
   <body>
-    <div id="main-wrapper" class="work">
-      <div id="page-content"></div>
-      <div id="filters">
-        <button id="all-filter" class="active" data-category="all">All</button>
-        <button data-category="website">Website</button>
-        <button data-category="web-app">Web App</button>
-        <button data-category="mobile-app">Mobile App</button>
-        <button data-category="desktop-app">Desktop App</button>
-        <button data-category="creative-tech">Creative Tech</button>
-        <button data-category="open-source">Open Source</button>
-        <button data-category="other">Other</button>
+    <div id="main-wrapper">
+      <div class="work">
+        <div id="page-content"></div>
+        <div id="filters">
+          <button id="all-filter" class="active" data-category="all">All</button>
+          <button data-category="web">Website</button>
+          <button data-category="web-app">Web App</button>
+          <button data-category="mobile">Mobile App</button>
+          <button data-category="desktop">Desktop App</button>
+          <button data-category="creative-tech">Creative Tech</button>
+          <button data-category="open-source">Open Source</button>
+        </div>
       </div>
+      <ul id="work-content"></ul>
     </div>
-    <ul id="work-content"></ul>
-    <div id="scripts"></div>
     <script>
       document.addEventListener("DOMContentLoaded", function() {
         const filterButtons = document.querySelectorAll('#filters button');

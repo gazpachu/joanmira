@@ -24,8 +24,8 @@ switch (command) {
     process.exit(1);
 }
 
-async function build(folder) {
-  if (!folder) {
+async function build(folderOrFile) {
+  if (!folderOrFile) {
     console.log('Cleaning public folder...');
     await fs.emptyDir('public/');
 
@@ -48,17 +48,23 @@ async function build(folder) {
     console.log('Renaming work files...');
     await renameFolders('public/work', dateRegEx, '');
   }
-  await processDirectory(folder || 'pages', processPage);
+
+  const isFile = folderOrFile && folderOrFile.includes('.md');
+  if (isFile) {
+    processPage(folderOrFile);
+  } else {
+    await processDirectory(folderOrFile || 'pages', processPage);
+  }
 }
 
-async function develop(folder, port) {
-  await build(folder);
+async function develop(folderOrFile, port) {
+  await build(folderOrFile);
   const server = startServer(port);
   const watcher = chokidar.watch(['pages/', 'static/', 'templates/']).on('change', async (path, _) => {
     console.log(`Detected change in file ${path}. Restarting development server.`);
     server.close();
     await watcher.close();
-    await develop(folder, port);
+    await develop(folderOrFile, port);
   });
 }
 
@@ -110,11 +116,9 @@ async function processPage(pagePath) {
   const workContentElement = document.getElementById('work-content');
   const headerElement = headerDocument.getElementById('header');
   const footerElement = footerDocument.getElementById('footer');
-  const mainWrapper = document.getElementById('main-wrapper');
   const htmlElement = document.getElementsByTagName('html');
   const bodyElement = document.querySelector('body');
   const headElement = document.querySelector('head');
-  const scriptsElement = document.getElementById('scripts');
   const pagePathParts = pagePath.replace('pages/', '').split('/');
   const pageName = pagePathParts.pop().split('.md')[0];
   let targetPath = pagePathParts.join('/');
@@ -127,15 +131,18 @@ async function processPage(pagePath) {
       process.exit(1);
   }
 
-  if (mainWrapper) {
-    mainWrapper.prepend(headerElement);
-  } else {
-    bodyElement.prepend(headerElement);
-  }
+  bodyElement.prepend(headerElement);
   bodyElement.append(footerElement);
 
   if (pageContentElement) {
     const image = `/${targetPath}/${frontmatter.cover}`;
+    let pageTitle = '<h1>${frontmatter.title}</h1>';
+    if (frontmatter.title && frontmatter.subtitle) {
+      pageTitle = `<hgroup><h1>${frontmatter.title}</h1><h2>${frontmatter.subtitle}</h2></hgroup>`;
+    }
+    if (frontmatter.shouldHideTitle) {
+      pageTitle = '';
+    }
     pageContentElement.innerHTML = `
     ${frontmatter.cover
       ? `<picture>
@@ -145,9 +152,7 @@ async function processPage(pagePath) {
         </picture>`
       : ''}
     <div class="post-content">
-      ${frontmatter.title && frontmatter.subtitle
-        ? `<hgroup><h1>${frontmatter.title}</h1><h2>${frontmatter.subtitle}</h2></hgroup>` : ''}
-      ${frontmatter.shouldHideTitle ? '' : `<h1>${frontmatter.title}</h1>`}
+      ${pageTitle}
       ${parsedHtml}
     </div>`;
   } else {
@@ -171,14 +176,8 @@ async function processPage(pagePath) {
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/main.css" />
   <link rel="stylesheet" href="/css/header.css" />
+  <script src="/js/main.js" type="application/javascript"></script>
   ${headElement.innerHTML}`;
-
-  if (scriptsElement) {
-    scriptsElement.innerHTML = `
-      ${scriptsElement.innerHTML}
-      <script src="/js/main.js" type="application/javascript" />
-    `;
-  }
 
   if (frontmatter.template === 'blog' && blogContentElement) {
     await processDirectory('pages/blog', processListingItem, blogContentElement, 'blog', frontmatter.category);
@@ -225,11 +224,13 @@ async function processListingItem(pagePath, contentElement, listingSlug, categor
         <source srcset="${slug}/${frontmatter.cover}" type="image/jpeg">
         <img class="logo" src="${slug}/${frontmatter.cover}" alt="${frontmatter.title}" width="250" height="170" loading="lazy">
       </picture>
-      <h2 class="name">${frontmatter.title}</h2>
-      <p class="meta">
-        <span class="date">${new Date(date).getFullYear()}</span>
-        <span class="country">${frontmatter.location}</span>
-      </p>
+      <div class="project-content">
+        <h2 class="name">${frontmatter.title}</h2>
+        <p class="meta">
+          <span class="date">${new Date(date).getFullYear()}</span>
+          <span class="country">${frontmatter.location}</span>
+        </p>
+      </div>
     </a>
   </li>
   `}`;

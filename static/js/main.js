@@ -21,4 +21,11 @@ document.addEventListener("DOMContentLoaded", function() {
       html.setAttribute('data-theme', 'dark');
     }
   });
+
+  const mainMenuItems = document.querySelectorAll('#main-menu li');
+  mainMenuItems && mainMenuItems.forEach(item => {
+    if (window.location.pathname.includes(item.getAttribute('data-menu-item'))) {
+      item.classList.add('active');
+    }
+  });
 });

@@ -14,34 +14,23 @@
       <h1>JOAN MIRA</h1>
       <img class="cursor" src="data:image/gif;base64,R0lGODlhCgABAIAAAP///////yH/C05FVFNDQVBFMi4wAwEAAAAh+QQFBwABACwAAAAACgABAAACA4SPBQAh+QQFBwABACwAAAAAAQABAAACAkwBACH5BAUHAAEALAAAAAABAAEAAAICTAEAIfkEBQcAAQAsAAAAAAEAAQAAAgJMAQAh+QQJBwABACwAAAAACgABAAACA4yPBQAh+QQFBwABACwAAAAAAQABAAACAkwBACH5BAUHAAEALAAAAAABAAEAAAICTAEAIfkEBQcAAQAsAAAAAAEAAQAAAgJMAQAh+QQFBwABACwAAAAAAQABAAACAkwBACH5BAkHAAEALAAAAAABAAEAAAICTAEAOw==" alt="Cursor" />
     </a>
-    <ul class="main-menu ">
-      <li>
-        <a href="/blog" aria-current="page" class="">Blog</a>
-      </li>
-      <li>
-        <a href="/about">About</a>
-      </li>
-      <li>
-        <a href="/work">Work</a>
-      </li>
-      <li class="right">
-        <a class="menu-btn" href="/contact">Contact</a>
-        <a class="search-button" aria-label="Search" href="/search/">
-          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 612.01 612.01" xml:space="preserve">
+    <div class="controls">
+      <a class="search-button" aria-label="Search" href="/search/">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 612.01 612.01" xml:space="preserve">
+          <g>
+          <g xmlns="http://www.w3.org/2000/svg">
             <g>
-            <g xmlns="http://www.w3.org/2000/svg">
               <g>
-                <g>
-                  <path d="M606.209,578.714L448.198,423.228C489.576,378.272,515,318.817,515,253.393C514.98,113.439,399.704,0,257.493,0     C115.282,0,0.006,113.439,0.006,253.393s115.276,253.393,257.487,253.393c61.445,0,117.801-21.253,162.068-56.586     l158.624,156.099c7.729,7.614,20.277,7.614,28.006,0C613.938,598.686,613.938,586.328,606.209,578.714z M257.493,467.8     c-120.326,0-217.869-95.993-217.869-214.407S137.167,38.986,257.493,38.986c120.327,0,217.869,95.993,217.869,214.407     S377.82,467.8,257.493,467.8z" fill="#000000" data-original="#000000"></path>
-                </g>
+                <path d="M606.209,578.714L448.198,423.228C489.576,378.272,515,318.817,515,253.393C514.98,113.439,399.704,0,257.493,0     C115.282,0,0.006,113.439,0.006,253.393s115.276,253.393,257.487,253.393c61.445,0,117.801-21.253,162.068-56.586     l158.624,156.099c7.729,7.614,20.277,7.614,28.006,0C613.938,598.686,613.938,586.328,606.209,578.714z M257.493,467.8     c-120.326,0-217.869-95.993-217.869-214.407S137.167,38.986,257.493,38.986c120.327,0,217.869,95.993,217.869,214.407     S377.82,467.8,257.493,467.8z" fill="#000000" data-original="#000000"></path>
               </g>
             </g>
-            </g>
-          </svg>
-        </a>
-        <div role="button" class="theme-toggle">
-          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 302.4 302.4" xml:space="preserve">
-            <g>
+          </g>
+          </g>
+        </svg>
+      </a>
+      <div role="button" class="theme-toggle">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 302.4 302.4" xml:space="preserve">
+          <g>
             <g xmlns="http://www.w3.org/2000/svg">
               <g>
                 <path d="M204.8,97.6C191.2,84,172,75.2,151.2,75.2s-40,8.4-53.6,22.4c-13.6,13.6-22.4,32.8-22.4,53.6s8.8,40,22.4,53.6    c13.6,13.6,32.8,22.4,53.6,22.4s40-8.4,53.6-22.4c13.6-13.6,22.4-32.8,22.4-53.6S218.8,111.2,204.8,97.6z M190.4,190.4    c-10,10-24,16-39.2,16s-29.2-6-39.2-16s-16-24-16-39.2s6-29.2,16-39.2s24-16,39.2-16s29.2,6,39.2,16s16,24,16,39.2    S200.4,180.4,190.4,190.4z" fill="#000000" data-original="#000000"></path>
@@ -89,7 +78,20 @@
             </g>
           </g>
         </svg>
-        </button>
+      </div>
+    </div>
+    <ul id="main-menu">
+      <li data-menu-item="blog">
+        <a href="/blog" aria-current="page" class="">Blog</a>
+      </li>
+      <li data-menu-item="about">
+        <a href="/about">About</a>
+      </li>
+      <li data-menu-item="work">
+        <a href="/work">Work</a>
+      </li>
+      <li data-menu-item="contact">
+        <a href="/contact">Contact</a>
       </li>
     </ul>
   </div>

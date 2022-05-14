@@ -3,7 +3,7 @@ title: "Bunjin RSS Reader"
 cover: "images/logo.png"
 location: Japan
 color: "#F9D9EB"
-categories: react firebase rss open-source web
+categories: react firebase rss open-source web-app
 template: project
 ---
 

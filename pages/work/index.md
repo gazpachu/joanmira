@@ -4,6 +4,6 @@ template: work
 shouldHideTitle: true
 ---
 
-# My Binary Sugar Treats
+# Deep Passion for the Web
 
-## These are some of my works (**sorted by date**) as a permanent employee of agencies/companies, as a freelancer or for personal projects since 2000
+## Works **sorted by date** since year 2000

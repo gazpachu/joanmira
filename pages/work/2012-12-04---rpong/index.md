@@ -3,7 +3,7 @@ title: "rPong demo"
 cover: "images/logo.jpg"
 location: UK
 color: white
-categories: wcrs open-source web installation prototype ux design cover webcam
+categories: wcrs open-source web creative-tech prototype ux design cover webcam
 template: project
 ---
 

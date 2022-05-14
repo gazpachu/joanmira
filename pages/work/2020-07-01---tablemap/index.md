@@ -3,7 +3,7 @@ title: "TableMap: Real-time resturant reservations"
 cover: "images/logo.png"
 location: Japan
 color: "#ffc548"
-categories: react mapbox tablekit python web
+categories: react mapbox tablekit python web-app prototype
 template: project
 ---
 

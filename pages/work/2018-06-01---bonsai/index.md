@@ -3,7 +3,7 @@ title: "Bonsai"
 cover: "images/logo.png"
 location: UK
 color: "#5e2750"
-categories: vodafone react redux webpack web ux design inverted
+categories: vodafone react redux webpack web-app ux design inverted
 template: project
 ---
 

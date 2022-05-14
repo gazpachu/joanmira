@@ -3,7 +3,7 @@ title: "QRCube game"
 cover: "images/logo.jpg"
 location: UK
 color: white
-categories: wcrs open-source web installation prototype ux design
+categories: wcrs open-source web creative-tech prototype ux design
 template: project
 ---
 

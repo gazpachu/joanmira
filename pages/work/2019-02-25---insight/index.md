@@ -3,7 +3,7 @@ title: "Insight: TableCheck's Data Analytics"
 cover: "images/logo.png"
 location: Japan
 color: "#488DFF"
-categories: react graphql apollo emotion react-vis web inverted
+categories: react graphql apollo emotion react-vis web-app inverted
 template: project
 ---
 

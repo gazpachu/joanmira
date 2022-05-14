@@ -3,7 +3,7 @@ title: "Stack"
 cover: "images/logo.png"
 location: UK
 color: "#404647"
-categories: vodafone angular grunt sass web highcharts animation inverted
+categories: vodafone angular grunt sass web-app highcharts animation inverted
 template: project
 ---
 

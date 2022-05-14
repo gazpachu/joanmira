@@ -3,7 +3,7 @@ title: "TableCheck's new Diner App"
 cover: "images/logo.png"
 location: Japan
 color: "#96A1FF"
-categories: react emotion mapbox maps web prototype
+categories: react emotion mapbox maps web-app prototype
 template: project
 ---
 

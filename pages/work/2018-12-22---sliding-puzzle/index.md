@@ -3,7 +3,7 @@ title: "Sliding puzzle"
 cover: "images/logo.png"
 location: Spain
 color: "#4F7486"
-categories: web react redux design ux inverted open-source
+categories: web-app react redux design ux inverted open-source prototype
 template: project
 ---
 

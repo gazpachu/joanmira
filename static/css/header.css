@@ -1,33 +1,39 @@
 #header {
+  margin: 0 auto;
+  padding: 0;
   width: 100%;
   text-align: center;
-}
-
-@media screen and (max-width: 768px) {
-  #header {
-    padding-top: 16px;
-  }
+  max-width: var(--content-max-width);
 }
 
 .header-content {
   position: relative;
-  margin: 0 auto;
+  margin: 0 var(--desktop-gutter);
   border-bottom: 1px solid;
   border-bottom-color: rgba(0,0,0,.15);
 }
 
-[data-theme="dark"] .header-content {
+@media screen and (max-width: 768px) {
+  #header {
+    padding: var(--mobile-gutter) 0 0;
+  }
+  .header-content {
+    margin: 0;
+  }
+}
+
+[data-theme="dark"] #header {
   filter: invert(100%);
 }
 
-.header-content h1 {
+#header h1 {
   font-size: 18px;
   display: inline-block;
   color: black;
   letter-spacing: 0;
 }
 
-.header-content .logo {
+#header .logo {
   display: block;
   position: absolute;
   text-decoration: none;
@@ -37,13 +43,7 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 768px) {
-  .header-content .logo {
-    position: initial;
-  }
-}
-
-.header-content .logo-symbol {
+#header .logo-symbol {
   stroke: black;
   fill: black;
   margin-right: 10px;
@@ -52,7 +52,7 @@
   top: -4px;
 }
 
-.header-content .cursor {
+#header .cursor {
   margin-left: 3px;
   position: absolute;
   top: 24px;
@@ -60,7 +60,13 @@
   filter: invert(100%);
 }
 
-.main-menu {
+@media screen and (max-width: 768px) {
+  #header .logo {
+    position: initial;
+  }
+}
+
+#main-menu {
   position: relative;
   margin: 0;
   width: 100%;
@@ -70,22 +76,22 @@
 }
 
 @media screen and (max-width: 768px) {
-  .main-menu {
+  #main-menu {
     height: auto;
   }
 }
 
-.main-menu li {
+#main-menu li {
   display: inline-block;
   position: relative;
 }
 
-.main-menu li a,
-.main-menu li div {
+#main-menu li a {
   display: inline-block;
   position: relative;
   color: black;
   padding: 0;
+  height: 22px;
   font-size: 12px;
   font-weight: normal;
   cursor: pointer;
@@ -96,97 +102,82 @@
   border-style: solid;
 }
 
-.main-menu li a:focus,
-.main-menu li div:focus {
+#main-menu li a:focus,
+#main-menu li div:focus {
   background: none;
 }
 
-.main-menu li a:hover,
-.main-menu li div:hover {
+#main-menu li a:hover,
+#main-menu li div:hover {
   color: black;
 }
 
+#main-menu li.active a::after,
+#main-menu li a:hover::after {
+  display: block;
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 28px;
+  width: 100%;
+  height: 1px;
+  background: rgba(0,0,0,.67);
+}
+
+.controls {
+  margin: 0 0 10px 0;
+}
+
 @media screen and (min-width: 769px) {
-  .header-content .logo:hover {
+  #header .logo:hover {
     border-bottom: 1px solid;
     border-bottom-color: rgba(0,0,0,.67);
   }
-  .main-menu li a,
-  .main-menu li div {
+  #main-menu li a,
+  #main-menu li div {
     padding: 48px 0 0;
     height: 79px;
   }
-  .main-menu li a:hover::after {
-    display: block;
-    position: absolute;
-    content: "";
-    left: 0;
+  #main-menu li.active a::after,
+  #main-menu li a:hover::after {
     top: 79px;
-    width: 100%;
-    height: 1px;
-    background: rgba(0,0,0,.67);
   }
-  .main-menu li.right {
+  .controls {
     position: absolute;
+    margin: 0;
     right: 0;
-    top: 0;
-  }
-  .main-menu .menu-btn {
-    border: 1px solid rgba(0,0,0,.33);
-    padding: 2px 6px 0;
-    height: 24px;
-    border-radius: 4px;
-    cursor: pointer;
-    white-space: nowrap;
-    transition: background-color ease 0.3s;
-    margin-right: 5px;
-    margin-top: 42px;
-  }
-  
-  .main-menu .menu-btn:hover {
-    border-color: rgba(0,0,0,.67);
-    background-color: rgba(0,0,0,.1);
+    top: 42px;
   }
 }
 
-.main-menu .search-button,
-.main-menu .theme-toggle {
+.controls .search-button,
+.controls .theme-toggle {
   margin-left: 12px;
   padding: 0;
-  height: auto;
-  height: initial;
   font-size: 16px;
   border-width: 0;
+  opacity: 0.8;
+  text-decoration: none;
 }
 
-.main-menu .search-button svg,
-.main-menu .theme-toggle svg {
+.controls .search-button svg,
+.controls .theme-toggle svg {
   fill: black;
-  opacity: 0.8;
   vertical-align: middle;
   width: 1em;
   height: 1em;
 }
 
-.main-menu .search-button svg:hover,
-.main-menu .theme-toggle svg:hover {
+.controls .search-button:hover,
+.controls .theme-toggle:hover {
   opacity: 1;
   cursor: pointer;
 }
 
-.main-menu .theme-toggle {
+.controls .theme-toggle {
   background: none;
 }
 
-.main-menu .theme-toggle svg {
-  fill: black;
-  opacity: 0.8;
-  vertical-align: middle;
-  width: 1em;
-  height: 1em;
-}
-
-.main-menu .menu-btn:hover::after,
-.main-menu .search-button:hover::after {
+.controls .search-button:hover::after {
   display: none;
 }

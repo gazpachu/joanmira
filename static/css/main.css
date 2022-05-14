@@ -4,21 +4,25 @@
   --primary-hover: #455a64 !important;
   --primary-focus: rgba(84, 110, 122, 0.125) !important;
   --primary-inverse: #FFF !important;
+  --content-max-width: 1024px;
+  --desktop-gutter: 20px;
+  --mobile-gutter: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
 }
 
-#main-wrapper {
-  padding: 0 20px;
-  max-width: 1024px;
-  margin: 0px auto;
+@media screen and (min-width: 769px) {
+  #main-wrapper {
+    padding: 0 20px;
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+  }
 }
 
 #page-content h1 {
   margin: 16px 0;
-  text-align: center;
 }
 
 #footer {

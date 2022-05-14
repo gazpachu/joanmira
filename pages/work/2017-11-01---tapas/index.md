@@ -3,7 +3,7 @@ title: "Tapas"
 cover: "images/logo.png"
 location: UK
 color: "#78CED4"
-categories: vodafone react redux ghost webpack web ux design inverted
+categories: vodafone react redux ghost webpack web-app ux design inverted
 template: project
 ---
 

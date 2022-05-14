@@ -3,7 +3,7 @@ title: "WCRS DJ Wannabe installation"
 cover: "images/logo.png"
 location: UK
 color: "#714762"
-categories: wcrs prototype design kinect openni openframeworks installation inverted open-source
+categories: wcrs prototype design kinect openni openframeworks creative-tech inverted open-source
 template: project
 ---
 

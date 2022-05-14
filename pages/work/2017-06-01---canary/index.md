@@ -3,7 +3,7 @@ title: "Canary"
 cover: "images/logo.png"
 location: UK
 color: "#f5c95f"
-categories: vodafone react webpack web
+categories: vodafone react webpack web-app
 template: project
 ---
 

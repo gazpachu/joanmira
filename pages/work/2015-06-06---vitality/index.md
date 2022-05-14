@@ -3,7 +3,7 @@ title: "Vitality prototype"
 cover: "images/logo.jpg"
 location: UK
 color: "#fb0068"
-categories: sapientnitro web prototype animation box2d canvas inverted
+categories: sapientnitro web prototype animation box2d canvas creative-tech inverted
 template: project
 ---
 

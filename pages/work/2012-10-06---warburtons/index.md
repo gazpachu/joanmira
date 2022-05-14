@@ -3,7 +3,7 @@ title: "Warburtons facebook app"
 cover: "images/logo.jpg"
 location: UK
 color: "#f08229"
-categories: wcrs web facebook inverted
+categories: wcrs web-app facebook inverted
 template: project
 ---
 

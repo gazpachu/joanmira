@@ -3,7 +3,7 @@ title: "Maple"
 cover: "images/logo.png"
 location: UK
 color: "#5c6ab4"
-categories: vodafone vue vuex webpack material-ui web design ux inverted
+categories: vodafone vue vuex webpack material-ui web-app design ux inverted
 template: project
 ---
 

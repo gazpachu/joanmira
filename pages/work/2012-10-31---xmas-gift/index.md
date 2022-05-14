@@ -3,7 +3,7 @@ title: "Xmas Gift installation"
 cover: "images/logo.png"
 location: UK
 color: "#F7E68E"
-categories: wcrs prototype design kinect openni openframeworks installation inverted open-source
+categories: wcrs prototype design kinect openni openframeworks creative-tech inverted open-source
 template: project
 ---
 
