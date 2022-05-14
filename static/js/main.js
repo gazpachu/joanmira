@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
         foundCategory = true;
       }
     });
-    if (!foundCategory) {
+    if (!foundCategory && allFilterButton) {
       allFilterButton.classList.add('active');
     }
   }
