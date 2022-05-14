@@ -1,9 +1,5 @@
 :root {
   --font-family: "Open Sans", sans-serif;
-  --primary: #546e7a !important;
-  --primary-hover: #455a64 !important;
-  --primary-focus: rgba(84, 110, 122, 0.125) !important;
-  --primary-inverse: #FFF !important;
   --content-max-width: 1024px;
   --desktop-gutter: 20px;
   --mobile-gutter: 16px;
@@ -13,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 601px) {
   #main-wrapper {
     padding: 0 20px;
     max-width: var(--content-max-width);
@@ -23,6 +19,39 @@ h1, h2, h3, h4, h5, h6 {
 
 #page-content h1 {
   margin: 16px 0;
+}
+
+#filters {
+  padding: 0 20px;
+  margin-bottom: 40px;
+}
+#filters button,
+#filters [role=button] {
+  margin: 0 0 5px 0;
+  padding: 0 10px;
+  height: 33px;
+  line-height: 33px;
+  font-size: 12px;
+  display: inline-block;
+  width: initial;
+  text-transform: uppercase;
+  background-color: #546e7a;
+  border-color: #546e7a;
+}
+#filters button:hover,
+#filters [role=button]:hover {
+  background-color: #455a64;
+  border-color: #455a64;
+}
+#filters button:focus,
+#filters [role=button]:focus {
+  background-color: rgba(84, 110, 122, 0.125);
+  border-color: rgba(84, 110, 122, 0.125);
+}
+#filters button.active,
+#filters [role=button].active {
+  background-color: #7cb342;
+  border-color: #7cb342;
 }
 
 #footer {

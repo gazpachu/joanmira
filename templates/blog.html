@@ -2,36 +2,43 @@
 <html lang="en">
   <head>
     <style>
-      #blog-content {
+      #filters {
+        margin-top: 20px;
+        margin-bottom: 0;
+        text-align: center;
+      }
+      #listing-content {
         padding: 0;
         margin: 20px 0;
         display: grid;
         grid-gap: 24px;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
       }
-      #blog-content li {
+      #listing-content li {
         list-style-type: none;
-        height: 310px;
         margin-bottom: 0;
       }
-      #blog-content .list-item {
+      #listing-content li.hidden {
+        display: none;
+      }
+      #listing-content .list-item {
         margin: 0;
         padding: 0;
         overflow: hidden;
         height: 100%;
       }
-      @media screen and (max-width: 768px) {
-        #blog-content .list-item {
+      @media screen and (max-width: 600px) {
+        #listing-content .list-item {
           border-radius: 0;
         }
       }
-      #blog-content .list-item-title {
+      #listing-content .list-item-title {
         display: -webkit-box;
         -webkit-line-clamp: 2;
         -webkit-box-orient: vertical;  
         overflow: hidden;
       }
-      #blog-content .list-item-content {
+      #listing-content .list-item-content {
         padding: 16px;
       }
       .image {
@@ -39,15 +46,30 @@
         width: 100%;
         height: 170px;
       }
-      .category {
+      .meta {
         display: block;
+        text-decoration: none;
+        font-weight: 300;
+        font-size: 16px;
+        margin-top: 8px;
       }
     </style>
   </head>
   <body>
     <div id="main-wrapper">
       <div id="page-content"></div>
-      <ul id="blog-content"></ul>
+      <div id="filters">
+        <a href="/blog" id="all-filter" role="button" data-blog-category="all">All Posts</a>
+        <a href="/blog/category/work" role="button" data-blog-category="work">Work</a>
+        <a href="/blog/category/tech" role="button" data-blog-category="tech">Tech</a>
+        <a href="/blog/category/samurai-route" role="button" data-blog-category="samurai-route">Samurai Route</a>
+        <a href="/blog/category/japan" role="button" data-blog-category="japan">Japan</a>
+        <a href="/blog/category/film" role="button" data-blog-category="film">Film</a>
+        <a href="/blog/category/games" role="button" data-blog-category="games">Games</a>
+        <a href="/blog/category/literature" role="button" data-blog-category="literature">Literature</a>
+        <a href="/blog/category/marketing" role="button" data-blog-category="marketing">Marketing</a>
+      </div>
+      <ul id="listing-content"></ul>
     </div>
   </body>
 </html>

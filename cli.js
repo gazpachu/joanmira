@@ -60,12 +60,12 @@ async function build(folderOrFile) {
 async function develop(folderOrFile, port) {
   await build(folderOrFile);
   const server = startServer(port);
-  const watcher = chokidar.watch(['pages/', 'static/', 'templates/']).on('change', async (path, _) => {
-    console.log(`Detected change in file ${path}. Restarting development server.`);
-    server.close();
-    await watcher.close();
-    await develop(folderOrFile, port);
-  });
+  // const watcher = chokidar.watch(['pages/', 'static/', 'templates/']).on('change', async (path, _) => {
+  //   console.log(`Detected change in file ${path}. Restarting development server.`);
+  //   server.close();
+  //   await watcher.close();
+  //   await develop(folderOrFile, port);
+  // });
 }
 
 async function renameFolders(dir, from, to) {
@@ -112,8 +112,7 @@ async function processPage(pagePath) {
   const footerDom = await JSDOM.fromFile('templates/footer.html');
   const footerDocument = footerDom.window.document;
   const pageContentElement = document.getElementById('page-content');
-  const blogContentElement = document.getElementById('blog-content');
-  const workContentElement = document.getElementById('work-content');
+  const listingContentElement = document.getElementById('listing-content');
   const headerElement = headerDocument.getElementById('header');
   const footerElement = footerDocument.getElementById('footer');
   const htmlElement = document.getElementsByTagName('html');
@@ -136,7 +135,7 @@ async function processPage(pagePath) {
 
   if (pageContentElement) {
     const image = `/${targetPath}/${frontmatter.cover}`;
-    let pageTitle = '<h1>${frontmatter.title}</h1>';
+    let pageTitle = `<h1>${frontmatter.title}</h1>`;
     if (frontmatter.title && frontmatter.subtitle) {
       pageTitle = `<hgroup><h1>${frontmatter.title}</h1><h2>${frontmatter.subtitle}</h2></hgroup>`;
     }
@@ -179,10 +178,10 @@ async function processPage(pagePath) {
   <script src="/js/main.js" type="application/javascript"></script>
   ${headElement.innerHTML}`;
 
-  if (frontmatter.template === 'blog' && blogContentElement) {
-    await processDirectory('pages/blog', processListingItem, blogContentElement, 'blog', frontmatter.category);
-  } else if (frontmatter.template === 'work' && workContentElement) {
-    await processDirectory('pages/work', processListingItem, workContentElement, 'work', null);
+  if (frontmatter.template === 'blog' && listingContentElement) {
+    await processDirectory('pages/blog', processListingItem, listingContentElement, 'blog', frontmatter.category);
+  } else if (frontmatter.template === 'work' && listingContentElement) {
+    await processDirectory('pages/work', processListingItem, listingContentElement, 'work', null);
   }
 
   const finalHtml = document.getElementsByTagName('html')[0].outerHTML;
@@ -201,7 +200,7 @@ async function processListingItem(pagePath, contentElement, listingSlug, categor
   const image = `${slug}/${frontmatter.cover.replace('.jpg', '-mobile.jpg')}`;
   contentElement.innerHTML = `${contentElement.innerHTML}
   ${listingSlug === 'blog'
-  ? `<li>
+  ? `<li class="${frontmatter.category}">
     <article class="list-item">
       <a href="${slug}">
         <picture>
@@ -211,9 +210,10 @@ async function processListingItem(pagePath, contentElement, listingSlug, categor
         </picture>
       </a>
       <div class="list-item-content">
-        ${frontmatter.category ? `<a href="/${listingSlug}/category/${frontmatter.category}" class="category">${frontmatter.category.replace('-', ' ')}</a>` : ''}
         <a class="list-item-title" href="${slug}">${frontmatter.title}</a>
-        <div>${date.toLocaleDateString()}</div>
+        <div class="meta secondary">
+          ${frontmatter.category ? `<a href="/${listingSlug}/category/${frontmatter.category}">${frontmatter.category.replace('-', ' ')}</a>` : ''} • ${date.toLocaleDateString()}
+        </div>
       </div>
     </article>
   </li>`

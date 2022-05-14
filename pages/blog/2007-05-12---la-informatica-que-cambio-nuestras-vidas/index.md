@@ -5,7 +5,7 @@ template: post
 category: tech
 ---
 
-###INTRODUCCIÓN
+### INTRODUCCIÓN
 
 La informática que cambió nuestras vidas es un trabajo personal del [grado multimedia en la UOC](http://uoc.edu) que pretende mostrar la forma en que se ha incorporado la tecnología informática en el día a día de los usuarios, principalmente dentro de esta última década.
 
@@ -32,11 +32,11 @@ Para explicar de forma general cada uno de estos nuevos avances, hemos diseñado
 * Situación actual
 * Previsión para el futuro
 
-###1. HARDWARE INFORMÁTICO
+### 1. HARDWARE INFORMÁTICO
 
-####Memorias Flash. Almacenamiento rápido y transportable.
+#### Memorias Flash. Almacenamiento rápido y transportable.
 
-![memoria.jpg](./images/memorias_upspqg.jpg)
+![memoria.jpg](/blog/la-informatica-que-cambio-nuestras-vidas/images/memorias_upspqg.jpg)
 
 * **Nombre**: Memoria Flash. Pendrive. Tarjeta de memoria.
 * **Año invención, invento y lugar**: Fue Intel en 1988 cuando inventó este tipo de memoria como evolución de las EEPROM existentes por aquel entonces.
@@ -64,9 +64,9 @@ Entre los años 1994 y 1998, se desarrollaron los principales tipos de memoria q
 
 **FUTURO**: El futuro del mundo de la memoria flash es bastante alentador, ya que se tiende a la ubicuidad de las computadoras y electrodomésticos inteligentes e integrados y, por ello, la demanda de memorias pequeñas, baratas y flexibles seguirá en alza hasta que aparezcan nuevos sistemas que lo superen tanto en características como en coste y, al menos en apariencia, no es factible ni siquiera a medio plazo ya que la miniaturización y densidad de las memorias flash está todavía lejos de alcanzar niveles preocupantes desde el punto de vista físico.
 
-####Fibra óptica. Mecanismos de transmisión de datos
+#### Fibra óptica. Mecanismos de transmisión de datos
 
-![fiber.jpg](./images/fiber_rbsrhb.jpg)
+![fiber.jpg](/blog/la-informatica-que-cambio-nuestras-vidas/images/fiber_rbsrhb.jpg)
 
 * **Nombre**: Fibra óptica
 * **Año invención, invento y lugar**: 1977 se instala en Inglaterra primer sistema de prueba.
@@ -89,9 +89,9 @@ Entre los años 1994 y 1998, se desarrollaron los principales tipos de memoria q
 
 **FUTURO**: En un futuro la mayoría de personas tendrán acceso a la fibra óptica y su coste de instalación será menor. Esto producirá un aumento en las conexiones a Internet y un nuevo concepto en telefonía y televisión.
 
-####Wi-fi
+#### Wi-fi
 
-![wifi.jpg](./images/wifi_icx0kk.jpg)
+![wifi.jpg](/blog/la-informatica-que-cambio-nuestras-vidas/images/wifi_icx0kk.jpg)
 
 * **Nombre**: WI-FI o Wifi. Significa Wireless-Fidelity.
 * **Año invención, invento y lugar**: El estándar IEEE 802.11 fue publicado en 1997. Pertenece al Instituto de Ingenieros Eléctricos y Electrónicos (IEEE), asociación técnico-profesional mundial sin ánimo de lucro fundada en 1884 por diversas personalidades (incluso ilustres, como (Thomas Alva Edison, Alexander Graham Bell y Franklin Leonard Pope). WIFI como tal es el con junto de estándares basados en las especificaciones IEEE 802.11 y, al mismo tiempo, una marca de la Wi-Fi Alliance.
@@ -112,9 +112,9 @@ Entre los años 1994 y 1998, se desarrollaron los principales tipos de memoria q
 
 **FUTURO**: Ya está en marcha una nueva versión del protocolo (la versión 802.11n) que se espera alcance velocidades de hasta 600Mbps y con un radio de alcance mucho mayor. En el futuro se prevé que las ciudades tendrán garantizado acceso a Internet mediante Wifi desde cualquier punto de la ciudad (como ejemplo, la ciudad de Nuenen, cuna de Van Gogh, en Holanda, ya lo tiene implementado).
 
-####Escáner
+#### Escáner
 
-![scanner.jpg](./images/scanner_khsbtw.jpg)
+![scanner.jpg](/blog/la-informatica-que-cambio-nuestras-vidas/images/scanner_khsbtw.jpg)
 
 * **Nombre**: Escáner (o Scanner)
 * **Año invención, invento y lugar**: Rudolf Hell es considerado el inventor del fax y del escáner. Fundó una empresa en Berlín que en los años 60 creó el precursor del actual escáner.
@@ -137,9 +137,9 @@ Entre los años 1994 y 1998, se desarrollaron los principales tipos de memoria q
 
 **FUTURO**: Entre los dispositivos basados en la tecnología del escáner con mayor futuro encontramos los lectores de huellas dactilares i los escáneres de retina, entre otros.
 
-####Webcam
+#### Webcam
 
-![webcams.jpg](./images/webcams_ssdicv.jpg)
+![webcams.jpg](/blog/la-informatica-que-cambio-nuestras-vidas/images/webcams_ssdicv.jpg)
 
 * **Nombre**: Webcam o cámara web.
 * **Año invención, invento y lugar**: Fue inventada por Quentin Stafford-Fraser en 1991 en el Departamento de Computación de la Universidad de Cambridge.
@@ -162,9 +162,9 @@ Entre los años 1994 y 1998, se desarrollaron los principales tipos de memoria q
 
 **FUTURO**: Cada vez más aparatos tecnológicos incluyen cámara y conexión a Internet y además se va mejorando la velocidad de transmisión de datos, lo cual potenciará el uso de videoconferencias como forma de comunicación, ya sea desde el móvil, el ordenador o cualquier otro dispositivo portátil.
 
-####Bluetooth. Comunicación de dispositivos informáticos
+#### Bluetooth. Comunicación de dispositivos informáticos
 
-![memorias.jpg](./images/memorias_upspqg.jpg)
+![memorias.jpg](/blog/la-informatica-que-cambio-nuestras-vidas/images/memorias_upspqg.jpg)
 
 * **Nombre**: Bluetooth.
 * **Año invención, invento y lugar**: Ericsson, 1994 (primera aparición).
@@ -189,11 +189,11 @@ Se observó que, para que esta tecnología tuviera éxito, se debía dotar de é
 
 **FUTURO**: Próximamente, será introducida la tecnología bluetooth en consolas como Sony Playstation 3 y Nintendo Wii que dispondrán de mandos inalámbricos. También el ámbito de los negocios se verá afectado al poder utilizar el bluetooth como medio para enviar publicidad a los móviles al pasar cerca de un emisor. Otra de las novedades será la aplicación del bluetooth para la comunicación por cable entre equipos GPS y equipamiento médico.
 
-###2. SOFTWARE INFORMÁTICO
+### 2. SOFTWARE INFORMÁTICO
 
-####MP3 y DIVX. Principales códecs de audio y video
+#### MP3 y DIVX. Principales códecs de audio y video
 
-![divx.jpg](./images/divx_jegse2.jpg)
+![divx.jpg](/blog/la-informatica-que-cambio-nuestras-vidas/images/divx_jegse2.jpg)
 
 * **Nombre**: DivX, Divx;), MP3, MPEG Audio Layer 3Año invención, invento y lugar: MP3 : desarrollado y patentes entre 1986-1995, MPEG (Media Pictures Expert Group). Divx: 2000, Jeroma Rota (Francia), Max Morice (Alemania) (hackers)
 * **Año en que impactó en la sociedad**: Paralelamente a la ampliación en el número de conexiones por banda ancha (2000-2005).
@@ -214,9 +214,9 @@ Se observó que, para que esta tecnología tuviera éxito, se debía dotar de é
 
 **FUTURO**: En este sector es impredecible conocer hacia dónde se decantará esta lucha entre piratería e industrias cinematrográficas y musicales, cada vez se pactan nuevas leyes en contra de la piratería pero sin mucho efecto aparentemente. Podemos suponer que se crearan otras formas de almacenamiento de imagen y sonido y que probablemente paralelamente se crearan también sus respectivos codecs, cada vez con una calidad superior.
 
-####Messenger y VOIP. Comunicación en tiempo real utilizando ordenadores
+#### Messenger y VOIP. Comunicación en tiempo real utilizando ordenadores
 
-![messenger.jpg](./images/messenger_drnkad.jpg)
+![messenger.jpg](/blog/la-informatica-que-cambio-nuestras-vidas/images/messenger_drnkad.jpg)
 
 * **Nombre**: Programas de mensajería instantánea, Voip, Voz sobre IP, Telefonía IP, Telefonía por Internet, Telefonía Broadband y Voz sobre Broadband. Año invención, invento y lugar: El precedente fue la “Red experimental de protocolo de voz”, ARPANET – 1973 y el primer programa de mensajería instantánea en Internet fue ICQ,1996 (español). Año en que impactó en la sociedad: A partir del 2000.
 * **Sectores a los que pertenece**: Comunicación, Internet, educación y negocios.
@@ -238,9 +238,9 @@ Se observó que, para que esta tecnología tuviera éxito, se debía dotar de é
 
 **FUTURO**: Parece ser que estos programas se decantan cada vez más a integrar los programas de mensajería instantánea con los P2P, se estudia la posibilidad de introducir el uso del PayPal con estos programas.
 
-####Peer To Peer. Redes de intercambio de archivos como Napster, Edonkey, Kademlia, Gnutella o BitTorrent
+#### Peer To Peer. Redes de intercambio de archivos como Napster, Edonkey, Kademlia, Gnutella o BitTorrent
 
-![emule.jpg](./images/emule_ntafv0.jpg)
+![emule.jpg](/blog/la-informatica-que-cambio-nuestras-vidas/images/emule_ntafv0.jpg)
 
 * **Nombre**: P2P, Emule, Kazaa, Overnet, Torrents, Napster.
 * **Año invención, invento y lugar**: La primera aplicación P2P (PeerToPeer) fue Napster, en 1999. En el año 2001 se cerró por orden judicial (ya tenía 27 millones de usuarios) y en el 2002 empezaron a surgir las primeras redes descentralizadas como Kazaa, Grokster y Morpheus.
@@ -263,9 +263,9 @@ Se observó que, para que esta tecnología tuviera éxito, se debía dotar de é
 
 **FUTURO**: A lo largo de la historia, las demandas han llevado a los usuarios a cambiar a programas P2P con tecnologías más difíciles de detener y el número de usuarios no ha disminuido. El fenómeno de Internet y su constante evolución obligará a las productoras de cine y música a cambiar su modelo de negocio.
 
-####Blogging, Comunidades Sociales. Evolución a Internet 2.0
+#### Blogging, Comunidades Sociales. Evolución a Internet 2.0
 
-![youtube.jpg](./images/youtube_fwmlui.jpg)
+![youtube.jpg](/blog/la-informatica-que-cambio-nuestras-vidas/images/youtube_fwmlui.jpg)
 
 * **Nombre**: Friendster, YouTube, Blogspot, Neurona,...
 * **Año invención, invento y lugar**: En el 2002 empezaron a aparecer sitios web promocionando las redes de amigos en línea.
@@ -287,9 +287,9 @@ Se observó que, para que esta tecnología tuviera éxito, se debía dotar de é
 
 **FUTURO**: El futuro de Internet a la denominada “Internet 2.0” y algunos ya hablan de “Internet 3.0”, pasa por una mayor implicación de los usuarios en Internet. Las redes sociales seguirán estando presentes y evolucionarán al mismo tiempo que Internet.
 
-####E-Commerce y Publicidad Online. Compra-Venta en Internet. Aplicaciones bancarias
+#### E-Commerce y Publicidad Online. Compra-Venta en Internet. Aplicaciones bancarias
 
-![paypal.jpg](./images/paypal_xnh6tn.jpg)
+![paypal.jpg](/blog/la-informatica-que-cambio-nuestras-vidas/images/paypal_xnh6tn.jpg)
 
 * **Nombre**: Google Adsense y Adwords, ebay, Paypal, Amazon, etc
 * **Año invención, invento y lugar**: En 1995 los paises integrantes del G7/G8 crearon la iniciativa Un Mercado Global para PYMEs (en inglés), con el propósito de acelerar el uso del comercio electrónico entre las empresas de todo el mundo.
@@ -309,11 +309,11 @@ Se observó que, para que esta tecnología tuviera éxito, se debía dotar de é
 
 **FUTURO**: El e-commerce del futuro contará con más facilidades para mover el dinero a escala mundial, mayor aceptación social y herramientas de marketing online sofisticadas.
 
-###3. OTRAS APLICACIONES DE LA INFORMÁTICA
+### 3. OTRAS APLICACIONES DE LA INFORMÁTICA
 
-####GPS (Global Positioning System)
+#### GPS (Global Positioning System)
 
-![gps.jpg](./images/gps_yasy9i.jpg)
+![gps.jpg](/blog/la-informatica-que-cambio-nuestras-vidas/images/gps_yasy9i.jpg)
 
 * **Nombre**: GPS (Global Positioning System) o Sistema de Posicionamiento Global.
 * **Año invención, invento y lugar**: Fue diseñado por el Departamento de Defensa de los Estados Unidos y está operativo desde 1995.
@@ -336,9 +336,9 @@ Se observó que, para que esta tecnología tuviera éxito, se debía dotar de é
 
 **FUTURO**: En los próximos años entrará en funcionamiento la red europea de satélites GALILEO, que también ofrecerá servicio de posicionamiento. Además, cada vez se incorporan más receptores GPS tanto en teléfonos móviles como en ordenadores portátiles y PDAs.
 
-####Home Media Center. La informática como centro del hogar
+#### Home Media Center. La informática como centro del hogar
 
-![mediacenter.jpg](./images/mediacenter_wt8jhq.jpg)
+![mediacenter.jpg](/blog/la-informatica-que-cambio-nuestras-vidas/images/mediacenter_wt8jhq.jpg)
 
 * **Nombre**: Home Media Center
 * **Año invención, inventor y lugar**: SES GLOBAL, Astra, 2003 – Hannover
@@ -359,9 +359,9 @@ Se observó que, para que esta tecnología tuviera éxito, se debía dotar de é
 **SITUACIÓN**: Aunque todavía no es habitual, su uso está en pleno auge, cada vez son más las marcas que apuestan por estos equipos destinados a colocar la informática como centro del hogar. Aunque en España todavía no son demasiado conocidos, en otros países como EE.UU. y U.K. cada ves son más populares.
  FUTURO: Posiblemente, en un futuro cercano, todas las viviendas estaran equipadas con un media center que también cumplirá las funciones de ordenador personal cuando sea necesario.
 
-####Consolas de videojuegos
+#### Consolas de videojuegos
 
-![wee.jpg](./images/wee_vyqnbz.jpg)
+![wee.jpg](/blog/la-informatica-que-cambio-nuestras-vidas/images/wee_vyqnbz.jpg)
 
 * **Nombre**: Consola o videoconsola
 * **Año invención, invento y lugar**: No existe un único inventor de los videojuegos, aunque una de las primeras empresas dedicada fue ATARI, fundada en 1972 en Nueva York.

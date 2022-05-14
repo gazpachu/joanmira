@@ -2,26 +2,44 @@
 <html lang="en">
   <head>
     <style>
-      h2 {
+      h2, h3 {
         font-size: 24px;
+        margin-bottom: 20px;
+      }
+      #main-wrapper {
+        max-width: 750px;
       }
       #page-content {
         padding: 0;
         overflow: hidden;
       }
-      @media screen and (max-width: 768px) {
+      .post-content {
+        padding: 0 24px;
+      }
+      .post-content img {
+        width: 100%;
+      }
+      @media screen and (max-width: 600px) {
         #page-content {
           border-radius: 0;
         }
+        .post-content {
+        padding: 0 16px;
       }
-      .post-content {
-        padding: 16px;
       }
     </style>
   </head>
   <body>
     <div id="main-wrapper">
       <article id="page-content"></article>
+      <div id="disqus_thread"></div>
     </div>
+    <script>
+      // var disqus_config = function () {
+      //   this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+      //   this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      // };
+    </script>
+    <script src="https://joanmira.disqus.com/embed.js"></script>
   </body>
 </html>

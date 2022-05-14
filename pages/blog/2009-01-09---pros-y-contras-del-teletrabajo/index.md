@@ -51,7 +51,7 @@ category: work
 
 – Al principio, si no tienes algunos clientes, puede resultar complicado ganar dinero. (*solución 3*)
 
-**<span style="font-size: 130%;">Soluciones a los contras:</span>**
+**Soluciones a los contras:>**
 
 1. Llama a algún amigo/colega para salir a comer juntos.
 

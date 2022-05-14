@@ -1,12 +1,11 @@
 {
   "name": "joanmira.com",
-  "version": "1.0.0",
-  "description": "",
+  "version": "3.0.0",
+  "description": "Official page of Joan Mira",
   "scripts": {
     "build": "node cli.js build",
     "develop": "node cli.js develop",
-    "images": "node images.js",
-    "deploy": "gh-pages -d public/"
+    "images": "node images.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,9 +13,8 @@
     "chokidar": "3.5.3",
     "front-matter": "4.0.2",
     "fs-extra": "10.1.0",
-    "gh-pages": "3.2.3",
     "jsdom": "19.0.0",
     "marked": "4.0.14",
-    "sharp": "^0.30.4"
+    "sharp": "0.30.4"
   }
 }
