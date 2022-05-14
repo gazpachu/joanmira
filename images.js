@@ -12,16 +12,26 @@ function findImages(directory) {
   });
 }
 
-findImages('pages');
+async function resizeImages(file) {
+  const image = await sharp(file);
+  const metadata = await image.metadata();
 
+  if (metadata.width > 800) {
+    console.log(`Resizing ${file}`)
+    const resizedImage = image.resize(768);
+    resizedImage.toFile(file.replace('.jpg', '-mobile.jpg'), (err) => {
+      if (err) console.log(err);
+    });
+    resizedImage.toFile(file.replace('.jpg', '-mobile.webp'), (err) => {
+      if (err) console.log(err);
+    });
+    image.toFile(file.replace('.jpg', '.webp'), (err) => {
+      if (err) console.log(err);
+    });
+  }
+}
+
+findImages('pages');
 files.forEach(file => {
-  sharp(file).resize(768).toFile(file.replace('.jpg', '-mobile.jpg'), (err) => {
-    if (err) console.log(err);
-  });
-  sharp(file).resize(768).toFile(file.replace('.jpg', '-mobile.webp'), (err) => {
-    if (err) console.log(err);
-  });
-  sharp(file).toFile(file.replace('.jpg', '.webp'), (err) => {
-    if (err) console.log(err);
-  });
+  resizeImages(file);
 });
