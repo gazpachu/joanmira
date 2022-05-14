@@ -3,6 +3,12 @@
   text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+  #header {
+    padding-top: 16px;
+  }
+}
+
 .header-content {
   position: relative;
   margin: 0 auto;
@@ -31,9 +37,10 @@
   opacity: 0.8;
 }
 
-.header-content .logo:hover {
-  border-bottom: 1px solid;
-  border-bottom-color: rgba(0,0,0,.67);
+@media screen and (max-width: 768px) {
+  .header-content .logo {
+    position: initial;
+  }
 }
 
 .header-content .logo-symbol {
@@ -62,6 +69,12 @@
   padding-left: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .main-menu {
+    height: auto;
+  }
+}
+
 .main-menu li {
   display: inline-block;
   position: relative;
@@ -72,10 +85,9 @@
   display: inline-block;
   position: relative;
   color: black;
-  padding: 48px 0 0;
+  padding: 0;
   font-size: 12px;
   font-weight: normal;
-  height: 79px;
   cursor: pointer;
   text-decoration: none;
   text-transform: uppercase;
@@ -94,38 +106,47 @@
   color: black;
 }
 
-.main-menu li a:hover::after {
-  display: block;
-  position: absolute;
-  content: "";
-  left: 0;
-  top: 79px;
-  width: 100%;
-  height: 1px;
-  background: rgba(0,0,0,.67);
-}
-
-.main-menu li.right {
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.main-menu .menu-btn {
-  border: 1px solid rgba(0,0,0,.33);
-  padding: 2px 6px 0;
-  height: 24px;
-  border-radius: 4px;
-  cursor: pointer;
-  white-space: nowrap;
-  transition: background-color ease 0.3s;
-  margin-right: 5px;
-  margin-top: 42px;
-}
-
-.main-menu .menu-btn:hover {
-  border-color: rgba(0,0,0,.67);
-  background-color: rgba(0,0,0,.1);
+@media screen and (min-width: 769px) {
+  .header-content .logo:hover {
+    border-bottom: 1px solid;
+    border-bottom-color: rgba(0,0,0,.67);
+  }
+  .main-menu li a,
+  .main-menu li div {
+    padding: 48px 0 0;
+    height: 79px;
+  }
+  .main-menu li a:hover::after {
+    display: block;
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 79px;
+    width: 100%;
+    height: 1px;
+    background: rgba(0,0,0,.67);
+  }
+  .main-menu li.right {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .main-menu .menu-btn {
+    border: 1px solid rgba(0,0,0,.33);
+    padding: 2px 6px 0;
+    height: 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background-color ease 0.3s;
+    margin-right: 5px;
+    margin-top: 42px;
+  }
+  
+  .main-menu .menu-btn:hover {
+    border-color: rgba(0,0,0,.67);
+    background-color: rgba(0,0,0,.1);
+  }
 }
 
 .main-menu .search-button,
