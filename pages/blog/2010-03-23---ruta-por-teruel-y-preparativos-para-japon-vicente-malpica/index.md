@@ -38,7 +38,7 @@ Llegamos arriba por una bonita Ctra. curvilínea, ya en mejores condiciones, se 
 
 La bajada fue breve, ya que la Ctra. está en mejores condiciones y fuimos a dar al Collado del Gavilán y a la N 234, cerca de La Puebla de Valverde. Ya lo demás fue coser y cantar, un poco de autovía-nacional y Teruel.
 
-![teruel_3](./images/teruel_3_r3tucb.jpg)
+![teruel_3](/blog/ruta-por-teruel-y-preparativos-para-japon-vicente-malpica/images/teruel_3_r3tucb.jpg)
 
 A todo esto, Joan me había explicado que estaría en Pamplona por gestiones de trabajo y que estaría con nosotros el martes. Bueno, eso era lo acordado, pero al final aligeró el paso y ya bien entrada la noche, casi las 24 horas, de ese mismo lunes, apareció en Teruel, tras pasar un fuerte viento y más helado que un pingüino, (en verdad mi compañero de aventuras es un gran tipo y duro de pelar como las piedras :-)
 
@@ -58,7 +58,7 @@ Tomamos dirección Formiche Alto y el Castellar, Ctra. de montaña, bonitos pais
 
 El sol empezó cada vez  a apretar más, los músculos a desentumecerse y tras pequeñas paradas, charlas a pie de Ctra., risas y buen rollo, así fue discurriendo la ruta, día de motos, amigos y paisajes.
 
-![teruel_2](./images/teruel_2_gr5eby.jpg)
+![teruel_2](/blog/ruta-por-teruel-y-preparativos-para-japon-vicente-malpica/images/teruel_2_gr5eby.jpg)
 
 La sierra de Gúdar es un lugar idílico, ya que no posee excesivos turistas y sus gentes y paisajes te traen unas sensaciones que otros lugares no te dan, muy recomendable, Teruel existe!
 
@@ -80,7 +80,7 @@ Con cuidado todos fuimos pasando y, no sin dejar de ver la inmensidad de las mon
 
 En Puertomingalvo la Ctra. se convierte de nuevo con asfalto y estropeada, muy entretenida de baja hacia Castillo de Villamalefa y Zucaina, donde los paisajes son indescriptibles.
 
-![teruel_4](./images/teruel_4_la6dym.jpg)
+![teruel_4](/blog/ruta-por-teruel-y-preparativos-para-japon-vicente-malpica/images/teruel_4_la6dym.jpg)
 
 Ya en tierras Castellonenses seguimos ruta sin parar demasiado, ya que la noche se nos acercaba. Una parada de rigor en el embalse de Arenós y tras unas buenas fotos, continuamos marcha hasta Olba, Rubielos de Mora y Mora de Rubielos.
 

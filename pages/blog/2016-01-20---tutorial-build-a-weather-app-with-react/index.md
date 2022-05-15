@@ -6,8 +6,8 @@ template: post
 ---
 
 <p class="align-center">
-<a class="btn" href="http://react-weather.herokuapp.com/?city=London,Paris,Berlin,Madrid,Rome" target="_blank">Launch React Weather App</a>
-<a class="btn" href="https://github.com/gazpachu/react-weather" target="_blank">Source code</a>
+<a class="btn" role="button" href="http://react-weather.herokuapp.com/?city=London,Paris,Berlin,Madrid,Rome" target="_blank">Launch React Weather App</a>
+<a class="btn" role="button" href="https://github.com/gazpachu/react-weather" target="_blank">Source code</a>
 </p>
 
 In this [React](https://facebook.github.io/react/) tutorial for beginners, we are going to learn how to build a small and simple [React](https://facebook.github.io/react/) app to display the weather of cities in the world. If you are interested in learning React, this beginners tutorial is a good starting point, as it doesn't cover very complex topics. At the same time, once you learn how to connect to an external API and display the results, it can be quite handy to build other types of single-page apps whose only requirement is to fetch data from an external source and display the results in any way.
@@ -38,7 +38,7 @@ Note: due to the simplicity and small size of the architecture, we will omit the
 
 This is how the app should look like by the end of the tutorial:
 
-![](./images/react-weather.png)
+![](/blog/tutorial-build-a-weather-app-with-react/images/react-weather.png)
 
 There can be a few differences in the icons or the font (3rd party dependencies), but the general look and feel will be very similar to any of these two screenshots.
 
@@ -56,7 +56,7 @@ If you decide to use [Brackets](http://brackets.io/), I recommend installing als
 
 This is how my Brackets looks like with all these extensions installed:
 
-![](./images/brackets-extensions.png)
+![](/blog/tutorial-build-a-weather-app-with-react/images/brackets-extensions.png)
 
 ### Step 2. Conceptual aside: about Node.js modules
 
@@ -459,7 +459,7 @@ Here, we are just initialising the props that we are going to use later to hold 
 
 Now we need to create the HTML structure for our weather component Let's use this simple wireframe to map each box into an HTML element:
 
-![](./images/react-weather-wire.jpg)
+![](/blog/tutorial-build-a-weather-app-with-react/images/react-weather-wire.jpg)
 
 Inside the render() method, add the following:
 

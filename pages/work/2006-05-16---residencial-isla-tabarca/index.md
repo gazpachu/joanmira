@@ -8,13 +8,13 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" href="http://islatabarca.herokuapp.com" target="_blank">Launch archived website</a>
+<a class="btn" role="button" href="http://islatabarca.herokuapp.com" target="_blank">Launch archived website</a>
 </p>
 
-![](./images/1.jpg)
+![](/work/residencial-isla-tabarca/images/1.jpg)
 
 I built a couple of websites for Residencial Isla Tabarca in Alicante. The first one was built using PHP-Nuke and the second one using a custom Wordpress theme. It features a forum for the residents, a blog, photo gallery and other widgets and modules.
 
-![](./images/2.jpg)
+![](/work/residencial-isla-tabarca/images/2.jpg)
 
-![](./images/3.jpg)
+![](/work/residencial-isla-tabarca/images/3.jpg)

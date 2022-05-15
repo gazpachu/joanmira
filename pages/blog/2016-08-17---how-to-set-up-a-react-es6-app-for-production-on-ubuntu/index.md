@@ -6,13 +6,13 @@ template: post
 category: work
 ---
 
-###Introduction
+### Introduction
 
 Node.js is an open source JavaScript runtime environment for easily building server-side and networking applications. The platform runs on Linux, OS X, FreeBSD, and Windows. Node.js applications can be run at the command line, but we'll focus on running them as a service, so that they will automatically restart on reboot or failure, and can safely be used in a production environment.
 
 In this tutorial, we will cover setting up a production-ready Node.js environment on a single Ubuntu 16.04 server. This server will run a Node.js application managed by PM2, and provide users with secure access to the application through an Nginx reverse proxy with basic auth.
 
-###Prerequisites
+### Prerequisites
 
 This guide assumes that you have an Ubuntu 16.04 server (it also works with Ubuntu 14). If you don't have one yet, I do recommend [Digital Ocean](https://www.digitalocean.com/), [OVH](http://ovh.com) or [Amazon AWS](https://aws.amazon.com/).
 
@@ -20,7 +20,7 @@ It also assumes that you have a domain name, pointing at the server's public IP 
 
 Let's get started by connecting to the server via SSH.
 
-###Connect to the server via SSH
+### Connect to the server via SSH
 
 Once your server is up and running, you must have an IP address or DNS your can use to connect to the server. In this example, we are going to use the DNS of a Ubuntu micro instance from Amazon AWS EC2.
 
@@ -32,7 +32,7 @@ That should give your access to your server!
 
 **Note**: make sure that your instance accepts HTTP traffic. In Amazon AWS you have to go to 'security groups', and add HTTP / TCP / Port 80 to the inbound rules of the security group of your instance.
 
-###Install Node.js
+### Install Node.js
 
 We will install the latest current release of Node.js, using the NodeSource package archives.
 
@@ -55,7 +55,7 @@ The nodejs package contains the nodejs binary as well as npm, so you don't need 
 
 The Node.js runtime is now installed, and ready to run an application!
 
-###Clone your app
+### Clone your app
 
 Make sure that git is installed:
 
@@ -71,7 +71,7 @@ Change to your app directory:
 
 Run npm install, bower install or any other command you need to set up your app. Make sure that there are no build errors and once you are done, close your app and proceed to the next step.
 
-###Set Up Nginx as a Reverse Proxy Server
+### Set Up Nginx as a Reverse Proxy Server
 
 Now that your application is working, you need to set up a way for your users to access it. We will set up an Nginx web server as a reverse proxy for this purpose. This tutorial will set up an Nginx server from scratch. If you already have an Nginx server setup, you can just copy the location block into the server block of your choice (make sure the location does not conflict with any of your web server's existing content).
 
@@ -112,7 +112,7 @@ Next, restart Nginx:
 
 Assuming that your Node.js application is running, and your application and Nginx configurations are correct, you should now be able to access your application via the Nginx reverse proxy. Try it out by accessing your server's URL (its public IP address or domain name).
 
-###Set up basic authentication
+### Set up basic authentication
 
 Sometimes, we don't want everyone to see our app until it's not completely ready. For that and other reasons, we might like to implement a simple user authentication system that will request for a username and password.
 
@@ -130,7 +130,7 @@ You can repeat this process for additional usernames. You can see how the userna
 
 `cat /etc/nginx/.htpasswd`
 
-####Configure Nginx password authentication
+#### Configure Nginx password authentication
 
 Now that we have a file with our users and passwords in a format that Nginx can read, we need to configure Nginx to check this file before serving our protected content.
 
@@ -167,7 +167,7 @@ Save and close the file when you are finished. Restart Nginx to implement your p
 
 The directory you specified should now be password protected.
 
-###Install PM2
+### Install PM2
 
 PM2 is a process manager for Node.js applications. PM2 provides an easy way to manage and daemonize applications (run them in the background as a service).
 
@@ -179,7 +179,7 @@ The -g option tells npm to install the module globally, so that it's available s
 
 PM2 is simple and easy to use. We will cover a few basic uses of PM2.
 
-####Start Application
+#### Start Application
 
 The first thing you will want to do is use the pm2 start command to run your application, hello.js, in the background:
 
@@ -216,7 +216,7 @@ The startup subcommand generates and configures a startup script to launch PM2 a
 
 This will create a systemd unit which runs pm2 for your user on boot. This pm2 instance, in turn, runs 'npm start'
 
-####Other PM2 Usage (Optional)
+#### Other PM2 Usage (Optional)
 
 PM2 provides many subcommands that allow you to manage or look up information about your applications. Note that running pm2 without any arguments will display a help page, including example usage, that covers PM2 usage in more detail than this section of the tutorial.
 
@@ -242,7 +242,7 @@ The PM2 process monitor can be pulled up with the monit subcommand. This display
 
 Now that your Node.js application is running, and managed by PM2, let's set up the reverse proxy.
 
-###Disclaimer
+### Disclaimer
 
 This tutorial is based on the great work of [Digital Ocean community tutorials](https://www.digitalocean.com/community/tutorials/). IMHO one of the best resources in the Internet in terms of sys-admin related stuff.
 

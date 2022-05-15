@@ -8,10 +8,10 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" href="https://booking-demo.tablecheck.com/en/gallery" target="_blank">Demo App</a>
+<a class="btn" role="button" href="https://booking-demo.tablecheck.com/en/gallery" target="_blank">Demo App</a>
 </p>
 
-![](./images/1.jpg)
+![](/work/booking-form/images/1.jpg)
 
 TableCheck's booking form is incredibly comprehensive. The amount of settings that merchants can configure is mind-blowing. For most restaurants, especially in western cultures, there's no need to request a lot of details from diners. In fact, everyone would agree that it'd be counterproductive to do so. But in Japan, <a href="https://www.japan.travel/en/au/experience/culture/omotenashi/">omotenashi</a> is very important, hence most restauraters would like to go the extra mille to make sure their guests' expectations are met. Unfortunatelly, this involves requesting a lot of details during the booking process. Althought this is something that TableCheck eventually wants to fix by providing user traffic data to merchants and let them know how a long booking journey impacts their booking conversion rate.
 

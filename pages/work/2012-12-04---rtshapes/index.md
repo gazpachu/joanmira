@@ -8,11 +8,11 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" href="http://open.joanmira.com/rtshapes" target="_blank">Launch website</a>
-<a class="btn" href="https://github.com/gazpachu/rtshapes" target="_blank">Source code</a>
+<a class="btn" role="button" href="http://open.joanmira.com/rtshapes" target="_blank">Launch website</a>
+<a class="btn" role="button" href="https://github.com/gazpachu/rtshapes" target="_blank">Source code</a>
 </p>
 
-![](./images/1.jpg)
+![](/work/rtshapes/images/1.jpg)
 
 This is the first demo of my series of experiments with real time shape recognition using HTML5 [getUserMedia](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia), [OpenCV](http://docs.opencv.org/3.1.0/d9/d6d/tutorial_table_of_content_aruco.html#gsc.tab=0) and [Box2D](https://github.com/hecht-software/box2dweb).
 
@@ -22,6 +22,6 @@ In this HTML5 demo, I'm using a webcam to get a live video stream of some shapes
 
 In the following images, you can see how the lines drawn in the paper become static platforms that contain the other boxes falling from the top of the screen.
 
-![](./images/2.jpg)
+![](/work/rtshapes/images/2.jpg)
 
-![](./images/3.jpg)
+![](/work/rtshapes/images/3.jpg)

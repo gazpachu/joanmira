@@ -7,7 +7,7 @@ categories: wcrs web wordpress facebook inverted
 template: project
 ---
 
-![](./images/1.jpg)
+![](/work/santander/images/1.jpg)
 
 During my tenure at [WCRS](http://www.wcrs.com), I worked on several projects for [Santander](https://www.santander.co.uk):
 
@@ -18,8 +18,8 @@ During my tenure at [WCRS](http://www.wcrs.com), I worked on several projects fo
 * A microsite related with the 123 current account
 * A Facebook competition (toy giveaway) for xmas
 
-![](./images/3.jpg)
+![](/work/santander/images/3.jpg)
 
-![](./images/2.jpg)
+![](/work/santander/images/2.jpg)
 
-![](./images/4.jpg)
+![](/work/santander/images/4.jpg)

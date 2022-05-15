@@ -13,7 +13,7 @@ template: project
 }
 </style>
 
-![](./images/1.jpg)
+![](/work/lighthouse/images/1.jpg)
 
 Lighthouse is a centralised visualisation app to help users navigate a complex sea of data, guiding them towards actionable insights.
 
@@ -27,16 +27,16 @@ In this project, I was in charge of a big part of the front-end build. The only 
 
 The app became very popular within the Vodafone Sales department and until now, it's the most successful app we have developed in my team.
 
-![](./images/2.jpg "Home page")
+![](/work/lighthouse/images/2.jpg "Home page")
 
-![](./images/3.jpg "Insight page with dummy data")
+![](/work/lighthouse/images/3.jpg "Insight page with dummy data")
 
-![](./images/4.jpg "Navigation")
+![](/work/lighthouse/images/4.jpg "Navigation")
 
-![](./images/5.jpg "Filters")
+![](/work/lighthouse/images/5.jpg "Filters")
 
-![](./images/6.jpg "Search and logs")
+![](/work/lighthouse/images/6.jpg "Search and logs")
 
 <p style="text-align: center">
-  <img class="loader" src="./images/loader.gif" alt="laoder" />
+  <img class="loader" src="/work/lighthouse/images/loader.gif" alt="laoder" />
 </p>

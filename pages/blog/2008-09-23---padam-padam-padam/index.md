@@ -9,7 +9,7 @@ Qué gran pelicula es “[La Môme](http://www.imdb.com/title/tt0450188/)“, me
 
 Al son de su canción “Padam Padam Padam” os escribo estra entrada, sintiendo que estoy en París!, en aquellos baretos cutres y húmedos de los años 40, bebiendo vino y emborrachandome mientras cantamos todos a la vida! C’est la vie! mon ami!, no os la perdais, es un peliculón con la actriz que ganó el oscar. Una interpretación que da miedo de lo bien lo que hace.
 
-<iframe allowfullscreen="" frameborder="0" height="340" src="http://www.youtube.com/embed/0Ih5z4WTVDw?feature=oembed" width="604"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="340" src="http://www.youtube.com/embed/0Ih5z4WTVDw?feature=oembed" width="100%"></iframe>
 
 *Padam! Padam! Padam! …. (se terminó la canción)*
 

@@ -7,7 +7,7 @@ categories: sapientnitro web drupal consultancy inverted
 template: project
 ---
 
-![](./images/1.jpg)
+![](/work/savethechildren/images/1.jpg)
 
 During my assignment to Save the children's project, I helped the organisation by doing a tech audit of the new website they were building.
 

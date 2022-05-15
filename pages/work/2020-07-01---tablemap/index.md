@@ -7,7 +7,7 @@ categories: react mapbox tablekit python web-app prototype
 template: project
 ---
 
-![](./images/1.jpg)
+![](/work/tablemap/images/1.jpg)
 
 TableMap is the winning project in TableCheck's first hackathon. The team consisted of two front-end engineers (including myself), one back-end engineer and one designer. We worked for two days on it.
 

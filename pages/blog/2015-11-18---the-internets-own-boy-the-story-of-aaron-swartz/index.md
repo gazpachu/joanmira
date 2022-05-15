@@ -13,4 +13,4 @@ At the end of the movie, I felt like the "old system" is what killed Aaron. Thei
 
 I've been always interested in copyright and how the Internet is making humanity reconsider what needs to be opened and shared. We have to work towards a world with more transparency, more open data, open software and open governments. That's how you beat cancer or improve renewable energies. That's how humanity evolves to a higher level of consciousness. We, the millennials demand this new way of understanding life.
 
-You can [watch the movie here](https://www.youtube.com/embed/3Q6Fzbgs_Lg)
+You can [watch the movie here](https://www.youtube.com/watch?v=3Q6Fzbgs_Lg&t=5s&ab_channel=Documentaries)

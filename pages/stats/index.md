@@ -37,6 +37,6 @@ cover: images/stats.jpg
 
 ### Page audit
 
-![](./images/page-speed-report.jpg)
+![](/stats/images/page-speed-report.jpg)
 
 Page audit provided by [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)

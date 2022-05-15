@@ -7,8 +7,6 @@ category: samurai-route
 
 ### ¿Quien fue Hasekura Tsunenaga?
 
-![242px-Hasekura_in_Rome](./images/242px-Hasekura_in_Rome_c7sytj.jpg "Hasekura Tsunenaga")
-
 [Hasekura Rokuemon Tsunenaga](http://es.wikipedia.org/wiki/Hasekura_Tsunenaga) (nacido en 1571 y fallecido 7 de agosto 1622) fue un samurai japonés que prestó servicios al daimyo de la ciudad japonesa de [Sendai](http://es.wikipedia.org/wiki/Sendai_%28Miyagi%29), [Date Masamune](http://es.wikipedia.org/wiki/Date_Masamune). Dirigió una misión diplomática a México y luego a Europa entre 1613 y 1620, regresando por último a Japón.
 
 Fue el primer oficial japonés enviado a América y su viaje a Francia pasó a ser el primer caso registrado de contacto directo en las relaciones franco-japonesas.
@@ -17,7 +15,7 @@ A fin de establecer una relación comercial y solicitar el envío de misioneros 
 
 Visitó Madrid (España) y Roma (Italia) **convirtiéndose así en el primer japonés que cruzó el Océano Atlántico**.
 
-![Sanjuanbautista](./images/Sanjuanbautista.jpg "Réplica del Galeón Español Juan Bautista")
+![Sanjuanbautista](/blog/la-historia-de-hasekura-tsunenaga/images/Sanjuanbautista.jpg "Réplica del Galeón Español Juan Bautista")
 
 La misión japonesa comandanda por Hasekura, en audiencia del rey Felipe III de España, el 30 de enero de 1615, le trajo una carta de Date Masamune ofreciéndole un tratado. El Rey le respondió que haría lo posible para cumplir sus peticiones.
 
@@ -29,7 +27,7 @@ El embajador japonés, Hasekura, fue bautizado el 17 de febrero por personal de 
 
 ### La simbiosis con España
 
-![coria_rio](./images/coria-del-rio.jpg "Paseo Carlos de Mesa de Coria del Río junto al río Guadalquivir - ABC")
+![coria_rio](/blog/la-historia-de-hasekura-tsunenaga/images/coria-del-rio.jpg "Paseo Carlos de Mesa de Coria del Río junto al río Guadalquivir - ABC")
 
 En la actualidad existen muchos ciudadanos en la ciudad de Coria del Rio, que no solo poseen el adoptado apellido “Japón” como herencia transmitida de esos primeros japoneses que decidieron quedarse en la localidad, sino que no resulta difícil adivinar en ellos/as ciertas facciones que corroboran su descendencia japonesa.
 

@@ -15,8 +15,8 @@ category: work
 </style>
 
 <p class="align-center">
-<a class="btn" href="http://quizwars.herokuapp.com/" target="_blank">Launch QuizWars App</a>
-<a class="btn" href="https://github.com/gazpachu/quizwars" target="_blank">Source code</a>
+<a class="btn" role="button" href="http://quizwars.herokuapp.com/" target="_blank">Launch QuizWars App</a>
+<a class="btn" role="button" href="https://github.com/gazpachu/quizwars" target="_blank">Source code</a>
 </p>
 
 ## 1. Introduction
@@ -94,7 +94,7 @@ At this point, if you visit [http://localhost:1337](http://localhost:1337) you w
 ## 4. Sails.js folder structure
 
 <div class="left">
-  <img src="./images/folder-structure_fqfmgc.png" alt="folder-structure" width="178" height="399" />
+  <img src="/blog/tutorial-how-to-build-a-multi-player-quiz-app-with-sails-js/images/folder-structure_fqfmgc.png" alt="folder-structure" width="178" height="399" />
 </div>
 
 - **/.tmp/public**: where the distribution files are compiles. These files are what we see when we load the website
@@ -136,11 +136,11 @@ module.exports.routes = {
 
 ## 5. Flow diagram
 
-![](./images/quiz-wars-flow-diagram_bggdcc.png)
+![](/blog/tutorial-how-to-build-a-multi-player-quiz-app-with-sails-js/images/quiz-wars-flow-diagram_bggdcc.png)
 
 ## 6. Architecture diagram
 
-![](./images/quiz-wars-architecture-diagram_ipzw4b.png)
+![](/blog/tutorial-how-to-build-a-multi-player-quiz-app-with-sails-js/images/quiz-wars-architecture-diagram_ipzw4b.png)
 
 ## 7. The sitemap, layout and the views
 

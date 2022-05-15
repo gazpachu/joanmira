@@ -6,7 +6,7 @@ category: work
 ---
 
 <p class="align-center">
-<a class="btn icon icon-external" href="https://github.com/gazpachu/siteace" target="_blank">Source code</a>
+<a class="btn icon icon-external" role="button" href="https://github.com/gazpachu/siteace" target="_blank">Source code</a>
 </p>
 
 This tutorial is the result of my final assignment for the [Introduction to Meteor.js Development course](https://www.coursera.org/learn/meteor-development/) by Dr Matthew Yee-King ([University of London & Goldsmiths](http://www.gold.ac.uk/)) at Coursera. This course is part of a [Responsive Website Development and Design specialisation](https://www.coursera.org/specializations/website-development) that covers the basics of modern full stack web development, from UX design, to front-end coding, to custom databases.
@@ -332,7 +332,7 @@ Here we are just targeting the click event of the .js-toggle-website-form elemen
 
 At this point, the app should look similar to this (probably a bit better ;-)
 
-![](./images/meteor-tutorial-1.jpg)
+![](/blog/build-a-social-website-aggregator-using-meteor/images/meteor-tutorial-1.jpg)
 
 ### Part 7. Add new URLs to the DB
 

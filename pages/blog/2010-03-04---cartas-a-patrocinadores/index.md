@@ -16,4 +16,4 @@ Lo hemos hecho de la mejor forma posible:
 
 No hemos enviado una camiseta porque aún no están listas, pero si aceptan colaborar con nosotros, se la enviaremos seguro!
 
-![patrocinadores1](./images/patrocinadores1_d0wxwi.jpg)
+![patrocinadores1](/blog/cartas-a-patrocinadores/images/patrocinadores1_d0wxwi.jpg)

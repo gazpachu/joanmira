@@ -7,26 +7,26 @@ categories: flash animation ibcmass desktop
 template: project
 ---
 
-![](./images/1.jpg)
+![](/work/mi-primer-atlas/images/1.jpg)
 
 As part of my partnership with [IBCMass](http://www.ibcmass.com/), I built an interactive Flash educational app for kids. All the user interface is custom made, with many interactive elements, puzzles and games, most of them using the drag&drop metaphor.
 
-![](./images/2.jpg)
+![](/work/mi-primer-atlas/images/2.jpg)
 
-![](./images/3.jpg)
+![](/work/mi-primer-atlas/images/3.jpg)
 
-![](./images/4.jpg)
+![](/work/mi-primer-atlas/images/4.jpg)
 
-![](./images/5.jpg)
+![](/work/mi-primer-atlas/images/5.jpg)
 
-![](./images/6.jpg)
+![](/work/mi-primer-atlas/images/6.jpg)
 
-![](./images/7.jpg)
+![](/work/mi-primer-atlas/images/7.jpg)
 
-![](./images/8.jpg)
+![](/work/mi-primer-atlas/images/8.jpg)
 
-![](./images/9.jpg)
+![](/work/mi-primer-atlas/images/9.jpg)
 
-![](./images/10.jpg)
+![](/work/mi-primer-atlas/images/10.jpg)
 
-![](./images/11.jpg)
+![](/work/mi-primer-atlas/images/11.jpg)

@@ -13,4 +13,4 @@ It's a remarkable project with a technical difficulty beyond what normal people 
 
 Best of luck with that award!
 
-![](./images/species-in-pieces-mosaic.png)
+![](/blog/site-of-the-year-2015/images/species-in-pieces-mosaic.png)

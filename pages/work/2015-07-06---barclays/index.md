@@ -11,18 +11,18 @@ While working at SapientNitro, I built an iPad prototype for Barclays based on A
 
 This quick project included draggable controllers with dynamic data, animated charts and transitions, swipeable pages and panels and video playback.
 
-![Content coming soon](./images/0.jpg)
+![Content coming soon](/work/barclays/images/0.jpg)
 
-![Content coming soon](./images/1.jpg)
+![Content coming soon](/work/barclays/images/1.jpg)
 
-![Content coming soon](./images/2.jpg)
+![Content coming soon](/work/barclays/images/2.jpg)
 
-![Content coming soon](./images/3.jpg)
+![Content coming soon](/work/barclays/images/3.jpg)
 
-![Content coming soon](./images/4.jpg)
+![Content coming soon](/work/barclays/images/4.jpg)
 
-![Content coming soon](./images/5.jpg)
+![Content coming soon](/work/barclays/images/5.jpg)
 
-![Content coming soon](./images/6.jpg)
+![Content coming soon](/work/barclays/images/6.jpg)
 
-![Content coming soon](./images/7.jpg)
+![Content coming soon](/work/barclays/images/7.jpg)

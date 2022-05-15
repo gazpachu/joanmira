@@ -11,7 +11,7 @@ Aunque no haya leído todo lo que me habría gustado (algo que quiero poner reme
 
 ¿No te has parado a pensar nunca, el grandísimo trabajo que hay detrás de un libro? A veces es el trabajo de toda una vida el que acaba condensado en un libro. De forma que, cuando lo leemos, estamos adquiriendo (de forma resumida) el conocimiento de la persona que lo escribió. Esa es la grandeza de los libros. Es como cuando en la película Matrix, a Neo le enchufaban la cabeza a un cable y le empezaban a cargar programas de artes marciales...
 
-![](./images/kungfu-matrix.jpg)
+![](/blog/los-libros-que-mas-me-han-marcado/images/kungfu-matrix.jpg)
 
 Durante mi vida, he ido leyendo diferentes tipos de libros. Cuando era pequeño, solía leer novelas y libros de ciencia ficción. Luego empecé a interesarme por la psicología, los libros de auto-ayuda, filosofía y religión. Luego me pico el gusanillo con los libros de viajes y de arte. Actualmente, los libros que más leo son los relacionados con mi trabajo. Cosas de programación, tecnología, ciencia y algo relacionado con los emprendedores y los negocios.
 

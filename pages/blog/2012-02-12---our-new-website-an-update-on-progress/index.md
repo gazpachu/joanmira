@@ -17,15 +17,15 @@ A lot of the information you see on our website today has to be manually entered
 
 Like all the work we do at the Royal Opera House it could not happen without the people who work behind the scenes, so I wanted to introduce you to the dedicated technical team who are making this all happen. We’ll look at the work of the content team in another blog.
 
-![](./images/roh-progress-1.jpeg "The Royal Opera House development team © ROH 2012")
+![](/blog/our-new-website-an-update-on-progress/images/roh-progress-1.jpeg "The Royal Opera House development team © ROH 2012")
 
 Firstly they are the often unsung heroes, the development team of two developers and a manager. Jamie and his small team are building the site from the ground up. Working with reams of data, they’ve recently been building a new more integrated way to reserve a restaurant table - one of the consequences of which is that we won't be asking for a restaurant deposit on the new site. Other fundamental work includes keeping data open and accessible. This will, for example,  impact on the way we store and showcase our ever-popular production photography, which will be managed through Flickr.
 
-![](./images/roh-progress-2.jpeg "The Royal Opera House IT team © ROH 2012")
+![](/blog/our-new-website-an-update-on-progress/images/roh-progress-2.jpeg "The Royal Opera House IT team © ROH 2012")
 
 Then there is the Technology team who are working behind the scenes with staff from all over the house to perform a major upgrade of the supporting systems and databases that hold the data and ultimately sell the tickets. Experienced and skilled techies though they are, they’re not your typical IT crowd - including a cellist, an actor, writer, dancer, and an ex-orchestra pit manager. Head of IT Chris and his team have to make sure the behind the scenes systems are safe, secure and responsive for both the website and the box office.
 
-![](./images/roh-progress-3.jpeg "POP: the team building our ticketing system © ROH 2012")
+![](/blog/our-new-website-an-update-on-progress/images/roh-progress-3.jpeg "POP: the team building our ticketing system © ROH 2012")
 
 We also have a partner in all this; POP will be building the ticketing system and have taken on the formidable challenge of building an online sales system capable of handling our busiest periods without the need for a waiting room. They have a long history working with arts venues in the UK, previously creating the system that sends you our emails as well as our iPhone ticketing app. They’re currently working on a new select-a-seat tool which will be simpler to use than the current incarnation and works on other devices that don’t support Flash. Their next task is to build single click purchasing similar to Amazon’s.
 

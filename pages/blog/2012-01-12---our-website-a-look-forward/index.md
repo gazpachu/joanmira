@@ -1,13 +1,10 @@
 ---
 title: "Our website: A look forward"
+subtitle: Chief Technology Officer Rob Greig on our forthcoming new website
 cover: "images/roh-forward.jpeg"
 template: post
 category: work
 ---
-
-![](./images/roh-forward.jpeg "Evaluating the current website and developing the new © ROH 2011")
-
-##Chief Technology Officer Rob Greig on our forthcoming new website.
 
 Post originally published on the blog of the ROH (where [I worked as a Digital Developer](/roh)), London by Rob Greig.
 

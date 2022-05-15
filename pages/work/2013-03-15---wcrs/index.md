@@ -17,4 +17,4 @@ During my tenure at WCRS, I was involved in several brainstorms, promotional ide
 * An internal newsletter template regarding Social Media
 * What should they call it? A small microsite to find out the best name for the new royal baby
 
-![](./images/1.jpg)
+![](/work/wcrs/images/1.jpg)

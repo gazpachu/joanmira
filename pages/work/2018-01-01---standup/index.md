@@ -8,11 +8,11 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" href="https://fingertips-standup.herokuapp.com/" target="_blank">Demo</a>
-<a class="btn" href="https://github.com/gazpachu/standup" target="_blank">Source code</a>
+<a class="btn" role="button" href="https://fingertips-standup.herokuapp.com/" target="_blank">Demo</a>
+<a class="btn" role="button" href="https://github.com/gazpachu/standup" target="_blank">Source code</a>
 </p>
 
-![](./images/1.jpg)
+![](/work/standup/images/1.jpg)
 
 I built the Standup app as an experiment to make remote scrum standup sessions more fun!
 

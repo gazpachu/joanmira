@@ -8,10 +8,10 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" href="https://diner-app-spa-staging.tablecheck.com/" target="_blank">Demo App</a>
+<a class="btn" role="button" href="https://diner-app-spa-staging.tablecheck.com/" target="_blank">Demo App</a>
 </p>
 
-![](./images/1.jpg)
+![](/work/diner-app/images/1.jpg)
 
 The new Diner App is a renovated version of the app currently published at tablecheck.com. It's a restaurant search engine with multiple filtering and display options. It also includes a user account section where diners can manage their TableCheck reservations. It is based on <a href="/wekohi">Wekohi</a> but with many new upgrades, some of them include:
 
@@ -33,20 +33,20 @@ Some other planned features include:
 
 ###Screenshots
 
-![](./images/2.jpg)
+![](/work/diner-app/images/2.jpg)
 
-![](./images/3.jpg)
+![](/work/diner-app/images/3.jpg)
 
-![](./images/4.jpg)
+![](/work/diner-app/images/4.jpg)
 
-![](./images/5.jpg)
+![](/work/diner-app/images/5.jpg)
 
-![](./images/6.jpg)
+![](/work/diner-app/images/6.jpg)
 
-![](./images/7.jpg)
+![](/work/diner-app/images/7.jpg)
 
-![](./images/8.jpg)
+![](/work/diner-app/images/8.jpg)
 
-![](./images/9.jpg)
+![](/work/diner-app/images/9.jpg)
 
-![](./images/10.jpg)
+![](/work/diner-app/images/10.jpg)

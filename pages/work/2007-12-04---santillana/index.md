@@ -7,7 +7,7 @@ categories: narcea flash animation desktop
 template: project
 ---
 
-![](./images/0.jpg)
+![](/work/santillana/images/0.jpg)
 
 As part of my business relationship with Narcea Multimedia, I built several interactive CDs for [Santillana](http://www.santillana.es/), a well known book publisher specialised in educational materials.
 
@@ -15,104 +15,104 @@ This project was big, with many different interactive pieces, animations, games,
 
 The range of created apps go from the human body, hygiene, alimentation to games, prevention of accidents, hydrotherapy, music-therapy, animals and plants, etc.
 
-![](./images/1.jpg)
+![](/work/santillana/images/1.jpg)
 
-![](./images/2.jpg)
+![](/work/santillana/images/2.jpg)
 
-![](./images/3.jpg)
+![](/work/santillana/images/3.jpg)
 
-![](./images/4.jpg)
+![](/work/santillana/images/4.jpg)
 
-![](./images/5.jpg)
+![](/work/santillana/images/5.jpg)
 
-![](./images/6.jpg)
+![](/work/santillana/images/6.jpg)
 
-![](./images/7.jpg)
+![](/work/santillana/images/7.jpg)
 
-![](./images/8.jpg)
+![](/work/santillana/images/8.jpg)
 
-![](./images/9.jpg)
+![](/work/santillana/images/9.jpg)
 
-![](./images/10.jpg)
+![](/work/santillana/images/10.jpg)
 
-![](./images/11.jpg)
+![](/work/santillana/images/11.jpg)
 
-![](./images/12.jpg)
+![](/work/santillana/images/12.jpg)
 
-![](./images/13.jpg)
+![](/work/santillana/images/13.jpg)
 
-![](./images/14.jpg)
+![](/work/santillana/images/14.jpg)
 
-![](./images/15.jpg)
+![](/work/santillana/images/15.jpg)
 
-![](./images/16.jpg)
+![](/work/santillana/images/16.jpg)
 
-![](./images/17.jpg)
+![](/work/santillana/images/17.jpg)
 
-![](./images/18.jpg)
+![](/work/santillana/images/18.jpg)
 
-![](./images/19.jpg)
+![](/work/santillana/images/19.jpg)
 
-![](./images/20.jpg)
+![](/work/santillana/images/20.jpg)
 
-![](./images/21.jpg)
+![](/work/santillana/images/21.jpg)
 
-![](./images/22.jpg)
+![](/work/santillana/images/22.jpg)
 
-![](./images/23.jpg)
+![](/work/santillana/images/23.jpg)
 
-![](./images/24.jpg)
+![](/work/santillana/images/24.jpg)
 
-![](./images/25.jpg)
+![](/work/santillana/images/25.jpg)
 
-![](./images/26.jpg)
+![](/work/santillana/images/26.jpg)
 
-![](./images/27.jpg)
+![](/work/santillana/images/27.jpg)
 
-![](./images/28.jpg)
+![](/work/santillana/images/28.jpg)
 
-![](./images/29.jpg)
+![](/work/santillana/images/29.jpg)
 
-![](./images/30.jpg)
+![](/work/santillana/images/30.jpg)
 
-![](./images/31.jpg)
+![](/work/santillana/images/31.jpg)
 
-![](./images/32.jpg)
+![](/work/santillana/images/32.jpg)
 
-![](./images/33.jpg)
+![](/work/santillana/images/33.jpg)
 
-![](./images/34.jpg)
+![](/work/santillana/images/34.jpg)
 
-![](./images/35.jpg)
+![](/work/santillana/images/35.jpg)
 
-![](./images/36.jpg)
+![](/work/santillana/images/36.jpg)
 
-![](./images/37.jpg)
+![](/work/santillana/images/37.jpg)
 
-![](./images/38.jpg)
+![](/work/santillana/images/38.jpg)
 
-![](./images/39.jpg)
+![](/work/santillana/images/39.jpg)
 
-![](./images/40.jpg)
+![](/work/santillana/images/40.jpg)
 
-![](./images/41.jpg)
+![](/work/santillana/images/41.jpg)
 
-![](./images/42.jpg)
+![](/work/santillana/images/42.jpg)
 
-![](./images/43.jpg)
+![](/work/santillana/images/43.jpg)
 
-![](./images/44.jpg)
+![](/work/santillana/images/44.jpg)
 
-![](./images/45.jpg)
+![](/work/santillana/images/45.jpg)
 
-![](./images/46.jpg)
+![](/work/santillana/images/46.jpg)
 
-![](./images/47.jpg)
+![](/work/santillana/images/47.jpg)
 
-![](./images/48.jpg)
+![](/work/santillana/images/48.jpg)
 
-![](./images/49.jpg)
+![](/work/santillana/images/49.jpg)
 
-![](./images/50.jpg)
+![](/work/santillana/images/50.jpg)
 
-![](./images/51.jpg)
+![](/work/santillana/images/51.jpg)

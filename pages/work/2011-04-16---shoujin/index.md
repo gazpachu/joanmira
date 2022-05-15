@@ -7,7 +7,7 @@ categories: web ux design photo video wordpress
 template: project
 ---
 
-![](./images/1.jpg)
+![](/work/shoujin/images/1.jpg)
 
 During my first year in London, I attended the Shoujin Karate club in Newham. I got so excited that I built for the club a full Wordpress website with a custom template and many details. I even had a photoshoot with lights, backdrop and all the paraphernalia for the students and also recorded, edited and published a few videos of the competitions and the training.
 

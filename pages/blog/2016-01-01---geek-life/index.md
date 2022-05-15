@@ -35,7 +35,7 @@ Half-Life 1 and 2, Far Cry, ISS Pro Evolution/Winning Eleven, The Dig, Monkey Is
 
 * The first RAM module I bought (slot SIMM) was just  for 4 MB and cost me 20.000 pesetas! I got it in the summer of 1994 via <a href="http://www.centromail.es/" target="_blank">CentroMAIL</a> (from PCMANIA) and used it to play <a href="http://en.wikipedia.org/wiki/Bioforge" target="_blank">Bioforge</a> in my 486 SX 33Mhz with CDROM!
 
-* The pirate in my neighbourhood (sorry, as a kid I didn't have enough money to buy games) was arrested by the police, or at least that's what her wife was saying…). From that dirty place full of kids adicted to videogames I got great copies of <a href="http://en.wikipedia.org/wiki/Doom" target="_blank">DOOM</a>, <a href="http://en.wikipedia.org/wiki/Rise_of_the_Robots" target="_blank">Rise of the Robots</a>, <a href="http://en.wikipedia.org/wiki/Bioforge" target="_blank">Bioforge</a> or the wonderful <a href="http://en.wikipedia.org/wiki/The_Dig" target="_blank">The Dig</a> (one of my favourite graphic adventures ever).
+* The neighbourhood where I grew up was full of kids adicted to videogames. We were constantly exchanging games like the <a href="http://en.wikipedia.org/wiki/Doom" target="_blank">DOOM</a>, <a href="http://en.wikipedia.org/wiki/Rise_of_the_Robots" target="_blank">Rise of the Robots</a>, <a href="http://en.wikipedia.org/wiki/Bioforge" target="_blank">Bioforge</a> or the wonderful <a href="http://en.wikipedia.org/wiki/The_Dig" target="_blank">The Dig</a> (one of my favourite graphic adventures ever).
 
 ![](/blog/geek-life/images/4.jpg "The DIG, Shinobi and Captain Comando")
 

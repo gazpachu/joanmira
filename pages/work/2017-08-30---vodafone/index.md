@@ -7,7 +7,7 @@ categories: vodafone web-app inverted leaflet mapbox blackhole d3
 template: project
 ---
 
-![](./images/1.jpg)
+![](/work/vodafone/images/1.jpg)
 
 While working at Vodafone, I was tasked to do an interactive data visualisation piece for one of its clients.
 

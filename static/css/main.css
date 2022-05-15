@@ -9,6 +9,14 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
 }
 
+.align-center {
+  text-align: center;
+}
+
+.icon {
+  display: inline-block;
+}
+
 @media screen and (min-width: 601px) {
   #main-wrapper {
     padding: 0 20px;

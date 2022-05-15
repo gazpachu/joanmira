@@ -7,14 +7,14 @@ categories: flash animation ibcmass desktop
 template: project
 ---
 
-![](./images/1.jpg)
+![](/work/alcalahenares/images/1.jpg)
 
 As part of my business relationship with IBCMass, I built an interactive educational Flash app, featuring original illustrations, interactions, sounds, narrations, games, etc.
 
-![](./images/2.jpg)
+![](/work/alcalahenares/images/2.jpg)
 
-![](./images/3.jpg)
+![](/work/alcalahenares/images/3.jpg)
 
-![](./images/4.jpg)
+![](/work/alcalahenares/images/4.jpg)
 
-![](./images/5.jpg)
+![](/work/alcalahenares/images/5.jpg)

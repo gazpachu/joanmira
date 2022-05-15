@@ -135,6 +135,7 @@ async function processPage(pagePath) {
 
   if (pageContentElement) {
     const image = `/${targetPath}/${frontmatter.cover}`;
+    const date = new Date(pagePath.substring(11, 21));
     let pageTitle = `<h1>${frontmatter.title}</h1>`;
     if (frontmatter.title && frontmatter.subtitle) {
       pageTitle = `<hgroup><h1>${frontmatter.title}</h1><h2>${frontmatter.subtitle}</h2></hgroup>`;
@@ -143,7 +144,7 @@ async function processPage(pagePath) {
       pageTitle = '';
     }
     pageContentElement.innerHTML = `
-    ${frontmatter.cover
+    ${frontmatter.cover && frontmatter.template !== 'project'
       ? `<picture>
           <source srcset="${image.replace('.jpg', '.webp')}" type="image/webp">
           <source srcset="${image}" type="image/jpeg">
@@ -152,6 +153,9 @@ async function processPage(pagePath) {
       : ''}
     <div class="post-content">
       ${pageTitle}
+      <div class="meta secondary">
+        ${frontmatter.category ? `<a href="/blog/category/${frontmatter.category}">${frontmatter.category.replace('-', ' ')}</a>` : ''} • ${date.toLocaleDateString()}
+      </div>
       ${parsedHtml}
     </div>`;
   } else {

@@ -8,7 +8,7 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" href="https://github.com/gazpachu/fireworks" target="_blank">Source code</a>
+<a class="btn" role="button" href="https://github.com/gazpachu/fireworks" target="_blank">Source code</a>
 </p>
 
 ## A Kinect driven hand tracking experiment
@@ -24,7 +24,7 @@ To maximise the audiovisual appeal, the app also features these techniques:
 -	Base soundtrack playing in a loop and 7 different sound effects, including a crowd of people cheering after a rich round of continuous fireworks
 -	Dynamic blur effect using shaders for the hand calibration overlay
 
-![](./images/fireworks-experiment.jpg)
+![](/work/fireworks-installation/images/fireworks-experiment.jpg)
 
 ## Tech used
 
@@ -44,6 +44,6 @@ Note: Kinect cameras cannot be connected to mobile devices or tablets, although 
 
 The demo was installed in Eden House’s exhibit area (SapientNitro's office) to allow visitors and employees to use it.
 
-![](./images/1.jpg "Wall installation")
+![](/work/fireworks-installation/images/1.jpg "Wall installation")
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pgPIYp36Miw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

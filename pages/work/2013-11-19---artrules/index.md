@@ -8,14 +8,14 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" href="http://work.joanmira.com/demos/artrules/" target="_blank" rel="noopener noreferrer">Check animation prototypes</a>
+<a class="btn" role="button" href="http://work.joanmira.com/demos/artrules/" target="_blank" rel="noopener noreferrer">Check animation prototypes</a>
 </p>
 
 The [ICA, Institute of Contemporary Art](https://www.ica.org.uk/), has been in the forefront for arts for decades. It was finding difficulties keeping up with today’s social media age and needed to be part of the online art conversation. We ([SapientNitro](http://www.sapientnitro.com/), London) built a platform to encourage people to challenge what art really means.
 
-![](./images/0.jpg)
+![](/work/artrules/images/0.jpg)
 
-![](./images/12.jpg)
+![](/work/artrules/images/12.jpg)
 
 My role in this project was mainly in the rendering and animations of the art rules. Tech used includes: Ruby on Rails (RoR), HAML, Heroku, Github, SASS, CSS3 animations and Javascript Box2d 2D physics.
 
@@ -39,26 +39,26 @@ Featured on:
 - [Artsy](https://www.artsy.net/article/glenn-michael-ebert-who-makes-the-rules-of-art-number-whatisart)
 
 
-![](./images/wall-installation.jpg "Installation of the project on a wall in SapientNitro's office")
+![](/work/artrules/images/wall-installation.jpg "Installation of the project on a wall in SapientNitro's office")
 
-![](./images/1.jpg)
+![](/work/artrules/images/1.jpg)
 
-![](./images/3.jpg)
+![](/work/artrules/images/3.jpg)
 
-![](./images/4.jpg)
+![](/work/artrules/images/4.jpg)
 
-![](./images/2.jpg)
+![](/work/artrules/images/2.jpg)
 
-![](./images/5.jpg)
+![](/work/artrules/images/5.jpg)
 
-![](./images/6.jpg)
+![](/work/artrules/images/6.jpg)
 
-![](./images/7.jpg)
+![](/work/artrules/images/7.jpg)
 
-![](./images/8.jpg)
+![](/work/artrules/images/8.jpg)
 
-![](./images/9.jpg)
+![](/work/artrules/images/9.jpg)
 
-![](./images/10.jpg)
+![](/work/artrules/images/10.jpg)
 
-![](./images/11.jpg "Projection of the project over the facade of Tate Modern in London")
+![](/work/artrules/images/11.jpg "Projection of the project over the facade of Tate Modern in London")

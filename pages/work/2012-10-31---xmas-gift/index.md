@@ -8,7 +8,7 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" href="https://github.com/gazpachu/xmas-gift" target="_blank">Source code</a>
+<a class="btn" role="button" href="https://github.com/gazpachu/xmas-gift" target="_blank">Source code</a>
 </p>
 
 ## The idea
@@ -36,10 +36,10 @@ It was all built with OpenFrameworks, Kinect and OpenNI.
 
 - Press “space bar” to start again or recalibrate the hand tracking
 
-![](./images/1.jpg "Initial screen. Snowflakes are moving a little bit randomly")
+![](/work/xmas-gift/images/1.jpg "Initial screen. Snowflakes are moving a little bit randomly")
 
-![](./images/2.jpg "Halfway through. The yellow dot represents the movement of the hand")
+![](/work/xmas-gift/images/2.jpg "Halfway through. The yellow dot represents the movement of the hand")
 
-![](./images/3.jpg "Development setup. Example of usage with the hand")
+![](/work/xmas-gift/images/3.jpg "Development setup. Example of usage with the hand")
 
-![](./images/4.jpg "Final stage. The user scanning the QR code")
+![](/work/xmas-gift/images/4.jpg "Final stage. The user scanning the QR code")

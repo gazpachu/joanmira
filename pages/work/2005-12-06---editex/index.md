@@ -7,7 +7,7 @@ categories: flash narcea custom-cms desktop
 template: project
 ---
 
-![](./images/1.jpg)
+![](/work/editex/images/1.jpg)
 
 This is one of the longest project I ever worked on. It started in 2005 and lasted until 2012 with **more than 30 different CDs** for different high school levels. I basically built an interactive app to generate exams.
 
@@ -15,10 +15,10 @@ The app reads questions and answers from an XML and randomises them based on a s
 
 Once the questions were displayed, the teacher could export them into a Word document, HTML page or print them.
 
-![](./images/2.jpg)
+![](/work/editex/images/2.jpg)
 
-![](./images/3.jpg)
+![](/work/editex/images/3.jpg)
 
-![](./images/4.jpg)
+![](/work/editex/images/4.jpg)
 
-![](./images/5.jpg)
+![](/work/editex/images/5.jpg)

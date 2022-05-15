@@ -1,6 +1,6 @@
 ---
 title: "El monje que vendió su ferrari"
-cover: "./images/14582634_hnllxa.jpg"
+cover: "images/14582634_hnllxa.jpg"
 template: post
 category: literature
 ---

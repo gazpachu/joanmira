@@ -8,10 +8,10 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" href="http://joanmira-ghost.herokuapp.com" target="_blank">Archived website</a>
+<a class="btn" role="button" href="http://joanmira-ghost.herokuapp.com" target="_blank">Archived website</a>
 </p>
 
-![](./images/1.jpg)
+![](/work/joanmira/images/1.jpg)
 
 This project was the first version of my new personal website. Before it was called [gazpachu.com](/gazpachu).
 

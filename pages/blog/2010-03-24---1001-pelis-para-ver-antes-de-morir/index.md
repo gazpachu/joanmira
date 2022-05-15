@@ -7,7 +7,7 @@ category: film
 
 Si estabas buscando por Internet una lista con las mejores películas de la historia, estás en el lugar adecuado. A continuación podrás encontrar las 1001 películas que me he propuesto ver (en versión original con subtítulos) antes de morir. Probablemente son las mejores películas de la historia del Cine y verlas todas va a ser fácil, lo más complicado va a ser encontrar algunas de las más *viejunas*.
 
-Esta lista (o una muy parecida) también está [disponible en libro](http://en.wikipedia.org/wiki/1001_Movies_You_Must_See_Before_You_Die) – [Amazon ](http://www.amazon.com/1001-Movies-You-Must-Before/dp/0764161512/ref=sr - 1 - 1?ie=UTF8&qid=1306874610&sr=8-1) - (por si te resulta más cómodo ese formato).
+Esta lista (o una muy parecida) también está [disponible en libro](http://en.wikipedia.org/wiki/1001_Movies_You_Must_See_Before_You_Die) – [Amazon](http://www.amazon.com/1001-Movies-You-Must-Before/dp/0764161512/ref=sr-1-1?ie=UTF8&qid=1306874610&sr=8-1) - (por si te resulta más cómodo ese formato).
 
 Si no tienes mucho tiempo libre, quizás te interese ver la lista de [las 25 películas que debes ver antes de morir](http://en.wikipedia.org/wiki/1001_Movies_You_Must_See_Before_You_Die) y los [25 documentales que deber ver antes de morir](http://en.wikipedia.org/wiki/1001_Movies_You_Must_See_Before_You_Die).
 

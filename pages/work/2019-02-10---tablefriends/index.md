@@ -8,11 +8,11 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" href="https://tablefriends.netlify.app/" target="_blank">Live App</a>
-<a class="btn" href="https://github.com/gazpachu/tablefriends" target="_blank">Github repository</a>
+<a class="btn" role="button" href="https://tablefriends.netlify.app/" target="_blank">Live App</a>
+<a class="btn" role="button" href="https://github.com/gazpachu/tablefriends" target="_blank">Github repository</a>
 </p>
 
-![](./images/1.jpg)
+![](/work/tablefriends/images/1.jpg)
 
 TableFriends is an open-source web app prototype (not ready for production) to organise restaurant events for big groups of people. It helps them to find the right date, time, course and drinks. The admin user can select all the different options and the guests can choose what are the preferences. Once the deadline is reached, the options with more votes get selected and the admin can proceed to make the restaurant reservation.
 

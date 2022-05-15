@@ -7,7 +7,7 @@ categories: vodafone react redux webpack web-app ux design
 template: project
 ---
 
-![](./images/1.jpg)
+![](/work/fingetips/images/1.jpg)
 
 Fingertips (aka Dashboard) is the main app that hosts all the other apps I built while working at Vodafone. Its purpose is to serve as:
 
@@ -30,24 +30,24 @@ Some of the widgets include pagination and others include settings.
 
 News stories and ideas have their own canonical URL and page. Ideas include comments from users as well.
 
-![](./images/2.jpg "Add a new widget")
+![](/work/fingetips/images/2.jpg "Add a new widget")
 
-![](./images/3.jpg "Idea page")
+![](/work/fingetips/images/3.jpg "Idea page")
 
-![](./images/4.jpg "Edit an idea")
+![](/work/fingetips/images/4.jpg "Edit an idea")
 
-![](./images/5.jpg "Widget settings")
+![](/work/fingetips/images/5.jpg "Widget settings")
 
-![](./images/6.jpg "Support panel connected with Slack")
+![](/work/fingetips/images/6.jpg "Support panel connected with Slack")
 
-![](./images/7.jpg "App FAQs")
+![](/work/fingetips/images/7.jpg "App FAQs")
 
-![](./images/8.jpg "Manage access requests")
+![](/work/fingetips/images/8.jpg "Manage access requests")
 
-![](./images/9.jpg "Manage ideas")
+![](/work/fingetips/images/9.jpg "Manage ideas")
 
-![](./images/10.jpg "About page")
+![](/work/fingetips/images/10.jpg "About page")
 
 <video class="full-img" width="100%" controls>
-  <source src="./images/tour.mp4" type="video/mp4" />
+  <source src="/work/fingetips/images/tour.mp4" type="video/mp4" />
 </video>

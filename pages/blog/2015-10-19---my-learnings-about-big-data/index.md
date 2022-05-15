@@ -9,7 +9,7 @@ Hi folks! Yesterday I joined a [course in Coursera regarding Big Data](https://w
 
 I will keep posting notes here while doing the course, so don't expect a very organised article until the end!.
 
-###Week 1: Welcome to Big Data
+### Week 1: Welcome to Big Data
 
 - There's a huge need of data scientists
 - 90% of World's data has been created in the last two years!
@@ -40,7 +40,7 @@ I will keep posting notes here while doing the course, so don't expect a very or
 - We will learn how to submit MapReduce jobs
 - In Hadoop 2.0 we have YARN, which allows us to do more complex stuff
 
-###Week 2: why Big Data?
+### Week 2: why Big Data?
 
 - Computers are no longer deterministic machines. Not physically available
 - Bring technologies together to find meaning in large, fast-moving, uncertain data

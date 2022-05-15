@@ -8,11 +8,11 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" href="http://investphilippines.org/siliconvalley/" target="_blank">Invest Philippines USA</a>
-<a class="btn" href="http://philembassy.herokuapp.com/" target="_blank">Philippine Embassy London (archived version)</a>
+<a class="btn" role="button" href="http://investphilippines.org/siliconvalley/" target="_blank">Invest Philippines USA</a>
+<a class="btn" role="button" href="http://philembassy.herokuapp.com/" target="_blank">Philippine Embassy London (archived version)</a>
 </p>
 
-![](./images/1.jpg)
+![](/work/philippines/images/1.jpg)
 
 While directing Webmarket.es, I partnered with the Philippines government to build a few websites for their embassies and investment centres:
 

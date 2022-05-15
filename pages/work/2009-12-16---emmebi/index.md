@@ -7,7 +7,7 @@ categories: joomla web ux design inverted
 template: project
 ---
 
-![](./images/1.jpg)
+![](/work/emmebi/images/1.jpg)
 
 As part of my partnership with Website Profesional, I was hired to build a website for EmmeBi (Macchine Per Legatoria), an italian manufacturer of industrial products.
 

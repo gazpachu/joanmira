@@ -8,10 +8,10 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" href="http://www.yonococino.com/blog/" target="_blank">Launch website</a>
+<a class="btn" role="button" href="http://www.yonococino.com/blog/" target="_blank">Launch website</a>
 </p>
 
-![](./images/1.jpg)
+![](/work/yonococino/images/1.jpg)
 
 As part of my involvement in the [iWeekend event](http://iweekend.org/en), I helped to build the selected project: Yo No Cocino, an aggregator of restaurants and other food related businesses with an online ordering process and a delivery system.
 

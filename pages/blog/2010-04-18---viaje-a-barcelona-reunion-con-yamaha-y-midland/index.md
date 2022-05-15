@@ -15,7 +15,7 @@ Nos levantamos y desayunamos bien, el tiempo seguía cerrado, la humedad era tal
 
 La lluvia nos regaló un pequeño lapsus de tiempo para ir adaptándonos a la carretera (bien mojada por cierto). Nos dirigimos hacia Carboneras, paramos para repostar y seguidamente tomamos la N-420 hacia Teruel. Empieza a llover a cántaros!, pero teníamos citas en la ciudad Condal y, a no ser que el destino dijera un NO rotundo, nosotros seguiríamos adelante.
 
-![1](./images/1_ciiykf.jpg)
+![1](/blog/viaje-a-barcelona-reunion-con-yamaha-y-midland/blog/viaje-a-barcelona-reunion-con-yamaha-y-midland/images/1_ciiykf.jpg)
 
 Las manoplas son un gran invento y en un día como este no me puedo imaginar viajar solo con un par de guantes. Joan se puso las suyas en la moto, pero al no tener unos protectores de manos, con la fuerza del viento, empezaron a presionar las manetas de freno y embrague. Ya os podéis imaginar lo incómodo del asunto, lloviendo a cántaros, a cero grados y con los dedos de las manos como palos para evitar que las manoplas accionen el freno…
 
@@ -23,9 +23,9 @@ Continuamos el viaje, “de relax”. Se divisaba en las cunetas de la carretera
 
 Antes de llegar a Teruel pasamos por un pequeño puerto de montaña de más de 1000 metros de altura, había algo de nieve en la carretera, así que decidimos parar un poco a aprovechar el magnífico día. Era necesario dejar constancia fotográfica del momento. Es muy agradable no ir sólo en ruta, las penas, son menos penas cuando estás acompañado.
 
-![2](./images/2_pq7ijg.jpg)
+![2](/blog/viaje-a-barcelona-reunion-con-yamaha-y-midland/images/2_pq7ijg.jpg)
 
-![3](./images/3_ztiwhx.jpg)
+![3](/blog/viaje-a-barcelona-reunion-con-yamaha-y-midland/images/3_ztiwhx.jpg)
 
 Entre Teruel y Alcañiz hacemos una parada, hacía un frío de muerte y la implacable humedad excitaba nuestros grifos nasales de forma incesante. Un buen almuerzo-comida, a base de bocadillo de lomo con queso nos dejó casi perfectos y con los ánimos restaurados. Qué pena que seguía lloviendo, pero teníamos que continuar el camino por esa bonita carretera rumbo a Alcañiz, Caspe, Fraga y Barcelona.
 
@@ -39,16 +39,16 @@ Al día siguiente, miércoles, fue muy buen día, no paramos de hacer cosas. La 
 
 También visitamos a, nuestro ya confirmado patrocinador, Midland. Los cuales nos facilitarán walkis e intercomunicadores para que podamos estar siempre bien comunicados =) David estuvo muy amable explicándonos todas las ventajas (que no son pocas) de la tecnología Bluetooth, la cual nos permite tener conversaciones bidireccionales a la vez y poder escuchar el sonido del teléfono, GPS y MP3. Una maravilla que no le puede faltar a ningún grupo de moteros que tenga intención de hacer algún viaje largo.
 
-![midland](./images/midland_pnhvh6.jpg)
+![midland](/blog/viaje-a-barcelona-reunion-con-yamaha-y-midland/images/midland_pnhvh6.jpg)
 
 Entre las visitas a los patrocinadores, también aprovechamos para iniciar los trámites del visado para Mongolia. Parece que todo está en orden y ahora solo nos queda esperar a que nos devuelvan los pasaportes. Luego fuimos a visitar algunas tiendas de motos y a tomamos unas buenas cervezas en el mejor pub motero de Barcelona, el Paddock. Unas Guinnes fantásticas, con amigos geniales como Federico-Varadero e Ignacio-Tíger y toda esa gente tan agradable con gasolina por las venas que frecuenta ese gran rincón motero. Muchas gracias!
 
-![5](./images/5_w3i0th.jpg)
+![5](/blog/viaje-a-barcelona-reunion-con-yamaha-y-midland/images/5_w3i0th.jpg)
 
 Vendimos algunas camisetas del viaje, gracias! y quedamos también en hacer una pequeña fiesta, si todo va bien, el día 6 de junio al anochecer, estando ya empezada la ruta hacia Japón y aprovechando nuestro paso por Barcelona.
 
-![6](./images/6_gen06b.jpg)
+![6](/blog/viaje-a-barcelona-reunion-con-yamaha-y-midland/images/6_gen06b.jpg)
 
-![7](./images/7_ybsedb.jpg)
+![7](/blog/viaje-a-barcelona-reunion-con-yamaha-y-midland/images/7_ybsedb.jpg)
 
 Y así acaban estos días intensos y agradables, de mucha moto y emociones, unos 530 kilómetros de ida y otros de vuelta, con buenos amigos, felices de viajar en moto y trabajar para hacer realidad nuestros sueños. A cuidarse y a ver si nos pilláis camisetas, necesitamos vuestra ayuda, gracias anticipadas y un gran abrazo para tod@s.

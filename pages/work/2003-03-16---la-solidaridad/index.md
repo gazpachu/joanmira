@@ -8,10 +8,10 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" href="http://lasolidaridad.herokuapp.com" target="_blank">Launch archived website</a>
+<a class="btn" role="button" href="http://lasolidaridad.herokuapp.com" target="_blank">Launch archived website</a>
 </p>
 
-![](./images/1.jpg)
+![](/work/la-solidaridad/images/1.jpg)
 
 La Solidaridad was a personal project (together with my wife). It's purpose was to be an online newspaper to talk about ecology, immigration, politics, economy, etc.
 

@@ -5,11 +5,13 @@ template: post
 category: film
 ---
 
-<iframe allowfullscreen="" frameborder="0" height="340" src="http://www.youtube.com/embed/XMY2Op1jYdw?feature=oembed" width="604"></iframe>
+<iframe width="100%" height="380" src="https://www.youtube.com/embed/4vPeTSRd580" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 *Resumen de la película [Tema musical del final “hotaru”]*
 
-![hotaru-no-haka](./images/hotaru-no-haka_rrthup.jpg "hotaru-no-haka")Acabo de terminar de ver “[Hotaru no naka](http://www.imdb.com/title/tt0095327/)” [Japón, 1988] y me ha dejando en tal estado de preocupación e intranquilidad, que me veo obligado a retrasar la hora de ir a la cama para poder escribir unas palabras aquí sobre esta historia tan triste…
+![hotaru-no-haka](/blog/la-tumba-de-las-luciernagas/images/hotaru-no-haka_rrthup.jpg "hotaru-no-haka")
+
+Acabo de terminar de ver “[Hotaru no naka](http://www.imdb.com/title/tt0095327/)” [Japón, 1988] y me ha dejando en tal estado de preocupación e intranquilidad, que me veo obligado a retrasar la hora de ir a la cama para poder escribir unas palabras aquí sobre esta historia tan triste…
 
 Lo primero de lo que quiero hablar es de lo asombrado que estoy (ya que es la primera vez que me pasa) de que una película de dibujos animados como esta, pueda llegar a “tocarme” tan profundamente. Normalmente, aunque sea de forma inconsciente, solemos asociar rápidamente los dibujos animados con historias que están muy lejos de la realidad y por tanto, es dificil que éstas lleguen a ser algo más que simples entretenimientos. Sin embargo, en algunas peliculas de anime, las historias están tan bien escritas y hechas que puede que nos pille con la “guardia baja” y acabemos lloriqueando o con un *traumatismo intelectual*™ severo sin darnos cuenta.
 

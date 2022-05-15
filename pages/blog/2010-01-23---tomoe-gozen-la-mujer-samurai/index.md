@@ -9,7 +9,7 @@ category: samurai-route
   <em>Tomoe Gozen cargando contra el enemigo, en una xilografía de Yoshu Chikanobu, de 1899</em>
 </p>
 
-![](./images/tomoe.jpg)
+![](/blog/tomoe-gozen-la-mujer-samurai/images/tomoe.jpg)
 
 La clase guerrera Samurái se inició en el siglo IX siendo expertos luchadores con unas estrictas normas de honor. También existe una guerrera japonesa. Fue la bella Tomoe que, además de ser reconocida como samurai de alto rango, era temida por sus enemigos. Su arma preferida, la naginata, una especie de lanza de madera con una hoja metálica acoplada, le dió fama legendaria. Siempre dispuesta a la lucha, también era una excelente arquera y dominaba con facilidad el manejo de grandes caballos por escarpadas pendientes. Su muerte, defendiendo a su amado esposo, el general Minamoto Yoshinaka en un desigual combate la convirtió en un mito.
 

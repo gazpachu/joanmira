@@ -8,10 +8,10 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" href="https://tablekit.tablecheck.com" target="_blank">TableKit Live Version</a>
+<a class="btn" role="button" href="https://tablekit.tablecheck.com" target="_blank">TableKit Live Version</a>
 </p>
 
-![](./images/1.jpg)
+![](/work/tablekit/images/1.jpg)
 
 Before joining TableCheck, I was already a big fan of design systems. In fact, I built [SugUI](/sugui) together with a work colleague (UI/UX designer) at Vodafone. Therefore, I had a clear mindset to do something similar at TableCheck. When I joined, I was lucky to find that other engineers in the team also shared the same philosophy about the need of a custom UI toolkit and proper design guidelines to maintain the consistency across the company products.
 
@@ -38,23 +38,23 @@ Regarding icons, we ended up using a combination of [FontAwesome Icons](https://
 Regarding colors, we decided to have a couple of primary and a couple of secondary colors. We also defined some accent colors, warning, success, border, elevation shadows, a grey scale, etc. But at the same time, we also needed a few scales to cover the abundant color combinations of the charts in the Insight App. That's how we came up with the following table:
 
 <p class="align-center">
-<img src="./images/2.gif" alt="Tablekit colors" />
+<img src="/work/tablekit/images/2.gif" alt="Tablekit colors" />
 </p>
 
 The color schema was built taking our brand purple colour as the reference. Then we created 7 additional “core” colours with the same visual brightness and saturation. Once we had our 8 core colours, we added 4 darker and 4 lighter shades of each for our scales. This gave us a total of 72 unique colours to work with.
 
-![](./images/3.png)
+![](/work/tablekit/images/3.png)
 
-![Full palette (left) • Theme and UI Colours subset (Right)](./images/4.png)
+![Full palette (left) • Theme and UI Colours subset (Right)](/work/tablekit/images/4.png)
 
 Another important aspect to define was the spacing. We ended up adopting an [8 pt grid](https://spec.fm/specifics/8-pt-grid), which would allow us to have a base value of 8px and several steps using a base of 8:
 
-![](./images/5.png)
+![](/work/tablekit/images/5.png)
 
 For the typography, we also used the base 8 approach. So each line height step would use full or half increments of 8:
 
-![](./images/6.png)
+![](/work/tablekit/images/6.png)
 
 Example of the Button component (regular size):
 
-![](./images/7.png)
+![](/work/tablekit/images/7.png)

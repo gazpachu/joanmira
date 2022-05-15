@@ -11,7 +11,7 @@ The Royal Opera House was my first professional experience in the UK. I was hire
 
 Once we understood the issues with the old website, we decided to start building [the news section](http://www.roh.org.uk/news), which is quite an isolated piece that could be driven by a Wordpress installation with custom theme and plugins.
 
-![](./images/1.jpg "Screenshot of the ROH news section")
+![](/work/roh/images/1.jpg "Screenshot of the ROH news section")
 
 ### The requirements and the plan
 
@@ -27,7 +27,7 @@ At this point, another developer joined the team. We were now three!, still a sm
 
 ### Framework and infrastructure
 
-![](./images/3.jpg "Evaluating the current website and developing the new © ROH 2011")
+![](/work/roh/images/3.jpg "Evaluating the current website and developing the new © ROH 2011")
 
 Once we understood the problem, we studied the different open source PHP frameworks out there to build the rest of the website. Although the static pages we decided to build them with Wordpress. Why open source and why PHP? Well, the ROH is partly funded with public money and we believed in Open Data, Web Standards and making things as open and accessible as possible. I remember that Zend, CodeIgniter or Symfony were the most popular at that time, so we decided to go with Zend due to its robustness and huge community. We also decided to use Doctrine (Symfony's ORM), Apache, Linux and MySQL. A classic LAMP stack.
 
@@ -45,7 +45,7 @@ So we customised a Flickr Wordpress plugin (for the news section) and created a 
 
 ### Less is more
 
-![](./images/0.jpg "The Royal Opera House home page")
+![](/work/roh/images/0.jpg "The Royal Opera House home page")
 
 Another lesson I learned in this project is about minimalism and simple design, or how is commonly known as "less is more". The best example is when we were discussing about adding the social media icons to share the news articles. Having a personal blog and knowing the benefits of having those buttons, I was totally convinced that the same principle would apply to the ROH website but I was wrong.
 
@@ -72,52 +72,52 @@ It was a great professional experience and I learned a lot. It was also my first
 
 ### Some screenshots
 
-![](./images/15.jpg "Home page")
+![](/work/roh/images/15.jpg "Home page")
 
-![](./images/14.jpg "Production page")
+![](/work/roh/images/14.jpg "Production page")
 
-![](./images/4.jpg "About page")
+![](/work/roh/images/4.jpg "About page")
 
-![](./images/5.jpg "Article page")
+![](/work/roh/images/5.jpg "Article page")
 
-![](./images/6.jpg "User account page")
+![](/work/roh/images/6.jpg "User account page")
 
-![](./images/7.jpg "Restaurant reservation")
+![](/work/roh/images/7.jpg "Restaurant reservation")
 
-![](./images/8.jpg "Ticket selection")
+![](/work/roh/images/8.jpg "Ticket selection")
 
-![](./images/9.jpg "Seat selection")
+![](/work/roh/images/9.jpg "Seat selection")
 
-![](./images/9.jpg "Order placed")
+![](/work/roh/images/9.jpg "Order placed")
 
-![](./images/11.jpg "Lunchtime booking")
+![](/work/roh/images/11.jpg "Lunchtime booking")
 
-![](./images/12.jpg "Upcoming events")
+![](/work/roh/images/12.jpg "Upcoming events")
 
-![](./images/13.jpg "Calendar by week")
+![](/work/roh/images/13.jpg "Calendar by week")
 
-![](./images/16.jpg "Article with me and Jamie")
+![](/work/roh/images/16.jpg "Article with me and Jamie")
 
 ### Ballet screens
 
 Another side project I had the pleasure to work on, was the ballet screens. An app that runs on the tv screens of the dancing studios of the ROH. It's basically an HTML page with some CSS with data coming from an XSLT document.
 
-![](./images/ballet.jpg)
+![](/work/roh/images/ballet.jpg)
 
 ### Team and office
 
-![](./images/roh-office.jpg "The development team was small but talented!. Just two developers and one designer/manager)")
+![](/work/roh/images/roh-office.jpg "The development team was small but talented!. Just two developers and one designer/manager)")
 
-![](./images/roh-workspace.jpg "My workspace")
+![](/work/roh/images/roh-workspace.jpg "My workspace")
 
-![](./images/roh-team-2.jpg "The digital media team")
+![](/work/roh/images/roh-team-2.jpg "The digital media team")
 
-![](./images/party.jpg "ROH Party")
+![](/work/roh/images/party.jpg "ROH Party")
 
 ## Old design
 
-![](./images/old-home.jpg "Old home page")
+![](/work/roh/images/old-home.jpg "Old home page")
 
-![](./images/old-whats-on.jpg "Old What's on page")
+![](/work/roh/images/old-whats-on.jpg "Old What's on page")
 
-![](./images/old-discover.jpg "Old discover landing page")
+![](/work/roh/images/old-discover.jpg "Old discover landing page")

@@ -7,11 +7,11 @@ categories: web flash animation custom-cms joomla wordpress mysql php webmarket
 template: project
 ---
 
-<p class="align-center"><a class="btn" href="http://webmarket-v6.herokuapp.com" target="_blank">v6 Wordpress</a> <a class="btn" href="http://webmarket-joomla.herokuapp.com" target="_blank">v5 Joomla</a> <a class="btn" href="http://webmarket-wp.herokuapp.com" target="_blank">v5 Wordpress</a> <a class="btn" href="http://work.joanmira.com/webs/webmarket/v3/" target="_blank">v4 Flash</a></p>
+<p class="align-center"><a class="btn" role="button" href="http://webmarket-v6.herokuapp.com" target="_blank">v6 Wordpress</a> <a class="btn" role="button" href="http://webmarket-joomla.herokuapp.com" target="_blank">v5 Joomla</a> <a class="btn" role="button" href="http://webmarket-wp.herokuapp.com" target="_blank">v5 Wordpress</a> <a class="btn" role="button" href="http://work.joanmira.com/webs/webmarket/v3/" target="_blank">v4 Flash</a></p>
 
 In 2006, I co-founded a small digital agency. After the first year, I continued as a solo venture and partnered with other agencies and freelancers at some points. We specialised in design and development of multimedia applications and websites based on Adobe Flash (AS2), MdM Zinc, Wordpress and front-end technologies.
 
-![](./images/1.jpg)
+![](/work/webmarket/images/1.jpg)
 
 During the 6 years in business, we worked for brands like: Estrella Galicia, Santillana, Editex, Philippines government, Grupo Soledad, IBCmass, Cogersa, Narcea Multimedia, Digital Toy Shop, IES Miguel Hernández, etc.
 
@@ -27,18 +27,18 @@ We also provided web hosting with cPanel/WHMCS and digital marketing services to
 
 The Webmarket website kept changing and evolving. First it was 100% Flash, then Joomla and at the end it was powered by Wordpress. In the following screenshots, you can find how the website looked like in the latest versions:
 
-![](./images/7.jpg)
+![](/work/webmarket/images/7.jpg)
 
-![](./images/8.jpg)
+![](/work/webmarket/images/8.jpg)
 
-![](./images/9.jpg)
+![](/work/webmarket/images/9.jpg)
 
-![](./images/2.jpg)
+![](/work/webmarket/images/2.jpg)
 
-![](./images/3.jpg)
+![](/work/webmarket/images/3.jpg)
 
-![](./images/4.jpg)
+![](/work/webmarket/images/4.jpg)
 
-![](./images/5.jpg)
+![](/work/webmarket/images/5.jpg)
 
-![](./images/6.jpg)
+![](/work/webmarket/images/6.jpg)

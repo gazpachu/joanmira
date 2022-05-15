@@ -7,7 +7,7 @@ category: samurai-route
 
 <div class="columns clearfix">
 <h3>La boda de Tuya (Tu ya de hun shi)</h3>
-<img src="./images/La_boda_de_Tuya_AKA_El_matrimonio_de_Tuya-496401720-large_fkh8xs.jpg" class="right-column" />
+<img src="/blog/peliculas-sobre-mongolia-que-tienes-que-ver/images/La_boda_de_Tuya_AKA_El_matrimonio_de_Tuya-496401720-large_fkh8xs.jpg" class="right-column" />
 <p class="left-column">AÑO: 2006<br />
 DURACIÓN: 92 min.<br />
 PAÍS: China<br />
@@ -22,7 +22,7 @@ SINOPSIS: En la Mongolia más rural y profunda, Tuya (Yu Nan) es una joven mujer
 </div>
 <div class="columns clearfix">
 <h3>El perro mongol (Die Hoehle des gelben Hundes)</h3>
-<img src="./images/El_perro_mongol_La_cueva_del_perro_amarillo-384806038-large_xjfndd.jpg" class="right-column" />
+<img src="/blog/peliculas-sobre-mongolia-que-tienes-que-ver/images/El_perro_mongol_La_cueva_del_perro_amarillo-384806038-large_xjfndd.jpg" class="right-column" />
 <p class="left-column">AÑO: 2005<br />
 DURACIÓN: 90 min.<br />
 PAÍS: Alemania<br />
@@ -35,7 +35,7 @@ SINOPSIS: Nansal, la hija mayor de una familia de nómadas mongoles, se encuentr
 </div>
 <div class="columns clearfix">
 <h3>Ping-Pong Mongol (Lü cao di)</h3>
-<img src="./images/mongolian-ping-pong-dvd_zgi9uy.jpg" class="right-column" />
+<img src="/blog/peliculas-sobre-mongolia-que-tienes-que-ver/images/mongolian-ping-pong-dvd_zgi9uy.jpg" class="right-column" />
 <p class="left-column">AÑO: 2005<br />
 DURACIÓN: 102 min.<br />
 PAÍS: China<br />
@@ -49,7 +49,7 @@ SINOPSIS: Una pelota blanca de ping-pong va flotando por un riachuelo hasta que 
 </div>
 <div class="columns clearfix">
 <h3>Urga, el territorio del amor</h3>
-<img src="./images/Urga_19_siv0pe.jpg" class="right-column" />
+<img src="/blog/peliculas-sobre-mongolia-que-tienes-que-ver/images/Urga_19_siv0pe.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 1991<br />
 DURACIÓN: 118 min.<br />
@@ -65,7 +65,7 @@ SINOPSIS: En la estepa mongola vive una familia con un modesto y rural estilo de
 </div>
 <div class="columns clearfix">
 <h3>Mongol</h3>
-<img src="./images/Mongol-720978610-large_psfxog.jpg" class="right-column" />
+<img src="/blog/peliculas-sobre-mongolia-que-tienes-que-ver/images/Mongol-720978610-large_psfxog.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 2007<br />
 DURACIÓN: 126 min.<br />
@@ -82,7 +82,7 @@ SINOPSIS: Narra la vida del legendario y tembile Genghis Khan desde su esclavitu
 </div>
 <div class="columns clearfix">
 <h3>La historia del camello que llora</h3>
-<img src="./images/camello_qcwszg.jpg" class="right-column" />
+<img src="/blog/peliculas-sobre-mongolia-que-tienes-que-ver/images/camello_qcwszg.jpg" class="right-column" />
 <p class="left-column">
 TÍTULO ORIGINAL: Ingen Numsil – Die Geschichte vom weinenden Kamel<br />
 AÑO: 2003<br />
@@ -96,7 +96,7 @@ SINOPSIS: Documental ficcionado sobre una familia de pastores nómadas mongoles 
 </div>
 <div class="columns clearfix">
 <h3>El cazador (Dersu Uzala)</h3>
-<img src="./images/dersuuzalaposter-large1_t6wruk.jpg" class="right-column" />
+<img src="/blog/peliculas-sobre-mongolia-que-tienes-que-ver/images/dersuuzalaposter-large1_t6wruk.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 1975<br />
 DURACIÓN: 141 min.<br />
@@ -112,7 +112,7 @@ SINOPSIS: El capitán Vladimir Arseniev y su destacamento tienen que elaborar un
 </div>
 <div class="columns clearfix">
 <h3>Sueños del desierto – Hyazgar (Desert Dream)</h3>
-<img src="./images/suenos_desierto_ctdrbq.jpg" class="right-column" />
+<img src="/blog/peliculas-sobre-mongolia-que-tienes-que-ver/images/suenos_desierto_ctdrbq.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 2007<br />
 DURACIÓN: 123 min.<br />
@@ -127,7 +127,7 @@ SINOPSIS: Una pequeña ciudad en una región desértica, no lejos de la frontera
 </div>
 <div class="columns clearfix">
 <h3>State of Dogs</h3>
-<img src="./images/state_dogs_vosmnx.jpg" class="right-column" />
+<img src="/blog/peliculas-sobre-mongolia-que-tienes-que-ver/images/state_dogs_vosmnx.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 1998<br />
 DURACIÓN: 55 min / 91 min.<br />
@@ -141,7 +141,7 @@ SINOPSIS: Es una mezcla asombrosa de viaje personal y comentario social. Hermosa
 </div>
 <div class="columns clearfix">
 <h3>Genghis Khan: To the Ends of the Earth and Sea</h3>
-<img src="./images/Genghis_Khan_2007_film_poster_ocuddh.jpg" class="right-column" />
+<img src="/blog/peliculas-sobre-mongolia-que-tienes-que-ver/images/Genghis_Khan_2007_film_poster_ocuddh.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 2007<br />
 DURACIÓN: 136 min.<br />
@@ -154,7 +154,7 @@ SINOPSIS: Una mirada a la vida de Genghis Khan, desde su nacimiento a las conqui
 </div>
 <div class="columns clearfix">
 <h3>Kiran en Mongolia</h3>
-<img src="./images/splash_Mar_2007_01Layer1_ciavdg.jpg" class="right-column" />
+<img src="/blog/peliculas-sobre-mongolia-que-tienes-que-ver/images/splash_Mar_2007_01Layer1_ciavdg.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 2005<br />
 DURACIÓN: 60 min.<br />
@@ -170,7 +170,7 @@ SINOPSIS: Kuma, un joven hombre Kazak, reconstruye los pasos de su abuelo que fu
 </div>
 <div class="columns clearfix">
 <h3>Taiga</h3>
-<img src="./images/taiga_wzyvgg.jpg" class="right-column" />
+<img src="/blog/peliculas-sobre-mongolia-que-tienes-que-ver/images/taiga_wzyvgg.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 1992<br />
 DURACIÓN: 501 min.<br />
@@ -184,7 +184,7 @@ SINOPSIS: Un viaje al yak y renos nómadas de la tierra del norte de los mongole
 </div>
 <div class="columns clearfix">
 <h3>Johanna D’Arc of Mongolia</h3>
-<img src="./images/sisters-47-e992a634_foto_xq9i9a.jpg" class="right-column" />
+<img src="/blog/peliculas-sobre-mongolia-que-tienes-que-ver/images/sisters-47-e992a634_foto_xq9i9a.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 1988<br />
 DURACIÓN: 165 min.<br />
@@ -197,7 +197,7 @@ SINOPSIS: La aventura épica de Ulrike Ottinger narra el encuentro fantástico e
 </div>
 <div class="columns clearfix">
 <h3>A mongolian tale (Hei jun ma)</h3>
-<img src="./images/MongolianTale_c7jyyd.jpg" class="right-column" />
+<img src="/blog/peliculas-sobre-mongolia-que-tienes-que-ver/images/MongolianTale_c7jyyd.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 1995<br />
 DURACIÓN: 105 min.<br />
@@ -209,7 +209,7 @@ SINOPSIS: Bayinbulag y Somiya son educados desde una edad joven, como hermano y 
 </div>
 <div class="columns clearfix">
 <h3>All my love</h3>
-<img src="./images/2004105533_lgjgme.jpg" class="right-column" />
+<img src="/blog/peliculas-sobre-mongolia-que-tienes-que-ver/images/2004105533_lgjgme.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 2007<br />
 DURACIÓN: 90 min.<br />
@@ -221,7 +221,7 @@ SINOPSIS: En un momento en el que la mayoría de los cineastas independientes qu
 </div>
 <div class="columns clearfix">
 <h3>Destination Gobi</h3>
-<img src="./images/destination_gobi_mynfv8.jpg" class="right-column" />
+<img src="/blog/peliculas-sobre-mongolia-que-tienes-que-ver/images/destination_gobi_mynfv8.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 1953<br />
 DURACIÓN: 90 min.<br />
@@ -233,7 +233,7 @@ SINOPSIS: Un grupo de meteorólogos de la Marina de EE.UU. va a tomar medidas en
 </div>
 <div class="columns clearfix">
 <h3>La gran final (The great match)</h3>
-<img src="./images/The_Great_Match_hakd0g.jpg" class="right-column" />
+<img src="/blog/peliculas-sobre-mongolia-que-tienes-que-ver/images/The_Great_Match_hakd0g.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 2006<br />
 DURACIÓN: 88 min.<br />
@@ -245,7 +245,7 @@ SINOPSIS: Esta película cuenta la historia de aventuras de tres héroes, ningun
 </div>
 <div class="columns clearfix">
 <h3>Khadak (Color of Water)</h3>
-<img src="./images/47170340_jisowi.jpg" class="right-column" />
+<img src="/blog/peliculas-sobre-mongolia-que-tienes-que-ver/images/47170340_jisowi.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 2007<br />
 DURACIÓN: 104 min.<br />
@@ -257,7 +257,7 @@ SINOPSIS: El realismo mágico, la epilepsia, y las estepas de Mongolia. Un pilot
 </div>
 <div class="columns clearfix">
 <h3>Mujaan (El Artesano)</h3>
-<img src="./images/mujaan_k6j15p.jpg" class="right-column" />
+<img src="/blog/peliculas-sobre-mongolia-que-tienes-que-ver/images/mujaan_k6j15p.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 2005<br />
 PAÍS: EEUU<br />
@@ -268,7 +268,7 @@ SINOPSIS: En las lejanas estepas de Mongolia, utilizando herramientas simples, l
 </div>
 <div class="columns clearfix">
 <h3>My Beautiful Jinjiimaa</h3>
-<img src="./images/jinjiimaa_ad5v5g.jpg" class="right-column" />
+<img src="/blog/peliculas-sobre-mongolia-que-tienes-que-ver/images/jinjiimaa_ad5v5g.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 2006<br />
 PAÍS: Mongolia<br />
@@ -279,7 +279,7 @@ SINOPSIS: Ochir Mashbat revela la sublime belleza y la gracia que acechan bajo l
 </div>
 <div class="columns clearfix">
 <h3>Puujee</h3>
-<img src="./images/puujee_JPG_osaico.jpg" class="right-column" />
+<img src="/blog/peliculas-sobre-mongolia-que-tienes-que-ver/images/puujee_JPG_osaico.jpg" class="right-column" />
 <p class="left-column">
 AÑO: 2007<br />
 PAÍS: Japón<br />
