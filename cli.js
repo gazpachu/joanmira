@@ -154,7 +154,7 @@ async function processPage(pagePath) {
     <div class="post-content">
       ${pageTitle}
       <div class="meta secondary">
-        ${frontmatter.category ? `<a href="/blog/category/${frontmatter.category}">${frontmatter.category.replace('-', ' ')}</a>` : ''} • ${date.toLocaleDateString()}
+        ${frontmatter.category ? `<a href="/blog/category/${frontmatter.category}">${frontmatter.category.replace('-', ' ')}</a> • ${date.toLocaleDateString()}` : ''}
       </div>
       ${parsedHtml}
     </div>`;

@@ -2,6 +2,41 @@ const sharp = require('sharp');
 const path = require("path");
 const fs = require("fs");
 let files = [];
+let filesToRemove = [];
+const scriptArgs = process.argv.slice(2);
+const command = scriptArgs[0];
+
+switch (command) {
+  case 'clean':
+    clean();
+    break;
+  case 'generate':
+    findImages('pages');
+    files.forEach(file => {
+      resizeImages(file);
+    });
+    break;
+  default:
+    console.log(`Command is missing.`);
+    process.exit(1);
+}
+
+async function clean() {
+  await findGeneratedImages('pages');
+  console.log(filesToRemove);
+  filesToRemove.forEach(file => {
+    fs.unlinkSync(file)
+  });
+}
+
+async function findGeneratedImages(directory) {
+  fs.readdirSync(directory).forEach(file => {
+    const absolutePath = path.join(directory, file);
+    if (fs.statSync(absolutePath).isDirectory()) return findGeneratedImages(absolutePath);
+    else if ((absolutePath.includes('.webp') || absolutePath.includes('-mobile.'))) return filesToRemove.push(absolutePath);
+    else return;
+  });
+}
 
 function findImages(directory) {
   fs.readdirSync(directory).forEach(file => {
@@ -31,7 +66,11 @@ async function resizeImages(file) {
   }
 }
 
-findImages('pages');
-files.forEach(file => {
-  resizeImages(file);
-});
+async function safeExecute(func) {
+  try {
+    await func()
+  } catch {}
+}
+
+
+

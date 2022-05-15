@@ -5,7 +5,8 @@
   "scripts": {
     "build": "node cli.js build",
     "develop": "node cli.js develop",
-    "images": "node images.js"
+    "generate-images": "node images.js generate",
+    "clean-images": "node images.js clean"
   },
   "author": "",
   "license": "ISC",
