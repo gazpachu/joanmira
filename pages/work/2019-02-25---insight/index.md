@@ -13,13 +13,13 @@ When I joined TableCheck, I started to work on their Data Science team as the fr
 
 After the release, I was promoted to Engineering Manager and moved to other projects within TableCheck.
 
-##What is exactly Insight?
+## What is exactly Insight?
 
 Insight is a restaurant data analytics tool for management-level reporting, data visualization, forecasting, and AI decision-making. Whereas TableCheck automates restaurant operations, Insight complements the core product suite by automating business decisions for restaurant managers, marketing directors, and revenue managers. The primary goal with Insight is to help restaurants improve their own efficiency by identifying and monetizing patterns in reservation and diner experience. Insight's success comes from simplifying the organization and display of complex information without sacrificing the power and flexibility to answer any question.
 
 The front-end tech stack involved React 16, GraphQL, Apollo, MobX, Flow, Emotion, ReactVis, i18Next, Lokalise, ReactPDF, Lodash, MomentJS, TableCheck’s own design system and UI component library and other NPM modules.
 
-###Preset Dashboards
+### Preset Dashboards
 
 Insight includes preset dashboards that contain curated charts to answer specific questions.
 
@@ -37,6 +37,6 @@ There are a number of standard dashboard templates available that can be used re
 - **Text Messages**: where, when, and why were text messages sent to diners
 - **Waitlist**: how long did diners have to wait before being seated
 
-###Custom Dashboards
+### Custom Dashboards
 
 In addition to the preset dashboards, you can create an unlimited number of custom dashboards by organizing charts and tables of your choice. Any chart from the preset dashboards can be added to the Custom dashboard.

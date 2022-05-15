@@ -3,7 +3,7 @@
   "version": "3.0.0",
   "description": "Official page of Joan Mira",
   "scripts": {
-    "build": "node cli.js build",
+    "build": "node cli.js build && npm run generate-images",
     "develop": "node cli.js develop",
     "generate-images": "node images.js generate",
     "clean-images": "node images.js clean"

@@ -136,7 +136,8 @@ async function processPage(pagePath) {
   if (pageContentElement) {
     const image = `/${targetPath}/${frontmatter.cover}`;
     const date = new Date(pagePath.substring(11, 21));
-    let pageTitle = `<h1>${frontmatter.title}</h1>`;
+    const year = `<time class="year">${date.getFullYear()}</time>`;
+    let pageTitle = `<h1>${frontmatter.title}${frontmatter.template === 'project' ? year : ''}</h1>`;
     if (frontmatter.title && frontmatter.subtitle) {
       pageTitle = `<hgroup><h1>${frontmatter.title}</h1><h2>${frontmatter.subtitle}</h2></hgroup>`;
     }
@@ -153,9 +154,13 @@ async function processPage(pagePath) {
       : ''}
     <div class="post-content">
       ${pageTitle}
-      <div class="meta secondary">
-        ${frontmatter.category ? `<a href="/blog/category/${frontmatter.category}">${frontmatter.category.replace('-', ' ')}</a> • ${date.toLocaleDateString()}` : ''}
-      </div>
+      ${frontmatter.template === 'project' ?
+      `<div class="tags">Tags: ${frontmatter.categories.replace('inverted', '')}</div>
+      ` : ''}
+      ${frontmatter.template === 'post' ?
+      `<div class="meta secondary">
+        <a href="/blog/category/${frontmatter.category}">${frontmatter.category.replace('-', ' ')}</a> • ${date.toLocaleDateString()}
+      </div>` : ''}
       ${parsedHtml}
     </div>`;
   } else {

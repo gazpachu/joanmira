@@ -31,7 +31,7 @@ Some other planned features include:
 - Implement a venue review system based on aggregated reviews, or use something like Kuchikomi.com or partoo.com 
 - Add more specific filters, like remote work / pet / child friendly
 
-###Screenshots
+### Screenshots
 
 ![](/work/diner-app/images/2.jpg)
 

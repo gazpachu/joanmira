@@ -11,10 +11,7 @@ switch (command) {
     clean();
     break;
   case 'generate':
-    findImages('pages');
-    files.forEach(file => {
-      resizeImages(file);
-    });
+    generate();
     break;
   default:
     console.log(`Command is missing.`);
@@ -23,9 +20,15 @@ switch (command) {
 
 async function clean() {
   await findGeneratedImages('pages');
-  console.log(filesToRemove);
   filesToRemove.forEach(file => {
     fs.unlinkSync(file)
+  });
+}
+
+async function generate() {
+  await findImages('public');
+  files.forEach(file => {
+    resizeImages(file);
   });
 }
 
@@ -49,27 +52,21 @@ function findImages(directory) {
 
 async function resizeImages(file) {
   const image = await sharp(file);
-  const metadata = await image.metadata();
+  // const metadata = await image.metadata();
+  // if (metadata.width > 800) {
 
-  if (metadata.width > 800) {
-    console.log(`Resizing ${file}`)
-    const resizedImage = image.resize(768);
-    resizedImage.toFile(file.replace('.jpg', '-mobile.jpg'), (err) => {
-      if (err) console.log(err);
-    });
-    resizedImage.toFile(file.replace('.jpg', '-mobile.webp'), (err) => {
-      if (err) console.log(err);
-    });
-    image.toFile(file.replace('.jpg', '.webp'), (err) => {
-      if (err) console.log(err);
-    });
-  }
-}
-
-async function safeExecute(func) {
-  try {
-    await func()
-  } catch {}
+  console.log(`Resizing ${file}`)
+  const resizedImage = image.resize(768);
+  
+  resizedImage.toFile(file.replace('.jpg', '-mobile.jpg'), (err) => {
+    if (err) console.log(err);
+  });
+  resizedImage.toFile(file.replace('.jpg', '-mobile.webp'), (err) => {
+    if (err) console.log(err);
+  });
+  image.toFile(file.replace('.jpg', '.webp'), (err) => {
+    if (err) console.log(err);
+  });
 }
 
 
