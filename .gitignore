@@ -2,3 +2,6 @@
 public/
 node_modules/
 .history
+static/css/main.css
+static/css/main.min.css
+static/js/main.min.js

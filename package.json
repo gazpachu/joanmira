@@ -3,10 +3,14 @@
   "version": "3.0.0",
   "description": "Official page of Joan Mira",
   "scripts": {
-    "build": "node cli.js build && npm run generate-images",
-    "develop": "node cli.js develop",
+    "build": "npm run minify-all && node cli.js build && npm run generate-images",
+    "develop": "npm run minify-all && node cli.js develop",
     "generate-images": "node images.js generate",
-    "clean-images": "node images.js clean"
+    "clean-images": "node images.js clean",
+    "minify-all": "npm run concat-css && npm run minify-css && npm run minify-js",
+    "concat-css": "cat static/css/[!main]*.css > static/css/main.css",
+    "minify-css": "minify static/css/main.css > static/css/main.min.css",
+    "minify-js": "minify static/js/main.js > static/js/main.min.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +20,7 @@
     "fs-extra": "10.1.0",
     "jsdom": "19.0.0",
     "marked": "4.0.14",
+    "minify": "8.0.4",
     "sharp": "0.30.4"
   }
 }

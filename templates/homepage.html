@@ -1,8 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      .hero {
+        text-align: center;
+        height: 100vh;
+        overflow: hidden;
+        background-image: -webkit-linear-gradient(top, rgba(17, 2, 49, 0.75), rgba(17, 2, 49, 0)),
+          -webkit-linear-gradient(bottom left, #eb6670, #f67f7c, #f9ac97, #f1b79f, #e1bea7, #c3bcb0, #8aabb2, #4e95b2, #2588b6);
+      }
+      .hero h2 {
+        margin: 20px auto;
+        padding: 0 15px;
+        width: 100%;
+        max-width: 750px;
+        font-weight: 100;
+        line-height: 1.2;
+      }
+      .hero h3 {
+        font-size: 16px;
+        margin-bottom: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .wrapper {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        max-width: 310px;
+        margin: 0 auto;
+        font-size: 14px;
+        font-weight: 400;
+      }
+      .cta {
+        color: rgba(255,255,255,0.5);
+        text-transform: uppercase;
+        text-decoration: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        padding: 4px 0;
+      }
+      .cta .icon {
+        padding: 10px;
+        border-radius: 100%;
+        border: 1px solid;
+        margin-right: 10px;
+      }
+      .cta .icon svg {
+        width: 20px;
+        height: 20px;
+        fill: white;
+      }
+      .latest-project {
+        margin-top: 10px;
+        text-decoration: none;
+        color: rgba(255,255,255,0.5);
+        display: block;
+      }
+      .latest-project .latest {
+        margin-right: 8px;
+        text-transform: uppercase;
+      }
+      .cta:hover,
+      .latest-project:hover h3 {
+        color: rgba(255,255,255,0.8);
+      }
+      .browser {
+        width: 100%;
+        height: 100%;
+        max-height: 590px;
+        background: url(/img/browser.png) no-repeat center;
+      }
+      .project-image {
+        margin-top: 29px;
+      }
+      @media screen and (min-width: 601px) {
+        .hero h2 {
+          font-size: 36px;
+          margin: 30px auto;
+          padding: 0 30px;
+        }
+        .hero h3 {
+          font-size: 22px;
+          flex-direction: row;
+        }
+        .wrapper {
+          max-width: 360px;
+          grid-gap: 15px;
+        }
+        .cta {
+          padding: 0;
+        }
+        .cta .icon {
+          padding: 16px;
+        }
+        .latest-project {
+          margin-top: 30px;
+        }
+      }
+    </style>
   </head>
   <body>
-    <div id="page-content"></div>
+    <div class="hero" data-theme="dark">
+      <h2>UI/UX Web Engineering & Design</h2>
+      <div class="wrapper">
+        <a class="cta">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 320.001 320.001" style="enable-background:new 0 0 512 512" xml:space="preserve">
+              <g>
+                <path d="m295.84 146.049-256-144c-4.96-2.784-11.008-2.72-15.904.128-4.928 2.88-7.936 8.128-7.936 13.824v288c0 5.696 3.008 10.944 7.936 13.824 2.496 1.44 5.28 2.176 8.064 2.176 2.688 0 5.408-.672 7.84-2.048l256-144c5.024-2.848 8.16-8.16 8.16-13.952s-3.136-11.104-8.16-13.952z"></path>
+              </g>
+            </svg>
+          </div>
+          <span>Watch the intro video</span>
+        </a>
+        <a class="cta">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 511.096 511.096" style="enable-background:new 0 0 512 512" xml:space="preserve">
+              <g>
+                <path d="m74.414 480.548h-36.214l25.607-25.607c13.807-13.807 22.429-31.765 24.747-51.246-59.127-38.802-88.554-95.014-88.554-153.944 0-108.719 99.923-219.203 256.414-219.203 165.785 0 254.682 101.666 254.682 209.678 0 108.724-89.836 210.322-254.682 210.322-28.877 0-59.01-3.855-85.913-10.928-25.467 26.121-59.973 40.928-96.087 40.928z"></path>
+              </g>
+            </svg>
+          </div>
+          <span>Contact me</span>
+        </a>
+      </div>
+      <a href="/work/booking-form" class="latest-project">
+        <h3><span class="tag latest">Latest</span>TableCheck Diner App (Tokyo, Japan)</h3>
+        <div class="browser">
+          <img class="project-image" src="/work/diner-app/images/3.jpg" alt="TableCheck Diner App" width="781" height="590">
+        </div>
+      </div>
+    </div>
+    <section id="feature_links">
+      <h3>Take control of your search with Swiftype</h3>
+      <ul>
+        <li>
+          <a href="/web/20150314233857/https://swiftype.com/site-search" class="search">
+            <span class="feature_icon med search"></span>
+            <span class="title">Site Search</span>
+            <span class="details">
+              Custom result ranking, autocomplete, synonyms,
+              facets, real-time indexing
+            </span>
+          </a>
+                  </li>
+                  <li>
+                    <a href="/web/20150314233857/https://swiftype.com/mobile-search" class="mobile">
+            <span class="feature_icon med mobile"></span>
+            <span class="title">Mobile Search</span>
+            <span class="details">
+              Built for the mobile web, and drop-in iOS and
+              Android SDKs for native apps
+            </span>
+          </a>
+                  </li>
+                  <li>
+                    <a href="/web/20150314233857/https://swiftype.com/search-analytics" class="analytics">
+            <span class="feature_icon med analytics"></span>
+            <span class="title">Real-Time Analytics</span>
+            <span class="details">
+              Receive real-time feedback and user
+              insight, and forecast search trends
+            </span>
+          </a>
+                  </li>
+                  <li>
+                    <a href="/web/20150314233857/https://swiftype.com/developers" class="developer">
+            <span class="feature_icon med developer"></span>
+            <span class="title">Developers</span>
+            <span class="details">
+              Effortless to integrate and customize:
+              build the search engine you want
+            </span>
+          </a>
+        </li>
+      </ul>
+      <div class="button_bar">
+        <a href="/web/20150314233857/https://swiftype.com/site-search" class="button">Start the Tour</a>
+        <a class="button enter_theater_state">
+          <span class="small_play_icon"></span>Demo Video</a>
+      </div>
+    </section>
   </body>
 </html>

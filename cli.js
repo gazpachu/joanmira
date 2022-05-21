@@ -118,6 +118,7 @@ async function processPage(pagePath) {
   const htmlElement = document.getElementsByTagName('html');
   const bodyElement = document.querySelector('body');
   const headElement = document.querySelector('head');
+  const heroElement = document.querySelector('.hero');
   const pagePathParts = pagePath.replace('pages/', '').split('/');
   const pageName = pagePathParts.pop().split('.md')[0];
   let targetPath = pagePathParts.join('/');
@@ -130,13 +131,18 @@ async function processPage(pagePath) {
       process.exit(1);
   }
 
-  bodyElement.prepend(headerElement);
+  if (heroElement) {
+    heroElement.prepend(headerElement);
+  } else {
+    bodyElement.prepend(headerElement);
+  }
+
   bodyElement.append(footerElement);
 
   if (pageContentElement) {
     const image = `/${targetPath}/${frontmatter.cover}`;
     const date = new Date(pagePath.substring(11, 21));
-    const year = `<time class="year">${date.getFullYear()}</time>`;
+    const year = `<time class="year tag">${date.getFullYear()}</time>`;
     let pageTitle = `<h1>${frontmatter.title}${frontmatter.template === 'project' ? year : ''}</h1>`;
     if (frontmatter.title && frontmatter.subtitle) {
       pageTitle = `<hgroup><h1>${frontmatter.title}</h1><h2>${frontmatter.subtitle}</h2></hgroup>`;
@@ -174,17 +180,12 @@ async function processPage(pagePath) {
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>${frontmatter.title} • Joan Mira • Freelance Software Engineer • Tokyo, Japan</title>
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css"
-  />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>${frontmatter.template !== 'homepage' ? `${frontmatter.title} • ` : ''}Joan Mira • Modern UI/UX Web Engineering & Design</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/main.css" />
-  <link rel="stylesheet" href="/css/header.css" />
-  <script src="/js/main.js" type="application/javascript"></script>
+  <link rel="stylesheet" href="/css/main.min.css" />
+  <script src="/js/main.min.js" type="application/javascript"></script>
   ${headElement.innerHTML}`;
 
   if (frontmatter.template === 'blog' && listingContentElement) {
