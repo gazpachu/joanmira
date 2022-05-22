@@ -11,7 +11,7 @@
     }
 
     .hero h1 {
-      margin: 20px auto;
+      margin: 30px auto;
       padding: 0 15px;
       width: 100%;
       max-width: 750px;
@@ -66,7 +66,7 @@
       color: rgba(255, 255, 255, 0.5);
       display: block;
       max-width: 800px;
-      margin: 10px auto 0;
+      margin: 30px auto 0;
     }
 
     .latest-project .latest {
@@ -79,6 +79,10 @@
       color: rgba(255, 255, 255, 0.8);
     }
 
+    #project-image {
+      display: none;
+    }
+
     .browser {
       margin: 0 10px;
       border-radius: 6px;
@@ -88,19 +92,34 @@
 
     .browser-frame {
       height: 21px;
-      background: white;
+      
       display: flex;
       align-items: center;
       padding-left: 8px;
     }
 
+    [data-theme="dark"] .browser-frame {
+      background: #11191f;
+    }
+
+    [data-theme="light"] .browser-frame {
+      background: white;
+    }
+
     .circle {
       width: 12px;
       height: 12px;
-      border: 1px solid #BBB;
       border-radius: 100%;
       margin-right: 8px;
       display: inline-block;
+    }
+
+    [data-theme="dark"] .circle {
+      border: 1px solid #172631;
+    }
+
+    [data-theme="light"] .circle {
+      border: 1px solid #BBB;
     }
 
     .slide {
@@ -108,7 +127,6 @@
       padding-bottom: 40px;
       max-width: 1040px;
       text-align: center;
-      border-bottom: 1px solid #DDD;
     }
 
     .slide li {
@@ -121,6 +139,10 @@
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
       grid-gap: 20px;
+    }
+
+    .slide h3 {
+      padding: 0 20px;
     }
 
     .services h4 {
@@ -182,9 +204,6 @@
         padding: 16px;
       }
 
-      .latest-project {
-        margin-top: 30px;
-      }
       .slide {
         margin: 80px auto;
         padding-bottom: 80px;
@@ -223,7 +242,7 @@
             </g>
           </svg>
         </div>
-        <span>Contact me or connect</span>
+        <span>Contact me<br />or connect</span>
       </a>
     </div>
     <a href="/work/diner-app" class="latest-project">
@@ -234,12 +253,15 @@
           <div class="circle"></div>
           <div class="circle"></div>
         </div>
-        <img class="project-image" src="/work/diner-app/images/3.jpg" alt="TableCheck Diner App" width="800"
-          height="500">
+        <picture id="project-image">
+          <source id="project-image-webp" type="image/webp">
+          <source id="project-image-jpg" type="image/jpeg">
+          <img id="project-image-img" alt="Latest project" width="800" height="500" loading="lazy">
+        </picture>
       </div>
     </a>
   </div>
-  <div class="slide services">
+  <div class="slide services separator">
     <h3>Cutting-edge Tech with Radical Simplicity</h3>
     <ul>
       <li>
@@ -532,7 +554,7 @@
       </li>
     </ul>
   </div>
-  <div class="slide teams">
+  <div class="slide teams separator">
     <h3>Helping teams around the world deliver winning products</h3>
     <ul class="logos">
       <li>
@@ -753,6 +775,40 @@
       </li>
     </ul>
   </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const html = document.querySelector('html');
+      const projectImage = document.getElementById('project-image');
+      const projectImageWebp = document.getElementById('project-image-webp');
+      const projectImageJpg = document.getElementById('project-image-jpg');
+      const projectImageImg = document.getElementById('project-image-img');
+      let theme = html.getAttribute('data-theme');
+
+      function loadImage() {
+        const path = '/work/diner-app/images/';
+        const filename = theme === 'dark' ? '10' : '3';
+        projectImageImg.setAttribute('src', `${path}${filename}.jpg`);
+        projectImageJpg.setAttribute('srcset', `${path}${filename}.jpg`);
+        projectImageWebp.setAttribute('srcset', `${path}${filename}.webp`);
+        projectImage.style.display = 'block';
+      }
+
+      loadImage();
+
+      var observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+          if (mutation.type === "attributes") {
+            theme = mutation.target.getAttribute('data-theme');
+            loadImage();
+          }
+        });
+      });
+
+      observer.observe(html, {
+        attributes: true //configure it to listen to attribute changes
+      });
+    });
+  </script>
 </body>
 
 </html>

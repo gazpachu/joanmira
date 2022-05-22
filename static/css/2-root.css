@@ -70,3 +70,11 @@
   position: relative;
   display: inline-block;
 }
+
+[data-theme="dark"] .separator {
+  border-bottom: 1px solid #172631;
+}
+
+[data-theme="light"] .separator {
+  border-bottom: 1px solid #DDD;
+}
