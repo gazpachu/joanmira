@@ -107,6 +107,8 @@ async function processPage(pagePath) {
   const dom = await JSDOM.fromFile(templatePath);
   const parsedHtml = marked(markdown);
   const document = dom.window.document;
+  const headDom = await JSDOM.fromFile('templates/head.html');
+  const headDocument = headDom.window.document;
   const headerDom = await JSDOM.fromFile('templates/header.html');
   const headerDocument = headerDom.window.document;
   const footerDom = await JSDOM.fromFile('templates/footer.html');
@@ -177,15 +179,9 @@ async function processPage(pagePath) {
 
   headElement.innerHTML = `
   <!DOCTYPE html>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>${frontmatter.template !== 'homepage' ? `${frontmatter.title} • ` : ''}Joan Mira • Modern UI/UX Web Engineering & Design</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/main.min.css" />
-  <script src="/js/main.min.js" type="application/javascript"></script>
+  ${headDocument.documentElement.innerHTML}
+  <title>${frontmatter.template !== 'homepage' ? `${frontmatter.title} • ` : ''}Joan Mira • Modern Software Engineering & UI/UX Design</title>
+  
   ${headElement.innerHTML}`;
 
   if (frontmatter.template === 'blog' && listingContentElement) {
