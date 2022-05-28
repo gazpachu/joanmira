@@ -4,4 +4,5 @@ node_modules/
 .history
 static/css/main.css
 static/css/main.min.css
+static/js/main.js
 static/js/main.min.js

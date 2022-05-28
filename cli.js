@@ -7,10 +7,36 @@ const { marked } = require('marked');
 const http = require('http');
 const chokidar = require('chokidar');
 const fm = require('front-matter');
+const Feed = require('feed').Feed;
+const xml = require('xml')
 
 const scriptArgs = process.argv.slice(2);
 const command = scriptArgs[0];
 const dateRegEx = /\d{4}-\d{2}-\d{2}---/;
+const host = 'https://joanmira.com';
+const name = 'Joan Mira';
+const description = 'Modern Software Engineering & UI/UX Design';
+const dateFormatter = new Intl.DateTimeFormat('en-GB', { month: 'long', year: 'numeric', day: 'numeric' });
+const sitemap = [];
+const feed = new Feed({
+  title: name,
+  description,
+  id: host,
+  link: host,
+  language: "en",
+  image: `${host}/image.png`,
+  favicon: `${host}/favicon.ico`,
+  copyright: `All rights reserved 2022, ${name}`,
+  generator: "",
+  feedLinks: {
+    atom: `${host}/rss.xml`
+  },
+  author: {
+    name: name,
+    email: "hello@joanmira.com",
+    link: host
+  }
+});
 
 switch (command) {
   case 'build':
@@ -54,6 +80,27 @@ async function build(folderOrFile) {
     processPage(folderOrFile);
   } else {
     await processDirectory(folderOrFile || 'pages', processPage);
+
+    console.log('Generating RSS feed');
+    await fs.writeFile('public/feed.xml', feed.rss2());
+
+    console.log('Generating sitemap');
+    const xmlObject = {
+      urlset: [
+        // <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+        {
+            _attr: {
+                xmlns: 'http://www.sitemaps.org/schemas/sitemap/0.9'
+            }
+        },
+        ...sitemap.map((page) => page),
+      ]
+    };
+    const xmlString = xml(xmlObject)
+    await fs.writeFile(
+      'public/sitemap.xml',
+      '<?xml version="1.0" encoding="UTF-8"?>' + xmlString
+    );
   }
 }
 
@@ -123,6 +170,9 @@ async function processPage(pagePath) {
   const heroElement = document.querySelector('.hero');
   const pagePathParts = pagePath.replace('pages/', '').split('/');
   const pageName = pagePathParts.pop().split('.md')[0];
+  const datePart = pagePath.match(dateRegEx);
+  const isoDate = datePart ? datePart[0].replace('---', '') : '';
+  const date = new Date(isoDate);
   let targetPath = pagePathParts.join('/');
   targetPath = frontmatter.template === 'post' || frontmatter.template === 'project'
     ? targetPath.replace(dateRegEx, '')
@@ -143,7 +193,6 @@ async function processPage(pagePath) {
 
   if (pageContentElement) {
     const image = `/${targetPath}/${frontmatter.cover}`;
-    const date = new Date(pagePath.substring(11, 21));
     const year = `<time class="year tag">${date.getFullYear()}</time>`;
     let pageTitle = `<h1>${frontmatter.title}${frontmatter.template === 'project' ? year : ''}</h1>`;
     if (frontmatter.title && frontmatter.subtitle) {
@@ -167,7 +216,7 @@ async function processPage(pagePath) {
       ` : ''}
       ${frontmatter.template === 'post' ?
       `<div class="meta secondary">
-        <a href="/blog/category/${frontmatter.category}">${frontmatter.category.replace('-', ' ')}</a> • ${date.toLocaleDateString()}
+        <a href="/blog/category/${frontmatter.category}">${frontmatter.category.replace('-', ' ')}</a> • ${dateFormatter.format(date)}
       </div>` : ''}
       ${parsedHtml}
     </div>`;
@@ -180,7 +229,7 @@ async function processPage(pagePath) {
   headElement.innerHTML = `
   <!DOCTYPE html>
   ${headDocument.documentElement.innerHTML}
-  <title>${frontmatter.template !== 'homepage' ? `${frontmatter.title} • ` : ''}Joan Mira • Modern Software Engineering & UI/UX Design</title>
+  <title>${frontmatter.template !== 'homepage' ? `${frontmatter.title} • ` : ''}${name} • ${description}</title>
   
   ${headElement.innerHTML}`;
 
@@ -192,6 +241,32 @@ async function processPage(pagePath) {
 
   const finalHtml = document.getElementsByTagName('html')[0].outerHTML;
   await fs.writeFile(`public/${targetPath}/${pageName}.html`, finalHtml);
+
+  if (frontmatter.template === 'post') {
+    feed.addItem({
+      title: frontmatter.title,
+      id: `${host}/${targetPath}`,
+      link: `${host}/${targetPath}`,
+      // description: post.description,
+      content: parsedHtml,
+      date,
+      image: `${host}/${targetPath}/${pageName}/${frontmatter.cover}`
+    });
+  }
+
+  sitemap.push({
+    // <url>
+    url: [
+      // <loc>http://www.example.com/</loc>
+      { loc: `${host}/${targetPath}` },
+      // <lastmod>2005-01-01</lastmod>
+      { lastmod: isoDate },
+      // <changefreq>monthly</changefreq>
+      { changefreq: 'monthly' },
+      // <priority>0.8</priority>
+      { priority: 0.5 }
+    ]
+  });
 }
 
 async function processListingItem(pagePath, contentElement, listingSlug, category = null) {
@@ -218,7 +293,7 @@ async function processListingItem(pagePath, contentElement, listingSlug, categor
       <div class="list-item-content">
         <a class="list-item-title" href="${slug}">${frontmatter.title}</a>
         <div class="meta secondary">
-          ${frontmatter.category ? `<a href="/${listingSlug}/category/${frontmatter.category}">${frontmatter.category.replace('-', ' ')}</a>` : ''} • ${date.toLocaleDateString()}
+          ${frontmatter.category ? `<a href="/${listingSlug}/category/${frontmatter.category}">${frontmatter.category.replace('-', ' ')}</a>` : ''} • ${dateFormatter.format(date)}
         </div>
       </div>
     </article>

@@ -7,20 +7,23 @@
     "develop": "npm run minify-all && node cli.js develop",
     "generate-images": "node images.js generate",
     "clean-images": "node images.js clean",
-    "minify-all": "npm run concat-css && npm run minify-css && npm run minify-js",
+    "minify-all": "npm run concat-css && npm run concat-js && npm run minify-css && npm run minify-js",
     "concat-css": "cat static/css/[!main]*.css > static/css/main.css",
     "minify-css": "minify static/css/main.css > static/css/main.min.css",
+    "concat-js": "cat static/js/[!main]*.js > static/js/main.js",
     "minify-js": "minify static/js/main.js > static/js/main.min.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "chokidar": "3.5.3",
+    "feed": "4.2.2",
     "front-matter": "4.0.2",
     "fs-extra": "10.1.0",
     "jsdom": "19.0.0",
     "marked": "4.0.14",
     "minify": "8.0.4",
-    "sharp": "0.30.4"
+    "sharp": "0.30.4",
+    "xml": "1.0.1"
   }
 }
