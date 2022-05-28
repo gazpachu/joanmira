@@ -11,7 +11,7 @@ template: project
 <a class="btn" role="button" href="http://lasolidaridad.herokuapp.com" target="_blank">Launch archived website</a>
 </p>
 
-![](/work/la-solidaridad/images/1.jpg)
+![](/work/la-solidaridad/images/1.png)
 
 La Solidaridad was a personal project (together with my wife). It's purpose was to be an online newspaper to talk about ecology, immigration, politics, economy, etc.
 

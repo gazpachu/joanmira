@@ -11,6 +11,8 @@ template: project
 <a class="btn" role="button" href="https://github.com/gazpachu/xmas-gift" target="_blank">Source code</a>
 </p>
 
+<iframe width="100%" height="550" src="https://www.youtube.com/embed/4uDsONxNdDg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## The idea
 
 The aim of this project is to create a little game for Xmas 2012. The app will create the illusion of a frozen window (with the blur effect) that needs to be wiped off moving the hand in circles. To make it more fun there will be lots of snowflakes that will react to the movement of the hand.
@@ -20,10 +22,6 @@ In order to make the blur disappear, the user has to move the hands only in circ
 To compensate the user for playing the game, several QR codes (with a link to a gift) will show up and the user will be able to scan them with their Smartphone/tablet. We can extend the game by telling the user to go to the URL to complete another task...
 
 It was all built with OpenFrameworks, Kinect and OpenNI.
-
-## Video
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4uDsONxNdDg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Requirements and improvements
 

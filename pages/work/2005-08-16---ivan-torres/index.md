@@ -13,9 +13,9 @@ template: project
 
 A friend of mine, Iván Torres, asked me to build a website to showcase his portfolio of drawings, illustrations and other graphic design projects. He required a custom Flash design with a CMS feature to upload new images.
 
-![](/work/ivan-torres/images/1.jpg)
+![](/work/ivan-torres/images/1.png)
 
-![](/work/ivan-torres/images/2.jpg)
+![](/work/ivan-torres/images/2.png)
 
 The admin panel password is 'arturo'. All controls are disabled.
 

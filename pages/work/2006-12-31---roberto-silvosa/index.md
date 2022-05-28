@@ -16,7 +16,7 @@ Roberto Silvosa contacted me to design and build a custom website for his busine
 
 The portfolio of works uses a book metaphor to swipe the photos, which are loaded from the custom CMS built for the Flash website. It also has a small product catalog and checkout system to allow customers to order products via email. The products in the catalog and the news are also controlled via CMS.
 
-![](/work/roberto-silvosa/images/2.jpg)
+![](/work/roberto-silvosa/images/2.png)
 
 ![](/work/roberto-silvosa/images/3.jpg)
 

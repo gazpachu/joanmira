@@ -7,6 +7,6 @@ categories: web joomla webprof
 template: project
 ---
 
-![](/work/logeddie/images/1.jpg)
+![](/work/logeddie/images/1.png)
 
 As part of my partnership with WebsiteProfesional, I built a Joomla website for Logeddie, a logistic and transport company. It features standard corporate pages.

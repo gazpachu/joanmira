@@ -12,4 +12,4 @@ template: project
 
 While I was working in Madrid as a software engineer, I was contacted by a client to create a small microsite for his wedding. He wanted to have  something funny, so I came out with a highly animated design with South Park style characters. The page is available in French and Spanish.
 
-![](/work/stephane-et-celine/images/1.jpg)
+![](/work/stephane-et-celine/images/1.png)

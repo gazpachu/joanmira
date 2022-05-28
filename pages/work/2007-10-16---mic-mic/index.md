@@ -11,7 +11,7 @@ template: project
 <a class="btn" role="button" href="http://work.joanmira.com/desktop/mic-mic/" target="_blank">Launch app</a>
 </p>
 
-![](/work/mic-mic/images/1.jpg)
+![](/work/mic-mic/images/1.png)
 
 Mic-Mic is a simple Flash app developed as a team effort for one of the assignments of the multimedia degree in the Universitat Oberta de Catalunya.
 

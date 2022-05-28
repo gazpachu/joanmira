@@ -7,6 +7,6 @@ categories: web wordpress design ux webmarket
 template: project
 ---
 
-![](/work/agustin-lopez/images/1.jpg)
+![](/work/agustilopez/images/1.png)
 
 As part of my business relationship with Agustí López, I built a Wordpress website for his blog posts. It's a standard blog with a slightly modified theme.

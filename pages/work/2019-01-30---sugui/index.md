@@ -13,7 +13,7 @@ template: project
 <a class="btn" role="button" href="https://github.com/gazpachu/sugui-design-system" target="_blank">Design System Github repo</a>
 </p>
 
-![](/work/sugui/images/1.jpg)
+![](/work/sugui/images/1.png)
 
 sugUI is an open source UI components library and design system template based on React, Styled Components, Styleguidist and React Testing Library.
 

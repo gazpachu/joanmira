@@ -13,4 +13,4 @@ template: project
 
 This was an HTML template I built for the Spanish Chamber of Commerce in the Philippines. It features a Flash header with animation and a complete navigation system with submenus.
 
-![](/work/la-camara/images/1.jpg)
+![](/work/la-camara/images/1.png)

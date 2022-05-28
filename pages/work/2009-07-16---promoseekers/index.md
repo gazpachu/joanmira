@@ -7,7 +7,7 @@ categories: web joomla ux design webmarket
 template: project
 ---
 
-![](/work/promoseekers/images/1.jpg)
+![](/work/promoseekers/images/1.png)
 
 While working at Webmarket, a client approached me with a business idea, a briefing and a budget to build a website similar to Groupon.
 

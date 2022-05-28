@@ -15,7 +15,7 @@ template: project
 
 Canary is an app that allows a quick way to see which Vodafone products can be sold around the World. Some countries have restrictions or legal implications. It also combines Legal, Bid and Pre-sales information to prequalify products.
 
-![](/work/canary/images/1.jpg "Home page")
+![](/work/canary/images/1.png "Home page")
 
 In this project, I owned the 100% of the front-end build and I collaborated with the team manager and a designer to conceptualise the features and the design. Before coming up with the final design, I also built a couple of prototypes and even a React Native demo!.
 

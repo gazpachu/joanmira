@@ -12,7 +12,7 @@ template: project
 <a class="btn" role="button" href="https://github.com/gazpachu/rpong" target="_blank">Source code</a>
 </p>
 
-![](/work/rpong/images/1.jpg)
+![](/work/rpong/images/1.png)
 
 This is the second demo (first one was [rtshapes](http://joanmira.com/rtshapes)) of my series of experiments with real time shape recognition using HTML5 [getUserMedia](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia), [OpenCV](http://docs.opencv.org/3.1.0/d9/d6d/tutorial_table_of_content_aruco.html#gsc.tab=0) and [Box2D](https://github.com/hecht-software/box2dweb).
 

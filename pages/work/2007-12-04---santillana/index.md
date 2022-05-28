@@ -7,7 +7,7 @@ categories: narcea flash animation desktop
 template: project
 ---
 
-![](/work/santillana/images/0.jpg)
+![](/work/santillana/images/0.png)
 
 As part of my business relationship with Narcea Multimedia, I built several interactive CDs for [Santillana](http://www.santillana.es/), a well known book publisher specialised in educational materials.
 

@@ -7,7 +7,7 @@ categories: wcrs web wordpress facebook inverted
 template: project
 ---
 
-![](/work/santander/images/1.jpg)
+![](/work/santander/images/1.png)
 
 During my tenure at [WCRS](http://www.wcrs.com), I worked on several projects for [Santander](https://www.santander.co.uk):
 

@@ -7,7 +7,7 @@ categories: web wordpress consultancy
 template: project
 ---
 
-![](/work/tension-studio/images/0.jpg)
+![](/work/tension-studio/images/0.png)
 
 I met Josep Manen in 2002 and since then, we have partnered in many cultural and artistic projects. He's a very talented musician, specialiasing in sound engineering for multimedia productions and his website features his services and the projects he has created.
 

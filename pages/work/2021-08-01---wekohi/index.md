@@ -11,7 +11,7 @@ template: project
 <a class="btn" role="button" href="http://wekohi.com/" target="_blank">Demo App</a>
 </p>
 
-![](/work/wekohi/images/1.jpg)
+![](/work/wekohi/images/1.png)
 
 <a href="http://wekohi.com">Wekohi</a> is a web app to find remote-friendly cafés around the world. Although the prototype only displays places in Tokyo, it does work (while the domain and google API are still up). So, if you live in Tokyo, check it out!
 

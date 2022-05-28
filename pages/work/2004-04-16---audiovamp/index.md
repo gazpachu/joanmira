@@ -7,7 +7,7 @@ categories: desktop design ux prototype
 template: project
 ---
 
-![](/work/audiovamp/images/1.jpg)
+![](/work/audiovamp/images/1.png)
 
 I built an audio player using the [FMOD](https://www.fmod.com/) library, [QT](https://www.qt.io/) and C++.
 

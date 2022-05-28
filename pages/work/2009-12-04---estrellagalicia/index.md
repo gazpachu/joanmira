@@ -7,7 +7,7 @@ categories: flash ux design custom-cms desktop
 template: project
 ---
 
-![](/work/estrellagalicia/images/0.jpg)
+![](/work/estrellagalicia/images/0.png)
 
 As part of my partnership with Havana Marketing in Barcelona, I built a desktop Flash driven interactive [POS (Point Of Sale)](https://en.wikipedia.org/wiki/Point_of_sale) for Estrella Galicia's corporate customers: restaurants, bars, coffee shops, etc.
 

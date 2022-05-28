@@ -15,13 +15,13 @@ The new Dove website is part of an ambitious Unilever project led by SapientNitr
 
 This new platform uses a modern tech stack (based on Backbone.js) and CMS solution like Adobe Experience Manager, allowing Unilever brands to reuse components and themes to design their websites.
 
-![](/work/dove/images/0.jpg)
+![](/work/dove/images/0.png)
 
 My involvement in the project was in the front-end area, where I co-led a group of eight developers. We built white-label components and dove-specific components like the main navigation, carousels, lightbox, anchor link navigation, zoom, PDP, PLPs, quick view, search, footer, etc.
 
 The platform allowed us to build the components with a clear separation between data and functionality, which gives them a lot of flexibility to be reused and customised in other websites.
 
-![](/work/dove/images/1.jpg)
+![](/work/dove/images/1.png)
 
 One of the areas I clearly took responsibility of was the animations and the navigation components. We experimented with many different animation techniques (specially with parallax) and devices to maximise and guarantee a smooth interaction and pleasant user experience across all browser breakpoints and a wide range of devices. Old iOS devices still have issues running native browser scrolling events and javascript logic at the same time, which complicated things, but after many tests, we came out with a subtle parallax animation (which can be seen in the homepage).
 

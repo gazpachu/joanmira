@@ -11,6 +11,6 @@ template: project
 <a class="btn" role="button" href="http://saveguimaras.herokuapp.com" target="_blank">Launch archived website</a>
 </p>
 
-![](/work-save-guimaras/images/1.jpg)
+![](/work/save-guimaras/images/1.png)
 
 This is a simple Wordpress blog I built with a custom theme.

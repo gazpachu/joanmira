@@ -11,7 +11,7 @@ template: project
 <a class="btn" role="button" href="https://tablekit.tablecheck.com" target="_blank">TableKit Live Version</a>
 </p>
 
-![](/work/tablekit/images/1.jpg)
+![](/work/tablekit/images/1.png)
 
 Before joining TableCheck, I was already a big fan of design systems. In fact, I built [SugUI](/sugui) together with a work colleague (UI/UX designer) at Vodafone. Therefore, I had a clear mindset to do something similar at TableCheck. When I joined, I was lucky to find that other engineers in the team also shared the same philosophy about the need of a custom UI toolkit and proper design guidelines to maintain the consistency across the company products.
 

@@ -20,7 +20,7 @@ template: project
 
 I created a wide range of designs for Digital Toy Shop and Neoteo, including logos, banners, HTML templates and other print related designs.
 
-![](/work/digitaltoy/images/1.jpg)
+![](/work/digitaltoy/images/1.png)
 
 <h3>Banners</h3>
 <p>

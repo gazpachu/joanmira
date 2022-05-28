@@ -82,7 +82,7 @@ async function build(folderOrFile) {
     await processDirectory(folderOrFile || 'pages', processPage);
 
     console.log('Generating RSS feed');
-    await fs.writeFile('public/feed.xml', feed.rss2());
+    await fs.writeFile('public/rss.xml', feed.rss2());
 
     console.log('Generating sitemap');
     const xmlObject = {
@@ -90,7 +90,12 @@ async function build(folderOrFile) {
         // <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
         {
             _attr: {
-                xmlns: 'http://www.sitemaps.org/schemas/sitemap/0.9'
+                xmlns: 'http://www.sitemaps.org/schemas/sitemap/0.9',
+                'xmlns:news': 'http://www.google.com/schemas/sitemap-news/0.9',
+                'xmlns:xhtml': 'http://www.w3.org/1999/xhtml',
+                'xmlns:mobile': 'http://www.google.com/schemas/sitemap-mobile/1.0',
+                'xmlns:image': 'http://www.google.com/schemas/sitemap-image/1.1',
+                'xmlns:video': 'http://www.google.com/schemas/sitemap-video/1.1'
             }
         },
         ...sitemap.map((page) => page),
@@ -260,11 +265,11 @@ async function processPage(pagePath) {
       // <loc>http://www.example.com/</loc>
       { loc: `${host}/${targetPath}` },
       // <lastmod>2005-01-01</lastmod>
-      { lastmod: isoDate },
+      // { lastmod: isoDate },
       // <changefreq>monthly</changefreq>
-      { changefreq: 'monthly' },
+      { changefreq: 'daily' },
       // <priority>0.8</priority>
-      { priority: 0.5 }
+      { priority: 0.7 }
     ]
   });
 }

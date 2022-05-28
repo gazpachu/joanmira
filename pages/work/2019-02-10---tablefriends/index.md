@@ -12,7 +12,7 @@ template: project
 <a class="btn" role="button" href="https://github.com/gazpachu/tablefriends" target="_blank">Github repository</a>
 </p>
 
-![](/work/tablefriends/images/1.jpg)
+![](/work/tablefriends/images/1.png)
 
 TableFriends is an open-source web app prototype (not ready for production) to organise restaurant events for big groups of people. It helps them to find the right date, time, course and drinks. The admin user can select all the different options and the guests can choose what are the preferences. Once the deadline is reached, the options with more votes get selected and the admin can proceed to make the restaurant reservation.
 

@@ -12,7 +12,7 @@ template: project
 <a class="btn" role="button" href="https://github.com/gazpachu/standup" target="_blank">Source code</a>
 </p>
 
-![](/work/standup/images/1.jpg)
+![](/work/standup/images/1.png)
 
 I built the Standup app as an experiment to make remote scrum standup sessions more fun!
 

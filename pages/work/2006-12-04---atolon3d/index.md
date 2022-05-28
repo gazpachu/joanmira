@@ -13,7 +13,7 @@ template: project
 
 Atolon 3d is a studio of digital architecture. They asked us (Webmarket) to create a Flash website to promote their services and display their portfolio of works. They also required a custom Flash CMS to be able to upload new images of their work.
 
-![](/work/atolon3d/images/1.jpg)
+![](/work/atolon3d/images/1.png)
 
 ![](/work/atolon3d/images/2.jpg)
 

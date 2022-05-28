@@ -14,12 +14,12 @@ template: project
 
 Grupo Soledad asked me to create a visually attractive website for the French market. They wanted to showcase their catalog of car tyres and batteries and be able to update the offers of the website using a simple CMS.
 
-![](/work/gruposoledad/images/1.jpg)
+![](/work/gruposoledad/images/1.png)
 
-![](/work/gruposoledad/images/2.jpg)
+![](/work/gruposoledad/images/2.png)
 
 Grupo Soledad also asked me to build a multi-lingual animated Flash intro with navigation to use as a gateway to other websites from the group.
 
-![](/work/gruposoledad/images/3.jpg)
+![](/work/gruposoledad/images/3.png)
 
-![](/work/gruposoledad/images/4.jpg)
+![](/work/gruposoledad/images/4.png)

@@ -7,7 +7,7 @@ categories: vodafone angular grunt sass web-app highcharts animation inverted
 template: project
 ---
 
-![](/work/stack/images/0.jpg)
+![](/work/stack/images/0.png)
 
 Stack was my first project when I started to work at Vodafone. Stack's purpose was to track the projects and activities of teams and organisations within Vodafone in a fun and light-hearted way. Users would define tasks for each project that then could be moved along the 'stack' towards completion. They could also be assigned to other team members and link them with budget items.
 

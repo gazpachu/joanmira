@@ -14,4 +14,4 @@ template: project
 
 While working at SapientNitro, I presented a couple of talks about the Box2d physics engine. One to my co-workers at Sapient and another one to the Ember.js community in London.
 
-![](/work/box2d-talk/images/1.jpg)
+![](/work/box2d-talk/images/1.png)

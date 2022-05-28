@@ -11,7 +11,7 @@ template: project
 <a class="btn" role="button" href="https://github.com/gazpachu/react-ghost-tapas" target="_blank">Source code</a>
 </p>
 
-![](/work/tapas/images/1.jpg "Home page")
+![](/work/tapas/images/1.png "Home page")
 
 Tapas is a Vodafone web blog about Sales, Big Data and Tech insights. It is based on the [Ghost](http://ghost.org/) platform.
 

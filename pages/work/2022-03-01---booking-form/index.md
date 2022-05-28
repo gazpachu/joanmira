@@ -19,7 +19,7 @@ At the same time, the old booking form was previously built on Ruby a long time 
 
 Given these requirements, my team and I were tasked to come up with a new design, prototype and eventually an MVP. The process took longer than everyone expected (mostly due to design changes along the way), but we eventually released the MVP and some clients started using it in production.
 
-My involvement in the project changed at different phases, mostly because I had to attend other projects. But overall, I can say that I contributed significantly, especially in the prototyping, UI/UX coding and project managament areas.
+My involvement in the project changed at different phases, mostly because I had to attend other projects. But overall, I can say that I contributed significantly, especially in the prototyping, general mobile and desktop UI/UX coding of the journeys, theming, routing, widget SDK, demo app, waitlist and initial project managament areas.
 
 Going forward, the team wants to continue implementing new payment gateways, keep polishing the UI/UX and start getting data of how users interact with the booking form to understand which parts need further improvements.
 

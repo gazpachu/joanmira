@@ -13,7 +13,7 @@ template: project
 }
 </style>
 
-![](/work/lighthouse/images/1.jpg)
+![](/work/lighthouse/images/1.png)
 
 Lighthouse is a centralised visualisation app to help users navigate a complex sea of data, guiding them towards actionable insights.
 

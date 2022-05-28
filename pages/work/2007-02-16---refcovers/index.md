@@ -14,4 +14,4 @@ The RefCovers company based in Alicante, Spain, contacted us (Webmarket) to buil
 
 ![](/work/refcovers/images/1.jpg)
 
-![](/work/refcovers/images/2.jpg)
+![](/work/refcovers/images/2.png)

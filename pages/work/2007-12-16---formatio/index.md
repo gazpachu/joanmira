@@ -7,7 +7,7 @@ categories: web flash custom-cms mysql php
 template: project
 ---
 
-![](/work/formatio/images/0.jpg)
+![](/work/formatio/images/0.png)
 
 Formatio required an online platform for their academy, something like a custom [LMS](https://en.wikipedia.org/wiki/Learning_management_system). I built their website using Wordpress and the CMS was built from scratch using Flash, MySQL and PHP.
 

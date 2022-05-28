@@ -7,7 +7,7 @@ categories: wcrs open-source web creative-tech prototype ux design
 template: project
 ---
 
-![](/work/qrcube/images/1.jpg)
+![](/work/qrcube/images/1.png)
 
 QRCube is a trivial game that uses QR Codes to trigger the questions. It's built using a custom template (50x50x50 mm) that you need to print and glue to form a cube.
 

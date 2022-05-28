@@ -12,7 +12,7 @@ template: project
 <a class="btn" role="button" href="https://github.com/gazpachu/bunjin" target="_blank">Github repository</a>
 </p>
 
-![](/work/bunjin/images/1.jpg)
+![](/work/bunjin/images/1.png)
 
 The term "Bunjin" refers to a type of people in traditional society in China and 'an educated person who is good at literature.' [More info](https://www.japanese-wiki-corpus.org/history/Bunjin%20(Literati%20in%20China).html).
 

@@ -9,7 +9,7 @@ template: project
 
 Maple is an app to manage the sales hierarchy in Vodafone. It allows to add new employees, assign them roles and targets and move them under new teams.
 
-![](/work/maple/images/1.jpg "Home page")
+![](/work/maple/images/1.png "Home page")
 
 In this project, I owned the 100% of the front-end build until it was published. Later on, I worked in a couple of more journeys (joiners/leavers, change teams) and features with another co-worker.
 

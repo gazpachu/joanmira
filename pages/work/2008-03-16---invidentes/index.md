@@ -7,6 +7,6 @@ categories: web joomla webmarket inverted
 template: project
 ---
 
-![](/work/invidentes/images/1.jpg)
+![](/work/invidentes/images/1.png)
 
 As part of my friendship with the people behind invidentes.org, I helped to setup a Joomla website with basic information about their project and a hosting for their app.

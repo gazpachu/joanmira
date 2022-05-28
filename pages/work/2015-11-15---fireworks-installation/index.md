@@ -11,6 +11,8 @@ template: project
 <a class="btn" role="button" href="https://github.com/gazpachu/fireworks" target="_blank">Source code</a>
 </p>
 
+<iframe width="100%" height="550" src="https://www.youtube.com/embed/pgPIYp36Miw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## A Kinect driven hand tracking experiment
 
 The aim of this experiment is to showcase the hand tracking capabilities of an Xbox Kinect camera connected to a computer.  Using a simple vertical hand gesture recognition, the app is able to create multiple fireworks along the horizontal axis which get fired from the bottom of the screen.
@@ -19,10 +21,10 @@ To increase the dynamism of the experiment, the app uses random values for the f
 
 To maximise the audiovisual appeal, the app also features these techniques:
 
--	2D Skybox with a seamless background texture
--	Parallax effect (some clouds moving faster than the sky)
--	Base soundtrack playing in a loop and 7 different sound effects, including a crowd of people cheering after a rich round of continuous fireworks
--	Dynamic blur effect using shaders for the hand calibration overlay
+- 2D Skybox with a seamless background texture
+- Parallax effect (some clouds moving faster than the sky)
+- Base soundtrack playing in a loop and 7 different sound effects, including a crowd of people cheering after a rich round of continuous fireworks
+- Dynamic blur effect using shaders for the hand calibration overlay
 
 ![](/work/fireworks-installation/images/fireworks-experiment.jpg)
 
@@ -32,9 +34,9 @@ This app has been coded in an Apple MacBook, using the Xcode IDE. The programmin
 
 There are also a few OF add-ons worth mentioning:
 
--	**ofxKinect**: an API/Interface to interact with Kinect from OF
--	**ofxOpenNI**: a wrapper for OpenNI (for the hand tracking logic)
--	**ofxBlur**: for the blur functionality
+- **ofxKinect**: an API/Interface to interact with Kinect from OF
+- **ofxOpenNI**: a wrapper for OpenNI (for the hand tracking logic)
+- **ofxBlur**: for the blur functionality
 
 All the images and sounds have been obtained from free stock repositories.
 
@@ -45,5 +47,3 @@ Note: Kinect cameras cannot be connected to mobile devices or tablets, although 
 The demo was installed in Eden House’s exhibit area (SapientNitro's office) to allow visitors and employees to use it.
 
 ![](/work/fireworks-installation/images/1.jpg "Wall installation")
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pgPIYp36Miw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

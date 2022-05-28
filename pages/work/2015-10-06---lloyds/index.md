@@ -8,7 +8,7 @@ template: project
 ---
 
 
-![](../multi-device-top-secret.jpg)
+![](/work/multi-device-top-secret.png)
 
 As part of SapientNitro's pitching activities with Lloyds Bank, I was asked to build a microsite to encapsulate all the information, documents, videos and event logs.
 

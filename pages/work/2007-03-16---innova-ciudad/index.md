@@ -13,6 +13,6 @@ template: project
 
 Innova ciudad required a custom website to showcase their real state properties. They also wanted some intro animations, video playback and a CMS to update the properties' details.
 
-![](/work/innova-ciudad/images/1.jpg)
+![](/work/innova-ciudad/images/1.png)
 
 ![](/work/innova-ciudad/images/2.jpg)

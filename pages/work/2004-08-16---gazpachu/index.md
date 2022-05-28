@@ -21,7 +21,7 @@ GAZ New Media Design (aka gazpachu.com) was my first identity as a freelance web
 
 The showcase of the following websites is just for fun, please don't take them too seriously...
 
-![](/work/gazpachu/images/2.jpg)
+![](/work/gazpachu/images/2.png)
 
 ![](/work/gazpachu/images/3.jpg)
 

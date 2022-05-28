@@ -17,7 +17,7 @@ template: project
 
 Commit is a sales forecasting capture tool that replaces manual forecasting processes. It gathers and displays committed opportunities in one place.
 
-![](/work/commit/images/1.jpg "Home page")
+![](/work/commit/images/1.png "Home page")
 
 In this project, I was in charge of restyling most part of the front-end and I helped to another co-worker to build the rest of it.
 

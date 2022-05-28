@@ -7,7 +7,7 @@ categories: vodafone react redux webpack web-app ux design inverted
 template: project
 ---
 
-![](/work/bonsai/images/1.jpg)
+![](/work/bonsai/images/1.png)
 
 Bonsai is a hierarchy management tool to search, view and adjust employee data coming from Active Directory.
 

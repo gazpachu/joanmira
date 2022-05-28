@@ -7,7 +7,7 @@ categories: react graphql apollo emotion react-vis web-app inverted
 template: project
 ---
 
-![](/work/insight/images/1.jpg)
+![](/work/insight/images/1.png)
 
 When I joined TableCheck, I started to work on their Data Science team as the front-end lead. During one year, I managed to bring the product from its initial prototyping stages until its release in August 2019 in 3 languages. Together with the Head of Data Science and a team of 3 front-end engineers and 3 back-end engineers, we built one of the most advanced analytics suite in the industry for TableCheck’s customers like Hilton, IHG Intercontinental, Hyatt, Westin or Okura hotels among others.
 

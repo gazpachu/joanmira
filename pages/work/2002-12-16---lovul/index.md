@@ -15,4 +15,4 @@ L'Òvul was a cultural magazine I got involved with. It was made with love by fr
 
 Most of the content is now offline, but you can have a look at the quirky animations ;-)
 
-![](/work/lovul/images/1.jpg)
+![](/work/lovul/images/1.png)

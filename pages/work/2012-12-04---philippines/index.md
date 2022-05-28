@@ -12,7 +12,7 @@ template: project
 <a class="btn" role="button" href="http://philembassy.herokuapp.com/" target="_blank">Philippine Embassy London (archived version)</a>
 </p>
 
-![](/work/philippines/images/1.jpg)
+![](/work/philippines/images/1.png)
 
 While directing Webmarket.es, I partnered with the Philippines government to build a few websites for their embassies and investment centres:
 
@@ -22,3 +22,9 @@ While directing Webmarket.es, I partnered with the Philippines government to bui
 * Trade and investment centre in the USA (Wordpress)
 
 The oldest websites were built with Joomla (only desktop view) while the new ones were built with Wordpress and were fully responsive. In both cases, I used a custom template and graphic design.
+
+![](/work/philippines/images/2.jpg)
+
+![](/work/philippines/images/3.jpg)
+
+![](/work/philippines/images/4.jpg)

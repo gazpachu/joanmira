@@ -11,7 +11,7 @@ template: project
 
 In 2006, I co-founded a small digital agency. After the first year, I continued as a solo venture and partnered with other agencies and freelancers at some points. We specialised in design and development of multimedia applications and websites based on Adobe Flash (AS2), MdM Zinc, Wordpress and front-end technologies.
 
-![](/work/webmarket/images/1.jpg)
+![](/work/webmarket/images/1.png)
 
 During the 6 years in business, we worked for brands like: Estrella Galicia, Santillana, Editex, Philippines government, Grupo Soledad, IBCmass, Cogersa, Narcea Multimedia, Digital Toy Shop, IES Miguel Hernández, etc.
 

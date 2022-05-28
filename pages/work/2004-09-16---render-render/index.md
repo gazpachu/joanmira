@@ -12,7 +12,7 @@ template: project
 
 Render Render is an R&D project I built while working at Slater Labs in Madrid. My aim was to mimic a Windows OS inside a Flash website.
 
-![](/work/render-render/images/1.jpg)
+![](/work/render-render/images/1.png)
 
 The demo starts with the classic BIOS screen (which has an easter egg if you press F2...). Then it loads the Windows Xp user login screen. After that, the the desktop is displayed and the user can start interacting with the programs (doble click in the icon to open).
 

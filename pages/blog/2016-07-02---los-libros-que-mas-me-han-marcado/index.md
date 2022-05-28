@@ -21,7 +21,7 @@ El pasado viernes, mi vuelo de Alicante a Londres se retrasó, así que se me oc
 
 A continuación, he preparado una pequeña lista de libros que han sido especiales para mí por alguna razón. Podría incluso llegar a decir que algunos de estos libros me han cambiado la vida! No esperéis nada del otro mundo. Los tochos mega-intelectuales (filosofía y religión) muchas veces me dan sueño, así que tengo un montón de libros pendientes de terminar ¯\\_(ツ)_/¯
 
-<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?lt1=_blank&bc1=FFFFFF&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=gazpachu06-21&o=30&p=8&l=as1&m=amazon&f=ifr&ref=tf_til&asins=B00CSJYYO4" style="float:right;width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+<iframe src="https://rcm-eu.amazon-adsystem.com/e/cm?lt1=_blank&bc1=FFFFFF&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=gazpachu06-21&o=30&p=8&l=as1&m=amazon&f=ifr&ref=tf_til&asins=B00CSJYYO4" style="float:right;width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
 
 **El alquimista** (Paolo Coelho) y **El monje que vendió su Ferrari** (Robin Sharma): estos dos libros que leí en el verano de 2007 fueron el caldo de cultivo de la [ruta samurai](http://joanmira.com/samurai-route). Fueron una gran inspiración para mi y me ayudaron a visualizar la forma en la que debía prepararme para aquel gran viaje. El alquimista también me inspiró a realizar un viaje a lo mochilero por Marruecos, donde sucedieron multitud de aventuras.
 
@@ -37,7 +37,7 @@ A continuación, he preparado una pequeña lista de libros que han sido especial
 
 **Tus zonas erróneas** (Wayne Dyer) y **La brújula interior** (Alex Rovira): estos dos libros son de la época cuando descubrí los libros de auto-ayuda. Me flipé un poco con el tema y estuve leyendo otros relacionados con la inteligencia emocional, el positivismo, etc. En general, me fueron muy útiles para poner en práctica algunas cosas en mis relaciones con los demás. Quieras o no quieras, cuando sales por primera vez de tu casa y te enfrentas al mundo, hay cosas que tienes que aprender para desenvolverte mejor en la sociedad, y estos libros son sin duda una gran ayuda en esos momentos.
 
-<iframe src="http://rcm-eu.amazon-adsystem.com/e/cm?t=gazpachu06-21&o=30&p=8&l=as1&asins=1517513049&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="float:right;width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+<iframe src="https://rcm-eu.amazon-adsystem.com/e/cm?t=gazpachu06-21&o=30&p=8&l=as1&asins=1517513049&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=FFFFFF&bg1=FFFFFF&f=ifr" style="float:right;width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
 
 **Siddharta** (Herman Hess): llamándome Joan Siddharta, habría sido un pecado gordo no haber leído este libro! En cualquier caso, es una historia muy bonita que recomiendo a todos leer. Además, tiene unas enseñanzas que bien me gustaría que todo el mundo pusiera más en práctica. Como por ejemplo, el deshacerse de las posesiones materiales o el tratar la naturaleza y los animales con amor y respeto. Quién sabe..., quizás alguno de vosotros llegue a experimentar el nirvana? :)
 

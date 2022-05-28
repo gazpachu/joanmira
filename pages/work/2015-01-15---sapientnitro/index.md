@@ -9,7 +9,7 @@ template: project
 
 As part of my work as a senior interactive developer at SapientNitro, I started to architect and build an internal application to manage the technical skills of Sapient developers across the world.
 
-![](/work/sapientnitro/images/2.jpg)
+![](/work/sapientnitro/images/2.png)
 
 I got two other developers on board (for a couple of weeks) and we started to work on it. The app was built using Sails.js, an MVC framework based on Express/Node.js that creates a REST API with the endpoints defined by the models. We also connected to the Active Directory to fetch employee data and used Sapient's user credentials to sign-up and sign-in users.
 

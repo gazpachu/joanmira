@@ -15,4 +15,4 @@ El Plantio Club de Golf is the first client that hired me to create their websit
 
 ![](/work/elplantio/images/2.jpg)
 
-![](/work/elplantio/images/1.jpg)
+![](/work/elplantio/images/1.png)

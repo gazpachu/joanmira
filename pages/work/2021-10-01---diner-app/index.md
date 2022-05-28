@@ -11,7 +11,7 @@ template: project
 <a class="btn" role="button" href="https://diner-app-spa-staging.tablecheck.com/" target="_blank">Demo App</a>
 </p>
 
-![](/work/diner-app/images/1.jpg)
+![](/work/diner-app/images/1.png)
 
 The new Diner App is a renovated version of the app currently published at tablecheck.com. It's a restaurant search engine with multiple filtering and display options. It also includes a user account section where diners can manage their TableCheck reservations. It is based on <a href="/wekohi">Wekohi</a> but with many new upgrades, some of them include:
 

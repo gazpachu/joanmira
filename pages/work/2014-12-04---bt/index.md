@@ -11,7 +11,7 @@ template: project
 <a class="btn" role="button" href="http://productsandservices.bt.com" target="_blank">Launch website</a>
 </p>
 
-![](/work/bt/images/0.jpg)
+![](/work/bt/images/0.png)
 
 As part of SapientNitro, I co-led the development of the end to end redesign of a responsive front-end for BT, the UK's biggest telecommunications company with millions of customers. I also took full responsibility of the product overview pages (Phone, Broadband, TV and Sport), developing all their shelves responsively.
 

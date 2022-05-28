@@ -13,6 +13,6 @@ template: project
 
 This is a pure HTML, CSS, JS and Flash template for a small website. It includes a custom logo design with animated typography.
 
-![](/work/viveros-murcia/images/1.jpg)
+![](/work/viveros-murcia/images/1.png)
 
 ![](/work/viveros-murcia/images/2.jpg)

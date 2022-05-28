@@ -14,4 +14,4 @@ template: project
 
 Sliding puzzle is a small experiment with React and Redux to create a puzzle game. It was built using the [create react app](https://github.com/facebook/create-react-app) in just a couple of days.
 
-![](/work/sliding-puzzle/images/1.jpg)
+![](/work/sliding-puzzle/images/1.png)

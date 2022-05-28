@@ -6,4 +6,4 @@ shouldHideTitle: true
 
 # Deep Passion for the Web
 
-## Works **sorted by date** since year 2000
+## Featured works **sorted by date** since year 2000

@@ -13,9 +13,7 @@ template: project
 
 The [ICA, Institute of Contemporary Art](https://www.ica.org.uk/), has been in the forefront for arts for decades. It was finding difficulties keeping up with today’s social media age and needed to be part of the online art conversation. We ([SapientNitro](http://www.sapientnitro.com/), London) built a platform to encourage people to challenge what art really means.
 
-![](/work/artrules/images/0.jpg)
-
-![](/work/artrules/images/12.jpg)
+![](/work/artrules/images/12.png)
 
 My role in this project was mainly in the rendering and animations of the art rules. Tech used includes: Ruby on Rails (RoR), HAML, Heroku, Github, SASS, CSS3 animations and Javascript Box2d 2D physics.
 

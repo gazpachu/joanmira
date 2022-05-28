@@ -12,7 +12,7 @@ template: project
 
 While working at Grupo Odesa, I was asked to build a website for Proyecto Hombre. An organisation supported by the Valencian government to help drug addicts. The whole website was built in Flash, using many animations and vivid colours.
 
-![](/work/proyecto-hombre/images/1.jpg)
+![](/work/proyecto-hombre/images/1.png)
 
 ![](/work/proyecto-hombre/images/3.jpg)
 

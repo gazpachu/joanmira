@@ -13,6 +13,6 @@ template: project
 
 Cubre-t contacted us to build a new Flash website to showcase their swimming-pool covers. They wanted an animated intro and a CMS to upload new photos in the future.
 
-![](/work/cubret/images/1.jpg)
+![](/work/cubret/images/1.png)
 
-![](/work/cubret/images/2.jpg)
+![](/work/cubret/images/2.png)
