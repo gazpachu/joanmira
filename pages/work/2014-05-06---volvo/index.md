@@ -11,6 +11,6 @@ I built this quick prototype for Volvo Trucks while working at SapientNitro. The
 
 ![Content coming soon](/work/volvo/images/0.png)
 
-![Content coming soon](/work/volvo/images/1.jpg)
+![Content coming soon](/work/volvo/images/1.png)
 
 ![Content coming soon](/work/volvo/images/3.jpg)

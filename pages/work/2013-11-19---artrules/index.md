@@ -39,7 +39,7 @@ Featured on:
 
 ![](/work/artrules/images/wall-installation.jpg "Installation of the project on a wall in SapientNitro's office")
 
-![](/work/artrules/images/1.jpg)
+![](/work/artrules/images/1.png)
 
 ![](/work/artrules/images/3.jpg)
 

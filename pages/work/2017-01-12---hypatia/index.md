@@ -17,7 +17,7 @@ template: project
 
 Hypatia was my University final project. It is an open source LMS (Learning Management System) focussed on MOOCs.
 
-<iframe width="100%" height="550" src="https://www.youtube.com/embed/YlZpcrvJcbs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="550" style="margin-bottom: 20px" src="https://www.youtube.com/embed/YlZpcrvJcbs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ![](/work/hypatia/images/2.jpg)
 

@@ -14,6 +14,6 @@ While working at Grupo Odesa, I was asked to build a website for Proyecto Hombre
 
 ![](/work/proyecto-hombre/images/1.png)
 
-![](/work/proyecto-hombre/images/3.jpg)
+![](/work/proyecto-hombre/images/3.png)
 
-![](/work/proyecto-hombre/images/2.jpg)
+![](/work/proyecto-hombre/images/2.png)

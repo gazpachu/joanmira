@@ -7,7 +7,7 @@ categories: wcrs web facebook
 template: project
 ---
 
-![](/work/radox/images/1.jpg)
+![](/work/radox/images/1.png)
 
 During my tenure at [WCRS](http://www.wcrs.com), I worked on the Radettes Facebook App for [Radox](http://www.radox.co.uk/).
 

@@ -22,4 +22,4 @@ During my tenure at [WCRS](http://www.wcrs.com), I worked on several projects fo
 
 ![](/work/santander/images/2.jpg)
 
-![](/work/santander/images/4.jpg)
+![](/work/santander/images/4.png)

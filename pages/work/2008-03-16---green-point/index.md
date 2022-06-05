@@ -11,7 +11,7 @@ template: project
 
 Green Point contacted me in Webmarket to request for a 3d modelling and video animation job. I hired the services of [Carlos Ocaña](http://www.4kreation.es/) to do the job.
 
-<iframe width="100%" height="550" src="https://www.youtube.com/embed/YaQCAnWam-k" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="550" style="margin-bottom: 20px" src="https://www.youtube.com/embed/YaQCAnWam-k" frameborder="0" allowfullscreen></iframe>
 
 ![](/work/green-point/images/2.jpg)
 

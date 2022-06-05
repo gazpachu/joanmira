@@ -30,6 +30,10 @@ Some of the widgets include pagination and others include settings.
 
 News stories and ideas have their own canonical URL and page. Ideas include comments from users as well.
 
+<video class="full-img" width="100%" controls>
+  <source src="/work/fingertips/images/tour.mp4" type="video/mp4" />
+</video>
+
 ![](/work/fingertips/images/2.jpg "Add a new widget")
 
 ![](/work/fingertips/images/3.jpg "Idea page")
@@ -47,7 +51,3 @@ News stories and ideas have their own canonical URL and page. Ideas include comm
 ![](/work/fingertips/images/9.jpg "Manage ideas")
 
 ![](/work/fingertips/images/10.jpg "About page")
-
-<video class="full-img" width="100%" controls>
-  <source src="/work/fingertips/images/tour.mp4" type="video/mp4" />
-</video>

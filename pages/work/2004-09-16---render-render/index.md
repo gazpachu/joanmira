@@ -16,4 +16,4 @@ Render Render is an R&D project I built while working at Slater Labs in Madrid. 
 
 The demo starts with the classic BIOS screen (which has an easter egg if you press F2...). Then it loads the Windows Xp user login screen. After that, the the desktop is displayed and the user can start interacting with the programs (doble click in the icon to open).
 
-![](/work/render-render/images/2.jpg)
+![](/work/render-render/images/2.png)

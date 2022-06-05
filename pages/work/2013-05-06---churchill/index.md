@@ -13,7 +13,7 @@ While I was working at [WCRS](http://www.wcrs.com/) as a creative technologist, 
 
 ![](/work/churchill/images/2.png)
 
-![](/work/churchill/images/3.jpg)
+![](/work/churchill/images/3.png)
 
 ![](/work/churchill/images/4.jpg)
 

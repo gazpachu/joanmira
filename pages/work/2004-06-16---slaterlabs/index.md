@@ -19,6 +19,6 @@ While I was working at Slater Labs as a software engineer, I took the creation o
 
 ![](/work/slaterlabs/images/2.png)
 
-![](/work/slaterlabs/images/3.jpg)
+![](/work/slaterlabs/images/3.png)
 
 There is also a template for Slater Labs USA, but this wasn't completed, so it's more like a quick mockup. The color of the sky changes based on the time.

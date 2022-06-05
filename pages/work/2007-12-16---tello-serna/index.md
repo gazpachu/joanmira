@@ -17,7 +17,7 @@ template: project
 
 This was one of Webmarket's first projects. It's a straightforward Flash website with a custom design, animated content and desktop responsive layout. To complete the project, we hired a freelance graphic designer to create the final version (v6).
 
-![](/work/tello-serna/images/1.jpg)
+![](/work/tello-serna/images/1.png)
 
 ![](/work/tello-serna/images/2.jpg)
 

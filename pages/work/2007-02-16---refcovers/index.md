@@ -12,6 +12,6 @@ template: project
 
 The RefCovers company based in Alicante, Spain, contacted us (Webmarket) to build an interactive website to feature their products. They also required a custom CMS to upload pictures of the projects.
 
-![](/work/refcovers/images/1.jpg)
+![](/work/refcovers/images/1.png)
 
 ![](/work/refcovers/images/2.png)

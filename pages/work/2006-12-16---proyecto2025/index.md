@@ -12,7 +12,7 @@ template: project
 
 Proyecto2025 contacted us (Webmarket) to build a website to feature their real state properties and allow customers to search them. They also wanted a flexible system to edit, add or remove properties easily.
 
-![](/work/proyecto2025/images/1.jpg)
+![](/work/proyecto2025/images/1.png)
 
 At this point, I didn't have a system or CMS with this sort of functionality. The open source options available at that time were also very insufficient for the requirements, so I decided to build my own bespoke solution. I called it INMOFlash, because it was based in Flash, PHP and MySQL.
 

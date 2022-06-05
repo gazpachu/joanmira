@@ -226,6 +226,7 @@ kbd {
     --primary-hover: #455a64;
     --primary-focus: rgba(84, 110, 122, 0.125);
     --primary-inverse: #fff;
+    --link: #546e7a;
     --secondary: #596b78;
     --secondary-hover: #415462;
     --secondary-focus: rgba(89, 107, 120, 0.125);
@@ -329,6 +330,7 @@ kbd {
         --secondary-hover: #73828c;
         --secondary-focus: rgba(115, 130, 140, 0.25);
         --secondary-inverse: #fff;
+        --link: #bbc6ce;
         --contrast: #edf0f3;
         --contrast-hover: #fff;
         --contrast-focus: rgba(115, 130, 140, 0.25);
@@ -429,6 +431,7 @@ kbd {
     --secondary-hover: #73828c;
     --secondary-focus: rgba(115, 130, 140, 0.25);
     --secondary-inverse: #fff;
+    --link: #bbc6ce;
     --contrast: #edf0f3;
     --contrast-hover: #fff;
     --contrast-focus: rgba(115, 130, 140, 0.25);
@@ -668,7 +671,7 @@ ul {
 
 [role=link],
 a {
-    --color: var(--primary);
+    --color: var(--link);
     --background-color: transparent;
     outline: 0;
     background-color: var(--background-color);

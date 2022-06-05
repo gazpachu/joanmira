@@ -15,17 +15,17 @@ Tech stack included: CSS3, Pub/Sub, Mustache, jQuery, Vanilla Javascript, Modern
 
 SapientNitro has lead M&S through quite literally the biggest multi-channel retail re-platform in history with more than 600 SapientNitro people on the project that have worked more than 1.1 million hours!
 
-![](/work/marksandspencer/images/2.jpg)
+![](/work/marksandspencer/images/2.png)
 
-![](/work/marksandspencer/images/3.jpg)
+![](/work/marksandspencer/images/3.png)
 
-![](/work/marksandspencer/images/4.jpg)
+![](/work/marksandspencer/images/4.png)
 
-![](/work/marksandspencer/images/5.jpg)
+![](/work/marksandspencer/images/5.png)
 
-![](/work/marksandspencer/images/6.jpg)
+![](/work/marksandspencer/images/6.png)
 
-![](/work/marksandspencer/images/7.jpg)
+![](/work/marksandspencer/images/7.png)
 
 ![](/work/marksandspencer/images/paddington.jpg "The M&S office was in Paddington area")
 

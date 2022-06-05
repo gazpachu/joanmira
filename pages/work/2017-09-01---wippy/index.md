@@ -17,7 +17,7 @@ Wippy is a Vodafone app that allows users to adjust the IYR (in year revenue) of
 
 In this project, I was in charge of restyling most part of the front-end and I helped to another co-worker to build the rest of it.
 
-![](/work/wippy/images/1.jpg "Opportunity page")
+![](/work/wippy/images/1.png "Opportunity page")
 
 ![](/work/wippy/images/2.jpg "Won, in progress or implemented table template")
 
