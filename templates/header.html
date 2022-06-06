@@ -1,17 +1,10 @@
 <header id="header">
   <div class="header-content">
     <a class="logo" href="/">
-      <svg class="logo-symbol" version="1.1" x="0px" y="0px" width="49.25px" height="40px" viewBox="0 0 49.25 40" enable-background="new 0 0 49.25 40" xml:space="preserve">
-        <g>
-          <path class="markers" fill-rule="evenodd" clip-rule="evenodd" stroke-width="0" stroke-miterlimit="10" d="
-      M28.382,17.243l9.509,4.913v2.005l-9.509,4.961v-2.151l7.529-3.813l-7.529-3.765V17.243z M26.477,16.73l-2.934,12.662h-0.978
-      l2.909-12.662H26.477z M20.61,19.394l-7.529,3.765l7.529,3.813v2.151l-9.51-4.961v-2.005l9.51-4.913V19.394z"></path>
-          <path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.1" stroke-miterlimit="3" d="
-  M3.792,23.012c2.786,10.266,9.59,15.237,20.411,14.911c10.821,0.327,17.625-4.645,20.411-14.911V2.186
-  c-4.204,0.929-7.626,3.593-10.267,7.993c-7.056-1.059-13.794-1.059-20.215,0c-2.656-4.465-6.104-7.169-10.34-8.115v20.826"></path>
-        </g>
-      </svg>
-      <span class="logo-wording">JOAN MIRA</span>
+      <svg class="logo-symbol" width="390" height="392" viewBox="0 0 390 392" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M194.987 392L188.91 391.848L183.133 391.644C187.054 391.88 191.007 392 194.987 392ZM182.702 391.617V228.056C182.702 225.531 182.205 223.03 181.239 220.697L147.211 138.464C144.863 132.79 136.882 133.905 135.672 139.345V324.122C135.672 327.479 132.951 330.2 129.594 330.2H52.8737C85.8214 365.44 131.595 388.423 182.702 391.617ZM35.1167 308.24C12.985 276.448 0 237.748 0 196C0 87.7522 87.2987 0 194.987 0C302.675 0 389.974 87.7522 389.974 196C389.974 237.913 376.887 276.753 354.595 308.616H283.111C279.978 308.616 277.399 306.246 277.069 303.201V95.2145C277.069 91.8579 274.348 89.1369 270.992 89.1369H240.198C237.693 89.1369 235.444 90.6744 234.535 93.0089L200.68 179.939C198.669 185.102 191.364 185.102 189.354 179.939L155.499 93.0089C154.589 90.6744 152.341 89.1369 149.835 89.1369H119.042C115.685 89.1369 112.964 91.8579 112.964 95.2145V114.46H112.822V302.163C112.822 305.519 110.101 308.24 106.744 308.24H35.1167ZM336.748 330.576H277.069V330.588L277.057 330.576H259.367C256.01 330.576 253.289 327.855 253.289 324.498V140.588C252.635 134.532 244.035 133.098 241.62 139.046L208.449 220.749C207.515 223.049 207.035 225.507 207.035 227.989V391.619L206.607 391.658C257.8 388.633 303.684 365.756 336.748 330.576ZM204.986 391.747H204.103L202.584 391.848H201.065L198.736 391.965C200.827 391.925 202.911 391.852 204.986 391.747Z" />
+      </svg>             
+      <span class="logo-wording"></span>
       <img class="cursor" src="data:image/gif;base64,R0lGODlhCgABAIAAAP///////yH/C05FVFNDQVBFMi4wAwEAAAAh+QQFBwABACwAAAAACgABAAACA4SPBQAh+QQFBwABACwAAAAAAQABAAACAkwBACH5BAUHAAEALAAAAAABAAEAAAICTAEAIfkEBQcAAQAsAAAAAAEAAQAAAgJMAQAh+QQJBwABACwAAAAACgABAAACA4yPBQAh+QQFBwABACwAAAAAAQABAAACAkwBACH5BAUHAAEALAAAAAABAAEAAAICTAEAIfkEBQcAAQAsAAAAAAEAAQAAAgJMAQAh+QQFBwABACwAAAAAAQABAAACAkwBACH5BAkHAAEALAAAAAABAAEAAAICTAEAOw==" alt="Cursor" />
     </a>
     <div class="controls">
@@ -102,4 +95,29 @@
       </li>
     </ul>
   </div>
+  <script>
+    const el = document.querySelector('.logo-wording');
+    let i = 0;
+    const txt1 = 'JOAN MIRA';
+    const txt2 = 'STUDIO';
+    let currentText = txt1;
+    const speed = 200;
+    const delay = 3000;
+  
+    function typeWriter() {
+      if (i === 0) {
+        el.innerHTML = '';
+      }
+      if (i < currentText.length) {
+        el.innerHTML += currentText.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+      } else {
+        i = 0;
+        currentText = currentText === txt1 ? txt2 : txt1;
+        setTimeout(typeWriter, delay);
+      }
+    }
+    typeWriter();
+  </script>
 </header>
