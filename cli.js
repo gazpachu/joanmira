@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+require('dotenv').config();
 const { JSDOM } = require('jsdom');
 const path = require('path');
 const fs = require('fs-extra');
@@ -8,7 +9,9 @@ const http = require('http');
 const chokidar = require('chokidar');
 const fm = require('front-matter');
 const Feed = require('feed').Feed;
-const xml = require('xml')
+const xml = require('xml');
+const algoliasearch = require('algoliasearch');
+const Cutter = require('utf8-binary-cutter');
 
 const scriptArgs = process.argv.slice(2);
 const command = scriptArgs[0];
@@ -18,6 +21,9 @@ const name = 'Joan Mira';
 const description = 'Modern Software Engineering & UI/UX Design';
 const dateFormatter = new Intl.DateTimeFormat('en-GB', { month: 'long', year: 'numeric', day: 'numeric' });
 const sitemap = [];
+const algoliaPages = [];
+const algoliaClient = algoliasearch(process.env.ALGOLIA_APP_ID, process.env.ALGOLIA_API_KEY);
+const algoliaIndex = algoliaClient.initIndex(process.env.ALGOLIA_INDEX);
 const feed = new Feed({
   title: name,
   description,
@@ -106,6 +112,9 @@ async function build(folderOrFile) {
       'public/sitemap.xml',
       '<?xml version="1.0" encoding="UTF-8"?>' + xmlString
     );
+
+    console.log('Updating algolia indexes');
+    await safeExecute(async () => await algoliaIndex.saveObjects(algoliaPages));
   }
 }
 
@@ -272,6 +281,19 @@ async function processPage(pagePath) {
       { priority: 0.7 }
     ]
   });
+
+  if (targetPath) {
+    const maxBinarySizes = {
+      content: 9000
+    };
+    const record = Cutter.truncateFieldsToBinarySize({
+      objectID: targetPath,
+      slug: `/${targetPath}`,
+      title: frontmatter.title,
+      content: markdown
+    }, maxBinarySizes);
+    algoliaPages.push(record);
+  }
 }
 
 async function processListingItem(pagePath, contentElement, listingSlug, category = null) {
@@ -349,5 +371,7 @@ function startServer(port) {
 async function safeExecute(func) {
   try {
     await func()
-  } catch {}
+  } catch (err) {
+    console.log(err);
+  }
 }

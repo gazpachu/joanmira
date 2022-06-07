@@ -7,14 +7,6 @@ categories: design web prototype flash webmarket
 template: project
 ---
 
-<style>
-.btn {
-  box-sizing: content-box;
-  margin-bottom: 5px;
-  display: inline-block;
-}
-</style>
-
 <p class="align-center">
 <a class="btn" role="button" href="http://work.joanmira.com/webs/digitaltoy/plantilla_ebay/" target="_blank">eBay template</a> <a class="btn" role="button" href="http://work.joanmira.com/webs/digitaltoy/bessel-packaging.jpg" target="_blank">Bessel Packaging</a></p>
 

@@ -21,6 +21,12 @@
   border-radius: 3px;
 }
 
+.btn {
+  box-sizing: content-box;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
 @media screen and (min-width: 601px) {
   #main-wrapper {
     padding: 0 20px;
@@ -77,4 +83,12 @@
 
 [data-theme="light"] .separator {
   border-bottom: 1px solid #DDD;
+}
+
+[data-theme="dark"] iframe[src*="disqus.com"] {
+  color-scheme: light;
+}
+
+[data-theme="light"] iframe[src*="disqus.com"] {
+  color-scheme: light;
 }

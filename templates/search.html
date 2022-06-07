@@ -3,26 +3,144 @@
   <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/reset-min.css" integrity="sha256-t2ATOGCtAIZNnzER679jwcFcKYfLlw01gli6F6oszk8=" crossorigin="anonymous">
     <style>
-      #main-wrapper {
-        text-align: center;
-      }
       #searchbox {
         max-width: 600px;
-        margin: 20px auto;
+        margin: 0 auto;
+        padding: 16px 16px 0;
+      }
+      #pagination {
+        margin: 30px 0;
+      }
+      .ais-SearchBox-form {
+        position: relative;
+      }
+      .ais-SearchBox-loadingIndicator,
+      .ais-SearchBox-reset {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 20px;
+      }
+      .ais-SearchBox-loadingIndicator {
+        top: 18px;
+      }
+
+      @media screen and (min-width: 601px) {
+        .ais-SearchBox-loadingIndicator,
+        .ais-SearchBox-reset {
+          top: 24px;
+        }
+      }
+
+      .ais-SearchBox-loadingIcon {
+        stroke: white;
+      }
+      .ais-SearchBox-submit {
+        display: none;
+      }
+      .ais-SearchBox-input,
+      .ais-SearchBox-form {
+        margin-bottom: 0 !important;
+      }
+
+      .ais-Hits-item {
+        margin-bottom: 20px;
+      }
+
+      .ais-Hits-item h2 {
+        font-size: 20px;
+        margin-bottom: 0;
+      }
+
+      .ais-Pagination-list {
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center
+      }
+
+      .ais-Pagination-item {
+        list-style-type: none;
+      }
+
+      .ais-Pagination-item+.ais-Pagination-item {
+          margin-left: .3rem
+      }
+
+      .ais-Pagination-link {
+          padding: .3rem .6rem;
+          display: block;
+          border: 1px solid #c4c8d8;
+          border-radius: 5px;
+          transition: background-color .2s ease-out;
+          text-decoration: none;
+      }
+
+      .ais-Pagination-link:focus,
+      .ais-Pagination-link:hover {
+          background-color: #e3e5ec
+      }
+
+      .ais-Pagination-item--disabled .ais-Pagination-link {
+          opacity: .6;
+          cursor: not-allowed;
+          color: #a5abc4
+      }
+
+      .ais-Pagination-item--disabled .ais-Pagination-link:focus,
+      .ais-Pagination-item--disabled .ais-Pagination-link:hover {
+          color: #a5abc4;
+          background-color: #fff
+      }
+
+      .ais-Pagination-item--selected .ais-Pagination-link {
+          color: #fff;
+          background-color: var(--primary);
+          border-color: var(--primary);
+      }
+
+      .ais-Pagination-item--selected .ais-Pagination-link:focus,
+      .ais-Pagination-item--selected .ais-Pagination-link:hover {
+          color: #fff
       }
     </style>
   </head>
   <body>
     <div id="main-wrapper">
       <div id="searchbox"></div>
-      <div id="hits"></div>
+      <article id="hits"></article>
+      <div id="pagination"></div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js" integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js" integrity="sha256-LAGhRRdtVoD6RLo2qDQsU2mp+XVSciKRC8XPOBWmofM=" crossorigin="anonymous"></script>
     <script>
+      function parseMarkdown(markdownText) {
+        const htmlText = markdownText
+          .replace(/^### (.*$)/gim, '$1')
+          .replace(/^## (.*$)/gim, '$1')
+          .replace(/^# (.*$)/gim, '$1')
+          .replace(/^\> (.*$)/gim, '$1')
+          .replace(/\*\*(.*)\*\*/gim, '$1')
+          .replace(/\*(.*)\*/gim, '$1')
+          .replace(/!\[(.*?)\]\((.*?)\)/gim, "$1")
+          .replace(/\[(.*?)\]\((.*?)\)/gim, "$1")
+          .replace(/\n$/gim, '')
+
+        return htmlText.trim()
+      }
+
+      function parseContent(content) {
+        // Parse markdown
+        let parsedContent = parseMarkdown(content);
+        // Remove html tags except <mark>
+        parsedContent = parsedContent.replaceAll(/<(?!\/?mark>)[^>]+>/g, '');
+        parsedContent = parsedContent.replaceAll(/(&lt;).*(&gt;)/gi, "");
+        // Reduce content length
+        return `${parsedContent.substring(0, 200)}...`;
+      }
+
       const searchClient = algoliasearch('Q9P7G7F2HI', '1dfcc300e93093880c83116b818aa824');
       const search = instantsearch({
-        indexName: 'demo_ecommerce',
+        indexName: 'Web',
         searchClient,
       });
 
@@ -34,7 +152,33 @@
 
         instantsearch.widgets.hits({
           container: '#hits',
-        })
+          transformItems(items) {
+            return items.map(item => {
+              item._highlightResult.content = {
+                value: parseContent(item._highlightResult['content'].value),
+              };
+              return item;
+            });
+          },
+          templates: {
+            empty: `
+              {{#query}}
+                No results for <q>{{query}}</q>
+              {{/query}}
+            `,
+            item: `
+              <a class="hit-title" href="{{slug}}">
+                <h2>{{#helpers.highlight}}{ "attribute": "title", "highlightedTagName": "mark" }{{/helpers.highlight}}</h2>
+              </a>
+              <div class="hit-content">
+                {{#helpers.highlight}}{ "attribute": "content", "highlightedTagName": "mark" }{{/helpers.highlight}}
+              </div>
+            `,
+          },
+        }),
+        instantsearch.widgets.pagination({
+          container: '#pagination',
+        }),
       ]);
 
       search.start();
