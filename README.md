@@ -5,6 +5,7 @@
 - Built using a custom static site generator with NodeJs. < 500 lines of code
 - Algolia integration for uploading and searching content
 - All content using markdown files
+- Blog comments based on Github issues provided by [Utterances](https://utteranc.es/)
 - Blog category pages generation
 - Sitemap generation
 - RSS feed generation
@@ -14,3 +15,5 @@
 - Dynamic image resizing and convertion to WebP with Sharp
 - Includes 301 redirects
 - Hosting and DNS in Netlify
+- Custom 404 error page
+- Google Analytics integration

@@ -240,11 +240,16 @@ async function processPage(pagePath) {
     );
   }
 
+  const pageTitle = frontmatter.template !== 'homepage' ? frontmatter.title : `${name} • ${description}`;
   headElement.innerHTML = `
   ${headDocument.documentElement.innerHTML}
-  <title>${frontmatter.template !== 'homepage' ? frontmatter.title : `${name} • ${description}`}</title>
+  <title>${pageTitle}</title>
   <meta name="description" content="${description}"></meta>
-  
+  <meta property="og:title" content="${pageTitle}" />
+  <meta property="og:url" content="${`${host}/${targetPath}`}" />
+  <meta property="og:image" content="${`${host}/${targetPath}/${pageName}/${frontmatter.cover}`}" />
+  <meta property="og:type" content="${frontmatter.template === 'post' || frontmatter.template === 'project' ? 'article' : 'website'}" />
+  <meta property="og:description" content="${description}" />
   ${headElement.innerHTML}`;
 
   if (frontmatter.template === 'blog' && listingContentElement) {
