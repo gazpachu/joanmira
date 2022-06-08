@@ -17,7 +17,7 @@ const scriptArgs = process.argv.slice(2);
 const command = scriptArgs[0];
 const dateRegEx = /\d{4}-\d{2}-\d{2}---/;
 const host = 'https://joanmira.com';
-const name = 'Joan Mira';
+const name = 'Joan Mira Studio';
 const description = 'Modern Software Engineering & UI/UX Design';
 const dateFormatter = new Intl.DateTimeFormat('en-GB', { month: 'long', year: 'numeric', day: 'numeric' });
 const sitemap = [];
@@ -242,7 +242,7 @@ async function processPage(pagePath) {
 
   headElement.innerHTML = `
   ${headDocument.documentElement.innerHTML}
-  <title>${frontmatter.template !== 'homepage' ? `${frontmatter.title} • ` : ''}${name} • ${description}</title>
+  <title>${frontmatter.template !== 'homepage' ? frontmatter.title : `${name} • ${description}`}</title>
   <meta name="description" content="${description}"></meta>
   
   ${headElement.innerHTML}`;
