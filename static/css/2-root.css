@@ -85,10 +85,7 @@
   border-bottom: 1px solid #DDD;
 }
 
-[data-theme="dark"] iframe[src*="disqus.com"] {
-  color-scheme: light;
-}
-
-[data-theme="light"] iframe[src*="disqus.com"] {
-  color-scheme: light;
+.utterances {
+  max-width: 745px;
+  margin-bottom: 50px;
 }

@@ -29,4 +29,4 @@ Efectos no tan positivos de las nuevas tecnologías y los videojuegos:
 
 Por lo tanto, mi conclusión es que los videojuegos SI son beneficiosos para el desarrollo de ciertos aspectos de la inteligencia, pero su beneficio no es ilimitado y llega un momento en el cual, su consumo únicamente nos generará un estímulo de tipo creativo (por lo menos hasta que no haya una nueva revolución tecnológica que involucre nuevas formas de razonamiento y nuevas herramientas de control más precisas y veloces).
 
-<iframe allowfullscreen="" frameborder="0" height="453" src="https://www.youtube.com/embed/vyzTOEyFL2Q?feature=oembed" width="604"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="550" src="https://www.youtube.com/watch?v=v0P3qvSqdeg" width="100%"></iframe>

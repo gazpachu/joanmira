@@ -241,9 +241,9 @@ async function processPage(pagePath) {
   }
 
   headElement.innerHTML = `
-  <!DOCTYPE html>
   ${headDocument.documentElement.innerHTML}
   <title>${frontmatter.template !== 'homepage' ? `${frontmatter.title} • ` : ''}${name} • ${description}</title>
+  <meta name="description" content="${description}"></meta>
   
   ${headElement.innerHTML}`;
 

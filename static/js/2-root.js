@@ -3,12 +3,32 @@ document.addEventListener("DOMContentLoaded", function() {
   const themeToggleButton = document.querySelector('.theme-toggle');
   const savedTheme = localStorage.getItem('theme');
 
+  function utterancesTheme() {
+    if (document.querySelector('.utterances-frame')) {
+      const theme = html.getAttribute('data-theme') === 'dark' ? 'github-dark' : 'github-light';
+      const message = {
+        type: 'set-theme',
+        theme: theme
+      };
+      const iframe = document.querySelector('.utterances-frame');
+      iframe.contentWindow.postMessage(message, 'https://utteranc.es');
+    }
+  }
+
   if (savedTheme) {
     html.setAttribute('data-theme', savedTheme);
   } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
     html.setAttribute('data-theme', 'dark');
     localStorage.setItem('theme', 'dark');
   }
+
+  // wait for utterances to load and send it's first message.
+  addEventListener('message', event => {
+    if (event.origin !== 'https://utteranc.es') {
+      return;
+    }
+    utterancesTheme();
+  });
 
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
     if (event.matches) {
@@ -18,6 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
       html.setAttribute('data-theme', 'light');
       localStorage.setItem('theme', 'light');
     }
+    utterancesTheme();
   });
 
   themeToggleButton.addEventListener('click', event => {
@@ -28,6 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
       html.setAttribute('data-theme', 'dark');
       localStorage.setItem('theme', 'dark');
     }
+    utterancesTheme();
   });
 
   // Top nav active element
