@@ -206,6 +206,11 @@ async function processPage(pagePath) {
   bodyElement.append(footerElement);
 
   if (pageContentElement) {
+    let shareLinks = '';
+    if (frontmatter.template === 'post') {
+      const shareLinksDom = await JSDOM.fromFile('templates/share.html');
+      shareLinks = shareLinksDom.window.document;
+    }
     const image = `/${targetPath}/${frontmatter.cover}`;
     const year = `<time class="year tag">${date.getFullYear()}</time>`;
     let pageTitle = `<h1>${frontmatter.title}${frontmatter.template === 'project' ? year : ''}</h1>`;
@@ -216,22 +221,25 @@ async function processPage(pagePath) {
       pageTitle = '';
     }
     pageContentElement.innerHTML = `
-    ${frontmatter.cover && frontmatter.template !== 'project'
-      ? `<picture>
-          <source srcset="${image.replace('.jpg', '.webp')}" type="image/webp">
-          <source srcset="${image}" type="image/jpeg">
-          <img class="image" src="${image}" alt="${frontmatter.title}" width="1024" height="500" loading="lazy">
-        </picture>`
-      : ''}
     <div class="post-content">
       ${pageTitle}
       ${frontmatter.template === 'project' ?
       `<div class="tags">Tags: ${frontmatter.categories.replace('inverted', '')}</div>
       ` : ''}
       ${frontmatter.template === 'post' ?
-      `<div class="meta secondary">
-        <a href="/blog/category/${frontmatter.category}">${frontmatter.category.replace('-', ' ')}</a> • ${dateFormatter.format(date)}
+      `<div class="post-details">
+        <div class="meta secondary">
+          <a href="/blog/category/${frontmatter.category}">${frontmatter.category.replace('-', ' ')}</a> • <span>${dateFormatter.format(date)}</span>
+        </div>
+        ${shareLinks.documentElement.innerHTML}
       </div>` : ''}
+      ${frontmatter.cover && frontmatter.template !== 'project'
+      ? `<picture>
+          <source srcset="${image.replace('.jpg', '.webp')}" type="image/webp">
+          <source srcset="${image}" type="image/jpeg">
+          <img class="image" src="${image}" alt="${frontmatter.title}" width="1024" height="500" loading="lazy">
+        </picture>`
+      : ''}
       ${parsedHtml}
     </div>`;
   } else {
@@ -241,15 +249,16 @@ async function processPage(pagePath) {
   }
 
   const pageTitle = frontmatter.template !== 'homepage' ? frontmatter.title : `${name} • ${description}`;
+  const pageDescription = frontmatter.description || frontmatter.subtitle || description;
   headElement.innerHTML = `
   ${headDocument.documentElement.innerHTML}
   <title>${pageTitle}</title>
-  <meta name="description" content="${description}"></meta>
+  <meta name="description" content="${pageDescription}"></meta>
   <meta property="og:title" content="${pageTitle}" />
   <meta property="og:url" content="${`${host}/${targetPath}`}" />
   <meta property="og:image" content="${`${host}/${targetPath}/${pageName}/${frontmatter.cover}`}" />
   <meta property="og:type" content="${frontmatter.template === 'post' || frontmatter.template === 'project' ? 'article' : 'website'}" />
-  <meta property="og:description" content="${description}" />
+  <meta property="og:description" content="${pageDescription}" />
   ${headElement.innerHTML}`;
 
   if (frontmatter.template === 'blog' && listingContentElement) {

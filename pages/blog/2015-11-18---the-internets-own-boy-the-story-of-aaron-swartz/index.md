@@ -1,5 +1,6 @@
 ---
 title: "The Internet's own boy: the story of Aaron Swartz"
+description: "My personal review of the movie"
 cover: images/aaron-swartz.jpg
 template: post
 category: film
