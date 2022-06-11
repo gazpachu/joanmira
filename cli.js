@@ -113,8 +113,10 @@ async function build(folderOrFile) {
       '<?xml version="1.0" encoding="UTF-8"?>' + xmlString
     );
 
-    console.log('Updating algolia indexes');
-    await safeExecute(async () => await algoliaIndex.saveObjects(algoliaPages));
+    if (process.env.ALGOLIA_API_KEY) {
+      console.log('Updating algolia indexes');
+      await safeExecute(async () => await algoliaIndex.saveObjects(algoliaPages));
+    }
   }
 }
 
@@ -177,7 +179,6 @@ async function processPage(pagePath) {
   const pageContentElement = document.getElementById('page-content');
   const listingContentElement = document.getElementById('listing-content');
   const headerElement = headerDocument.getElementById('header');
-  const footerElement = footerDocument.getElementById('footer');
   const htmlElement = document.getElementsByTagName('html');
   const bodyElement = document.querySelector('body');
   const headElement = document.querySelector('head');
@@ -202,8 +203,6 @@ async function processPage(pagePath) {
   } else {
     bodyElement.prepend(headerElement);
   }
-
-  bodyElement.append(footerElement);
 
   if (pageContentElement) {
     let shareLinks = '';
@@ -276,6 +275,11 @@ async function processPage(pagePath) {
   } else if (frontmatter.template === 'work' && listingContentElement) {
     await processDirectory('pages/work', processListingItem, listingContentElement, 'work', null);
   }
+
+  bodyElement.innerHTML = `
+    ${bodyElement.innerHTML}
+    ${footerDocument.documentElement.innerHTML}
+  `;
 
   const finalHtml = document.getElementsByTagName('html')[0].outerHTML;
   await fs.writeFile(`public/${targetPath}/${pageName}.html`, finalHtml);
