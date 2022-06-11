@@ -1,29 +1,37 @@
 #header {
-  margin: 0 auto;
   padding: 0;
   width: 100%;
-  text-align: center;
-  max-width: var(--content-max-width);
+  border-bottom: 1px solid;
+  border-bottom-color: rgba(0,0,0,.15);
+  background-color: rgba(0,0,0,0.08);
 }
 
 .header-content {
   position: relative;
-  margin: 0 var(--desktop-gutter);
-  border-bottom: 1px solid;
-  border-bottom-color: rgba(0,0,0,.15);
+  margin: 0 auto;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+  max-width: var(--content-max-width);
 }
 
-@media screen and (max-width: 600px) {
-  #header {
-    padding: var(--mobile-gutter) 0 0;
-  }
-  .header-content {
-    margin: 0;
-  }
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 [data-theme="dark"] #header {
   filter: invert(100%);
+}
+
+#header .logo {
+  display: flex;
+  align-items: center;
+  opacity: 0.8;
+  text-decoration: none;
+  width: 148px;
 }
 
 #header .logo-wording {
@@ -33,21 +41,9 @@
   letter-spacing: 0;
 }
 
-#header .logo {
-  display: block;
-  position: absolute;
-  text-decoration: none;
-  top: 36px;
-  height: 44px;
-  z-index: 1;
-  opacity: 0.8;
-}
-
 #header .logo-symbol {
   margin-right: 10px;
-  vertical-align: middle;
   position: relative;
-  top: -4px;
   width: 35px;
   height: 35px;
   fill: black;
@@ -55,62 +51,38 @@
 
 #header .cursor {
   margin-left: 3px;
-  position: absolute;
-  top: 24px;
+  margin-top: 14px;
   opacity: 0.5;
   filter: invert(100%);
 }
 
-@media screen and (max-width: 600px) {
-  #header .logo {
-    position: initial;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  #header .logo-symbol {
-    margin-right: 0;
-  }
-  #header .logo .logo-wording,
-  #header .logo .cursor {
-    display: none;
-  }
-}
-
 #main-menu {
-  position: relative;
-  margin: 0;
-  width: 100%;
-  height: 79px;
   list-style-type: none;
-  padding-left: 0;
-}
-
-@media screen and (max-width: 600px) {
-  #main-menu {
-    height: auto;
-  }
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
 }
 
 #main-menu li {
   display: inline-block;
+  margin-right: var(--gutter);
+  margin-bottom: 0;
   position: relative;
+}
+
+#main-menu li:last-child {
+  margin-right: 0;
 }
 
 #main-menu li a {
   display: inline-block;
-  position: relative;
   color: black;
   padding: 0;
-  height: 22px;
   font-size: 12px;
   font-weight: normal;
   cursor: pointer;
   text-decoration: none;
   text-transform: uppercase;
-  border-width: 0 14px;
-  border-color: transparent;
-  border-style: solid;
 }
 
 #main-menu li a:focus,
@@ -123,48 +95,24 @@
   color: black;
 }
 
-#main-menu li.active a::after,
-#main-menu li a:hover::after {
+#main-menu li.active::after,
+#main-menu li:hover::after {
   display: block;
   position: absolute;
   content: "";
   left: 0;
-  top: 28px;
+  top: 30px;
   width: 100%;
   height: 1px;
   background: rgba(0,0,0,.67);
 }
 
 .controls {
-  margin: 0 0 10px 0;
-}
-
-@media screen and (min-width: 601px) {
-  #header .logo:hover {
-    border-bottom: 1px solid;
-    border-bottom-color: rgba(0,0,0,.67);
-  }
-  #main-menu li a,
-  #main-menu li div {
-    padding: 48px 0 0;
-    height: 79px;
-  }
-  #main-menu li.active a::after,
-  #main-menu li a:hover::after {
-    top: 79px;
-  }
-  .controls {
-    position: absolute;
-    z-index: 1;
-    margin: 0;
-    right: 0;
-    top: 40px;
-  }
+  display: flex;
 }
 
 .controls .header-button {
   padding: 0;
-  font-size: 16px;
   border-width: 0;
   opacity: 0.8;
   text-decoration: none;
@@ -172,9 +120,8 @@
 
 .controls .header-button svg {
   fill: black;
-  vertical-align: middle;
-  width: 1em;
-  height: 1em;
+  width: 16px;
+  height: 16px;
 }
 
 .controls .header-button:hover {
@@ -184,10 +131,32 @@
 
 .controls .theme-toggle,
 .controls .github-button {
-  margin-left: 16px;
+  margin-left: 20px;
   background: none;
 }
 
 .controls .search-button:hover::after {
   display: none;
+}
+
+@media screen and (max-width: 650px) {
+  .header-content {
+    height: 85px;
+    margin-bottom: 16px;
+  }
+  #main-menu {
+    position: absolute;
+    top: 71px;
+  }
+  .controls .header-button svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (min-width: 651px) {
+  #main-menu li.active::after,
+  #main-menu li:hover::after {
+    top: 42.5px;
+  }
 }

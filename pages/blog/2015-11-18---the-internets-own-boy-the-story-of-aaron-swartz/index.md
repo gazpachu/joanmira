@@ -1,6 +1,6 @@
 ---
 title: "The Internet's own boy: the story of Aaron Swartz"
-description: "My personal review of the movie"
+description: "Personal review of the movie. Something failed deeply in the system and we ended up losing a vary valuable human being"
 cover: images/aaron-swartz.jpg
 template: post
 category: film

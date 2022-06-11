@@ -214,34 +214,44 @@ async function processPage(pagePath) {
     const image = `/${targetPath}/${frontmatter.cover}`;
     const year = `<time class="year tag">${date.getFullYear()}</time>`;
     let pageTitle = `<h1>${frontmatter.title}${frontmatter.template === 'project' ? year : ''}</h1>`;
-    if (frontmatter.title && frontmatter.subtitle) {
-      pageTitle = `<hgroup><h1>${frontmatter.title}</h1><h2>${frontmatter.subtitle}</h2></hgroup>`;
+    if (frontmatter.title && frontmatter.description) {
+      pageTitle = `<hgroup><h1>${frontmatter.title}</h1><h2>${frontmatter.description}</h2></hgroup>`;
     }
     if (frontmatter.shouldHideTitle) {
       pageTitle = '';
     }
     pageContentElement.innerHTML = `
-    <div class="post-content">
-      ${pageTitle}
+      ${frontmatter.template === 'post'
+        ? `<a class="category" href="/blog/category/${frontmatter.category}">${frontmatter.category.replace('-', ' ')}</a>`
+        : ''}
+      <div class="post-header">
+        ${pageTitle}
+      </div>
       ${frontmatter.template === 'project' ?
       `<div class="tags">Tags: ${frontmatter.categories.replace('inverted', '')}</div>
       ` : ''}
-      ${frontmatter.template === 'post' ?
-      `<div class="post-details">
-        <div class="meta secondary">
-          <a href="/blog/category/${frontmatter.category}">${frontmatter.category.replace('-', ' ')}</a> • <span>${dateFormatter.format(date)}</span>
-        </div>
-        ${shareLinks.documentElement.innerHTML}
-      </div>` : ''}
       ${frontmatter.cover && frontmatter.template !== 'project'
       ? `<picture>
           <source srcset="${image.replace('.jpg', '.webp')}" type="image/webp">
           <source srcset="${image}" type="image/jpeg">
-          <img class="image" src="${image}" alt="${frontmatter.title}" width="1024" height="500" loading="lazy">
+          <img class="image" src="${image}" alt="${frontmatter.title}" width="100%" height="500" loading="lazy">
         </picture>`
       : ''}
-      ${parsedHtml}
-    </div>`;
+      ${frontmatter.template === 'post' ?
+      `<div class="post-details">
+        <div class="meta secondary">
+          <span>${dateFormatter.format(date)}</span>
+        </div>
+        ${shareLinks.documentElement.innerHTML}
+      </div>` : ''}
+      <div class="post-body">
+        <div class="post-content">
+          ${parsedHtml}
+        </div>
+        <div class="post-sidebar"></div>
+      </div>
+      ${pageContentElement.innerHTML}
+    `;
   } else {
     console.log(
       `Could not find element with id 'page-content' in template ${templatePath}. Generating page without markdown content.`
@@ -249,7 +259,7 @@ async function processPage(pagePath) {
   }
 
   const pageTitle = frontmatter.template !== 'homepage' ? frontmatter.title : `${name} • ${description}`;
-  const pageDescription = frontmatter.description || frontmatter.subtitle || description;
+  const pageDescription = frontmatter.description || description;
   headElement.innerHTML = `
   ${headDocument.documentElement.innerHTML}
   <title>${pageTitle}</title>
@@ -323,7 +333,7 @@ async function processListingItem(pagePath, contentElement, listingSlug, categor
   contentElement.innerHTML = `${contentElement.innerHTML}
   ${listingSlug === 'blog'
   ? `<li class="${frontmatter.category}">
-    <article class="list-item">
+    <div class="list-item">
       <a href="${slug}">
         <picture>
           <source srcset="${image.replace('.jpg', '.webp')}" type="image/webp">
@@ -333,11 +343,12 @@ async function processListingItem(pagePath, contentElement, listingSlug, categor
       </a>
       <div class="list-item-content">
         <a class="list-item-title" href="${slug}">${frontmatter.title}</a>
+        ${frontmatter.description ? `<p>${frontmatter.description}</p>` : ''}
         <div class="meta secondary">
           ${frontmatter.category ? `<a href="/${listingSlug}/category/${frontmatter.category}">${frontmatter.category.replace('-', ' ')}</a>` : ''} • ${dateFormatter.format(date)}
         </div>
       </div>
-    </article>
+    </div>
   </li>`
   : `<li class="${frontmatter.categories}" style="background-color: ${frontmatter.color};">
     <a href="${slug}" class="link">
