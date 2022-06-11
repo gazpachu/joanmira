@@ -113,7 +113,7 @@ async function build(folderOrFile) {
       '<?xml version="1.0" encoding="UTF-8"?>' + xmlString
     );
 
-    if (process.env.ALGOLIA_API_KEY) {
+    if (process.env.UPDATE_ALGOLIA) {
       console.log('Updating algolia indexes');
       await safeExecute(async () => await algoliaIndex.saveObjects(algoliaPages));
     }
@@ -178,7 +178,6 @@ async function processPage(pagePath) {
   const footerDocument = footerDom.window.document;
   const pageContentElement = document.getElementById('page-content');
   const listingContentElement = document.getElementById('listing-content');
-  const headerElement = headerDocument.getElementById('header');
   const htmlElement = document.getElementsByTagName('html');
   const bodyElement = document.querySelector('body');
   const headElement = document.querySelector('head');
@@ -196,12 +195,6 @@ async function processPage(pagePath) {
   if (!htmlElement.length) {
       console.log(`Templates should contain the 'html' tag.`);
       process.exit(1);
-  }
-
-  if (heroElement) {
-    heroElement.prepend(headerElement);
-  } else {
-    bodyElement.prepend(headerElement);
   }
 
   if (pageContentElement) {
@@ -276,6 +269,18 @@ async function processPage(pagePath) {
     await processDirectory('pages/work', processListingItem, listingContentElement, 'work', null);
   }
 
+  if (heroElement) {
+    heroElement.innerHTML = `
+      ${headerDocument.documentElement.innerHTML}
+      ${heroElement.innerHTML}
+    `;
+  } else {
+    bodyElement.innerHTML = `
+      ${headerDocument.documentElement.innerHTML}
+      ${bodyElement.innerHTML}
+    `;
+  }
+
   bodyElement.innerHTML = `
     ${bodyElement.innerHTML}
     ${footerDocument.documentElement.innerHTML}
@@ -337,7 +342,7 @@ async function processListingItem(pagePath, contentElement, listingSlug, categor
   contentElement.innerHTML = `${contentElement.innerHTML}
   ${listingSlug === 'blog'
   ? `<li class="${frontmatter.category}">
-    <div class="list-item">
+    <article class="list-item">
       <a href="${slug}">
         <picture>
           <source srcset="${image.replace('.jpg', '.webp')}" type="image/webp">
@@ -346,13 +351,13 @@ async function processListingItem(pagePath, contentElement, listingSlug, categor
         </picture>
       </a>
       <div class="list-item-content">
-        <a class="list-item-title" href="${slug}">${frontmatter.title}</a>
+        <a class="list-item-title" href="${slug}"><h2>${frontmatter.title}</h2></a>
         ${frontmatter.description ? `<p>${frontmatter.description}</p>` : ''}
         <div class="meta secondary">
           ${frontmatter.category ? `<a href="/${listingSlug}/category/${frontmatter.category}">${frontmatter.category.replace('-', ' ')}</a>` : ''} • ${dateFormatter.format(date)}
         </div>
       </div>
-    </div>
+    </article>
   </li>`
   : `<li class="${frontmatter.categories}" style="background-color: ${frontmatter.color};">
     <a href="${slug}" class="link">

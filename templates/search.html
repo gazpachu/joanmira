@@ -4,9 +4,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.3.1/themes/reset-min.css" integrity="sha256-t2ATOGCtAIZNnzER679jwcFcKYfLlw01gli6F6oszk8=" crossorigin="anonymous">
     <style>
       #searchbox {
-        max-width: 600px;
-        margin: 0 auto;
-        padding: 16px 16px 0;
+        max-width: var(--post-content-max-width);
+        margin: 32px 0;
+      }
+      #hits {
+        max-width: var(--post-content-max-width);
       }
       #pagination {
         margin: 30px 0;
@@ -52,12 +54,6 @@
         margin-bottom: 0;
       }
 
-      .ais-Pagination-list {
-          -webkit-box-pack: center;
-          -ms-flex-pack: center;
-          justify-content: center
-      }
-
       .ais-Pagination-item {
         list-style-type: none;
       }
@@ -77,7 +73,7 @@
 
       .ais-Pagination-link:focus,
       .ais-Pagination-link:hover {
-          background-color: #e3e5ec
+          background-color: #dfdfdf
       }
 
       .ais-Pagination-item--disabled .ais-Pagination-link {
@@ -106,8 +102,9 @@
   </head>
   <body>
     <div id="main-wrapper">
+      <div id="page-content"></div>
       <div id="searchbox"></div>
-      <article id="hits"></article>
+      <div id="hits"></div>
       <div id="pagination"></div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js" integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script>

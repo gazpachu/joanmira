@@ -67,6 +67,7 @@
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         grid-gap: 30px;
+        margin-bottom: 100px;
       }
       
       .gallery div {
@@ -95,21 +96,16 @@
         }
         .pach {
           float: none;
-          margin: 0 auto;
+          margin: 24px auto 0;
           display: block;
         }
         .map {
           float: none;
           margin: 0 auto;
         }
-        p {
-          max-width: 800px;
-          margin-left: auto;
-          margin-right: auto;
-          padding: 0 20px;
-        }
-        p:last-child {
-          margin-bottom: 60px;
+        .slide:not(:last-child) {
+          padding-bottom: 12px;
+          margin-bottom: 32px;
         }
       }
     </style>

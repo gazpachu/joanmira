@@ -1,19 +1,17 @@
 <style>
   #footer {
     padding: 25px 0 0;
-    background-color: #FCFCFC;
+    border-top: 1px solid rgba(0,0,0,.15);
+    background-color: rgba(0,0,0,0.08);
     margin-top: 40px;
+    color: black;
   }
   [data-theme="dark"] #footer {
-    border-top: 1px solid #172631;
-    background-color: #1e2a35;
-  }
-
-  [data-theme="light"] #footer {
-    border-top: 1px solid #DDD;
+    filter: invert(100%);
   }
   #footer a {
     text-decoration: none;
+    color: black;
   }
   .menu {
     display: flex;
@@ -54,13 +52,10 @@
   .logo svg {
     width: 130px;
     height: 130px;
-  }
-  [data-theme="dark"] .logo svg {
-    color: white;
     opacity: .8;
   }
   .strip-wrapper {
-    background-color: var(--code-background-color);
+    background-color: rgba(0,0,0,0.1);
   }
   .strip {
     padding: 16px var(--gutter);
@@ -73,6 +68,7 @@
     margin-right: 24px;
     position: relative;
     display: inline-block;
+    color: black;
   }
   .strip li:last-child {
     margin-right: 0;
@@ -105,7 +101,7 @@
     </div>
     <ul>
       <li>
-        <a href="/blog" aria-current="page" class="">Blog</a>
+        <a href="/blog">Blog</a>
       </li>
       <li>
         <a href="/about">About</a>
@@ -119,21 +115,21 @@
     </ul>
     <ul>
       <li>
-        <a href="/cv" class="">Curriculum</a>
+        <a href="/cv">Curriculum</a>
       </li>
       <li>
-        <a href="/samurai-route" class="">Samurai Route</a>
+        <a href="/samurai-route">Samurai Route</a>
       </li>
     </ul>
     <ul>
       <li>
-        <a href="#" class="">Software Engineering</a>
+        <a href="#">Software Engineering</a>
       </li>
       <li>
-        <a href="#" class="">Creative Technology</a>
+        <a href="#">Creative Technology</a>
       </li>
       <li>
-        <a href="#" class="">UI UX Design</a>
+        <a href="#">UI UX Design</a>
       </li>
     </ul>
   </div>

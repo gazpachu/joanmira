@@ -1,16 +1,14 @@
 ---
 title: "About"
 template: about
-shouldHideTitle: true
 ---
 
-<article>
+<div>
   <div class="slide">
     <img class="pach" src="/about/images/pach.png" alt="Joan Mira" />
-    <p>My name in japanese is <strong lang="ja-jp">ジョアン</strong> (Joan) <strong lang="ja-jp">ミラ</strong> (Mira).</p>
-    <p>I define myself as an explorer, web and tech geek, biker, DIY enthusiast and cinema buff. But among all, I'm passionate about art, creativity and inspired by Japan.</p>
-    <p>This is my personal website, where I write about my life, interests and work as a Software Engineer with the only intention of sharing knowledge and experiences.</p>
-    <p>If you want to know more about me, you can read my <a href="/blog/geek-life">geek life</a>, <a href="/cv">curriculum</a> or my motorcycle adventure called the <a href="/samurai-route/">Samurai Route</a>. Alternatively, I'm always up for a ping-pong or fußball game. And don't forget to add me in <a href="http://linkedin.com/in/joanmira">LinkedIn</a>, <a href="https://twitter.com/gazpachu/">Twitter</a> or <a href="https://github.com/gazpachu">Github</a>! ;-)</p>
+    <p>Hey there! thanks for passing by.</p>
+    <p>In this website, you will find information about my work as a Software Engineer. From time to time, I will also publish some personal stories in the blog to share some insights and experiences.<br />Feel free to <a href="/contact">contact me</a> for work-related matters or comment in the blog.</p>
+    <p>If you want to know more about me, you can read my <a href="/cv">curriculum</a> or my motorcycle adventure called the <a href="/samurai-route/">Samurai Route</a>. Alternatively, I'm always up for a ping-pong or fußball game. And don't forget to add me in <a href="http://linkedin.com/in/joanmira">LinkedIn</a>, <a href="https://twitter.com/gazpachu/">Twitter</a> or <a href="https://github.com/gazpachu">Github</a>! ;-)</p>
   </div>
 
   <div class="slide">
@@ -25,10 +23,10 @@ shouldHideTitle: true
       ></iframe>
     </div>
     <div>
-      <p>I was born and raised in <a href="https://en.wikipedia.org/wiki/Alicante" target="_blank" rel="noreferrer noopener">Alicante</a>. A popular tourist area in the south east of Spain.</p>
-      <p>If you haven&#39;t heard before about Alicante, then you should know that it is a region with <a href="https://www.alicanteturismo.com/discover-alicante/beaches/?lang=en" rel="noreferrer noopener">splendid beaches</a>, <a href="https://www.climatestotravel.com/climate/spain/alicante" target="_blank" rel="noreferrer noopener">very good weather</a> and remarkable gastronomy. To the point that, <a href="https://en.wikipedia.org/wiki/Ferran_Adri%C3%A0">Ferran Adriá</a> once said it is <a href="https://www.diarioinformacion.com/cultura/2011/08/13/ferran-adria-inspira-alicante/1158013.html" rel="noreferrer noopener">one of the best places in the World to eat!</a></p>
-      <p>It&#39;s also the area of the world-renowned <a href="https://en.wikipedia.org/wiki/Paella" target="_blank" rel="noreferrer noopener">paella</a>, <a href="https://en.wikipedia.org/wiki/Turr%C3%B3n" target="_blank" rel="noreferrer noopener">turron</a> and the <a href="https://vinosalicantedop.org/?lang=en" rel="noreferrer noopener">alicante wines</a>.</p>
-      <p>Alicante is also undergoing a major <a href="https://alicantec.com/en/" target="_blank" rel="noreferrer noopener">revamping in the digital industry</a>, with a government driven project called the <a href="https://www.facebook.com/GVAddigital" target="_blank" rel="noreferrer noopener">Digital District</a> that is attracting startups and big IT companies to settle in the area.</p>
+      <p>I was born and raised in <a href="https://en.wikipedia.org/wiki/Alicante" target="_blank" rel="noreferrer noopener">Alicante</a>, a popular tourist area in the south east of Spain.</p>
+      <p>Alicante is a region with <a href="https://www.alicanteturismo.com/discover-alicante/beaches/?lang=en" rel="noreferrer noopener">splendid beaches</a>, <a href="https://www.climatestotravel.com/climate/spain/alicante" target="_blank" rel="noreferrer noopener">very good weather</a> and remarkable gastronomy. <a href="https://en.wikipedia.org/wiki/Ferran_Adri%C3%A0">Ferran Adriá</a> once said that Alicante is <a href="https://www.diarioinformacion.com/cultura/2011/08/13/ferran-adria-inspira-alicante/1158013.html" rel="noreferrer noopener">one of the best places in the world to eat!</a></p>
+      <p>If you visit, I definitely recommend tasting the <a href="https://en.wikipedia.org/wiki/Arr%C3%B2s_a_banda" target="_blank" rel="noreferrer noopener">arròs a banda</a> or del senyoret together with a <a href="https://www.bocopa.com/nuestros-vinos/blancos-en/marina-alta/?lang=en">Marina Alta (white)</a> or <a href="https://bodegasvolver.com/nuestros-vinos/tarima-hill/?lang=en">Tarima Hill (red)</a> wine.</p>
+      <p>Alicante is also <a href="https://alicantec.com/casos-exito/" target="_blank" rel="noreferrer noopener">revamping its digital industry</a>, with a government-driven project called the <a href="https://distritodigitalcv.com/" target="_blank" rel="noreferrer noopener">Digital District</a> to attract startups and IT companies to settle in the region. Come and join the <a href="http://alicantefrontend.herokuapp.com/">Alicante Front-end Community!</a></p>
     </div>
   </div>
   <div class="slide gallery">
@@ -45,4 +43,4 @@ shouldHideTitle: true
     <div title="Moraig cove in Alicante"><img src="/about/images/moraig.jpg" alt="Moraig cove in Alicante" /></div>
     <div title="From London to Alicante by motorbike"><img src="/about/images/paris.jpg" alt="From London to Alicante by motorbike" /></div>
   </div>
-</article>
+</div>
