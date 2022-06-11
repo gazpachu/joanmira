@@ -2,9 +2,12 @@
 title: "La Ruta del Samurái (The Samurai Route)"
 ---
 
-<p class="align-center">
+<figure>
+    <img src="/samurai-route/images/logo.jpg">
+    <figcaption align = "center">The Samurai Route Logo</figcaption>
+</figure>
+
 <a class="btn" role="button" href="http://rutasamurai.herokuapp.com" target="_blank">Launch archived website</a>
-</p>
 
 In January 2010 I had a crazy idea: to **travel by motorbike from Spain to Japan** in 3 months (around 20.000Km) and then spend 2 months travelling around Japan. We called it "La Ruta del samurai" (The Samurai Route).
 
@@ -12,11 +15,17 @@ I've been riding motorcycles since I was 17 but never really travelled long dist
 
 I passed the exam for the "big motorcycles" license and bought a [Yamaha XT660Z Teneré](https://en.wikipedia.org/wiki/Yamaha_XT660Z_T%C3%A9n%C3%A9r%C3%A9). It wasn't my favourite model, but at the end, it turned out to be a great choice for that kind of trip. I [spent a few months preparing the trip](/blog/category/samurai-route), found some kind sponsors and a partner. Finally, on June, I left my hometown and started this great adventure :-) [ <a href="https://www.facebook.com/rutasamurai/photos_stream?tab=photos_albums" target="_blank">view pictures</a> ]
 
-![](/samurai-route/images/1.jpg "Loading the bike in Tokyo, ready to start the trip and the project's logo")
+<figure>
+    <img src="/samurai-route/images/salida.jpg">
+    <figcaption align = "center">Ready to start the trip from Seville, Spain</figcaption>
+</figure>
 
 There are also a [few blog entries related with the trip](/blog/category/samurai-route) (in Spanish)
 
-![Loading the bike in Tokio](/samurai-route/images/ruta-samurai-loading-bike.jpg "Loading the bike in Tokyo")
+<figure>
+    <img src="/samurai-route/images/ruta-samurai-loading-bike.jpg">
+    <figcaption align = "center">Loading the bike in Tokio. This wasn't the usual load...</figcaption>
+</figure>
 
 <iframe frameborder="0" height="550" marginheight="0" marginwidth="0" scrolling="no" src="//maps.google.es/maps/ms?hl=es&ie=UTF8&t=h&msa=0&msid=109521630100610492151.00047cbcf9d4d2e0c9663&ll=45.58329,65.742188&spn=84.257979,149.414063&z=2&output=embed" style="border: 1px solid #CCCCCC;" width="100%"></iframe>
 
@@ -26,7 +35,7 @@ There are also a [few blog entries related with the trip](/blog/category/samurai
 
 ## Reportaje de TV Giralda
 
-<iframe allowfullscreen="allowfullscreen" frameborder="0" width="800" height="450" src="//www.youtube.com/embed/mDsD1S7m3_A?rel=0"></iframe>
+<iframe allowfullscreen="allowfullscreen" frameborder="0" width="100%" height="550" src="//www.youtube.com/embed/mDsD1S7m3_A?rel=0"></iframe>
 
 ### Sponsored by
 

@@ -7,8 +7,8 @@ template: about
   <div class="slide">
     <img class="pach" src="/about/images/pach.png" alt="Joan Mira" />
     <p>Hey there! thanks for passing by.</p>
-    <p>In this website, you will find information about my work as a Software Engineer. From time to time, I will also publish some personal stories in the blog to share some insights and experiences.<br />Feel free to <a href="/contact">contact me</a> for work-related matters or comment in the blog.</p>
-    <p>If you want to know more about me, you can read my <a href="/cv">curriculum</a> or my motorcycle adventure called the <a href="/samurai-route/">Samurai Route</a>. Alternatively, I'm always up for a ping-pong or fußball game. And don't forget to add me in <a href="http://linkedin.com/in/joanmira">LinkedIn</a>, <a href="https://twitter.com/gazpachu/">Twitter</a> or <a href="https://github.com/gazpachu">Github</a>! ;-)</p>
+    <p>In this website, you will find information about my work as a Software Engineer. From time to time, I will also publish some personal stories in the blog to share some insights and experiences.<br />Feel free to comment in the blog or <a href="/contact">contact me</a> for work-related matters.</p>
+    <p>If you want to know more about me, you can read my <a href="/cv">curriculum</a>, <a href="/goals">life goals</a> or my motorcycle adventure called the <a href="/samurai-route/">Samurai Route</a>. Alternatively, I'm always up for a ping-pong or fußball game. And don't forget to add me in <a href="http://linkedin.com/in/joanmira">LinkedIn</a>, <a href="https://twitter.com/gazpachu/">Twitter</a> or <a href="https://github.com/gazpachu">Github</a>! ;-)</p>
   </div>
 
   <div class="slide">
