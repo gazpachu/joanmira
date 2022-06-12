@@ -1,8 +1,10 @@
 ---
-title: "Nuevo logotipo de Webmarket!"
+title: Nuevo logotipo de Webmarket!
+description: Cambio del logo de la manzana verde por otro basado en las iniciales de Webmarket
 cover: images/logo_presupuesto_grande_nzfbww.jpg
 template: post
 category: work
+lang: es
 ---
 
 Bueno, ya era hora de cambiar el logo de la manzana verde, que aunque me gustaba mucho, no dejaba de ser una semi copia del logo de Apple. Así que ahora ya somos un poquito más diferentes y con más personalidad :)

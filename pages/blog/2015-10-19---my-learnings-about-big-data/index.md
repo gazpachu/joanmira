@@ -1,5 +1,6 @@
 ---
-title: "My learnings about Big Data"
+title: My learnings about Big Data
+description: Sharing some interesting things I've learned recently
 cover: images/bid-data-cloud.jpg
 template: post
 category: education

@@ -1,5 +1,6 @@
 ---
-title: "The best codepens of 2015"
+title: The best codepens of 2015
+description: A selection of lovely or useful code examples
 cover: images/codepen.png
 template: post
 category: work

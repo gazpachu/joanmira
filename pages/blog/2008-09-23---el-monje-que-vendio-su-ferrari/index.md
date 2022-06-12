@@ -1,8 +1,10 @@
 ---
-title: "El monje que vendió su ferrari"
-cover: "images/14582634_hnllxa.jpg"
+title: El monje que vendió su ferrari
+description: Un libro que resulta muy ameno de leer e inspirador
+cover: images/14582634_hnllxa.jpg
 template: post
 category: literature
+lang: es
 ---
 
 Estoy terminando de leer este libro y me ha parecido buena idea recomendarlo para que lo leais. Es de fácil lectura y me ha dado inspiración para tomar algunas decisiones grandes y para empezar algunos proyectos.

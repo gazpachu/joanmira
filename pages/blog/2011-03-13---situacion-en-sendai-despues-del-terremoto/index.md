@@ -1,8 +1,10 @@
 ---
-title: "Situación en Sendai despues del terremoto"
+title: Situación en Sendai despues del terremoto
+description: Cómo enviar dinero a Japón para ayudar a arreglar los destrozos del reciente terremoto
 cover: images/sendai_kgaoko.jpg
 template: post
 category: samurai-route
+lang: es
 ---
 
 Ayer escribí un e-mail a Tae Matsuki (nuestro contacto en Sendai). Fue la persona designada por el ayuntamiento de Sendai para guiarnos durante nuestra visita, mostrándonos diversos sitios de interés y llevándonos a comer y cenar en varias ocasiones. Tanto ella como los miembros de la Sociedad Hispánica de Miyagi fueron extremadamente amables con Vicente y conmigo y me alegro que estén todos bien. A continuación copio los emails que nos estamos enviando:

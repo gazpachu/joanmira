@@ -1,8 +1,10 @@
 ---
-title: "Los antecedentes de los medios interactivos"
+title: Los antecedentes de los medios interactivos
+description: Un artículo de opinión sobre como afectan las nuevas tecnologías a las vidas de las personas 
 cover: images/medios-interactivos-1.jpg
 template: post
 category: education
+lang: es
 ---
 
 El siguiente artículo es una reflexión sobre la importancia y significación de la vida cotidiana, la globalización y la inteligencia colectiva para el nacimiento de los medios de comunicación en masa y la consolidación de la sociedad de la información.

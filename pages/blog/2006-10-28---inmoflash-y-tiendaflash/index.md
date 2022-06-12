@@ -1,8 +1,10 @@
 ---
-title: "INMOFlash y TIENDAFlash"
+title: INMOFlash y TIENDAFlash
+description: Hemos creado dos aplicaciones nuevas enfocadas a PYMES interesadas en vender online
 cover: images/inmoflash_pc7u7h.jpg
 template: post
 category: work
+lang: es
 ---
 
 Tras varios meses de desarrollo, finalmente ponemos a disposición de nuestros clientes la versión 1.0 de INMOFlash y TIENDAFlash. INMOFlash es una aplicación web que contempla todas las necesidades de la empresa inmobiliaria para darse a conocer y promocionar sus servicios en Internet. La aplicación consiste de los siguientes modulos:
@@ -22,7 +24,7 @@ INMOFlash – Página web
 – Opciones de configuración.
 – Soporte técnico
 
-Ver un [ejemplo de página web con INMO Flash](/proyecto2025)
+Ver un [ejemplo de página web con INMO Flash](/work/proyecto2025)
 
 TIENDAFlash es una aplicación web que contempla todas las necesidades para montar una tienda online. La aplicación consiste de los siguientes modulos:
 
@@ -41,4 +43,4 @@ TIENDAFlash – Página web
 – Opciones de configuración.
 – Soporte técnico.
 
-Ver un [ejemplo de página web con TIENDA Flash](/nosurrender)
+Ver un [ejemplo de página web con TIENDA Flash](/work/nosurrender)

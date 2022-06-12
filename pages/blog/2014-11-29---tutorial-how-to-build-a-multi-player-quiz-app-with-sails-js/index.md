@@ -1,5 +1,6 @@
 ---
 title: "Tutorial: how to build a multi-player quiz app with Sails.js"
+description: My personal experience working with Socket.io and this new full-stack framework
 cover: images/desktop-view_ytdkg3.png
 template: post
 category: work
@@ -14,10 +15,8 @@ category: work
 }
 </style>
 
-<p class="align-center">
 <a class="btn" role="button" href="http://quizwars.herokuapp.com/" target="_blank">Launch QuizWars App</a>
 <a class="btn" role="button" href="https://github.com/gazpachu/quizwars" target="_blank">Source code</a>
-</p>
 
 ## 1. Introduction
 

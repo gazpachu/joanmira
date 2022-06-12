@@ -1,7 +1,7 @@
 ---
-title: "How to set up a Node.js (React ES6) app for production on Ubuntu with Nginx and basic auth"
+title: How to set up a Node.js (React ES6) app for production on Ubuntu with Nginx and basic auth
+description: A few light notes on devops and infrastructure for light and small projects
 cover: images/ubuntu-react-nodejs.jpg
-date: 2016-08-17
 template: post
 category: work
 ---

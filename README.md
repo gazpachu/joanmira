@@ -17,3 +17,12 @@
 - Hosting and DNS in Netlify
 - Custom 404 error page
 - Google Analytics integration
+- OG meta tags and favicons
+- Set the html lang attribute based on the content language
+
+### Current limitations
+
+- No hot reloading implemented
+- Dynamic content for the templates has to be set in the JavaScript side
+- Each blog post can only belong to a single category
+- Images in markdown files are still not using WebP

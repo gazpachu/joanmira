@@ -1,8 +1,10 @@
 ---
-title: "Libros especiales para mí"
+title: Libros especiales para mí
+description: Algunos libros que quiero compartir porque me han resultado enriquecedores de alguna forma
 cover: images/bookshelf.jpg
 template: post
 category: work
+lang: es
 ---
 
 He de reconocer que no soy un gran lector. No quiero poner excusas, pero mi generación ha tenido muchas distracciones: ordenadores, videojuegos, Internet, televisión,...

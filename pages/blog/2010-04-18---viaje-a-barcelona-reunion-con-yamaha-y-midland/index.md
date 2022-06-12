@@ -1,8 +1,10 @@
 ---
-title: "Viaje a Barcelona. Reunión con Yamaha y Midland"
+title: Viaje a Barcelona. Reunión con Yamaha y Midland
+description: Relato junto a Vicente de nuestras mini aventuras con los preparativos del viaje
 cover: images/4_kuyxuc.jpg
 template: post
 category: samurai-route
+lang: es
 ---
 
 El pasado martes, 13 de Abril (vaya día…) Joan viajó en moto desde Alicante hasta mi casa en Cuenca. Habíamos quedado para preparar las cosas para las reuniones que teníamos con varias empresas de Barcelona interesadas en colaborar en el proyecto. Teníamos mucho trabajo que hacer. Imprimir curriculums en papel de buena calidad, perfilar la ruta en google maps, preparar las presentaciones y la documentación para el visado de Mongolia, etc.

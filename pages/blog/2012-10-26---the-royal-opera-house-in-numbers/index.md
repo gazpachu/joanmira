@@ -1,12 +1,12 @@
 ---
-title: "The Royal Opera House in numbers 2011/12"
-subtitle: A look back at last season reveals some fascinating figures
-cover: "images/roh-numbers.jpeg"
+title: The Royal Opera House in numbers 2011/12
+description: A look back at last season reveals some fascinating figures
+cover: images/roh-numbers.jpeg
 template: post
 category: work
 ---
 
-Post originally published on the blog of the ROH (where [I worked as a Digital Developer](/roh)), London by Chris Shipman.
+Post originally published by Chris Shipman on the blog of the Royal Opera Houra (where [I worked as a Digital Developer](/roh)).
 
 We’ve been looking at figures for the ROH during 2011/12, and found them so amazing that we thought we should share.
 

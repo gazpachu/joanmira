@@ -1,11 +1,12 @@
 ---
-title: "Churchill beats Spiderman to world record"
+title: Churchill beats Spiderman to world record
+description: Article originally posted by Duncan McLauchlan in the blog of WCRS, where I worked as a Creative Technologist
 cover: images/churchill.jpg
 template: post
 category: work
 ---
 
-Post originally published on the blog of WCRS Agency, London by Duncan McLauchlan. I contributed with my work building the facebook app for this Churchill campaign.
+Note: I contributed with my work building the facebook app for this Churchill campaign.
 
 Churchill has beaten Spiderman to claim the Guinness World Records Record Title for the ‘Most Contributions to a Greeting Card’.  Oh Yes!
 

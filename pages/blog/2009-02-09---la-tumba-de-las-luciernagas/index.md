@@ -1,8 +1,10 @@
 ---
-title: "La Tumba de las Luciérnagas"
+title: La Tumba de las Luciérnagas
+description: Una película triste pero de una gran belleza artística y con mucha ternura en sus personajes
 cover: images/hotaru0_sddjyc.jpg
 template: post
 category: film
+lang: es
 ---
 
 <iframe width="100%" height="380" src="https://www.youtube.com/embed/4vPeTSRd580" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

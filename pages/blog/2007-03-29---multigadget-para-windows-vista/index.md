@@ -1,8 +1,10 @@
 ---
-title: "Multigadget para Windows Vista"
+title: Multigadget para Windows Vista
+description: aplicación gratuita para la barra lateral de Windows Vista para buscar dominios web
 cover: images/gadgets_grmp3x.jpg
 template: post
 category: work
+lang: es
 ---
 
 Presento el “Multigadget”, una aplicación gratuita para la barra lateral de Windows Vista que tiene por objetivo reunir pequeñas aplicaciones de gran utilidad como por ejemplo un buscador de dominios con información sobre el registrante (whois) y una calculadora.

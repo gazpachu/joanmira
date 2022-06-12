@@ -1,8 +1,10 @@
 ---
-title: "Vicky Cristina Barcelona"
+title: Vicky Cristina Barcelona
+description: Breve análisis de la nueva película de Woody Allen
 cover: images/vicky-cristina-barcelona-poster_mmonmn.jpg
 template: post
 category: film
+lang: es
 ---
 
 Acabo de volver del cine de ver la última película de Woody Allen y he quedado algo desencantado… me esperaba algo mejor.

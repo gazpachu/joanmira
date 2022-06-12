@@ -1,13 +1,12 @@
 ---
 title: "Our new website: An update on progress"
+description: Article originally published by Rob Greig on the blog of the Royal Opera House, where I worked as a Digital Developer
 cover: images/roh-progress-1.jpeg
 template: post
 category: work
 ---
 
-Post originally published on the blog of the ROH (where [I worked as a Digital Developer](/roh)), London by Rob Greig.
-
-##Chief Technology Officer Rob Greig on our forthcoming new website.
+## Chief Technology Officer Rob Greig on our forthcoming new website
 
 Since my last post, there has been a great deal of progress in developing our new and improved website. Like the rest of the team here, I was delighted with the feedback given to my last blog; it’s great to know that we’re on the right track with delivering many of the things you’re looking for.
 

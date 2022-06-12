@@ -1,8 +1,10 @@
 ---
-title: "Increíble tesoro bajo la arena del Gobi"
+title: Increíble tesoro bajo la arena del Gobi
+description: Otros tipos de aventuras que también son muy excitantes
 cover: images/figura_af06kc.jpg
 template: post
 category: samurai-route
+lang: es
 ---
 
 Mientras buscaba cosas interesantes sobre Mongolia en Internet, me he encontrado con esta noticia del año pasado… Esto de la arqueología y los tesoros, es una pasada!

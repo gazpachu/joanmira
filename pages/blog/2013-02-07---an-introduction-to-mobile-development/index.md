@@ -1,11 +1,10 @@
 ---
-title: "An introduction to mobile development"
+title: An introduction to mobile development
+description: To understand the mobile development scene, we must first know who are the present industry leaders and who are the new contenders for 2013/14
 cover: images/mob_dev_dwbkru.jpg
 template: post
 category: work
 ---
-
-To understand the mobile development scene, we must first know who are the present industry leaders and who are the new contenders for 2013/14.
 
 In Q4 2012, the most used mobile operating systems were **Android** (with the 68.4% of market share) **and** **iOS** (with the 19.4% of market share). Both together grabbed the [92% of the global Smartphone shipments](http://techcrunch.com/2013/01/28/android-ios-grabbed-92-of-global-smartphone-shipments-in-q4-2012-android-undisputed-volume-leader-says-analyst/). These results make [Java](http://en.wikipedia.org/wiki/Java_(programming_language)) (Android) and [Objective-C](http://en.wikipedia.org/wiki/Objective-C) (iOS) [two of the most used programming languages for mobile development](http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html), but that’s only when we are talking about apps built using the [Android SDK](http://developer.android.com/sdk/index.html) or the [iOS SDK](https://developer.apple.com/devcenter/ios/index.action).
 

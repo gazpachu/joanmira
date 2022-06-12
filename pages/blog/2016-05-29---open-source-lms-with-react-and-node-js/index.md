@@ -1,5 +1,6 @@
 ---
-title: "Open Source LMS with React and Node.js"
+title: Open Source LMS with React and Node.js
+description: A new light in the world of open source learning management systems with my own point of view
 cover: images/online-learning.jpg
 template: post
 category: work

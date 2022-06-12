@@ -1,5 +1,6 @@
 ---
 title: "Javascript: understanding the weird parts [Part 2]"
+description: My learnings reviewing JavaScript concepts in the Udemy educational site
 cover: images/coding.jpg
 template: post
 category: work

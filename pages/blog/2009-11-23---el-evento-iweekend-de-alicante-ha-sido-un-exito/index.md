@@ -1,8 +1,10 @@
 ---
-title: "El evento iWeekend de Alicante ha sido un éxito"
+title: El evento iWeekend de Alicante ha sido un éxito
+description: Una gran idea para conocer a profesionales del sector de la tecnología en Alicante
 cover: images/cocino_xjv1tr.jpg
 template: post
 category: work
+lang: es
 ---
 
 El pasado fin de semana he participado en la primera edición del [iWeekend en Alicante](http://iweekend.com/2009/alicante) y la experiencia no ha podido ser mejor. Han sido tres dias muy intensos, jornadas sin descanso, desde las 9 de la mañana hasta las 12 de la noche, donde 50 emprendedores lo han dado todo con un único objetivo: crear una empresa REAL!

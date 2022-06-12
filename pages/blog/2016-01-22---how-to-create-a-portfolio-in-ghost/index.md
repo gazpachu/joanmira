@@ -1,5 +1,6 @@
 ---
-title: "How to create a portfolio in ghost"
+title: How to create a portfolio in ghost
+description: "My experience working with the new kid on the block: The Ghost publishing platform"
 cover: images/ghost-portfolio.jpg
 template: post
 category: work

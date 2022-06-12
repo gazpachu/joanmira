@@ -1,5 +1,6 @@
 ---
-title: "Javascript loader with promises"
+title: Javascript loader with promises
+description: An interesting technique to load external JavaScript files dynamically
 cover: images/load-script.jpg
 template: post
 category: work

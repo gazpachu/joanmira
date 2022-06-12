@@ -1,8 +1,10 @@
 ---
-title: "La informática que cambió nuestras vidas"
+title: La informática que cambió nuestras vidas
+description: Análisus de cómo se ha incorporado la tecnología informática en el día a día de los usuarios
 cover: images/fiber_rbsrhb.jpg
 template: post
 category: tech
+lang: es
 ---
 
 ### INTRODUCCIÓN

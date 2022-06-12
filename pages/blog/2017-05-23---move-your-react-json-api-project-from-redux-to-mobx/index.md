@@ -1,10 +1,12 @@
 ---
-title: "Move your React JSON API project from Redux to MobX"
+title: Move your React JSON API project from Redux to MobX
+description: A few notes regarding global state management
 cover: images/mobx.jpg
-date: 2017-05-23
 template: post
 category: work
 ---
+
+UPDATE June 2022: I'm not very fond of using MobX in React projects anymore. It's better to keep everything under the same functional programming paradigm.
 
 After a few projects using Redux, I've realised that it might not be the best solution for all kind of projects. Don't get me wrong, redux works great, but I tend to find myself procrastinating a bit whenever I have to add a new value to the state tree. Perhaps is due to the amount of code required to do it.
 

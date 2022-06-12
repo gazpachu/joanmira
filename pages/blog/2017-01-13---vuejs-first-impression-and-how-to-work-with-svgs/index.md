@@ -1,7 +1,7 @@
 ---
 title: "VueJS: first impression and how to work with SVGs"
+description: My experience with this new front-end JavaScript framework
 cover: images/vuejs.jpg
-date: 2017-01-13
 template: post
 category: work
 ---

@@ -1,5 +1,6 @@
 ---
-title: "Geek life"
+title: Geek life
+description: Stories of a teen who liked videogames perhaps too much
 cover: images/monkey-island-hero.jpg
 template: post
 category: tech

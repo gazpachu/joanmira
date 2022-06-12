@@ -1,13 +1,10 @@
 ---
-title: "Lessons learned writing our own static site generator"
-subtitle: "The journey from Gatsby to custom React SSR SSG"
+title: Lessons learned writing our own static site generator
+description: "The journey from Gatsby to custom React SSR SSG. Article originally published on TableCheck's Tech Blog"
 template: post
-date: 2022-01-19
 cover: images/custom-static-site-generator.jpg
 category: work
 ---
-
-Article originally published on TableCheck's Tech Blog.
 
 Nowadays, websites and web apps can be built and served in many different ways. Using pure HTML, Javascript, and CSS, with frameworks such as [React](https://reactjs.org/ ), [Vue](https://vuejs.org/ ), or [Angular](https://angularjs.org/ ), following a [CSR or SSR approach](https://developers.google.com/web/updates/2019/02/rendering-on-the-web ), [MPA](https://applandeo.com/blog/single-page-applications-versus-multi-page-applications-what-to-choose/#:~:text=What%20is%20an%20MPA%3F,have%20different%20levels%20of%20UI. ), using back-end frameworks like [Phoenix](https://www.phoenixframework.org/ ), with a CMS like [Wordpress](https://wordpress.org/ ) or [Drupal](https://www.drupal.org/ ), implementing static site generators like [Gatsby](https://jamstack.org/generators/gatsby/ ), [Next js](https://nextjs.org/ ), [Hugo](https://gohugo.io/ ), [Jekyll](https://jekyllrb.com/ ), and etc. The options are overwhelming.
 

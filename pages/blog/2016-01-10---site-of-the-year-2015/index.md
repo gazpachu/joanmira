@@ -1,5 +1,6 @@
 ---
-title: "Site of the year 2015"
+title: Site of the year 2015
+description: An inspiring site built with lots of love, attention to details and patience
 cover: images/species-in-pieces.jpg
 template: post
 category: work

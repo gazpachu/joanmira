@@ -1,8 +1,10 @@
 ---
-title: "La Ruta Samurái por España"
+title: Prensa y medios de comunicación
+description: Recopilación de menciones e historias sobre la ruta del samurái en los medios
 cover: images/giralda_tv_dby2p0.jpg
 template: post
 category: samurai-route
+lang: es
 ---
 
 ![giralda_tv](/blog/prensa-y-medios-de-comunicacion/images/giralda_tv_dby2p0.jpg)

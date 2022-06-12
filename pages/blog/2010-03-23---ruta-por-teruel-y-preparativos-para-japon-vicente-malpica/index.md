@@ -1,8 +1,10 @@
 ---
-title: "Ruta por Teruel y preparativos para Japón (Vicente Malpica)"
+title: Ruta por Teruel y preparativos para Japón (por Vicente Malpica)
+description: Artículo escrito por mi compañero en la ruta del samurái 
 cover: images/teruel_1_ywf9sj.jpg
 template: post
 category: samurai-route
+lang: es
 ---
 
 Llevo muchos años viajando en moto por todos los lugares, las sensaciones que sientes cuándo emprendes un viaje nunca se me han quitado, será por eso que sigo viajando. Así fue ese lunes, era una bonita mañana de mediados de Marzo, de esas que parece que todo se ha parado, el viento estaba durmiendo, hacía un sol brillante, y el ambiente era sosegado, al igual que la temperatura, ideal para viajar en moto.

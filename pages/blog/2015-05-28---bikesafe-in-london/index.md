@@ -1,8 +1,10 @@
 ---
-title: "Bikesafe in London"
+title: Bikesafe in London
+description: Mejorando mi estilo de conducción gracias a los consejos de la policía inglesa
 cover: images/bikesafe.jpg
 template: post
 category: london
+lang: es
 ---
 
 Hey!, amigos moteros, cómo os va la vida? Tenéis algún viaje programado para este verano?

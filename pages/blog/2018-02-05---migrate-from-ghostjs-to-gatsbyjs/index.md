@@ -1,14 +1,12 @@
 ---
-title: "Migrate from GhostJS to GatsbyJS"
-date: 2018-02-05
+title: Migrate from GhostJS to GatsbyJS
+description: My experience working with this new static site generator that everyone seems to love
 cover: images/1.jpg
 template: post
 category: work
 ---
 
-<p class="align-center">
 <a class="btn icon icon-external" href="https://github.com/gazpachu/joanmira" target="_blank">Source code</a>
-</p>
 
 I've been using the community version (self-hosted) of [GhostJS](http://ghost.org) since 2016 in my personal websites. At the beginning it was all good, I loved it. I decided to migrate from Wordpress to Ghost because WP was getting always targeted by hackers and the code was becoming messy with all sorts of plugins, bugs, etc.
 

@@ -1,8 +1,10 @@
 ---
-title: "Las 65 mejores películas de los años 80"
+title: Las 65 mejores películas de los años 80
+description: Un ranking popular para la era de oro del cine con guiones memorables e historias originales
 cover: images/blade-runner_yhvbqz.jpg
 template: post
 category: film
+lang: es
 ---
 
 Condensadores de fluzo, starfighters, guerras en las galaxias, historias de replicantes, extraterrestres, arqueólogos aventureros, mostruos mocosos, aliens, robocops… durante los años 80, surgieron multitud de maravillosas películas que han marcado a toda una generación de niños que ahora son adultos y recuerdan con mucho cariño esas historias llenas de creatividad y aventuras.

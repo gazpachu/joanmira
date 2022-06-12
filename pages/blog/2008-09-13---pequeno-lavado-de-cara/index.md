@@ -1,8 +1,10 @@
 ---
-title: "Pequeño lavado de cara"
+title: Pequeño lavado de cara
+description: Presentamos un nuevo diseño para la web de Webmarket
 cover: images/webmarket_thggqn.jpg
 template: post
 category: work
+lang: es
 ---
 
 Llevamos ya varias semanas con cambios en los servidores de Webmarket, algo muy entretenido… pasando las noches junto a entrañables protocolos achetetepe y efetepés, hablando sobre la política de deeneeses, probandonos los nuevos parches de moda, … en fin, todo un festival de tecnologismos (atención, no se sí existe la palabra) y demás “amenities” para geeks y profesionales de internet.

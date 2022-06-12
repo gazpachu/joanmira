@@ -1,5 +1,6 @@
 ---
-title: "If content is king, data is queen"
+title: If content is king, data is queen
+description: Article originally posted in the blog of WCRS, where I worked as a Creative Technologist
 cover: images/content_d4zfvf.jpg
 template: post
 category: work

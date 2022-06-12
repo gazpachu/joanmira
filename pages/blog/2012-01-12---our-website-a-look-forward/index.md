@@ -1,7 +1,7 @@
 ---
 title: "Our website: A look forward"
-subtitle: Chief Technology Officer Rob Greig on our forthcoming new website
-cover: "images/roh-forward.jpeg"
+description: Chief Technology Officer Rob Greig on our forthcoming new website
+cover: images/roh-forward.jpeg
 template: post
 category: work
 ---

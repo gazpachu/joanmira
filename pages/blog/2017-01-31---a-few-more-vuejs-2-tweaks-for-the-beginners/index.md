@@ -1,7 +1,7 @@
 ---
-title: "A few more VueJS 2 tweaks for the beginners"
+title: A few more VueJS 2 tweaks for the beginners
+description: My experience with this new front-end JavaScript framework
 cover: images/vuejs.jpg
-date: 2017-01-31
 template: post
 category: work
 ---

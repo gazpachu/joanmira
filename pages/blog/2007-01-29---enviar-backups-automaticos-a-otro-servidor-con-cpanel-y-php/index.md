@@ -1,8 +1,10 @@
 ---
-title: "Enviar backups automáticos a otro servidor con Cpanel y PHP"
+title: Enviar backups automáticos a otro servidor con Cpanel y PHP
+description: Cómo hacer backups de una cuenta de alojamiento web de forma automática
 cover: images/cpanel_logo_qpb3ap.png
 template: post
 category: work
+lang: es
 ---
 
 Si a alguien le interesa la posibilidad de hacer backups de su cuenta de alojamiento web forma automática (con Cron jobs) y enviar el backup a otra cuenta de alojamiento web, entonces que siga leyendo…

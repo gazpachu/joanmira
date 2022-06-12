@@ -1,8 +1,10 @@
 ---
-title: "La Historia de Hasekura Tsunenaga"
+title: La Historia de Hasekura Tsunenaga
+description: El primer oficial japonés en establecer relaciones comerciales entre Japón y Europa
 cover: images/242px-Hasekura_in_Rome_c7sytj.jpg
 template: post
 category: samurai-route
+lang: es
 ---
 
 ### ¿Quien fue Hasekura Tsunenaga?

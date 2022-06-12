@@ -1,8 +1,10 @@
 ---
-title: "Padam! Padam! Padam!"
+title: Padam! Padam! Padam!
+description: Una película inspiradora y poética, con mucho arte
 cover: images/affiche-la-mome-2005-2_mjokcd.jpg
 template: post
 category: film
+lang: es
 ---
 
 Qué gran pelicula es “[La Môme](http://www.imdb.com/title/tt0450188/)“, me ha gustado mucho, me ha inspirado, me ha emocionado, me ha fascinado… que vida la de [Edith Piaf](http://es.wikipedia.org/wiki/Edith_Piaf) (tan solo teneis que leer la primera linea de [su artículo en la wikipedia](http://es.wikipedia.org/wiki/Edith_Piaf)), “Edith Piaf nace debajo de una farola frente al número 72 de la *rue de Belleville* en [París](http://es.wikipedia.org/wiki/Par%C3%ADs "París"). Toma ya!

@@ -1,5 +1,6 @@
 ---
-title: "Detecting the client device easily with device.js"
+title: Detecting the client device easily with device.js
+description: Quick note regarding device detection on JavaScript
 cover: images/device-js.jpg
 template: post
 category: work

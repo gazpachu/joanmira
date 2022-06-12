@@ -1,5 +1,6 @@
 ---
-title: "Full Stack developers"
+title: Full Stack developers
+description: The industry is getting more professionalized. It's hard to keep a very high level in all disciplines
 cover: images/skill-up-blog_2.png
 template: post
 category: work

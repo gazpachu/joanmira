@@ -1,8 +1,10 @@
 ---
-title: "Películas sobre Mongolia que tienes que ver!"
+title: Películas sobre Mongolia que tienes que ver!
+description: Para los curiosos que aún no conocen la cultura de este remoto país
 cover: images/puujee_JPG_osaico.jpg
 template: post
 category: samurai-route
+lang: es
 ---
 
 <div class="columns clearfix">

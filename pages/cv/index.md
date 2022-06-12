@@ -231,7 +231,7 @@ UPDATE: the articles are no longer available at WCRS' blog, so I published them 
 
 ![](/cv/images/wcrs-tech-team.jpg "My co-worker, Silvia Rebelo, showing our new Tech Team area")
 
-###Digital developer
+### Digital developer
 <span class="tag red-tag">Feb 2011 - Sep 2012</span><a class="tag gold-tag" href="http://www.roh.org.uk">Royal Opera House</a><span class="tag blue-tag">Covent Garden, London (UK)</span>
 
 I joined the newly created development team under the digital media department with a very important objective: to completely rebuild the [ROH website](http://www.roh.org.uk/) from scratch. A business critical project that required a major overhaul in the ticketing system, server infrastructure, information architecture, user experience, content management and online shop to match the high standards of the organisation.

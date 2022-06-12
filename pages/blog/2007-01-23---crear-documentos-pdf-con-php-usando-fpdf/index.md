@@ -1,8 +1,10 @@
 ---
-title: "Crear documentos PDF con PHP usando FPDF"
+title: Crear documentos PDF con PHP usando FPDF
+description: Un gran módulo para generar PDFs
 cover: images/fpdf_m9jdxw.jpg
 template: post
 category: work
+lang: es
 ---
 
 He encontrado una herramienta de gran utilidad para los programadores web y que a mas de uno le puede interesar. Se llama FPDF y es gratis! Esta es una lista de sus principales características:

@@ -1,8 +1,10 @@
 ---
-title: "El Proyecto"
+title: El Proyecto
+description: Nace con la idea de fomentar las relaciones y la cultura entre occidente y oriente
 cover: images/ruta-samurai-loading-bike.jpg
 template: post
 category: samurai-route
+lang: es
 ---
 
 “Las civilizaciones, al igual que el hombre, prosperan con los retos y se apagan cuando ya no los buscan”

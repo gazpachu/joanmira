@@ -1,13 +1,13 @@
 ---
-title: "Museo Bandera de la Paz Nicolás Roerich"
+title: Museo Bandera de la Paz Nicolás Roerich
+description: Un gran aliado y benefactor de la ruta del samurái
 cover: images/jesucristo_u7y7qq.jpg
 template: post
 category: samurai-route
+lang: es
 ---
 
-Donde hay Paz, hay Cultura; Donde hay Cultura, hay Paz.
-
-Nicolás Roerich (1874-1947)
+> Donde hay Paz, hay Cultura; Donde hay Cultura, hay Paz. - Nicolás Roerich (1874-1947)
 
 El [Museo Bandera de la Paz Nicolás Roerich](http://shambala-roerich.com/) es uno de los mayores benefactores del proyecto de La Ruta del Samurai y por eso queremos hablaros un poco acerca de la bandera de la paz que llevaremos en las motos y sobre  su creador, Nicolás Roerich.
 
@@ -17,11 +17,11 @@ El [Museo Bandera de la Paz Nicolás Roerich](http://shambala-roerich.com/) es
 
 En la India lo encontramos como el más antiguo de los símbolos, [Chintamani](http://es.wikipedia.org/wiki/Chint%C4%81mani), símbolo de la felicidad; también lo hallamos en el Templo del Cielo en Pekín; aparece igualmente en los Tres Tesoros del Tíbet; sobre el Pecho del Cristo en la célebre pintura de Memling; en la [Madonna de Strasburgo](http://www.fundacionpea.org/arte/madonna.JPG), en los escudos de las cruzadas y en el blasón de los Templarios; lo vemos también en las hojas de las famosas espadas del Cáucaso, conocidas bajo el nombre de “Gurda”.
 
-Aparece como símbolo en un gran número de sistemas filosóficos antiguos. Lo encontramos en las insignias de Gengis Khan y de Rigden Djepo; sobre el “Tanka” de Tamerlán (Timur Lang) y en el blasón de los Papas. También se halla en las obras de los antiguos pintores españoles y de Tiziano, y en el antiguo icono de San Nicolás de Bari, en el de San Sergio y en la Santísima Trinidad. Y también, frecuentemente, sobre las banderas budistas. Este mismo signo se encuentra marcado sobre los corceles mongoles. <span style="text-decoration: underline;">Nada podría ser más apropiado para agrupar a las razas que este símbolo, ya que no es un simple ornamento, sino un signo que lleva en sí una profunda significación</span>.
+Aparece como símbolo en un gran número de sistemas filosóficos antiguos. Lo encontramos en las insignias de Gengis Khan y de Rigden Djepo; sobre el “Tanka” de Tamerlán (Timur Lang) y en el blasón de los Papas. También se halla en las obras de los antiguos pintores españoles y de Tiziano, y en el antiguo icono de San Nicolás de Bari, en el de San Sergio y en la Santísima Trinidad. Y también, frecuentemente, sobre las banderas budistas. Este mismo signo se encuentra marcado sobre los corceles mongoles. _Nada podría ser más apropiado para agrupar a las razas que este símbolo, ya que no es un simple ornamento, sino un signo que lleva en sí una profunda significación_.
 
-<span style="text-decoration: underline;">Cuando se trata de defender los tesoros del mundo, ningún símbolo mejor podría escogerse, ya que es universal, de una antigüedad ilimitada (uno de los más antiguos del mundo) y lleva en sí mismo un sentido que encontrará eco en cada corazón</span>.
+> Cuando se trata de defender los tesoros del mundo, ningún símbolo mejor podría escogerse, ya que es universal, de una antigüedad ilimitada (uno de los más antiguos del mundo) y lleva en sí mismo un sentido que encontrará eco en cada corazón.
 
-Sus tres esferas fueron analizadas por Nicolás Roerich, el diseñador de la Bandera de la Paz, como la síntesis de todas las artes, todas las ciencias y todas las religiones dentro del círculo de la cultura. <span style="text-decoration: underline;">El definió la Cultura como “el desarrollo del potencial creativo del hombre”. Creía que “el logro de la paz, a través de la cultura, es una meta para ser realizada a través del esfuerzo positivo de la voluntad humana”</span>.
+Sus tres esferas fueron analizadas por Nicolás Roerich, el diseñador de la Bandera de la Paz, como la síntesis de todas las artes, todas las ciencias y todas las religiones dentro del círculo de la cultura. _El definió la Cultura como “el desarrollo del potencial creativo del hombre”. Creía que “el logro de la paz, a través de la cultura, es una meta para ser realizada a través del esfuerzo positivo de la voluntad humana”_.
 
 Donde quiera que se exponga la Bandera reconoce los grandes logros del pasado, del presente y del futuro inscritos en el anillo de la eternidad. Alienta al individuo a esforzarse hacia la realización de su más alto potencial, embelleciendo todos los aspectos de la vida; anima a que cada persona tome su responsabilidad para la evolución del planeta. Significa el constructor de la paz; y simboliza la transformación del individuo y de la sociedad. Representa cooperación -la piedra angular de la emergente cultura planetaria- en todos los aspectos de la actividad humana.
 

@@ -1,8 +1,10 @@
 ---
-title: "Hey!, quiero ser diseñador web"
+title: Hey!, quiero ser diseñador web
+description: Cómo llegar a ser un profesional del diseño web
 cover: images/web-design.jpg
 template: post
 category: work
+lang: es
 ---
 
 A continuación encontrarás una serie de consejos para llegar a ser un profesional del diseño web. Ésta guía está enfocada a aquellos que están empezando o tienen interés por el diseño web. Muchas de las sugerencias que encontréis aquí son fruto de mi experiencia y aprendizaje a lo largo de los años. Espero que os sean de utilidad.
