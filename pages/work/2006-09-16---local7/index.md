@@ -8,7 +8,7 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="http://work.joanmira.com/webs/local7/" target="_blank">Launch archived website without DB</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/webs/local7/" target="_blank">Launch archived website without DB</a>
 </p>
 
 Local7 contacted us (Webmarket) to build an online shop to sell their products. They wanted a very personal style combined with great UX and an easy payment method.

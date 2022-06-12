@@ -8,7 +8,7 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="http://ylmls.herokuapp.com" target="_blank">Launch archived website</a>
+<a class="btn external" role="button" href="http://ylmls.herokuapp.com" target="_blank">Launch archived website</a>
 </p>
 
 This Wordpress website was a quick project to support the independent filmmaker and director Ángel Gómez Hernández and my sister, Paula Mira as the producer of the short movie "[Y la muerte lo seguía](http://www.imdb.com/title/tt2495788/)".

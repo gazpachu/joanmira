@@ -8,7 +8,7 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="http://work.joanmira.com/webs/proyecto2025/" target="_blank">Launch archived template without DB</a></p>
+<a class="btn external" role="button" href="http://work.joanmira.com/webs/proyecto2025/" target="_blank">Launch archived template without DB</a></p>
 
 Proyecto2025 contacted us (Webmarket) to build a website to feature their real state properties and allow customers to search them. They also wanted a flexible system to edit, add or remove properties easily.
 

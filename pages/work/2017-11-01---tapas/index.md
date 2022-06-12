@@ -8,7 +8,7 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="https://github.com/gazpachu/react-ghost-tapas" target="_blank">Source code</a>
+<a class="btn github" role="button" href="https://github.com/gazpachu/react-ghost-tapas" target="_blank">Source code</a>
 </p>
 
 ![](/work/tapas/images/1.png "Home page")

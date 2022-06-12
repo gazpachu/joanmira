@@ -8,8 +8,8 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="http://momardi.com" target="_blank">Launch website</a>
-<a class="btn" role="button" href="http://momardi-wp.herokuapp.com/" target="_blank">Launch archived v1 website</a>
+<a class="btn external" role="button" href="http://momardi.com" target="_blank">Launch website</a>
+<a class="btn external" role="button" href="http://momardi-wp.herokuapp.com/" target="_blank">Launch archived v1 website</a>
 </p>
 
 ![](/work/momardi/images/1.png)

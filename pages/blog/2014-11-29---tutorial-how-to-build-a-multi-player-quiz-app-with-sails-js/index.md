@@ -15,8 +15,8 @@ category: work
 }
 </style>
 
-<a class="btn" role="button" href="http://quizwars.herokuapp.com/" target="_blank">Launch QuizWars App</a>
-<a class="btn" role="button" href="https://github.com/gazpachu/quizwars" target="_blank">Source code</a>
+<a class="btn external" role="button" href="http://quizwars.herokuapp.com/" target="_blank">Launch QuizWars App</a>
+<a class="btn github" role="button" href="https://github.com/gazpachu/quizwars" target="_blank">Source code</a>
 
 ## 1. Introduction
 

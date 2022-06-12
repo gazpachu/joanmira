@@ -8,7 +8,7 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="https://gazpachu.github.io/skills/" target="_blank">Launch Demo</a>
+<a class="btn external" role="button" href="https://gazpachu.github.io/skills/" target="_blank">Launch Demo</a> <a class="btn github" role="button" href="https://github.com/gazpachu/skills" target="_blank">Source Code</a>
 </p>
 
 ![](/work/skills/images/1.png)

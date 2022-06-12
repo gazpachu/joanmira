@@ -8,9 +8,9 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="https://gazpachu.github.io/sugui-design-system/" target="_blank">Project website</a>
-<a class="btn" role="button" href="https://github.com/gazpachu/sugui" target="_blank">UI Library Github repo</a>
-<a class="btn" role="button" href="https://github.com/gazpachu/sugui-design-system" target="_blank">Design System Github repo</a>
+<a class="btn external" role="button" href="https://gazpachu.github.io/sugui-design-system/" target="_blank">Project website</a>
+<a class="btn github" role="button" href="https://github.com/gazpachu/sugui" target="_blank">UI Library</a>
+<a class="btn github" role="button" href="https://github.com/gazpachu/sugui-design-system" target="_blank">Design System</a>
 </p>
 
 ![](/work/sugui/images/1.png)

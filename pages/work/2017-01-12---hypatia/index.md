@@ -8,9 +8,9 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="https://github.com/gazpachu/hypatia" target="_blank">Source code</a>
-<a class="btn" role="button" href="https://gazpachu.github.io/hypatia/" target="_blank">Project website</a>
-<a class="btn" role="button" href="https://hypatia-8d923.firebaseapp.com/" target="_blank">Demo</a>
+<a class="btn github" role="button" href="https://github.com/gazpachu/hypatia" target="_blank">Source code</a>
+<a class="btn external" role="button" href="https://gazpachu.github.io/hypatia/" target="_blank">Project website</a>
+<a class="btn external" role="button" href="https://hypatia-8d923.firebaseapp.com/" target="_blank">Demo</a>
 </p>
 
 ![](/work/hypatia/images/1.png)

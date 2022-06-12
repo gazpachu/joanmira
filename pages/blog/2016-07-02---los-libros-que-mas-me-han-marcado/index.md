@@ -3,7 +3,7 @@ title: Libros especiales para mí
 description: Algunos libros que quiero compartir porque me han resultado enriquecedores de alguna forma
 cover: images/bookshelf.jpg
 template: post
-category: work
+category: literature
 lang: es
 ---
 

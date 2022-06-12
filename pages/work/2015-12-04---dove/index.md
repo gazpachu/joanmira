@@ -8,7 +8,7 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="http://www.dove.com/uk" target="_blank">Launch website</a>
+<a class="btn external" role="button" href="http://www.dove.com/uk" target="_blank">Launch website</a>
 </p>
 
 The new Dove website is part of an ambitious Unilever project led by SapientNitro to change the platform used by many of its brands.

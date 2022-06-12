@@ -8,7 +8,8 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="https://tablekit.tablecheck.com" target="_blank">TableKit Live Version</a>
+<a class="btn external" role="button" href="https://tablekit.tablecheck.com" target="_blank">TableKit Live Version</a>
+<a class="btn github" role="button" href="https://github.com/tablecheck/tablekit" target="_blank">Source Code</a>
 </p>
 
 ![](/work/tablekit/images/1.png)

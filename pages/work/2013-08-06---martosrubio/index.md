@@ -8,7 +8,7 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="http://martosrubio.com" target="_blank">Launch website</a>
+<a class="btn external" role="button" href="http://martosrubio.com" target="_blank">Launch website</a>
 </p>
 
 The spanish artist, Milagros Martos Rubio, asked me to build a website to showcase her work:

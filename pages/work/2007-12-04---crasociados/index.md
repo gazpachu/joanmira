@@ -8,7 +8,7 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="http://work.joanmira.com/webs/crasociados/" target="_blank">Launch archived website</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/webs/crasociados/" target="_blank">Launch archived website</a>
 </p>
 
 CR Asociados required a custom website to showcase their financing services. I also built a bespoke CMS feature with many user details, forms and a feature to create PDF file with the data from the DB on-the-fly using the FPDF PHP library.

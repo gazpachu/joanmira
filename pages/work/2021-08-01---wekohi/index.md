@@ -8,7 +8,7 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="http://wekohi.com/" target="_blank">Demo App</a>
+<a class="btn external" role="button" href="http://wekohi.com/" target="_blank">Demo App</a>
 </p>
 
 ![](/work/wekohi/images/1.png)

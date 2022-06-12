@@ -8,7 +8,7 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="http://productsandservices.bt.com" target="_blank">Launch website</a>
+<a class="btn external" role="button" href="http://productsandservices.bt.com" target="_blank">Launch website</a>
 </p>
 
 ![](/work/bt/images/0.png)

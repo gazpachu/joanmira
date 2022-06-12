@@ -6,7 +6,7 @@ template: post
 category: work
 ---
 
-<a class="btn icon icon-external" href="https://github.com/gazpachu/joanmira" target="_blank">Source code</a>
+<a class="btn github" href="https://github.com/gazpachu/joanmira" target="_blank">Source code</a>
 
 I've been using the community version (self-hosted) of [GhostJS](http://ghost.org) since 2016 in my personal websites. At the beginning it was all good, I loved it. I decided to migrate from Wordpress to Ghost because WP was getting always targeted by hackers and the code was becoming messy with all sorts of plugins, bugs, etc.
 

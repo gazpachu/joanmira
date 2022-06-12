@@ -8,8 +8,8 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="http://work.joanmira.com/webs/gruposoledad/francia/" target="_blank">Launch France website</a>
-<a class="btn" role="button" href="http://work.joanmira.com/webs/gruposoledad/insaturbo/" target="_blank">Launch InsaTurbo intro</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/webs/gruposoledad/francia/" target="_blank">Launch France website</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/webs/gruposoledad/insaturbo/" target="_blank">Launch InsaTurbo intro</a>
 </p>
 
 Grupo Soledad asked me to create a visually attractive website for the French market. They wanted to showcase their catalog of car tyres and batteries and be able to update the offers of the website using a simple CMS.

@@ -8,8 +8,8 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="https://tablefriends.netlify.app/" target="_blank">Live App</a>
-<a class="btn" role="button" href="https://github.com/gazpachu/tablefriends" target="_blank">Github repository</a>
+<a class="btn external" role="button" href="https://tablefriends.netlify.app/" target="_blank">Live App</a>
+<a class="btn github" role="button" href="https://github.com/gazpachu/tablefriends" target="_blank">Source Code</a>
 </p>
 
 ![](/work/tablefriends/images/1.png)

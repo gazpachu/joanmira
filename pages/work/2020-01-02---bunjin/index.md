@@ -8,8 +8,8 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="https://bunjinapp.web.app/" target="_blank">Live App</a>
-<a class="btn" role="button" href="https://github.com/gazpachu/bunjin" target="_blank">Github repository</a>
+<a class="btn external" role="button" href="https://bunjinapp.web.app/" target="_blank">Live App</a>
+<a class="btn github" role="button" href="https://github.com/gazpachu/bunjin" target="_blank">Source Code</a>
 </p>
 
 ![](/work/bunjin/images/1.png)

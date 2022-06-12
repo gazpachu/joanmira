@@ -8,7 +8,7 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="https://booking-demo.tablecheck.com/en/gallery" target="_blank">Demo App</a>
+<a class="btn external" role="button" href="https://booking-demo.tablecheck.com/en/gallery" target="_blank">Demo App</a>
 </p>
 
 ![](/work/booking-form/images/1.jpg)

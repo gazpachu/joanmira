@@ -7,7 +7,7 @@ title: "La Ruta del Samurái (The Samurai Route)"
     <figcaption align = "center">The Samurai Route Logo</figcaption>
 </figure>
 
-<a class="btn" role="button" href="http://rutasamurai.herokuapp.com" target="_blank">Launch archived website</a>
+<a class="btn external" role="button" href="http://rutasamurai.herokuapp.com" target="_blank">Launch archived website</a>
 
 In January 2010 I had a crazy idea: to **travel by motorbike from Spain to Japan** in 3 months (around 20.000Km) and then spend 2 months travelling around Japan. We called it "La Ruta del samurai" (The Samurai Route).
 

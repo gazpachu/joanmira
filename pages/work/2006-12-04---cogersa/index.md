@@ -8,7 +8,7 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="http://work.joanmira.com/desktop/cogersa/cms.swf" target="_blank">Launch app without DB</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/desktop/cogersa/cms.swf" target="_blank">Launch app without DB</a>
 </p>
 
 ![](/work/cogersa/images/1.png)

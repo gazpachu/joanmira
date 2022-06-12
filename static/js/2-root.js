@@ -67,12 +67,12 @@ document.addEventListener("DOMContentLoaded", function() {
     let foundCategory = false;
     blogCategoryItems.forEach(item => {
       if (window.location.pathname.includes(item.getAttribute('data-blog-category'))) {
-        item.classList.add('active');
+        item.classList.remove('secondary');
         foundCategory = true;
       }
     });
     if (!foundCategory && allFilterButton) {
-      allFilterButton.classList.add('active');
+      allFilterButton.classList.remove('secondary');
     }
   }
 });

@@ -8,7 +8,7 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="http://quizwars.herokuapp.com" target="_blank">Launch demo app</a>
+<a class="btn external" role="button" href="http://quizwars.herokuapp.com" target="_blank">Launch demo app</a>
 </p>
 
 QuizWars is an R&D experiment that I did while working at SapientNitro. My aim was to learn about realtime bidirectional communication between the server and the clients.

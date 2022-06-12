@@ -8,11 +8,11 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="http://gazpachu.herokuapp.com" target="_blank">v5 Wordpress</a>
-<a class="btn" role="button" href="http://work.joanmira.com/webs/gazpachu/v4/" target="_blank">v4</a>
-<a class="btn" role="button" href="http://work.joanmira.com/webs/gazpachu/v3/" target="_blank">v3</a>
-<a class="btn" role="button" href="http://work.joanmira.com/webs/gazpachu/v2/" target="_blank">v2</a>
-<a class="btn" role="button" href="http://work.joanmira.com/webs/gazpachu/v1/" target="_blank">v1</a>
+<a class="btn external" role="button" href="http://gazpachu.herokuapp.com" target="_blank">v5 Wordpress</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/webs/gazpachu/v4/" target="_blank">v4</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/webs/gazpachu/v3/" target="_blank">v3</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/webs/gazpachu/v2/" target="_blank">v2</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/webs/gazpachu/v1/" target="_blank">v1</a>
 </p>
 
 ![](/work/gazpach/work/gazpachu/images/1.jpg)

@@ -8,7 +8,7 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="http://work.joanmira.com/webs/viverosmurcia/" target="_blank">Launch archived template</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/webs/viverosmurcia/" target="_blank">Launch archived template</a>
 </p>
 
 This is a pure HTML, CSS, JS and Flash template for a small website. It includes a custom logo design with animated typography.

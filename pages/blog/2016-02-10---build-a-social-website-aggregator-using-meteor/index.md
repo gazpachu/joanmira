@@ -6,7 +6,7 @@ template: post
 category: work
 ---
 
-<a class="btn icon icon-external" role="button" href="https://github.com/gazpachu/siteace" target="_blank">Source code</a>
+<a class="btn github" role="button" href="https://github.com/gazpachu/siteace" target="_blank">Source code</a>
 
 This tutorial is the result of my final assignment for the [Introduction to Meteor.js Development course](https://www.coursera.org/learn/meteor-development/) by Dr Matthew Yee-King ([University of London & Goldsmiths](http://www.gold.ac.uk/)) at Coursera. This course is part of a [Responsive Website Development and Design specialisation](https://www.coursera.org/specializations/website-development) that covers the basics of modern full stack web development, from UX design, to front-end coding, to custom databases.
 

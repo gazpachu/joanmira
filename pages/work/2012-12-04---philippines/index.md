@@ -8,7 +8,7 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="http://philembassy.herokuapp.com/" target="_blank">Philippine Embassy London (archived version)</a>
+<a class="btn external" role="button" href="http://philembassy.herokuapp.com/" target="_blank">Philippine Embassy London (archived version)</a>
 </p>
 
 ![](/work/philippines/images/1.png)

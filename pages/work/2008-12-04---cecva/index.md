@@ -8,7 +8,7 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="http://cecva.herokuapp.com" target="_blank">Launch archived website</a>
+<a class="btn external" role="button" href="http://cecva.herokuapp.com" target="_blank">Launch archived website</a>
 </p>
 
 ![](/work/cecva/images/1.png)

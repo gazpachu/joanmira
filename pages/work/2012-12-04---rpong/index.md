@@ -8,8 +8,8 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="http://open.joanmira.com/rpong" target="_blank">Launch website</a>
-<a class="btn" role="button" href="https://github.com/gazpachu/rpong" target="_blank">Source code</a>
+<a class="btn external" role="button" href="http://open.joanmira.com/rpong" target="_blank">Launch website</a>
+<a class="btn github" role="button" href="https://github.com/gazpachu/rpong" target="_blank">Source code</a>
 </p>
 
 ![](/work/rpong/images/1.png)

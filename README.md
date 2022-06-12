@@ -1,5 +1,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/206f3494-1d75-4366-9e5f-1f80fa6c2b6f/deploy-status)](https://app.netlify.com/sites/joanmira/deploys)
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P8D81J9)
+
 ## Joan Mira Studio Website
 
 - Built using a custom static site generator with NodeJs. < 500 lines of code

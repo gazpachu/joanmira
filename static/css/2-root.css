@@ -29,7 +29,7 @@
 .tag {
   font-size: 15px;
   font-weight: 400;
-  background-color: var(--primary);
+  background-color: var(--secondary);
   color: white;
   padding: 1px 6px;
   border-radius: 3px;
@@ -39,6 +39,24 @@
   box-sizing: content-box;
   margin-bottom: 5px;
   display: inline-block;
+}
+
+.btn.github::before,
+.btn.external::before {
+  content: '';
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: sub;
+  margin-right: 4px;
+}
+
+.btn.github:before {
+  background-image: url("data:image/svg+xml,%3Csvg aria-hidden='true' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' width='16' height='16'%3E%3Cpath fill='white' fill-rule='evenodd' d='M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.btn.external:before {
+  background-image: url("data:image/svg+xml,%3Csvg version='1.2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' width='16' height='16'%3E%3Cg%3E%3Cpath fill-rule='evenodd' fill='white' d='m16 0.5v4.8c0 0.3-0.2 0.6-0.5 0.6-0.3 0-0.6-0.3-0.6-0.6v-3.5l-7.6 7.6q-0.2 0.2-0.4 0.2-0.2 0-0.3-0.2c-0.3-0.2-0.3-0.5 0-0.7l7.6-7.6h-3.5c-0.3 0-0.6-0.3-0.6-0.6 0-0.3 0.3-0.5 0.6-0.5h4.8c0.3 0 0.5 0.2 0.5 0.5zm-2.1 13.9v-6.4c0-0.3-0.3-0.5-0.6-0.5-0.3 0-0.5 0.2-0.5 0.5v6.4c0 0.3-0.2 0.5-0.5 0.5h-10.7c-0.3 0-0.5-0.2-0.5-0.5v-10.7c0-0.3 0.2-0.5 0.5-0.5h6.4c0.3 0 0.5-0.2 0.5-0.5 0-0.3-0.2-0.6-0.5-0.6h-6.4c-0.9 0-1.6 0.8-1.6 1.6v10.7c0 0.9 0.7 1.6 1.6 1.6h10.7c0.8 0 1.6-0.7 1.6-1.6z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
 #page-content h1 {
@@ -59,11 +77,6 @@
   display: inline-block;
   width: initial;
   text-transform: uppercase;
-}
-#filters button.active,
-#filters [role=button].active {
-  background-color: #7cb342;
-  border-color: #7cb342;
 }
 
 [data-theme="dark"] .separator {

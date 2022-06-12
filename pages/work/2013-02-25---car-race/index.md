@@ -8,8 +8,8 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="https://github.com/gazpachu/opencv-box2d-race" target="_blank">Car race source code</a>
-<a class="btn" role="button" href="https://github.com/gazpachu/opencv-box2d-platformer" target="_blank">Platformer source code</a>
+<a class="btn github" role="button" href="https://github.com/gazpachu/opencv-box2d-race" target="_blank">Car race source code</a>
+<a class="btn github" role="button" href="https://github.com/gazpachu/opencv-box2d-platformer" target="_blank">Platformer source code</a>
 </p>
 
 This project was so cool. It was about loading a track and the obstacles from a real drawing and then playing a car race in that track in the computer!

@@ -155,13 +155,13 @@
       <div class="work">
         <div id="page-content"></div>
         <div id="filters">
-          <button id="all-filter" class="active" data-category="all">All</button>
-          <button data-category="web">Website</button>
-          <button data-category="web-app">Web App</button>
-          <button data-category="mobile">Mobile App</button>
-          <button data-category="desktop">Desktop App</button>
-          <button data-category="creative-tech">Creative Tech</button>
-          <button data-category="open-source">Open Source</button>
+          <button id="all-filter" data-category="all">All</button>
+          <button data-category="web" class="secondary">Website</button>
+          <button data-category="web-app" class="secondary">Web App</button>
+          <button data-category="mobile" class="secondary">Mobile App</button>
+          <button data-category="desktop" class="secondary">Desktop App</button>
+          <button data-category="creative-tech" class="secondary">Creative Tech</button>
+          <button data-category="open-source" class="secondary">Open Source</button>
         </div>
       </div>
       <ul id="listing-content"></ul>
@@ -174,8 +174,8 @@
 
       if (filterButtons) {
         const filterProjects = (event) => {
-          filterButtons.forEach(item => item.classList.remove('active'));
-          event.target.classList.add('active');
+          filterButtons.forEach(item => item.classList.add('secondary'));
+          event.target.classList.remove('secondary');
           if (event.target.getAttribute('data-category') === 'all') {
             listingContentElement.forEach(project => project.classList.remove('hidden'));
           } else {

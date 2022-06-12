@@ -8,7 +8,8 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="https://work.joanmira.com/interactive/starpach/" target="_blank">Launch Game</a>
+<a class="btn external" role="button" href="https://work.joanmira.com/interactive/starpach/" target="_blank">Launch Game</a>
+<a class="btn github" role="button" href="https://github.com/gazpachu/work/tree/master/interactive/starpach" target="_blank">Source Code</a>
 </p>
 
 ![](/work/starpach/images/1.png)

@@ -8,7 +8,7 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="http://work.joanmira.com/desktop/muvap/" target="_blank">Launch app</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/desktop/muvap/" target="_blank">Launch app</a>
 </p>
 
 ![](/work/muvap/images/1.png)

@@ -8,9 +8,8 @@ Privacy matters but it can be confusing. This page explains my approach to priva
 ### Short version
 
 * I collect anonymous statistics about your visit, like which of my pages you viewed.
-* Some 3rd parties like Facebook, Twitter and Disqus may know you visited this website, if you use their services. I can’t control them but I don’t believe this knowledge poses any threat to you.
-* If you sign up with me, I take great care to keep your information safe and I’ll never share it with others without your express permission.
-* I never share your data with 3rd parties except to help me deliver my own services.
+* I don't use any other tracker or external service
+* I don't share the statistics with anyone else
 
 These are just the key points. If you need detail, keep reading.
 
@@ -20,25 +19,17 @@ I measure visitors to my website using Google Analytics. This records what pages
 
 The information I collect from analytics helps me understand what parts of my sites are doing well, how people arrive at my site and so on. Like most websites, I use this information to make the website better.
 
-You can learn more about Google Analytics or opt out if you wish.
-
-### Facebook, Twitter and other social networks
-
-These services provide social buttons and similar features which I use on my website – such as the “Like” and “Tweet” buttons.
-
-To do so, I embed code that they provide. Their buttons generally know if you’re logged in; for example Facebook sometimes say “x of your friends like this”. I do not have any access to that information, nor can I control how those networks use it.
-
-Social networks therefore could know that you’re viewing this website, if you use their services (that isn’t to say they do, but their policies may change). As my website is remarkably inoffensive, I imagine this is not a concern for most users.
-
 ### Discussion comments
 
-To allow visitors to discuss my blog articles and some web pages, I use a discussion system called Disqus.
+To allow visitors to discuss my blog articles and some web pages, I use a discussion system based on Github issues called [Utterances](https://utteranc.es/).
 
-I embed code that Disqus provide and I cannot control it. Disqus anonymously tracks visitors to pages like I do. They also remember who you are if you login to any Disqus service, so you can comment on any website using their tool.
+I embed code that Utterances provides and I cannot control it. Nonetheless, in their website they say: No tracking, no ads, always free.
 
-Logging in to Disqus can be done in many ways, including via Facebook. If you login via social network, Disqus will be able to link your activity to that network. In this way, your Disqus activity may be personally identifiable.
+To be able to comment, you need to register an account at [Github](https://github.com).
 
-Disqus will know what pages you viewed in my site and what you wrote on those comments. Of course all comments you leave are also publicly visible on the Internet alongside your name, so I do not imagine this is a concern for many people.
+Of course all comments you leave are also publicly visible on the Internet alongside your Github username, so I do not imagine this is a concern for many people.
+
+Previously I used a comment system called Disqus, but I imported all the comments to the new system. If you wish to remove your comment, please contact me and I will delete it.
 
 ### If you sign up for the newsletter
 
@@ -54,4 +45,4 @@ I may update this privacy policy from time-to-time, particularly as technology c
 
 ### Any questions?
 
-If you have any questions about this privacy policy or your personal data, please write to me by email to hello [at] joanmira [.] com.
+If you have any questions about this privacy policy or your personal data, please [contact me](/contaact).

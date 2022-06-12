@@ -8,8 +8,8 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="http://work.joanmira.com/webs/baxtermead/" target="_blank">Launch v1 website</a>
-<a class="btn" role="button" href="http://work.joanmira.com/webs/baxtermead/v2" target="_blank">Launch v2 prototype</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/webs/baxtermead/" target="_blank">Launch v1 website</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/webs/baxtermead/v2" target="_blank">Launch v2 prototype</a>
 </p>
 
 Baxtermead was a special project. Mainly due to my friendship with its general manager, but also because it was one of my first clients. The first version was built in Flash and HTML. For the Flash version, I put special care into the animations. It was a very custom website with many details.

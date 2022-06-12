@@ -8,7 +8,7 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="https://diner-app-spa-staging.tablecheck.com/" target="_blank">Demo App</a>
+<a class="btn external" role="button" href="https://diner-app-spa-staging.tablecheck.com/" target="_blank">Demo App</a>
 </p>
 
 ![](/work/diner-app/images/1.png)

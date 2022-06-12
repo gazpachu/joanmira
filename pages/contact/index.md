@@ -2,6 +2,8 @@
 title: "Contact"
 ---
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P8D81J9)
+
 You can subscribe to the blog via [RSS feed](/rss.xml) or by [Email](http://eepurl.com/bgk17b).
 
 For code-related questions, please open an issue in the relevant github repository or blog post.

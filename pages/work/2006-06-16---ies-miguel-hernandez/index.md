@@ -8,7 +8,7 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="http://iesmh.edu.gva.es/" target="_blank">Launch website</a>
+<a class="btn external" role="button" href="http://iesmh.edu.gva.es/" target="_blank">Launch website</a>
 </p>
 
 ![](/work/ies-miguel-hernandez/images/1.png)

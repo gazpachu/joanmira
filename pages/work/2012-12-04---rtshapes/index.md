@@ -8,8 +8,8 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="http://open.joanmira.com/rtshapes" target="_blank">Launch website</a>
-<a class="btn" role="button" href="https://github.com/gazpachu/rtshapes" target="_blank">Source code</a>
+<a class="btn external" role="button" href="http://open.joanmira.com/rtshapes" target="_blank">Launch website</a>
+<a class="btn github" role="button" href="https://github.com/gazpachu/rtshapes" target="_blank">Source code</a>
 </p>
 
 ![](/work/rtshapes/images/1.png)

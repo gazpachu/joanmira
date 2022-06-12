@@ -8,15 +8,15 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="http://work.joanmira.com/demos/vitality/v1" target="_blank" rel="noopener noreferrer">v1</a>
-<a class="btn" role="button" href="http://work.joanmira.com/demos/vitality/v2" target="_blank" rel="noopener noreferrer">v2</a>
-<a class="btn" role="button" href="http://work.joanmira.com/demos/vitality/v3" target="_blank" rel="noopener noreferrer">v3</a>
-<a class="btn" role="button" href="http://work.joanmira.com/demos/vitality/v4" target="_blank" rel="noopener noreferrer">v4</a>
-<a class="btn" role="button" href="http://work.joanmira.com/demos/vitality/v5" target="_blank" rel="noopener noreferrer">v5</a>
-<a class="btn" role="button" href="http://work.joanmira.com/demos/vitality/v6" target="_blank" rel="noopener noreferrer">v6</a>
-<a class="btn" role="button" href="http://work.joanmira.com/demos/vitality/v7" target="_blank" rel="noopener noreferrer">v7</a>
-<a class="btn" role="button" href="http://work.joanmira.com/demos/vitality/v8" target="_blank" rel="noopener noreferrer">v8</a>
-<a class="btn" role="button" href="http://work.joanmira.com/demos/vitality/itunes-reward-architecture.pdf" target="_blank" rel="noopener noreferrer">Itunes reward architecture</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/demos/vitality/v1" target="_blank" rel="noopener noreferrer">v1</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/demos/vitality/v2" target="_blank" rel="noopener noreferrer">v2</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/demos/vitality/v3" target="_blank" rel="noopener noreferrer">v3</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/demos/vitality/v4" target="_blank" rel="noopener noreferrer">v4</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/demos/vitality/v5" target="_blank" rel="noopener noreferrer">v5</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/demos/vitality/v6" target="_blank" rel="noopener noreferrer">v6</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/demos/vitality/v7" target="_blank" rel="noopener noreferrer">v7</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/demos/vitality/v8" target="_blank" rel="noopener noreferrer">v8</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/demos/vitality/itunes-reward-architecture.pdf" target="_blank" rel="noopener noreferrer">Itunes reward architecture</a>
 </p>
 
 The project brief consisted of creating an animated journey for an iTunes contest in the Vitality's mobile app. The idea was to reveal slowly the price won by the user and the design involved the use of particles and dynamic random prize withdrawal.

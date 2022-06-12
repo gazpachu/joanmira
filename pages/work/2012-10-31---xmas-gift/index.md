@@ -8,7 +8,7 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn" role="button" href="https://github.com/gazpachu/xmas-gift" target="_blank">Source code</a>
+<a class="btn github" role="button" href="https://github.com/gazpachu/xmas-gift" target="_blank">Source code</a>
 </p>
 
 <iframe width="100%" height="550" src="https://www.youtube.com/embed/4uDsONxNdDg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
