@@ -320,7 +320,7 @@ async function processPage(pagePath) {
       // description: post.description,
       content: parsedHtml,
       date,
-      image: `${host}/${targetPath}/${pageName}/${frontmatter.cover}`
+      image: `${host}/${targetPath}/${frontmatter.cover}`
     });
   }
 
