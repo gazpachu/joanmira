@@ -17,6 +17,8 @@ template: project
 
 I envisioned this project for the second hackathon event in TableCheck and we won the first price! It was fun and we worked very hard for a couple of days to bring it to life! The team included other TableCheck employees: Eri Koyano (PM), Alexander Bykanov (Back-end), Martin Yates (Design) and Alexandr Shostyr (Front-end).
 
+I worked on the front-end side together with another engineer.
+
 ![](/work/wekohi/images/2.jpg)
 
 ![](/work/wekohi/images/3.jpg)

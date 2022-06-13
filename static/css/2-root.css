@@ -86,3 +86,9 @@
 [data-theme="light"] .separator {
   border-bottom: 1px solid #DDD;
 }
+
+blockquote p {
+  font-size: 22px;
+  font-style: italic;
+  margin-bottom: 0;
+}

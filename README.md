@@ -11,20 +11,23 @@
 - Blog category pages generation
 - Sitemap generation
 - RSS feed generation
-- Styles based on pico.css and CSS variables
+- Styles based on pico.css with CSS variables
+- Minified CSS and JS code
 - Dark mode support
 - All icons are SVG
-- Dynamic image resizing and convertion to WebP with Sharp
+- Dynamic image resizing and conversion to WebP with Sharp
 - Includes 301 redirects
 - Hosting and DNS in Netlify
 - Custom 404 error page
 - Google Analytics integration
 - OG meta tags and favicons
-- Set the html lang attribute based on the content language
+- Set the HTML lang attribute based on the content language
 
-### Current limitations
+### Nice to have in the future
 
-- No hot reloading implemented
-- Dynamic content for the templates has to be set in the JavaScript side
-- Each blog post can only belong to a single category
-- Images in markdown files are still not using WebP
+- A minimal admin area (CMS) to edit/publish stories
+- Preloaded URLs (like Gatsby)
+- Hot reloading
+- Handle dynamic content directly in the templates
+- Convert images in the markdown files to WebP
+- Blog posts belonging to several categories (low priority)
