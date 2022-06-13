@@ -6,7 +6,7 @@ cover: images/1.jpg
 category: work
 ---
 
-> Software engineering is like aeronautical engineering. The least weight, the better.
+> Software engineering is like aeronautical engineering. The less weight, the better.
 
 Sometimes, software engineers forget this simple premise about the weight of the code. We immerse ourselves in rabbit holes (or I should say JavaScript holes) that end up making our apps very bloated. With dozens and dozens of NPM packages, polyfills, helpers, overkill architectures, abstractions and more abstractions,...
 
