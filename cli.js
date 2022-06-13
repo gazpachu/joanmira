@@ -274,7 +274,7 @@ async function processPage(pagePath) {
   <meta property="og:locale" content="${frontmatter.lang === 'es' ? 'es_ES' : 'en_US'}">
   <meta property="og:url" content="${`${host}/${targetPath}`}" />
   <meta property="og:site_name" content=${name}>
-  <meta property="og:image" content="${`${host}/${targetPath}/${pageName}/${frontmatter.cover}`}" />
+  <meta property="og:image" content="${`${host}/${targetPath}/${frontmatter.cover}`}" />
   <meta property="og:type" content="${frontmatter.template === 'post' || frontmatter.template === 'project' ? 'article' : 'website'}" />
   <meta property="og:description" content="${pageDescription}" />
   <meta property="article:published_time" content="${date}">
