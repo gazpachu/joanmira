@@ -247,6 +247,9 @@
     if (!hasConsent && !window.location.pathname.includes('/privacy')) {
       setConsentModalState(true);
     }
+    if (hasConsent && !window.location.host.includes('localhost')) {
+      initDataCapture();
+    }
   });
 
   function setConsentModalState(state) {
