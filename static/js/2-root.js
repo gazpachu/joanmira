@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const html = document.querySelector('html');
   const themeToggleButton = document.querySelector('.theme-toggle');
   const savedTheme = localStorage.getItem('theme');
+  const hasConsent = localStorage.getItem('dataCaptureConsent');
 
   function utterancesTheme() {
     if (document.querySelector('.utterances-frame')) {
@@ -19,7 +20,9 @@ document.addEventListener("DOMContentLoaded", function() {
     html.setAttribute('data-theme', savedTheme);
   } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
     html.setAttribute('data-theme', 'dark');
-    localStorage.setItem('theme', 'dark');
+    if (hasConsent) {
+      localStorage.setItem('theme', 'dark');
+    }
   }
 
   // wait for utterances to load and send it's first message.
@@ -33,10 +36,14 @@ document.addEventListener("DOMContentLoaded", function() {
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
     if (event.matches) {
       html.setAttribute('data-theme', 'dark');
-      localStorage.setItem('theme', 'dark');
+      if (hasConsent) {
+        localStorage.setItem('theme', 'dark');
+      }
     } else {
       html.setAttribute('data-theme', 'light');
-      localStorage.setItem('theme', 'light');
+      if (hasConsent) {
+        localStorage.setItem('theme', 'light');
+      }
     }
     utterancesTheme();
   });
@@ -44,10 +51,14 @@ document.addEventListener("DOMContentLoaded", function() {
   themeToggleButton.addEventListener('click', event => {
     if (html.getAttribute('data-theme') === 'dark') {
       html.setAttribute('data-theme', 'light');
-      localStorage.setItem('theme', 'light');
+      if (hasConsent) {
+        localStorage.setItem('theme', 'light');
+      }
     } else {
       html.setAttribute('data-theme', 'dark');
-      localStorage.setItem('theme', 'dark');
+      if (hasConsent) {
+        localStorage.setItem('theme', 'dark');
+      }
     }
     utterancesTheme();
   });

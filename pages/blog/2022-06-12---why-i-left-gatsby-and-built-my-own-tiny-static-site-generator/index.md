@@ -44,7 +44,7 @@ Arriving at this point, I would like to highlight the fact that, when we are bui
 
 - For portfolio images, if you are going to use mockups (like I did with the Apple screens, iPads and laptops), make sure to export them in PNG with transparency! I've spent long days having to redo all the images of the 140 projects on my portfolio because they were exported as JPGs with a white background and they didn't look good with the new dark mode... &#129318;
 
-- Since [Github Pages](https://pages.github.com/) doesn't support 301 redirects, I had to migrate to [Netlify](https://netlify.com/). I also moved my DNS to Netlify and started using the free [Zoho Mail](https://www.zoho.com/mail) plan for the `@joanmira.com` accounts. I love both companies. They do a great job in UX. Thank you so much!
+- Since [Github Pages](https://pages.github.com/) doesn't support 301 redirects, I had to migrate to [Netlify](https://netlify.com/). I love both companies. They do a great job in UX. Thank you so much!
 
 - Things like JPG to WebP conversion and XML sitemap or RSS feed generation are much easier than you think with the right NPM packages
 

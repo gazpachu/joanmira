@@ -102,6 +102,28 @@
     height: 16px;
     width: 16px;
   }
+  #modal-consent {
+    align-items: self-end;
+  }
+  #modal-consent article {
+    margin: 0;
+  }
+  #modal-consent header,
+  #modal-consent footer {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  #modal-consent header {
+    margin-bottom: 8px;
+  }
+  #modal-consent footer {
+    margin-top: 8px;
+  }
+  #modal-consent button {
+    width: auto;
+    display: inline-block;
+    margin-bottom: 0;
+  }
 </style>
 <footer id="footer">
   <div class="menu">
@@ -207,12 +229,39 @@
     </div>
   </div>
 </footer>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6XPHBVRLLJ"></script>
+<dialog id="modal-consent" class="modal-is-opening">
+  <article>
+    <header>Before you continue...</header>
+    <p>By clicking &quot;Accept All&quot;, you agree to the storing of cookies on your device to enhance site navigation and analyze site usage.</p>
+    <footer>
+      <button onclick="setConsentModalState(false); initDataCapture();">Accept All</button>
+      <a href="/privacy" role="button" class="secondary">Learn more</a>
+    </footer>
+  </article>
+</dialog>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  const consentKey = 'dataCaptureConsent';
 
-  gtag('config', 'G-6XPHBVRLLJ');
+  document.addEventListener("DOMContentLoaded", function() {
+    const hasConsent = localStorage.getItem(consentKey);
+    if (!hasConsent && window.location.pathname !== '/privacy') {
+      setConsentModalState(true);
+    }
+  });
+
+  function setConsentModalState(state) {
+    const modalConsent = document.getElementById('modal-consent');
+    if (state) {
+      modalConsent.setAttribute('open', '');
+    } else {
+      modalConsent.removeAttribute('open');
+      localStorage.setItem(consentKey, true);
+    }
+  }
+
+  function initDataCapture() {
+    posthog.init('phc_kdoxm8bjiwFIoptB4uIiFn61ffgWwMLKM96j3zZE5Tg',{api_host:'https://app.posthog.com'});
+  }
+
+  !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
 </script>

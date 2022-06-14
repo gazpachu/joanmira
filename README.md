@@ -19,7 +19,7 @@
 - Includes 301 redirects
 - Hosting and DNS in Netlify
 - Custom 404 error page
-- Google Analytics integration
+- Posthog integration and data capture modal consent
 - OG meta tags and favicons
 - Set the HTML lang attribute based on the content language
 
