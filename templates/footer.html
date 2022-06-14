@@ -244,7 +244,7 @@
 
   document.addEventListener("DOMContentLoaded", function() {
     const hasConsent = localStorage.getItem(consentKey);
-    if (!hasConsent && window.location.pathname !== '/privacy') {
+    if (!hasConsent && !window.location.pathname.includes('/privacy')) {
       setConsentModalState(true);
     }
   });
