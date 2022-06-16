@@ -15,7 +15,7 @@ template: project
 
 The new Diner App is a renovated version of the app currently published at tablecheck.com. It's a restaurant search engine with multiple filtering and display options. It also includes a user account section where diners can manage their TableCheck reservations.
 
-I built around 90% of the front-end and 70% of the design. The API was already built years ago.
+I built around 90% of the front-end and 50% of the design. The API was already built years ago.
 
 It is based on <a href="/wekohi">Wekohi</a> but with many new upgrades, some of them include:
 
