@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="<%= frontmatter.lang %>">
+  <head>
+    <%- include('head'); %>
+  </head>
+  <body>
+    <%- include('header'); %>
+    <div class="main-wrapper project">
+      <div class="content">
+        <div class="header">
+          <h1>
+            <%= frontmatter.title %><time class="year tag"><%= date.getFullYear() %></time>
+          </h1>
+          <div class="tags">Tags: <%= frontmatter.categories.replace('inverted', '') %></div>
+        </div>
+        <div class="body">
+          <%- content %>
+        </div>
+      </div>
+    </div>
+    <%- include('footer'); %>
+  </body>
+</html>

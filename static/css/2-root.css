@@ -12,18 +12,12 @@
   :root { --gutter: 24px; }
 }
 
-#main-wrapper {
-  padding: 0 var(--gutter);
-  max-width: var(--content-max-width);
-  margin: 0 auto;
+.icon {
+  display: inline-block;
 }
 
 .align-center {
   text-align: center;
-}
-
-.icon {
-  display: inline-block;
 }
 
 .tag {
@@ -59,10 +53,6 @@
   background-image: url("data:image/svg+xml,%3Csvg version='1.2' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' width='16' height='16'%3E%3Cg%3E%3Cpath fill-rule='evenodd' fill='white' d='m16 0.5v4.8c0 0.3-0.2 0.6-0.5 0.6-0.3 0-0.6-0.3-0.6-0.6v-3.5l-7.6 7.6q-0.2 0.2-0.4 0.2-0.2 0-0.3-0.2c-0.3-0.2-0.3-0.5 0-0.7l7.6-7.6h-3.5c-0.3 0-0.6-0.3-0.6-0.6 0-0.3 0.3-0.5 0.6-0.5h4.8c0.3 0 0.5 0.2 0.5 0.5zm-2.1 13.9v-6.4c0-0.3-0.3-0.5-0.6-0.5-0.3 0-0.5 0.2-0.5 0.5v6.4c0 0.3-0.2 0.5-0.5 0.5h-10.7c-0.3 0-0.5-0.2-0.5-0.5v-10.7c0-0.3 0.2-0.5 0.5-0.5h6.4c0.3 0 0.5-0.2 0.5-0.5 0-0.3-0.2-0.6-0.5-0.6h-6.4c-0.9 0-1.6 0.8-1.6 1.6v10.7c0 0.9 0.7 1.6 1.6 1.6h10.7c0.8 0 1.6-0.7 1.6-1.6z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
-#page-content h1 {
-  margin: 16px 0;
-}
-
 #filters {
   padding: 0 20px;
   margin-bottom: 40px;
@@ -90,5 +80,56 @@
 blockquote p {
   font-size: 22px;
   font-style: italic;
+  margin-bottom: 0;
+}
+
+.share-links {
+  display: flex;
+}
+
+.share-links a:not(:last-child) {
+  margin-right: 8px;
+}
+
+.share-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  width: 32px;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+.share-links svg {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+}
+
+#modal-consent {
+  align-items: self-end;
+}
+
+#modal-consent article {
+  margin: 0;
+}
+
+#modal-consent header,
+#modal-consent footer {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+#modal-consent header {
+  margin-bottom: 8px;
+}
+
+#modal-consent footer {
+  margin-top: 8px;
+}
+
+#modal-consent button {
+  width: auto;
+  display: inline-block;
   margin-bottom: 0;
 }

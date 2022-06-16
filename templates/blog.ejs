@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="<%= frontmatter.lang %>">
+
+<head>
+  <%- include('head'); %>
     <style>
-      #main-wrapper {
+      .main-wrapper {
         max-width: initial !important;
       }
+
       #filters {
         margin-top: 20px;
         margin-bottom: 0;
         text-align: center;
       }
+
       #listing-content {
         padding: 0;
         margin: 20px 0;
@@ -17,13 +21,16 @@
         grid-gap: 32px;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
       }
+
       #listing-content li {
         list-style-type: none;
         margin-bottom: 0;
       }
+
       #listing-content li.hidden {
         display: none;
       }
+
       #listing-content .list-item {
         margin: 0;
         padding: 0;
@@ -31,29 +38,35 @@
         height: 100%;
         border-radius: 8px;
       }
+
       #listing-content .list-item h2 {
         margin-bottom: 0;
         font-size: 22px;
       }
-      #listing-content .list-item > a {
+
+      #listing-content .list-item>a {
         display: block;
       }
+
       #listing-content .list-item p {
         font-size: 16px;
         color: var(--muted-color);
         margin-top: 8px;
         margin-bottom: 0;
       }
+
       #listing-content .list-item-title {
         display: -webkit-box;
         -webkit-line-clamp: 2;
-        -webkit-box-orient: vertical;  
+        -webkit-box-orient: vertical;
         overflow: hidden;
         text-decoration: none;
       }
+
       #listing-content .list-item-content {
         padding: 16px;
       }
+
       .image {
         object-fit: cover;
         width: 100%;
@@ -61,6 +74,7 @@
         border-top-left-radius: 8px;
         border-top-right-radius: 8px;
       }
+
       .meta {
         display: block;
         text-decoration: none;
@@ -68,25 +82,36 @@
         font-size: 16px;
         margin-top: 8px;
       }
+
       .meta a {
         text-decoration: none;
       }
     </style>
-  </head>
-  <body>
-    <div id="main-wrapper">
-      <div id="page-content"></div>
+</head>
+
+<body>
+  <%- include('header'); %>
+    <div class="main-wrapper">
+      <div class="content"></div>
       <div id="filters">
         <a href="/blog" id="all-filter" role="button" data-blog-category="all" class="secondary">All Posts</a>
         <a href="/blog/category/work" role="button" data-blog-category="work" class="secondary">Work</a>
         <a href="/blog/category/tech" role="button" data-blog-category="tech" class="secondary">Tech</a>
-        <a href="/blog/category/samurai-route" role="button" data-blog-category="samurai-route" class="secondary">Samurai Route</a>
+        <a href="/blog/category/samurai-route" role="button" data-blog-category="samurai-route"
+          class="secondary">Samurai Route</a>
         <a href="/blog/category/japan" role="button" data-blog-category="japan" class="secondary">Japan</a>
         <a href="/blog/category/film" role="button" data-blog-category="film" class="secondary">Film</a>
         <a href="/blog/category/games" role="button" data-blog-category="games" class="secondary">Games</a>
-        <a href="/blog/category/literature" role="button" data-blog-category="literature" class="secondary">Literature</a>
+        <a href="/blog/category/literature" role="button" data-blog-category="literature"
+          class="secondary">Literature</a>
       </div>
-      <ul id="listing-content"></ul>
+      <ul id="listing-content">
+        <% listingItems.forEach(function(item){ %>
+          <%- include('blog-listing-item', { item }); %>
+        <% }); %>
+      </ul>
     </div>
-  </body>
+    <%- include('footer'); %>
+</body>
+
 </html>

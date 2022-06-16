@@ -88,6 +88,8 @@ I will keep pushing new code in the next weeks or when I get some time. At the m
 
 <a class="btn github" role="button" href="https://github.com/gazpachu/joanmira" target="_blank">Source Code</a>
 
-[Teeny](https://github.com/yakkomajuri/teeny) SSG by [Jakko Majuri](https://github.com/yakkomajuri). Thanks for your work!
+UPDATE 16 Jun 2022
+
+I've added EJS to be able to handle dynamic data in the templates and now the code is much better. Reduced it to almost 200 lines.
 
 Wing photo by [Ross Parmly](https://unsplash.com/es/fotos/rf6ywHVkrlY)

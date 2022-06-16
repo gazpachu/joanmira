@@ -1,0 +1,142 @@
+.main-wrapper.post {
+  margin-top: 20px;
+}
+
+.post h2,
+.post h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.post .content {
+  padding: 0;
+}
+
+.post .category {
+  padding: 0 var(--gutter);
+  text-transform: capitalize;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.post .header {
+  max-width: var(--post-content-max-width);
+  padding: 0 var(--gutter);
+}
+
+.post .body {
+  display: flex;
+  flex-direction: column;
+  max-width: var(--post-content-max-width);
+  padding: 0 var(--gutter);
+}
+
+.post .body img {
+  width: 100%;
+}
+
+.post .details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--gutter);
+  border-bottom: 1px solid var(--muted-border-color);
+  margin-bottom: var(--gutter);
+}
+
+.post .sidebar {
+  max-width: var(--post-content-max-width);
+  position: sticky;
+  top: var(--gutter);
+  margin: calc(var(--gutter) * 2) 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-self: flex-start;
+}
+
+.post .subscribe-card {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #e1e4e8;
+  background-color: #f6f8fa;
+  border-radius: 8px;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+[data-theme=dark] .post .subscribe-card {
+  background-color: #202020;
+  border: 1px solid #343434;
+}
+
+.post .subscribe-card svg {
+  width: 80px;
+  height: 80px;
+  margin: 24px;
+}
+
+.post .subscribe-card a {
+  margin: 24px;
+}
+
+.post .share-links a {
+  border-color: var(--color);
+}
+
+@media screen and (min-width: 651px) {
+  .post .category,
+  .post .header,
+  .post .body {
+    padding: 0;
+  }
+
+  .post .details {
+    padding: var(--gutter) 0;
+  }
+
+  .post .image {
+    border-radius: 8px;
+  }
+
+  .post .utterances {
+    max-width: var(--post-content-max-width);
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .main-wrapper.post {
+    padding: 0;
+  }
+
+  .post .utterances-frame {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .post .sidebar {
+    margin: calc(var(--gutter) + 4px);
+    width: calc(100% - 4px - var(--gutter) * 2);
+  }
+
+  .post .subscribe-card {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .post .body {
+    flex-direction: row;
+  }
+
+  .post .sidebar {
+    margin: 0 0 0 var(--gutter);
+  }
+
+  .post .subscribe-card {
+    flex-direction: column;
+  }
+}

@@ -3,7 +3,7 @@
   "version": "3.0.0",
   "description": "Official Website of Joan Mira Studio",
   "scripts": {
-    "build": "npm run minify-all && UPDATE_ALGOLIA=true && node cli.js build && npm run generate-images",
+    "build": "npm run minify-all && node cli.js build && npm run generate-images",
     "develop": "npm run minify-all && node cli.js develop",
     "generate-images": "node images.js generate",
     "clean-images": "node images.js clean",
@@ -19,6 +19,7 @@
     "algoliasearch": "4.13.1",
     "chokidar": "3.5.3",
     "dotenv": "16.0.1",
+    "ejs": "3.1.8",
     "feed": "4.2.2",
     "front-matter": "4.0.2",
     "fs-extra": "10.1.0",

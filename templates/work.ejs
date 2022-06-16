@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<%= frontmatter.lang %>">
   <head>
+    <%- include('head'); %>
     <style>
-      #main-wrapper {
+      .main-wrapper {
         text-align: center;
         max-width: 100%;
         padding: 0;
@@ -151,9 +152,12 @@
     </style>
   </head>
   <body>
-    <div id="main-wrapper">
+    <%- include('header'); %>
+    <div class="main-wrapper">
       <div class="work">
-        <div id="page-content"></div>
+        <div class="content">
+          <%- content %>
+        </div>
         <div id="filters">
           <button id="all-filter" data-category="all">All</button>
           <button data-category="web" class="secondary">Website</button>
@@ -164,8 +168,13 @@
           <button data-category="open-source" class="secondary">Open Source</button>
         </div>
       </div>
-      <ul id="listing-content"></ul>
+      <ul id="listing-content">
+        <% listingItems.forEach(function(item){ %>
+          <%- include('work-listing-item', { item }); %>
+        <% }); %>
+      </ul>
     </div>
+    <%- include('footer'); %>
     <script>
       // Listing page filters
       const filterButtons = document.querySelectorAll('#filters button');

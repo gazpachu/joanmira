@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="<%= frontmatter.lang %>">
 <head>
+  <%- include('head'); %>
   <style>
     .hero {
       text-align: center;
@@ -228,9 +228,9 @@
     }
   </style>
 </head>
-
 <body>
   <div class="hero" data-theme="dark">
+    <%- include('header'); %>
     <h1>Software Engineering & UI/UX Design</h1>
     <div class="wrapper">
       <div class="cta" data-target="modal-video" onClick="toggleModal(event)">
@@ -898,6 +898,7 @@
     Coming soon
     </article>
   </dialog>
+  <%- include('footer'); %>
   <script>
     document.addEventListener("DOMContentLoaded", function() {
       const html = document.querySelector('html');
@@ -933,5 +934,4 @@
     });
   </script>
 </body>
-
 </html>
