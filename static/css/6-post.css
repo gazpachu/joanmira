@@ -8,10 +8,6 @@
   margin-bottom: 20px;
 }
 
-.post .content {
-  padding: 0;
-}
-
 .post .category {
   padding: 0 var(--gutter);
   text-transform: capitalize;
@@ -27,11 +23,15 @@
 .post .body {
   display: flex;
   flex-direction: column;
-  max-width: var(--post-content-max-width);
   padding: 0 var(--gutter);
 }
 
-.post .body img {
+.post .article {
+  padding: 0;
+  max-width: var(--post-content-max-width);
+}
+
+.post .article img {
   width: 100%;
 }
 

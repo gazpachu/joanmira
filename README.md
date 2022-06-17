@@ -4,7 +4,7 @@
 
 ## Joan Mira Studio Website
 
-- Built using a custom static site generator with NodeJs. Just around 300 lines of code
+- Built using a custom static site generator with NodeJs in just 300 lines of code
 - Algolia integration for uploading and searching content
 - All content using markdown files
 - Blog comments based on Github issues provided by [Utterances](https://utteranc.es/)

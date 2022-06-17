@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 require('dotenv').config();
-const { JSDOM } = require('jsdom');
+const { exec } = require('child_process');
 const path = require('path');
 const fs = require('fs-extra');
 const { marked } = require('marked');
@@ -12,6 +12,8 @@ const Feed = require('feed').Feed;
 const xml = require('xml');
 const algoliasearch = require('algoliasearch');
 const Cutter = require('utf8-binary-cutter');
+const minify = require('@node-minify/core');
+const uglifyjs = require('@node-minify/uglify-js');
 let ejs = require('ejs');
 
 const scriptArgs = process.argv.slice(2);
@@ -76,6 +78,21 @@ async function build(folderOrFile) {
     await renameFolders('public/work', dateRegEx, '');
   }
 
+  exec('cat static/css/[!main]*.css > static/css/main.css', () => {
+    minify({
+      compressor: uglifyjs,
+      input: 'static/css/main.css',
+      output: 'static/css/main.min.css'
+    });
+  });
+  exec('cat static/js/[!main]*.js > static/js/main.js', () => {
+    minify({
+      compressor: uglifyjs,
+      input: 'static/js/main.js',
+      output: 'static/js/main.min.js'
+    });
+  });
+
   console.log('Copying static files...');
   await safeExecute(async () => await fs.copy('static/', 'public/'), { filter: (f) => !f.startsWith('.') });
 
@@ -125,7 +142,7 @@ async function develop(folderOrFile, port) {
     console.log(`Detected change in file ${path}. Restarting development server.`);
     server.close();
     await watcher.close();
-    await develop(folderOrFile, port);
+    await develop(path.includes('.md') ? path : folderOrFile, port);
   });
 }
 
