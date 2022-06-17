@@ -31,3 +31,13 @@
 - Preloaded URLs (like Gatsby)
 - Convert images in the markdown files to WebP
 - Blog posts belonging to several categories (low priority)
+
+## Run it locally
+
+- Rename `.env.example` to `.env` and add the real variables from your Algolia account
+- Run `npm install` and `npm run develop`
+
+## Run it in production
+
+- Set an environment variable: NODE_ENV = production
+- If using Netlify, just target the repository forked from this
