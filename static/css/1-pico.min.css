@@ -272,7 +272,7 @@ kbd {
     --table-border-color: var(--muted-border-color);
     --table-row-stripped-background-color: #f6f8f9;
     --code-background-color: #f5f5f5;
-    --code-color: var(--muted-color);
+    --code-color: #333;
     --code-kbd-background-color: var(--contrast);
     --code-kbd-color: var(--contrast-inverse);
     --code-tag-color: #b34d80;
@@ -373,7 +373,7 @@ kbd {
         --table-border-color: var(--muted-border-color);
         --table-row-stripped-background-color: rgba(141, 141, 141, 0.05);
         --code-background-color: #2c2c2c;
-        --code-color: var(--muted-color);
+        --code-color: #333;
         --code-kbd-background-color: var(--contrast);
         --code-kbd-color: var(--contrast-inverse);
         --code-tag-color: #a65980;
@@ -475,7 +475,7 @@ kbd {
     --table-border-color: var(--muted-border-color);
     --table-row-stripped-background-color: rgba(141, 141, 141, 0.05);
     --code-background-color: #2c2c2c;
-    --code-color: var(--muted-color);
+    --code-color: #CCC;
     --code-kbd-background-color: var(--contrast);
     --code-kbd-color: var(--contrast-inverse);
     --code-tag-color: #a65980;

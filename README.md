@@ -23,7 +23,7 @@
 - Posthog integration and data capture modal consent
 - OG meta tags and favicons
 - Set the HTML lang attribute based on the content language
-- Hot reloading in development mode
+- Hot browser reloading in development mode (still need to reload the browser)
 
 ### Nice to have in the future
 

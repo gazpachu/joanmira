@@ -118,8 +118,8 @@
   }
 
   .post .sidebar {
-    margin: calc(var(--gutter) + 4px);
-    width: calc(100% - 4px - var(--gutter) * 2);
+    margin: 0;
+    width: 100%;
   }
 
   .post .subscribe-card {

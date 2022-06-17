@@ -12,18 +12,15 @@ const Feed = require('feed').Feed;
 const xml = require('xml');
 const algoliasearch = require('algoliasearch');
 const Cutter = require('utf8-binary-cutter');
-const minify = require('@node-minify/core');
-const uglifyjs = require('@node-minify/uglify-js');
 let ejs = require('ejs');
 
 const scriptArgs = process.argv.slice(2);
 const command = scriptArgs[0];
 const dateRegEx = /\d{4}-\d{2}-\d{2}---/;
-const host = 'https://joanmira.com';
+const host = 'https://www.joanmira.com';
 const name = 'Joan Mira Studio';
 const description = 'Modern Software Engineering & UI/UX Design';
 const dateFormatter = new Intl.DateTimeFormat('en-GB', { month: 'long', year: 'numeric', day: 'numeric' });
-let listingItems = [];
 const sitemap = [];
 const algoliaPages = [];
 const algoliaClient = algoliasearch(process.env.ALGOLIA_APP_ID, process.env.ALGOLIA_API_KEY);
@@ -34,9 +31,9 @@ const feed = new Feed({
   id: host,
   link: host,
   language: "en",
-  image: `${host}/image.png`,
-  favicon: `${host}/favicon.ico`,
-  copyright: `All rights reserved 2022, ${name}`,
+  image: `${host}/img/apple-touch-icon.png`,
+  favicon: `${host}/img/favicon.ico`,
+  copyright: `All rights reserved ${new Date().getFullYear()}, ${name}`,
   generator: "",
   feedLinks: {
     atom: `${host}/rss.xml`
@@ -77,21 +74,6 @@ async function build(folderOrFile) {
     console.log('Renaming work files...');
     await renameFolders('public/work', dateRegEx, '');
   }
-
-  exec('cat static/css/[!main]*.css > static/css/main.css', () => {
-    minify({
-      compressor: uglifyjs,
-      input: 'static/css/main.css',
-      output: 'static/css/main.min.css'
-    });
-  });
-  exec('cat static/js/[!main]*.js > static/js/main.js', () => {
-    minify({
-      compressor: uglifyjs,
-      input: 'static/js/main.js',
-      output: 'static/js/main.min.js'
-    });
-  });
 
   console.log('Copying static files...');
   await safeExecute(async () => await fs.copy('static/', 'public/'), { filter: (f) => !f.startsWith('.') });
@@ -140,6 +122,10 @@ async function develop(folderOrFile, port) {
   const server = startServer(port);
   const watcher = chokidar.watch(['pages/', 'static/', 'templates/']).on('change', async (path, _) => {
     console.log(`Detected change in file ${path}. Restarting development server.`);
+    await safeExecute(async () => {
+      exec('cat static/css/[!main]*.css > static/css/main.css');
+      exec('cat static/js/[!main]*.js > static/js/main.js');
+    });
     server.close();
     await watcher.close();
     await develop(path.includes('.md') ? path : folderOrFile, port);
@@ -157,7 +143,7 @@ async function renameFolders(dir, from, to) {
   });
  }
 
-async function processDirectory(directoryPath, processor, listingSlug, category) {
+async function processDirectory(directoryPath, processor, listingSlug, category, listingItems) {
   let contents = await fs.readdir(`${directoryPath}/`);
   contents = contents.reverse();
   const processPagePromises = [];
@@ -165,10 +151,10 @@ async function processDirectory(directoryPath, processor, listingSlug, category)
     if (!element.includes('.') || element.includes('.md')) {
       const isDirectory = (await fs.lstat(`${directoryPath}/${element}`)).isDirectory();
       if (isDirectory) {
-        await processDirectory(`${directoryPath}/${element}`, processor, listingSlug, category, processPagePromises);
+        await processDirectory(`${directoryPath}/${element}`, processor, listingSlug, category, listingItems, processPagePromises, );
         continue;
       }
-      processPagePromises.push(processor(`${directoryPath}/${element}`, listingSlug, category));
+      processPagePromises.push(processor(`${directoryPath}/${element}`, listingSlug, category, listingItems));
     }
   }
   await Promise.all(processPagePromises);
@@ -194,13 +180,13 @@ async function processPage(pagePath) {
   const pageTitle = frontmatter.template !== 'homepage' ? frontmatter.title : `${name} • ${description}`;
   const pageDescription = frontmatter.description || description;
   const lang = frontmatter.lang === 'es' ? 'es_ES' : 'en_US';
-  const imageUrl = `${host}/${targetPath}/${frontmatter.cover}`;
+  const imageUrl = frontmatter.cover ? `${host}/${targetPath}/${frontmatter.cover}` : null;
   const type = frontmatter.template === 'post' || frontmatter.template === 'project' ? 'article' : 'website';
+  const listingItems = [];
 
   // Build listing items
   if (frontmatter.isListingPage) {
-    listingItems = [];
-    await processDirectory(`pages/${frontmatter.template}`, processListingItem, frontmatter.template, frontmatter.category);
+    await processDirectory(`pages/${frontmatter.template}`, processListingItem, frontmatter.template, frontmatter.category, listingItems);
   }
 
   // Parse template
@@ -219,8 +205,10 @@ async function processPage(pagePath) {
     date,
     formattedDate,
     url,
+    host,
     content,
-    listingItems
+    listingItems,
+    isProduction: process.env.NODE_ENV === 'production'
   }, { filename: templatePath });
 
   // Generate final HTML file
@@ -261,7 +249,7 @@ async function processPage(pagePath) {
   }
 }
 
-async function processListingItem(pagePath, listingSlug, category = null) {
+async function processListingItem(pagePath, listingSlug, category = null, listingItems) {
   const fileData = await fs.readFile(pagePath, 'utf-8');
   const { attributes: frontmatter } = await fm(fileData);
   
