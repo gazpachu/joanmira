@@ -1,0 +1,17 @@
+<li class="<%= item.frontmatter.categories %>" style="background-color: <%= item.frontmatter.color %>">
+  <a href="<%= item.slug %>" class="link">
+    <picture>
+      <source srcset="<%= item.slug %>/<%= item.frontmatter.cover.replace('.jpg', '.webp') %>" type="image/webp">
+      <source srcset="<%= item.slug %>/<%= item.frontmatter.cover %>" type="image/jpeg">
+      <img class="logo" src="<%= item.slug %>/<%= item.frontmatter.cover %>" alt="<%= item.frontmatter.title %>" width="250" height="170"
+        loading="lazy">
+    </picture>
+    <div class="project-content">
+      <h2 class="name"><%= item.frontmatter.title %></h2>
+      <p class="meta">
+        <span class="date"><%= new Date(item.date).getFullYear() %></span>
+        <span class="country"><%= item.frontmatter.location %></span>
+      </p>
+    </div>
+  </a>
+</li>

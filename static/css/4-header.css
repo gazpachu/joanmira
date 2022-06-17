@@ -1,0 +1,166 @@
+#header {
+  padding: 0;
+  width: 100%;
+  border-bottom: 1px solid;
+  border-bottom-color: rgba(0, 0, 0, .15);
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.header-content {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+  max-width: var(--content-max-width);
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+[data-theme="dark"] #header {
+  filter: invert(100%);
+}
+
+#header .logo {
+  display: flex;
+  align-items: center;
+  opacity: 0.8;
+  text-decoration: none;
+  width: 148px;
+}
+
+#header .logo-wording {
+  font-size: 18px;
+  display: inline-block;
+  color: black;
+  letter-spacing: 0;
+}
+
+#header .logo-symbol {
+  margin-right: 10px;
+  position: relative;
+  width: 35px;
+  height: 35px;
+  fill: black;
+}
+
+#header .cursor {
+  margin-left: 3px;
+  margin-top: 14px;
+  opacity: 0.5;
+  filter: invert(100%);
+}
+
+#main-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+
+#main-menu li {
+  display: inline-block;
+  margin-right: var(--gutter);
+  margin-bottom: 0;
+  position: relative;
+}
+
+#main-menu li:last-child {
+  margin-right: 0;
+}
+
+#main-menu li a {
+  display: inline-block;
+  color: black;
+  padding: 0;
+  font-size: 12px;
+  font-weight: normal;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#main-menu li a:focus,
+#main-menu li div:focus {
+  background: none;
+}
+
+#main-menu li a:hover,
+#main-menu li div:hover {
+  color: black;
+}
+
+#main-menu li.active::after,
+#main-menu li:hover::after {
+  display: block;
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 30px;
+  width: 100%;
+  height: 1px;
+  background: rgba(0, 0, 0, .67);
+}
+
+#header .controls {
+  display: flex;
+  align-items: center;
+}
+
+#header .controls .header-button {
+  padding: 0;
+  border-width: 0;
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+#header .controls .header-button svg {
+  fill: black;
+  width: 16px;
+  height: 16px;
+}
+
+#header .controls .header-button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+#header .controls .theme-toggle,
+#header .controls .github-button {
+  margin-left: 20px;
+  background: none;
+}
+
+#header .controls .search-button:hover::after {
+  display: none;
+}
+
+@media screen and (max-width: 650px) {
+  .header-content {
+    height: 85px;
+    margin-bottom: 16px;
+  }
+
+  #main-menu {
+    position: absolute;
+    top: 71px;
+  }
+
+  #header .controls .header-button svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (min-width: 651px) {
+
+  #main-menu li.active::after,
+  #main-menu li:hover::after {
+    top: 42.5px;
+  }
+}

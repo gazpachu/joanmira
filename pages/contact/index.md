@@ -1,5 +1,6 @@
 ---
-title: "Contact"
+title: Contact
+cover: images/cover.jpg
 ---
 
 You can subscribe to the blog via [RSS feed](/rss.xml) or by [Email](http://eepurl.com/bgk17b).

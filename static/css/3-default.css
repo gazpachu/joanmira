@@ -1,0 +1,18 @@
+.main-wrapper {
+  padding: 0 var(--gutter);
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+}
+
+.content h1 {
+  margin: 16px 0;
+}
+
+.content h3 {
+  margin-bottom: 8px;
+}
+
+.page .content .image,
+.page .content iframe {
+  margin-bottom: 24px;
+}

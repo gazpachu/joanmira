@@ -88,6 +88,8 @@ I will keep pushing new code in the next weeks or when I get some time. At the m
 
 <a class="btn github" role="button" href="https://github.com/gazpachu/joanmira" target="_blank">Source Code</a>
 
-[Teeny](https://github.com/yakkomajuri/teeny) SSG by [Jakko Majuri](https://github.com/yakkomajuri). Thanks for your work!
+**UPDATE 16 Jun 2022**
 
-Wing photo by [Ross Parmly](https://unsplash.com/es/fotos/rf6ywHVkrlY)
+I've added [EJS](https://ejs.co/) to be able to handle dynamic data in the templates and now the code is much better organized and reduced to around 300 lines. Hot reloading is almost working. The only part remaining about it is to refresh the browser.
+
+Plane wing photo by [Ross Parmly](https://unsplash.com/es/fotos/rf6ywHVkrlY)

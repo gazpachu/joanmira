@@ -1,0 +1,26 @@
+<li class="<%= item.frontmatter.category %>">
+  <article class="list-item">
+    <a href="<%= item.slug %>">
+      <picture>
+        <source srcset="<%= item.imagePath.replace('.jpg', '.webp') %>" type="image/webp">
+        <source srcset="<%= item.imagePath %>" type="image/jpeg">
+        <img class="image" src="<%= item.imagePath %>" alt="<%= item.frontmatter.title %>" width="250" height="170" loading="lazy">
+      </picture>
+    </a>
+    <div class="list-item-content">
+      <a class="list-item-title" href="<%= item.slug %>">
+        <h2>
+          <%= item.frontmatter.title %>
+        </h2>
+      </a>
+      <p>
+        <%= item.frontmatter.description %>
+      </p>
+      <div class="meta secondary">
+        <a href="/<%= item.listingSlug %>/category/<%= item.frontmatter.category %>">
+          <%= item.frontmatter.category.replace('-', ' ') %>
+        </a> • <%= item.formattedDate %>
+      </div>
+    </div>
+  </article>
+</li>

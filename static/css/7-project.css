@@ -1,0 +1,27 @@
+.project .content {
+  padding: 0;
+  overflow: hidden;
+}
+
+.project h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.project img {
+  margin: 0 auto;
+  display: flex;
+}
+
+.project .year {
+  vertical-align: super;
+  margin-left: 10px;
+  letter-spacing: initial;
+}
+
+.project .tags {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-style: italic;
+}
