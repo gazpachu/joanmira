@@ -58,11 +58,6 @@ switch (command) {
 }
 
 async function build(folderOrFile) {
-  if (process.env.NODE_ENV === 'production') {
-    console.log('Cleaning public folder...');
-    await fs.emptyDir('public/');
-  }
-
   if (!fs.existsSync('public/')) {
     console.log('Copying pages...');
     await safeExecute(
