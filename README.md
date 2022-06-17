@@ -34,10 +34,16 @@
 
 ## Run it locally
 
-- Rename `.env.example` to `.env` and add the real variables from your Algolia account
 - Run `npm install` and `npm run develop`
 
 ## Run it in production
 
-- Set an environment variable: NODE_ENV = production
-- If using Netlify, just target the repository forked from this
+- Set the following environment variables in your provider:
+
+```
+NODE_ENV=production
+ALGOLIA_APP_ID=
+ALGOLIA_SEARCH_ONLY_API_KEY=
+ALGOLIA_API_KEY=
+ALGOLIA_INDEX=
+```
