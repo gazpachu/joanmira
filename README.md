@@ -24,6 +24,7 @@
 - OG meta tags and favicons
 - Set the HTML lang attribute based on the content language
 - Hot browser reloading in development mode (still need to reload the browser)
+- Support for light/dark code syntax highlighting
 
 ### Nice to have in the future
 
@@ -47,3 +48,7 @@ ALGOLIA_SEARCH_ONLY_API_KEY=
 ALGOLIA_API_KEY=
 ALGOLIA_INDEX=
 ```
+
+## Previous website
+
+The previous Gatsby website is in the [Gatsby branch](https://github.com/gazpachu/joanmira/tree/gatsby)

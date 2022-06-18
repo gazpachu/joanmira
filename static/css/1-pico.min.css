@@ -198,17 +198,6 @@ thead th {
     --font-size: 0.875em
 }
 
-code,
-kbd,
-pre,
-samp {
-    --font-family: "Menlo", "Consolas", "Roboto Mono", "Ubuntu Monospace", "Noto Mono", "Oxygen Mono", "Liberation Mono", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
-}
-
-kbd {
-    --font-weight: bolder
-}
-
 :root:not([data-theme=dark]),
 [data-theme=light] {
     color-scheme: light;
@@ -271,14 +260,6 @@ kbd {
     --range-thumb-active-color: var(--primary);
     --table-border-color: var(--muted-border-color);
     --table-row-stripped-background-color: #f6f8f9;
-    --code-background-color: #f5f5f5;
-    --code-color: #333;
-    --code-kbd-background-color: var(--contrast);
-    --code-kbd-color: var(--contrast-inverse);
-    --code-tag-color: #b34d80;
-    --code-property-color: #3d888f;
-    --code-value-color: #998866;
-    --code-comment-color: #bbbbbb;
     --accordion-border-color: var(--muted-border-color);
     --accordion-close-summary-color: var(--color);
     --accordion-open-summary-color: var(--muted-color);
@@ -372,14 +353,6 @@ kbd {
         --range-thumb-active-color: var(--primary);
         --table-border-color: var(--muted-border-color);
         --table-row-stripped-background-color: rgba(141, 141, 141, 0.05);
-        --code-background-color: #2c2c2c;
-        --code-color: #333;
-        --code-kbd-background-color: var(--contrast);
-        --code-kbd-color: var(--contrast-inverse);
-        --code-tag-color: #a65980;
-        --code-property-color: #599fa6;
-        --code-value-color: #8c8473;
-        --code-comment-color: #6a6a6a;
         --accordion-border-color: var(--muted-border-color);
         --accordion-active-summary-color: var(--primary);
         --accordion-close-summary-color: var(--color);
@@ -474,14 +447,6 @@ kbd {
     --range-thumb-active-color: var(--primary);
     --table-border-color: var(--muted-border-color);
     --table-row-stripped-background-color: rgba(141, 141, 141, 0.05);
-    --code-background-color: #2c2c2c;
-    --code-color: #CCC;
-    --code-kbd-background-color: var(--contrast);
-    --code-kbd-color: var(--contrast-inverse);
-    --code-tag-color: #a65980;
-    --code-property-color: #599fa6;
-    --code-value-color: #8c8473;
-    --code-comment-color: #6a6a6a;
     --accordion-border-color: var(--muted-border-color);
     --accordion-active-summary-color: var(--primary);
     --accordion-close-summary-color: var(--color);
@@ -1753,75 +1718,6 @@ tfoot th {
 
 table[role=grid] tbody tr:nth-child(odd) {
     background-color: var(--table-row-stripped-background-color)
-}
-
-code,
-kbd,
-pre,
-samp {
-    font-size: .875em;
-    font-family: var(--font-family)
-}
-
-pre {
-    -ms-overflow-style: scrollbar;
-    overflow: auto
-}
-
-code,
-kbd,
-pre {
-    border-radius: var(--border-radius);
-    background: var(--code-background-color);
-    color: var(--code-color);
-    font-weight: var(--font-weight);
-    line-height: initial
-}
-
-code,
-kbd {
-    display: inline-block;
-    padding: .375rem .5rem
-}
-
-pre {
-    display: block;
-    margin-bottom: var(--spacing);
-    overflow-x: auto
-}
-
-pre>code {
-    display: block;
-    padding: var(--spacing);
-    background: 0 0;
-    font-size: 14px;
-    line-height: var(--line-height)
-}
-
-code b {
-    color: var(--code-tag-color);
-    font-weight: var(--font-weight)
-}
-
-code i {
-    color: var(--code-property-color);
-    font-style: normal
-}
-
-code u {
-    color: var(--code-value-color);
-    text-decoration: none
-}
-
-code em {
-    color: var(--code-comment-color);
-    font-style: normal
-}
-
-kbd {
-    background-color: var(--code-kbd-background-color);
-    color: var(--code-kbd-color);
-    vertical-align: baseline
 }
 
 hr {

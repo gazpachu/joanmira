@@ -105,14 +105,14 @@ These are some technologies and tools that I've been using in the last years.
 ## Experience
 
 ### Global Front-end Engineering Manager
-<span class="tag red-tag">Mar 2020 - Now</span><a class="tag gold-tag" href="http://www.tablecheck.com/en/join/">TableCheck</a><span class="tag blue-tag">Ginza, Tokyo (Japan)</span>
+<span class="project-tag red-tag">Mar 2020 - Now</span><a class="project-tag gold-tag" href="http://www.tablecheck.com/en/join/">TableCheck</a><span class="project-tag blue-tag">Ginza, Tokyo (Japan)</span>
 
 Currently leading TableCheck's front-end team, consisting of 9 engineers of all levels working across 3 different time zones.
 
 Supervised and participated as an individual contributor in the creation of the new booking form, the new global marketing website, the new diner app, the SSO and the merchant portal.
 
 ### Senior Frontend Engineer
-<span class="tag red-tag">Feb 2019 - Mar 2020</span><a class="tag gold-tag" href="http://www.tablecheck.com/en/join/">TableCheck</a><span class="tag blue-tag">Ginza, Tokyo (Japan)</span>
+<span class="project-tag red-tag">Feb 2019 - Mar 2020</span><a class="project-tag gold-tag" href="http://www.tablecheck.com/en/join/">TableCheck</a><span class="project-tag blue-tag">Ginza, Tokyo (Japan)</span>
 
 Successfully led the front-end architecture of insight, TableCheck's data analytics app for the hospitality sector.
 
@@ -125,7 +125,7 @@ The front-end tech stack involved React 16, GraphQL, Apollo, MobX, Flow, Emotion
 CI and code reviews were driven by Gitlab and the back-end involved Amazon AWS, RedShift, Elixir, K8S and other technologies to manage millions of records related with customers' reservations, revenue data, sms messages, surveys data, etc.
 
 ### Agile Prototyping Analyst
-<span class="tag red-tag">Mar 2016 - Feb 2019</span><a class="tag gold-tag" href="http://vodafone.com">Vodafone Global Enterprise</a><span class="tag blue-tag">Newbury (UK) & Alicante (Spain)</span>
+<span class="project-tag red-tag">Mar 2016 - Feb 2019</span><a class="project-tag gold-tag" href="http://vodafone.com">Vodafone Global Enterprise</a><span class="project-tag blue-tag">Newbury (UK) & Alicante (Spain)</span>
 
 * Conceptualised, designed, built, tested and supported web apps (mostly SPAs) for the sales & digital operations of the Vodafone Global Enterprise division. Some of them were intended to aid the sales team with the visualisation of the pipeline, revenue and sales forecast, data quality, sales opportunities and other data related with performance. Others were more related with internal comms, problem solving and HR.
 
@@ -148,7 +148,7 @@ CI and code reviews were driven by Gitlab and the back-end involved Amazon AWS, 
 ![](/cv/images/vodafone-home-desk.jpg "My home desk except in winter season :-)")
 
 ### Senior interactive developer
-<span class="tag red-tag">Jul 2013 - Nov 2015</span><a class="tag gold-tag" href="http://sapientnitro.com">SapientNitro</a><span class="tag blue-tag">Spitalfields, London (UK)</span>
+<span class="project-tag red-tag">Jul 2013 - Nov 2015</span><a class="project-tag gold-tag" href="http://sapientnitro.com">SapientNitro</a><span class="project-tag blue-tag">Spitalfields, London (UK)</span>
 
 [SapientNitro](http://sapientnitro.com) was the number #1 digital agency in the UK at the time of my tenure. It's also a division of [Sapient corporation](http://www.sapient.com/), which belongs to the [Publicis group](http://www.publicisgroupe.com/).
 
@@ -196,7 +196,7 @@ SapientNitro has lead M&S through quite literally the biggest multi-channel reta
 ![](/cv/images/sapient-toys.jpg "We had many toys...")
 
 ### Creative Technologist
-<span class="tag red-tag">Aug 2012 - Jun 2013</span><a class="tag gold-tag" href="http://www.wcrs.com">WCRS</a><span class="tag blue-tag">Oxford Circus, London (UK)</span>
+<span class="project-tag red-tag">Aug 2012 - Jun 2013</span><a class="project-tag gold-tag" href="http://www.wcrs.com">WCRS</a><span class="project-tag blue-tag">Oxford Circus, London (UK)</span>
 
 [WCRS](http://www.wcrs.com) belongs to the [Engine Group](http://www.theenginegroup.com), which was the number #5 digital agency in the UK at the time of my tenure.
 
@@ -232,7 +232,7 @@ UPDATE: the articles are no longer available at WCRS' blog, so I published them 
 ![](/cv/images/wcrs-tech-team.jpg "My co-worker, Silvia Rebelo, showing our new Tech Team area")
 
 ### Digital developer
-<span class="tag red-tag">Feb 2011 - Sep 2012</span><a class="tag gold-tag" href="http://www.roh.org.uk">Royal Opera House</a><span class="tag blue-tag">Covent Garden, London (UK)</span>
+<span class="project-tag red-tag">Feb 2011 - Sep 2012</span><a class="project-tag gold-tag" href="http://www.roh.org.uk">Royal Opera House</a><span class="project-tag blue-tag">Covent Garden, London (UK)</span>
 
 I joined the newly created development team under the digital media department with a very important objective: to completely rebuild the [ROH website](http://www.roh.org.uk/) from scratch. A business critical project that required a major overhaul in the ticketing system, server infrastructure, information architecture, user experience, content management and online shop to match the high standards of the organisation.
 
@@ -256,7 +256,7 @@ Relevant articles:
 [Read the full ROH case study](/roh)
 
 ### Co-founder, CTO & Web developer
-<span class="tag red-tag">Sep 2006 - Jul 2012</span><a class="tag gold-tag" href="http://www.webmarket.es">Webmarket S.C.</a><span class="tag blue-tag">Alicante (Spain)</span>
+<span class="project-tag red-tag">Sep 2006 - Jul 2012</span><a class="project-tag gold-tag" href="http://www.webmarket.es">Webmarket S.C.</a><span class="project-tag blue-tag">Alicante (Spain)</span>
 
 Co-founded a small digital agency specialised in design and development of multimedia applications and websites based on [Adobe Flash (AS2)](http://help.adobe.com/en_US/AS2LCR/Flash_10.0/help.html), [MdM Zinc](http://www.multidmedia.com/software/zinc/), [Wordpress](https://wordpress.org/) and front-end technologies.
 
@@ -271,24 +271,24 @@ Some of the bespoke products we created:
 We also provided [web hosting](http://en.wikipedia.org/wiki/Web_hosting_service) with [cPanel](http://cpanel.com/)/[WHMCS](http://www.whmcs.com/) and [digital marketing](http://en.wikipedia.org/wiki/Digital_marketing) services to our clients (mainly [SMEs](http://en.wikipedia.org/wiki/Small_and_medium-sized_enterprises)) and collaborated with other freelance designers, developers and agencies in Spain.
 
 ### Web design teacher
-<span class="tag red-tag">Feb 2009 - May 2009</span><a class="tag gold-tag" href="https://www.esuma.com/">ESUMA</a><span class="tag blue-tag">Alicante (Spain)</span>
+<span class="project-tag red-tag">Feb 2009 - May 2009</span><a class="project-tag gold-tag" href="https://www.esuma.com/">ESUMA</a><span class="project-tag blue-tag">Alicante (Spain)</span>
 
 Web design teacher in the Master of Marketing and Advertising of ESUMA
 
 ### Joomla web designer / developer
-<span class="tag red-tag">Mar 2008 - Sep 2008</span><a class="tag gold-tag" href="http://www.webempresa.com">Webempresa</a><span class="tag blue-tag">Barcelona (Spain)</span>
+<span class="project-tag red-tag">Mar 2008 - Sep 2008</span><a class="project-tag gold-tag" href="http://www.webempresa.com">Webempresa</a><span class="project-tag blue-tag">Barcelona (Spain)</span>
 
 Web development and design using Dreamweaver, Fireworks, Photoshop, Joomla CMS, Joomla Components, HTML, CSS, PHP, MySQL, JavaScript and Google Apps.
 
 Some of the projects I worked on include: [Escuela de cocina Hoffman](http://www.hofmann-bcn.com/), [Hoyesarte.com](http://www.hoyesarte.com/), [Gimnasio femenino 30 minutos](http://www.30minutos.net/), Aarcs, [Altair consultores](http://www.altair-consultores.com/), [Aurall](http://www.aurall.com/), Aitor Aurrekoetxea, [Baldirialeu](http://complexbaldirialeu.com/), Dimas, BGT Musics, [Fama Systems](http://www.fama-systems.com/), [Geograma](http://www.geograma.com/en/), Infolimpieza, Lluisa Sallent, Lodisoft, LOPDYA, Segurodelhogar, Torques, Noelia Compte, Trabajos y reformas, Mongrafic, Norma3, NRC Courier, Orbitel, Lexicos traducciones, Agrocesped, ByPerson, Circulo hostelero, Training home,...
 
 ### Web designer / developer
-<span class="tag red-tag">Sep 2001 - Sep 2006</span><span class="tag gold-tag">Freelance</span><span class="tag blue-tag">Múltiple locations</span>
+<span class="project-tag red-tag">Sep 2001 - Sep 2006</span><span class="project-tag gold-tag">Freelance</span><span class="project-tag blue-tag">Múltiple locations</span>
 
 Freelance web design and development for local [SMEs](http://en.wikipedia.org/wiki/Small_and_medium-sized_enterprises) using [Frontpage](http://en.wikipedia.org/wiki/Microsoft_FrontPage), [Photoimpact](http://en.wikipedia.org/wiki/Ulead_PhotoImpact), [Sound Forge](http://en.wikipedia.org/wiki/Sound_Forge), [Power Director](http://www.cyberlink.com/downloads/trials/powerdirector-ultra/download_en_US.html), [Premiere](http://en.wikipedia.org/wiki/Adobe_Premiere_Pro), [Dreamweaver](http://en.wikipedia.org/wiki/Adobe_Dreamweaver), [Fireworks](http://en.wikipedia.org/wiki/Fireworks), [Photoshop](http://en.wikipedia.org/wiki/Adobe_Photoshop), [Freehand](http://en.wikipedia.org/wiki/Adobe_FreeHand), [Flash](http://en.wikipedia.org/wiki/Adobe_Flash), [ActionScript](http://en.wikipedia.org/wiki/ActionScript) 1 and 2, XML, HTML, CSS, PHP, MySQL, JavaScript and [PHP-Nuke](http://en.wikipedia.org/wiki/PHP-Nuke).
 
 ### Software Engineer
-<span class="tag red-tag">Sep 2003 - Jul 2005</span><span class="tag gold-tag">Slater Software Laboratories S.L.</span><span class="tag blue-tag">Cuzco, Madrid (Spain)</span>
+<span class="project-tag red-tag">Sep 2003 - Jul 2005</span><span class="project-tag gold-tag">Slater Software Laboratories S.L.</span><span class="project-tag blue-tag">Cuzco, Madrid (Spain)</span>
 
 Participated in the development of three desktop applications for real-time TV production, from initial conceptualisation to final development (HP business partner). Based on [C++](http://en.wikipedia.org/wiki/C%2B%2B), [QT](http://www.qt.io/), [DirectX](http://en.wikipedia.org/wiki/DirectX) 9 and other API’s.
 
@@ -299,51 +299,51 @@ Solid experience in C++ OO programming, QT 3.2, DirectX 9 (DirectMusic, DirectAu
 Working experience in DSP (Sound effects, spectrum analysers, Oscilloscopes, sound editing programming, multi Channel (I/O) audio engines.
 
 ### IT computer technician
-<span class="tag red-tag">Oct 2001 - Jul 2002</span><span class="tag gold-tag">PC City Sverige AB</span><span class="tag blue-tag">Alicante (Spain)</span>
+<span class="project-tag red-tag">Oct 2001 - Jul 2002</span><span class="project-tag gold-tag">PC City Sverige AB</span><span class="project-tag blue-tag">Alicante (Spain)</span>
 
 IT support for customers and custom builds of desktop computers
 
 ### CTO & Network Administrator
-<span class="tag red-tag">Sep 2001 - Nov 2001</span><span class="tag gold-tag">Times Cafe</span><span class="tag blue-tag">Alicante (Spain)</span>
+<span class="project-tag red-tag">Sep 2001 - Nov 2001</span><span class="project-tag gold-tag">Times Cafe</span><span class="project-tag blue-tag">Alicante (Spain)</span>
 
 Designed a technical implementation for a local area network in a cyber coffee shop. Purchased the equipment and software. Installed all the machines and programs. Managed the day to day computer rental operations and maintenance.
 
 ### Junior web designer / developer
-<span class="tag red-tag">May 2001 - Aug 2001</span><span class="tag gold-tag">Grupo Odessa S.L.</span><span class="tag blue-tag">San Juan, Alicante (Spain)</span>
+<span class="project-tag red-tag">May 2001 - Aug 2001</span><span class="project-tag gold-tag">Grupo Odessa S.L.</span><span class="project-tag blue-tag">San Juan, Alicante (Spain)</span>
 
 Built websites for [SMEs](http://en.wikipedia.org/wiki/Small_and_medium-sized_enterprises) using XHTML, CSS, Flash 5, Photoshop and Javascript
 
 ### Computer technician
-<span class="tag red-tag">Jan 2000 - May 2000</span><span class="tag gold-tag">BEEP</span><span class="tag blue-tag">Alicante (Spain)</span>
+<span class="project-tag red-tag">Jan 2000 - May 2000</span><span class="project-tag gold-tag">BEEP</span><span class="project-tag blue-tag">Alicante (Spain)</span>
 
 IT support for customers, retail assistant and custom builds of desktop computers
 
 ### Computer technician
-<span class="tag red-tag">Oct 1999 - Jan 2000</span><span class="tag gold-tag">Necomplus</span><span class="tag blue-tag">Alicante (Spain)</span>
+<span class="project-tag red-tag">Oct 1999 - Jan 2000</span><span class="project-tag gold-tag">Necomplus</span><span class="project-tag blue-tag">Alicante (Spain)</span>
 
 IT support to update the company software installed on the customers machines to avoid the “Y2K effect”.
 
 ## Education
 
 ### BA & Sc in Multimedia, minor in web engineering (4 years)
-<span class="tag red-tag">Oct 2006 - 2017</span><a class="tag gold-tag" href="http://www.uoc.edu">Universitat Oberta de Catalunya</a><span class="tag blue-tag">Online (4 years, 240 ECTS)</span>
+<span class="project-tag red-tag">Oct 2006 - 2017</span><a class="project-tag gold-tag" href="http://www.uoc.edu">Universitat Oberta de Catalunya</a><span class="project-tag blue-tag">Online (4 years, 240 ECTS)</span>
 
 Homologated in the EU. Euro-Inf certified. 60 ECTS = 1700 hours
 
 Multimedia foundations, Video, English I, II, Programming, Mathematics I, II, Interactive narrative, Information architecture, Administration and management of organisations, Languages ​​and Web Standards, Graphic Design, Image and visual language, Web Programming, 3D graphics, Physics, Animation, Design of interfaces, Integrating digital content, Networks, Database Design, Interactive Media, Processing and publication of image and video, Audio editing and publishing, Digital composition, Project Management, Market and legislation, Methodology and project development, Creativity and aesthetics, Digital Photography, Advanced Web Programming, Safety and quality in web servers, User Testing, Usability, Virtual Reality, Interaction Design, Content Management Systems, Publication and distribution platforms, Audiovisual documentation, Software Engineering, OO Design and programming, Analysis and design patterns, Entrepreneurship of organisations.
 
 ### Certificate in profesional videogames creation (1 year)
-<span class="tag red-tag">Oct 2002 - Jun 2003</span><a class="tag gold-tag" href="http://www.upf.edu/en/">Universitat Pompeu Fabra</a><span class="tag blue-tag">Barcelona (Spain)</span>
+<span class="project-tag red-tag">Oct 2002 - Jun 2003</span><a class="project-tag gold-tag" href="http://www.upf.edu/en/">Universitat Pompeu Fabra</a><span class="project-tag blue-tag">Barcelona (Spain)</span>
 
 C++, OpenGL, Direct3D, Quadtree, Octree, PVS, Clipping with LOD’s, BSP’s, Portals, ROAM and 3D Studio SDK, IA (FSM, DFA and FA programming experience. Syncronized IA’s programming using Rules Sytem. Theoretical Knowledge in Boids algorithm and Path Finding A*), Gameplay programming (Coldet), Motion Capture systems, Scripting with LUA, Skeletton animation, Cal3D. Working Knowledge in EAX HD 4.0, BASS, PortAudio and FMOD
 
 ### HND in Computer Science (2 years)
-<span class="tag red-tag">Oct 1998 - Jun 2000</span><a class="tag gold-tag" href="http://iesmarenostrum.edu.gva.es/">Instituto Mare Nostrum</a><span class="tag blue-tag">Alicante (Spain)</span>
+<span class="project-tag red-tag">Oct 1998 - Jun 2000</span><a class="project-tag gold-tag" href="http://iesmarenostrum.edu.gva.es/">Instituto Mare Nostrum</a><span class="project-tag blue-tag">Alicante (Spain)</span>
 
 Pascal, Assembler, Cobol, Delphi, SQL (Access), C, OO programming, Linux, Network Management, Business Administration, English language
 
 ### High School Diploma (3 years)
-<span class="tag red-tag">Oct 1994 - Jun 1997</span><a class="tag gold-tag" href="http://www.iesbahiadebabel.com/">IB Bahía Babel</a><span class="tag blue-tag">Alicante (Spain)</span>
+<span class="project-tag red-tag">Oct 1994 - Jun 1997</span><a class="project-tag gold-tag" href="http://www.iesbahiadebabel.com/">IB Bahía Babel</a><span class="project-tag blue-tag">Alicante (Spain)</span>
 
 ## Courses, events, conferences and certifications
 

@@ -38,41 +38,41 @@ And this is the code we will use:
 
 ```html
 <section>
-    {{#post}}
-        {{content}}
-    {{/post}}
+  {{#post}}
+    {{content}}
+  {{/post}}
 </section>
 
 <main>
-    <div class="work-navigation">
-        <div id="filters" class="button-group">
-            <button class="btn is-checked" data-filter="*">ALL</button>
-            <button class="btn" data-filter=".web">WEB</button>
-            <button class="btn" data-filter=".desktop">DESKTOP</button>
-            <button class="btn" data-filter=".mobile">MOBILE</button>
-            <button class="btn" data-filter=".prototype">PROTOTYPE</button>
-            <button class="btn" data-filter=".installation">INSTALLATION</button>
-            <button class="btn" data-filter=".open-source">OPEN SOURCE</button>
-            <button class="btn" data-filter=".consultancy">CONSULTANCY</button>
-            <button class="btn" data-filter=".design">DESIGN</button>
-            <button class="btn" data-filter=".ux">UX</button>
-            <button class="btn" data-filter=".video">VIDEO</button>
-            <button class="btn" data-filter=".photo">PHOTO</button>
-        </div>
+  <div class="work-navigation">
+    <div id="filters" class="button-group">
+      <button class="btn is-checked" data-filter="*">ALL</button>
+      <button class="btn" data-filter=".web">WEB</button>
+      <button class="btn" data-filter=".desktop">DESKTOP</button>
+      <button class="btn" data-filter=".mobile">MOBILE</button>
+      <button class="btn" data-filter=".prototype">PROTOTYPE</button>
+      <button class="btn" data-filter=".installation">INSTALLATION</button>
+      <button class="btn" data-filter=".open-source">OPEN SOURCE</button>
+      <button class="btn" data-filter=".consultancy">CONSULTANCY</button>
+      <button class="btn" data-filter=".design">DESIGN</button>
+      <button class="btn" data-filter=".ux">UX</button>
+      <button class="btn" data-filter=".video">VIDEO</button>
+      <button class="btn" data-filter=".photo">PHOTO</button>
     </div>
+  </div>
 
-    <div class="work-grid clearfix">
-        <div class="grid-sizer"></div>
-        {{#get "posts" limit="all" include="tags" filter="tag:work+page:true"}}
-            {{#foreach posts}}
-                <a href="/{{slug}}" class="{{tags separator=" " autolink="false"}}">
-                    <div class="work-thumb"></div>
-                    <h2 class="name">{{title}}</h2>
-                    <p class="meta"><span class="date">{{date published_at format="YYYY"}}</span><span class="country">{{#has tag="uk"}}UK{{/has}}{{#has tag="spain"}}Spain{{/has}}{{#has tag="multiple-regions"}}Multiple regions{{/has}}</span></p>
-                </a>
-            {{/foreach}}
-        {{/get}}
-    </div>
+  <div class="work-grid clearfix">
+    <div class="grid-sizer"></div>
+    {{#get "posts" limit="all" include="tags" filter="tag:work+page:true"}}
+      {{#foreach posts}}
+        <a href="/{{slug}}" class="{{tags separator=" " autolink="false"}}">
+          <div class="work-thumb"></div>
+          <h2 class="name">{{title}}</h2>
+          <p class="meta"><span class="date">{{date published_at format="YYYY"}}</span><span class="country">{{#has tag="uk"}}UK{{/has}}{{#has tag="spain"}}Spain{{/has}}{{#has tag="multiple-regions"}}Multiple regions{{/has}}</span></p>
+        </a>
+      {{/foreach}}
+    {{/get}}
+  </div>
 </main>
 ```
 
@@ -80,39 +80,39 @@ The first part of the code will render the content that we enter in the markdown
 
 Finally, in the work-grid block, we are going to use the {{get}} helper to get a collection of posts that have the tag 'work' and are marked as 'page'. That will skip all the normal blog posts and all the pages that don't have the 'work' tag.
 
-Then we are going to loop through the collection (using {{#foreach}} and render a anchor tag with the metadata of each post in the collection. Notice that to render the post tags, we use the helper {{tags}} inside the class attribute of the anchor tag. That is the key point of this approach.
+Then we are going to loop through the collection (using {{#foreach}} and render an anchor tag with the metadata of each post in the collection. Notice that to render the post tags, we use the helper {{tags}} inside the class attribute of the anchor tag. That is the key point of this approach.
 
 The content inside the anchor tag is not enforced. You can style it however you prefer. I'm just rendering the post date and a country string or another depending on the post tags.
 
 ### Step 2. Setup the isotope configuration
 
-Now that our markup is ready, we need to download the [Isotope library](http://isotope.metafizzy.co/) and load it in our page. There are many different ways to do this, depending on what type of task manager you are using, if you are bundling and minifying the code and how your Ghost theme is structured. So I will leave that for you. The only thing to bear in mind is that we need the library to be loaded in the page!
+Now that our markup is ready, we need to download the [Isotope library](http://isotope.metafizzy.co/) and load it on our page. There are many different ways to do this, depending on what type of task manager you are using, if you are bundling and minifying the code and how your Ghost theme is structured. So I will leave that for you. The only thing to bear in mind is that we need the library to be loaded on the page!
 
 Once we are sure that the library is loading, we need to set it up. Once again, the place where you should put the following code, depends on how your theme is structured, but you should have a Javascript file somewhere in your theme that you can use:
 
 ```javascript
 // init Isotope
 var $grid = $('.work-grid').isotope({
-    itemSelector: '.work',
-    percentPosition: true,
-    masonry: {
-        columnWidth: '.grid-sizer'
-    }
+  itemSelector: '.work',
+  percentPosition: true,
+  masonry: {
+    columnWidth: '.grid-sizer'
+  }
 });
 
 // bind filter button click
 $('#filters').on('click', 'button', function() {
-    var filterValue = $(this).attr('data-filter');
-    $grid.isotope({ filter: filterValue });
+  var filterValue = $(this).attr('data-filter');
+  $grid.isotope({ filter: filterValue });
 });
 
 // change is-checked class on buttons
 $('.button-group').each( function(i, buttonGroup) {
-    var $buttonGroup = $(buttonGroup);
-    $buttonGroup.on('click', 'button', function() {
-        $buttonGroup.find('.is-checked').removeClass('is-checked');
-        $(this).addClass('is-checked');
-    });
+  var $buttonGroup = $(buttonGroup);
+  $buttonGroup.on('click', 'button', function() {
+    $buttonGroup.find('.is-checked').removeClass('is-checked');
+    $(this).addClass('is-checked');
+  });
 });
 ```
 
@@ -130,9 +130,9 @@ The next step is to create a few new entries in your Ghost admin panel and prepa
 
 Regarding the thumbnail images that will be used in the Isotope grid, there are at least a couple of options.
 
-The first one (which I didn't use) would be to add a post image using the post sidebar settings in the admin panel. Then you would retrieve that image during the {{foreach}} loop in the 'page-work.hbs' template and render it as an &lt;img> or as a CSS background-image. This option is the best if you only need one image for the thumbnails, no background colours or other stuff and you are not going to use the post image in the portfolio entry page (page.hbs).
+The first one (which I didn't use) would be to add a post image using the post sidebar settings in the admin panel. Then you would retrieve that image during the {{foreach}} loop in the 'page-work.hbs' template and render it as an &lt;img> or as a CSS `background-image`. This option is the best if you only need one image for the thumbnails, no background colors or other stuff and you are not going to use the post image on the portfolio entry page (page.hbs).
 
-The other option would be more time-consuming (in terms of maintenance) but more flexible in terms of presentation. I chose this option because I wanted to have specific CSS for every single thumbnail in my portfolio grid. That means, every time I want to add a new item to my portfolio, I have to manually update my CSS with the project logo. Why did I complicated my life in such way? Just because I wanted to have nice roll-over animations with background changing colours and keep the post image for the page.hbs template :-)
+The other option would be more time-consuming (in terms of maintenance) but more flexible in terms of presentation. I chose this option because I wanted to have specific CSS for every single thumbnail in my portfolio grid. That means, that every time I want to add a new item to my portfolio, I have to manually update my CSS with the project logo. Why did I complicate my life in such a way? Just because I wanted to have nice roll-over animations with background changing colors and keep the post image for the page.hbs template :-)
 
 So, if you just want to display normal project thumbnails as images, I would go with the first option. This way you could add new portfolio items directly from the admin panel without the need to touch a line of code!
 
@@ -142,20 +142,18 @@ We are going to use this template as the base for every new portfolio page:
 
 ```html
 {{#post}}
+  {{#if image}}
+    <section class="hero" style="background-image: url({{image}})"></section>
+  {{/if}}
 
-    {{#if image}}
-        <section class="hero" style="background-image: url({{image}})"></section>
-    {{/if}}
-
-    <main class="content {{#if image}}{{else}}no-hero{{/if}}>
-        <article class="{{post_class}}">
-            <h1 class="post-title">{{{title}}}{{#if tags}}<time datetime="{{date format="YYYY-MM-DD"}}">{{date format='YYYY'}}</time>{{/if}}</h1>
-            <section class="post-content">
-                {{content}}
-            </section>
-        </article>
-    </main>
-
+  <main class="content {{#if image}}{{else}}no-hero{{/if}}>
+    <article class="{{post_class}}">
+      <h1 class="post-title">{{{title}}}{{#if tags}}<time datetime="{{date format="YYYY-MM-DD"}}">{{date format='YYYY'}}</time>{{/if}}</h1>
+      <section class="post-content">
+        {{content}}
+      </section>
+    </article>
+  </main>
 {{/post}}
 ```
 
@@ -169,83 +167,83 @@ In your CSS, add the following styles. I'm not including all the parts that rela
 
 ```css
 .work-grid {
-    .grid-sizer,
-    .work {
-        width: 16.67%;
+  .grid-sizer,
+  .work {
+    width: 16.67%;
 
-        @media screen and (max-width: 1500px) {
-            width: 20%;
-        }
-
-        @media screen and (max-width: 1200px) {
-            width: 25%;
-        }
-
-        @media screen and (max-width: 900px) {
-            width: 33.34%;
-        }
-
-        @media screen and (max-width: 700px) {
-            width: 50%;
-        }
-
-        @media screen and (max-width: 380px) {
-            width: 100%;
-        }
+    @media screen and (max-width: 1500px) {
+      width: 20%;
     }
 
-    .work {
-        position: relative;
-        box-sizing: border-box;
-        float: left;
-        height: 200px;
-        overflow: hidden;
-
-        .work-thumb {
-            position: absolute;
-            height: 100%;
-            width: 100%;
-            background-repeat: no-repeat;
-            background-position: center;
-        }
-
-        .name, .meta {
-            opacity: 0;
-            position: relative;
-            color: white;
-        }
-
-        .name {
-            padding-left: 40px;
-            padding-right: 40px;
-            font-size: 1.5em;
-            white-space: pre-wrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            max-height: 60px;
-
-            @media screen and (max-width: 700px) {
-                font-size: 1.2em;
-                max-height: 70px;
-            }
-        }
-
-        .meta {
-            .date {
-                margin-right: 5px;
-            }
-        }
-
-        /* If you decided to go with option 2 in the previous step,
-           you will need to manually link your portfolio thumbnail CSS
-           by adding a tag with the name of the project */
-        &.project-name {
-            background-color: #c60c30; // this is optional
-            .work-thumb {
-                background-image: url(/assets/work/project-name/logo.png);
-            }
-        }
+    @media screen and (max-width: 1200px) {
+      width: 25%;
     }
+
+    @media screen and (max-width: 900px) {
+      width: 33.34%;
+    }
+
+    @media screen and (max-width: 700px) {
+      width: 50%;
+    }
+
+    @media screen and (max-width: 380px) {
+      width: 100%;
+    }
+  }
+
+  .work {
+    position: relative;
+    box-sizing: border-box;
+    float: left;
+    height: 200px;
+    overflow: hidden;
+
+    .work-thumb {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .name, .meta {
+      opacity: 0;
+      position: relative;
+      color: white;
+    }
+
+    .name {
+      padding-left: 40px;
+      padding-right: 40px;
+      font-size: 1.5em;
+      white-space: pre-wrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-height: 60px;
+
+      @media screen and (max-width: 700px) {
+        font-size: 1.2em;
+        max-height: 70px;
+      }
+    }
+
+    .meta {
+      .date {
+        margin-right: 5px;
+      }
+    }
+
+    /* If you decided to go with option 2 in the previous step,
+        you will need to manually link your portfolio thumbnail CSS
+        by adding a tag with the name of the project */
+    &.project-name {
+      background-color: #c60c30; // this is optional
+      .work-thumb {
+        background-image: url(/assets/work/project-name/logo.png);
+      }
+    }
+  }
 }
 ```
 
