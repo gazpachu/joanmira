@@ -2,6 +2,7 @@
   padding: 0 var(--gutter);
   max-width: var(--content-max-width);
   margin: 0 auto;
+  color: red;
 }
 
 .content h1 {

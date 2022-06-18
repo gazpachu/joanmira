@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 
-require('dotenv').config();
 const { exec } = require('child_process');
 const path = require('path');
 const fs = require('fs-extra');
 const { marked } = require('marked');
-const http = require('http');
-const chokidar = require('chokidar');
+const express = require('express');
+const livereload = require('livereload');
+const connectLiveReload = require('connect-livereload');
 const fm = require('front-matter');
 const Feed = require('feed').Feed;
 const xml = require('xml');
@@ -110,21 +110,6 @@ async function build(folderOrFile) {
     console.log('Updating algolia indexes');
     await safeExecute(async () => await algoliaIndex.saveObjects(algoliaPages));
   }
-}
-
-async function develop(folderOrFile, port) {
-  await build(folderOrFile);
-  const server = startServer(port);
-  const watcher = chokidar.watch(['pages/', 'static/', 'templates/']).on('change', async (path, _) => {
-    console.log(`Detected change in file ${path}. Restarting development server.`);
-    await safeExecute(async () => {
-      exec('cat static/css/[!main]*.css > static/css/main.css');
-      exec('cat static/js/[!main]*.js > static/js/main.js');
-    });
-    server.close();
-    await watcher.close();
-    await develop(path.includes('.md') ? path : folderOrFile, port);
-  });
 }
 
 async function renameFolders(dir, from, to) {
@@ -267,28 +252,40 @@ async function processListingItem(pagePath, listingSlug, category = null, listin
   });
 }
 
+async function develop(folderOrFile, port) {
+  await build(folderOrFile);
+  startServer(port);
+  const liveReloadServer = livereload.createServer();
+  liveReloadServer.server.once("connection", () => {
+    setTimeout(() => {
+      liveReloadServer.refresh("/");
+    }, 100);
+  });
+
+  liveReloadServer.watch(['pages/', 'static/', 'templates/']).on('change', async (path, _) => {
+    console.log(`Detected change in file ${path}. Restarting development server.`);
+    await build(path.includes('.md') ? path : folderOrFile);
+  });
+}
+
 function startServer(port) {
-  console.log(`Development server starting on http://localhost:${port}`)
-  return http
-    .createServer(function (req, res) {
-      const url = req.url;
-      let filePath = url;
-      if (url === '/') {
-        filePath = '/index.html';
-      } else if (!url.includes('.')) {
-        filePath += '/index.html';
-      }
-      fs.readFile('public' + filePath, function (err, data) {
-        if (err) {
-          res.writeHead(404);
-          res.end('<h1>404: Page not found</h1>');
-          return;
-        }
-        res.writeHead(200);
-        res.end(data);
-      });
-    })
-    .listen(port)
+  console.log(`Development server starting on http://localhost:${port}`);
+  const app = express();
+  const router = express.Router();
+  app.use(connectLiveReload());
+  app.use(express.static(path.join(__dirname, 'public')));
+
+  /* GET home page. */
+  router.get("/", function (req, res, next) {
+    res.render("index", { title: "Express" });
+  });
+
+  app.use('/', router);
+
+  // catch 404 and forward to error handler
+  app.use(function (req, res, next) {
+    next(createError(404));
+  });
 }
 
 async function safeExecute(func) {

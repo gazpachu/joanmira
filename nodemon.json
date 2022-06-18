@@ -1,0 +1,11 @@
+{
+  "watch": [
+    "src/pages/",
+    "src/static/",
+    "src/templates/"
+  ],
+  "ext": "*",
+  "events": {
+    "restart": "npm run concat-css && npm run concat-js"
+  }
+}

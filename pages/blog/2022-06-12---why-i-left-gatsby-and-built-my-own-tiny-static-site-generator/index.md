@@ -36,7 +36,7 @@ Arriving at this point, I would like to highlight the fact that, when we are bui
 
 - It's nice to switch gears once in a while and do some NodeJs coding. Although the debugging is not as enjoyable as in the front-end. I still prefer dealing with issues in a browser rather than in the terminal
 
-- You can build a static site generator with [just 12 npm dependencies](https://github.com/gazpachu/joanmira/blob/main/package.json)
+- It is possible to build a full static site generator with [less than 15 npm dependencies](https://github.com/gazpachu/joanmira/blob/main/package.json)
 
 - Being able to build the whole website from scratch is awesome. Knowledge is power. You can tweak everything and just code exactly what you need, which makes the codebase feel much lighter
 

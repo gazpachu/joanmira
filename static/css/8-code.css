@@ -98,7 +98,6 @@ pre[class*=language-] {
 [data-theme="light"] .token.operator,
 [data-theme="light"] .token.url {
   color: #9a6e3a;
-  background: hsla(0, 0%, 100%, .5)
 }
 
 [data-theme="light"] .token.atrule,
