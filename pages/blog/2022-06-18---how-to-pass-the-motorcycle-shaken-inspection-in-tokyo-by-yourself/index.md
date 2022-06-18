@@ -6,7 +6,7 @@ cover: images/cover.jpg
 category: japan
 ---
 
-The vehicle inspection (*shaken* or JCI inspection) is a compulsory inspection for all vehicles on the road in Japan that must be taken every 2 years. If your motorcycle's engine is 400cc or less, then you don't need to worry about the *shaken*. In Spain, this inspection is called ITV, which is mandatory every year once the bike is older than 7 years. In the UK it's called MOT and the process is notoriously easier than in the other two countries. Just bring the bike to your local garage and they'll inspect it in 30 minutes.
+The [motor-vehicle inspection](https://en.wikipedia.org/wiki/Motor-vehicle_inspection_(Japan)) (*shaken* or JCI inspection) is a compulsory inspection for all vehicles on the road in Japan that must be taken every 2 years. If your motorcycle's engine is **less than 250cc**, then you don't need to worry about the *shaken*. In Spain, this inspection is called ITV, which is mandatory every year once the bike is older than 7 years. In the UK it's called MOT and the process is notoriously easier than in the other two countries. Just bring the bike to your local garage and they'll inspect it in 30 minutes.
 
 Last month I had to go through the process of renewing the shaken for my Kawasaki W800 in Tokyo, so I thought it could be a good idea to share my experience. Hopefully, it can help reduce the anxiety of some *gaijins* who, like me, sometimes worry too much about dealing with Japanese administrative duties.
 
@@ -92,7 +92,7 @@ Another tip regarding the garage access: If you are coming from the north, it's 
 
 - In the inspection center, they might ask you if you have a maintenance book. I didn't have one, so it doesn't seem to be mandatory. In any case, it's a good idea to bring an invoice or some paper that shows when you last changed the oil, filter, etc. But, as I said, I didn't have to show anything like this
 
-- If you have changed/modified any part of your bike, bring the paperwork that shows these parts are homologated and compatible with your bike. For example, my bike doesn't have the original exhaust pipes, so I have some papers that show they are similar to the original and they can pass the inspection
+- If you have changed/modified any part of your bike, bring the papers that prove these parts are homologated and compatible with your bike. For example, my bike doesn't have the original exhaust pipes, so I have some papers that show they are similar to the original and they can pass the inspection
 
 ### On the day of the inspection
 
