@@ -8,6 +8,10 @@
   margin-bottom: 20px;
 }
 
+.post h3 {
+  font-weight: 400;
+}
+
 .post .category {
   padding: 0 var(--gutter);
   text-transform: capitalize;

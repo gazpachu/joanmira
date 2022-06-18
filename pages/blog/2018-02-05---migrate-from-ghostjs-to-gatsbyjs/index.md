@@ -16,17 +16,17 @@ Time passed and then I realised I really needed to update my website with new pr
 
 There are other static site generators out there like [NextJS](https://nextjs.org/), or [these other](https://www.netlify.com/blog/2017/05/25/top-ten-static-site-generators-of-2017/). I was interested in Gatsby because it uses GraphQL, a technology I want to learn and it's also based on ReactJS.
 
-## Preparing the migration
+### Preparing the migration
 
 After installing GatsbyJS and exploring a bit how it works, I started researching how could I transfer all my blog posts and static pages into Gatsby's folder structure, with the posts as markdown files and the images stored in subfolders. Luckily enough, there was a kind soul that [built a module](https://github.com/InsidersByte/ghost-to-gatsby) to do exactly that.
 
 The module takes the export file from Ghost and automatically creates the folders for the posts renamed with the post date and the post slug. It then places inside the post in markdown format and downloads the images into an `images` folder. Unfortunately, the module didn't fully download all the images nor produced all the markdown files, but still, I got a lot of the work done for free!
 
-## Finding a starter package
+### Finding a starter package
 
 In the Gatsby community, there are many boilerplates/templates, or how they call it, [starter packages](https://www.gatsbyjs.org/starters/?v=2). There are different approaches for building a new website. You could start it completely from scratch, just using the `gatsby-cli` tool or you could install a starter and then build from there. In my case, I chose the [starter-hero-blog](https://github.com/greglobinski/gatsby-starter-hero-blog), as it already had some features I was interested to learn.
 
-## Start formatting the posts
+### Start formatting the posts
 
 A new concept I learned with Gatsby is the `frontmatter`. The frontmatter is the first section of a book and is generally the shortest; it is also sometimes called the prelims, or preliminary matter. In Gatsby and also in the static site generators world, the frontmatter is the data at the top of the markdown files that is going to be like its `meta data`. So it will contain the name of the featured image, the category the post belongs to, the slug, date, etc. The structure is open, so you can decide what data you want to use.
 
@@ -36,7 +36,7 @@ This part of choosing which meta data to use in all blog posts is quite importan
 
 After the blog posts from Ghost were imported into Gatsby, I've realised that I had to format a bit the `frontmatter`, so this, together with fixing image URLs, cleaning up markup and improving some articles, will take a considerable amount of time, depending of how many posts you have in your website.
 
-## Adding new features
+### Adding new features
 
 In my case, I needed to add a few new things:
 
@@ -46,7 +46,7 @@ In my case, I needed to add a few new things:
 
 Check the [source code](https://github.com/gazpachu/joanmira) if you want to explore how I did these changes.
 
-## Setting up CI/CD and deploying to github pages
+### Setting up CI/CD and deploying to github pages
 
 One of the benefits of moving to a static site generator is that I no longer need to maintain a server by myself. I can just generate the html, css and javascript files and upload them into github pages. That's it!
 

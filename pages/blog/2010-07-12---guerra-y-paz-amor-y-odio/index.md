@@ -27,7 +27,7 @@ Hace un par de días nos cazó un policia mientras haciamos un adelantamiento a 
 
 Ese mismo día Vicente y yo nos perdimos. Mientras yo paraba en el arcén, Vicente adelantaba a un camión y no lo vi pasarme. Al final gracias a los walkis que nos patrocina Midland pudimos volver a encontrarnos. Lo peor es que con las prisas no pude parar en un buen sitio y se ma cayó la moto al suelo. Aún así tuve suerte de que no se cayera por la ladera…
 
-**Algunas cosas curiosas**
+### Algunas cosas curiosas
 
 Me ha sorprendido que en los menús de los restaurantes (aquí los llaman cafés) venga siempre especificado los gramos de los platos. Es muy práctico! El alcohol también lo miden en gramos. Un chupito normal de vodka son 50g. y uno doble 100g.
 

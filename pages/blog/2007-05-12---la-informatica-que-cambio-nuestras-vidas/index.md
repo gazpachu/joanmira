@@ -36,7 +36,7 @@ Para explicar de forma general cada uno de estos nuevos avances, hemos diseñado
 
 ### 1. HARDWARE INFORMÁTICO
 
-#### Memorias Flash. Almacenamiento rápido y transportable.
+### Memorias Flash. Almacenamiento rápido y transportable.
 
 ![memoria.jpg](/blog/la-informatica-que-cambio-nuestras-vidas/images/memorias_upspqg.jpg)
 
@@ -66,7 +66,7 @@ Entre los años 1994 y 1998, se desarrollaron los principales tipos de memoria q
 
 **FUTURO**: El futuro del mundo de la memoria flash es bastante alentador, ya que se tiende a la ubicuidad de las computadoras y electrodomésticos inteligentes e integrados y, por ello, la demanda de memorias pequeñas, baratas y flexibles seguirá en alza hasta que aparezcan nuevos sistemas que lo superen tanto en características como en coste y, al menos en apariencia, no es factible ni siquiera a medio plazo ya que la miniaturización y densidad de las memorias flash está todavía lejos de alcanzar niveles preocupantes desde el punto de vista físico.
 
-#### Fibra óptica. Mecanismos de transmisión de datos
+### Fibra óptica. Mecanismos de transmisión de datos
 
 ![fiber.jpg](/blog/la-informatica-que-cambio-nuestras-vidas/images/fiber_rbsrhb.jpg)
 
@@ -91,7 +91,7 @@ Entre los años 1994 y 1998, se desarrollaron los principales tipos de memoria q
 
 **FUTURO**: En un futuro la mayoría de personas tendrán acceso a la fibra óptica y su coste de instalación será menor. Esto producirá un aumento en las conexiones a Internet y un nuevo concepto en telefonía y televisión.
 
-#### Wi-fi
+### Wi-fi
 
 ![wifi.jpg](/blog/la-informatica-que-cambio-nuestras-vidas/images/wifi_icx0kk.jpg)
 
@@ -114,7 +114,7 @@ Entre los años 1994 y 1998, se desarrollaron los principales tipos de memoria q
 
 **FUTURO**: Ya está en marcha una nueva versión del protocolo (la versión 802.11n) que se espera alcance velocidades de hasta 600Mbps y con un radio de alcance mucho mayor. En el futuro se prevé que las ciudades tendrán garantizado acceso a Internet mediante Wifi desde cualquier punto de la ciudad (como ejemplo, la ciudad de Nuenen, cuna de Van Gogh, en Holanda, ya lo tiene implementado).
 
-#### Escáner
+### Escáner
 
 ![scanner.jpg](/blog/la-informatica-que-cambio-nuestras-vidas/images/scanner_khsbtw.jpg)
 
@@ -139,7 +139,7 @@ Entre los años 1994 y 1998, se desarrollaron los principales tipos de memoria q
 
 **FUTURO**: Entre los dispositivos basados en la tecnología del escáner con mayor futuro encontramos los lectores de huellas dactilares i los escáneres de retina, entre otros.
 
-#### Webcam
+### Webcam
 
 ![webcams.jpg](/blog/la-informatica-que-cambio-nuestras-vidas/images/webcams_ssdicv.jpg)
 
@@ -164,7 +164,7 @@ Entre los años 1994 y 1998, se desarrollaron los principales tipos de memoria q
 
 **FUTURO**: Cada vez más aparatos tecnológicos incluyen cámara y conexión a Internet y además se va mejorando la velocidad de transmisión de datos, lo cual potenciará el uso de videoconferencias como forma de comunicación, ya sea desde el móvil, el ordenador o cualquier otro dispositivo portátil.
 
-#### Bluetooth. Comunicación de dispositivos informáticos
+### Bluetooth. Comunicación de dispositivos informáticos
 
 ![memorias.jpg](/blog/la-informatica-que-cambio-nuestras-vidas/images/memorias_upspqg.jpg)
 
@@ -193,7 +193,7 @@ Se observó que, para que esta tecnología tuviera éxito, se debía dotar de é
 
 ### 2. SOFTWARE INFORMÁTICO
 
-#### MP3 y DIVX. Principales códecs de audio y video
+### MP3 y DIVX. Principales códecs de audio y video
 
 ![divx.jpg](/blog/la-informatica-que-cambio-nuestras-vidas/images/divx_jegse2.jpg)
 
@@ -216,7 +216,7 @@ Se observó que, para que esta tecnología tuviera éxito, se debía dotar de é
 
 **FUTURO**: En este sector es impredecible conocer hacia dónde se decantará esta lucha entre piratería e industrias cinematrográficas y musicales, cada vez se pactan nuevas leyes en contra de la piratería pero sin mucho efecto aparentemente. Podemos suponer que se crearan otras formas de almacenamiento de imagen y sonido y que probablemente paralelamente se crearan también sus respectivos codecs, cada vez con una calidad superior.
 
-#### Messenger y VOIP. Comunicación en tiempo real utilizando ordenadores
+### Messenger y VOIP. Comunicación en tiempo real utilizando ordenadores
 
 ![messenger.jpg](/blog/la-informatica-que-cambio-nuestras-vidas/images/messenger_drnkad.jpg)
 
@@ -240,7 +240,7 @@ Se observó que, para que esta tecnología tuviera éxito, se debía dotar de é
 
 **FUTURO**: Parece ser que estos programas se decantan cada vez más a integrar los programas de mensajería instantánea con los P2P, se estudia la posibilidad de introducir el uso del PayPal con estos programas.
 
-#### Peer To Peer. Redes de intercambio de archivos como Napster, Edonkey, Kademlia, Gnutella o BitTorrent
+### Peer To Peer. Redes de intercambio de archivos como Napster, Edonkey, Kademlia, Gnutella o BitTorrent
 
 ![emule.jpg](/blog/la-informatica-que-cambio-nuestras-vidas/images/emule_ntafv0.jpg)
 
@@ -265,7 +265,7 @@ Se observó que, para que esta tecnología tuviera éxito, se debía dotar de é
 
 **FUTURO**: A lo largo de la historia, las demandas han llevado a los usuarios a cambiar a programas P2P con tecnologías más difíciles de detener y el número de usuarios no ha disminuido. El fenómeno de Internet y su constante evolución obligará a las productoras de cine y música a cambiar su modelo de negocio.
 
-#### Blogging, Comunidades Sociales. Evolución a Internet 2.0
+### Blogging, Comunidades Sociales. Evolución a Internet 2.0
 
 ![youtube.jpg](/blog/la-informatica-que-cambio-nuestras-vidas/images/youtube_fwmlui.jpg)
 
@@ -289,7 +289,7 @@ Se observó que, para que esta tecnología tuviera éxito, se debía dotar de é
 
 **FUTURO**: El futuro de Internet a la denominada “Internet 2.0” y algunos ya hablan de “Internet 3.0”, pasa por una mayor implicación de los usuarios en Internet. Las redes sociales seguirán estando presentes y evolucionarán al mismo tiempo que Internet.
 
-#### E-Commerce y Publicidad Online. Compra-Venta en Internet. Aplicaciones bancarias
+### E-Commerce y Publicidad Online. Compra-Venta en Internet. Aplicaciones bancarias
 
 ![paypal.jpg](/blog/la-informatica-que-cambio-nuestras-vidas/images/paypal_xnh6tn.jpg)
 
@@ -313,7 +313,7 @@ Se observó que, para que esta tecnología tuviera éxito, se debía dotar de é
 
 ### 3. OTRAS APLICACIONES DE LA INFORMÁTICA
 
-#### GPS (Global Positioning System)
+### GPS (Global Positioning System)
 
 ![gps.jpg](/blog/la-informatica-que-cambio-nuestras-vidas/images/gps_yasy9i.jpg)
 
@@ -338,7 +338,7 @@ Se observó que, para que esta tecnología tuviera éxito, se debía dotar de é
 
 **FUTURO**: En los próximos años entrará en funcionamiento la red europea de satélites GALILEO, que también ofrecerá servicio de posicionamiento. Además, cada vez se incorporan más receptores GPS tanto en teléfonos móviles como en ordenadores portátiles y PDAs.
 
-#### Home Media Center. La informática como centro del hogar
+### Home Media Center. La informática como centro del hogar
 
 ![mediacenter.jpg](/blog/la-informatica-que-cambio-nuestras-vidas/images/mediacenter_wt8jhq.jpg)
 
@@ -361,7 +361,7 @@ Se observó que, para que esta tecnología tuviera éxito, se debía dotar de é
 **SITUACIÓN**: Aunque todavía no es habitual, su uso está en pleno auge, cada vez son más las marcas que apuestan por estos equipos destinados a colocar la informática como centro del hogar. Aunque en España todavía no son demasiado conocidos, en otros países como EE.UU. y U.K. cada ves son más populares.
  FUTURO: Posiblemente, en un futuro cercano, todas las viviendas estaran equipadas con un media center que también cumplirá las funciones de ordenador personal cuando sea necesario.
 
-#### Consolas de videojuegos
+### Consolas de videojuegos
 
 ![wee.jpg](/blog/la-informatica-que-cambio-nuestras-vidas/images/wee_vyqnbz.jpg)
 

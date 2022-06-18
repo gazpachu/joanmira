@@ -130,7 +130,7 @@ You can repeat this process for additional usernames. You can see how the userna
 
 `cat /etc/nginx/.htpasswd`
 
-#### Configure Nginx password authentication
+### Configure Nginx password authentication
 
 Now that we have a file with our users and passwords in a format that Nginx can read, we need to configure Nginx to check this file before serving our protected content.
 
@@ -179,7 +179,7 @@ The -g option tells npm to install the module globally, so that it's available s
 
 PM2 is simple and easy to use. We will cover a few basic uses of PM2.
 
-#### Start Application
+### Start Application
 
 The first thing you will want to do is use the pm2 start command to run your application, hello.js, in the background:
 
@@ -216,7 +216,7 @@ The startup subcommand generates and configures a startup script to launch PM2 a
 
 This will create a systemd unit which runs pm2 for your user on boot. This pm2 instance, in turn, runs 'npm start'
 
-#### Other PM2 Usage (Optional)
+### Other PM2 Usage (Optional)
 
 PM2 provides many subcommands that allow you to manage or look up information about your applications. Note that running pm2 without any arguments will display a help page, including example usage, that covers PM2 usage in more detail than this section of the tutorial.
 

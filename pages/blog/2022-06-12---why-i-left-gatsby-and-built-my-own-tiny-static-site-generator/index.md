@@ -14,7 +14,7 @@ The main problem with having lots of code is that we have to maintain it! Someon
 
 Therefore, the time we think we save by relying on external OSS packages starts to fade away. Don't get me wrong, I support the use of OSS. What I mean is that, instead of consuming OSS as if we are living on a permanent food buffet, we should be mindful and choose carefully the dependencies to import. Because the more we decide to include in our project, the more time we will need to invest in the code maintenance and the more bloated our JS bundles will be.
 
-## The busy blogger use case
+### The busy blogger use case
 
 Since I arrived in Japan, around 3.5 years ago, I've been very busy. My job is quite intellectually demanding - as with many other people in IT - and after at least 8 hours of solving complex problems, there's not a lot of room left in the brain for squeezing new creative ideas. If we add up the fact that I'm going to Japanese school three times a week and have to memorize kanji strokes in the proper order, then the neurons left for the day can only handle a very shallow Netflix show.
 
@@ -22,13 +22,13 @@ I think you get where I'm going. Yes, I haven't been updating this blog very oft
 
 After 3 years of not updating the codebase of this website, you can imagine how outdated all the Gatsby dependencies and plugins were. I tried to upgrade. I promise. But at some point, I just felt like it'd be better to start again from scratch. And that's what I did.
 
-## A new beginning with a tiny approach
+### A new beginning with a tiny approach
 
 This is how one day, looking around for small static site generators, I stumbled upon [Teeny](https://github.com/yakkomajuri/teeny) and [PicoCSS](http://picocss.com/). After testing them a bit, I made up my mind. This is it. I'm gonna fork them and start building my static site generator. The idea of teeny was very similar to what I had in mind. Just use NodeJS to build HTML pages from markdown files. Who cares about graphQL for a website like this? At the same time, I also wanted to use CSS variables and forget about any JS framework like React. The main idea was to keep the dependencies as low as possible so that in the future I wouldn't need to keep migrating or updating the codebase for features that I don't need.
 
 Arriving at this point, I would like to highlight the fact that, when we are building apps, **we should always focus on what the user needs and wants**. In this particular case, I am also a user, since I'm the one writing the stories on the blog and updating the content of the other pages. If I don't have a good UX and DX, then nothing is going to happen and the app or website is going to die. Therefore, the teaching here is that **technology shouldn't be above the user's needs or the primary goal of the project**. In the same way that a guitar or a drumset shouldn't be more important than creating the music itself!
 
-## What have I learned from this experience?
+### What have I learned from this experience?
 
 - I've been using markdown for content since I moved years ago from WordPress to Ghost. This approach still feels right. It's very flexible. You can add HTML code when you need it and keep the content clean when you don't
 
@@ -36,7 +36,7 @@ Arriving at this point, I would like to highlight the fact that, when we are bui
 
 - It's nice to switch gears once in a while and do some NodeJs coding. Although the debugging is not as enjoyable as in the front-end. I still prefer dealing with issues in a browser rather than in the terminal
 
-- You can build a static site generator with [just 12 npm dependencies](https://github.com/gazpachu/joanmira/blob/main/package.json)
+- It is possible to build a static site generator with [less than 15 npm dependencies](https://github.com/gazpachu/joanmira/blob/main/package.json)
 
 - Being able to build the whole website from scratch is awesome. Knowledge is power. You can tweak everything and just code exactly what you need, which makes the codebase feel much lighter
 
@@ -56,7 +56,7 @@ Arriving at this point, I would like to highlight the fact that, when we are bui
 
 - I've also improved the Algolia search results, the homepage content, the 404 page and the footer styles
 
-## How does the SSG work?
+### How does the SSG work?
 
 The whole website generation logic is concentrated in a single file called `cli.js`. It is less than 500 lines of code. Hopefully, it can be even further reduced with some improvements. There is just another extra script called `images.js` for generating the mobile-optimized and WebP images.
 
@@ -78,7 +78,7 @@ When we trigger the build process with `npm run build`, first the script starts 
 
 The most important function is `processPage`. This is the one in charge of loading the correct template (specified in the markdown front matter) and adding the different bits and bobs to the output HTML. Also, if the page to process is a listing page, like the blog index or a blog category page, then it does some recursive logic to get all the list items.
 
-## A work in progress and ideas for the future
+### A work in progress and ideas for the future
 
 Something that I'm considering doing is implementing a very basic admin mode (CMS) to be able to publish/edit stories from a website, rather than from the code editor. It can be useful when I want to write a story on my mobile phone. This admin mode would have to connect with the Github API to allow the website to write/edit files in the repository, so that's something to think about in the future.
 
@@ -88,7 +88,7 @@ I will keep pushing new code in the next weeks or when I get some time. At the m
 
 <a class="btn github" role="button" href="https://github.com/gazpachu/joanmira" target="_blank">Source Code</a>
 
-**UPDATE 16 Jun 2022**
+### Update on 16 Jun 2022
 
 I've added [EJS](https://ejs.co/) to be able to handle dynamic data in the templates and now the code is much better organized and reduced to around 300 lines. Hot reloading is almost working. The only part remaining about it is to refresh the browser.
 

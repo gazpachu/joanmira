@@ -7,8 +7,6 @@ category: literature
 lang: es
 ---
 
-He de reconocer que no soy un gran lector. No quiero poner excusas, pero mi generación ha tenido muchas distracciones: ordenadores, videojuegos, Internet, televisión,...
-
 Aunque no haya leído todo lo que me habría gustado (algo que quiero poner remedio), soy un gran defensor de la literatura. Es sin lugar a dudas el mejor medio para aprender (en general) **de forma profunda** sobre muchos temas. Los grandes pensadores, artistas e intelectuales son todos amantes de los libros. ¿Eso tiene que significar algo, verdad?
 
 ¿No te has parado a pensar nunca, el grandísimo trabajo que hay detrás de un libro? A veces es el trabajo de toda una vida el que acaba condensado en un libro. De forma que, cuando lo leemos, estamos adquiriendo (de forma resumida) el conocimiento de la persona que lo escribió. Esa es la grandeza de los libros. Es como cuando en la película Matrix, a Neo le enchufaban la cabeza a un cable y le empezaban a cargar programas de artes marciales...

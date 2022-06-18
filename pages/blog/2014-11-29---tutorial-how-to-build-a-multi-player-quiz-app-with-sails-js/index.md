@@ -18,7 +18,7 @@ category: work
 <a class="btn external" role="button" href="http://quizwars.herokuapp.com/" target="_blank">Launch QuizWars App</a>
 <a class="btn github" role="button" href="https://github.com/gazpachu/quizwars" target="_blank">Source code</a>
 
-## 1. Introduction
+### 1. Introduction
 
 This tutorial intends to explain how to build a game like <a href="http://quizwars.herokuapp.com/">Quiz Wars</a> with the MVC <a href="http://sailsjs.org/">Sails.js</a> framework. <a href="http://quizwars.herokuapp.com/">Quiz Wars</a> is a real time multi-player responsive web app to solve quizzes. The aim is to be the quickest answering quiz questions and win against other players. It has been developed trying to follow the <a href="http://bp.sapient-lab.com/">Sapient Dev Standards</a> as much as possible, with a mobile first approach in mind and a module pattern structure for the frontend. Currently it's in early development stages, but the main user journey to enter and finish a quiz with other players is working in any browser/device.
 
@@ -54,7 +54,7 @@ This tutorial intends to explain how to build a game like <a href="http://quizwa
 
 This tutorial assumes that the reader feels comfortable coding with Javascript, JSON files, HTML. LESS and jQuery.
 
-## 2. About Sails.js
+### 2. About Sails.js
 
 Sails is an MVC framework to manage the whole development pipeline of an application (frontend and backend). It makes it easy to build custom, enterprise-grade Node.js apps. It is designed to emulate the familiar MVC pattern of frameworks like Ruby on Rails, but with support for the requirements of modern apps: data-driven APIs with a scalable, service-oriented architecture. It's especially good for building chat, realtime dashboards, or multiplayer games; but you can use it for any web application project - top to bottom. These are some of its features:
 
@@ -66,7 +66,7 @@ Sails is an MVC framework to manage the whole development pipeline of an applica
 - **Frontend agnostic**: Sails is designed to be compatible with any frontend strategy; whether it's Angular, Backbone, iOS/ObjC, Android/Java, Windows Phone, or something else entirely
 - **Flexible asset pipeline**: Sails ships with Grunt- which means your entire frontend asset workflow is completely customizable
 
-## 3. Sails.js installation
+### 3. Sails.js installation
 
 <a href="http://quizwars.herokuapp.com/">Quiz Wars</a> is based on <a href="http://https//github.com/balderdashy/sails">Sails v0.10</a>. Simply <a href="http://sailsjs.org/#/getStartedhttp://">follow the official Sails.js tutorial</a> to install Node.js in your preferred operating system.
 
@@ -90,7 +90,7 @@ Once we have all the files and the dependencies downloaded, we can proceed to st
 
 At this point, if you visit [http://localhost:1337](http://localhost:1337) you will see the Quiz Wars running or the default home page if you created a new project
 
-## 4. Sails.js folder structure
+### 4. Sails.js folder structure
 
 <div class="left">
   <img src="/blog/tutorial-how-to-build-a-multi-player-quiz-app-with-sails-js/images/folder-structure_fqfmgc.png" alt="folder-structure" width="178" height="399" />
@@ -133,15 +133,15 @@ module.exports.routes = {
 };
 ```
 
-## 5. Flow diagram
+### 5. Flow diagram
 
 ![](/blog/tutorial-how-to-build-a-multi-player-quiz-app-with-sails-js/images/quiz-wars-flow-diagram_bggdcc.png)
 
-## 6. Architecture diagram
+### 6. Architecture diagram
 
 ![](/blog/tutorial-how-to-build-a-multi-player-quiz-app-with-sails-js/images/quiz-wars-architecture-diagram_ipzw4b.png)
 
-## 7. The sitemap, layout and the views
+### 7. The sitemap, layout and the views
 
 Whenever I build a new project, the first thing that comes to my mind is the sitemap. This elemental document is very important to create a picture in your mind of how is going to be the user journey and how the pages are interconnected. In Quiz Wars, the sitemap is very simple. There are only two views/pages, "index" and "quiz". The user journey consists on logging into the system or signing up as a new user. Then you get redirected to the quiz page, where you will remain until the end of your session.
 
@@ -178,7 +178,7 @@ The views make use of <strong>"/view/layout.ejs"</strong>, which is the template
 
 The layout support is only implemented for the EJS view engine. If you prefer to use a different engine (jade, handlebars, mustache underscore, etc), you can change it in "**/config/views.js**".
 
-## 8. The homepage
+### 8. The homepage
 
 The homepage contains just two classic HTML forms for logging in the user or sign him up. The only usual logic is the evaluation of the session to determine if the user is already logged in:
 
@@ -196,7 +196,7 @@ Another aspect I would like to highlight is the form validation taken care by <a
 
 Note: currently there's no error reporting when the user tries to login with the wrong username/password.
 
-## 9. The quiz page
+### 9. The quiz page
 
 The markup is quite straight forward. There are **three panels**: the score table `<div id="players-panel"></div>`, the quiz panel `<div id="quiz-panel"></div>` and the chat panel `<div id="chat-panel"></div>`. Again, we only display the contents if the user has an active session, otherwise the user will see the message *You are not logged in*.
 
@@ -211,7 +211,7 @@ The quiz dropdown contains the names of the JSON files as values:
 
 And the button to restart the quiz, which has a simple page reload: `onClick="window.location.reload()"`
 
-## 10. The User Model
+### 10. The User Model
 
 In an MVC framework, we have models, views and controllers. The models allow us to define the logic that will interact with our DB. Sails.js uses an ORM (although they prefer to call it "a brand new kind of storage and retrieval engine") called <a href="https://github.com/balderdashy/waterline">Waterline.</a> It provides a uniform API for accessing stuff from different kinds of databases, protocols, and 3rd party APIs. That means you write the same code to get and store things like users, whether they live in Redis, mySQL, LDAP, MongoDB, or Postgres. Waterline strives to inherit the best parts of ORMs like ActiveRecord, Hibernate, and Mongoose, but with a fresh perspective and emphasis on modularity, testability, and consistency across adapters.
 
@@ -296,7 +296,7 @@ The "signup" method uses a node module called "password-hash". This module creat
 
 The "attemptLogin" method tries to find a user in the DB with the same email address as the one passed as a parameter. Notice that the error handling is not included in the model. That's a job for the controller...
 
-## 11. The User Controller
+### 11. The User Controller
 
 The User controller encapsulates all the application logic between the homepage and quiz page and the User model. All its methods, either call the model to perform a query in the DB, or call a response or emit a socket event. Let's see them a bit more in detail:
 
@@ -424,7 +424,7 @@ module.exports = {
 };
 ```
 
-## 12. The login response
+### 12. The login response
 
 Why do we need to separate this logic from the controller? This might be the first question that comes to your mind and  in many cases, that would actually be preferable.  This example uses a "fat" custom response to demonstrate how we could do it if for instance, we need the backend to support multiple user roles, with different login behaviour. We might need to send back a few different kinds of success/failure codes, with different messages based on the outcome. In that case, it would be most sensible to create a custom version of the logic here rather than in the relevant controller action.
 
@@ -481,7 +481,7 @@ module.exports = function login(inputs) {
 };
 ```
 
-## 13. The socket.js config file
+### 13. The socket.js config file
 
 The file located at `/config/socket.js` is being used to find out if a user has already a session created. Let's say you sign up in the page and you have a socket opened. Then for whatever reason you lose the Internet connection and your sockets gets disconnected. When your connection is back and you reload the page, the first method that will be triggered when your socket comes alive again is "onConnect". Here we will check if your session is already logged in the DB and if that's the case we will resume your activity as it was before your connection was interrupted.
 
@@ -553,7 +553,7 @@ onDisconnect: function(session, socket) {
 }
 ```
 
-## 14. The frontend modules
+### 14. The frontend modules
 
 The frontend modules are located in `/assets/js/`. Currently we have `chat.js`, `events.js`, `quiz.js` and `user.js`. The entry point for the application is located in `app.js`. With the current basic approach of the game, we just need one instance of each module running at the same time because a given user can only play in one quiz at a time. But if in the future we want to add more features, like multiple chat rooms or private messages, it would be a good idea to refactor the modules to be more flexible.
 
@@ -1016,7 +1016,7 @@ var QW_MODULES = (function (modules, $) {
 })(QW_MODULES || {}, jQuery);
 ```
 
-## 15. Conclusions
+### 15. Conclusions
 
 My experience with Sails.js has been very positive and I recommend everyone who is interested in real time multi-user applications to start a project and discover all its virtues. The learning curve is very mild and all the codebase is very well commented, with references to other files when necessary. Everything in the framework is clear, without redundant files that otherwise would end up bloating it and making more difficult to understand. The only aspect that is not as good as one might like is the documentation and the community. There's a [stack overflow section for Sails.js](http://stackoverflow.com/tags/sails.js/hot) with a few interesting topics. It's a very new framework and we hope that in a near future there will be more resources available. Nonethese, that is a minor consideration, at least for small projects.
 
@@ -1024,11 +1024,11 @@ I would be glad to answer any question or try to help to resolve any issue you m
 
 Many thanks for your time and I hope you have a great time in the exciting world of Node.js! ^_^
 
-## 16. Credits
+### 16. Credits
 
 My research has been based on Sails.js official examples, which can be found in [Sails 101](https://github.com/sails101) and these two github projects: [node-sails-chat](https://github.com/Ajeey/node-sails-chat/), [sailsChat](https://github.com/sgress454/sailsChat).
 
-## 17. Updates and bugs
+### 17. Updates and bugs
 
 I have tried running Sails.js in a server with Node.js and Apache, but my experience wasn't great. The proxy in the apache vhost was adding a big delay in the socket connection. So I don't recommend running a Node app in a server that is already running Apache. [More info here](http://https//www.digitalocean.com/community/tutorials/how-to-create-an-node-js-app-using-sails-js-on-an-ubuntu-vps).
 

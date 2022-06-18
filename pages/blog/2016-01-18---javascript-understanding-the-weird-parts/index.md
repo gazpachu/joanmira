@@ -14,7 +14,7 @@ I purchased three courses in [Udemy](https://www.udemy.com) and the one I'm goin
 
 I think I know JavaScript quite well, but it's always good to refresh the concepts, the vocabulary and of course, learn the new ES 6 stuff! So, if you want to join me in this journey,  I will be posting all my learnings in the blog, so feel free to read along and share your thoughts.
 
-## Javascript: understanding the weird parts [Part 1]
+### Javascript: understanding the weird parts [Part 1]
 
 I'm going to skip the first four lectures, which are mainly focussed in giving some context and setting up the coding environment.
 
