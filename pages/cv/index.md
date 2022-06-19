@@ -1,64 +1,65 @@
 ---
-title: "Curriculum Vitae"
-menuTitle: CV
+title: Curriculum Vitae
 ---
 
 <style>
-.tag {
-  margin-right: 5px;
-  color: #fff !important;
-  font-weight: lighter !important;
-  padding: 1px 6px;
-  margin-bottom: 20px;
-  display: inline-block;
-}
-.red-tag { background-color: #C76D72; }
-.gold-tag { background-color: #C19F92; }
-.blue-tag { background-color: #5C93AB; }
+  .project-tag {
+    margin-right: 5px;
+    display: inline-block;
+  }
+  .red-tag { background-color: #C76D72; }
+  .gold-tag { background-color: #C19F92; }
+  .blue-tag { background-color: #5C93AB; }
 </style>
 
 Last updated on March 2022
 
 ## Summary
 
-A generalist **front-end engineering manager** with a knack for **delightful** and **usable UIs**. Extensive industry experience. From tech start-ups like [TableCheck](http://www.tablecheck.com/en/join/) to solid brands like [British Telecom](https://www.bt.com/), [Vodafone](https://www.vodafone.com/), [Unilever](https://www.unilever.com/), [Royal Opera House](https://www.roh.org.uk/), [Barclays](https://www.barclays.com/), [Santander](https://www.santander.co.uk/), [M&S](https://www.marksandspencer.com/) and more.
+A **creative** Front-end Engineering Manager with a knack for building **user-centered apps**, **usable websites** and interactive pieces. Extensive industry experience. From corporations like [British Telecom](https://www.bt.com/), [Vodafone](https://www.vodafone.com/), [Unilever](https://www.unilever.com/), [Royal Opera House](https://www.roh.org.uk/), [Barclays](https://www.barclays.com/), [Santander](https://www.santander.co.uk/) and [M&S](https://www.marksandspencer.com/) to tech start-ups like [TableCheck](http://www.tablecheck.com/en/join/).
 
-* Front-end engineering. **20 years experience** using the latest technologies and workflows
+* Front-end engineering. **20 years of experience** using the latest technologies and workflows
 * Strategic and **creative mindset**. Ability to see the big picture and constantly generate new ideas for profitable products and services
 * Marketing and Multimedia experience. Worked in top digital agencies and graduated with a **degree in multimedia**
 * Team management. **Led async agile engineering teams** across the world in different timezones
 * Project/People management. Hiring, training, processes to increase productivity, code reviews, 1:1s, perf. reviews
-* Results oriented. Strong focus on problem solving, delivery and meeting deadlines
-* Thrives building **design systems**, user-centered web apps and interactive pieces
+Results-oriented. Strong focus on problem solving, delivery and meeting deadlines
 
 ### Life highlights
 
-* Entrepreneurial spirit. Started to work at age 17 and [co-founded a small digital agency](/webmarket) at age 26
+* Entrepreneurial spirit. Started to work at the age of 17 and [co-founded a small digital [agency](/webmarket) at the age of 26
 * International and multi-cultural attitude: lived in [Barcelona](https://en.wikipedia.org/wiki/Barcelona), [Alicante](https://en.wikipedia.org/wiki/Alicante), [Madrid](https://en.wikipedia.org/wiki/Madrid), [London](https://en.wikipedia.org/wiki/London) and [Tokyo](https://en.wikipedia.org/wiki/Tokyo). Also a bit in Paris and Manila
 * Speaks Spanish, [Valencian](https://en.wikipedia.org/wiki/Valencian_language) and English. Learning Japanese
-* Travelled on a [self-organised motorcycle adventure](/samurai-route) across the world, from Spain to Japan (5 months & 30.000 Km)
+* Traveled on a [self-organized motorcycle adventure](/samurai-route) across the world, from Spain to Japan (5 months & 30.000 Km)
 
-## Skills
+## Core Skills
 
-My interests and abilities are more aligned with the **creative tracks** (the visual, artistic, interactive and UI/UX side of the front-end work). Although I'm also experienced and comfortable with all the other aspects, like dealing with REST/GraphQL APIs, tooling/configuration, testing, performance optimisation, etc.
+- UI/UX & Fast Prototyping Coding
+- TypeScript, React & CSS-in-JS
+- User-centered Apps & Accessibility
+- Design Systems & Documentation
+- Creativity & Analytical Thinking
+- Project & People Management
+
+My interests and abilities are more aligned with the **creative tracks** (the visual, artistic, interactive and UI/UX side of the front-end work). Although I'm also experienced and comfortable with all the other aspects, like dealing with REST/GraphQL APIs, tooling/configuration, testing, performance optimization, etc.
 
 Currently, [ReactJS](https://facebook.github.io/react) is my current framework, but I would also like to learn more about [Svelte](https://svelte.dev/), [WebGL](https://gist.github.com/dmnsgn/76878ba6903cf15789b712464875cfdc) and [WebVR](https://medium.freecodecamp.org/how-to-build-a-multiplayer-vr-web-app-7b989964fb38) ecosystems...
 
 **Front End**
 
-These are some technologies and tools that I've been using in the last years.
+These are some technologies and tools that I've been using in the last few years.
 
 * Core: [Typescript](https://en.wikipedia.org/wiki/TypeScript), [HTML5](https://en.wikipedia.org/wiki/HTML5), [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3)
 * Frameworks: [ReactJS](https://facebook.github.io/react). I've used [VueJS](https://vuejs.org) and [AngularJS](https://angularjs.org/) in the past but I won't use them again
 * State management: [Redux](http://redux.js.org/), [xState](https://xstate.js.org/). I've used [Vuex](https://github.com/vuejs/vuex) and [MobX](https://mobx.js.org/) also in the past but not anymore
 * CSS: [Emotion](https://emotion.sh), [Styled Components](https://styled-components.com), [LESS](http://lesscss.org/), [SASS](http://sass-lang.com/), [PostCSS](https://postcss.org/)
 * Component libraries: [Storybook](https://storybook.js.org/), [Styleguidist](https://react-styleguidist.js.org/), [Material UI](https://material-ui.com/), [Vue Material](https://vuematerial.github.io/#/), [Bootstrap](http://getbootstrap.com/)
-* Utility libraries: [Apollo](https://www.apollographql.com), [FlowJS](https://flow.org/), [Axios](https://github.com/axios/axios), [Lodash](https://lodash.com/), [Husky](https://typicode.github.io/husky), [CommitLint](https://commitlint.js.org/), [Semantic Release](https://github.com/semantic-release/semantic-release), [date-fns](https://date-fns.org/), [Moment.js](https://momentjs.com/), [Showdown](https://github.com/showdownjs/showdown), [History](https://github.com/ReactTraining/history), [React Hook Forms](https://react-hook-form.com/), [Yup](https://github.com/jquense/yup), [Iframe resizer](https://github.com/davidjbradshaw/iframe-resizer)
+* Utility libraries: [LernaJS](https://lerna.js.org/), [Apollo](https://www.apollographql.com), [FlowJS](https://flow.org/), [Axios](https://github.com/axios/axios), [Lodash](https://lodash.com/), [Husky](https://typicode.github.io/husky), [CommitLint](https://commitlint.js.org/), [Semantic Release](https://github.com/semantic-release/semantic-release), [date-fns](https://date-fns.org/), [Moment.js](https://momentjs.com/), [Showdown](https://github.com/showdownjs/showdown), [History](https://github.com/ReactTraining/history), [React Hook Forms](https://react-hook-form.com/), [Yup](https://github.com/jquense/yup), [Iframe resizer](https://github.com/davidjbradshaw/iframe-resizer)
 * Other libraries: [ReactVis](https://uber.github.io/react-vis/), [Highcharts](http://www.highcharts.com/), [OrgChart](https://github.com/dabeng/OrgChart)
 * Static site generators: [Next.js](http://nextjs.com/), [GatsbyJS](https://www.gatsbyjs.org/), [Assemble](http://assemble.io/)
-* Templating: [Handlebars](http://handlebarsjs.com/), [Mustache](https://mustache.github.io/), [HAML](http://haml.info/), [EJS](http://www.embeddedjs.com/)
+* Templating: [EJS](http://www.embeddedjs.com/), [Handlebars](http://handlebarsjs.com/), [Mustache](https://mustache.github.io/), [HAML](http://haml.info/)
 * Tooling: [Yarn](https://yarnpkg.com/lang/en/)/[NPM](https://www.npmjs.com/), [Webpack](https://webpack.github.io/), [Babel](https://babeljs.io), [ShipIt](https://github.com/shipitjs/shipit), [Grunt](http://gruntjs.com/), [Gulp](http://gulpjs.com/), [Bower](http://bower.io/)
-* Localisation: [i18next](https://www.i18next.com/), [Lokalize](https://lokalise.com/)
+* Localization: [i18next](https://www.i18next.com/), [Lokalize](https://lokalise.com/)
 * Testing: [Prettier](https://prettier.io/), [ESlint](http://eslint.org/), [Jest](https://jestjs.io/), [React Testing Library](https://github.com/kentcdodds/react-testing-library), [Cypress](http://cypress.io)
 * Animation: [SVG Gator](https://www.svgator.com/), [GSAP](http://greensock.com/gsap), [Phaser](http://phaser.io/), [Box2d](https://en.wikipedia.org/wiki/Box2D)
 * Real-time: [Socket.io](https://socket.io/), [SignalMaster](https://github.com/andyet/signalmaster), [SimpleWebRTC](https://github.com/andyet/SimpleWebRTC)
@@ -66,23 +67,24 @@ These are some technologies and tools that I've been using in the last years.
 
 **Back End**
 
-* JavaScript: [Node.js](https://nodejs.org/) [Express.js](http://expressjs.com/), [Ghost](https://ghost.org/), [Sails.js](http://sailsjs.org/), [Meteor](https://www.meteor.com/), [MEAN stack](http://mean.io/#!/)
-* PHP: [Zend Framework](http://framework.zend.com/), [Laravel](https://laravel.com/), [LAMP stack](https://en.wikipedia.org/wiki/LAMP_(software_bundle))
+* JavaScript: [Node.js](https://nodejs.org/) [Express.js](http://expressjs.com/), [Sails.js](http://sailsjs.org/), [Meteor](https://www.meteor.com/), 
+* PHP: [Zend Framework](http://framework.zend.com/), [Laravel](https://laravel.com/)
 * BaaS: [Firebase](firebase.google.com)
-* CMS: [Storyblok](http://storyblok.com), [Wordpress](https://wordpress.org/), [Drupal](https://www.drupal.org/), [Joomla](http://www.joomla.org/)
+* CMS: [Storyblok](http://storyblok.com), [Ghost](https://ghost.org/), [WordPress](https://wordpress.org/)
 * DB: [MongoDB](https://www.mongodb.org/), [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL), [SQLite](https://en.wikipedia.org/wiki/SQLite), [MySQL](https://www.mysql.com/),
-* ORM: [Doctrine](http://www.doctrine-project.org/), [Waterline](https://github.com/balderdashy/waterline)
+* ORM: [Prisma](https://www.prisma.io/), [Doctrine](http://www.doctrine-project.org/), [Waterline](https://github.com/balderdashy/waterline)
 
 **Software engineering**
 
 * Principles: [PWA](https://developers.google.com/web/progressive-web-apps/), [ITCSS](https://speakerdeck.com/dafed/managing-css-projects-with-itcss), [BEM](https://en.bem.info/), [Responsive design](https://en.wikipedia.org/wiki/Responsive_web_design), [Mobile First](https://en.wikipedia.org/wiki/Responsive_web_design), [Semantic Markup](https://en.wikipedia.org/wiki/Semantic_HTML), [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization), [Accessibility](https://en.wikipedia.org/wiki/Web_accessibility), [Common design patterns](https://sourcemaking.com/design_patterns), [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller), [domain driven design](https://en.wikipedia.org/wiki/Responsive_web_design), [REST](https://en.wikipedia.org/wiki/Representational_state_transfer), [JSON API](https://jsonapi.org/)
+* Stacks: [MEAN stack](http://mean.io/#!/), [LAMP stack](https://en.wikipedia.org/wiki/LAMP_(software_bundle))
 * Version control: [GIT](https://git-scm.com/), [SourceTree](https://www.atlassian.com/software/sourcetree)
-* Project management: [Atlassian software](https://www.atlassian.com/) ([Jira](https://www.atlassian.com/software/jira), [Confluence](https://www.atlassian.com/software/confluence), [Trello](https://trello.com/), [Bitbucket](https://bitbucket.org/)), [ZenHub](https://www.zenhub.com/), [Basecamp](https://basecamp.com/)
+* Project Management: [Atlassian software](https://www.atlassian.com/) ([Jira](https://www.atlassian.com/software/jira), [Confluence](https://www.atlassian.com/software/confluence), [Trello](https://trello.com/), [Bitbucket](https://bitbucket.org/)), [ZenHub](https://www.zenhub.com/), [Basecamp](https://basecamp.com/), [Slack](https://slack.com), [Miro](https://miro.com/), [Asana](https://asana.com/)
 * Code Quality: [Sentry](http://sentry.io), [Bugsnag](https://www.bugsnag.com/), [Honeybadger](https://www.honeybadger.io/), [Codeclimate](https://codeclimate.com/), [SonarQube](https://www.sonarqube.org/)
 * Continuous Integration: [Semaphore](https://semaphoreci.com/), [Travis](https://travis-ci.org), [CircleCI](https://circleci.com), [Jenkins](https://jenkins-ci.org/), [Vagrant](https://www.vagrantup.com/), [Docker](https://www.docker.com/)
-* PM & Methodologies: [Squad Framework](https://medium.com/pm101/spotify-squad-framework-part-i-8f74bcfcd761), [Agile](https://en.wikipedia.org/wiki/Agile_software_development), [Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)), [Waterfall](https://en.wikipedia.org/wiki/Waterfall_model), [Kanban](https://en.wikipedia.org/wiki/Kanban_(development))
+* Product & Methodologies: [Squad Framework](https://medium.com/pm101/spotify-squad-framework-part-i-8f74bcfcd761), [Agile](https://en.wikipedia.org/wiki/Agile_software_development), [Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)), [Waterfall](https://en.wikipedia.org/wiki/Waterfall_model), [Kanban](https://en.wikipedia.org/wiki/Kanban_(development))
 * Editors: [WebStorm](https://www.jetbrains.com/webstorm/), [Visual Studio](https://www.visualstudio.com/), [Atom](https://atom.io/), [SublimeText](http://www.sublimetext.com/), [Eclipse](https://eclipse.org/), [Xcode](https://developer.apple.com/xcode/), [CodeBlocks](http://www.codeblocks.org/)
-* SaaS, IaaS, PaaS: [Slack](https://slack.com), [Github](https://github.com/), [AWS](http://aws.amazon.com/), [Vercel](https://vercel.com/), [Heroku](https://www.heroku.com/), [Netlify](https://www.netlify.com/), [Firebase](firebase.google.com), [Xirsys](xirsys.com), [Sendgrid](https://sendgrid.com/), [Mailchimp](https://mailchimp.com/), [Twilio](https://www.twilio.com/)
+* SaaS, IaaS, PaaS: [Github](https://github.com/), [AWS](http://aws.amazon.com/), [Vercel](https://vercel.com/), [Heroku](https://www.heroku.com/), [Netlify](https://www.netlify.com/), [Firebase](firebase.google.com), [Xirsys](xirsys.com), [Sendgrid](https://sendgrid.com/), [Mailchimp](https://mailchimp.com/), [Twilio](https://www.twilio.com/)
 * SEO & Performance: [Webmaster Tools](https://www.google.com/webmasters/tools/home), [Analytics](http://www.google.com/analytics/), [GTMetrix](https://gtmetrix.com/), [Lighthouse](https://developers.google.com/web/tools/lighthouse/), [Varnish](https://www.varnish-cache.org/), [Memcached](http://memcached.org/)
 * Solutions architect: project analysis, tasks breakdown, documentation, prototyping, time estimates
 
@@ -109,7 +111,7 @@ These are some technologies and tools that I've been using in the last years.
 
 Currently leading TableCheck's front-end team, consisting of 9 engineers of all levels working across 3 different time zones.
 
-Supervised and participated as an individual contributor in the creation of the new booking form, the new global marketing website, the new diner app, the SSO and the merchant portal.
+Supervising and participating as an IC in the design system upgrades, the creation of the new booking form, the new global marketing website, the new diner app, the SSO, and the merchant portal.
 
 ### Senior Frontend Engineer
 <span class="project-tag red-tag">Feb 2019 - Mar 2020</span><a class="project-tag gold-tag" href="http://www.tablecheck.com/en/join/">TableCheck</a><span class="project-tag blue-tag">Ginza, Tokyo (Japan)</span>
