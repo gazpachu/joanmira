@@ -174,7 +174,7 @@ async function processPage(pagePath) {
   const imagePath = `/${targetPath}/${frontmatter.cover}`;
   const pageTitle = frontmatter.template !== 'homepage' ? frontmatter.title : `${name} • ${description}`;
   const pageDescription = frontmatter.description || description;
-  const lang = frontmatter.lang === 'es' ? 'es_ES' : 'en_US';
+  const lang = frontmatter.lang === 'es' ? 'es' : 'en';
   const imageUrl = frontmatter.cover ? `${host}/${targetPath}/${frontmatter.cover}` : null;
   const type = frontmatter.template === 'post' || frontmatter.template === 'project' ? 'article' : 'website';
   const listingItems = [];

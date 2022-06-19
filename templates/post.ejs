@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="<%= frontmatter.lang %>">
+<html lang="<%= lang %>">
   <head>
     <%- include('head'); %>
   </head>
@@ -24,6 +24,22 @@
         <div class="details">
           <div class="meta">
             <span><%= formattedDate %></span>
+            <div class="voice-controls">
+              <button id="listen-button">
+                <svg id="play-svg" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 320.001 320.001"
+                  style="enable-background:new 0 0 512 512" xml:space="preserve">
+                  <g>
+                    <path
+                      d="m295.84 146.049-256-144c-4.96-2.784-11.008-2.72-15.904.128-4.928 2.88-7.936 8.128-7.936 13.824v288c0 5.696 3.008 10.944 7.936 13.824 2.496 1.44 5.28 2.176 8.064 2.176 2.688 0 5.408-.672 7.84-2.048l256-144c5.024-2.848 8.16-8.16 8.16-13.952s-3.136-11.104-8.16-13.952z">
+                    </path>
+                  </g>
+                </svg>
+                <svg id="pause-svg" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 32 32" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><g xmlns="http://www.w3.org/2000/svg"><path d="m14 5v22a3 3 0 0 1 -3 3h-3a3 3 0 0 1 -3-3v-22a3 3 0 0 1 3-3h3a3 3 0 0 1 3 3zm10-3h-3a3 3 0 0 0 -3 3v22a3 3 0 0 0 3 3h3a3 3 0 0 0 3-3v-22a3 3 0 0 0 -3-3z"></path></g></g></svg>
+                <span>Listen</span>
+              </button>
+              <select id="voice-select"></select>
+            </div>
           </div>
           <div class="share-links">
             <a class="twitter-link" href="https://www.twitter.com/intent/tweet?text=<%= frontmatter.title %> %3A%20<%= url %>" target="_blank" title="Twitter">

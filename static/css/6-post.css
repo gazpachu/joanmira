@@ -48,6 +48,38 @@
   margin-bottom: var(--gutter);
 }
 
+.post .details .meta {
+  display: flex;
+  white-space: nowrap;
+}
+
+.post .details .meta .voice-controls {
+  display: flex;
+}
+
+.post .details .meta button {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post .details .meta button svg {
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
+}
+
+.post #pause-svg {
+  display: none;
+}
+
+.post #voice-select {
+  height: 32px;
+  margin: 0 0 0 8px;
+  padding: 0 0 0 16px;
+}
+
 .post .sidebar {
   max-width: var(--post-content-max-width);
   position: sticky;
@@ -101,6 +133,14 @@
     padding: var(--gutter) 0;
   }
 
+  .post .details .meta {
+    align-items: center;
+  }
+
+  .post .details .meta button {
+    margin: 0 0 0 16px;
+  }
+
   .post .image {
     border-radius: 8px;
   }
@@ -121,6 +161,19 @@
     padding-right: 16px;
   }
 
+  .post .details .meta {
+    flex-direction: column;
+  }
+
+  .post .details .meta .voice-controls {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: var(--background-color);
+    padding: 16px;
+  }
+
   .post .sidebar {
     margin: 0;
     width: 100%;
@@ -138,6 +191,7 @@
 
   .post .sidebar {
     margin: 0 0 0 var(--gutter);
+    flex: 1;
   }
 
   .post .subscribe-card {
