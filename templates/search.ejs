@@ -20,19 +20,12 @@
       .ais-SearchBox-loadingIndicator,
       .ais-SearchBox-reset {
         position: absolute;
-        top: 20px;
+        top: 15px;
         right: 20px;
         width: 20px;
       }
       .ais-SearchBox-loadingIndicator {
         top: 18px;
-      }
-
-      @media screen and (min-width: 601px) {
-        .ais-SearchBox-loadingIndicator,
-        .ais-SearchBox-reset {
-          top: 24px;
-        }
       }
 
       .ais-SearchBox-loadingIcon {
@@ -180,6 +173,7 @@
         }),
         instantsearch.widgets.pagination({
           container: '#pagination',
+          totalPages: 3
         }),
       ]);
 

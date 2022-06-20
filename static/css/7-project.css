@@ -25,3 +25,14 @@
   font-size: 14px;
   font-style: italic;
 }
+
+.project .body {
+  font-family: var(--content-font-family);
+  line-height: 28px;
+}
+
+@media screen and (min-width: 651px) {
+  .project .body {
+    line-height: 32px;
+  }
+}
