@@ -1,86 +1,25 @@
-if ('speechSynthesis' in window) {
-  document.addEventListener("DOMContentLoaded", function () {
-    let voices = [];
-    let selectedVoiceIndex = 0;
-    let speechUtterance = null;
-    const listenButton = document.querySelector('#listen-button');
-    const buttonText = document.querySelector('#listen-button span');
-    const voiceControls = document.querySelector('.voice-controls');
-    const playSvg = document.getElementById('play-svg');
-    const pauseSvg = document.getElementById('pause-svg');
-    const article = document.querySelector('.article');
-    const [html] = document.getElementsByTagName('html');
-    const lang = html.getAttribute('lang');
-    let playingState = null;
+document.addEventListener("DOMContentLoaded", function () {
+  const listenButton = document.querySelector('#listen-button');
+  const article = document.querySelector('.article');
 
-    function populateVoiceList() {
-      if(typeof speechSynthesis === 'undefined') {
-        if (voiceControls) voiceControls.remove();
-        return;
-      }
+  function cleanText(text) {
+    return text
+      .replace('  ', '')
+      .replace(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)/g, '')
+      .replaceAll('\n', '')
+      .replace(/[^a-zA-Z0-9\s()\-\%\!\?\#\+\,\'\:\;\$]/g, '');
+  }
 
-      voices = speechSynthesis.getVoices();
-      const voiceSelect = document.getElementById('voice-select');
-
-      for(let i = 0; i < voices.length; i++) {
-        let option = document.createElement('option');
-        option.textContent = voices[i].name;
-        if (voices[i].lang.includes(lang)) {
-          option.setAttribute('value', i);
-          voiceSelect.appendChild(option);
-        }
-      }
-
-      voiceSelect.addEventListener('change', function() {
-        selectedVoiceIndex = this.value;
-        if (speechUtterance) {
-          console.log(selectedVoiceIndex, voices[selectedVoiceIndex]);
-          speechUtterance.voice = voices[selectedVoiceIndex];
-          speechSynthesis.cancel();
-          speechSynthesis.speak(speechUtterance);
-        }
-      });
-    }
-
-    populateVoiceList();
-    if (typeof speechSynthesis !== 'undefined' && speechSynthesis.onvoiceschanged !== undefined) {
-      speechSynthesis.onvoiceschanged = populateVoiceList;
-    }
-
-    if (listenButton && article) {
-      listenButton.addEventListener('click', () => {
-        if (playingState === 'playing') {
-          speechSynthesis.pause();
-          playingState = 'paused';
-          buttonText.innerText = 'Listen';
-          playSvg.style.display = 'block';
-          pauseSvg.style.display = 'none';
-        } else if (playingState === 'paused') {
-          speechSynthesis.resume();
-          playingState = 'playing';
-          buttonText.innerText = 'Pause';
-          playSvg.style.display = 'none';
-          pauseSvg.style.display = 'block';
-        }
-
-        if (!playingState) {
-          speechUtterance = new SpeechSynthesisUtterance();
-          console.log(speechUtterance);
-          speechUtterance.text = article.textContent;
-          speechUtterance.lang = lang || 'en';
-          speechUtterance.voice = voices[selectedVoiceIndex];
-          speechUtterance.onerror = (err) => console.log(err);
-          speechUtterance.volume = 1; // From 0 to 1
-          speechUtterance.rate = 1; // From 0.1 to 10
-          speechUtterance.pitch = 1; // From 0 to 2
-          speechSynthesis.speak(speechUtterance);
-          speechSynthesis.resume();
-          playingState = 'playing';
-          buttonText.innerText = 'Pause';
-          playSvg.style.display = 'none';
-          pauseSvg.style.display = 'block';
-        }
-      });
-    }
-  });
-}
+  if (listenButton && article) {
+    listenButton.addEventListener('click', () => {
+      listenButton.remove();
+      var audio = document.getElementById('post-audio');
+      audio.style.display = 'block';
+      var sources = audio.getElementsByTagName("source");
+      const text = cleanText(article.textContent);
+      sources[0].src = `https://talkify.net/api/speech/v1?text=${text}&key=95d959e2-12bf-4b04-9537-be9a4de80646`;
+      audio.load();
+      audio.play();
+    });
+  }
+});

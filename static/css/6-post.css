@@ -72,14 +72,8 @@
   margin-right: 4px;
 }
 
-.post #pause-svg {
+#post-audio {
   display: none;
-}
-
-.post #voice-select {
-  height: 32px;
-  margin: 0 0 0 8px;
-  padding: 0 0 0 16px;
 }
 
 .post .sidebar {
@@ -139,7 +133,8 @@
     align-items: center;
   }
 
-  .post .details .meta button {
+  .post .details .meta button,
+  #post-audio {
     margin: 0 0 0 16px;
   }
 
@@ -180,6 +175,10 @@
     background-color: var(--background-color);
     padding: 16px;
     border-top: 1px solid var(--muted-border-color);
+  }
+
+  #post-audio {
+    width: 100%;
   }
 
   .post .sidebar {
