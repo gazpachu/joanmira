@@ -3,7 +3,9 @@ if ('speechSynthesis' in window) {
     let voices = [];
     let selectedVoiceIndex = 0;
     let speechUtterance = null;
-    const listenButton = document.querySelector('#listen-button span');
+    const listenButton = document.querySelector('#listen-button');
+    const buttonText = document.querySelector('#listen-button span');
+    const voiceControls = document.querySelector('.voice-controls');
     const playSvg = document.getElementById('play-svg');
     const pauseSvg = document.getElementById('pause-svg');
     const article = document.querySelector('.article');
@@ -13,6 +15,7 @@ if ('speechSynthesis' in window) {
 
     function populateVoiceList() {
       if(typeof speechSynthesis === 'undefined') {
+        if (voiceControls) voiceControls.remove();
         return;
       }
 
@@ -49,13 +52,13 @@ if ('speechSynthesis' in window) {
         if (playingState === 'playing') {
           speechSynthesis.pause();
           playingState = 'paused';
-          listenButton.innerText = 'Listen';
+          buttonText.innerText = 'Listen';
           playSvg.style.display = 'block';
           pauseSvg.style.display = 'none';
         } else if (playingState === 'paused') {
           speechSynthesis.resume();
           playingState = 'playing';
-          listenButton.innerText = 'Pause';
+          buttonText.innerText = 'Pause';
           playSvg.style.display = 'none';
           pauseSvg.style.display = 'block';
         }
@@ -65,14 +68,15 @@ if ('speechSynthesis' in window) {
           console.log(speechUtterance);
           speechUtterance.text = article.textContent;
           speechUtterance.lang = lang || 'en';
-          speechUtterance.voice = voices[selectedVoiceIndex]; 
-          // speechUtterance.volume = 1; // From 0 to 1
-          // speechUtterance.rate = 1; // From 0.1 to 10
-          // speechUtterance.pitch = 2; // From 0 to 2
+          speechUtterance.voice = voices[selectedVoiceIndex];
+          speechUtterance.onerror = (err) => console.log(err);
+          speechUtterance.volume = 1; // From 0 to 1
+          speechUtterance.rate = 1; // From 0.1 to 10
+          speechUtterance.pitch = 1; // From 0 to 2
           speechSynthesis.speak(speechUtterance);
           speechSynthesis.resume();
           playingState = 'playing';
-          listenButton.innerText = 'Pause';
+          buttonText.innerText = 'Pause';
           playSvg.style.display = 'none';
           pauseSvg.style.display = 'block';
         }
