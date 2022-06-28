@@ -20,7 +20,7 @@ Creo que la obsesión tecnológica se está convirtiendo en una pesadilla ¿Nos 
 Es una opinión crítica contra la tecnología de una persona de 65 años. Licenciado en Filosofía, catedrático de Historia y usuario de nuevas tecnologías desde que tiene uso de razón. En cualquier caso, encaja bastante bien dentro del perfil de una persona jubilada de su actividad laboral y que en teoría tiene tiempo libre para aprender a usar las nuevas tecnologías y a participar en los medios interactivos.
 Su opinión no era nueva para mi, ya que en otras ocasiones habíamos hablando del tema. Mi reacción inicial fue defender los beneficios de la tecnología para la humanidad. Repliqué en Inglés:
 
-Because of technology, a lot of people have access to information, a lot of diseases are being cured, the universe is being explored and we are having this conversation. How technology can be a bad thing? Just because kids use their phones in the table while having lunch with their parents?
+> Because of technology, a lot of people have access to information, a lot of diseases are being cured, the universe is being explored and we are having this conversation. How technology can be a bad thing? Just because kids use their phones in the table while having lunch with their parents?
 
 La conversación continuo con varios intercambios de opiniones, hasta que al final, me reveló el motivo de su frustración:
 

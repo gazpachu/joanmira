@@ -8,9 +8,9 @@ category: work
 
 <a class="btn github" role="button" href="https://github.com/gazpachu/siteace" target="_blank">Source code</a>
 
-This tutorial is the result of my final assignment for the [Introduction to Meteor.js Development course](https://www.coursera.org/learn/meteor-development/) by Dr Matthew Yee-King ([University of London & Goldsmiths](http://www.gold.ac.uk/)) at Coursera. This course is part of a [Responsive Website Development and Design specialisation](https://www.coursera.org/specializations/website-development) that covers the basics of modern full stack web development, from UX design, to front-end coding, to custom databases.
+This tutorial is the result of my final assignment for the [Introduction to Meteor.js Development [course](https://www.coursera.org/learn/meteor-development/) by Dr. Matthew Yee-King ([University of London & Goldsmiths](http://www.gold.ac.uk/)) at Coursera. This course is part of a [Responsive Website Development [and Design ](https://www.coursera.org/specializations/website-development)specialization that covers the basics of modern full-stack web development, from UX design to front-end coding, to custom databases.
 
-In that course, I learned how to create a complete, multi-user web site using the Meteor.js framework and MongoDB. It's divided in four weeks and has a couple of assignments and several quizzes. All and all, it was a very good introduction to the framework and I hope this tutorial will show everything I learned.
+In that course, I learned how to create a complete, multi-user website using the Meteor.js framework and MongoDB. It's divided into four weeks and has a couple of assignments and several quizzes. All and all, it was a very good introduction to the framework and I hope this tutorial will show everything I learned.
 
 ### Requirements
 
@@ -19,14 +19,14 @@ The purpose of the application is to allow users to **share**, **discuss** and *
 * Use [Bootstrap](http://getbootstrap.com/)
 * Users can register and login
 * Users can post new websites if they are logged in. Websites posted by users should have a URL and a description
-* Users can up and down vote webpages by clicking a plus or a minus button.
-* Websites should be listed with the most up voted site first
+* Users can up and down vote web pages by clicking a plus or a minus button.
+* Websites should be listed with the most upvoted site first
 * The listing page shows when the website was added and how many up and down votes it has
 * Users can move to a detail page for a website (using routing)
 * On the detail page, users can post comments about a webpage, and they are displayed below the description of the webpage
 * Use the HTTP package for Meteor to pull in information about the posted web links automatically, so the user does not need to enter anything other than the URL
 * Implement a search function that allows the user to search within the listed sites for keywords
-* Recommend websites to users based on things they have up voted and commented on. E.g. if I up vote a site entitled ‘Tofu recipes’, it would recommend other sites with ‘tofu’ and ‘recipe’ in their titles or descriptions
+* Recommend websites to users based on things they have upvoted and commented on. E.g. if I upvote a site entitled ‘Tofu recipes’, it would recommend other sites with ‘tofu’ and ‘recipe’ in their titles or descriptions
 * Deploy the application using the Meteor deploy command
 
 ### Part 1. Installing Meteor and creating the app
@@ -37,7 +37,7 @@ To create the app, open your terminal, go to the folder where you want to save t
 
 `meteor create siteace`
 
-This will create a new folder called siteace (the name of the app we are building) with all of the files that a Meteor app needs:
+This will create a new folder called `siteace` (the name of the app we are building) with all of the files that a Meteor app needs:
 
 * **siteace.js**: a JavaScript file loaded on both client and server
 * **siteace.html**: an HTML file that defines view templates
@@ -52,11 +52,11 @@ To run the newly created app:
 
 Open your web browser and go to http://localhost:3000 to see the app running. If that's working, then you can stop it by pressing Ctrl+C.
 
-### Part 2. Organising the folder structure
+### Part 2. Organizing the folder structure
 
 Meteor is a client and server framework, which means we have code for the front-end and code for the back-end. Both use Javascript. The back-end code console logs are rendered in the operating system terminal/console and the front-end console logs are rendered in the browser's console.
 
-One way of deciding which code is going to run in the front-end or the back-end is to use the following conditional statements:
+One way of deciding which code is going to run on the front-end or the back-end is to use the following conditional statements:
 
 ```javascript
 if (Meteor.isClient) {
@@ -78,17 +78,17 @@ Now rename siteace.js to main.js, siteace.css to style.css, siteace.html to inde
 
 Then we are going to create a file called collections.js and place it in the lib folder. That file will hold the definition of the Mongo collections for our DB.
 
-Finally, create a file called startup.js and place it in the server folder. We will use this file to initialise the DB with some dummy data when the app starts.
+Finally, create a file called startup.js and place it in the server folder. We will use this file to initialize the DB with some dummy data when the app starts.
 
 Once we run meteor again in the console, it will take care of the minification of the files
 
 ### Part 3. Routing and defining the markup and templates
 
-Meteor uses [Blaze](https://www.meteor.com/blaze) and [Spacebars](https://github.com/meteor/meteor/blob/devel/packages/spacebars/README.md) (a modified version of Handlebars) to produce reactive Meteor templates when compiled. Wait a minute... **reactive**? Yes, Meteor does update the interface automatically whenever there's a change in the data bound to that UI. At this point you might be thinking: is that like [Facebook's React](https://facebook.github.io/react/)? In a way yes. Should I use React instead? Probably yes, but that's a topic you might want to read more about [here](https://www.discovermeteor.com/blog/blaze-react-meteor/).
+Meteor uses [Blaze](https://www.meteor.com/blaze) and [Spacebars](https://github.com/meteor/meteor/blob/devel/packages/spacebars/README.md) (a modified version of Handlebars) to produce reactive Meteor templates when compiled. Wait a minute... **reactive**? Yes, Meteor does update the interface automatically whenever there's a change in the data-bound to that UI. At this point you might be thinking: is that like [Facebook's React](https://facebook.github.io/react/)? In a way yes. Should I use React instead? Probably yes, but that's a topic you might want to read more about [here](https://www.discovermeteor.com/blog/blaze-react-meteor/).
 
 For the sake of simplicity, we are going to stick with Meteor's default front-end tools: Blaze and Spacebars.
 
-First let's start by installing the router. Type the following in the terminal:
+First, let's start by installing the router. Type the following in the terminal:
 
 `meteor add iron:router`
 
@@ -168,7 +168,7 @@ Now we are also adding three more templates, website\_form, website\_list and we
 </template>
 ```
 
-Notice that instead of url, we used _id to compose the URL of the website link. That will be useful later when we are creating the detail page...
+Notice that instead of URL, we used _id to compose the URL of the website link. That will be useful later when we are creating the detail page...
 
 Now we are going to define the Router configuration and the homepage/default route. Open main.js and add the following at the top:
 
@@ -234,7 +234,7 @@ Meteor.startup(function () {
 
 ### Part 5. Add some CSS
 
-The form to submit new URLs that we specified in the markup is hidden by default. It only opens when the user clicks in the '+' button. To make this form hidden, we just have to add the following CSS:
+The form to submit new URLs that we specified in the markup is hidden by default. It only opens when the user clicks on the '+' button. To make this form hidden, we just have to add the following CSS:
 
 ```css
 .hidden_div {
@@ -317,7 +317,7 @@ ol li::before {
 
 ### Part 6. Add basic events
 
-In order to show/hide the form, we are going to need to capture the click event. Open the main.js file and add the following:
+To show/hide the form, we are going to need to capture the click event. Open the main.js file and add the following:
 
 ```javascript
 Template.website_form.events({
@@ -385,15 +385,15 @@ No we have to call that method from the front-end when the user submits the form
     }
 ```
 
-You can try to add a few URLs and then reload the page. They new ones should remain there. If you want to reset the DB, just type in the terminal meteor reset.
+You can try to add a few URLs and then reload the page. The new ones should remain there. If you want to reset the DB, just type in the terminal meteor reset.
 
 ### Part 8. User authentication
 
-There two Meteor packages that take care of user registration and authentication. To install them type this in the terminal:
+Two Meteor packages take care of user registration and authentication. To install them type this in the terminal:
 
 `meteor add accounts-ui accounts-password`
 
-And then add the following partial to the navbar (beside the Site Ace title):
+And then add the following partial to the navbar (besides the Site Ace title):
 
 `{{> loginButtons }}`
 
@@ -413,9 +413,9 @@ if (Meteor.user()) {
 }
 ```
 
-### Part 9. Allow only logged in users to post new websites
+### Part 9. Allow only logged-in users to post new websites
 
-We could do it by hiding the form for not logged in users, but then this could be easily hacked by manipulating the DOM from the console. So we are going to use a form validation task instead. Open main.js and wrap everything inside the submit form event with the approach we specified in the previous part. Also add an else condition and display an alert window with an error message if the user is not logged in:
+We could do it by hiding the form for not logged-in users, but then this could be easily hacked by manipulating the DOM from the console. So we are going to use a form validation task instead. Open main.js and wrap everything inside the submit form event with the approach we specified in the previous part. Also, add an else condition and display an alert window with an error message if the user is not logged in:
 
 ```javascript
 "submit .js-save-website-form":function(event){
@@ -433,7 +433,7 @@ We could do it by hiding the form for not logged in users, but then this could b
 
 ### Part 10. Display the date and add votes
 
-In the listing page, we are going to display the date the website was added. We need to install a new package called Moments.js, a popular library to work with dates in Javascript:
+On the listing page, we are going to display the date the website was added. We need to install a new package called Moments.js, a popular library to work with dates in Javascript:
 
 `meteor add momentjs:moment`
 
@@ -500,7 +500,7 @@ Template.ApplicationLayout.events({
 
 ### Part 11. Sort items by votes up
 
-This is an easy one. We know Meteor templates are reactive, meaning the UI gets updated automatically every time something changes. We are going to take advantage of that by defining a sorting in the website\_list template in main.js:
+This is an easy one. We know Meteor templates are reactive, meaning the UI gets updated automatically every time something changes. We are going to take advantage of that by defining a sorting in the website list template in main.js:
 
 ```javascript
 Template.website_list.helpers({
@@ -621,7 +621,7 @@ this.render('comment_form', {
 });
 ```
 
-Now we have to insert the new comments into the comments collection whenever a logged in user submits the comment form. The schema for this collection is going to store the ID of the website where the comment belongs, the comment itself, the date and the user who wrote it. Notice that to get hold of the website ID, we are going to use the Router params...
+Now we have to insert the new comments into the comments collection whenever a logged-in user submits the comment form. The schema for this collection is going to store the ID of the website where the comment belongs, the comment itself, the date and the user who wrote it. Notice that to get hold of the website ID, we are going to use the Router params...
 
 ```javascript
 Template.comment_form.events({
@@ -650,7 +650,7 @@ Template.comment_form.events({
 });
 ```
 
-Now that we have the comments stored in the DB, we need a template helper to render the list of comments. We will filter the query by finding only the comments that have a website ID equal to the one of the current page:
+Now that we have the comments stored in the DB, we need a template helper to render the list of comments. We will filter the query by finding only the comments that have a website ID equal to the one on the current page:
 
 ```javascript
 Template.comments_list.helpers({
@@ -711,4 +711,4 @@ Now that we have some basic security in place, we are ready to deploy to the FRE
 
 That's all! I hope you enjoyed the tutorial and please do let me know if you find any issues. Thanks.
 
-In the following days I might add the functionality remaining: search and recommended websites.
+In the following days, I might add the functionality remaining: search and recommended websites.

@@ -6,9 +6,9 @@ template: post
 category: work
 ---
 
-Do you find yourself creating "isMobile" variables in Javascript quite often? What about manually adding a "mobile" or "tablet" class to the body or the html tag? If you fall into that group, pay attention to this! Don't waste your time anymore. Just use this super useful and easy library called device.js.
+Do you find yourself creating "isMobile" variables in Javascript quite often? What about manually adding a "mobile" or "tablet" class to the body or the HTML tag? If you fall into that group, pay attention to this! Don't waste your time anymore. Just use this super useful and easy library called device.js.
 
-Device.js makes it easy to write conditional CSS and/or JavaScript based on device operating system (iOS, Android, Blackberry, Windows, Firefox OS, MeeGo, AppleTV, etc), orientation (Portrait vs. Landscape), and type (Tablet vs. Mobile).
+Device.js makes it easy to write conditional CSS and/or JavaScript based on the device operating system (iOS, Android, Blackberry, Windows, Firefox OS, MeeGo, AppleTV, etc), orientation (Portrait vs. Landscape), and type (Tablet vs. Mobile).
 
 Device.js will update automatically the classes in the HTML tag based on the device and orientation. Example:
 

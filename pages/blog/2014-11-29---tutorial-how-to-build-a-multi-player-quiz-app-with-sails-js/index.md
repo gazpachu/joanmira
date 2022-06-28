@@ -20,7 +20,7 @@ category: work
 
 ### 1. Introduction
 
-This tutorial intends to explain how to build a game like <a href="http://quizwars.herokuapp.com/">Quiz Wars</a> with the MVC <a href="http://sailsjs.org/">Sails.js</a> framework. <a href="http://quizwars.herokuapp.com/">Quiz Wars</a> is a real time multi-player responsive web app to solve quizzes. The aim is to be the quickest answering quiz questions and win against other players. It has been developed trying to follow the <a href="http://bp.sapient-lab.com/">Sapient Dev Standards</a> as much as possible, with a mobile first approach in mind and a module pattern structure for the frontend. Currently it's in early development stages, but the main user journey to enter and finish a quiz with other players is working in any browser/device.
+This tutorial intends to explain how to build a game like <a href="http://quizwars.herokuapp.com/">Quiz Wars</a> with the MVC <a href="http://sailsjs.org/">Sails.js</a> framework. <a href="http://quizwars.herokuapp.com/">Quiz Wars</a> is a real-time multi-player responsive web app to solve quizzes. The aim is to be the quickest answering quiz questions and win against other players. It has been developed trying to follow the <a href="http://bp.sapient-lab.com/">Sapient Dev Standards</a> as much as possible, with a mobile-first approach in mind and a module pattern structure for the frontend. Currently, it's in the early development stages, but the main user journey to enter and finish a quiz with other players is working in any browser/device.
 
 ### Current features/rules
 
@@ -34,13 +34,13 @@ This tutorial intends to explain how to build a game like <a href="http://quizwa
 ### Future features
 
 - Support for different chat/quiz rooms
-- URL based invites to play a determined quiz
+- URL-based invites to play a specific quiz
 - Support for multiple quizzes (at the moment, if a quiz is already running, starting a second quiz would break the first one)
 - Build a widget to embed quizzes in other websites
-- Add many more quizzes of different topics: design, photography, business, UX and of course coding!
-- Add a pictionary type feature: one user draws and the others have to guess it
+- Add many more quizzes on different topics: design, photography, business, UX and of course coding!
+- Add a Pictionary-type feature: one user draws and the others have to guess it
 - Global user score ranking
-- Posibility to add teams/clans and competitions
+- Possibility to add teams/clans and competitions
 - Most popular quizzes list
 - Improve the chat (ie. "user is typing...")
 
@@ -52,11 +52,11 @@ This tutorial intends to explain how to build a game like <a href="http://quizwa
 
 ### Requirements
 
-This tutorial assumes that the reader feels comfortable coding with Javascript, JSON files, HTML. LESS and jQuery.
+This tutorial assumes that the reader feels comfortable coding with Javascript, JSON files, HTML, LESS and jQuery.
 
 ### 2. About Sails.js
 
-Sails is an MVC framework to manage the whole development pipeline of an application (frontend and backend). It makes it easy to build custom, enterprise-grade Node.js apps. It is designed to emulate the familiar MVC pattern of frameworks like Ruby on Rails, but with support for the requirements of modern apps: data-driven APIs with a scalable, service-oriented architecture. It's especially good for building chat, realtime dashboards, or multiplayer games; but you can use it for any web application project - top to bottom. These are some of its features:
+Sails is an MVC framework to manage the whole development pipeline of an application (frontend and backend). It makes it easy to build custom, enterprise-grade Node.js apps. It is designed to emulate the familiar MVC pattern of frameworks like Ruby on Rails, but with support for the requirements of modern apps: data-driven APIs with a scalable, service-oriented architecture. It's especially good for building chat, real-time dashboards, or multiplayer games; but you can use it for any web application project - top to bottom. These are some of its features:
 
 - **It's 100% Javascript**
 - **You can use any database system**: Sails bundles a powerful ORM, Waterline, which provides a simple data access layer that just works, no matter what database you're using
@@ -96,9 +96,9 @@ At this point, if you visit [http://localhost:1337](http://localhost:1337) you w
   <img src="/blog/tutorial-how-to-build-a-multi-player-quiz-app-with-sails-js/images/folder-structure_fqfmgc.png" alt="folder-structure" width="178" height="399" />
 </div>
 
-- **/.tmp/public**: where the distribution files are compiles. These files are what we see when we load the website
+- **/.tmp/public**: where the distribution files are compiled. These files are what we see when we load the website
 
-- **/api**: <span style="color: #ff0000;">all the backend files</span>. In the "policies" folder are stored rules for application user access. "responses" contains files like the web server errors (404, 403, 500, etc). We can include in this folder the functions that handle specific tasks like deciding how to manage users with different access levels. It could be done in the controller, but it's a best practice not to bloat the controllers with a lot of business logic.
+- **/api**: <span style="color: #ff0000;">all the backend files</span>. In the "policies" folder are stored rules for application user access. "responses" contain files like the web server errors (404, 403, 500, etc). We can include in this folder the functions that handle specific tasks like deciding how to manage users with different access levels. It could be done in the controller, but it's a best practice not to bloat the controllers with a lot of business logic.
 
 - **/assets/data**: JSON files with the quiz questions
 
@@ -143,12 +143,12 @@ module.exports.routes = {
 
 ### 7. The sitemap, layout and the views
 
-Whenever I build a new project, the first thing that comes to my mind is the sitemap. This elemental document is very important to create a picture in your mind of how is going to be the user journey and how the pages are interconnected. In Quiz Wars, the sitemap is very simple. There are only two views/pages, "index" and "quiz". The user journey consists on logging into the system or signing up as a new user. Then you get redirected to the quiz page, where you will remain until the end of your session.
+Whenever I build a new project, the first thing that comes to my mind is the sitemap. This elemental document is very important to create a picture in your mind of how is going to be the user journey and how the pages are interconnected. In Quiz Wars, the sitemap is very simple. There are only two views/pages, "index" and "quiz". The user journey consists of logging into the system or signing up as a new user. Then you get redirected to the quiz page, where you will remain until the end of your session.
 
 By default, Sails is configured to use EJS (Embedded Javascript) as its view engine. The syntax for EJS is highly conventional- if you've worked with php, asp, erb, gsp, jsp, etc., you'll immediately know what you're doing.
 
 - **"/view/index.ejs"**: this is the homepage, where we have two forms (toggled with jQuery), the login and signup forms. The first form posts data to the "/login" endpoint, which is connected with the "login" method in the "user" controller. The second one posts data to "/signup", which is connected to the "signup" method in the "user" controller
-- **"view/quiz.ejs"**: this page holds the rest of the available content in the website. There are three panels: the score table, the quiz panel and the chat panel
+- **"view/quiz.ejs"**: this page holds the rest of the available content on the website. There are three panels: the score table, the quiz panel and the chat panel
 
 The views make use of <strong>"/view/layout.ejs"</strong>, which is the template that holds the common elements, like the meta and link tags, the body declaration and all the JS dependencies:
 
@@ -180,7 +180,7 @@ The layout support is only implemented for the EJS view engine. If you prefer to
 
 ### 8. The homepage
 
-The homepage contains just two classic HTML forms for logging in the user or sign him up. The only usual logic is the evaluation of the session to determine if the user is already logged in:
+The homepage contains just two classic HTML forms for logging in to the user or sign him up. The only usual logic is the evaluation of the session to determine if the user is already logged in:
 
 ```javascript
 <% if (req.session.me) { %>
@@ -192,7 +192,7 @@ The homepage contains just two classic HTML forms for logging in the user or sig
 
 In the code example above, we are evaluating if the session object has the user data or not. We assign the user data to the session after a successful login in **"/api/responses/login.js"** -> req.session.me = user.id;
 
-Another aspect I would like to highlight is the form validation taken care by <a href="http://parsleyjs.org/">parsleyjs</a>. This is being done by adding attributes to the input fields like `data-parsley-trigger="keyup"`, `data-parsley-maxlength="30"` or required.
+Another aspect I would like to highlight is the form validation taken care of by <a href="http://parsleyjs.org/">parsleyjs</a>. This is being done by adding attributes to the input fields like `data-parsley-trigger="keyup"`, `data-parsley-maxlength="30"` or required.
 
 Note: currently there's no error reporting when the user tries to login with the wrong username/password.
 
@@ -213,7 +213,7 @@ And the button to restart the quiz, which has a simple page reload: `onClick="wi
 
 ### 10. The User Model
 
-In an MVC framework, we have models, views and controllers. The models allow us to define the logic that will interact with our DB. Sails.js uses an ORM (although they prefer to call it "a brand new kind of storage and retrieval engine") called <a href="https://github.com/balderdashy/waterline">Waterline.</a> It provides a uniform API for accessing stuff from different kinds of databases, protocols, and 3rd party APIs. That means you write the same code to get and store things like users, whether they live in Redis, mySQL, LDAP, MongoDB, or Postgres. Waterline strives to inherit the best parts of ORMs like ActiveRecord, Hibernate, and Mongoose, but with a fresh perspective and emphasis on modularity, testability, and consistency across adapters.
+In an MVC framework, we have models, views and controllers. The models allow us to define the logic that will interact with our DB. Sails.js uses an ORM (although they prefer to call it "a brand new kind of storage and retrieval engine") called <a href="https://github.com/balderdashy/waterline">Waterline.</a> It provides a uniform API for accessing stuff from different kinds of databases, protocols, and 3rd party APIs. That means you write the same code to get and store things like users, whether they live in Redis, MySQL, LDAP, MongoDB, or Postgres. Waterline strives to inherit the best parts of ORMs like ActiveRecord, Hibernate, and Mongoose, but with a fresh perspective and emphasis on modularity, testability, and consistency across adapters.
 
 In Quiz Wars, the DB is based on the filesystem (the default method). From a development perspective, it's great because we don't need to worry about creating tables and connecting with the DB, plus we can reset the data very easily by selecting the 3rd migration option when lifting the app using "sails lift". To see the migration options, the "migrate" value has to be commented out in **"/config/models.js"**.
 
@@ -260,9 +260,9 @@ module.exports = {
 };
 ```
 
-Creating a model feels very similar (conceptually speaking) to creating a new table in a DB. Each attribute can have certain properties, like a type, be unique or required, have a default state, a minimum length, etc. For a full list of attribute properties you can refer to the [Waterline Model documentation](https://github.com/balderdashy/waterline-docs/blob/master/models.md). Each model serves as an interface to communicate our controllers with our DB.
+Creating a model feels very similar (conceptually speaking) to creating a new table in a DB. Each attribute can have certain properties, like a type, be unique or required, have a default state, a minimum length, etc. For a full list of attribute properties, you can refer to the [Waterline Model documentation](https://github.com/balderdashy/waterline-docs/blob/master/models.md). Each model serves as an interface to communicate our controllers with our DB.
 
-In this model, we are storing the basic information for each user, being the **status** the most important. A user can have one status at a time and it can be: "**online**", when the user is connected but it's not ready to play nor playing, "**ready**", when the user has confirmed that wants to join the next quiz and "**playing**", when the user is currently playing a quiz game. If the user has an "offline" status, it means that it's not connected and therefore will not appear on the score/players table.
+In this model, we are storing the basic information for each user, being the **status** the most important. A user can have one status at a time and it can be: "**online**", when the user is connected but it's not ready to play, "**ready**", when the user has confirmed that wants to join the next quiz and "**playing**", when the user is currently playing a quiz game. If the user has an "offline" status, it means that it's not connected and therefore will not appear on the score/players table.
 
 Aside from the attributes, models also contain the logic to query the DB. In Quiz Wars, we have two methods (in the same file where we have the attributes), signup and attemptLogin:
 
@@ -305,7 +305,7 @@ The User controller encapsulates all the application logic between the homepage 
 - **signup**: it calls the signup method from the User model, handles the returned response and redirects the user if the signup is successful
 - **chat**: this emits a socket event with the verb "messaged" and the parameters passed to the function. This message will be received in the frontend by all connected users
 - **status**: this method takes care of updating the status of a given user or a group of users depending if the value of the ID attribute is a number or a string respectively. The process to update a user is: query the DB, i.e. user.find(...) -> loop users, users.forEach(...) -> assign new value, user.status = req.param('status') -> save(). After the user is updated in the DB, we emit a socket event to inform the rest of the users. Notice that the error handling has not yet been implemented
-- **start**: emit a socket event to inform the rest of the users that the quiz has started. At the same time, we are sending them a sequence of numbers which correspond to the random indexes of questions that the user who started the quiz generated
+- **start**: emit a socket event to inform the rest of the users that the quiz has started. At the same time, we are sending them a sequence of numbers that correspond to the random indexes of questions that the user who started the quiz generated
 - **score**: a simple method to broadcast to all the sockets connected that a determined user has a new score. At the moment we are not saving the score in the DB, but this will be necessary if we want to implement a persistent ranking
 
 ```javascript
@@ -426,9 +426,9 @@ module.exports = {
 
 ### 12. The login response
 
-Why do we need to separate this logic from the controller? This might be the first question that comes to your mind and  in many cases, that would actually be preferable.  This example uses a "fat" custom response to demonstrate how we could do it if for instance, we need the backend to support multiple user roles, with different login behaviour. We might need to send back a few different kinds of success/failure codes, with different messages based on the outcome. In that case, it would be most sensible to create a custom version of the logic here rather than in the relevant controller action.
+Why do we need to separate this logic from the controller? This might be the first question that comes to your mind and in many cases, that would be preferable.  This example uses a "fat" custom response to demonstrate how we could do it if, for instance, we need the backend to support multiple user roles, with different login behavior. We might need to send back a few different kinds of success/failure codes, with different messages based on the outcome. In that case, it would be most sensible to create a custom version of the logic here rather than in the relevant controller action.
 
-This login function in `api/responses/login.js` basically attempts to login the user, verifies that the password from the login form matches the hash in the DB, assigns the user ID and name to the session and handles any possible error/response.
+This login function in `api/responses/login.js` attempts to log in the user verifies that the password from the login form matches the hash in the DB, assigns the user ID and name to the session and handles any possible error/response.
 
 ```javascript
 module.exports = function login(inputs) {
@@ -483,7 +483,7 @@ module.exports = function login(inputs) {
 
 ### 13. The socket.js config file
 
-The file located at `/config/socket.js` is being used to find out if a user has already a session created. Let's say you sign up in the page and you have a socket opened. Then for whatever reason you lose the Internet connection and your sockets gets disconnected. When your connection is back and you reload the page, the first method that will be triggered when your socket comes alive again is "onConnect". Here we will check if your session is already logged in the DB and if that's the case we will resume your activity as it was before your connection was interrupted.
+The file located at `/config/socket.js` is being used to find out if a user has already a session created. Let's say you sign up on the page and you have a socket opened. Then for whatever reason, you lose the Internet connection and your sockets get disconnected. When your connection is back and you reload the page, the first method that will be triggered when your socket comes alive again is "onConnect". Here we will check if your session is already logged in the DB and if that's the case we will resume your activity as it was before your connection was interrupted.
 
 OnConnect will also subscribe you to watch changes in the User Model, save your IP address and save your data in the session object.
 
@@ -555,7 +555,7 @@ onDisconnect: function(session, socket) {
 
 ### 14. The frontend modules
 
-The frontend modules are located in `/assets/js/`. Currently we have `chat.js`, `events.js`, `quiz.js` and `user.js`. The entry point for the application is located in `app.js`. With the current basic approach of the game, we just need one instance of each module running at the same time because a given user can only play in one quiz at a time. But if in the future we want to add more features, like multiple chat rooms or private messages, it would be a good idea to refactor the modules to be more flexible.
+The frontend modules are located in `/assets/js/`. Currently, we have `chat.js`, `events.js`, `quiz.js` and `user.js`. The entry point for the application is located in `app.js`. With the current basic approach of the game, we just need one instance of each module running at the same time because a given user can only play one quiz at a time. But if in the future we want to add more features, like multiple chat rooms or private messages, it would be a good idea to refactor the modules to be more flexible.
 
 ### Let's start with app.js
 
@@ -602,24 +602,23 @@ io.socket.on('disconnect', function() {
 });
 ```
 
-The first thing you will notice is that we are not using "onReady/onLoad" to start the app. In this case, I've decided to use the "connect" event of the socket.io library as the entry point to load everything else. The reason of this is to avoid loading the app before we even have a socket connection. If there's no socket available for whatever connection issue, then we don't load the app.
+The first thing you will notice is that we are not using "onReady/onLoad" to start the app. In this case, I've decided to use the "connect" event of the socket.io library as the entry point to load everything else. The reason for this is to avoid loading the app before we even have a socket connection. If there's no socket available for whatever connection issue, then we don't load the app.
+Right from the beginning, we load all the frontend modules prefixed with `QW_MODULES`. Probably we don't need all of them on the login/signup page, but that's part of an optimization stage that it's not necessary now. The next three functions are socket.io callbacks. We are subscribing to those messages: "hello", "user" and "chat". Whenever the backend emits one of those messages, the frontend will receive it. This is called the [pub/sub pattern](http://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern) (publish/subscribe). In some of these callbacks, we can find that the message has a verb attached. Sails.js automatically creates events for verbs like "created", "destroyed" and a few more when we interact with the models. In this case, we are calling the addUser and removeUser functions in our frontend user module whenever the backend emits an automatic event when a user is created or destroyed. This is what makes the framework so powerful.
 
-Right since the beginning, we load all the frontend modules prefixed with `QW_MODULES`. Probably we don't need all of them in the login/signup page, but that's part of an optimization stage that it's not necessary now. The next three functions are socket.io callbacks. We are basically subscribing to those messages: "hello", "user" and "chat". Whenever the backend emits one of those messages, the frontend will receive it. This is call the [pub/sub pattern](http://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern) (publish/subscribe). In some of these callbacks, we can find that the message has a verb attached. Sails.js automatically creates events for verbs like "created", "destroyed" and a few more when we interact with the models. In this case, we are calling the addUser and removeUser functions in our frontend user module whenever the backend emits an automatic event when a user is created or destroyed. This is what makes the framework so powerful.
-
-The "hello" callback is triggered when a successful connection is made. If the user reloads the page, it will trigger again. Now, from the frontend we can also emit messages!, that's what we do in lines 13 and 14. The first line uses "get" to retrieve a list of users from the backend API and sends it to the updateUserList method in the frontend user module. Sails.js generates automatic JSON views of the controllers and their actions that are accesible by the URL that matches the name of the controller &amp; action:
+The "hello" callback is triggered when a successful connection is made. If the user reloads the page, it will trigger again. Now, from the front-end we can also emit messages! that's what we do in lines 13 and 14. The first line uses "get" to retrieve a list of users from the backend API and sends it to the updateUserList method in the frontend user module. Sails.js generates automatic JSON views of the controllers and their actions that are accessible by the URL that matches the name of the controller &amp; action:
 
 - "User" controller, "index" action -> /user
 - "User" controller, "chat" action -> /user/chat
 
-You can try it yourself. Login in Quiz Wars and visit [http://localhost:1337/user](http://localhost:1337/user)
+You can try it yourself. Login to Quiz Wars and visit [http://localhost:1337/user](http://localhost:1337/user)
 
-The next callback, "chat", is used to update the gameplay and the chat messages. Honestly, instead of "chat" we could have called it "quiz" or "game"... It's main purpose is to act as a virtual router that redirects messages to the right frontend function.
+The next callback, "chat", is used to update the gameplay and the chat messages. Honestly, instead of "chat" we could have called it "quiz" or "game"... Its main purpose is to act as a virtual router that redirects messages to the right frontend function.
 
 Sadly, the "disconnect" callback is not working :-( I'm not sure why. I've tried to put it inside the "connect" function but it didn't work. Please let me know if you make it work. We are using it to display a message in the chat room when the user leaves the app.
 
 ### The user module
 
-This module is quite self explanatory. "addUser" and "removeUser" take care of updating the users <table> by adding/removing a <tr> and updating the UI (enabling/disabling the quiz button). The "updateUserList" function resets the table when one a new user connects to the app or when someones leaves.
+This module is quite self-explanatory. "addUser" and "removeUser" take care of updating the users <table> by adding/removing a <tr> and updating the UI (enabling/disabling the quiz button). The "updateUserList" function resets the table when a new user connects to the app or when someone leaves.
 
 ```javascript
 var QW_MODULES = (function (modules, $) {
@@ -774,7 +773,7 @@ var QW_MODULES = (function (modules, $) {
 
 ### The chat module
 
-This module takes care of all the interactions that the user makes with the chat system. Notice that we are posting the message to "/user/chat" which corresponds to the Chat action in the User Controller. I've just realized that the "updateScore" and function might be a bit out of place in this module; it probably sits better in the Quiz module. Nonetheless, this function updates the score in the players table and shows the correct answer to the current question.
+This module takes care of all the interactions that the user makes with the chat system. Notice that we are posting the message to "/user/chat" which corresponds to the Chat action in the User Controller. I've just realized that the "updateScore" and function might be a bit out of place in this module; it probably sits better in the Quiz module. Nonetheless, this function updates the score in the players' table and shows the correct answer to the current question.
 
 ```javascript
 var QW_MODULES = (function (modules, $) {
@@ -861,13 +860,13 @@ var QW_MODULES = (function (modules, $) {
 
 ### The quiz module
 
-This module manages all the logic when the quiz starts. The first step is to generate an array of random indexes from the selected JSON file with the quiz questions. This is done by the function "generateSequence", which loads the JSON via Ajax. Once we know the amount of questions in the JSON file, we create a dummy array filled with numbers, from 0 until the total amount of questions. Then we apply the custom function "shuffle" to mix up all the numbers into a new array. Finally we grab the amount of questions that the user chose and we send them to all the players together with the signal to start the quiz.
+This module manages all the logic when the quiz starts. The first step is to generate an array of random indexes from the selected JSON file with the quiz questions. This is done by the function "generateSequence", which loads the JSON via Ajax. Once we know the number of questions in the JSON file, we create a dummy array filled with numbers, from 0 to the total amount of questions. Then we apply the custom function "shuffle" to mix up all the numbers into a new array. Finally, we grab the number of questions that the user chose and we send them to all the players together with the signal to start the quiz.
 
 When all the users receive the signal to start the quiz, the "loadQuiz" function will be triggered, which will load the first question from the sequence from the JSON file and call "setupQuiz" to start the initial countdown.
 
-Once the initial countdown is over, the first question will appear on the screen (see the "startQuiz" case in the "countdownCallback" function). When a new questions appears on the screen, a new countdown will also start. This countdown will only stop if any of the players clicks on the correct answer (see "checkAnswer" function) or the countdown arrives to the end. In both scenarios, the correct answer will be revealed, the score will be updated and the next question loaded.
+Once the initial countdown is over, the first question will appear on the screen (see the "startQuiz" case in the "countdownCallback" function). When a new question appears on the screen, a new countdown will also start. This countdown will only stop if any of the players click on the correct answer (see "checkAnswer" function) or the countdown arrives at the end. In both scenarios, the correct answer will be revealed, the score will be updated and the next question loaded.
 
-The "resolveQuestion" function adds the classes to the answers to display the correct and incorrect ones, then it checks if we are at the end of the quiz and if that's the case it calls the "winner" function. This last function will display the user avatar to rest of the users and display a button to reload the page and start a new quiz.
+The "resolveQuestion" function adds the classes to the answers to display the correct and incorrect ones, then it checks if we are at the end of the quiz and if that's the case it calls the "winner" function. This last function will display the user avatar to the rest of the users and display a button to reload the page and start a new quiz.
 
 ```javascript
 var QW_MODULES = (function (modules, $) {
@@ -1018,18 +1017,18 @@ var QW_MODULES = (function (modules, $) {
 
 ### 15. Conclusions
 
-My experience with Sails.js has been very positive and I recommend everyone who is interested in real time multi-user applications to start a project and discover all its virtues. The learning curve is very mild and all the codebase is very well commented, with references to other files when necessary. Everything in the framework is clear, without redundant files that otherwise would end up bloating it and making more difficult to understand. The only aspect that is not as good as one might like is the documentation and the community. There's a [stack overflow section for Sails.js](http://stackoverflow.com/tags/sails.js/hot) with a few interesting topics. It's a very new framework and we hope that in a near future there will be more resources available. Nonethese, that is a minor consideration, at least for small projects.
+My experience with Sails.js has been very positive and I recommend everyone interested in real-time multi-user applications start a project and discover all its virtues. The learning curve is very mild and all the codebase is very well commented, with references to other files when necessary. Everything in the framework is clear, without redundant files that otherwise would end up bloating it and making it more difficult to understand. The only aspect that is not as good as one might like is the documentation and the community. There's a [stack overflow section for Sails.js](http://stackoverflow.com/tags/sails.js/hot) with a few interesting topics. It's a very new framework and we hope that in a near future there will be more resources available. Nonetheless, that is a minor consideration, at least for small projects.
 
-I would be glad to answer any question or try to help to resolve any issue you might face during the installation process, so please don't hesitate to let me know. At the same time, I am very opened to hear about improvements or mistakes in the code, but please bear in mind that this is example is not intended to be a completed/final product. There are still many features that need to be refined or included.
+I would be glad to answer any questions or try to help to resolve any issue you might face during the installation process, so please don't hesitate to let me know. At the same time, I am very open to hearing about improvements or mistakes in the code, but please bear in mind that this example is not intended to be a completed/final product. There are still many features that need to be refined or included.
 
 Many thanks for your time and I hope you have a great time in the exciting world of Node.js! ^_^
 
 ### 16. Credits
 
-My research has been based on Sails.js official examples, which can be found in [Sails 101](https://github.com/sails101) and these two github projects: [node-sails-chat](https://github.com/Ajeey/node-sails-chat/), [sailsChat](https://github.com/sgress454/sailsChat).
+My research has been based on Sails.js official examples, which can be found in [Sails 101](https://github.com/sails101) and these two Github projects: [node-sails-chat](https://github.com/Ajeey/node-sails-chat/), [sailsChat](https://github.com/sgress454/sailsChat).
 
 ### 17. Updates and bugs
 
-I have tried running Sails.js in a server with Node.js and Apache, but my experience wasn't great. The proxy in the apache vhost was adding a big delay in the socket connection. So I don't recommend running a Node app in a server that is already running Apache. [More info here](http://https//www.digitalocean.com/community/tutorials/how-to-create-an-node-js-app-using-sails-js-on-an-ubuntu-vps).
+I have tried running Sails.js on a server with Node.js and Apache, but my experience wasn't great. The proxy in the apache vhost was adding a big delay in the socket connection. So I don't recommend running a Node app on a server that is already running Apache. [More info here](http://https//www.digitalocean.com/community/tutorials/how-to-create-an-node-js-app-using-sails-js-on-an-ubuntu-vps).
 
 There's a bug when selecting a quiz different from the first one and starting it. The selected quiz and amount of questions are not being broadcasted to the connected users.

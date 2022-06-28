@@ -6,9 +6,9 @@ template: post
 category: work
 ---
 
-I've been a **Wordpress** developer for quite some time, but at some point, I got tired of the massive attention that it was getting from **hackers**. I also started to feel tired of the old LAMP stack and wanted to have a fresh start with relevant technologies like Node.js, Nginx, Ember.js, etc. That's how I switched all my personal websites to [Ghost](http://ghost.org).
+I've been a **WordPress** developer for quite some time, but at some point, I got tired of the massive attention that it was getting from **hackers**. I also started to feel tired of the old LAMP stack and wanted to have a fresh start with relevant technologies like Node.js, Nginx, Ember.js, etc. That's how I switched all my websites to [Ghost](http://ghost.org).
 
-I've been using the **fantastic** [Ghost](http://ghost.org) platform to run this website since almost a year ago and so far, it has been a great experience. In this article, I'm going to explain how I built the [/work](http://joanmira.com/work) section of this website. In a way, it's a bit of a hack, considering that [Ghost](http://ghost.org) doesn't have yet a clear way to create pages of a specific type or have custom post fields that we can read in the templates (like in Wordpress).
+I've been using the **fantastic** [Ghost](http://ghost.org) platform to run this website since almost a year ago and so far, it has been a great experience. In this article, I'm going to explain how I built the [/work](http://joanmira.com/work) section of this website. In a way, it's a bit of a hack, considering that [Ghost](http://ghost.org) doesn't have yet a clear way to create pages of a specific type or have custom post fields that we can read in the templates (like in WordPress).
 
 To make this work, we are going to use:
 
@@ -20,18 +20,18 @@ To make this work, we are going to use:
 
 You can read more about the mentioned Ghost features in the [documentation](https://themes.ghost.org/docs/about). Notice that the [{{get}} helper](https://themes.ghost.org/docs/get) is still in beta.
 
-The way it works is very simple, we are going to use normal Ghost tags (like web, mobile, video, design, etc) to categorise our portfolio items and we will also use the '**work**' tag to identify the pages that need to be treated as portfolio pages.
+The way it works is very simple, we are going to use normal Ghost tags (like web, mobile, video, design, etc) to categorize our portfolio items and we will also use the '**work**' tag to identify the pages that need to be treated as portfolio pages.
 
 This approach has at least **one limitation**:
 
-If we are going to use the **page.hbs** template for the portfolio entries, that means we cannot create new pages on the fly because that template is used by default for every new page we create. For the rest of static pages of our site, we will have to use specific new templates. For example, the about page will require a new template called page-about.hbs, the contact page will require a new template called page-contact.hbs, etc. Which means, **this approach is more appropriated for small sites** that don't have many static pages and the new content is usually going to be either a blog post or a new portfolio entry.
+If we are going to use the **page.hbs** template for the portfolio entries, which means we cannot create new pages on the fly because that template is used by default for every new page we create. For the rest of the static pages of our site, we will have to use specific new templates. For example, the about page will require a new template called page-about.hbs, the contact page will require a new template called page-contact.hbs, etc. This approach is more appropriate for small sites that don't have many static pages and the new content is usually going to be either a blog post or a new portfolio entry.
 
 ### Step 1. Create a new HTML template to display the portfolio grid
 
-First we are going to create a new template. I called it page-work.hbs (because my URL is /work), but you can call it whatever you prefer, ie. page-portfolio, page-projects, etc. In this template, we are going to have:
+First, we are going to create a new template. I called it page-work.hbs (because my URL is /work), but you can call it whatever you prefer, ie. page-portfolio, page-projects, etc. In this template, we are going to have:
 
 * Some intro copy (entered with the markdown editor)
-* The portfolio main navigation
+* The portfolio's main navigation
 * The grid with the portfolio items
 
 And this is the code we will use:
@@ -118,7 +118,7 @@ $('.button-group').each( function(i, buttonGroup) {
 
 In the first part of the code, we are just attaching Isotope to the work-grid block defined in our HTML template. Then we are telling Isotope that our portfolio thumbnails will have the class name 'work'. The rest of the settings are the ones indicated by the [Isotope documentation](http://isotope.metafizzy.co/#getting-started) to make the grid responsive.
 
-The next bit takes care of the navigation click events. It basically tells Isotope to rearrange the items in the grid based on the selected filter.
+The next bit takes care of the navigation click events. It tells Isotope to rearrange the items in the grid based on the selected filter.
 
 Finally, the last snippet updates the 'checked' class names in the navigation buttons when they are clicked. Notice that we are targeting the buttons inside the 'button-group' blocks. That's because you might decide to have different sets of navigations, one for filtering and another one for sorting. You can find out about how to sort items in the [Isotope documentation](http://isotope.metafizzy.co/#getting-started).
 

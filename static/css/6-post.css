@@ -179,6 +179,7 @@
 
   #post-audio {
     width: 100%;
+    height: 32px;
   }
 
   .post .sidebar {

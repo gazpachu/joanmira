@@ -6,9 +6,7 @@ template: post
 category: work
 ---
 
-UPDATE June 2022: I'm not very fond of using MobX in React projects anymore. It's better to keep everything under the same functional programming paradigm.
-
-After a few projects using Redux, I've realised that it might not be the best solution for all kind of projects. Don't get me wrong, redux works great, but I tend to find myself procrastinating a bit whenever I have to add a new value to the state tree. Perhaps is due to the amount of code required to do it.
+After a few projects using Redux, I've realized that it might not be the best solution for all types of projects. Don't get me wrong, redux works great, but I tend to find myself procrastinating a bit whenever I have to add a new value to the state tree. Perhaps is due to the amount of code required to do it.
 
 Anyway, this post is going to be about MobX. I will explain step by step the changes I had to do to make it work. Note that I am also using JSON API, so I will cover this aspect as well.
 
@@ -218,4 +216,4 @@ teststore.request('http://localhost:3000/xxxxxxxxxxx')
   });
 ```
 
-Article pending to be finished. To be continued soon...
+UPDATE June 2022: I'm not very fond of using MobX in React projects anymore. It's better to keep everything under the same functional programming paradigm.

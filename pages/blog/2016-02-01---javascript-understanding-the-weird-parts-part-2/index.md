@@ -1,12 +1,12 @@
 ---
 title: "Javascript: understanding the weird parts [Part 2]"
-description: My learnings reviewing JavaScript concepts in the Udemy educational site
+description: My learnings reviewing JavaScript concepts on the Udemy educational site
 cover: images/coding.jpg
 template: post
 category: work
 ---
 
-In the [previous part of this article](/javascript-understanding-the-weird-parts/), we learned about execution contexts, types and operators, functions, etc. In this part, we are going to learn more about object oriented programming with Javascript.
+In the [previous part of this article](/javascript-understanding-the-weird-parts/), we learned about execution contexts, types and operators, functions, etc. In this part, we are going to learn more about object-oriented programming with Javascript.
 
 ### Lecture 53: Classical vs prototypal inheritance
 
@@ -18,11 +18,11 @@ Prototypal inheritance: simple. Extensible. Easy to understand.
 
 ### Lecture 54: Understanding the prototype
 
-All objects have a "special property" called the proto {} property. That's the prototype of the object. It can also have its own properties. When we request a property of an object, JS first looks into the object itself to find that property, if it cannot find it, then it looks for the property inside the prototype.
+All objects have a "special property" called the proto {} property. That's the prototype of the object. It can also have its properties. When we request the property of an object, JS first looks into the object itself to find that property, if it cannot find it, then it looks for the property inside the prototype.
 
 That prototype can also contain another prototype object and JS will always go down the chain. That's called the **prototype chain**.
 
-If we have an object2, it can also point at the same prototype of object1. Objects can share all the same prototype.
+If we have object2, it can also point at the same prototype of object1. Objects can share the same prototype.
 
 ![](/blog/javascript-understanding-the-weird-parts-part-2/images/JS-prototype-chain.jpg)
 
@@ -69,7 +69,7 @@ Everything leads to the base object. That's the bottom of the prototype chain.
 
 ### Lecture 56: Reflection and extend
 
-Reflection: an object can look at itself, listing and changing its properties and methods. We can use that to implement the extend pattern. Let's look at how reflection works:
+Reflection: an object can look at itself, listing and changing its properties and methods. We can use that to implement the extended pattern. Let's look at how reflection works:
 
 ```javascript
 var person = {
@@ -100,23 +100,23 @@ for (var prop in john) {
 }
 ```
 
-Conceptual aside: look at the "_extend" method in the Underscore library. Analyse the 'createAssigner' method to understand how reflection is used. It basically uses two loops to assign the properties and methods of the objects passed as parameters to the first object passed as a parameter.
+Conceptual aside: look at the "_extend" method in the Underscore library. Analyze the 'createAssigner' method to understand how reflection is used. It uses two loops to assign the properties and methods of the objects passed as parameters to the first object passed as a parameter.
 
 Extend is used in many libraries and frameworks. We could pull that method from Underscore and use it in our own library/project.
 
-In ES6, we have also 'extends', but that's used for a different functionality.
+In ES6, we have also 'extends', but that's used for different functionality.
 
 ### Lecture 57: Building objects
 
 Function constructors, 'new' and the history of Javascript.
 
-It was called Javascript to attract Java developers. The same way, Microsoft created VBScript to attract their own developers.
+It was called Javascript to attract Java developers. In the same way, Microsoft created VBScript to attract its developers.
 
-So, Java developers were used to create objects like this:
+So, Java developers were used to creating objects like this:
 
 `var john = new Person();`
 
-Although, ES6 will introduce the class keyword, Javascript doesn't really have classes.
+Although ES6 will introduce the class keyword, Javascript doesn't have classes.
 
 So, Java developers thought Javascript was like Java and they recommended it.
 
@@ -137,7 +137,7 @@ console.log(jane);
 
 ### Lecture 58: Function constructors and '.prototype'
 
-Functions have special properties, aside from name, code, etc, they also have a prototype property, which starts its life as an empty object and it's ONLY used by the new operator.
+Functions have special properties, aside from the name, code, etc, they also have a prototype property, which starts its life as an empty object and it's ONLY used by the new operator.
 
 ```javascript
 function Person(firstname, lastname) {
@@ -164,11 +164,11 @@ console.log(john.getFormalFullName());
 
 So, we can add features to all those objects that we create by using the prototype.
 
-In good code, the methods of an object are set with prototype. Why? Because if we add getFullName to every object, it means they are using a lot of memory. If we add it to the prototype, we only have it once. We just use one copy for all the instances of the object. We are saving memory space, because there's only one prototype for all the objects.
+In good code, the methods of an object are set with the prototype. Why? Because if we add `getFullName` to every object, it means they are using a lot of memory. If we add it to the prototype, we only have it once. We just use one copy for all the instances of the object. We are saving memory space because there's only one prototype for all the objects.
 
 ### Lecture 59: Dangerous aside, using 'new' and functions
 
-If we forget to use 'new', the function constructor will return undefind. It's a good practice to use capital letters for constructors. In that way, if we see the new keyword is missing,  we will notice it's wrong.
+If we forget to use 'new', the function constructor will return undefined. It's a good practice to use capital letters for constructors. In that way, if we see the new keyword is missing,  we will notice it's wrong.
 
 In ES6, function constructors are likely going away.
 
@@ -199,7 +199,7 @@ String.prototype.isLengthGreaterThan = function(limit) {
 console.log('John'.isLengthGreaterThan(3));
 ```
 
-String is an object and we are adding a method to the prototype. We just enhanced the JS language just like that! We have to be careful not to overwrite an existing method.
+`String` is an object and we are adding a method to the prototype. We just enhanced the JS language just like that! We have to be careful not to overwrite an existing method.
 
 ```javascript
 Number.prototype.isPositive = function() {
@@ -209,14 +209,14 @@ Number.prototype.isPositive = function() {
 console.log(3.isPositive()); // Returns error
 ```
 
-Javascript doesn't return a number into an object, so we have to do:
+Javascript doesn't return a number into an object, so we have to do the following:
 
 ```javascript
 var a = new Number(3);
 a.isPositive();
 ```
 
-So, it's a good feature, but it gets a bit confusing, because not everything works the same way.
+So, it's a good feature, but it gets a bit confusing because not everything works the same way.
 
 ### Lecture 61: Dangerous aside. Built-in function constructors
 
@@ -230,7 +230,7 @@ a === b // returns false
 
 So, as you can see, that's not a very recommended situation. It's better not to use new to create primitives.
 
-The same way, if we are going to work a lot with dates, it is recommended to use the library [Moment.js](http://momentjs.com).
+In the same way, if we are going to work a lot with dates, it is recommended to use the library [Moment.js](http://momentjs.com).
 
 ### Lecture 62: Dangerous aside. Arrays and for..in
 
@@ -244,11 +244,11 @@ for (item in arr) {
 // That will render also myCustomFeature
 ```
 
-So, in the case of arrays, don't use for..in. Use the for..i classic loop.
+So, in the case of arrays, don't use `for..in`. Use the `for..i` classic loop.
 
 ### Lecture 63: Object.create and pure prototypal inheritance
 
-This is a new feature for new browsers. If we need to support older browser, we use a **polyfill**, which is code that adds a feature which the engine may lack.
+This is a new feature for new browsers. If we need to support an older browser, we use a **polyfill**, which is code that adds a feature that the engine may lack.
 
 ```javascript
 var person = {
@@ -307,7 +307,7 @@ class InformalPerson extends Person {
 
 Syntactic sugar: a different way to type something that doesn't change how it works under the hood.
 
-### Lecture 65: Odds and ends. Initialisation
+### Lecture 65: Odds and ends. Initialization
 
 Just talking about common syntax errors when creating big literal objects with arrays and functions. Nothing to highlight here.
 
@@ -352,11 +352,11 @@ For more info, check [the strict mode reference](https://developer.mozilla.org/e
 
 ### Lecture 69: Learning from other's good code
 
-An open source education. Github.com contains a great collection of source code where we can learn. So, it's a good practice to occasionally take a look at some of the methods of the libraries we use.
+An open-source education. Github.com contains a great collection of source code where we can learn. So, it's a good practice to occasionally take a look at some of the methods of the libraries we use.
 
 ### Lectures 70-72: Deep dive into famous source code. jQuery
 
-These lectures are quite dense in terms of code reviewing, so I will skip commenting about them. You are more than welcome to download the unminified version of jQuery and dive into the code to try to understand how the library it's initialised (without the need of using 'new') and how all the methods are stored in the prototype of fn.
+These lectures are quite dense in terms of code review, so I will skip commenting about them. You are more than welcome to download the unminified version of jQuery and dive into the code to try to understand how the library it's initialized (without the need of using 'new') and how all the methods are stored in the prototype of fn.
 
 I just like to mention the **method chaining**, which is a very useful way of chaining calls to methods. If you use jQuery, then very probably you already know about this. Like when you add a class and remove another class in the same line:
 
@@ -366,18 +366,18 @@ $('.selector').addClass('a').removeClass('b');
 
 To achieve that, we only have to 'return this;' in the methods we are calling.
 
-### Lectures 73: Let's build a a framework / library. Requirements
+### Lectures 73: Let's build a framework/library. Requirements
 
 * We are going to call it 'Greetr', an app to greet users
 * When given a first name, last name and optional languages, it generates formal and informal greetings
 * Support English and Spanish languages
-* Reusable library / framework
+Reusable library/framework
 * Easy to type 'G$()' structure
 * Support jQuery
 
-### Lectures 74: Let's build a a framework / library. Structuring safe code
+### Lectures 74: Let's build a framework/library. Structuring safe code
 
-First, create a file called Greetr.js. First we are going to create a new execution context with a self-invoking function.
+First, create a file called Greetr.js. First, we are going to create a new execution context with a self-invoking function.
 
 ```javascript
 (function(global, $) {
@@ -385,7 +385,7 @@ First, create a file called Greetr.js. First we are going to create a new execut
 }(window, jQuery))
 ```
 
-### Lectures 75: Let's build a a framework / library. Our object and its prototype
+### Lectures 75: Let's build a framework/library. Our object and its prototype
 
 Create a file called app.js. We are going to imitate jQuery structure. So we don't want to use 'new', we want to use G$() like in jQuery and get an object as a result:
 
@@ -418,9 +418,9 @@ Then, in Greetr.js:
 }(window, jQuery))
 ```
 
-### Lectures 76: Let's build a a framework / library. Properties and chainable methods
+### Lectures 76: Let's build a framework/library. Properties and chainable methods
 
-Now we are just going to create methods in the prototype and return this in some of them to make then chainable.
+Now we are just going to create methods in the prototype and return this in some of them to make them chainable.
 
 ```javascript
 (function(global, $) {
@@ -512,13 +512,13 @@ var g = G$('John', 'Doe');
 g.greet().setLang('es').greet(true);
 ```
 
-### Lectures 77: Let's build a a framework / library. Adding jQuery support
+### Lectures 77: Let's build a framework/library. Adding jQuery support
 
 Imagine we have an HTML form for login users. We just need a dropdown with the two languages supported and a login button. We also need an H1 with the id greeting.
 
 Now we are going to add a method that accepts a jQuery selector and updates whatever the selector is.
 
-To do this, we just need to add the following method in the prototype:
+To do this, we just need to add the following method to the prototype:
 
 ```javascript
     HTMLGreeting: function(selector) {
@@ -535,13 +535,13 @@ To do this, we just need to add the following method in the prototype:
     }
 ```
 
-### Lectures 78: Let's build a a framework / library. Good commenting
+### Lectures 78: Let's build a framework/library. Good commenting
 
-This is specially important in JS because is not very verbose and we could make things very slick but not easy to read.
+This is especially important in JS because is not very verbose and we could make things very slick but not easy to read.
 
 It's also good to get other developers to check your code and see if it's readable.
 
-### Lectures 79: Let's build a a framework / library. Let's use our framework
+### Lectures 79: Let's build a framework/library. Let's use our framework
 
 Sometimes libraries also use a semi-colon before the self-invoked function as a sanity check (just in case another library wasn't closed properly).
 
@@ -549,13 +549,13 @@ The rest of the lecture is just about connecting the HTML form with the library,
 
 ### Lecture 81: Typescript, ES6 and transpiled languages
 
-**Transpile**: convert the syntax of one programming language to another. In this case languages don't really ever run anywhere, but instead are processed by 'transpilers' that generate Javascript.
+**Transpile**: convert the syntax of one programming language to another. In this case, languages don't ever run anywhere, but instead are processed by 'transpilers' that generate Javascript.
 
 [Typescript](http://www.typescriptlang.org/) by Microsoft is quite popular. It provides types for variables! i.e. message: string. It also uses class and constructors.
 
 [Traceur](https://github.com/google/traceur-compiler) by Google is also another popular ES6 library.
 
-A lot of teams with long term Javascript projects are using these tools, so that they can write ES6 code (future proof) and at the same time be compatible with the current browsers.
+A lot of teams with long-term Javascript projects are using these tools so that they can write ES6 code (future proof) and at the same time be compatible with the current browsers.
 
 As a personal opinion, I've heard of [BabelJs](https://babeljs.io/) more than any of the previous libraries. [Some people](http://ilikekillnerds.com/2015/01/transpiling-wars-6to5-vs-traceur/) recommend Babel over Traceur if support for JSX is a requirement or if the resulting code quality is also important to you over function.
 
@@ -563,6 +563,6 @@ As a personal opinion, I've heard of [BabelJs](https://babeljs.io/) more than an
 
 This is probably the best resource out there to learn about the ES6 features: https://github.com/lukehoban/es6features
 
-And that's all. Here is the certificate that you will get if you make the course in Udemy:
+And that's all. Here is the certificate that you will get if you take the course on Udemy:
 
 ![](/blog/javascript-understanding-the-weird-parts-part-2/images/UC-E8UQOM40.jpg)

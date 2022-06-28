@@ -9,18 +9,18 @@ template: post
 <a class="btn external" role="button" href="http://react-weather.herokuapp.com/?city=London,Paris,Berlin,Madrid,Rome" target="_blank">Launch React Weather App</a>
 <a class="btn github" role="button" href="https://github.com/gazpachu/react-weather" target="_blank">Source code</a>
 
-In this [React](https://facebook.github.io/react/) tutorial for beginners, we are going to learn how to build a small and simple [React](https://facebook.github.io/react/) app to display the weather of cities in the world. If you are interested in learning React, this beginners tutorial is a good starting point, as it doesn't cover very complex topics. At the same time, once you learn how to connect to an external API and display the results, it can be quite handy to build other types of single-page apps whose only requirement is to fetch data from an external source and display the results in any way.
+In this [React](https://facebook.github.io/react/) tutorial for beginners, we are going to learn how to build a small and simple [React](https://facebook.github.io/react/) app to display the weather of cities in the world. If you are interested in learning React, this beginner tutorial is a good starting point, as it doesn't cover very complex topics. At the same time, once you learn how to connect to an external API and display the results, it can be quite handy to build other types of single-page apps whose only requirement is to fetch data from an external source and display the results in any way.
 
 It's a very simple app that can be coded in a few hours, so you should try to do it by yourself. That's how you will learn more! For the impatient ones... [here is the source code](https://github.com/gazpachu/react-weather).
 
 ### Functional requirements
 
 * Display the city name, current weather icon, temperature, humidity and wind speed
-* The background colour changes based on the temperature
+The background color changes based on the temperature
 * Loads a city name using the query string '?city=Madrid'
-* Loads comma separated cities and rotates them after 5s
+* Loads comma-separated cities and rotates them after 5s
 * Cache the API data and refresh it after 5m
-* Responsive design. It should work well in all devices
+* Responsive design. It should work well on all devices
 
 ### Tech stack
 
@@ -35,7 +35,7 @@ It's a very simple app that can be coded in a few hours, so you should try to do
 
 Note: due to the simplicity and small size of the architecture, we will omit the use of [BEM](http://getbem.com/introduction/) and [ITCSS](https://speakerdeck.com/dafed/managing-css-projects-with-itcss).
 
-This is how the app should look like by the end of the tutorial:
+This is what the app should look like by the end of the tutorial:
 
 ![](/blog/tutorial-build-a-weather-app-with-react/images/react-weather.png)
 
@@ -59,7 +59,7 @@ This is how my Brackets looks like with all these extensions installed:
 
 ### Step 2. Conceptual aside: about Node.js modules
 
-As you probably already know, the fundamental Node building block is called a module which maps directly to a file and everything within that module is private (vars only work in that file).
+As you probably already know, the fundamental Node building block is called a module that maps directly to a file and everything within that module is private (vars only work in that file).
 
 Now, before we look at how to expose things out of a module, let's look at loading a module. This is where '**require**' comes in. 'require' is used to load a module, which is why its returned value is typically assigned to a variable:
 
@@ -85,19 +85,19 @@ In this app, we are only going to create one module, the **API module** (api.jsx
 
 ### Step 3. Installing NPM and Bower modules
 
-NPM is a package manager that comes with Node.js. It's very useful to install 3rd party Node.js modules that we can use to speed-up our development.
+NPM is a package manager that comes with Node.js. It's very useful to install 3rd party Node.js modules that we can use to speed up our development.
 
-NPM uses a file called package.json as a reference of all the dependencies that the project is going to have. We can create this file manually or by typing '**npm init**'.
+NPM uses a file called package.json as a reference for all the dependencies that the project is going to have. We can create this file manually or by typing '**npm init**'.
 
-Let's start by creating a folder called '**react-weather**' whichever you prefer in your computer.
+Let's start by creating a folder called '**react-weather**' whichever you prefer on your computer.
 
 Then open the console/terminal, cd to that folder and type 'npm init'. You will be prompted with a few questions which we don't need to answer. Just keep pressing enter until you exit the process.
 
 Now you should have a package.json file in your folder.
 
-Next we are going to download a few packages (which will be saved automatically in the '**node_modules**' folder) and save the reference in the package.json file:
+Next, we are going to download a few packages (which will be saved automatically in the '**node_modules**' folder) and save the reference in the package.json file:
 
-Use `npm install <pkg> --save` afterwards to install a package and save it as a dependency in the package.json file.
+Use `npm install <pkg> --save` afterward to install a package and save it as a dependency in the package.json file.
 
 We can also download several packages at the same time. So type the following:
 
@@ -147,7 +147,7 @@ Next, we are going to install Bower (another package manager for the web) and do
 
 `bower install weather-icons`
 
-If we were to upload this project into a Git code repository, we would have to create a '**.gitignore**' file and add 'node\_modules/' and 'bower\_components/' to it, as we don't want to upload all these dependencies to the repository. New users could type '**npm install**' and 'bower install' to download all the dependencies.
+If we were to upload this project into a Git code repository, we would have to create a '**.gitignore**' file and add 'node_modules/' and 'bower_components/' to it, as we don't want to upload all these dependencies to the repository. New users could type '**npm install**' and 'bower install' to download all the dependencies.
 
 ### Step 4. Folder structure and placeholders
 
@@ -185,9 +185,9 @@ The new files are:
 ### Step 5. Setup Gulp tasks
 
 When talking about React, we are not only looking at the framework itself. We are also learning about the tools that will help us have a smooth and agile development experience. That's when a task runner becomes your best friend :-)
-[Gulp](http://gulpjs.com/) is a task runner, just like [Grunt](http://gruntjs.com/). I don't have any particular preference for Gulp, actually I am more used to working with Grunt, but for the sake of learning and trying new things, we are going to use Gulp in this tutorial.
+[Gulp](http://gulpjs.com/) is a task runner, just like [Grunt](http://gruntjs.com/). I don't have any particular preference for Gulp, actually, I am more used to working with Grunt, but for the sake of learning and trying new things, we are going to use Gulp in this tutorial.
 
-First we are going to start by opening the **gulpfile.js** in the editor and requiring the dependencies:
+First, we are going to start by opening the **gulpfile.js** in the editor and requiring the dependencies:
 
 ```javascript
 var gulp = require('gulp');
@@ -235,13 +235,13 @@ var notify = function (error) {
 
 The module 'node-notifier' creates nice alerts (at least in Mac Os) with the error messages that occurred during the build process. With the snippet above, we are just formatting the error message in a way that could be more readable.
 
-Next step is to **create the bundle**. For this part we are going to need three modules: watchify, browserify and reactify. The first one is a module to do automatic bundling of browserify-based scripts.
+The next step is to **create the bundle**. For this part, we are going to need three modules: watchify, browserify and reactify. The first one is a module to do automatic bundling of browserify-based scripts.
 
 Browserify lets us require('modules') in the browser by bundling up all our dependencies. It looks at a single JavaScript file (in this case app.jsx), and follows the require dependency tree, and bundles them into a new file.
 
 ReactJS uses a special syntax called JSX, not the normal JS one. Usually, when you want to work with ReactJS JSX files, you need to transform them into normal JS files. So we are going to use 'reactify' to transform those JSX into JS files.
 
-Conclusion, we will create a Browserify bundler and add a transformer to transform JSX to Javascript and then bundle everything together into a file called **main.js** that will sit in the root.
+In conclusion, we will create a Browserify bundler and add a transformer to transform JSX to Javascript and then bundle everything together into a file called **main.js** that will sit in the root.
 
 ```javascript
 // Bundle settings
@@ -283,7 +283,7 @@ gulp.task('sass', function () {
 });
 ```
 
-Next stage is to setup the live reload server. This module will reload the browser automatically each time there's a change in our code. This is a really nice feature! In this case, we are going to pass a test filter to the livereload module, so that it will check our compiled CSS and JS files before reloading the browser. You can read more about the module documentation [here](https://github.com/hiddentao/gulp-server-livereload).
+The next stage is to set up the live reload server. This module will reload the browser automatically each time there's a change in our code. This is a really nice feature! In this case, we are going to pass a test filter to the livereload module, so that it will check our compiled CSS and JS files before reloading the browser. You can read more about the module documentation [here](https://github.com/hiddentao/gulp-server-livereload).
 
 ```javascript
 // Live reload server settings
@@ -330,7 +330,7 @@ We are going to create a basic HTML file with:
 * The weather icons CSS file
 * The compiled JS file
 
-I personally prefer to load fonts using `<link>` rather than a `<script>` tag, but for the sake of simplicity, we will go with this method this time.
+I prefer to load fonts using `<link>` rather than a `<script>` tag, but for the sake of simplicity, we will go with this method this time.
 
 ```html
 <html>
@@ -398,7 +398,7 @@ table {
 
 ### Step 8. Start building the React component
 
-Finally we arrive to the moment where you can really start learning React! I'm sorry it took so long, but now we have everything ready and from now on it will be just pure coding :P
+Finally, we arrive at the moment where you can really start learning React! I'm sorry it took so long, but now we have everything ready and from now on it will be just pure coding :P
 
 First we are going to open /src/app.jsx. This is where we will create our React component. We need to require some modules:
 
@@ -409,7 +409,7 @@ var classNames = require('classnames');
 var Api = require('./utils/api');
 ```
 
-The two first modules correspond to the React framework. Classname is a 3rd party module (recommended by React) to build class names that contain dynamic data. In JSX we cannot use '+' like in JS to concatenate strings in the class attribute. The Api object is requiring the module that we will use to fetch data from the Weather API. Notice that to load this module, we have to build the relative path, as it's not a module that we have installed with NPM.
+The two first modules correspond to the React framework. Classname is a 3rd party module (recommended by React) to build class names that contain dynamic data. In JSX we cannot use '+' like in JS to concatenate strings in the class attribute. The API object is requiring the module that we will use to fetch data from the Weather API. Notice that to load this module, we have to build the relative path, as it's not a module that we have installed with NPM.
 
 Now we are going to define a few variables to handle the cities from the query string:
 
@@ -420,7 +420,7 @@ var citiesWeather = []; // API cache
 var currentCity = 0; // Index of current city displayed
 ```
 
-Let's not go too deep in trying to explain what we are going to do with these variable. Their purpose will be revealed as we go along building the component.
+Let's not go too deep in trying to explain what we are going to do with these variables. Their purpose will be revealed as we go along building the component.
 
 Now we can define the new React component like this:
 
@@ -438,7 +438,7 @@ ReactDOM.render(element, document.querySelector('.container'));
 
 We basically created a React component called 'Weather' and render it inside the 'container' DIV.
 
-From now on, we are going to work in the methods of the object defined inside the React.createClass().
+From now on, we are going to work on the methods of the object defined inside the React.createClass().
 
 First method is getInitialState():
 
@@ -454,7 +454,7 @@ getInitialState: function() {
 },
 ```
 
-Here, we are just initialising the props that we are going to use later to hold the values for out weather indicators in the UI.
+Here, we are just initializing the props that we are going to use later to hold the values for our weather indicators in the UI.
 
 Now we need to create the HTML structure for our weather component Let's use this simple wireframe to map each box into an HTML element:
 
@@ -498,19 +498,19 @@ return &lt;div className={bgColorClass}>
 &lt;/div>
 ```
 
-Let's analyse the code step by step.
+Let's analyze the code step by step.
 
 To render the big weather icon (the sun, clouds, etc), we need to get the [icon ID from the Weather API](http://api.openweathermap.org/data/2.5/weather?q=London&appid=2de143494c0b295cca9337e1e96b00e0). Once we have it, we can use the prefix '**wi wi-owm-**' (got it from the [weather icons API compatibility list](https://erikflowers.github.io/weather-icons/api-list.html)) to compose the class name that we need. That's what we are doing with the weatherClass variable.
 
-Next variable, 'bgColorClass' is composing the class name that we will use for the app wrapper background colour. The aim is to have the class 'warm' for temperatures between 20 and 30 degrees and so on. We will then assign a colour to each class later in the SASS file.
+The next variable, 'bgColorClass' is composing the class name that we will use for the app wrapper background color. The aim is to have the class 'warm' for temperatures between 20 and 30 degrees and so on. We will then assign a color to each class later in the SASS file.
 
-In the return statement, first thing that stands out is the use of 'className' rather than 'class'. That's how you add CSS classes in JSX templates. The class names also need to be composed using the classNames module that we required at the beginning of the file.
+In the return statement, the first thing that stands out is the use of 'className' rather than 'class'. That's how you add CSS classes in JSX templates. The class names also need to be composed using the classNames module that we required at the beginning of the file.
 
 Then we have variables wrapped in {}, like in Handlebars. This is how we render the content of React variables, states or properties (called *props*). In this app, we are going to use states. If you want to know more about the difference between props and states, head to [this article](https://github.com/uberVU/react-guide/blob/master/props-vs-state.md).
 
 ### Step 9. Fetch the API data
 
-Let's summarise. So far, we have a React component that initialises and renders its empty data. That's all. So, the next step is to fetch the API data and pass it on to the React component.
+Let's summarise. So far, we have a React component that initializes and renders its empty data. That's all. So, the next step is to fetch the API data and pass it on to the React component.
 
 Let's open the `/src/utils/api.jsx` file and write the following code:
 
@@ -561,7 +561,7 @@ fetchData: function() {
 
 The array **citiesWeather** is our cache object. We are going to store here the JSON responses that we get from the API. Why are we doing this? Because when we have a list of cities rotating, we don't want to keep contacting the API every time we change the city.
 
-When we want to request new data, we just call the get method in the Api module and pass the current city name. In the 'promise', we make sure to update the cache object with the data received and we call the updateData method to set the new value in the states.
+When we want to request new data, we just call the get method in the API module and pass the current city name. In the 'promise', we make sure to update the cache object with the data received and we call the updateData method to set the new value in the states.
 
 ### Step 11. Update the states
 
@@ -576,7 +576,8 @@ updateData: function() {
         humidity: Math.round(citiesWeather[currentCity].main.humidity),
         wind: Math.round(citiesWeather[currentCity].wind.speed)
     });
-},```
+}
+```
 
 Modifying this.props or this.state directly is not a good idea, because React will not be able to pick up on the changes. That's because React does a shallow comparison of your post prop to determine if it has changed. So always use 'setState'.
 
@@ -623,9 +624,9 @@ There's a module called React Router that can be very useful for building single
 
 In the first lines of the snippet above, we are just splitting the string into an array and checking if the user entered a single city or several separated by commas. If we have several, then we create a timer that will call the fetchData() method every 5 seconds, which will update the data of the current city. Notice that we are also passing the execution context of the React component to the timer, otherwise 'this' wouldn't find the fetchData method.
 
-In the second part of the snippet, we are creating another timer that will be in charge or clearing the cache every 5 minutes, otherwise we would only get LIVE data once (when we launch the app).
+In the second part of the snippet, we are creating another timer that will be in charge of clearing the cache every 5 minutes, otherwise, we would only get LIVE data once (when we launch the app).
 
-Congratulations, you arrived to the end of the Javascript part! Now let's quickly add the CSS and try to run the app.
+Congratulations, you arrived at the end of the Javascript part! Now let's quickly add the CSS and try to run the app.
 
 ### Step 13. Add the SASS styles
 
@@ -757,11 +758,11 @@ $mobile-width: 500px;
 }
 ```
 
-The SASS code is quite self-explanatory. It can be improved, but for the purpose of this tutorial, which is to learn React, I think it fulfills its purpose.
+The SASS code is quite self-explanatory. It can be improved, but for this tutorial, which is to learn React, I think it fulfills its purpose.
 
 ### Step 14. The moment of truth
 
-Type 'gulp' in the console/terminal and cross fingers!
+Type 'gulp' in the console/terminal and cross your fingers!
 
 If it works, congratulations! if it doesn't, try to debug the error messages and find a fix. If you get stuck, then post a comment here and I will try to help you.
 

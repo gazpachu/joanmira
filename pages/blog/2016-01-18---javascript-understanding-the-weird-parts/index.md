@@ -1,22 +1,22 @@
 ---
 title: "Javascript: understanding the weird parts [Part 1]"
-description: My learnings reviewing JavaScript concepts in the Udemy educational site
+description: My learnings reviewing JavaScript concepts on the Udemy educational site
 cover: images/javascript-bg.jpg
 template: post
 category: work
 ---
 
-Looking back and analysing how web technologies have evolved in the latest years, I've realised that Javascript is now the single most important skill every web developer must have. It's everywhere (also in the back-end!) and it's never going away (like Flash...).
+Looking back and analyzing how web technologies have evolved in the latest few years, I've realized that Javascript is now the single most important skill every web developer must-have. It's everywhere (also in the back-end!) and it's never going away (like Flash...).
 
-So, for this new year 2016, I decided to focus in polishing my Javascript and become a **JavaScript Samurai / Master of the Universe**, HA, HA, HA! (evil laugh).
+So, for this new year 2016, I decided to focus on polishing my Javascript and become a **JavaScript Samurai / Master of the Universe**, HA, HA, HA! (evil laugh).
 
-I purchased three courses in [Udemy](https://www.udemy.com) and the one I'm going to be talking about in this article is called "[Javascript: understanding the weird parts](https://www.udemy.com/understand-javascript/)". If you want to take it, you can try with the voucher code NEWYOU015 and see if it gives you the course for £13, otherwise I would suggest to write an email to support asking them to give you a new one ;-) The course has been written by Anthony Alicea and currently has **more than 32.700 students**.
+I purchased three courses on [Udemy](https://www.udemy.com) and the one I'm going to be talking about in this article is called "[Javascript: understanding the weird parts](https://www.udemy.com/understand-javascript/)". If you want to take it, you can try with the voucher code NEWYOU015 and see if it gives you the course for £13, otherwise, I would suggest writing an email to support asking them to give you a new one ;-) The course has been written by Anthony Alicea and currently has **more than 32.700 students**.
 
-I think I know JavaScript quite well, but it's always good to refresh the concepts, the vocabulary and of course, learn the new ES 6 stuff! So, if you want to join me in this journey,  I will be posting all my learnings in the blog, so feel free to read along and share your thoughts.
+I think I know JavaScript quite well, but it's always good to refresh the concepts, the vocabulary and of course, learn the new ES 6 stuff! So, if you want to join me in this journey,  I will be posting all my learnings on the blog, so feel free to read along and share your thoughts.
 
 ### Javascript: understanding the weird parts [Part 1]
 
-I'm going to skip the first four lectures, which are mainly focussed in giving some context and setting up the coding environment.
+I'm going to skip the first four lectures, which are mainly focused on giving some context and setting up the coding environment.
 
 ### Lecture 6: Syntax parsers, execution contexts and lexical environments.
 
@@ -30,13 +30,13 @@ Where you see things written in the code, it will give you an idea of where they
 
 ### Lecture 7: Name/Value pairs and objects
 
-**Name/Value pair**: a name which maps to a unique value. The name may be defined more than once, but only can have one value in any given **context**. That value can be also a new name/value pairs.
+**Name/Value pair**: a name which maps to a unique value. The name may be defined more than once, but only can have one value in any given **context**. That value can be also a new name/value pair.
 
-**Object**: a collection of name value pairs. The simplest definition when talking about Javascript. Don't think any more deeply of an object than this!
+**Object**: a collection of name-value pairs. The simplest definition when talking about Javascript. Don't think any more deeply of an object than this!
 
 ### Lecture 9: The global environment and the global object
 
-The base execution context is the global one. The thing that is accesible from anywhere in your code. Javascript creates also the reserved word '**this**' and in the global context, this represents the window, the browser window, which also can be accessed with the reserved word 'window'. Each tab in the browser has its own execution context.
+The base execution context is the global one. The thing that is accessible from anywhere in your code. Javascript creates also the reserved word '**this**' and in the global context, this represents the window, the browser window, which also can be accessed with the reserved word 'window'. Each tab in the browser has its execution context.
 
 When we say 'global', in Javascript means 'not inside a function'. Don't think any deeper than that.
 
@@ -46,9 +46,9 @@ When we create variables and functions that are not sitting inside any other fun
 
 ### Lecture 10: The execution context: creation and 'hoisting'
 
-If you are not a native english speaker, you might have found yourself wondering what hoisting means. Hoisting means to bring something to the top, like when using a hoist to lift stuff.
+If you are not a native English speaker, you might have found yourself wondering what hoisting means. Hoisting means bringing something to the top, like when using a hoist to lift stuff.
 
-In Javascript, there are situations were we have declared variables and functions at the bottom of a script but we are actually using them before they are declared, which will return undefined (in the case of the variable).
+In Javascript, there are situations where we have declared variables and functions at the bottom of a script but we are using them before they are declared, which will return undefined (in the case of the variable).
 
 Hoisting means that Javascript brings to the top the variables and functions when the execution context is created, but let's look at it in more detail:
 
@@ -57,7 +57,7 @@ Hoisting means that Javascript brings to the top the variables and functions whe
 - Create the global object
 - Create 'this'
 - Create the outer environment
-- Recognise the variables and function that we created and setup memory space for them -> 'hoisting'
+- Recognize the variables and function that we created and set up memory space for them -> 'hoisting'
 
 So, hoisting means that, in this phase, our stuff will exist in memory and that all variables are set initially to undefined. That's it so far.
 
@@ -69,11 +69,11 @@ So, hoisting means that, in this phase, our stuff will exist in memory and that 
 
 In Lecture 10 we talked about the creation phase. Now, in the execution context, we are just going to run line by line the code prepared by the creation phase.
 
-### Lecture 13: Single threaded, synchronous execution
+### Lecture 13: Single-threaded, synchronous execution
 
-**Single threaded**: one command at a time. Under the hood of the browser, maybe not. But from our perspective, JS is single threaded.
+**Single threaded**: one command at a time. Under the hood of the browser, maybe not. But from our perspective, JS is single-threaded.
 
-**Synchronous**: one at a time and ir order...
+**Synchronous**: one at a time and in order...
 
 ### Lecture 14: Function invocation and execution stack
 
@@ -109,7 +109,7 @@ There's another list that sits outside the execution stack called the 'Event Que
 
 The Javascript Engine looks at that list ONLY when the execution stack is EMPTY! then it looks periodically at the event queue to see if there's anything that needs to be run.
 
-So that means long running functions can block anything else from running, so Javascript can run asynchronous events but in a synchronous way :D
+So that means long-running functions can block anything else from running, so Javascript can run asynchronous events but in a synchronous way :D
 
 ### Lecture 19: Types and Javascript
 
@@ -125,7 +125,7 @@ So that means long running functions can block anything else from running, so Ja
 
 **boolean**: true or false
 
-**number**: floating point number (there's always some decimals). Unlike other programming languages, there's only one 'number' type... and it can make math weird.
+**number**: floating point number (there are always some decimals). Unlike other programming languages, there's only one 'number' type... and it can make math weird.
 
 **string**: a sequence of characters (both '' and "" can be used)
 
@@ -147,7 +147,7 @@ In [this table](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
 
 ### Lecture 24: Coercion
 
-**Coercion**: converting a value from one type to another. This happens quite often in Javascript because it's dynamically typed. In example, when we try the following 1 + '2', the result would be 12 rather than 3, just because the JS engine will guess that both numbers are strings.
+**Coercion**: converting a value from one type to another. This happens quite often in Javascript because it's dynamically typed. For example, when we try the following 1 + '2', the result would be 12 rather than 3, just because the JS engine will guess that both numbers are strings.
 
 ### Lecture 25: Comparison operators
 
@@ -163,7 +163,7 @@ In [this table](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality
 
 If we try to convert null, undefined or "" to boolean, we always get false. Boolean(null) returns false;
 
-We can use this for our advantage. When we put something in a 'if' statement, it's going to try to convert it to a Boolean, so we can use it to check if a variable has content. In example:
+We can use this to our advantage. When we put something in an 'if' statement, it's going to try to convert it to a Boolean, so we can use it to check if a variable has content. An example:
 
 ```javascript
 var a; // a is undefined
@@ -176,7 +176,7 @@ The only scenario where a will be coerced into false even if it has content is w
 
 ### Lecture 28: Default values
 
-When we use functions with parameters, if we don't pass the parameters when we call the function, these get initialised to undefined and that's it.
+When we use functions with parameters, if we don't pass the parameters when we call the function, these get initialized to undefined and that's it.
 But there's a neat trick to override this:
 
 ```javascript
@@ -187,14 +187,14 @@ function greet(name) {
 greet('Joan');
 ```
 
-So, basically it returns the value that can be coerced into true. So if we call greet() without any parameters, 'Your name here' will be reddened because it can be coerced to true.
+So, it returns the value that can be coerced into true. So if we call greet() without any parameters, 'Your name here' will be reddened because it can be coerced to true.
 
 Note: in ES6 there's a new way to do this...
 
 ### Lecture 29: Framework default values
 
-Let's image we have two libraries (lib1.js and lib2.js) that we are loading beside our app.js.
-Both libraries are declaring a variable called libraryName and setting it to 'Lib 1' and 'Lib 2' respectively. The problem here is that when we output that variable from app.js, the result will be 'Lib 2' because it overrides the previous one. To avoid this, what most libraries do is to assign the object to the global window object ONLY if there's nothing there:
+Let's imagine we have two libraries (lib1.js and lib2.js) that we are loading beside our app.js.
+Both libraries are declaring a variable called libraryName and set it to 'Lib 1' and 'Lib 2' respectively. The problem here is that when we output that variable from app.js, the result will be 'Lib 2' because it overrides the previous one. To avoid this, what most libraries do is to assign the object to the global window object ONLY if there's nothing there:
 
 `window.libraryName = window.libraryName || 'Lib 2';`
 
@@ -235,11 +235,11 @@ person.address.city = "London";
 
 ### Lecture 31: Objects and object literals
 
-To create object literals, we use the curly braces, which is not an operator. It's just the JS engine assuming that we are creating an object.
+To create object literals, we use curly braces, which is not an operator. It's just the JS engine assuming that we are creating an object.
 
 `var person = {};`
 
-We can also set and initialised properties and methods:
+We can also set and initialized properties and methods:
 
 `var person = { firstname: 'Joan', lastname: 'Mira' };`
 
@@ -265,7 +265,7 @@ function greet(person) {
 greet(Joan);
 ```
 
-We can also create objects on-the-fly:
+We can also create objects on the fly:
 
 ```javascript
 greet({
@@ -326,13 +326,13 @@ And to parse them (convert from JSON into JS object):
 
 ### Lecture 34: Functions are objects
 
-**First class functions**: everything you can do with other types you can do with functions. Assign them to variables, pass them around, create them on the fly.
+**First class functions**: everything you can do with other types you can do with functions. Assign them to variables, pass them around, and create them on the fly.
 
 Functions don't need a name, they can be anonymous and the code that we write in the function is just one of the properties that we are adding to the function. The special thing is that that property is invocable ();
 
 We have to think of functions as objects, whose code happens to be a property of that object.
 
-It can be moved around, copied, just like a string or a number or another object.
+It can be moved around, and copied, just like a string or a number or another object.
 
 ```javascript
 function greet() {
@@ -352,7 +352,7 @@ For example (a === 3), that's an expression.
 
 On the other hand, a statement is something that doesn't return a value, like for example an 'if' statement.
 
-With functions there's a similar scenario. The following is a function statement that doesn't return a value:
+With functions, there's a similar scenario. The following is a function statement that doesn't return a value:
 
 ```javascript
 function greet() {
@@ -360,7 +360,7 @@ function greet() {
 }
 ```
 
-On the other hand, this a function expression:
+On the other hand, this is a function expression:
 
 ```javascript
 var anonymousGreet = function() {
@@ -374,9 +374,9 @@ We are creating an object on the fly and assigning it to a variable. The differe
 
 When talking about assigning the value of a variable to another one, in the case of primitives, JS COPIES the value into a new memory address. This is **by value**.
 
-Now, for objects (all objects), when we are trying to make two the same value, instead of getting a new location in memory, simply points to the same location in memory. There's no copy. So, two names point to the same address. This is called **by reference**.
+Now, for objects (all objects), when we are trying to make two the same value, instead of getting a new location in memory, simply point to the same location in memory. There's no copy. So, two names point to the same address. This is called **by reference**.
 
-When modifying objects, we often hear these two concepts, which sound much more complicated than what they actually are.
+When modifying objects, we often hear these two concepts, which sound much more complicated than they are.
 
 **Mutable**: to change something
 **Immutable**: that cannot be changed
@@ -409,11 +409,11 @@ function greet(firstname, lastname, language) {
 }
 ```
 
-The reserved word arguments will return an pseudo-array with the parameters that the function received.
+The reserved word arguments will return a pseudo-array with the parameters that the function received.
 
 ### Lecture 40: Function overloading
 
-Function overloading is to have another function with the same name but different parameters. In Javascript there's no such functionality, but we can replicate it using other patterns, like conditionals inside the function to return one of the other result.
+Function overloading is to have another function with the same name but different parameters. In JavaScript, there's no such functionality, but we can replicate it using other patterns, like conditionals inside the function to return one of the other results.
 
 ### Lecture 41: Syntax parsers
 
@@ -421,7 +421,7 @@ Javascript reads each word character by character.
 
 ### Lecture 42: Dangerous! automatic semicolon insertion
 
-The syntax parser tries to be helpful by not requiring the semicolon at the end of the line. The Javascript is putting them automatically where he thinks it should be. We don't want the JS engine to be taking those decisions for us. It can cause a BIG problem in our code because it's very difficult to track.
+The syntax parser tries to be helpful by not requiring the semicolon at the end of the line. The Javascript is putting them automatically where he thinks they should be. We don't want the JS engine to be taking those decisions for us. It can cause a BIG problem in our code because it's very difficult to track.
 
 ### Lecture 43: Whitespace
 
@@ -429,11 +429,11 @@ The syntax parser tries to be helpful by not requiring the semicolon at the end 
 
 Javascript is quite liberal at accepting whitespace, so we can actually write comments between var and the name of the variables or inside the object literals.
 
-Make your code readable, understandable. Write comments! Don't be too bothered with the whitespace.
+Make your code readable, and understandable. Write comments! Don't be too bothered with the whitespace.
 
 ### Lecture 44: IIFEs (Immediately Invoked Function Expressions)
 
-We already know that the parenthesis () are used to invoke a function, so that's basically what we are going to use for IIFEs:
+We already know that the parenthesis () is used to invoke a function, so that's basically what we are going to use for IIFEs:
 
 ```javascript
 var greeting = function(name) {
@@ -443,7 +443,7 @@ var greeting = function(name) {
 console.log(greeting);
 ```
 
-That's fine for function expressions, but how can we do IIFEs with normal functions statements like this one:?
+That's fine for function expressions, but how can we do IIFEs with normal function statements like this one:?
 
 ```javascript
 function name() {
@@ -451,7 +451,7 @@ function name() {
 }
 ```
 
-There's a trick to make the syntax parser think that the function is a expression. We just need to wrap the function in parenthesis. Because they are an operator and we only use them with expressions, the parser treats it as such. Example:
+There's a trick to make the syntax parser think that the function is an expression. We just need to wrap the function in parenthesis. Because they are an operator and we only use them with expressions, the parser treats them as such. Example:
 
 ```javascript
 (function name() {
@@ -464,7 +464,7 @@ By the way, we can invoke it before or after the wrapping parenthesis.
 
 ### Lecture 45: IIFEs and safe code
 
-There are scenarios where a variable (in this case 'greeting') can be defined in two different contexts. So that means, we are not overwriting the greeting variable. They both exist in different context.
+There are scenarios where a variable (in this case 'greeting') can be defined in two different contexts. So that means, we are not overwriting the greeting variable. They both exist in different contexts.
 
 ```javascript
 var greeting = 'Hola';
@@ -497,7 +497,7 @@ We are just calling it global because we might want to use the code in the serve
 
 ### Lecture 46: Understanding closures
 
-This a notorious topic. It's absolutely vital to understand it to advance in the language.
+This is a notorious topic. It's vital to understand it to advance in the language.
 
 ```javascript
 function greet(whattosay) {
@@ -516,15 +516,15 @@ var sayHi = greet('Hi');
 sayHi('Joan');
 ```
 
-The question is, how is it possible that whattosay still exists in the second function? It should be gone, because the context of that function is no longer in the execution stack. Well, that's possible thanks to closures. The JS engine released the execution context of the first function, but the whattosay value is still hanging around...
+The question is, how is it possible that whattosay still exists in the second function? It should be gone because the context of that function is no longer in the execution stack. Well, that's possible thanks to closures. The JS engine released the execution context of the first function, but the whattosay value is still hanging around...
 
 So, the execution context might be gone, but the variable is still in memory because the other function still needs it. That's a closure!
 
 The second function is traversing down the scope chain to find the stuff it needs.
 
-The execution context has closed in its outer variables. Variables that would normally have referenced anyway, even it their execution contexts are gone. This phenomenon is called a closure. It's not something we create, type or tell JS to do. It's just a feature of JS. They just happen. The JS engine will always make sure that whatever execution context is running, the variables will be always accesible.
+The execution context has closed in its outer variables. Variables that would normally have been referenced anyway, even in their execution contexts are gone. This phenomenon is called closure. It's not something we create, type or tell JS to do. It's just a feature of JS. They just happen. The JS engine will always make sure that whatever execution context is running, the variables will be always accessible.
 
-It's just a feature to make sure that when we run a function, everything works as it should be.
+It's just a feature to make sure that when we run a function, everything works as it should.
 
 ### Lecture 47: Understanding closures [part 2]
 
@@ -553,7 +553,7 @@ So we are just creating three functions in an array using a for loop. Then we in
 
 What we would normally expect is that i would be 1, 2, 3, but then we get all 3s!
 
-So, what's happening under the hood is that the console.log is not actually being executed inside the for loop, so by the time we start running the console.log of the functions, the value of i has reached 3.
+So, what's happening under the hood is that the console.log is not being executed inside the for loop, so by the time we start running the console.log of the functions, the value of i has reached 3.
 
 So, in this case, we still have the i variable in memory but it's not holding the values that we were expecting.
 
@@ -586,7 +586,7 @@ fs2[2]();
 
 ### Lecture 48: Function factories
 
-A factory means a function that returns and mix something for us.
+A factory means a function that returns and mixes something for us.
 
 ```javascript
 function makeGreeting(language) {
@@ -627,9 +627,9 @@ function sayHiLater() {
 sayHiLater();
 ```
 
-In this case, we are using a closure (the greeting variable) and a first class function inside the timeout that acts like a function expression. Thanks to the closure, we still have access to the greeting 3 seconds later!
+In this case, we are using a closure (the greeting variable) and a first-class function inside the timeout that acts as a function expression. Thanks to the closure, we still have access to the greeting 3 seconds later!
 
-In jQuery, we are also using the same things type of function expressions and first-class functions
+In jQuery, we are also using the same things types of function expressions and first-class functions
 
 ```javascript
 $("button").click(function() {
@@ -653,13 +653,13 @@ tellMeWhenDone(function() {
 
 ### Lecture 50: Call(), Apply() and Bind()
 
-All functions hace access to a call, apply and bind method.
+All functions have access to a call, apply and bind method.
 
-**Call** invokes a function with the scope of the object that we pass and let's us pass comma separated parameters.
+**Call** invokes a function with the scope of the object that we pass and lets us pass comma-separated parameters.
 
-**Apply** is the same thing as call but we pass the parameters as an array. An array is more useful specially under mathematical circumstances.
+**Apply** is the same thing as a call but we pass the parameters as an array. An array is more useful, especially under mathematical circumstances.
 
-**Bind** doesn't invoke the function, it actually creates a copy of the function we are calling and passes the context of an object.
+**Bind** doesn't invoke the function, it creates a copy of the function we are calling and passes the context of an object.
 
 ```javascript
 var person = {
@@ -684,7 +684,7 @@ logName.call(person, 'en', 'es');
 logName.apply(person, ['en', 'es']);
 ```
 
-With bind, we are creating a new copy of logName and assigning it the execution context of person. So, the value of 'this' will be the correct one rather than the global object.
+With bind, we are creating a new copy of logName and assigning it the execution context of the person. So, the value of 'this' will be the correct one rather than the global object.
 
 We can also use call and apply for function borrowing:
 
@@ -731,7 +731,7 @@ for (var i=0; i < arr1.length; i++) {
 console.log(arr2);
 ```
 
-But we can do something better with functions, to be more flexible. In this way, we are segmenting our code in a more clean way:
+But we can do something better with functions, to be more flexible. In this way, we are segmenting our code more cleanly:
 
 ```javascript
 function mapForEach(arr, fn) {
@@ -783,9 +783,9 @@ Functional programming is what takes Javascript to the next level.
 
 If you open the [annotated source code](http://underscorejs.org/docs/underscore.html), you can see the comments on how the functions of undescore.js are implemented.
 
-There's another library called [lodash](https://lodash.com/) which works like underscore. Some people prefer it over underscore, but the first one was underscore (which is always more difficult, to be the first one).
+There's another library called [lodash](https://lodash.com/) which works like underscore. Some people prefer it over underscore, but the first one was Underscore (which is always more difficult, to be the first one).
 
-Some things we can do with underscore:
+Some things we can do with Underscore:
 
 ```javascript
 // underscore
@@ -796,10 +796,10 @@ var arr7 = _.filter([2,3,4,5,6,7], function(item) { return item % 2 === 0; });
 console.log(arr7);
 ```
 
-So, play with underscore, learn how is done and try to build those utilities by yourself.
+So, play with Underscore, learn how it's done and try to build those utilities by yourself.
 
-###End of the first part
+### End of the first part
 
-This is the end of the first part of the course. I hope you enjoyed and apologies if some of the lectures are not very clear. These are just notes I'm taking while watching the videos. If there's anything that needs a better explanation, feel free to comment and I will improve it.
+This is the end of the first part of the course. I hope you enjoyed it and apologies if some of the lectures are not very clear. These are just notes I'm taking while watching the videos. If there's anything that needs a better explanation, feel free to comment and I will improve it.
 
 The next lectures will be about object-oriented javascript and prototypal inheritance. Stay tuned! ;-)

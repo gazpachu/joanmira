@@ -6,7 +6,7 @@ template: post
 category: work
 ---
 
-A few days ago, while refactoring this website, I came across [an interesting technique](http://liamnewmarch.co.uk/promises/) to load JS scripts using promises. My objective was to load the home page game scripts only on desktop devices (to minimise the loading impact on mobiles).
+A few days ago, while refactoring this website, I came across [an interesting technique](http://liamnewmarch.co.uk/promises/) to load JS scripts using promises. My objective was to load the home page game scripts only on desktop devices (to minimize the loading impact on mobiles).
 
 The device detection part can be done like this:
 

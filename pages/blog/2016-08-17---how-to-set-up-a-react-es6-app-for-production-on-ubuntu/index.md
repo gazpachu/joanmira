@@ -8,7 +8,7 @@ category: work
 
 ### Introduction
 
-Node.js is an open source JavaScript runtime environment for easily building server-side and networking applications. The platform runs on Linux, OS X, FreeBSD, and Windows. Node.js applications can be run at the command line, but we'll focus on running them as a service, so that they will automatically restart on reboot or failure, and can safely be used in a production environment.
+Node.js is an open-source JavaScript runtime environment for easily building server-side and networking applications. The platform runs on Linux, OS X, FreeBSD, and Windows. Node.js applications can be run at the command line, but we'll focus on running them as a service, so that they will automatically restart on reboot or failure, and can safely be used in a production environment.
 
 In this tutorial, we will cover setting up a production-ready Node.js environment on a single Ubuntu 16.04 server. This server will run a Node.js application managed by PM2, and provide users with secure access to the application through an Nginx reverse proxy with basic auth.
 
@@ -36,7 +36,7 @@ That should give your access to your server!
 
 We will install the latest current release of Node.js, using the NodeSource package archives.
 
-First, you need to install the NodeSource PPA in order to get access to its contents. Make sure you're in your home directory, and use curl to retrieve the installation script for the Node.js 6.x archives:
+First, you need to install the NodeSource PPA in order to get access to its contents. Make sure you're in your home directory and use curl to retrieve the installation script for the Node.js 6.x archives:
 
 `cd ~
 curl -sL https://deb.nodesource.com/setup_6.x -o nodesource_setup.sh`
@@ -49,7 +49,7 @@ The PPA will be added to your configuration and your local package cache will be
 
 `sudo apt-get install nodejs`
 
-The nodejs package contains the nodejs binary as well as npm, so you don't need to install npm separately. However, in order for some npm packages to work (such as those that require compiling code from source), you will need to install the build-essential package:
+The nodejs package contains the nodejs binary as well as npm, so you don't need to install npm separately. However, for some npm packages to work (such as those that require compiling code from source), you will need to install the build-essential package:
 
 `sudo apt-get install build-essential`
 
@@ -114,9 +114,9 @@ Assuming that your Node.js application is running, and your application and Ngin
 
 ### Set up basic authentication
 
-Sometimes, we don't want everyone to see our app until it's not completely ready. For that and other reasons, we might like to implement a simple user authentication system that will request for a username and password.
+Sometimes, we don't want everyone to see our app until it's not completely ready. For that and other reasons, we might like to implement a simple user authentication system that will request a username and password.
 
-First we are going to create the password file using the OpenSSL utilities. We will create a hidden file called .htpasswd in the /etc/nginx configuration directory to store our username and password combinations.
+First, we are going to create the password file using the OpenSSL utilities. We will create a hidden file called .htpasswd in the /etc/nginx configuration directory to store our username and password combinations.
 
 You can add a username to the file using this command. We are using 'pepe' as our username, but you can use whatever name you'd like:
 
@@ -171,11 +171,11 @@ The directory you specified should now be password protected.
 
 PM2 is a process manager for Node.js applications. PM2 provides an easy way to manage and daemonize applications (run them in the background as a service).
 
-We will use npm, a package manager for Node modules that installs with Node.js, to install PM2 on our server. Use this command to install PM2:
+We will use npm, a package manager for Node modules that install with Node.js, to install PM2 on our server. Use this command to install PM2:
 
 `sudo npm install -g pm2`
 
-The -g option tells npm to install the module globally, so that it's available system-wide.
+The -g option tells npm to install the module globally so that it's available system-wide.
 
 PM2 is simple and easy to use. We will cover a few basic uses of PM2.
 
@@ -214,7 +214,7 @@ The startup subcommand generates and configures a startup script to launch PM2 a
 
 `sudo pm2 startup ubuntu`
 
-This will create a systemd unit which runs pm2 for your user on boot. This pm2 instance, in turn, runs 'npm start'
+This will create a `systemd` unit that runs pm2 for your user on boot. This pm2 instance, in turn, runs 'npm start'
 
 ### Other PM2 Usage (Optional)
 
@@ -244,7 +244,7 @@ Now that your Node.js application is running, and managed by PM2, let's set up t
 
 ### Disclaimer
 
-This tutorial is based on the great work of [Digital Ocean community tutorials](https://www.digitalocean.com/community/tutorials/). IMHO one of the best resources in the Internet in terms of sys-admin related stuff.
+This tutorial is based on the great work of [Digital Ocean community tutorials](https://www.digitalocean.com/community/tutorials/). IMHO one of the best resources on the Internet in terms of sys-admin related stuff.
 
 - [How to set up password authentication with nginx on ubuntu 14 04](https://www.digitalocean.com/community/tutorials/how-to-set-up-password-authentication-with-nginx-on-ubuntu-14-04)
 - [How to set up a node js application for production on ubuntu 16 04](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-16-04)
