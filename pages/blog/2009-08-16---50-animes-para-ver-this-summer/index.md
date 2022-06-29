@@ -5,6 +5,7 @@ cover: images/death_note_cx9qqj.jpg
 template: post
 category: film
 lang: es
+shouldDisableAudio: true
 ---
 
 Aprovechando que es Agosto y siguiendo en la línea de la lista de las [65 mejores películas de los años 80](http://joanmira.com/blog/las-50-mejores-peliculas-de-los-anos-80/) (que tanto éxito tuvo, en parte gracias al efecto [Microsiervos](http://www.microsiervos.com/archivo/peliculas-tv/65-grandes-peliculas-80.html)), hemos preparado ahora una selección de los 50 animes que mas nos han gustado de los que hemos visto, algunos creo que no han salido en España y solo están subtitulados.

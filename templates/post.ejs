@@ -24,6 +24,7 @@
         <div class="details">
           <div class="meta">
             <span><%= formattedDate %></span>
+            <% if(!frontmatter.shouldDisableAudio) { %>
             <div class="voice-controls">
               <button id="listen-button">
                 <svg id="play-svg" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -41,6 +42,7 @@
                 <source />
               </audio>
             </div>
+            <% } %>
           </div>
           <div class="share-links">
             <a class="twitter-link" href="https://www.twitter.com/intent/tweet?text=<%= frontmatter.title %> %3A%20<%= url %>" target="_blank" title="Twitter">

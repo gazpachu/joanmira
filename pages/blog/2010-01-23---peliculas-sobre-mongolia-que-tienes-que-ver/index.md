@@ -5,6 +5,7 @@ cover: images/puujee_JPG_osaico.jpg
 template: post
 category: samurai-route
 lang: es
+shouldDisableAudio: true
 ---
 
 <div class="columns clearfix">

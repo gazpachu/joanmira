@@ -17,7 +17,7 @@ Nos levantamos y desayunamos bien, el tiempo seguía cerrado, la humedad era tal
 
 La lluvia nos regaló un pequeño lapsus de tiempo para ir adaptándonos a la carretera (bien mojada por cierto). Nos dirigimos hacia Carboneras, paramos para repostar y seguidamente tomamos la N-420 hacia Teruel. Empieza a llover a cántaros!, pero teníamos citas en la ciudad Condal y, a no ser que el destino dijera un NO rotundo, nosotros seguiríamos adelante.
 
-![1](/blog/viaje-a-barcelona-reunion-con-yamaha-y-midland/blog/viaje-a-barcelona-reunion-con-yamaha-y-midland/images/1_ciiykf.jpg)
+![1](/blog/viaje-a-barcelona-reunion-con-yamaha-y-midland/images/1_ciiykf.jpg)
 
 Las manoplas son un gran invento y en un día como este no me puedo imaginar viajar solo con un par de guantes. Joan se puso las suyas en la moto, pero al no tener unos protectores de manos, con la fuerza del viento, empezaron a presionar las manetas de freno y embrague. Ya os podéis imaginar lo incómodo del asunto, lloviendo a cántaros, a cero grados y con los dedos de las manos como palos para evitar que las manoplas accionen el freno…
 

@@ -5,6 +5,7 @@ cover: images/pelis_touhm1.jpg
 template: post
 category: film
 lang: es
+shouldDisableAudio: true
 ---
 
 Si estabas buscando por Internet una lista con las mejores películas de la historia, estás en el lugar adecuado. A continuación podrás encontrar las 1001 películas que me he propuesto ver (en versión original con subtítulos) antes de morir. Probablemente son las mejores películas de la historia del Cine y verlas todas va a ser fácil, lo más complicado va a ser encontrar algunas de las más *viejunas*.
