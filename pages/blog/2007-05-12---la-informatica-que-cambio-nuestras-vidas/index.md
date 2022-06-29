@@ -5,6 +5,7 @@ cover: images/fiber_rbsrhb.jpg
 template: post
 category: tech
 lang: es
+shouldDisableAudio: true
 ---
 
 ### INTRODUCCIÓN
@@ -17,13 +18,13 @@ Este proyecto se centra en la explicación y desarrollo de los que hemos selecci
 
 En el primer bloque del proyecto se tratan las principales innovaciones en el campo del hardware informático. Las nuevas formas de comunicación (Wifi, Bluetooth) y de almacenamiento (flash), por ejemplo, han sido algunas de las novedades más impactantes y de mayor crecimiento del sector.
 
-Pero no sólo el hardware ha sufrido una expansión. Algunos de los temas que tratamos en el segundo bloque, de software informático, han cambiado la economía de muchos sectores (como el Peer to Peer y el MP3, que han revolucionado el sector de la música), pero también hay otros que han alterado hábitos sociales, como los blogs y las comunidades sociales, que han permitido a cualquier persona anónima no sólo expresar libremente su opinión, sino también difundirla por todo el mundo.
+Pero no solo el hardware ha sufrido una expansión. Algunos de los temas que tratamos en el segundo bloque, de software informático, han cambiado la economía de muchos sectores (como el Peer to Peer y el MP3, que han revolucionado el sector de la música), pero también hay otros que han alterado hábitos sociales, como los blogs y las comunidades sociales, que han permitido a cualquier persona anónima no solo expresar libremente su opinión, sino también difundirla por todo el mundo.
 
 En el tercer y último bloque de contenido hemos incluido unas cuantas aplicaciones más de la informática que no se pueden clasificar únicamente como hardware o software, ya que son una unión de ambas y también están influyendo de forma notoria tanto en la economía como en la sociedad.
 
-Como culminación del proyecto presentamos las conclusiones, que son claras y evidentes después de haber leído el proyecto y además se ha desarrollado una página web explicativa así como una presentación PowerPoint en las que se muestra de manera más didáctica e interactiva la esencia del proyecto.
+Como culminación del proyecto presentamos las conclusiones, que son claras y evidentes después de haber leído el proyecto, y además se ha desarrollado una página web explicativa, así como una presentación PowerPoint en las que se muestra de manera más didáctica e interactiva la esencia del proyecto.
 
-Para explicar de forma general cada uno de estos nuevos avances, hemos diseñado una plantilla (ver página siguiente) que incluye tanto el pasado, presente y futuro de cada uno de los “inventos”, como los aspectos más relevantes de su funcionamiento e intenta dar una idea aproximada de la influencia que ha tenido en la sociedad. Principalmente los puntos evaluados en el proyecto son los siguientes:
+Para explicar de forma general cada uno de estos nuevos avances, hemos diseñado una plantilla (ver página siguiente) que incluye tanto el pasado, presente y futuro de cada uno de los “inventos”, como los aspectos más relevantes de su funcionamiento e intenta dar una idea aproximada de la influencia que ha tenido en la sociedad. Los puntos evaluados en el proyecto son los siguientes:
 
 * Resumen inicial de características
 * Definición
@@ -45,7 +46,7 @@ Para explicar de forma general cada uno de estos nuevos avances, hemos diseñado
 * **Año en que impactó en la sociedad**: En 1994, SanDisk comenzó a comercializar tarjetas de memoria (CompactFlash) basadas en estos circuitos y desde entonces no han parado de evolucionar.
 * **Sectores a los que pertenece**: desde el personal hasta la aeronáutica espacial. El espectro de usuarios es muy amplio y afecta a todos los sectores.
 * **Principales marcas**: Sandisk, TDK, Verbatim, Kingston, PNY, Fordox, Samsung, Memorex.
-* **Rango precio aproximado**: desde 15€ para 512Mb, 50€ para 2GB hasta 4000€  para 64GB.
+* **Rango precio aproximado**: desde 15€ para 512Mb, 50€ para 2GB hasta 4000€ para 64GB.
 
 **DEFINICIÓN**: Las memorias flash son de tipo no volátil, esto es, la información que almacena no se pierde en cuanto se desconecta de la corriente, una característica muy valorada para la multitud de usos en los que se emplea este tipo de memoria.
 
@@ -79,13 +80,13 @@ Entre los años 1994 y 1998, se desarrollaron los principales tipos de memoria q
 
 **HISTORIA**: En 1959 se descubrió como derivación de los estudios de física (óptica) una nueva utilización de la luz, denominada rayo láser, que fueron aplicadas a las telecomunicaciones con la finalidad de que los mensajes se transmitiesen a velocidades inusitadas y con una amplia cobertura. Pero la utilización del láser era muy limitada debido a la inexistencia de conductores adecuados para hacer viajar las ondas electromagnéticas. Fue entonces cuando los científicos dirigieron sus esfuerzos en la producción de un canal, hoy conocido como fibra óptica. En 1966 surgió la propuesta de utilizar guía óptica para la comunicación y en 1977 se instalo en Inglaterra el primer sistema de prueba.
 
-**BASE CIENTÍFICA**: Cables de espesor comprendido entre 10-300 micrones que llevan los mensajes en forma de haces de luz de un extremo a otro sin interrupción mediante una fibra realizada con cristales minúsculos. La transmisión es por reflexión y no se producen apenas pérdidas ya que el núcleo de la fibra esta recubierto por una capa de vidrio que provoca un índice de refracción muy bajo. El sistema de emisión y recepción requiere los siguientes componentes : Señal de entrada, amplificador, fuente de luz, corrector óptico, línea de fibra óptica, receptor, amplificador y señal de salida.
+**BASE CIENTÍFICA**: Cables de espesor comprendido entre 10-300 micrones que llevan los mensajes en forma de haces de luz de un extremo a otro sin interrupción mediante una fibra realizada con cristales minúsculos. La transmisión es por reflexión y no se producen apenas pérdidas ya que, el núcleo de la fibra está recubierto por una capa de vidrio que provoca un índice de refracción muy bajo. El sistema de emisión y recepción requiere los siguientes componentes: Señal de entrada, amplificador, fuente de luz, corrector óptico, línea de fibra óptica, receptor, amplificador y señal de salida.
 
 **APLICACIONES**: Aumentar la velocidad en las telecomunicaciones. Se aplica tanto en pequeños ambientes autónomos como en grandes redes geográficas (desde sistemas de procesamiento de datos en aviones hasta sistemas de largas líneas urbanas mantenidos por compañías telefónicas). Las aplicaciones más comunes son para Internet, redes, telefonía, televisión por cable.
 
 **TIPOS**: Los circuitos de fibra óptica están compuestos por filamentos de vidrio (cristales naturales) o plástico (cristales artificiales).
 
-**REQUISITOS**: Sólo pueden suscribirse las personas en cuyas ciudades esté instalada la red de fibra óptica. El coste de conexión e instalación es alto. Las fibras son frágiles, hay disponibilidad limitada de conectores y la dificultad de reparación de un cable roto es alta.
+**REQUISITOS**: Solo pueden suscribirse las personas en cuyas ciudades esté instalada la red de fibra óptica. El coste de conexión e instalación es alto. Las fibras son frágiles, hay disponibilidad limitada de conectores y la dificultad de reparación de un cable roto es alta.
 
 **SITUACIÓN**: Totalmente en auge, la instalación y aplicaciones de esta nueva tecnología es muy eficaz y además se sigue investigando al respecto para mejorar sus prestaciones.
 
@@ -106,11 +107,11 @@ Entre los años 1994 y 1998, se desarrollaron los principales tipos de memoria q
 
 **APLICACIONES**: Su uso más común hoy en día es el de comunicar un ordenador u otro dispositivo (PDA, móvil, etc.) con un punto de acceso a Internet. Esto permite que, estando dentro del radio de cobertura del nodo de acceso, puedas acceder a Internet sin necesidad de cables (utilizando simultáneamente otros protocolos de seguridad como el WEP o el WPA para proteger la comunicación y los datos).
 
-**TIPOS**: Más que tipos hay que hablar diferentes versiones de un mismo estándar de protocolo de comunicaciones (ver la parte de Historia para más detalle).
+**TIPOS**: Más que tipos, hay que hablar diferentes versiones de un mismo estándar de protocolo de comunicaciones (ver la parte de Historia para más detalle).
 
 **REQUISITOS**: En el uso más cotidiano, que es el acceso a Internet, lo único que necesitamos es tener un punto de acceso cercano al que poder conectar nuestro dispositivo. Si el dispositivo que queremos conectar es un ordenador, necesitaremos una tarjeta de red inalámbrica, si es otro tipo de dispositivo habitualmente ya tiene capacidad de comunicación WiFi integrada.
 
-**SITUACIÓN**: Actualmente es uno de los estándares de comunicación más utilizados, ya que permite crear grandes redes de conexión a Internet incluso en ciudades enteras a bajo coste y sin necesidad de cables. De esta forma podemos estar conectados en todo momento y desde cualquier lugar a la red.
+**SITUACIÓN**: Actualmente es uno de los estándares de comunicación más utilizados, ya que permite crear grandes redes de conexión a Internet, incluso en ciudades enteras a bajo coste y sin necesidad de cables. De esta forma podemos estar conectados en todo momento y desde cualquier lugar a la red.
 
 **FUTURO**: Ya está en marcha una nueva versión del protocolo (la versión 802.11n) que se espera alcance velocidades de hasta 600Mbps y con un radio de alcance mucho mayor. En el futuro se prevé que las ciudades tendrán garantizado acceso a Internet mediante Wifi desde cualquier punto de la ciudad (como ejemplo, la ciudad de Nuenen, cuna de Van Gogh, en Holanda, ya lo tiene implementado).
 
@@ -129,13 +130,13 @@ Entre los años 1994 y 1998, se desarrollaron los principales tipos de memoria q
 
 **HISTORIA**: La compañía de Hell creó en 1929 una máquina capaz de transmitir texto. La máquina descomponía las letras en puntos y las retransmitía electrónicamente. Este aparato fue el precursor del fax y, posteriormente, sirvió como base tecnología para fabricar el primer escáner en 1963.
 
-**APLICACIONES**: Además de los usos habituales de un escáner (digitalizar imágenes, textos y demás), existe una variante del escáner que se utiliza con mucha frecuencia, sobretodo en comercios: el lector de código de barras.
+**APLICACIONES**: Además de los usos habituales de un escáner (digitalizar imágenes, textos y demás), existe una variante del escáner que se utiliza con mucha frecuencia, sobre todo en comercios: el lector de código de barras.
 
-**TIPOS**: Básicamente hay tres tipos de escáneres: de rodillo, de mano y de sobremesa. El de rodillo es similar a un fax, ya que recoge automáticamente el documento a escanear y lo digitaliza. Su principal inconveniente es que sólo puede digitalizar documentos de texto. El tipo de mano es el menos fiable, ya que depende del pulso del usuario, pero es el más barato. Por último el de sobremesa, que es el más caro pero también el más profesional y extendido.
+**TIPOS**: Básicamente hay tres tipos de escáneres: de rodillo, de mano y de sobremesa. El de rodillo es similar a un fax, ya que recoge automáticamente el documento a escanear y lo digitaliza. Su principal inconveniente es que solo puede digitalizar documentos de texto. El tipo de mano es el menos fiable, ya que depende del pulso del usuario, pero es el más barato. Por último, el de sobremesa, que es el más caro, pero también el más profesional y extendido.
 
 **REQUISITOS**: La tecnología que compone el escáner tiene el principal inconveniente en que es muy mecánica y eso puede derivar en fallos debidos al desgaste, golpes, etc. Respecto a consumo y requisitos, no necesita nada más que electricidad para funcionar y un driver (estándar TWAIN) para comunicarse con el ordenador.
 
-**SITUACIÓN**: Actualmente no es uno de los productos más demandados. El hecho de  que la mayoría de información que se produce ya sea digital ha hecho que el escáner caiga en desuso.
+**SITUACIÓN**: Actualmente no es uno de los productos más demandados. El hecho de que la mayoría de información que se produce, ya sea digital ha hecho que el escáner caiga en desuso.
 
 **FUTURO**: Entre los dispositivos basados en la tecnología del escáner con mayor futuro encontramos los lectores de huellas dactilares i los escáneres de retina, entre otros.
 
@@ -160,7 +161,7 @@ Entre los años 1994 y 1998, se desarrollaron los principales tipos de memoria q
 
 **REQUISITOS**: El único requisito es disponer de un ordenador medianamente potente, un puerto USB (suele ser la conexión más habitual) y los drivers de la webcam.
 
-**SITUACIÓN**: Actualmente las webcams se están potenciando sobretodo para un uso lúdico y de comunicación, pero gozan de una gran aceptación.
+**SITUACIÓN**: Actualmente las webcams se están potenciando, sobre todo para un uso lúdico y de comunicación, pero gozan de una gran aceptación.
 
 **FUTURO**: Cada vez más aparatos tecnológicos incluyen cámara y conexión a Internet y además se va mejorando la velocidad de transmisión de datos, lo cual potenciará el uso de videoconferencias como forma de comunicación, ya sea desde el móvil, el ordenador o cualquier otro dispositivo portátil.
 
@@ -206,7 +207,7 @@ Se observó que, para que esta tecnología tuviera éxito, se debía dotar de é
 
 **HISTORIA**: La teconolgía divx fue desarrollada a la sombra de otras tecnologías (MPEG-4 Part 2 y DecSS) por dos Hackers (Jeroma Rota y Max Morice) en el año 2000. Después de ésta innovación destacaron dos proyectos que pretendían legalizar el divs, éstos eran Project Mayo y 3ivx.com. Project Mayo afirmaba en todo momento conocer el código fuente hasta que culminó con la creación del primer códec legal Divx 4. Actualmente el desarrollo es completamente legal y pertenece a la compañía Divx, Inc, originariamente basada en el Project Mayo.
 
-**BASE CIENTÍFICA**: La tecnología mp3 fue desarrollada por el  MPEG (Moving Pictures Expert Group) y la reducción del tamaño se basa en un análisis psicoacústico del sonido, es decir, el sonido es analizado y se descartan los sonidos que el cerebro no puede percibir (frecuencias muy altas o muy bajas, sonidos superpuestos, etc.) consiguiendo un tamaño final muy reducido con una pérdida de calidad insignificante.
+**BASE CIENTÍFICA**: La tecnología mp3 fue desarrollada por el MPEG (Moving Pictures Expert Group) y la reducción del tamaño se basa en un análisis psicoacústico del sonido, es decir, el sonido es analizado y se descartan los sonidos que el cerebro no puede percibir (frecuencias muy altas o muy bajas, sonidos superpuestos, etc.) consiguiendo un tamaño final muy reducido con una pérdida de calidad insignificante.
 
 **TIPOS**: Tanto DivX como Mp3 reducen notoriamente el tamaño del archivo sin apenas alterar la calidad, y es éste precisamente el factor que ha ocasionado tanto éxito y acogida para estos códecs. Para hacernos una idea, en Divx se almacena en unos 700 MB lo que en un DVD en 8 GB, con una pérdida de calidad irrisoria. Lo mismo ocurre con el mp3, que almacena aproximadamente 1 minuto de sonido en 1 MB,es decir comprime en un 90 % el tamaño del mismo archivo en formato WAV. Esta reducción del tamaño facilita su difusión por internet y por este motivo es tan popular.
 
@@ -334,7 +335,7 @@ Se observó que, para que esta tecnología tuviera éxito, se debía dotar de é
 
 **REQUISITOS**: Para poder hacer uso de la tecnología GPS es necesario poseer un receptor (también conocido con el nombre de GPS) y recibir la señal de los satélites (cuantos más, mejor). Habitualmente los receptores llevan incorporados mapas de zonas geográficas o ciudades para facilitar la ubicación al usuario.
 
-**SITUACIÓN**: Actualmente el GPS se encuentra en un gran momento. Es muy habitual ver cada vez más coches y particulares con un receptor   que no sólo les ubica geográficamente sino que además les indica la ruta a seguir.
+**SITUACIÓN**: Actualmente el GPS se encuentra en un gran momento. Es muy habitual ver cada vez más coches y particulares con un receptor que no solo les ubica geográficamente sino que además les indica la ruta a seguir.
 
 **FUTURO**: En los próximos años entrará en funcionamiento la red europea de satélites GALILEO, que también ofrecerá servicio de posicionamiento. Además, cada vez se incorporan más receptores GPS tanto en teléfonos móviles como en ordenadores portátiles y PDAs.
 
@@ -373,7 +374,7 @@ Se observó que, para que esta tecnología tuviera éxito, se debía dotar de é
 
 **DEFINICIÓN**: Una consola podría definirse como un aparato electrónico cuyo propósito principal es el de permitir jugar a videojuegos. Ésta sería su definición básica, aunque cada vez más las consolas se están convirtiendo en centros de ocio multimedia.
 
-**HISTORIA**: Aunque en los años 50 ya empezaron a surgir empresas como SEGA y algunos videojuegos como el OXO (A.S.Douglas, 1952 Universidad de Cambridge), una versión del famoso juego del tres en raya para jugar contra la computadora, la Odyssey (Magnavox, 1972) se considera la primera consola como tal. A pesar de eso, fue la llegada de juegos como PONG (ATARI, 1975), SPACE INVADERS (Taito, 1978) o PAC-MAN  la que marcó un antes y un después en la industria de los videojuegos. A partir de ahí surgieron consolas como la Atari 2600 (1977), la Nintendo (1985) y la Super Nintendo (1991), las diferentes versiones de Playstation (SONY), etc.
+**HISTORIA**: Aunque en los años 50 ya empezaron a surgir empresas como SEGA y algunos videojuegos como el OXO (A.S.Douglas, 1952 Universidad de Cambridge), una versión del famoso juego del tres en raya para jugar contra la computadora, la Odyssey (Magnavox, 1972) se considera la primera consola como tal. A pesar de eso, fue la llegada de juegos como PONG (ATARI, 1975), SPACE INVADERS (Taito, 1978) o PAC-MAN la que marcó un antes y un después en la industria de los videojuegos. A partir de ahí surgieron consolas como la Atari 2600 (1977), la Nintendo (1985) y la Super Nintendo (1991), las diferentes versiones de Playstation (SONY), etc.
 
 **APLICACIONES**: Inicialmente las consolas estaban preparadas únicamente para ejecutar juegos, pero las exigencias del mercado y la evolución de las comunicaciones (juegos en red, descargas de Internet, formatos multimedia, etc.) han hecho que los últimos modelos de consolas ya dispongan de conexión a Internet, reproducción de DVD, fotografías y muchas otras aplicaciones.
 

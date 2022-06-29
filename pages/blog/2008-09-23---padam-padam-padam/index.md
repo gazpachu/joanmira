@@ -7,9 +7,9 @@ category: film
 lang: es
 ---
 
-Qué gran pelicula es “[La Môme](http://www.imdb.com/title/tt0450188/)“, me ha gustado mucho, me ha inspirado, me ha emocionado, me ha fascinado… que vida la de [Edith Piaf](http://es.wikipedia.org/wiki/Edith_Piaf) (tan solo teneis que leer la primera linea de [su artículo en la wikipedia](http://es.wikipedia.org/wiki/Edith_Piaf)), “Edith Piaf nace debajo de una farola frente al número 72 de la *rue de Belleville* en [París](http://es.wikipedia.org/wiki/Par%C3%ADs "París"). Toma ya!
+Qué gran película es “[La Môme](http://www.imdb.com/title/tt0450188/)“, me ha gustado mucho, me ha inspirado, me ha emocionado, me ha fascinado… que vida la de [Edith Piaf](http://es.wikipedia.org/wiki/Edith_Piaf) (tan solo teneis que leer la primera línea de [su artículo en la wikipedia](http://es.wikipedia.org/wiki/Edith_Piaf)), “Edith Piaf nace debajo de una farola frente al número 72 de la *rue de Belleville* en [París](http://es.wikipedia.org/wiki/Par%C3%ADs "París"). ¡Toma ya!
 
-Al son de su canción “Padam Padam Padam” os escribo estra entrada, sintiendo que estoy en París!, en aquellos baretos cutres y húmedos de los años 40, bebiendo vino y emborrachandome mientras cantamos todos a la vida! C’est la vie! mon ami!, no os la perdais, es un peliculón con la actriz que ganó el oscar. Una interpretación que da miedo de lo bien lo que hace.
+Al son de su canción “Padam Padam Padam” os escribo esta entrada, sintiendo que estoy en París!, en aquellos baretos cutres y húmedos de los años 40, bebiendo vino y emborrachándome mientras cantamos todos a la vida! C’est la vie! mon ami!, no os la perdáis, es un peliculón con la actriz que ganó el Óscar. Una interpretación que da miedo de lo bien que lo que hace.
 
 <iframe allowfullscreen="" frameborder="0" height="340" src="https://www.youtube.com/embed/0Ih5z4WTVDw?feature=oembed" width="100%"></iframe>
 

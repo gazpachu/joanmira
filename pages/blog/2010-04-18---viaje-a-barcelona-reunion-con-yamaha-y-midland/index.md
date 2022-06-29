@@ -15,7 +15,7 @@ Me costó bastante dormir, ya había estado hablando con Joan sobre la lluvia y 
 
 Nos levantamos y desayunamos bien, el tiempo seguía cerrado, la humedad era tal que hasta costaba trabajo caminar. No nos dijimos nada, terminamos de desayunar, colocamos todo en las motos y no muy pronto, sobre las 10’30 h., iniciamos la medio-aventura que estoy a punto de narraros.
 
-La lluvia nos regaló un pequeño lapsus de tiempo para ir adaptándonos a la carretera (bien mojada por cierto). Nos dirigimos hacia Carboneras, paramos para repostar y seguidamente tomamos la N-420 hacia Teruel. Empieza a llover a cántaros!, pero teníamos citas en la ciudad Condal y, a no ser que el destino dijera un NO rotundo, nosotros seguiríamos adelante.
+La lluvia nos regaló un pequeño lapsus de tiempo para ir adaptándonos a la carretera (bien mojada, por cierto). Nos dirigimos hacia Carboneras, paramos para repostar y seguidamente tomamos la N-420 hacia Teruel. Empieza a llover a cántaros!, pero teníamos citas en la ciudad Condal y, a no ser que el destino dijera un NO rotundo, nosotros seguiríamos adelante.
 
 ![1](/blog/viaje-a-barcelona-reunion-con-yamaha-y-midland/images/1_ciiykf.jpg)
 
@@ -23,15 +23,15 @@ Las manoplas son un gran invento y en un día como este no me puedo imaginar via
 
 Continuamos el viaje, “de relax”. Se divisaba en las cunetas de la carretera y montes adyacentes mucha mucha agua y luego pasó a verse nieve…, el indicador de temperatura no paraba de parpadear, me indicaba que había posibilidad de hielo. Se estaba complicado el día, pero bueno, felices de ir en moto, nos reconfortábamos pensando y soñando con los posibles desenlaces de las reuniones que íbamos a tener en Barcelona con los patrocinadores.
 
-Antes de llegar a Teruel pasamos por un pequeño puerto de montaña de más de 1000 metros de altura, había algo de nieve en la carretera, así que decidimos parar un poco a aprovechar el magnífico día. Era necesario dejar constancia fotográfica del momento. Es muy agradable no ir sólo en ruta, las penas, son menos penas cuando estás acompañado.
+Antes de llegar a Teruel pasamos por un pequeño puerto de montaña de más de 1000 metros de altura, había algo de nieve en la carretera, así que decidimos parar un poco a aprovechar el magnífico día. Era necesario dejar constancia fotográfica del momento. Es muy agradable no ir solo en ruta, las penas, son menos penas cuando estás acompañado.
 
 ![2](/blog/viaje-a-barcelona-reunion-con-yamaha-y-midland/images/2_pq7ijg.jpg)
 
 ![3](/blog/viaje-a-barcelona-reunion-con-yamaha-y-midland/images/3_ztiwhx.jpg)
 
-Entre Teruel y Alcañiz hacemos una parada, hacía un frío de muerte y la implacable humedad excitaba nuestros grifos nasales de forma incesante. Un buen almuerzo-comida, a base de bocadillo de lomo con queso nos dejó casi perfectos y con los ánimos restaurados. Qué pena que seguía lloviendo, pero teníamos que continuar el camino por esa bonita carretera rumbo a Alcañiz, Caspe, Fraga y Barcelona.
+Entre Teruel y Alcañiz hacemos una parada, hacía un frío de muerte y la implacable humedad excitaba nuestros grifos nasales de forma incesante. Un buen almuerzo-comida, a base de bocadillo de lomo con queso, nos dejó casi perfectos y con los ánimos restaurados. Qué pena que seguía lloviendo, pero teníamos que continuar el camino por esa bonita carretera rumbo a Alcañiz, Caspe, Fraga y Barcelona.
 
-Al pasar Alcañiz paramos para llenar el depósito de gasolina, la cosa cambió algo, seguía nublado pero la lluvia cesó. Más rectas, y más rectas interminables, pasamos por el puente que cruza el Ebro y llegamos a Fraga. Lo demás ya es historia, un buen colacao en un bar de carretera tras pasar por Lérida y aburridas rectas de autovía hasta llegar a Manresa. Ya eran casi las siete de la tarde, quedaba poco para llegar a L’Ametlla del Vallés. Los últimos kilómetros de montañas y carretera comarcal los hicimos como zombis con encefalograma plano. Demasiados kilómetros en un mismo día, menos mal que al menos el paisaje era una gozada. Bonitos páramos de montaña que me recordaban a Galicia, ¡qué pasada de verde, es fantástico el norte de Barcelona!
+Al pasar Alcañiz paramos para llenar el depósito de gasolina, la cosa cambió algo, seguía nublado, pero la lluvia cesó. Más rectas, y más rectas interminables, pasamos por el puente que cruza el Ebro y llegamos a Fraga. Lo demás ya es historia, un buen colacao en un bar de carretera tras pasar por Lérida y aburridas rectas de autovía hasta llegar a Manresa. Ya eran casi las siete de la tarde, quedaba poco para llegar a L’Ametlla del Vallés. Los últimos kilómetros de montañas y carretera comarcal los hicimos como zombis con encefalograma plano. Demasiados kilómetros en un mismo día, menos mal que al menos el paisaje era una gozada. Bonitos páramos de montaña que me recordaban a Galicia, ¡qué pasada de verde, es fantástico el norte de Barcelona!
 
 Nos hospedamos, en casa de mi amigo Ignacio, un gran tipo que nos cuidó muy bien. Motero de los de verdad y muy ingenioso con el bricolaje de motos. De hecho, a Joan le instaló unos protectores de manos que ya no usaba para arreglar el problema con las manoplas. Muchas gracias Ignacio, a ver si nos vemos pronto y volvemos a hacer rutas por ahí con las motos.
 
@@ -43,7 +43,7 @@ También visitamos a, nuestro ya confirmado patrocinador, Midland. Los cuales no
 
 ![midland](/blog/viaje-a-barcelona-reunion-con-yamaha-y-midland/images/midland_pnhvh6.jpg)
 
-Entre las visitas a los patrocinadores, también aprovechamos para iniciar los trámites del visado para Mongolia. Parece que todo está en orden y ahora solo nos queda esperar a que nos devuelvan los pasaportes. Luego fuimos a visitar algunas tiendas de motos y a tomamos unas buenas cervezas en el mejor pub motero de Barcelona, el Paddock. Unas Guinnes fantásticas, con amigos geniales como Federico-Varadero e Ignacio-Tíger y toda esa gente tan agradable con gasolina por las venas que frecuenta ese gran rincón motero. Muchas gracias!
+Entre las visitas a los patrocinadores, también aprovechamos para iniciar los trámites del visado para Mongolia. Parece que todo está en orden y ahora solo nos queda esperar a que nos devuelvan los pasaportes. Luego fuimos a visitar algunas tiendas de motos y a tomarnos unas buenas cervezas en el mejor pub motero de Barcelona, el Paddock. Unas Guinnes fantásticas, con amigos geniales como Federico-Varadero e Ignacio-Tíger y toda esa gente tan agradable con gasolina por las venas que frecuenta ese gran rincón motero. ¡Muchas gracias!
 
 ![5](/blog/viaje-a-barcelona-reunion-con-yamaha-y-midland/images/5_w3i0th.jpg)
 

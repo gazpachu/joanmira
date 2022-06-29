@@ -20,7 +20,7 @@ lang: es
     <h3>Vicente Malpica Ruiz</h3>
     <ul>
       <li>Experto en motos y en meterse en líos</li>
-      <li>Fecha nacimiento: 28 de Febrero de 1964</li>
+      <li>Fecha nacimiento: 28 de febrero de 1964</li>
       <li>Lugar de nacimiento: Motril, Granada</li>
       <li>Reside en: Cardenete, Cuenca</li>
     </ul>
@@ -57,7 +57,7 @@ lang: es
     <h3>Joan Siddharta Mira</h3>
     <ul>
       <li>Experto en atosigar a los patrocinadores</li>
-      <li>Fecha nacimiento: 17 de Julio de 1980</li>
+      <li>Fecha nacimiento: 17 de julio de 1980</li>
       <li>Lugar de nacimiento: Alicante</li>
       <li>Reside en: Alicante</li>
     </ul>

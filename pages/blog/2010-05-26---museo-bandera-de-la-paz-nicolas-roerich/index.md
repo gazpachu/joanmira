@@ -9,7 +9,7 @@ lang: es
 
 > Donde hay Paz, hay Cultura; Donde hay Cultura, hay Paz. - Nicolás Roerich (1874-1947)
 
-El [Museo Bandera de la Paz Nicolás Roerich](http://shambala-roerich.com/) es uno de los mayores benefactores del proyecto de La Ruta del Samurai y por eso queremos hablaros un poco acerca de la bandera de la paz que llevaremos en las motos y sobre  su creador, Nicolás Roerich.
+El [Museo Bandera de la Paz Nicolás Roerich](http://shambala-roerich.com/) es uno de los mayores benefactores del proyecto de La Ruta del Samurái y por eso queremos hablaros un poco acerca de la bandera de la paz que llevaremos en las motos y sobre su creador, Nicolás Roerich.
 
 [El museo](http://shambala-roerich.com/) está enclavado en las montañas del País Vasco, recibe durante los fines de semana del verano a todos aquellos que sean amantes de la unión entre Oriente y Occidente, en su aspecto cultural, filosófico y espiritual. Pinturas de los Roerich, Agni-Yoga, India, Meditación Grupal de Luna Llena, Radiestésia-Radiónica, Viajes de aventuras espirituales, Lecturas de libros, Paseos por el campo. Todo esto y mucho más, lo encontrarás en la [Casa de campo Nicolás Roerich](http://shambala-roerich.com/) de Leonardo y Petri.
 
@@ -27,7 +27,7 @@ Donde quiera que se exponga la Bandera reconoce los grandes logros del pasado, d
 
 Nicolás Roerich fue un artista, filósofo, arqueólogo y escritor mundialmente conocido. Creó un Tratado Internacional, el Pacto Roerich y la Bandera de la Paz. Estipuló que la Bandera ondease sobre todos los monumentos históricos y las instituciones educativas, artísticas y científicas para indicar una protección y un respeto especial en tiempos de guerra y de paz. Reconoció que los tesoros culturales son de valor permanente para todas las personas como herencia común de la humanidad.
 
-El Pacto fue presentado por Roerich en Nueva York en 1929 y mereció la nominación para el Premio Nobel de la Paz. El 15 de abril de 1935, el Presidente Franklin D. Roosevelt presidió una ceremonia en la Casa Blanca, en Washington D.C., en la cual veinte países latinoamericanos se unieron a los Estados Unidos  en la firma del documento histórico, entre ellos España.
+El Pacto fue presentado por Roerich en Nueva York en 1929 y mereció la nominación para el Premio Nobel de la Paz. El 15 de abril de 1935, el Presidente Franklin D. Roosevelt presidió una ceremonia en la Casa Blanca, en Washington D.C., en la cual veinte países latinoamericanos se unieron a los Estados Unidos en la firma del documento histórico, entre ellos España.
 
 Nicolás Roerich dijo: “La creatividad positiva es la cualidad fundamental del espíritu humano. Demos la bienvenida a todos aquellos quienes, superando las dificultades personales, impulsan sus espíritus en la tarea de la construcción de la Paz, garantizando de esta manera un futuro radiante”.
 

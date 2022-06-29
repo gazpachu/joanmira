@@ -7,7 +7,7 @@ category: samurai-route
 lang: es
 ---
 
-Durante los últimos seis días, hemos estado enviando cartas a empresas e instituciones que pensamos pudieran estar interesadas en participar en este proyecto. En total hemos enviado más de veinte, a empresas como: Rukka, TCX, IXS, Decathlon, Altus, Arai, GoPro, Canon, Panasonic, Sony, Hepco & Becker, La Caixa, Metzeler, Öhlins, Starcom1, The North Face, Oxford, Touratech, Ubricar Motos, Wunderlinch y Yamaha. También hemos enviado al ayuntamiento de Coria del Rio.
+Durante los últimos seis días, hemos estado enviando cartas a empresas e instituciones que pensamos pudieran estar interesadas en participar en este proyecto. En total hemos enviado más de veinte, a empresas como: Rukka, TCX, IXS, Decathlon, Altus, Arai, GoPro, Canon, Panasonic, Sony, Hepco & Becker, La Caixa, Metzeler, Öhlins, Starcom1, The North Face, Oxford, Touratech, Ubricar Motos, Wunderlinch y Yamaha. También hemos enviado al ayuntamiento de Coria del Río.
 
 Lo hemos hecho de la mejor forma posible:
 

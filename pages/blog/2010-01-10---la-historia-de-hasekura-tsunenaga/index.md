@@ -9,17 +9,17 @@ lang: es
 
 ### ¿Quien fue Hasekura Tsunenaga?
 
-[Hasekura Rokuemon Tsunenaga](http://es.wikipedia.org/wiki/Hasekura_Tsunenaga) (nacido en 1571 y fallecido 7 de agosto 1622) fue un samurai japonés que prestó servicios al daimyo de la ciudad japonesa de [Sendai](http://es.wikipedia.org/wiki/Sendai_%28Miyagi%29), [Date Masamune](http://es.wikipedia.org/wiki/Date_Masamune). Dirigió una misión diplomática a México y luego a Europa entre 1613 y 1620, regresando por último a Japón.
+[Hasekura Rokuemon Tsunenaga](http://es.wikipedia.org/wiki/Hasekura_Tsunenaga) (nacido en 1571 y fallecido 7 de agosto 1622) fue un samurái japonés que prestó servicios al daimyo de la ciudad japonesa de [Sendai](http://es.wikipedia.org/wiki/Sendai_%28Miyagi%29), [Date Masamune](http://es.wikipedia.org/wiki/Date_Masamune). Dirigió una misión diplomática a México y luego a Europa entre 1613 y 1620, regresando por último a Japón.
 
 Fue el primer oficial japonés enviado a América y su viaje a Francia pasó a ser el primer caso registrado de contacto directo en las relaciones franco-japonesas.
 
-A fin de establecer una relación comercial y solicitar el envío de misioneros cristianos, el fundador de Sendai, Date Masamune, **envió en 1613 una misión hacia Europa** embarcada en el “*San Juan Baustista*“, velero de estilo occidental, construido por el señorío de Sendai. El nombre de su Subdelegado fue Haskura Tsunenaga, vasallo de Masamune, quien desembarcó primero en la ciudad de Acapulco (México) cruzando el Océano Pacífico, con un galeón español, y luego se dirigió hacia Europa llegando el 20 de diciembre de 1614.
+A fin de establecer una relación comercial y solicitar el envío de misioneros cristianos, el fundador de Sendai, Date Masamune, **envió en 1613 una misión hacia Europa** embarcada en el “*San Juan Baustista*“, velero de estilo occidental, construido por el señorío de Sendai. El nombre de su Subdelegado fue Haskura Tsunenaga, vasallo de Masamune, quien desembarcó primero en la ciudad de Acapulco (México) cruzando el Océano Pacífico, con un galeón español, y luego se dirigió hacia Europa, llegando el 20 de diciembre de 1614.
 
 Visitó Madrid (España) y Roma (Italia) **convirtiéndose así en el primer japonés que cruzó el Océano Atlántico**.
 
 ![Sanjuanbautista](/blog/la-historia-de-hasekura-tsunenaga/images/Sanjuanbautista.jpg "Réplica del Galeón Español Juan Bautista")
 
-La misión japonesa comandanda por Hasekura, en audiencia del rey Felipe III de España, el 30 de enero de 1615, le trajo una carta de Date Masamune ofreciéndole un tratado. El Rey le respondió que haría lo posible para cumplir sus peticiones.
+La misión japonesa comandada por Hasekura, en audiencia del rey Felipe III de España, el 30 de enero de 1615, le trajo una carta de Date Masamune ofreciéndole un tratado. El Rey le respondió que haría lo posible para cumplir sus peticiones.
 
 En Italia, a dicha misión se le concedió una entrevista con el Sumo Pontífice. Su largo viaje terminó casi siete años después de su partida del Japón. Este es uno de los hechos más relevantes en la historia de la populosa ciudad japonesa de Sendai.
 
@@ -39,4 +39,4 @@ Por entonces, Coria del Río, además de ser una sociedad con una economía bás
 
 Actualmente, podemos afirmar, que el coriano hoy, es plenamente consciente del lazo que le une con el pueblo japonés. Sabe que una gran cantidad de sus vecinos comparten la misma sangre y reconocen la figura del embajador japones Haskura como el catalizador de esa peculiar relación. Desde que fue descubierta, el Ayuntamiento ha velado por mantener el respeto y aumentar las relaciones culturales bilaterales con el gobierno japones, a través de la figura de su embajador en España.
 
-###### Fotografías de Wikipedia y de Coria del Rio por [Alonso Díaz](http://www.alonsodr.com/)
+###### Fotografías de Wikipedia y de Coria del Río por [Alonso Díaz](http://www.alonsodr.com/)

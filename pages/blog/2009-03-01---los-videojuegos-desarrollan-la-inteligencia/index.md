@@ -11,7 +11,7 @@ Es un tema que siempre me ha interesado analizar detalladamente y ahora me gusta
 
 Efectos positivos:
 
-– **Facilidad para mover máquinas en espacios tridimensionales** (por ejemplo conducir vehículos). ¿Cuántas naves espaciales, aviones, coches, tanques, motos e infinidad de otros vehículos hemos tenido que aprender a dirigir en los videojuegos. A veces no solo tenemos que dirigir el vehículo, sino también el movimiento de la cabeza del conductor. Con ese entrenamiento, aparcar un coche en el mundo real, es coser y cantar, ¿no os parece?
+– **Facilidad para mover máquinas en espacios tridimensionales** (por ejemplo, conducir vehículos). ¿Cuántas naves espaciales, aviones, coches, tanques, motos e infinidad de otros vehículos hemos tenido que aprender a dirigir en los videojuegos. A veces no solo tenemos que dirigir el vehículo, sino también el movimiento de la cabeza del conductor. Con ese entrenamiento, aparcar un coche en el mundo real, es coser y cantar, ¿no os parece?
 
 – **Orientación geográfica**. A medida que me desplazo, mi cerebro guarda un registro de las decisiones que toma y los parámetros de posicionamiento cada vez que debe tomar una decisión, de tal forma que puedo comparar mi posición actual con respecto a la inicial. En los videojuegos es algo muy común tener que aprender a moverse eficientemente dentro de un escenario virtual, que a veces puede llegar a ser de cientos de Km cuadrados.
 

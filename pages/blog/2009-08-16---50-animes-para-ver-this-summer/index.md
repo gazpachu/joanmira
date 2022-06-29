@@ -8,11 +8,11 @@ lang: es
 shouldDisableAudio: true
 ---
 
-Aprovechando que es Agosto y siguiendo en la línea de la lista de las [65 mejores películas de los años 80](http://joanmira.com/blog/las-50-mejores-peliculas-de-los-anos-80/) (que tanto éxito tuvo, en parte gracias al efecto [Microsiervos](http://www.microsiervos.com/archivo/peliculas-tv/65-grandes-peliculas-80.html)), hemos preparado ahora una selección de los 50 animes que mas nos han gustado de los que hemos visto, algunos creo que no han salido en España y solo están subtitulados.
+Aprovechando que es agosto y siguiendo en la línea de la lista de las [65 mejores películas de los años 80](http://joanmira.com/blog/las-50-mejores-peliculas-de-los-anos-80/) (que tanto éxito tuvo, en parte gracias al efecto [Microsiervos](http://www.microsiervos.com/archivo/peliculas-tv/65-grandes-peliculas-80.html)), hemos preparado ahora una selección de los 50 animes que mas nos han gustado de los que hemos visto, algunos creo que no han salido en España y solo están subtitulados.
 
-Atención!, **están ordenados por fecha**, quizás habría sido más interesante ordenarlos de peor a mejor, pero son géneros distintos y realmente sería muy difícil hacer un ranking muy objetivo de ellos sin colapsar a criticas por parte de los comentaristas. He puesto los capítulos de muchas de las series, pero muchas de ellas tienen aparte OVAS y películas.
+Atención!, **están ordenados por fecha**, quizás habría sido más interesante ordenarlos de peor a mejor, pero son géneros distintos y realmente sería muy difícil hacer un ranking muy objetivo de ellos sin colapsar a críticas por parte de los comentaristas. He puesto los capítulos de muchas de las series, pero muchas de ellas tienen aparte OVAS y películas.
 
-En la web de [McAnime](http://www.mcanime.net/enciclopedia) tienen un ranking de los animes mas populares en estas fechas (*una pagina muy recomendada*) y también tengo que darle las **gracias a “Hackito” por su gran ayuda** a la hora de confeccionar la lista. Esperamos que os guste y encontréis algo bueno para estos días de calor!
+En la web de [McAnime](http://www.mcanime.net/enciclopedia) tienen un ranking de los animes más populares en estas fechas (*una página muy recomendada*) y también tengo que darle las **gracias a “Hackito” por su gran ayuda** a la hora de confeccionar la lista. ¡Esperamos que os guste y encontréis algo bueno para estos días de calor!
 
 ### 1971. Lupin iii (ルパン三世)
 
@@ -56,7 +56,7 @@ En la web de [McAnime](http://www.mcanime.net/enciclopedia) tienen un ranking de
 
 ### 1993. Slam dunk (スラムダンク)
 
-![Slam dunk](/blog/50-animes-para-ver-this-summer/images/slam_dunk_z05ew5.jpg)(serie anime de **101 capítulos**). Serie de baloncesto, muy buena. A mi personalmente me gusto mas que Oliver y Benji.
+![Slam dunk](/blog/50-animes-para-ver-this-summer/images/slam_dunk_z05ew5.jpg)(serie anime de **101 capítulos**). Serie de baloncesto, muy buena. A mi personalmente me gusto más que Oliver y Benji.
 [Más información](http://www.mcanime.net/enciclopedia/anime/slam_dunk/659) | [descargas](http://www.mcanime.net/descarga_directa/anime/slam_dunk/659)
 
 ### 1993. Ninja scroll (獣兵衛忍風帖)
@@ -111,7 +111,7 @@ En la web de [McAnime](http://www.mcanime.net/enciclopedia) tienen un ranking de
 
 ### 1999. Jester el aventurero (ゴクドーくん漫遊記)
 
-![jester el aventurero](/blog/50-animes-para-ver-this-summer/images/jester_el_aventurero_c0crgx.jpg)(serie de 26 capítulos). Una serie que parodia a muchas series de heroes y aventuras. Realmente tiene muchos buenos puntos de humor.
+![jester el aventurero](/blog/50-animes-para-ver-this-summer/images/jester_el_aventurero_c0crgx.jpg)(serie de 26 capítulos). Una serie que parodia a muchas series de héroes y aventuras. Realmente tiene muchos buenos puntos de humor.
 [Más información](http://wwww.mcanime.net/enciclopedia/anime/gokudo/250) | [descargas](http://wwww.mcanime.net/descarga_directa/anime/gokudo/250)
 
 ### 1999. Hunter x hunter (ハンターｘハンター)
@@ -171,7 +171,7 @@ En la web de [McAnime](http://www.mcanime.net/enciclopedia) tienen un ranking de
 
 ### 2004. Gantz (ガンツ)
 
-![Gantz](/blog/50-animes-para-ver-this-summer/images/gantz_jhyvgn.jpg)(serie de 26 capítulos). Esta es una de mis series fetiche, serie de ciencia-ficción muy buena, mucha violencia y acción. Si te quedas con ganas de más (que seguro que lo harás), puedes seguir con el manga por el volumen 8, por cierto el manga aun no lo han terminado.
+![Gantz](/blog/50-animes-para-ver-this-summer/images/gantz_jhyvgn.jpg)(serie de 26 capítulos). Esta es una de mis series fetiche, serie de ciencia-ficción muy buena, mucha violencia y acción. Si te quedas con ganas de más (que seguro que lo harás), puedes seguir con el manga por el volumen 8, por cierto el manga aún no lo han terminado.
 [Más información](http://www.mcanime.net/enciclopedia/anime/gantz/3641) | [descargas](http://www.mcanime.net/descarga_directa/anime/gantz/3641)
 
 ### 2004. Elfen lied (エルフェンリート)
@@ -206,7 +206,7 @@ En la web de [McAnime](http://www.mcanime.net/enciclopedia) tienen un ranking de
 
 ### 2006. Ultimate hellsing
 
-![Ultimate hellsing](/blog/50-animes-para-ver-this-summer/images/ultimate_hellsing_ajrcms.jpg)(serie sin terminar de transmitir). La serie buena es la de los ovas, no la serie normal que ya esta emitida completamente. Los ovas son realmente buenos, una serie de vampiros, bastante sanguinaria y gore, pero de las mejores de vampiros que he visto en anime.
+![Ultimate hellsing](/blog/50-animes-para-ver-this-summer/images/ultimate_hellsing_ajrcms.jpg)(serie sin terminar de transmitir). La serie buena es la de los ovas, no la serie normal que ya está emitida completamente. Los ovas son realmente buenos, una serie de vampiros, bastante sanguinaria y gore, pero de las mejores de vampiros que he visto en anime.
 [Más información](http://www.mcanime.net/enciclopedia/anime/hellsing/5114) | [descargas](http://www.mcanime.net/descarga_directa/anime/hellsing/5114)
 
 ### 2006. Death note (デスノート)
@@ -236,7 +236,7 @@ En la web de [McAnime](http://www.mcanime.net/enciclopedia) tienen un ranking de
 
 ### 2007. Tengen toppa – gurren lagann (天元突破グレンラガン)
 
-![Tengen toppa – gurren lagann](/blog/50-animes-para-ver-this-summer/images/tengen_toppa_gurren_lagann_d9ka4p.jpg)(serie anime de 27 capítulos). Serie de humor al principio y mas dramática después, sobre mechas, muy buena sin duda.
+![Tengen toppa – gurren lagann](/blog/50-animes-para-ver-this-summer/images/tengen_toppa_gurren_lagann_d9ka4p.jpg)(serie anime de 27 capítulos). Serie de humor al principio y más dramática después, sobre mechas, muy buena, sin duda.
 [Más información](http://www.mcanime.net/enciclopedia/anime/gurren_lagann/6698) | [descargas](http://www.mcanime.net/descarga_directa/anime/gurren_lagann/6698)
 
 ### 2007. Higurashi no naku koro ni (ひぐらしのなく頃に解)
@@ -256,7 +256,7 @@ En la web de [McAnime](http://www.mcanime.net/enciclopedia) tienen un ranking de
 
 ### 2007. Claymore (クレイモア)
 
-![Claymore](/blog/50-animes-para-ver-this-summer/images/claymore_vqiml0.jpg)(serie de 26 capítulos). Una serie sobre caza de demonios por chicas mitad humana, mitad demonio. Muy, muy buena, pero le falla algún capítulo y el final que han puesto en el anime es de lo peor que he visto, de hecho el final no tiene nada que ver con el manga. Si quitamos el ultimo capítulo, la serie es más que recomendable.
+![Claymore](/blog/50-animes-para-ver-this-summer/images/claymore_vqiml0.jpg)(serie de 26 capítulos). Una serie sobre caza de demonios por chicas, mitad humana, mitad demonio. Muy, muy buena, pero le falla algún capítulo y el final que han puesto en el anime es de lo peor que he visto, de hecho el final no tiene nada que ver con el manga. Si quitamos el último capítulo, la serie es más que recomendable.
 [Más información](http://www.mcanime.net/enciclopedia/anime/claymore/7028) | [descargas](http://www.mcanime.net/descarga_directa/anime/claymore/7028)
 
 ### 2009. Suzumiya haruhi no yuutsu

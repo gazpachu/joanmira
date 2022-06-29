@@ -7,7 +7,7 @@ category: work
 lang: es
 ---
 
-He encontrado una herramienta de gran utilidad para los programadores web y que a mas de uno le puede interesar. Se llama FPDF y es gratis! Esta es una lista de sus principales características:
+He encontrado una herramienta de gran utilidad para los programadores web y que a más de uno le puede interesar. Se llama FPDF y ¡es gratis! Esta es una lista de sus principales características:
 
 - Elección de la unidad de medida, formato de página y márgenes
 - Gestión de cabeceras y pies de página

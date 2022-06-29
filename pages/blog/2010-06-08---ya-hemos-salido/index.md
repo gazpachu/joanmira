@@ -7,7 +7,7 @@ category: samurai-route
 lang: es
 ---
 
-Llevamos cuatro días en marcha pero hasta ahora no habíamos tenido tiempo de actualizar la página. Han transcurrido los días de forma bastante frenética, hemos hecho ya más de 2.000Km!
+Llevamos cuatro días en marcha, pero hasta ahora no habíamos tenido tiempo de actualizar la página. Han transcurrido los días de forma bastante frenética, ¡hemos hecho ya más de 2.000Km!
 
 Muchas gracias a todos los amigos y seguidores del proyecto, a los corianos, al ayuntamiento de Coria, a la asociación hispano-japonesa de Coria, a nuestros patrocinadores y a los medios de comunicación que se han interesado por este proyecto. Estamos muy contentos y con muchas fuerzas para seguir adelante.
 

@@ -9,7 +9,7 @@ lang: es
 
 Si a alguien le interesa la posibilidad de hacer backups de su cuenta de alojamiento web forma automática (con Cron jobs) y enviar el backup a otra cuenta de alojamiento web, entonces que siga leyendo…
 
-Copiar el siguiente codigo a un archivo llamado (por ejemplo) fullBackup.php, cambiar los valores de las variables y enviarlo a una carpeta en vuestra cuenta. Podeis ponerlo en public_html, aunque lo ideal sería hacerlo en una carpeta oculta. Depués, es necesario crear una tarea programada (cron job), especificando la dirección del archivo creado (ejemplo: /home/usuario/public_html/fullbackup.php) y el intervalo de ejecución del script.
+Copiar el siguiente código a un archivo llamado (por ejemplo) `fullBackup.php`, cambiar los valores de las variables y enviarlo a una carpeta en vuestra cuenta. Podéis ponerlo en `public_html`, aunque lo ideal sería hacerlo en una carpeta oculta. Depués, es necesario crear una tarea programada (cron job), especificando la dirección del archivo creado (ejemplo: `/home/usuario/public_html/fullbackup`.php) y el intervalo de ejecución del script.
 
 ```php
 // PHP script to allow periodic cPanel backups automatically.

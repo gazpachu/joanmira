@@ -7,7 +7,7 @@ category: literature
 lang: es
 ---
 
-Estoy terminando de leer este libro y me ha parecido buena idea recomendarlo para que lo leais. Es de fácil lectura y me ha dado inspiración para tomar algunas decisiones grandes y para empezar algunos proyectos.
+Estoy terminando de leer este libro y me ha parecido buena idea recomendarlo para que lo leáis. Es de fácil lectura y me ha inspiración para tomar algunas decisiones grandes y para empezar algunos proyectos.
 
 Esta es la historia de Julián Mantle, un prominente abogado que lo tenía todo en la vida (o al menos eso creía él). Pero, un día, tras un infarto que lo puso al borde de la muerte, Julián tomó la decisión de vender todas sus posesiones materiales e irse a la India en busca de iluminación.
 
@@ -15,4 +15,4 @@ Fue entonces cuando conoció a los Sabios de Sivana en una remota comunidad perd
 
 Esta amena historia constituye una fuente de sabiduría práctica y espiritual que puede ser aprovechada por cualquiera, y en especial, por gerentes y profesionales.
 
-[Aquí podeis descargar](http://manuamozarrain.googlepages.com/Elmonjequevendiosuferrari.pdf) un PDF con un resumen más amplio del libro.
+[Aquí podéis descargar](http://manuamozarrain.googlepages.com/Elmonjequevendiosuferrari.pdf) un PDF con un resumen más amplio del libro.

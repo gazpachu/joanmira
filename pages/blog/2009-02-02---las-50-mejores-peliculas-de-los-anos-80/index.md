@@ -8,9 +8,9 @@ lang: es
 shouldDisableAudio: true
 ---
 
-Condensadores de fluzo, starfighters, guerras en las galaxias, historias de replicantes, extraterrestres, arqueólogos aventureros, mostruos mocosos, aliens, robocops… durante los años 80, surgieron multitud de maravillosas películas que han marcado a toda una generación de niños que ahora son adultos y recuerdan con mucho cariño esas historias llenas de creatividad y aventuras.
+Condensadores de fluzo, starfighters, guerras en las galaxias, historias de replicantes, extraterrestres, arqueólogos aventureros, monstruos mocosos, aliens, robocops… durante los años 80, surgieron multitud de maravillosas películas que han marcado a toda una generación de niños que ahora son adultos y recuerdan con mucho cariño esas historias llenas de creatividad y aventuras.
 
-He montado un _ranking_ de las mejores películas de los años 80, **ordenadas de menor a mayor nota**, según una media de puntuación obtenida a partir de las bases de datos de [imdb](http://www.imdb.com/) y [rotten tomatoes](http://www.rottentomatoes.com/). Esta lista puede que esté un poco influenciada por el genero de ciencia ficción y seguramente me he olvidado de alguna película importante (ojalá que no muchas!)…, aún así espero que os guste ;-)
+He montado un _ranking_ de las mejores películas de los años 80, **ordenadas de menor a mayor nota**, según una media de puntuación obtenida a partir de las bases de datos de [imdb](http://www.imdb.com/) y [rotten tomatoes](http://www.rottentomatoes.com/). Esta lista puede que esté un poco influenciada por el género de ciencia ficción y seguramente me he olvidado de alguna película importante (ojalá que no muchas!), aun así espero que os guste ;-)
 
 ### 65. [Young Sherlock Holmes / El secreto de la pirámide](http://www.amazon.es/gp/product/B006RQD954/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B006RQD954&linkCode=as2&tag=gazpachu06-21) (1985)
 
@@ -32,7 +32,7 @@ En su improvisado laboratorio, unos muchachos utilizan un descubrimiento inesper
 
 [![flight-of-the-navigator](/blog/las-50-mejores-peliculas-de-los-anos-80/images/flight-of-the-navigator_pngdsp.jpg "flight-of-the-navigator")](http://www.amazon.es/gp/product/B008WUKVMW/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B008WUKVMW&linkCode=as2&tag=gazpachu06-21)
 
-En 1978, una oscura noche, el pequeño David, un niño de 12 años que juega cerca de su casa buscando a su hermano Jeff, se da un golpe y queda inconsciente. Ocho años, o apenas un instante después, David despierta, vuelve a su casa y se da cuenta de que su familia se ha mudado, y que él ha sido dado por desaparecido.. o por muerto. Más tarde David empieza a ser perseguido por la NASA, que dice que ha sido abducido.
+En 1978, una oscura noche, el pequeño David, un niño de 12 años que juega cerca de su casa buscando a su hermano Jeff, se da un golpe y queda inconsciente. Ocho años, o apenas un instante después, David despierta, vuelve a su casa y se da cuenta de que su familia se ha mudado, y que él ha sido dado por desaparecido.. o por muerto. Más tarde, David empieza a ser perseguido por la NASA, que dice que ha sido abducido.
 
 [Comprar ahora en Amazon](http://www.amazon.es/gp/product/B008WUKVMW/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B008WUKVMW&linkCode=as2&tag=gazpachu06-21) | [imdb](http://www.imdb.com/title/tt0091059/): 6,6 | [Rotten Tomatoes](http://www.rottentomatoes.com/m/flight_of_the_navigator/): 5,7 | **Media: 6,15**
 
@@ -44,7 +44,7 @@ Un hacker es dividido en moléculas y transportado a las entrañas de un ordenad
 
 [Comprar ahora en Amazon](http://www.amazon.es/gp/product/B004IP1JXK/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B004IP1JXK&linkCode=as2&tag=gazpachu06-21) | [imdb](http://www.imdb.com/title/tt0084827/): 6,5 | [Rotten Tomatoes](http://www.rottentomatoes.com/m/tron/): 6 | **Media: 6,25**
 
-### 61. [The Last Starfighter / Starfighter, la aventura comienz](http://www.amazon.es/gp/product/B0055KO9X4/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B0055KO9X4&linkCode=as2&tag=gazpachu06-21)a (1984)
+### 61. [The Last Starfighter / Starfighter, la aventura comienza](http://www.amazon.es/gp/product/B0055KO9X4/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B0055KO9X4&linkCode=as2&tag=gazpachu06-21)a (1984)
 
 [![the-last-starfighter_alex_rogan_gam](/blog/las-50-mejores-peliculas-de-los-anos-80/images/the-last-starfighter_alex_rogan_gam_fdv3ry.jpg "the-last-starfighter_alex_rogan_gam")](http://www.amazon.es/gp/product/B0055KO9X4/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B0055KO9X4&linkCode=as2&tag=gazpachu06-21)
 
@@ -64,7 +64,7 @@ Cuento medieval con brujas, enanos y poderes mágicos. En las mazmorras del cast
 
 [![the-mosquito-coast](/blog/las-50-mejores-peliculas-de-los-anos-80/images/the-mosquito-coast_zmnret.jpg "the-mosquito-coast")](http://www.amazon.es/gp/product/B008WUKV0E/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B008WUKV0E&linkCode=as2&tag=gazpachu06-21)
 
-Harrison Ford interpreta a un un inventor harto del consumismo en el que se ha convertido la sociedad moderna. Asqueado, el hombre decide alejarse con su familia de la civilización y emprender una nueva vida en plena jungla.
+Harrison Ford interpreta a un inventor harto del consumismo en el que se ha convertido la sociedad moderna. Asqueado, el hombre decide alejarse con su familia de la civilización y emprender una nueva vida en plena jungla.
 
 [Comprar ahora en Amazon](http://www.amazon.es/gp/product/B008WUKV0E/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B008WUKV0E&linkCode=as2&tag=gazpachu06-21) | [imdb](http://www.imdb.com/title/tt0091557/): 6,5 | [Rotten Tomatoes](http://www.rottentomatoes.com/m/mosquito_coast/): 6,4 | **Media: 6,45**
 
@@ -112,7 +112,7 @@ Aunque a Marty McFly todavía le falta tiempo para asimilar el hecho de estar vi
 
 [![the-goonies](/blog/las-50-mejores-peliculas-de-los-anos-80/images/the-goonies_eqwfqn.jpg "the-goonies")](http://www.amazon.es/gp/product/B003JN6SNI/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B003JN6SNI&linkCode=as2&tag=gazpachu06-21)
 
-Mikey es un muchacho de trece años que, junto con su hermano mayor y sus amigos, que se hacen llamar “Los Goonies”, deciden subir a jugar al desván de su casa, donde su padre guarda antigüedades. Allí encuentran el mapa de un tesoro perdido que data de los tiempos de los piratas… Simpática película de aventura para adolescentes, con historia de Steven Spielberg y guión de Chris Columbus.
+Mikey es un muchacho de trece años que, junto con su hermano mayor y sus amigos, que se hacen llamar “Los Goonies”, deciden subir a jugar al desván de su casa, donde su padre guarda antigüedades. Allí encuentran el mapa de un tesoro perdido que data de los tiempos de los piratas… Simpática película de aventura para adolescentes, con historia de Steven Spielberg y guion de Chris Columbus.
 
 [Comprar ahora en Amazon](http://www.amazon.es/gp/product/B003JN6SNI/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B003JN6SNI&linkCode=as2&tag=gazpachu06-21) | [imdb](http://www.imdb.com/title/tt0089218/): 7,4 | [Rotten Tomatoes](http://www.rottentomatoes.com/m/goonies/): 5,9 | **Media: 6,65**
 
@@ -128,7 +128,7 @@ Es el vigésimo primer cumpleaños del príncipe Akeem, del reino africano de Za
 
 [![karate-kid](/blog/las-50-mejores-peliculas-de-los-anos-80/images/karate-kid_yqbmu9.jpg "karate-kid")](http://www.amazon.es/gp/product/B00127195A/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B00127195A&linkCode=as2&tag=gazpachu06-21)
 
-Daniel Larusso llega a Los Ángeles procedente de la costa Este de Estados Unidos y tiene por delante la difícil tarea de hacer nuevos amigos. Sin embargo, se convierte en el blanco de los ataques de los Cobras, un hostil grupo de estudiantes de kárate, cuando comienza a salir con Ali, la antigua novia del cabecilla del grupo. Daniel pide ayuda a Miyagi, un maestro de artes marciales, para que le enseñe kárate. Bajo la tutela de Miyagi, Daniel desarrolla no sólo sus aptitudes físicas, sino también la seguridad en sí mismo que necesita para sobreponerse a todos los obstáculos.
+Daniel Larusso llega a Los Ángeles procedente de la costa Este de Estados Unidos y tiene por delante la difícil tarea de hacer nuevos amigos. Sin embargo, se convierte en el blanco de los ataques de los Cobras, un hostil grupo de estudiantes de kárate, cuando comienza a salir con Ali, la antigua novia del cabecilla del grupo. Daniel pide ayuda a Miyagi, un maestro de artes marciales, para que le enseñe kárate. Bajo la tutela de Miyagi, Daniel desarrolla no solo sus aptitudes físicas, sino también la seguridad en sí mismo que necesita para sobreponerse a todos los obstáculos.
 
 [Comprar ahora en Amazon](http://www.amazon.es/gp/product/B00127195A/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B00127195A&linkCode=as2&tag=gazpachu06-21) | [imdb](http://www.imdb.com/title/tt0087538/): 6,8 | [Rotten Tomatoes](http://www.rottentomatoes.com/m/karate_kid/): 6,8 | **Media: 6,8**
 
@@ -160,7 +160,7 @@ Siglo XIV. Todo comienza una hermosa mañana de finales de noviembre del año de
 
 [![batman](/blog/las-50-mejores-peliculas-de-los-anos-80/images/batman_walloi.jpg "batman")](http://www.amazon.es/gp/product/B001CP4VMU/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B001CP4VMU&linkCode=as2&tag=gazpachu06-21)
 
-Taquillera cinta basada en el héroe de comic. La oscura y peligrosa ciudad de Gotham tan sólo se halla protegida por su corrupto cuerpo de policía. A pesar de los esfuerzos del fiscal del distrito Harvey Dent y el comisionado de policía Jim Gordon, la ciudad es cada vez más insegura… hasta que se alza el Señor de la Noche, Batman. La reputada jornalista Vicky Vale intentará descubrir el secreto que se oculta tras la capa del hombre murciélago.
+Taquillera cinta basada en el héroe de comic. La oscura y peligrosa ciudad de Gotham tan solo se halla protegida por su corrupto cuerpo de policía. A pesar de los esfuerzos del fiscal del distrito Harvey Dent y el comisionado de policía Jim Gordon, la ciudad es cada vez más insegura… hasta que se alza el Señor de la Noche, Batman. La reputada periodista Vicky Vale intentará descubrir el secreto que se oculta tras la capa del hombre murciélago.
 
 [Comprar ahora en Amazon](http://www.amazon.es/gp/product/B001CP4VMU/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B001CP4VMU&linkCode=as2&tag=gazpachu06-21) | [imdb](http://www.imdb.com/title/tt0096895/): 7,6 | [Rotten Tomatoes](http://www.rottentomatoes.com/m/1001781-batman/): 6,5 | **Media: 7,05**
 
@@ -208,7 +208,7 @@ James Graham es un niño británico de clase alta cuya vida privilegiada toca a 
 
 [![wargames](/blog/las-50-mejores-peliculas-de-los-anos-80/images/wargames_l5sdkr.jpg "wargames")](http://www.amazon.es/gp/product/B0055KLYQY/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B0055KLYQY&linkCode=as2&tag=gazpachu06-21)
 
-David es un joven conocedor de todo lo referente a la informática: se salta los más avanzados sistemas de seguridad, consigue los más sofisticados códigos secretos y entiende la informática como un juego. Pero el juego se complica cuando inconscientemente conecta su ordenador personal al del Departamento de Defensa americano, encargado del sistema de defensa nuclear, desencadenando una situación de peligro de proporciones incontrolables. Ayudado por su novia y por un “genio” de los ordenadores tendrá que luchar contra el tiempo y evitar el mayor conflicto mundial de todos los tiempos: la Tercera Guerra Mundial.
+David es un joven conocedor de todo lo referente a la informática: se salta los más avanzados sistemas de seguridad, consigue los más sofisticados códigos secretos y entiende la informática como un juego. Pero el juego se complica cuando inconscientemente conecta su ordenador personal al del Departamento de Defensa americano, encargado del sistema de defensa nuclear, desencadenando una situación de peligro de proporciones incontrolables. Ayudado por su novia y por un “genio” de los ordenadores, tendrá que luchar contra el tiempo y evitar el mayor conflicto mundial de todos los tiempos: la Tercera Guerra Mundial.
 
 [Comprar ahora en Amazon](http://www.amazon.es/gp/product/B0055KLYQY/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B0055KLYQY&linkCode=as2&tag=gazpachu06-21) | [imdb](http://www.imdb.com/title/tt0086567/): 7 | [Rotten Tomatoes](http://www.rottentomatoes.com/m/wargames/): 7,4 | **Media: 7,2**
 
@@ -224,7 +224,7 @@ La tripulación civil de una instalación petrolífera es contratada por la mari
 
 [![temple-of-doom](/blog/las-50-mejores-peliculas-de-los-anos-80/images/temple-of-doom_whjl6a.jpg "temple-of-doom")](http://www.amazon.es/gp/product/B0053CA028/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B0053CA028&linkCode=as2&tag=gazpachu06-21)
 
-Año 1935. Shanghai. El intrépido arqueólo Indiana Jones, tras meterse en jaleos en un local nocturno, consigue escapar, junto a una bella cantante, en compañía de su joven acompañante, un chico oriental con el que siempre está discutiendo. Tras un accidentado vuelo, los tres acaban en la India, donde intentarán ayudar a los habitantes de un pequeño poblado, cuyos niños han sido raptados.
+Año 1935. Shanghai. El intrépido arqueólogo Indiana Jones, tras meterse en jaleos en un local nocturno, consigue escapar, junto a una bella cantante, en compañía de su joven acompañante, un chico oriental con el que siempre está discutiendo. Tras un accidentado vuelo, los tres acaban en la India, donde intentarán ayudar a los habitantes de un pequeño poblado, cuyos niños han sido raptados.
 
 [Comprar ahora en Amazon](http://www.amazon.es/gp/product/B0053CA028/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B0053CA028&linkCode=as2&tag=gazpachu06-21) | [imdb](http://www.imdb.com/title/tt0087469/): 7,4 | [Rotten Tomatoes](http://www.rottentomatoes.com/m/indiana_jones_and_the_temple_of_doom/): 7,2 | **Media: 7,3**
 
@@ -240,7 +240,7 @@ Luke Skywalker y la princesa Leia deben viajar a Tatooine para liberar a Han Sol
 
 [![arma-letal](/blog/las-50-mejores-peliculas-de-los-anos-80/images/arma-letal_kux2hv.jpg "arma-letal")](http://www.amazon.es/gp/product/B0053C8A48/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B0053C8A48&linkCode=as2&tag=gazpachu06-21)
 
-Martin Riggs es un policía de Los Angeles con tendencias suicidas. Roger Murtaugh es un maduro y responsable policía, padre de familia, que ha sido asignado junto a Riggs. Juntos intentarán desmantelar una operación de contrabando de droga al tiempo que, a pesar de sus diferentes caracteres, se harán buenos amigos.
+Martin Riggs es un policía de Los Ángeles con tendencias suicidas. Roger Murtaugh es un maduro y responsable policía, padre de familia, que ha sido asignado junto a Riggs. Juntos intentarán desmantelar una operación de contrabando de droga al tiempo que, a pesar de sus diferentes caracteres, se harán buenos amigos.
 
 [Comprar ahora en Amazon](http://www.amazon.es/gp/product/B0053C8A48/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B0053C8A48&linkCode=as2&tag=gazpachu06-21) | [imdb](http://www.imdb.com/title/tt0093409/): 7,6 | [Rotten Tomatoes](http://www.rottentomatoes.com/m/lethal_weapon/): 7,3 | **Media: 7,45**
 
@@ -272,7 +272,7 @@ Año 2019. Neo-Tokyo, una ciudad construida sobre la antigua capital japonesa de
 
 [![la-cosa](/blog/las-50-mejores-peliculas-de-los-anos-80/images/la-cosa_mqck1l.jpg "la-cosa")](http://www.amazon.es/gp/product/B00750FPN0/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B00750FPN0&linkCode=as2&tag=gazpachu06-21)
 
-En una estación experimental de la Antártida, un equipo de investigadores descubre a un ente extraño venido del espacio, que ha permanecido enterrado en la nieve durante más de 100.000 años. Al descongelarse el ser….. se provoca el caos y el terror al mudar de forma y convertirse en uno de los investigadores.
+En una estación experimental de la Antártida, un equipo de investigadores descubre a un ente extraño venido del espacio, que ha permanecido enterrado en la nieve durante más de 100.000 años. Al descongelarse el ser... Se provoca el caos y el terror al mudar de forma y convertirse en uno de los investigadores.
 
 [Comprar ahora en Amazon](http://www.amazon.es/gp/product/B00750FPN0/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B00750FPN0&linkCode=as2&tag=gazpachu06-21) | [imdb](http://www.imdb.com/title/tt0084787/): 8,1 | [Rotten Tomatoes](http://www.rottentomatoes.com/m/1021244-thing/): 7 | **Media: 7,55**
 
@@ -280,7 +280,7 @@ En una estación experimental de la Antártida, un equipo de investigadores desc
 
 [![robocop](/blog/las-50-mejores-peliculas-de-los-anos-80/images/robocop_btikrq.jpg "robocop")](http://rcm-eu.amazon-adsystem.com/e/cm?t=gazpachu06-21&o=30&p=8&l=as1&asins=B0053CB5SG&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=000000&bg1=FFFFFF&f=ifr)
 
-En un futuro no muy lejano, Alex J. Murphy, agente de policía de Detroit, es asesinado en acto de servicio. Con el fin de frenar la delincuencia en la ciudad, las autoridades aprueban la creación de una máquina letal mitad robot, mitad hombre, a la que llaman Robocop. Para su fabricación, utilizan el cuerpo de Murphy. El experimento parece un éxito, pero la memoria del policía no está del todo destruida e inicia una cruel venganza de los tipos que lo asesinaron.
+En un futuro no muy lejano, Alex J. Murphy, agente de policía de Detroit, es asesinado en acto de servicio. Con el fin de frenar la delincuencia en la ciudad, las autoridades aprueban la creación de una máquina letal, mitad robot, mitad hombre, a la que llaman Robocop. Para su fabricación, utilizan el cuerpo de Murphy. El experimento parece un éxito, pero la memoria del policía no está del todo destruida e inicia una cruel venganza de los tipos que lo asesinaron.
 
 [Comprar ahora en Amazon](http://rcm-eu.amazon-adsystem.com/e/cm?t=gazpachu06-21&o=30&p=8&l=as1&asins=B0053CB5SG&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=000000&bg1=FFFFFF&f=ifr) | [imdb](http://www.imdb.com/title/tt0093870/): 7,5 | [Rotten Tomatoes](http://www.rottentomatoes.com/m/robocop/): 7,7 | **Media: 7,6**
 
@@ -416,7 +416,7 @@ En un extraño y deprimente universo futurista donde reinan las máquinas, una m
 
 [![die-hard](/blog/las-50-mejores-peliculas-de-los-anos-80/images/die-hard_g8yun7.jpg "die-hard")](http://www.amazon.es/gp/product/B0053C8HBY/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B0053C8HBY&linkCode=as2&tag=gazpachu06-21)
 
-En lo alto de la ciudad de Los Ángeles un grupo armado terrorista se ha apoderado de un edificio tomando a un grupo de personas como rehenes. Sólo un hombre, el policía John McClane (Bruce Willis), ha conseguido escapar del acoso terrorista. Está solo, pero mantendrá una lucha feroz y agotadora contra los secuestradores. Es la única esperanza para los rehenes…
+En lo alto de la ciudad de Los Ángeles un grupo armado terrorista se ha apoderado de un edificio tomando a un grupo de personas como rehenes. Solo un hombre, el policía John McClane (Bruce Willis), ha conseguido escapar del acoso terrorista. Está solo, pero mantendrá una lucha feroz y agotadora contra los secuestradores. Es la única esperanza para los rehenes…
 
 [Comprar ahora en Amazon](http://www.amazon.es/gp/product/B0053C8HBY/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B0053C8HBY&linkCode=as2&tag=gazpachu06-21) | [imdb](http://www.imdb.com/title/tt0095016/): 8,3 | [Rotten Tomatoes](http://www.rottentomatoes.com/m/die_hard/): 8,2 | **Media: 8,25**
 
