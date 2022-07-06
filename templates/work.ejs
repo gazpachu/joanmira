@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="<%= frontmatter.lang %>">
+<html lang="<%= lang %>">
   <head>
     <%- include('head'); %>
     <style>
@@ -159,13 +159,13 @@
           <%- content %>
         </div>
         <div id="filters">
-          <button id="all-filter" data-category="all">All</button>
-          <button data-category="web" class="secondary">Website</button>
-          <button data-category="web-app" class="secondary">Web App</button>
-          <button data-category="mobile" class="secondary">Mobile App</button>
-          <button data-category="desktop" class="secondary">Desktop App</button>
-          <button data-category="creative-tech" class="secondary">Creative Tech</button>
-          <button data-category="open-source" class="secondary">Open Source</button>
+          <button id="all-filter" data-category="all"><%= translations.work_categories.all %></button>
+          <button data-category="web" class="secondary"><%= translations.work_categories.web %></button>
+          <button data-category="web-app" class="secondary"><%= translations.work_categories.web_app %></button>
+          <button data-category="mobile" class="secondary"><%= translations.work_categories.mobile %></button>
+          <button data-category="desktop" class="secondary"><%= translations.work_categories.desktop %></button>
+          <button data-category="creative-tech" class="secondary"><%= translations.work_categories.creative_tech %></button>
+          <button data-category="open-source" class="secondary"><%= translations.work_categories.open_source %></button>
         </div>
       </div>
       <ul id="listing-content">
@@ -195,7 +195,7 @@
           }
         };
 
-        allFilterButton.innerHTML = `All (${listingContentElement.length})`;
+        allFilterButton.innerHTML = `<%= translations.work_categories.all %> (${listingContentElement.length})`;
         filterButtons.forEach(item => item.addEventListener('click', filterProjects));
       }
     </script>

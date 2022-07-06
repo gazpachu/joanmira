@@ -113,6 +113,8 @@
 }
 
 #header .controls .header-button {
+  color: black;
+  display: flex;
   padding: 0;
   border-width: 0;
   opacity: 0.8;
@@ -130,6 +132,7 @@
   cursor: pointer;
 }
 
+#header .controls .search-button,
 #header .controls .theme-toggle,
 #header .controls .github-button {
   margin-left: 20px;

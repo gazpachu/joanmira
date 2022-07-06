@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const el = document.querySelector('.logo-wording');
   let i = 0;
   const txt1 = 'JOAN MIRA';
-  const txt2 = 'STUDIO';
+  const txt2 = html.getAttribute('lang') === 'es' ? 'ESTUDIO' : 'STUDIO';
   let currentText = txt1;
   const speed = 200;
   const delay = 3000;

@@ -1,0 +1,4 @@
+---
+title: Buscar
+template: "search"
+---

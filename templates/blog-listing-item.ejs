@@ -18,7 +18,7 @@
       </p>
       <div class="meta secondary">
         <a href="/<%= item.listingSlug %>/category/<%= item.frontmatter.category %>">
-          <%= item.frontmatter.category.replace('-', ' ') %>
+          <%= translations.categories[item.frontmatter.category.replace('-', '_')] %>
         </a> • <%= item.formattedDate %>
       </div>
     </div>
