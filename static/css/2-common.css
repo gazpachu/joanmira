@@ -114,31 +114,31 @@ blockquote p {
   align-items: self-end;
 }
 
-#modal-consent article {
+dialog article {
   margin: 0;
 }
 
-#modal-consent header,
-#modal-consent footer {
+dialog header,
+dialog footer {
   padding-top: 12px;
   padding-bottom: 12px;
 }
 
-#modal-consent header {
+dialog header {
   margin-bottom: 8px;
 }
 
-#modal-consent footer {
+dialog footer {
   margin-top: 8px;
 }
 
-#modal-consent button {
+dialog button {
   width: auto;
   display: inline-block;
   margin-bottom: 0;
 }
 
-#modal-lang {
+#lang-detection {
   display: none;
   width: 100%;
   font-size: 16px;
@@ -149,21 +149,21 @@ blockquote p {
   background-color: rgba(0, 0, 0, 0.08);
 }
 
-[data-theme="dark"] #modal-lang {
+[data-theme="dark"] #lang-detection {
   color: white;
   background-color: rgba(255, 255, 255, 0.08);
 }
 
-.modal-lang-buttons {
+.lang-detection-buttons {
   display: flex;
   align-items: center;
   margin-left: 16px;
 }
 
-.modal-lang-buttons a {
+.lang-detection-buttons a {
   margin-right: 4px;
 }
 
-.modal-lang-buttons button {
+.lang-detection-buttons button {
   margin: 0;
 }

@@ -18,7 +18,7 @@ function initDataCapture() {
 
 document.addEventListener("DOMContentLoaded", function() {
   const html = document.querySelector('html');
-  const modalLang = document.getElementById('modal-lang');
+  const langDetection = document.getElementById('lang-detection');
   const themeToggleButton = document.querySelector('.theme-toggle');
   const savedTheme = localStorage.getItem(themeKey);
   const langClicked = localStorage.getItem(langClickedKey);
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
   if (!langClicked && match && (match.includes('es') && html.getAttribute('lang') === 'en') ||
     (match.includes('en') && html.getAttribute('lang') === 'es')) {
-    modalLang.style.display = 'flex';
+      langDetection.style.display = 'flex';
   }
 
   function utterancesTheme() {

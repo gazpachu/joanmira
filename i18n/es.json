@@ -2,7 +2,11 @@
   "site_name": "Estudio Joan Mira",
   "site_description": "Ingeniería de Software y Diseño UI/UX moderno",
   "date_format": "es-ES",
-  "change_lang": "Change to English?",
+  "lang": {
+    "modal_title": "Idiomas",
+    "change_title": "Change to English?",
+    "yes": "Si"
+  },
   "nav": {
     "blog": "Blog",
     "about": "Estudio",

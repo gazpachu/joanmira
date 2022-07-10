@@ -112,3 +112,13 @@
     </footer>
   </article>
 </dialog>
+<dialog id="modal-lang">
+  <article>
+    <header><%= translations.lang.modal_title %></header>
+    <p><%= translations.lang.change_title %></p>
+    <footer>
+      <a href="<%= alternateUrl %>" role="button"><%= translations.lang.yes %></a>
+      <button class="secondary" data-target="modal-lang" onClick="toggleModal(event);"">No</button>
+    </footer>
+  </article>
+</dialog>

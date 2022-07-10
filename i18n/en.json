@@ -2,7 +2,11 @@
   "site_name": "Joan Mira Studio",
   "site_description": "Modern Software Engineering & UI/UX Design",
   "date_format": "en-GB",
-  "change_lang": "¿Cambiar a Español?",
+  "lang": {
+    "modal_title": "Languages",
+    "change_title": "¿Cambiar a Español?",
+    "yes": "Yes"
+  },
   "nav": {
     "blog": "Blog",
     "about": "About",
