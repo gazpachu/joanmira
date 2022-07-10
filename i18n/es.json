@@ -2,6 +2,7 @@
   "site_name": "Estudio Joan Mira",
   "site_description": "Ingeniería de Software y Diseño UI/UX moderno",
   "date_format": "es-ES",
+  "change_lang": "Change to English?",
   "nav": {
     "blog": "Blog",
     "about": "Estudio",
@@ -42,6 +43,7 @@
   "homepage": {
     "title": "Ingeniería de Software y Diseño UI/UX",
     "watch_video": "Ver el vídeo de presentación",
+    "coming_soon": "Próximamente...",
     "contact": "Contactar\no conectar",
     "latest": "Último proyecto",
     "latest_project": "TableCheck Diner App (Tokio, Japón)",

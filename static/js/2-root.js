@@ -1,4 +1,6 @@
+const themeKey = 'theme';
 const consentKey = 'dataCaptureConsent';
+const langClickedKey = 'lang';
 
 function setConsentModalState(state) {
   const modalConsent = document.getElementById('modal-consent');
@@ -16,9 +18,20 @@ function initDataCapture() {
 
 document.addEventListener("DOMContentLoaded", function() {
   const html = document.querySelector('html');
+  const modalLang = document.getElementById('modal-lang');
   const themeToggleButton = document.querySelector('.theme-toggle');
-  const savedTheme = localStorage.getItem('theme');
+  const savedTheme = localStorage.getItem(themeKey);
+  const langClicked = localStorage.getItem(langClickedKey);
   const hasConsent = localStorage.getItem(consentKey);
+  const match = navigator.languages.find(lang => {
+    if (lang.toLowerCase().includes('es')) {
+      return true;
+    }
+  });
+  if (!langClicked && match && (match.includes('es') && html.getAttribute('lang') === 'en') ||
+    (match.includes('en') && html.getAttribute('lang') === 'es')) {
+    modalLang.style.display = 'flex';
+  }
 
   function utterancesTheme() {
     if (document.querySelector('.utterances-frame')) {
@@ -37,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function() {
   } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
     html.setAttribute('data-theme', 'dark');
     if (hasConsent) {
-      localStorage.setItem('theme', 'dark');
+      localStorage.setItem(themeKey, 'dark');
     }
   }
 
@@ -53,12 +66,12 @@ document.addEventListener("DOMContentLoaded", function() {
     if (event.matches) {
       html.setAttribute('data-theme', 'dark');
       if (hasConsent) {
-        localStorage.setItem('theme', 'dark');
+        localStorage.setItem(themeKey, 'dark');
       }
     } else {
       html.setAttribute('data-theme', 'light');
       if (hasConsent) {
-        localStorage.setItem('theme', 'light');
+        localStorage.setItem(themeKey, 'light');
       }
     }
     utterancesTheme();
@@ -68,12 +81,12 @@ document.addEventListener("DOMContentLoaded", function() {
     if (html.getAttribute('data-theme') === 'dark') {
       html.setAttribute('data-theme', 'light');
       if (hasConsent) {
-        localStorage.setItem('theme', 'light');
+        localStorage.setItem(themeKey, 'light');
       }
     } else {
       html.setAttribute('data-theme', 'dark');
       if (hasConsent) {
-        localStorage.setItem('theme', 'dark');
+        localStorage.setItem(themeKey, 'dark');
       }
     }
     utterancesTheme();

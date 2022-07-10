@@ -5,8 +5,8 @@ template: about
 
 <div>
   <div class="slide">
-    <p>The studio was founded in 2006. It initially developed its business activity as a small interactive design agency under the brand <a href="https://webmarket.es">Webmarket.es</a>. It was active until 2012. As of 2022, the studio was operational again, this time under the current brand and offering software engineering and UI UX design services. In both cases, the studio has been located in Alicante, Spain, although some of its clients, projects and collaborators are based in America, Europe and Asia.</p>
-    <p>Currently, the studio only represents the work, artistic and personal activities of Joan Mira. For more information, you can consult the <a href="/cv">curriculum</a>, <a href="/goals">life goals</a>, the motorcycle adventura called <a href="/samurai-route/">The Samurai Route</a>, or profiles at <a href="http://linkedin.com/in/joanmira">LinkedIn</a>, <a href="https://twitter.com/gazpachu/">Twitter</a> or <a href="https://github.com/gazpachu">Github</a>.</p>
+    <p>The studio was founded in 2006. It initially developed its business activity as a small interactive design agency under the Webmarket brand. It was active until 2012. As of 2022, the studio was operational again, this time under the current brand and offering software engineering and UI UX design services. In both cases, the studio has been located in Alicante, Spain, although some of its clients, projects and collaborators are based in America, Europe and Asia.</p>
+    <p>Currently, the studio only represents the work, artistic and personal activities of Joan Mira. For more information, you can consult his <a href="/cv">curriculum</a>, <a href="/goals">life goals</a>, the motorcycle adventura called <a href="/samurai-route/">The Samurai Route</a>, or profiles at <a href="http://linkedin.com/in/joanmira">LinkedIn</a>, <a href="https://twitter.com/gazpachu/">Twitter</a> or <a href="https://github.com/gazpachu">Github</a>.</p>
   </div>
 
   <div class="slide">

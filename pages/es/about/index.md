@@ -5,8 +5,8 @@ template: about
 
 <div>
   <div class="slide">
-    <p>El estudio fue fundado en el año 2006. Inicialmente desarrolló su actividad empresarial como una pequeña agencia de diseño interactivo bajo la marca <a href="https://webmarket.es">Webmarket.es</a>. Estuvo en activo hasta el año 2012. A partir del año 2022, el estudio volvió a estar operativo, esta vez bajo la marca actual y ofreciendo servicios de ingeniería de software y diseño UI UX. En ambos casos, el estudio ha estado localizado en Alicante, España, aunque algunos de sus clientes, proyectos y colaborades son de América, Europa y Asia.</p>
-    <p>Actualmente, el estudio representa únicamente la actividad laboral, artística y personal de Joan Mira. Para más información, se puede consultar el <a href="/es/cv">curriculum</a>, <a href="/es/goals">objetivos vitales</a>, la aventura en moto llamada la <a href="/samurai-route/">Ruta del Samurái</a>, o perfiles en <a href="http://linkedin.com/in/joanmira">LinkedIn</a>, <a href="https://twitter.com/gazpachu/">Twitter</a> o <a href="https://github.com/gazpachu">Github</a>.</p>
+    <p>El estudio fue fundado en el año 2006. Inicialmente desarrolló su actividad empresarial como una pequeña agencia de diseño interactivo bajo la marca Webmarket. Estuvo en activo hasta el año 2012. A partir del año 2022, el estudio volvió a estar operativo, esta vez bajo la marca actual y ofreciendo servicios de ingeniería de software y diseño UI UX. En ambos casos, el estudio ha estado localizado en Alicante, España, aunque algunos de sus clientes, proyectos y colaborades son de América, Europa y Asia.</p>
+    <p>Actualmente, el estudio representa únicamente la actividad laboral, artística y personal de Joan Mira. Para más información, se puede consultar su <a href="/es/cv">curriculum</a>, <a href="/es/goals">objetivos vitales</a>, la aventura en moto llamada la <a href="/samurai-route/">Ruta del Samurái</a>, o perfiles en <a href="http://linkedin.com/in/joanmira">LinkedIn</a>, <a href="https://twitter.com/gazpachu/">Twitter</a> o <a href="https://github.com/gazpachu">Github</a>.</p>
   </div>
 
   <div class="slide">

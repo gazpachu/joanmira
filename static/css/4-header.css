@@ -113,23 +113,24 @@
 }
 
 #header .controls .header-button {
+  position: relative;
   color: black;
   display: flex;
   padding: 0;
   border-width: 0;
-  opacity: 0.8;
   text-decoration: none;
+  cursor: pointer;
 }
 
 #header .controls .header-button svg {
   fill: black;
   width: 16px;
   height: 16px;
+  opacity: 0.8;
 }
 
-#header .controls .header-button:hover {
+#header .controls .header-button:hover svg {
   opacity: 1;
-  cursor: pointer;
 }
 
 #header .controls .search-button,

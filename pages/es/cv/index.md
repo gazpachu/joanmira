@@ -3,8 +3,17 @@ title: Curriculum Vitae
 ---
 
 <style>
-  .main-wrapper {
-    max-width: 800px;
+  h1 {
+    border-bottom: 1px solid var(--form-element-border-color);
+  }
+  @media screen and (max-width: 650px) {
+    .post .body {
+      padding: 0;
+    }
+  }
+  .post h2 {
+    font-size: 20px;
+    margin-bottom: 40px;
   }
   p img {
     margin: 0 auto;
@@ -14,14 +23,31 @@ title: Curriculum Vitae
     margin-right: 5px;
     display: inline-block;
   }
-  .red-tag { background-color: #C76D72; }
-  .gold-tag { background-color: #C19F92; }
-  .blue-tag { background-color: #5C93AB; }
+  .post .sidebar {
+    margin: 0;
+  }
+  .post .sidebar a {
+    text-decoration: none;
+  }
 </style>
+<div class="post">
 
-Última actualización en Marzo de 2022
+## Última actualización en Marzo de 2022
 
-## Sumario
+<div class="body">
+<div class="sidebar">
+
+  - [Sumario](#sumario)
+  - [Logros destacados](#logros-destacados)
+  - [Habilidades principales](#habilidades-principales)
+  - [Experiencia laboral](#experiencia-laboral)
+  - [Educación](#educación)
+  - [Educación adicional](#educación-adicional)
+  - [Reconocimientos](#reconocimientos)  
+</div>
+<div class="article">
+
+### Sumario
 
 Manager de ingeniería front-end y programador **creativo** con una habilidad especial para crear **aplicaciones centradas en el usuario**, **sitios web usables** y trabajos interactivos. Amplia experiencia en la industria. Desde multinacionales como [British Telecom](https://www.bt.com/), [Vodafone](https://www.vodafone.com/), [Unilever](https://www.unilever.com/ ), [Royal Opera House](https://www.roh.org.uk/), [Barclays](https://www.barclays.com/), [Santander](https://www.santander.co.uk/) y [M&S](https://www.marksandspencer.com/) hasta nuevas empresas tecnológicas como [TableCheck](http://www.tablecheck.com/en/join/).
 
@@ -39,12 +65,12 @@ Manager de ingeniería front-end y programador **creativo** con una habilidad es
 * Habla español, [valenciano](https://es.wikipedia.org/wiki/Idioma_valenciano) e inglés. Aprendiendo japonés
 * Viajó en una [aventura en moto autoorganizada](/samurai-route) por todo el mundo, desde España hasta Japón (5 meses y 30.000 km)
 
-## Habilidades principales
+### Habilidades principales
 
-- UI/UX y programación rápida de prototipos
+- Diseño UI/UX y programación rápida de prototipos
 - TypeScript, React y CSS-in-JS
 - Aplicaciones centradas en el usuario y accesibilidad
-- Diseño de sistemas y documentación
+- Sistemas de diseño y documentación
 - Creatividad y pensamiento analítico
 - Gestión de proyectos y personas
 
@@ -52,7 +78,7 @@ Sus intereses y habilidades están más alineadas con los **trabajos creativos**
 
 Actualmente, [ReactJS](https://facebook.github.io/react) y NodeJS son sus entornos de trabajo preferidos, pero también le gustaría obtener más experiencia con [Svelte](https://svelte.dev/), [WebGL](https://gist.github.com/dmnsgn/76878ba6903cf15789b712464875cfdc) y [WebVR](https://medium.freecodecamp.org/how-to-build-a-multiplayer-vr-web-app-7b989964fb38).
 
-**Front-end**
+#### Front-end
 
 Estas son algunas tecnologías y herramientas que ha usado en los últimos años:
 
@@ -71,7 +97,7 @@ Estas son algunas tecnologías y herramientas que ha usado en los últimos años
 * Timepo real: [Socket.io](https://socket.io/), [SignalMaster](https://github.com/andyet/signalmaster), [SimpleWebRTC](https://github.com/andyet/SimpleWebRTC)
 * Móvil: [Cordova](https://cordova.apache.org/), [Fastlane](https://fastlane.tools/), [React Native](https://reactnative.dev/)
 
-**Back-end**
+#### Back-end
 
 * JavaScript: [Node.js](https://nodejs.org/) [Express.js](http://expressjs.com/), [Sails.js](http://sailsjs.org/), [Meteor](https://www.meteor.com/), 
 * PHP: [Zend Framework](http://framework.zend.com/), [Laravel](https://laravel.com/)
@@ -80,7 +106,7 @@ Estas son algunas tecnologías y herramientas que ha usado en los últimos años
 * DB: [MongoDB](https://www.mongodb.org/), [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL), [SQLite](https://en.wikipedia.org/wiki/SQLite), [MySQL](https://www.mysql.com/),
 * ORM: [Prisma](https://www.prisma.io/), [Doctrine](http://www.doctrine-project.org/), [Waterline](https://github.com/balderdashy/waterline)
 
-**Ingeniería de Software**
+#### Ingeniería de Software
 
 * Principios: [PWA](https://developers.google.com/web/progressive-web-apps/), [ITCSS](https://speakerdeck.com/dafed/managing-css-projects-with-itcss), [BEM](https://en.bem.info/), [Diseño web adaptable](https://es.wikipedia.org/wiki/Dise%C3%B1o_web_adaptable), [HTML semántico](https://es.wikipedia.org/wiki/HTML_sem%C3%A1ntico), [SEO](https://es.wikipedia.org/wiki/Posicionamiento_en_buscadores), [Accesibilidad web](https://es.wikipedia.org/wiki/Accesibilidad_web), [Patrones de diseño comunes](https://dev.to/gelopfalcon/los-7-patrones-de-diseno-de-software-mas-importantes-28l2), [MVC](https://es.wikipedia.org/wiki/Modelo%E2%80%93vista%E2%80%93controlador), [domain driven design](https://es.wikipedia.org/wiki/Dise%C3%B1o_guiado_por_el_dominio), [REST](https://es.wikipedia.org/wiki/Transferencia_de_Estado_Representacional), [JSON API](https://jsonapi.org/)
 * Stacks: [MEAN stack](http://mean.io/#!/), [LAMP stack](https://en.wikipedia.org/wiki/LAMP_(software_bundle))
@@ -94,32 +120,32 @@ Estas son algunas tecnologías y herramientas que ha usado en los últimos años
 * SEO y rendimiento: [Webmaster Tools](https://www.google.com/webmasters/tools/home), [Analytics](http://www.google.com/analytics/), [GTMetrix](https://gtmetrix.com/), [Lighthouse](https://developers.google.com/web/tools/lighthouse/), [Varnish](https://www.varnish-cache.org/), [Memcached](http://memcached.org/)
 * Arquitectura: análisis de proyectos, división de tareas, documentación, prototipos, estimaciones de tiempo
 
-**Diseño**
+#### Diseño
 
 * UX: arquitectura de la información, mapas de sitio, bocetos, storyboards, personas, sesiones de testeo con usuarios, prototipos clicables
 * Software: [Figma](figma.com), [Photopea](https://www.photopea.com/), [Invision](https://www.invisionapp.com), [Sketch](http://bohemiancoding.com/sketch/), [Zeplin](https://zeplin.io/), [Adobe CC](https://www.adobe.com/creativecloud.html) (Photoshop, Illustrator, Premiere, After Effects, XD, Audition), [3dS Max](http://www.autodesk.es/products/3ds-max/overview)
 
-**Administración de sistemas**
+#### Administración de sistemas
 
 * Sistema operativo principal: [MacOS](https://www.apple.com/macos), secundario: Windows y [Ubuntu](http://ubuntu.com)/[CentOS](http://centos.org)
 * Redes: [HTTP](https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto), [Apache](http://www.apache.org/), [Nginx](http://nginx.org/), [SSH](https://es.wikipedia.org/wiki/Secure_Shell), [DNS](https://es.wikipedia.org/wiki/Sistema_de_nombres_de_dominio), [SSL](https://es.wikipedia.org/wiki/Seguridad_de_la_capa_de_transporte), [XAMPP](https://www.apachefriends.org/index.html), [MAMP](https://www.mamp.info/en/)
 * Alojamiento web: [Rackspace](http://www.rackspace.co.uk/), [DigitalOcean](https://www.digitalocean.com/), [OVH](https://www.ovh.co.uk/), [WHM](http://cpanel.com/), [cPanel](http://cpanel.com/), [Plesk](http://www.plesk.com/), [WHMCS](http://www.whmcs.com/)
 
-**Technologías creativas**
+#### Technologías creativas
 
 * [OpenFrameworks](http://www.openframeworks.cc/) ([C++](https://es.wikipedia.org/wiki/C%2B%2B)), [Processing](https://es.wikipedia.org/wiki/Processing), [QT](https://es.wikipedia.org/wiki/Qt_(biblioteca)), [DirectX](https://es.wikipedia.org/wiki/DirectX)
 * [NUI](https://es.wikipedia.org/wiki/Interfaz_natural_de_usuario), Hand/skeleton tracking with [Kinect](https://es.wikipedia.org/wiki/Kinect), [OpenNi](http://structure.io/openni) and [OpenCV](http://opencv.org/)
 
-## Experiencia
+### Experiencia laboral
 
-### Manager global de ingeniería de front-end
+#### Manager global de ingeniería de front-end
 <span class="project-tag red-tag">Mar 2020 - Presente</span><a class="project-tag gold-tag" href="http://www.tablecheck.com/en/join/">TableCheck</a><span class="project-tag blue-tag">Ginza, Tokio (Japón)</span>
 
 * Actualmente lidera el equipo de front-end de TableCheck, que consta de 9 ingenieros de todos los niveles que trabajan en dos zonas horarias diferentes
 
 * Supervisa y participa como contribuidor individual en las actualizaciones del sistema de diseño, la creación del nuevo formulario de reserva, el nuevo sitio web de marketing global, el nuevo portal de búsqueda de restaurantes, el SSO y el portal para los gestores de restaurantes
 
-### Ingeniero de front-end senior
+#### Ingeniero de front-end senior
 <span class="project-tag red-tag">Feb 2019 - Mar 2020</span><a class="project-tag gold-tag" href="http://www.tablecheck.com/en/join/">TableCheck</a><span class="project-tag blue-tag">Ginza, Tokio (Japón)</span>
 
 * Lideró con éxito la arquitectura front-end de insight, la aplicación de análisis de datos de TableCheck para el sector de la hostelería
@@ -132,7 +158,7 @@ Estas son algunas tecnologías y herramientas que ha usado en los últimos años
 
 * Las revisiones del código y el CI fueron llevados a cabo con Gitlab. El back-end involucró Amazon AWS, RedShift, Elixir, K8S y otras tecnologías para administrar millones de registros relacionados con las reservas de los clientes, datos de ingresos, mensajes SMS, datos de encuestas, etc
 
-### Analista de prototipos ágiles
+#### Analista de prototipos ágiles
 <span class="project-tag red-tag">Mar 2016 - Feb 2019</span><a class="project-tag gold-tag" href="http://vodafone.com">Vodafone Global Enterprise</a><span class="project-tag blue-tag">Newbury (Reino Unido) y Alicante (España)</span>
 
 * Conceptualización, diseño, construcción, testeo y soporte de aplicaciones web (principalmente SPAs) para las operaciones comerciales y digitales de la división Global Enterprise de Vodafone. Algunos de los prototipos estaban destinados a ayudar al equipo de ventas con la visualización de datos, el pronóstico de ingresos y ventas, la calidad de los datos, las oportunidades de ventas y otros datos relacionados con el rendimiento. Otros prototipos estaban más relacionados con las comunicaciones internas, la resolución de problemas y los recursos humanos
@@ -153,9 +179,12 @@ Estas son algunas tecnologías y herramientas que ha usado en los últimos años
 
 * También trabajó con VueJS, Webpack, Highcharts, D3, MaterialUI, WebRTC, Express, CircleCI, GhostJS, HoneyBadger, CodeClimate, Jest, React testing library, JSON API, REST, etc
 
-![](/cv/images/vodafone-home-desk.jpg "Escritorio de trabajo en remoto durante la temporada de verano")
+<figure>
+  <img src="/cv/images/vodafone-home-desk.jpg" alt="Escritorio de trabajo en remoto durante la temporada de verano" />
+  <figcaption>Escritorio de trabajo en remoto durante la temporada de verano</figcaption>
+</figure>
 
-### Desarrollador interactivo senior
+#### Desarrollador interactivo senior
 <span class="project-tag red-tag">Jul 2013 - Nov 2015</span><a class="project-tag gold-tag" href="http://sapientnitro.com">SapientNitro</a><span class="project-tag blue-tag">Spitalfields, Londres (Reino Unido)</span>
 
 [SapientNitro](http://sapientnitro.com) fue la agencia digital número 1 en el Reino Unido durante su etapa en la empresa. También es una división de [Sapient corporation](http://www.sapient.com/), que pertenece al [grupo Publicis](http://www.publicisgroupe.com/)
@@ -198,18 +227,24 @@ a la librería JavaScript [Box2d](https://code.google.com/p/box2dweb/) y a la [r
 
 * **Jul - Sep 2013**: trabajó en un micrositio para el [ICA (Instituto de Arte Contemporáneo)](https://www.ica.org.uk/) en Londres llamado [The Art Rules](http://artrules.ica.org.uk). Se centró principalmente en trabajar en la física y las animaciones. La tecnología utilizada incluye: [Ruby on Rails (RoR)](http://rubyonrails.org/), [HAML](http://haml.info/), [Heroku](https://www.heroku.com), [Github](https://github.com/), [SASS](http://sass-lang.com/), [CSS3](https://es.wikipedia.org/wiki/CSS#CSS3), [Box2d 2D physics]([Box2d](https://code.google.com/p/box2dweb/)). El proyecto fue [preseleccionado en FWA](http://www.thefwa.com/shortlist/art-rules) y exhibido durante unos meses en [el espacio de exposición y café de Eden House](https://instagram.com/p/jHwVviLfXP/)
 
-![](/cv/images/sapient-devs.jpg "Con compañeros de trabajo, Owen y Mark durante 'frinks' (bebidas del viernes)")
+<figure>
+  <img src="/cv/images/sapient-devs.jpg" alt="Con compañeros de trabajo, Owen y Mark durante 'frinks' (bebidas del viernes)" />
+  <figcaption>Con compañeros de trabajo, Owen y Mark durante 'frinks' (bebidas del viernes)</figcaption>
+</figure>
 
-![](/cv/images/sapient-toys.jpg "Algunos aparatos interesantes usados ​​en la oficina")
+<figure>
+  <img src="/cv/images/sapient-toys.jpg" alt="Escritorio de trabajo en remoto durante la temporada de verano" />
+  <figcaption>Algunos aparatos interesantes usados ​​en la oficina</figcaption>
+</figure>
 
-### Tecnólogo Creativo
+#### Tecnólogo Creativo
 <span class="project-tag red-tag">Ago 2012 - Jun 2013</span><a class="project-tag gold-tag" href="http://www.wcrs.com">WCRS</a><span class="project-tag blue-tag">Oxford Circus, Londres (Reino Unido)</span>
 
 [WCRS](http://www.wcrs.com) pertence al [Grupo Engine](http://www.theenginegroup.com), el cual estuvo en el puesto número #5 de las mejores agencias digitales en Reino Unido durante su etapa en la empresa.
 
 Trabajó con los siguientes clientes: [BMW](https://www.bmw.co.uk), [MINI](http://www.mini.co.uk/), [Santander](http://www.santander.co.uk/), [Sky](http://www.sky.com/), [Subway](http://www.subway.co.uk/), [Bupa](http://www.bupa.co.uk/), [Unilever](http://www.unilever.co.uk/), [Warburtons](http://www.warburtons.co.uk/), [Royal Navy](http://www.royalnavy.mod.uk/), [Churchill](http://www.churchill.com/), [Artemis](http://www.artemis.co.uk/) y [B&Q](http://www.diy.com/).
 
-#### Logros
+##### Logros
 
 * Utilizó las últimas tecnlogías creativas y creó soluciones innovadoras
 * Asesoró y trabajó con equipos creativos en propuestas y lanzamientos de campañas publicitarias
@@ -217,7 +252,7 @@ Trabajó con los siguientes clientes: [BMW](https://www.bmw.co.uk), [MINI](http:
 * Creó prototipos, micrositios, blogs y sitios web HTML5 adaptables
 * Construyó herramientas internas, demostraciones de nuevas tecnologías y pequeños juegos interactivos
 
-#### Proyectos
+##### Proyectos
 
 * Una aplicación de Twitter para la [extracción de opiniones](https://es.wikipedia.org/wiki/An%C3%A1lisis_de_sentimiento)
 * Varias experiencias interactivas de captura de movimientos con [Kinect](http://es.wikipedia.org/wiki/Kinect) y con [sistemas de partículas](https://es.wikipedia.org/wiki/Sistema_de_part%C3%ADculas_(software))
@@ -228,7 +263,7 @@ Trabajó con los siguientes clientes: [BMW](https://www.bmw.co.uk), [MINI](http:
 
 Algunas de las tecnologías utilizadas: [Zend](http://www.zend.com/), [C++](http://en.wikipedia.org/wiki/C%2B%2B), [OpenFrameworks](http://openframeworks.cc/), [OpenNI](http://en.wikipedia.org/wiki/OpenNI), [Epoc Emotiv](https://emotiv.com/epoc.php), [Arduino](http://www.arduino.cc/), [SDK de Android](https://developer.android.com/sdk/index.html), [AndEngine](http://www.andengine.org/), [JAVA](https://www.java.com/en/), [Titanium SDK](http://www.appcelerator.com/product/), [Wordpress](https://wordpress.org/), [Drupal](https://www.drupal.org/), API de terceros, etc.
 
-Artículos escritos en el blog de WCRS:
+##### Artículos escritos en el blog de WCRS
 
 ACTUALIZACIÓN: los artículos ya no están disponibles en el blog de WCRS. Ahora están disponibles en el blog del estudio:
 
@@ -236,9 +271,12 @@ ACTUALIZACIÓN: los artículos ya no están disponibles en el blog de WCRS. Ahor
 * [An introduction to mobile development](/blog/es/an-introduction-to-mobile-development)
 * [If content is king, data is queen](/blog/es/if-content-is-king-data-is-queen/)
 
-![](/cv/images/wcrs-tech-team.jpg "Mi compañera de trabajo, Silvia Rebelo, mostrando la nueva área del Tech Team en la oficina")
+<figure>
+  <img src="/cv/images/wcrs-tech-team.jpg" alt="Mi compañera de trabajo, Silvia Rebelo, mostrando la nueva área del Tech Team en la oficina" />
+  <figcaption>Mi compañera de trabajo, Silvia Rebelo, mostrando la nueva área del Tech Team en la oficina</figcaption>
+</figure>
 
-### Desarrollador digital
+#### Desarrollador digital
 <span class="project-tag red-tag">Feb 2011 - Sep 2012</span><a class="project-tag gold-tag" href="http://www.roh.org.uk">Royal Opera House</a><span class="project-tag blue-tag">Covent Garden, Londres (Reino Unido)</span>
 
 Tuvo el honor de ser el primer desarrollador contratado en la historia de la Royal Opera House. Se unió al equipo en el departamento de medios digitales con un objetivo muy importante: reconstruir completamente desde cero la [página web de la ROH](http://www.roh.org.uk/). Un proyecto crítico para la organización que requería una revisión importante en el sistema de emisión de entradas, la infraestructura del servidor, la arquitectura de la información, la experiencia del usuario, la gestión de contenidos y la tienda en línea para cumplir con los altos estándares de la organización.
@@ -252,240 +290,246 @@ También desarrolló una aplicación para mostrar el horario de los ensayos [del
 Tecnologías utilizadas (sin ningún orden en particular): [HTML5](http://es.wikipedia.org/wiki/HTML5), [CSS3](https://es.wikipedia.org/wiki/CSS#CSS3), [Javascript](http://es.wikipedia.org/wiki/JavaScript), [jQuery](https://jquery.com/), [PHP5](http://php.net/), [MySQL](https://www.mysql.com/), [Apache](http://www.apache.org/), [Zend Framework](http://framework.zend.com/), [Doctrine ORM](http://www.doctrine-project.org/projects/orm.html), [Scrum](https://es.wikipedia.org/wiki/Scrum_(desarrollo_de_software)), [Trac](http://trac.edgewall.org/), [Agile](https://es.wikipedia.org/wiki/Desarrollo_%C3%A1gil_de_software), [XSLT](https://es.wikipedia.org/wiki/Extensible_Stylesheet_Language_Transformations), [Flickr API](https://www.flickr.com/services/api/), [Youtube API](https://developers.google.com/youtube/), [Delicious API](https://delicious.com/developers), [Restaurant Diary API](http://restaurateurs.resdiary.com/features/apis), [Facebook API](https://developers.facebook.com/), [SoundCloud API](https://developers.soundcloud.com/), [Google+ API](https://developers.google.com/+/api/), [QAS API](http://support.qas.com/product.htm?filter_country=1&filter_product=45&filter_version=empty&filter_version_specific=&filter_impl=empty&filter_os=empty&filter_doctype=empty&filter_order=Views&page=1) (UK address validation), [Wordpress](https://wordpress.org/) (including plugin dev.), [CDN](https://es.wikipedia.org/wiki/Red_de_distribuci%C3%B3n_de_contenidos), [SSH](http://es.wikipedia.org/wiki/Secure_Shell),
 [SSL](https://es.wikipedia.org/wiki/Seguridad_de_la_capa_de_transporte), [SQL injection](https://es.wikipedia.org/wiki/Inyecci%C3%B3n_SQL), [XSS](https://es.wikipedia.org/wiki/Cross-site_scripting), [Varnish](https://es.wikipedia.org/wiki/Varnish_Cache), [APC](http://php.net/manual/en/book.apc.php), [SOAP](https://es.wikipedia.org/wiki/Simple_Object_Access_Protocol), [REST](https://es.wikipedia.org/wiki/Transferencia_de_Estado_Representacional), [Basecamp](https://basecamp.com/), [Confluence](https://www.atlassian.com/software/confluence), [Jira](https://www.atlassian.com/software/jira?t=b), [Semantic markup](https://es.wikipedia.org/wiki/HTML_sem%C3%A1ntico), [Domain-driven design](https://es.wikipedia.org/wiki/Dise%C3%B1o_guiado_por_el_dominio), [Open Data](https://es.wikipedia.org/wiki/Datos_abiertos) ([XML](https://es.wikipedia.org/wiki/Extensible_Markup_Language), [JSON](https://es.wikipedia.org/wiki/JSON), [RDF](http://es.wikipedia.org/wiki/Resource_Description_Framework), [RSS](http://es.wikipedia.org/wiki/RSS), [ATOM](https://es.wikipedia.org/wiki/Atom_(formato_de_redifusi%C3%B3n)), [ICS](https://es.wikipedia.org/wiki/ICalendar)), Linux (Ubuntu 11), Windows7, Firebug, IE, Firefox, Opera, Chrome, Safari, [ODBC](https://es.wikipedia.org/wiki/Open_Database_Connectivity), [MS SQL Server 2008 (TSQL)](http://es.wikipedia.org/wiki/Microsoft_SQL_Server), [Amazon AWS](http://aws.amazon.com/) (EC2, SES, IAM, CloudFront, S3,...), [Rackspace](http://www.rackspace.co.uk/), [Tessitura](http://www.tessituranetwork.com/), [IIS](https://www.iis.net/), [Isapi Rewriter](http://www.helicontech.com/isapi_rewrite), [WinSCP](http://winscp.net/eng/index.php), [Tortoise](http://tortoisesvn.net/), [SVN](https://subversion.apache.org/), [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html), [Netbeans](https://netbeans.org/), [Eclipse](https://eclipse.org/),...
 
-Artículos relevantes:
+##### Artículos relevantes
 
 * [Our new website](/blog/es/our-new-website-an-update-on-progress)
 * [Our website, a look forward](/blog/es/our-website-a-look-forward)
 * [The Royal Opera House in numbers 2011/12](/blog/es/the-royal-opera-house-in-numbers)
 
-![](/cv/images/roh-dev-team.jpg "Con mis compañeros de trabajo, Aaron y Jamie")
+[Leer el caso de estudio de la ROH](/es/work/roh).
 
-[Read the full ROH case study](/work/roh)
+<figure>
+  <img src="/cv/images/roh-dev-team.jpg" alt="Con mis compañeros de trabajo, Aaron y Jamie" />
+  <figcaption>Con mis compañeros de trabajo, Aaron y Jamie</figcaption>
+</figure>
 
-### Co-founder, CTO & Web developer
-<span class="project-tag red-tag">Sep 2006 - Jul 2012</span><a class="project-tag gold-tag" href="http://www.webmarket.es">Webmarket S.C.</a><span class="project-tag blue-tag">Alicante (Spain)</span>
+#### Cofundador y director de tecnología
+<span class="project-tag red-tag">Sep 2006 - Jul 2012</span><a class="project-tag gold-tag" href="http://www.webmarket.es">Webmarket S.C.</a><span class="project-tag blue-tag">Alicante (España)</span>
 
-Co-founded a small digital agency specialised in design and development of multimedia applications and websites based on [Adobe Flash (AS2)](http://help.adobe.com/en_US/AS2LCR/Flash_10.0/help.html), [MdM Zinc](http://www.multidmedia.com/software/zinc/), [Wordpress](https://wordpress.org/) and front-end technologies.
+Cofundó una pequeña agencia digital especializada en diseño y desarrollo de aplicaciones multimedia y páginas web basadas en [Adobe Flash (AS2)](http://help.adobe.com/en_US/AS2LCR/Flash_10.0/help.html), [MdM Zinc](http://www.multidmedia.com/software/zinc/), [Wordpress](https://wordpress.org/) y otras tecnologías front-end.
 
-Brands we worked for: [Estrella Galicia](http://portal.estrellagalicia.es/), [Santillana](http://www.santillana.com/en/), [Editex](http://www.editex.es/), [Philippines government](http://investphilippines.org/), [Grupo Soledad](http://www.gruposoledad.com/), [IBCmass](http://www.ibcmass.com/), [Cogersa](http://www.cogersa.es/), [Digital Toy Shop](http://www.digitaltoyshop.es/), [IES Miguel Hernández](http://iesmh.edu.gva.es/), etc
+Algunps de los clientes: [Estrella Galicia](http://portal.estrellagalicia.es/), [Santillana](http://www.santillana.com/en/), [Editex](http://www.editex.es/), [Gobierno de Filipinas](http://investphilippines.org/), [Grupo Soledad](http://www.gruposoledad.com/), [IBCmass](http://www.ibcmass.com/), [Cogersa](http://www.cogersa.es/), [Digital Toy Shop](http://www.digitaltoyshop.es/), [IES Miguel Hernández](http://iesmh.edu.gva.es/), etc.
 
-Some of the bespoke products we created:
+Algunos de los productos desarrollados:
 
-* **TiendaFlash**: a Flash, [AMFPHP](http://en.wikipedia.org/wiki/AmfPHP) & MySQL e-commerce CMS with unlimited products, VISA/Master Card and Paypal integration
-* **InmoFlash**: a Flash, [AMFPHP](http://en.wikipedia.org/wiki/AmfPHP) & MySQL real-state CMS with unlimited properties
-* **FinanFlash**: a Flash, [AMFPHP](http://en.wikipedia.org/wiki/AmfPHP) & MySQL finance CMS with dynamic PDF generator ([FPDF](http://www.fpdf.org/))
+* **TiendaFlash**: CMS para tiendas virtuales basados en Flash, [AMFPHP](http://en.wikipedia.org/wiki/AmfPHP) y MySQL con soporte para productos ilimitados e integración con VISA/MasterCard y Paypal
+* **InmoFlash**: CMS para inmobiliarias basado en Flash, [AMFPHP](http://en.wikipedia.org/wiki/AmfPHP) y MySQL CMS con soporte para propiedades ilimitadas
+* **FinanFlash**: CMS para la gestión de finanzas basado en Flash, [AMFPHP](http://en.wikipedia.org/wiki/AmfPHP) y MySQL con soporte para generar PDF dinámicamente con [FPDF](http://www.fpdf.org)
 
-We also provided [web hosting](http://en.wikipedia.org/wiki/Web_hosting_service) with [cPanel](http://cpanel.com/)/[WHMCS](http://www.whmcs.com/) and [digital marketing](http://en.wikipedia.org/wiki/Digital_marketing) services to our clients (mainly [SMEs](http://en.wikipedia.org/wiki/Small_and_medium-sized_enterprises)) and collaborated with other freelance designers, developers and agencies in Spain.
+También proporcionó servicios de [alojamiento web](https://es.wikipedia.org/wiki/Alojamiento_web) con [cPanel](http://cpanel.com/)/[WHMCS](http://www.whmcs.com), [marketing digital](https://es.wikipedia.org/wiki/Mercadeo_digital) a nuestros clientes (principalmente [PYMES](https://es.wikipedia.org/wiki/Peque%C3%B1a_y_mediana_empresa)) y colaboró ​​con otros diseñadores, desarrolladores y agencias freelance en España.
 
-### Web design teacher
-<span class="project-tag red-tag">Feb 2009 - May 2009</span><a class="project-tag gold-tag" href="https://www.esuma.com/">ESUMA</a><span class="project-tag blue-tag">Alicante (Spain)</span>
+#### Profesor de diseño web
+<span class="project-tag red-tag">Feb 2009 - May 2009</span><a class="project-tag gold-tag" href="https://www.esuma.com/">ESUMA</a><span class="project-tag blue-tag">Alicante (España)</span>
 
-Web design teacher in the Master of Marketing and Advertising of ESUMA
+Profesor de diseño web en el Máster de Marketing y Publicidad de ESUMA
 
-### Joomla web designer / developer
-<span class="project-tag red-tag">Mar 2008 - Sep 2008</span><a class="project-tag gold-tag" href="http://www.webempresa.com">Webempresa</a><span class="project-tag blue-tag">Barcelona (Spain)</span>
+#### Diseñador/desarrollador web con Joomla
+<span class="project-tag red-tag">Mar 2008 - Sep 2008</span><a class="project-tag gold-tag" href="http://www.webempresa.com">Webempresa</a><span class="project-tag blue-tag">Barcelona (España)</span>
 
-Web development and design using Dreamweaver, Fireworks, Photoshop, Joomla CMS, Joomla Components, HTML, CSS, PHP, MySQL, JavaScript and Google Apps.
+Desarrolló y diseñó páginas web utilizando Dreamweaver, Fireworks, Photoshop, Joomla CMS, Joomla Components, HTML, CSS, PHP, MySQL, JavaScript y Google Apps.
 
-Some of the projects I worked on include: [Escuela de cocina Hoffman](http://www.hofmann-bcn.com/), [Hoyesarte.com](http://www.hoyesarte.com/), [Gimnasio femenino 30 minutos](http://www.30minutos.net/), Aarcs, [Altair consultores](http://www.altair-consultores.com/), [Aurall](http://www.aurall.com/), Aitor Aurrekoetxea, [Baldirialeu](http://complexbaldirialeu.com/), Dimas, BGT Musics, [Fama Systems](http://www.fama-systems.com/), [Geograma](http://www.geograma.com/en/), Infolimpieza, Lluisa Sallent, Lodisoft, LOPDYA, Segurodelhogar, Torques, Noelia Compte, Trabajos y reformas, Mongrafic, Norma3, NRC Courier, Orbitel, Lexicos traducciones, Agrocesped, ByPerson, Circulo hostelero, Training home,...
+Algunos de los proyectos: [Escuela de cocina Hoffman](http://www.hofmann-bcn.com/), [Hoyesarte.com](http://www.hoyesarte.com/), [Gimnasio femenino 30 minutos](http://www.30minutos.net/), Aarcs, [Altair consultores](http://www.altair-consultores.com/), [Aurall](http://www.aurall.com/), Aitor Aurrekoetxea, [Baldirialeu](http://complexbaldirialeu.com/), Dimas, BGT Musics, [Fama Systems](http://www.fama-systems.com/), [Geograma](http://www.geograma.com/es/), Infolimpieza, Lluisa Sallent, Lodisoft, LOPDYA, Segurodelhogar, Torques, Noelia Compte, Trabajos y reformas, Mongrafic, Norma3, NRC Courier, Orbitel, Lexicos traducciones, Agrocesped, ByPerson, Circulo hostelero, Casa de entrenamiento,...
 
-### Web designer / developer
-<span class="project-tag red-tag">Sep 2001 - Sep 2006</span><span class="project-tag gold-tag">Freelance</span><span class="project-tag blue-tag">Múltiple locations</span>
+#### Diseñador/desarrollador web freelance
+<span class="project-tag red-tag">Sep 2001 - Sep 2006</span><span class="project-tag gold-tag">Freelance</span><span class="project-tag blue-tag">Múltiples localizaciones</span>
 
-Freelance web design and development for local [SMEs](http://en.wikipedia.org/wiki/Small_and_medium-sized_enterprises) using [Frontpage](http://en.wikipedia.org/wiki/Microsoft_FrontPage), [Photoimpact](http://en.wikipedia.org/wiki/Ulead_PhotoImpact), [Sound Forge](http://en.wikipedia.org/wiki/Sound_Forge), [Power Director](http://www.cyberlink.com/downloads/trials/powerdirector-ultra/download_en_US.html), [Premiere](http://en.wikipedia.org/wiki/Adobe_Premiere_Pro), [Dreamweaver](http://en.wikipedia.org/wiki/Adobe_Dreamweaver), [Fireworks](http://en.wikipedia.org/wiki/Fireworks), [Photoshop](http://en.wikipedia.org/wiki/Adobe_Photoshop), [Freehand](http://en.wikipedia.org/wiki/Adobe_FreeHand), [Flash](http://en.wikipedia.org/wiki/Adobe_Flash), [ActionScript](http://en.wikipedia.org/wiki/ActionScript) 1 and 2, XML, HTML, CSS, PHP, MySQL, JavaScript and [PHP-Nuke](http://en.wikipedia.org/wiki/PHP-Nuke).
+Diseño y desarrollo web independiente para [PYMES](https://es.wikipedia.org/wiki/Peque%C3%B1a_y_mediana_empresa) utilizando [Frontpage](http://es.wikipedia.org/wiki/Microsoft_FrontPage), [Photoimpact](http://en.wikipedia.org/wiki/Ulead_PhotoImpact), [Sound Forge](http://en.wikipedia.org/wiki/Sound_Forge), [Power Director](http://www.cyberlink.com/downloads/trials/powerdirector-ultra/download_en_US.html), [Premiere](http://es.wikipedia.org/wiki/Adobe_Premiere_Pro), [Dreamweaver](http://es.wikipedia.org/wiki/Adobe_Dreamweaver ), [Fireworks](https://es.wikipedia.org/wiki/Adobe_Fireworks), [Photoshop](http://es.wikipedia.org/wiki/Adobe_Photoshop), [Freehand](http://es.wikipedia.org/wiki/Adobe_FreeHand), [Flash](http://es.wikipedia.org/wiki/Adobe_Flash), [ActionScript](http://es.wikipedia.org/wiki/ActionScript) 1 y 2, XML, HTML, CSS, PHP, MySQL, JavaScript y [PHP-Nuke](http://es.wikipedia.org/wiki/PHP-Nuke).
 
-### Software Engineer
-<span class="project-tag red-tag">Sep 2003 - Jul 2005</span><span class="project-tag gold-tag">Slater Software Laboratories S.L.</span><span class="project-tag blue-tag">Cuzco, Madrid (Spain)</span>
+#### Ingeniero de software
+<span class="project-tag red-tag">Sep 2003 - Jul 2005</span><span class="project-tag gold-tag">Slater Software Laboratories S.L.</span><span class="project-tag blue-tag">Cuzco, Madrid (España)</span>
 
-Participated in the development of three desktop applications for real-time TV production, from initial conceptualisation to final development (HP business partner). Based on [C++](http://en.wikipedia.org/wiki/C%2B%2B), [QT](http://www.qt.io/), [DirectX](http://en.wikipedia.org/wiki/DirectX) 9 and other API’s.
+Participó en el desarrollo de tres aplicaciones de escritorio para la producción de TV en tiempo real, desde la conceptualización inicial hasta el desarrollo final. Software basado en [C++](http://es.wikipedia.org/wiki/C%2B%2B), [QT](http://www.qt.io/), [DirectX](http://es.wikipedia.org/wiki/DirectX) 9 y otras APIs.
 
-Headed the development of the audio and video mixers (major features in these applications) to support high quality computer media formats, capture cards, cameras, image projection systems and other audiovisual devices.
+Encabezó el desarrollo de mezcladores de audio y video (características principales en estas aplicaciones) para admitir formatos de medios de de alta calidad, tarjetas de captura, cámaras, sistemas de proyección de imágenes y otros dispositivos audiovisuales.
 
-Solid experience in C++ OO programming, QT 3.2, DirectX 9 (DirectMusic, DirectAudio, DirectShow, DirectInput), ASIO 2.0, analog-digital television production systems, DSP, image projection systems, MS Visual Studio 2003 and Source Safe.
+Sólida experiencia en programación C++ OO, QT 3.2, DirectX 9 (DirectMusic, DirectAudio, DirectShow, DirectInput), ASIO 2.0, sistemas de producción de televisión analógico-digital, DSP, sistemas de proyección de imágenes, MS Visual Studio 2003 y Source Safe.
 
-Working experience in DSP (Sound effects, spectrum analysers, Oscilloscopes, sound editing programming, multi Channel (I/O) audio engines.
+Experiencia laboral en DSP (efectos de sonido, analizadores de espectro, osciloscopios, programación de edición de sonido y motores de audio multicanal (I/O).
 
-### IT computer technician
-<span class="project-tag red-tag">Oct 2001 - Jul 2002</span><span class="project-tag gold-tag">PC City Sverige AB</span><span class="project-tag blue-tag">Alicante (Spain)</span>
+#### Técnico informático
+<span class="project-tag red-tag">Oct 2001 - Jul 2002</span><span class="project-tag gold-tag">PC City Sverige AB</span><span class="project-tag blue-tag">Alicante (España)</span>
 
-IT support for customers and custom builds of desktop computers
+Soporte, montaje, reparación y venta de ordenadores y material informático.
 
-### CTO & Network Administrator
-<span class="project-tag red-tag">Sep 2001 - Nov 2001</span><span class="project-tag gold-tag">Times Cafe</span><span class="project-tag blue-tag">Alicante (Spain)</span>
+#### Técnico informático
+<span class="project-tag red-tag">Sep 2001 - Nov 2001</span><span class="project-tag gold-tag">Times Cafe</span><span class="project-tag blue-tag">Alicante (España)</span>
 
-Designed a technical implementation for a local area network in a cyber coffee shop. Purchased the equipment and software. Installed all the machines and programs. Managed the day to day computer rental operations and maintenance.
+Diseñó una arquitectura para una red de área local en un cibercafé. Compró el equipo y el software. Instalado todas las máquinas y programas. Gestionó las operaciones y el mantenimiento diarios del alquiler de los ordenadores.
 
-### Junior web designer / developer
-<span class="project-tag red-tag">May 2001 - Aug 2001</span><span class="project-tag gold-tag">Grupo Odessa S.L.</span><span class="project-tag blue-tag">San Juan, Alicante (Spain)</span>
+#### Diseñador/desarrollador web junior
+<span class="project-tag red-tag">May 2001 - Ago 2001</span><span class="project-tag gold-tag">Grupo Odessa S.L.</span><span class="project-tag blue-tag">San Juan, Alicante (España)</span>
 
-Built websites for [SMEs](http://en.wikipedia.org/wiki/Small_and_medium-sized_enterprises) using XHTML, CSS, Flash 5, Photoshop and Javascript
+Creación de páginas web para [PYMES](https://es.wikipedia.org/wiki/Peque%C3%B1a_y_mediana_empresa) usando XHTML, CSS, Flash 5, Photoshop y Javascript.
 
-### Computer technician
-<span class="project-tag red-tag">Jan 2000 - May 2000</span><span class="project-tag gold-tag">BEEP</span><span class="project-tag blue-tag">Alicante (Spain)</span>
+#### Técnico informático
+<span class="project-tag red-tag">Ene 2000 - May 2000</span><span class="project-tag gold-tag">BEEP</span><span class="project-tag blue-tag">Alicante (España)</span>
 
-IT support for customers, retail assistant and custom builds of desktop computers
+Soporte, montaje, reparación y venta de ordenadores y material informático.
 
-### Computer technician
-<span class="project-tag red-tag">Oct 1999 - Jan 2000</span><span class="project-tag gold-tag">Necomplus</span><span class="project-tag blue-tag">Alicante (Spain)</span>
+#### Técnico informático
+<span class="project-tag red-tag">Oct 1999 - Ene 2000</span><span class="project-tag gold-tag">Necomplus</span><span class="project-tag blue-tag">Alicante (España)</span>
 
-IT support to update the company software installed on the customers machines to avoid the “Y2K effect”.
+Soporte informático para actualizar el software de la empresa instalado en las máquinas de los clientes para evitar el “efecto Y2K”.
 
-## Education
+### Educación
 
-### BA & Sc in Multimedia, minor in web engineering (4 years)
-<span class="project-tag red-tag">Oct 2006 - 2017</span><a class="project-tag gold-tag" href="http://www.uoc.edu">Universitat Oberta de Catalunya</a><span class="project-tag blue-tag">Online (4 years, 240 ECTS)</span>
+#### Grado multimedia con especialidad en ingeniería web (4 años)
+<span class="project-tag red-tag">Oct 2006 - 2017</span><a class="project-tag gold-tag" href="http://www.uoc.edu">Universitat Oberta de Catalunya</a><span class="project-tag blue-tag">Online (240 ECTS)</span>
 
-Homologated in the EU. Euro-Inf certified. 60 ECTS = 1700 hours
+Homologado en la UE. Certificación Euro-Inf. 60 ECTS = 1700 horas
 
-Multimedia foundations, Video, English I, II, Programming, Mathematics I, II, Interactive narrative, Information architecture, Administration and management of organisations, Languages ​​and Web Standards, Graphic Design, Image and visual language, Web Programming, 3D graphics, Physics, Animation, Design of interfaces, Integrating digital content, Networks, Database Design, Interactive Media, Processing and publication of image and video, Audio editing and publishing, Digital composition, Project Management, Market and legislation, Methodology and project development, Creativity and aesthetics, Digital Photography, Advanced Web Programming, Safety and quality in web servers, User Testing, Usability, Virtual Reality, Interaction Design, Content Management Systems, Publication and distribution platforms, Audiovisual documentation, Software Engineering, OO Design and programming, Analysis and design patterns, Entrepreneurship of organisations.
+Fundamentos multimedia, Video, Inglés I, II, Programación, Matemáticas I, II, Narrativa interactiva, Arquitectura de la información, Administración y dirección de organizaciones, Lenguajes y estándares web, Diseño gráfico, Imagen y lenguaje visual, Programación web, Gráficos 3D, Física, Animación, Diseño de interfaces, Integración de contenidos digitales, Redes, Diseño de Bases de Datos, Medios Interactivos, Procesamiento y publicación de imagen y video, Edición y publicación de audio, Composición digital, Gestión de Proyectos, Mercado y legislación, Metodología y desarrollo de proyectos, Creatividad y estética, Fotografía Digital, Programación Web Avanzada, Seguridad y calidad en servidores web, User Testing, Usabilidad, Realidad Virtual, Diseño de Interacción, Sistemas de Gestión de Contenidos, Plataformas de publicación y distribución, Documentación audiovisual, Ingeniería de Software, Diseño y programación OO, Análisis y diseño patrones, Emprendimiento de las organizaciones.
 
-### Certificate in profesional videogames creation (1 year)
-<span class="project-tag red-tag">Oct 2002 - Jun 2003</span><a class="project-tag gold-tag" href="http://www.upf.edu/en/">Universitat Pompeu Fabra</a><span class="project-tag blue-tag">Barcelona (Spain)</span>
+#### Certificado en creación profesional de videojuegos (1 año)
+<span class="project-tag red-tag">Oct 2002 - Jun 2003</span><a class="project-tag gold-tag" href="http://www.upf.edu/en/">Universitat Pompeu Fabra</a><span class="project-tag blue-tag">Barcelona (España)</span>
 
-C++, OpenGL, Direct3D, Quadtree, Octree, PVS, Clipping with LOD’s, BSP’s, Portals, ROAM and 3D Studio SDK, IA (FSM, DFA and FA programming experience. Syncronized IA’s programming using Rules Sytem. Theoretical Knowledge in Boids algorithm and Path Finding A*), Gameplay programming (Coldet), Motion Capture systems, Scripting with LUA, Skeletton animation, Cal3D. Working Knowledge in EAX HD 4.0, BASS, PortAudio and FMOD
+C++, OpenGL, Direct3D, Quadtree, Octree, PVS, Clipping con LOD's, BSP's, Portals, ROAM y 3D Studio SDK, experiencia en programación IA (FSM, DFA y FA). Finding A*), Programación de Gameplay (Coldet), Sistemas de Captura de Movimiento, Scripting con LUA, Animación Skeletton, Cal3D. Conocimiento práctico en EAX HD 4.0, BASS, PortAudio y FMOD.
 
-### HND in Computer Science (2 years)
-<span class="project-tag red-tag">Oct 1998 - Jun 2000</span><a class="project-tag gold-tag" href="http://iesmarenostrum.edu.gva.es/">Instituto Mare Nostrum</a><span class="project-tag blue-tag">Alicante (Spain)</span>
+#### FP2 en Informática (2 años)
+<span class="project-tag red-tag">Oct 1998 - Jun 2000</span><a class="project-tag gold-tag" href="http://iesmarenostrum.edu.gva.es/">Instituto Mare Nostrum</a><span class="project-tag blue-tag">Alicante (España)</span>
 
-Pascal, Assembler, Cobol, Delphi, SQL (Access), C, OO programming, Linux, Network Management, Business Administration, English language
+Pascal, Assembler, Cobol, Delphi, SQL (Access), C, programación orientada a objetos, Linux, Administración de redes, Gestión de Empresas, Inglés.
 
-### High School Diploma (3 years)
-<span class="project-tag red-tag">Oct 1994 - Jun 1997</span><a class="project-tag gold-tag" href="http://www.iesbahiadebabel.com/">IB Bahía Babel</a><span class="project-tag blue-tag">Alicante (Spain)</span>
+#### Educación secundaria (3 años)
+<span class="project-tag red-tag">Oct 1994 - Jun 1997</span><a class="project-tag gold-tag" href="http://www.iesbahiadebabel.com/">IB Bahía Babel</a><span class="project-tag blue-tag">Alicante (España)</span>
 
-## Courses, events, conferences and certifications
+### Educación adicional
 
-* Sep 2018: React Alicante, Spain
-* Jun 2018: Alicante Frontend: agile development in real life
-* Dec 2017: Alicante Frontend: codePen official meetup
-* Sep 2017: Alicante Frontend: optimal way of loading images on the web
-* Sep 2017: React Alicante, Spain
-* Sep 2017: FullStackFest Barcelona, Spain
-* May 2017: JSDayES Madrid, Spain
-* Feb 2016: HackerRank - 7 Days of JavaScript
-* Feb 2016: Introduction to Meteor.js Development, University of London (Coursera)
-* Feb 2016: Learn and Understand AngularJS (Udemy)
-* Jan 2016: Build Web Apps with React JS and Flux (Udemy)
-* Jan 2016: JavaScript: Understanding the Weird Parts (Udemy)
-* Oct 2015: FullStack conference, London
-* Oct 2015: Big Data, University of San Diego, California (Coursera)
-* Jul 2015: Harry Roberts (CSSWizardry) workshop
-* Aug 2015: British Airways Open Day 2015
-* Mar 2015: Reasons to be creative. London, Old Street
-* May 2014: jQuery UK 2014, Oxford
-* Apr 2014: Sapient Advanced Presentation Skills
-* Apr 2014: London JS Night Class: CSSFlex
-* Several dates: EmberJS & AngularJS meetups
-* Mar 2014: London JS Night Class: D3.js with Tim Ruffles
+* Sep 2018: ReactAlicante, España
+* Jun 2018: Alicante Frontend: desarrollo ágil en la vida real
+* Dic 2017: Alicante Frontend: reunión oficial de codePen
+* Sep 2017: Alicante Frontend: forma óptima de cargar imágenes en la web
+* Sep 2017: ReactAlicante, España
+* Sep 2017: FullStackFest Barcelona, ​​España
+* May 2017: JSDayES Madrid, España
+* Feb 2016: HackerRank - 7 días de JavaScript
+* Feb 2016: Introducción al desarrollo de Meteor.js, Universidad de Londres (Coursera)
+* Feb 2016: Aprender y comprender AngularJS (Udemy)
+* Ene 2016: Cree aplicaciones web con React JS y Flux (Udemy)
+* Ene 2016: JavaScript: comprensión de las partes extrañas (Udemy)
+* Oct 2015: Conferencia FullStack, Londres
+* Oct 2015: Big Data, Universidad de San Diego, California (Coursera)
+* Jul 2015: Taller de Harry Roberts (CSSWizardry)
+* Ago 2015: Jornada de puertas abiertas de British Airways 2015
+* Mar 2015: Razones para ser creativo. Londres, Old Street
+* May 2014: jQuery Reino Unido 2014, Oxford
+* Abr 2014: Habilidades de presentación avanzadas de Sapient
+* Abr 2014: London JS Night Class: CSSFlex
+* Varias fechas: reuniones de EmberJS y AngularJS
+* Mar 2014: London JS Night Class: D3.js con Tim Ruffles
 * Mar 2014: London JS Night Class: BackboneJS
-* Mar 2014: Sapient MEP (Negotiating expectations)
-* Feb 2014: White Pencil & Swam. Climate Change President Lecture - Geek Out
-* Feb 2014: jQuery Conference in Oxford. AngularJS workshop with Peter Bacon Darwin
-* Nov 2013: Full Frontal 2013. Debug workshop with Remy Sharp
-* Nov 2009: iWeekend Alicante 2009 (40 hours)
-* Sep 2007: UA, Advanced Flash 8, Web development (8 hours)
-* Nov 2006: Certified Macromedia Flash MX 2004 designer
-* Oct 2003: DeepBlue TV production workshop
-* Feb 2002: Advanced Shaders (cg) programming
-* Mar 2002: Business Management of the videogames industry, ArtFutura Festival - Ubi Soft
+* Mar 2014: Sapient MEP (Expectativas de negociación)
+* Feb 2014: White Pencil & Swam. Conferencia del presidente sobre cambio climático - Geek Out
+* Feb 2014: Conferencia jQuery en Oxford. Taller de AngularJS con Peter Bacon Darwin
+* Nov 2013: Full Frontal 2013. Taller de depuración con Remy Sharp
+* Nov 2009: iWeekend Alicante 2009 (40 horas)
+* Sep 2007: UA, Advanced Flash 8, desarrollo web (8 horas)
+* Nov 2006: Diseñador certificado de Macromedia Flash MX 2004
+* Oct 2003: Taller de producción de DeepBlue TV
+* Feb 2002: Programación avanzada de Shaders (cg)
+* Mar 2002: Gestión empresarial de la industria de los videojuegos, Festival ArtFutura - Ubi Soft
 
-## Recognitions
+### Reconocimientos
 
-* **Aug 2021**: 1st position (Grand Prize) in the second TableCheck Hackathon. Issued by TableCheck
+* **Ago 2021**: 1ra posición (Gran Premio) en el segundo Hackathon de TableCheck. Emitido por TableCheck
 
-* **Jan 2020**: 1st position (Grand Prize) in the first TableCheck Hackathon. Issued by TableCheck
+* **Ene 2020**: 1ra posición (Gran Premio) en el primer Hackathon de TableCheck. Emitido por TableCheck
 
-* **Feb 2020**: 2019 MVP Award to the best team: Data Science. Issued by TableCheck
+* **Feb 2020**: Premio MVP 2019 al mejor equipo: Data Science. Emitido por TableCheck
 
-* **Jun 2018**: Top performer. Recognised by my line manager as one of the two awarded top performers in a team with dozens of employees at Vodafone Global Enterprise
+* **Jun ​​2018**: Top performer. Reconocido por su jefe directo como uno de los dos premiados con mejor desempeño en un equipo con decenas de empleados en Vodafone Global Enterprise
 
-* **May 2017**: Winner of the Knowledge Management Innovation award. One of the apps that my team and I developed, won this prestigious award in the UK legal industry.  [eiseverywhere.com](https://www.eiseverywhere.com/ehome/legalweekinnovationawards/567021/) [legalweek.com](http://www.legalweek.com/sites/legalweek/2017/06/27/legal-week-innovation-awards-knowledge-management-innovation-award-vodafone-global-enterprise/?slreturn=20170528041243)
+* **May 2017**: Ganador del premio Innovación en Gestión del Conocimiento. Una de las aplicaciones que su equipo y él desarrollaron ganó este prestigioso premio en la industria legal en Reino Unido. [eiseverywhere.com](https://www.eiseverywhere.com/ehome/legalweekinnovationawards/567021/) [legalweek.com](http://www.legalweek.com/sites/legalweek/2017/06/27/legal-week-innovation-awards-knowledge-management-innovation-award-vodafone-global-enterprise/?slreturn=20170528041243)
 
-* **Jan 2017**: EduTECH Emprèn. My final project was selected and I was granted a course financed by the Catalunya and EU governments for mentoring entrepreneurs and accelerate their eLearning projects
+* **Ene 2017**: EduTECH Emprèn. Su proyecto final de Grado fue seleccionado y le concedieron un curso financiado por los gobiernos de Catalunya y la UE para asesorar a emprendedores y acelerar sus proyectos de eLearning
 
-* **Nov 2016**: Recognised by my line manager with the innovation award at Vodafone Global Enterprise
+* **Nov 2016**: Reconocido por jefe directo con el premio a la innovación en Vodafone Global Enterprise
 
-* **Feb 2014**: the Art Rules project were I was heavily involved in the front-end was shortlisted for a prestigious FWA award
+* **Feb 2014**: el proyecto Art Rules en el que estuvo muy involucrado en el front-end fue preseleccionado para un prestigioso premio FWA
 
-The following are some recognitions from my former co-workers, partners and clients. Some of them know me as “Pach” (my nickname).
+Los siguientes son algunos reconocimientos de sus compañeros de trabajo, socios y clientes.
 
-Core Value: **Creativity**
-Nominator: [Marisa Parsons](https://www.linkedin.com/in/marisaparsons) (UX Manager at SapientNitro)
-Date: 8-Jan-2016
+Valor: **Creatividad**
+Nominadora: [Marisa Parsons](https://www.linkedin.com/in/marisaparsons) (Manager de UX en SapientNitro)
+Fecha: 8-ene-2016
 
-*"Joan is a talented developer with creative flair. Working with him is always a pleasure even when there are tight timelines and tricky pages to build. Joan always embraces challenges with a smile on his face and determination to find a solution. Through his experimentation with code, attention to detail and dedication to crafting elegant solutions, he is an invaluable member to any creative team."*
+*"Joan es un desarrollador talentoso con un don creativo. Trabajar con él siempre es un placer, incluso cuando hay plazos ajustados y páginas complicadas para construir. Joan siempre acepta los desafíos con una sonrisa en su rostro y determinación para encontrar una solución. A través de su experiencia con el código, atención al detalle y dedicación para crear soluciones elegantes, es un miembro de mucho valor para cualquier equipo creativo".*
 
-Core Value: **Creativity**
-Nominator: [Owen Cowdry](https://www.linkedin.com/in/owen-cowdry-648598b) (Senior Developer at SapientNitro)
-Date: 28-Nov-2015
+Valor: **Creatividad**
+Nominador: [Owen Cowdry](https://www.linkedin.com/in/owen-cowdry-648598b) (Desarrollador sénior en SapientNitro)
+Fecha: 28-Nov-2015
 
-*"Pach is a top quality developer. This guy has been working with computers and programming for a very long time. He has run his own web development and hosting agency. His programming experience spans both front-end to back-end. His love of art and creative thinking drives his passion for creative technology. As if that wasn't enough, he's lovely chap, very easy to get along with. I would jump at the chance to work with Pach again, so should you!"*
+*"Joan es un desarrollador de primera calidad. Este tipo ha estado trabajando con ordenadores y programación durante mucho tiempo. Ha dirigido su propia agencia de alojamiento y desarrollo web. Su experiencia en programación abarca tanto el front-end como el back-end. Su amor del arte y el pensamiento creativo impulsan su pasión por la tecnología creativa. Como si eso no fuera suficiente, es un tipo encantador, es muy fácil llevarse bien con él. Aprovecharía la oportunidad de volver a trabajar con Joan, ¡tú también deberías hacerlo!"*
 
-Core Value: **Creativity**
-Nominator: [Denise Neves Santos](https://www.linkedin.com/in/deniseneves) (Manager of Interactive Development at SapientNitro)
-Date: 26-Oct-2015
+Valor: **Creatividad**
+Nominadora: [Denise Neves Santos](https://www.linkedin.com/in/deniseneves) (Manager de Desarrollo Interactivo en SapientNitro)
+Fecha: 26-Oct-2015
 
-*"Joan is an extremely talented developer and technologist: no technology is a problem! Whether you are looking for a Vanilla JS, Angular, ReactJS, [insert library/framework/tech here], I'm positive Joan will deliver it, high quality, on time.*
+*"Joan es un desarrollador y tecnólogo extremadamente talentoso: ¡ninguna tecnología es un problema! Ya sea JavaScript Angular, ReactJS, [inserte biblioteca/tecnología aquí], estoy segura de que Joan lo entregará, con un alto nivel de calidad y a tiempo.*
 
-*His knowledge and attitude makes him one of the best developers I had the pleasure to work with, as he's not only committed to the quality of the code, but to the overall delivery of the project, which can make all the difference when delivering large-scale projects. Having Joan in the team is a joy, I wholeheartedly recommend Joan.*
+*Su conocimiento y actitud lo convierten en uno de los mejores desarrolladores con los que tuve el placer de trabajar, ya que no solo está comprometido con la calidad del código, sino también con la entrega general del proyecto, lo que puede marcar la diferencia al entregar grandes proyectos. Tener a Joan en el equipo es una gozada, recomiendo a Joan de todo corazón.*
 
-*Joan is also a very good fußball player, although not as good as myself :)"*
+*Joan también es muy buen jugador al futbolín, ​​aunque no tanto como yo :)"*
 
-Core Value: **Leadership**
-Nominator: [Hadleigh Smith](https://www.linkedin.com/in/hadleighsmith) (Account Director at SapientNitro)
-Date: 30-Sep-2015
+Valor: **Liderazgo**
+Nominador: [Hadleigh Smith](https://www.linkedin.com/in/hadleighsmith) (Director de proyectos en SapientNitro)
+Fecha: 30-sep-2015
 
-*"I brought Pach (Joan) on board to work on Dove 2.0, having worked with him previously on BT. Pach was part of a front-end development team of seven people, and very early in the project you could see that Pach was a front-runner and was willing to lead the team. In the end we split the development and build work in to two tracks, and asked Pach to lead one of them. From start to finish Pach was calm, lead from the front, was a problem solver, and helped deliver the project with minimal defects and on time. His qualities were also recognized by the wider team and he became a trusted and valuable member of the overall delivery."*
+*"Recluté a Joan para trabajar en Dove 2.0, habiendo trabajado con él anteriormente en BT. Joan era parte de un equipo de desarrollo front-end de siete personas, y muy temprano en el proyecto se podía ver que Joan era un favorito y estaba dispuesto a liderar el equipo. Al final, dividimos el desarrollo y el trabajo de construcción en dos pistas, y le pedimos a Joan que dirigiera una de ellas. De principio a fin, Joan estuvo tranquilo, lideró desde el frente, fue un solucionador de problemas y ayudó a entregar el proyecto con defectos mínimos y a tiempo. Sus cualidades también fueron reconocidas por el equipo en general y se convirtió en un miembro confiable y valioso de la entrega general".*
 
-Core Value: **Creativity**
-Nominator: [Marisa Parsons](https://www.linkedin.com/in/marisaparsons) (UX Manager at SapientNitro)
-Date: 30-Sep-2015
+Valor: **Creatividad**
+Nominadora: [Marisa Parsons](https://www.linkedin.com/in/marisaparsons) (Gerente de UX en SapientNitro)
+Fecha: 30-sep-2015
 
-*"I would like to nominate Joan for his work on the Dove project. Working with him on this project we had tight timelines and tricky pages to try and build but Joan always embraced these challenges with a smile on his face and a determination to find a solution to the design teams requests. Not only is he a talented developer he also brings his own creative flair to a build. Through his experimentation with what was possible with code, his attention to detail and dedication to crafting elegant solutions he made an invaluable contribution to the animations and interactions of the new Dove site."*
+*"Me gustaría nominar a Joan por su trabajo en el proyecto para Dove. Al trabajar con él en este proyecto, teníamos plazos ajustados y páginas complicadas que construir, pero Joan siempre aceptó estos desafíos con una sonrisa en su rostro y la determinación de encontrar una solución a las solicitudes de los equipos de diseño. No solo es un desarrollador talentoso, sino que también aporta su propio estilo creativo. A través de su experimentación con el código, su atención a los detalles y su dedicación a la elaboración de soluciones elegantes, hizo una contribución de mucho valor a las animaciones e interacciones del nuevo sitio de Dove".*
 
-Core Value: **Leadership**
-Nominator: [Daniel De Oliveira](https://www.linkedin.com/in/deoliveiradaniel) (Senior Interactive Developer at SapientNitro)
-Date: 29-Sep-2015
+Valor: **Liderazgo**
+Nominador: [Daniel De Oliveira](https://www.linkedin.com/in/deoliveiradaniel) (Desarrollador interactivo sénior en SapientNitro)
+Fecha: 29-sep-2015
 
-*"I’ve had the pleasure of working with Pach on the recent Dove 2.0 project, during this time he has gone above and beyond what was asked of him. He remains calm and focused in stressful situation and is brilliant at managing other developers. The team looks to him for guidance and he as show true leadership qualities. His knowledge on all things digital and the industry make him a valuable asset in any team. Pach is a agile master!"*
+*"He tenido el placer de trabajar con Joan en el reciente proyecto Dove 2.0, durante este tiempo ha ido más allá de lo que se le pedía. Se mantiene tranquilo y concentrado en situaciones estresantes y es brillante en la gestión de otros desarrolladores. El equipo lo busca como guía y él muestra verdaderas cualidades de liderazgo. Su conocimiento sobre todo lo digital y la industria lo convierten en un activo valioso en cualquier equipo. Joan es un maestro ágil!"*
 
-Core Value: **Creativity**
-Nominator: [Yandis Ying](https://www.linkedin.com/in/yandis) (Creative Director at SapientNitro)
-Date: 29-Sep-2015
+Valor: **Creatividad**
+Nominador: [Yandis Ying](https://www.linkedin.com/in/yandis) (Director creativo en SapientNitro)
+Fecha: 29-sep-2015
 
-*"Pach is a very creative and design-aware developer, his motion coding skills is unreal and really had inspired the UX, Design and his FE team digital team and of course clients. As a person he is so easy to work with for he's polite, well mannered and focussed on getting the job done. He had lots of great ideas which really add values to the experiences. He created the ‘Curtains Up’ motion transition on the Dove 2.0 homepage which everyone in the team and the clients love. Pach’s contagious enthusiasm contribution making my time on Dove 2.0 a delight. I am sure everyone will agree that it was truly a pleasure working Pach!"*
+*"Joan es un desarrollador muy creativo y consciente del diseño, sus habilidades de programación de animaciones son irreales y realmente inspiraron al equipo digital de UX, Design y su equipo de FE y, por supuesto, a los clientes. Como persona, es muy fácil trabajar con él porque es cortés, bien educado y enfocado en hacer el trabajo. Tenía muchas ideas geniales que realmente agregan valor a las experiencias. Creó la transición de movimiento 'Cortinas arriba' en la página de inicio de Dove 2.0 que a todos en el equipo y a los clientes les encanta. La contribución del entusiasmo contagioso de Joan hizo que mi tiempo en Dove 2.0 fuera una delicia. ¡Estoy segura de que todos estarán de acuerdo en que fue realmente un placer trabajar con Joan!"*
 
-Core Value: **Creativity**
-Nominator: [Angie Yuanmalai](https://www.linkedin.com/in/angie-yuanmalai-09bbb9a) (Design Manager at SapientNitro)
-Date: 17-Sep-2015
+Valor: **Creatividad**
+Nominador: [Angie Yuanmalai](https://www.linkedin.com/in/angie-yuanmalai-09bbb9a) (Manager de diseño en SapientNitro)
+Fecha: 17-sep-2015
 
-*"For me creativity is the ability to solve a problem but in a way that delights people in new and different perspectives. We tend to forget that creativity takes on many forms and in this case, Pach has rightfully reminded me so. Pach has been an absolute joy to work with. Where an animation or difficult task is presented, the usual response from developers would be a quizzical look and a shake of the head. Pach has been nothing but enthusiastic to tackle animations and other challenges full on, constantly coming up with better, improved solutions to the code and researches and suggests his own ground breaking ideas on animations and possible renditions to the creative work. On top of this, he has stepped in as a wonderful and reliable leader within the team and displayed commendable organisational and management skills. Finding a developer than can code exceptionally is very, very difficult, but finding one that also has wonderful people and leadership skills that greets problems with smiles is practically impossible - I'm so glad we've got Pach in the company. He has been an invaluable asset to the team and I couldn't stop singing his praises. If anyone deserves this award it would definitely be Pach."*
+*"Para mí, la creatividad es la capacidad de resolver un problema, pero de una manera que deleita a las personas con perspectivas nuevas y diferentes. Tendemos a olvidar que la creatividad adopta muchas formas y, en este caso, Joan me lo ha recordado con razón. Ha sido un placer absoluto trabajar con él. Cuando se presenta una animación o una tarea difícil, la respuesta habitual de los desarrolladores sería una mirada burlona y un movimiento de cabeza. Joan ha sido más que entusiasta para abordar animaciones y otros desafíos completos, constantemente viniendo con soluciones mejores y mejoradas para el código. Investiga y sugiere sus propias ideas innovadoras sobre animaciones y posibles versiones del trabajo creativo. Además de esto, ha intervenido como un líder maravilloso y confiable dentro del equipo y ha mostrado una organización encomiable con sus habilidades de gestión. Encontrar un desarrollador que pueda programar excepcionalmente es muy, muy difícil, pero encontrar uno que también sea una persona maravillosa, tenga habilidades de liderazgo y solucione los problemas ingeniosamente con sonrisas es prácticamente imposible - Estoy muy contenta de que tengamos a Joan en la compañía. Ha sido un activo de gran valor para el equipo y no podía dejar de mencionar sus alabanzas. Si alguien merece este premio, definitivamente es Joan".*
 
-Core Value: **People Growth**
-Nominator: [Shaun Wallace](https://www.linkedin.com/in/wallaceshaun) (Senior Developer at SapientNitro)
-Date: 01-Dec-2014
+Valor: **Crecimiento de personas**
+Nominador: [Shaun Wallace](https://www.linkedin.com/in/wallaceshaun) (Desarrollador sénior en SapientNitro)
+Fecha: 01-dic-2014
 
-*"I have only been a part of the development team here in London for a few weeks but I have seen on multiple occasions Joan's committed efforts in building up and training others within our team. He has worked hard to share his level on knowledge with others more junior than himself while remaining teachable and working to grow his own skills. He continues to provide important feedback with regards to developmental processes and the work of others. I have seen his effort over the last few weeks, even while on the bench, enable others to learn and grow in their skills and he has brought people into his research efforts and helped to grow our team."*
+*"Solo he sido parte del equipo de desarrollo aquí en Londres durante unas pocas semanas, pero he visto en múltiples ocasiones los esfuerzos comprometidos de Joan por desarrollar y capacitar a otros dentro de nuestro equipo. Ha trabajado duro para compartir su nivel de conocimiento con otros más jóvenes que él a la vez que aprende de otros y trabaja para desarrollar sus propias habilidades. Continúa brindando comentarios importantes con respecto a los procesos de desarrollo y el trabajo de los demás. He visto su esfuerzo en las últimas semanas. Permite que otros aprendan y crezcan en sus habilidades y él ha atraído a personas a sus esfuerzos de investigación y ha ayudado a hacer crecer nuestro equipo".*
 
-Core Value: **Client focus delivery**
-Nominator: [Josep Manen](https://www.linkedin.com/in/joseplluismanen) (Artist and Sound Designer at TensionStudio)
-Date: 04-Oct-2015
+Valor: **Entrega enfocada en el cliente**
+Nominador: [Josep Manen](https://www.linkedin.com/in/joseplluismanen) (Artista y diseñador de sonido en TensionStudio)
+Fecha: 04-oct-2015
 
-*"There is a special thing that I love from Joan, he is extremely amazing caching the fist idea from your project included in a difficult steps, changes or corrections. Your company will be blessed with an amazing programmer."*
+*"Hay algo especial que me encanta de Joan, es extremadamente asombroso como captura la idea principal del proyecto, incluidos los cambios o correcciones difíciles. Su empresa será bendecida con un programador increíble".*
 
-Core Value: **Client focus delivery**
-Nominator: [Jose Luis Marron](https://www.linkedin.com/in/joseluismarron) (Account Director at Narcea Multimedia)
-Date: 22-Feb-2009
+Valor: **Entrega enfocada en el cliente**
+Nominador: [Jose Luis Marron](https://www.linkedin.com/in/joseluismarron) (Director de proyectos en Narcea Multimedia)
+Fecha: 22-feb-2009
 
-*"He is a great person to work with, always gets the work done and on time. I will hire him again for other projects."*
+*"Es una gran persona con quien trabajar, siempre hace el trabajo a tiempo. Lo volveré a contratar para otros proyectos".*
 
-Core Value: **Creativity**
-Nominator: [Tuesday Gutierrez](https://www.linkedin.com/in/tuesdaygutz) (Art blogger at Momardi.com)
-Date: 29-Sep-2008
+Valor: **Creatividad**
+Nominador: [Tuesday Gutierrez](https://www.linkedin.com/in/tuesdaygutz) (bloguera de arte en Momardi.com)
+Fecha: 29-sep-2008
 
-*"Joan is a multimedia guru. Always pushing the boundaries of his pixel-focused mind, Joan never runs out of creative ideas and the enthusiasm to get things done. He is full of passion for his craft."*
+*"Joan es un gurú multimedia. Siempre empujando los límites de su mente enfocada en píxeles. Joan nunca se queda sin ideas creativas y el entusiasmo para hacer las cosas. Está lleno de pasión por su oficio".*
 
-Core Value: **Client focus delivery**
-Nominator: [Carlos Ocaña](https://www.linkedin.com/in/carlosocanaui) (Graphic designer at Slater Labs)
-Date: 30-Sep-2008
+Valor: **Entrega enfocada en el cliente**
+Nominador: [Carlos Ocaña](https://www.linkedin.com/in/carlosocanaui) (Diseñador gráfico en Slater Labs)
+Fecha: 30-Sep-2008
 
 *"Joan es una persona seria y responsable, ante la aparición de cualquier problema o duda no para hasta obtener la solución al mismo. En definitiva es una persona con gran talento."*
+</div>
+</div>
+</div>

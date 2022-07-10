@@ -29,6 +29,10 @@
   border-radius: 3px;
 }
 
+.red-tag { background-color: #C76D72; }
+.gold-tag { background-color: #C19F92; }
+.blue-tag { background-color: #5C93AB; }
+
 .btn {
   box-sizing: content-box;
   margin-bottom: 5px;
@@ -132,4 +136,34 @@ blockquote p {
   width: auto;
   display: inline-block;
   margin-bottom: 0;
+}
+
+#modal-lang {
+  display: none;
+  width: 100%;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  color: black;
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+[data-theme="dark"] #modal-lang {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.modal-lang-buttons {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+}
+
+.modal-lang-buttons a {
+  margin-right: 4px;
+}
+
+.modal-lang-buttons button {
+  margin: 0;
 }

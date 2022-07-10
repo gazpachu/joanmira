@@ -2,6 +2,7 @@
   "site_name": "Joan Mira Studio",
   "site_description": "Modern Software Engineering & UI/UX Design",
   "date_format": "en-GB",
+  "change_lang": "¿Cambiar a Español?",
   "nav": {
     "blog": "Blog",
     "about": "About",
@@ -42,6 +43,7 @@
   "homepage": {
     "title": "Software Engineering & UI/UX Design",
     "watch_video": "Watch the intro video",
+    "coming_soon": "Coming soon",
     "contact": "Contact\nor connect",
     "latest": "Last Project",
     "latest_project": "TableCheck Diner App (Tokyo, Japan)",
