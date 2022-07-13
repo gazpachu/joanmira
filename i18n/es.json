@@ -36,13 +36,16 @@
     "literature": "Literatura"
   },
   "work_categories": {
-    "all": "Todas",
+    "all": "Todos",
     "web": "Página web",
     "web_app": "Applicación web",
     "mobile": "Applicación móvil",
     "desktop": "Applicación de escritorio",
     "creative_tech": "Tecnología creativa",
     "open_source": "Código abierto"
+  },
+  "project": {
+    "tags": "Etiquetas"
   },
   "homepage": {
     "title": "Ingeniería de Software y Diseño UI/UX",

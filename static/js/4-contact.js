@@ -4,17 +4,17 @@ document.addEventListener("DOMContentLoaded", function () {
     
   async function handleSubmit(event) {
     event.preventDefault();
-    button.setAttribute('disabled', '');
+    button.setAttribute('aria-busy', true);
     const status = document.getElementById('contact-form-status');
     const data = new FormData(event.target);
-    fetch(event.target.action, {
-      method: form.method,
+    fetch('/', {
+      method: 'POST',
       body: data,
       headers: {
         'Accept': 'application/json'
       }
     }).then(response => {
-      button.removeAttribute('disabled');
+      button.removeAttribute('aria-busy');
       if (response.ok) {
         status.innerHTML = status.getAttribute('data-thanks');
         form.reset()
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     }).catch(error => {
       status.innerHTML = status.getAttribute('data-error');
-      button.removeAttribute('disabled');
+      button.removeAttribute('aria-busy');
     });
   }
   if (form) form.addEventListener("submit", handleSubmit);

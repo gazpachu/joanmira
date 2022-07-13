@@ -29,14 +29,15 @@ title: Contacto
 <div class="flex">
   <form
     id="contact-form"
-    action="https://formspree.io/f/xwkydrpz"
-    method="POST"
+    netlify
     class="form"
   >
     <label for="name">Nombre</label>
     <input type="text" id="name" name="name" placeholder="Nombre" required>
     <label for="email">Email</label>
     <input type="email" id="email" name="email" placeholder="Email" required>
+    <label>Adjuntar un archivo (máx. 8 MB)</label>
+    <input type="file" name="upload">
     <label for="message">Mensaje</label>
     <textarea name="message" id="message" placeholder="Mensaje" required></textarea>
     <button type="submit" id="contact-form-button">Enviar</button>
@@ -44,10 +45,12 @@ title: Contacto
   </form>
 <div>
 
-hello@joanmira.com
+Para **solicitar un presupuesto**, por favor incluye en el mensaje información de la empresa y el proyecto, tu CV o perfil en LinkedIn y  disponibilidad para una reunión online.
 
-Si estás interesado en colaborar en algún proyecto, envía un mensaje con tu CV o perfil en LinkedIn y los horarios disponibles para hablar. ¡Muchas gracias!
+Si **buscas trabajo** o estás interesado en **colaborar en algún proyecto**, por favor incluye en el mensaje tu CV o perfil en LinkedIn y disponibilidad para una reunión online.
 
 Para preguntas relacionadas con proyectos de código abierto, por favor crea un "issue" en el [repositorio de Github](https://github.com/gazpachu) o [blog post](/es/blog) pertinente.
+
+¡Muchas gracias! • hello@joanmira.com
 </div>
 </div>

@@ -44,6 +44,9 @@
     "creative_tech": "Creative Tech",
     "open_source": "Open Source"
   },
+  "project": {
+    "tags": "Tags"
+  },
   "homepage": {
     "title": "Software Engineering & UI/UX Design",
     "watch_video": "Watch the intro video",
