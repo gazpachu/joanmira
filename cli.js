@@ -45,6 +45,27 @@ const feed = new Feed({
   }
 });
 
+const renderer = {
+  image(href, title, text) {
+    if (!href.endsWith(`.svg`)) {
+      return `
+      <figure>
+        <picture>
+          <source media="(min-width: 769px)" type="image/webp" srcset="${href.replace('.jpg', '.webp')}" />
+          <source media="(min-width: 769px)" type="image/jpeg" srcset="${href}" />
+          <source media="(min-width: 320px)" type="image/webp" srcset="${href.replace('.jpg', '-mobile.webp')}" />
+          <source media="(min-width: 320px)" type="image/jpeg" srcset="${href.replace('.jpg', '-mobile.jpg')}" />
+          <img class="image" src="${href}" alt="${title || text}" loading="lazy">
+        </picture>
+        <figcaption>${title || text}</figcaption>
+      </figure>`;
+    }
+    return false;
+  }
+};
+
+marked.use({ renderer });
+
 switch (command) {
   case 'build':
     build(scriptArgs[1]);

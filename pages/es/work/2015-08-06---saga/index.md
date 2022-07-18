@@ -1,28 +1,28 @@
 ---
-title: "Saga car insurance mobile journey case study"
+title: Saga car insurance mobile journey case study
 cover: "images/logo.jpg"
-location: UK
+location: Reino Unido
 color: "#009bde"
 categories: sapientnitro web forms inverted
 template: project
 ---
 
-SAGA and SapientNitro worked together in a new mobile journey for SAGA's car insurance service. As part of the development team, I took responsibility of the front-end, working together with a junior developer and a senior manager to implement the new designs.
+SAGA y SapientNitro trabajaron juntos en un nuevo formulario móvil para el servicio de seguros de automóviles de SAGA. Como parte del equipo de desarrollo, asumí la responsabilidad del front-end, trabajando junto con un desarrollador junior y un manager senior para implementar los nuevos diseños.
 
-![Content coming soon.](/work/saga/images/0.png)
+![](/work/saga/images/0.png)
 
-One of the constraints that we had to face, was the Microsoft .Net tech stack. We were not experienced with .Net, but quickly learned the basics around Microsoft Visual Studio and the development environment to start adapting the mobile views from their MVC application.
+Una de las limitaciones a las que tuvimos que enfrentarnos fue la tecnología de Microsoft .Net. No teníamos experiencia con .Net, pero rápidamente aprendimos los fundamentos en torno a Microsoft Visual Studio y el entorno de desarrollo para empezar a adaptar las vistas móviles de su aplicación MVC.
 
-At some points, when we were working in the address lookup or the addons, we also had to tweak the controllers to make them more flexible and allow us to implement the new designs.
+En algunos momentos, cuando trabajábamos en la búsqueda de direcciones o en los plugins, también tuvimos que ajustar los controladores para hacerlos más flexibles y permitirnos implementar los nuevos diseños.
 
-The date picker component was also an interesting challenge, mostly due to the fact that we couldn't use the native HTML date pickers for Android and iOS. The W3C set a very strict date format, which if you wanted to use, it would have meant we had to rewrite a big portion of the application. Therefore, we decided to use [pickadate.js](http://amsul.ca/pickadate.js/), which turned out to be very nice and fun to work with.
+El componente del selector de fecha también fue un reto interesante, sobre todo porque no podíamos utilizar los selectores de fecha nativos de HTML para Android e iOS. El W3C establece un formato de fecha muy estricto, que si se quería utilizar, habría significado que teníamos que reescribir una gran parte de la aplicación. Por lo tanto, decidimos utilizar [pickadate.js](http://amsul.ca/pickadate.js/), que resultó ser muy agradable y divertido de trabajar.
 
 ![](/work/saga/images/1.png)
 
-The input fields are also quite innovative in the way their labels resize within the inputs and dropdowns. This gives the customer a better UX, allowing them to know at all times the name of the fields whilst optimising the space.
+Los campos de entrada también son bastante innovadores en la forma en que sus etiquetas cambian de tamaño dentro de las entradas y los desplegables. Esto proporciona al cliente un mejor UX, permitiéndole conocer en todo momento el nombre de los campos y optimizando el espacio.
 
-The journey was divided also in collapsable sections, which helps the user to focus their attention in a step-by-step fashion. This makes the process easier to digest.
+El recorrido se ha dividido también en secciones colapsables, lo que ayuda al usuario a centrar su atención paso a paso. Esto hace que el proceso sea más fácil de digerir.
 
-From a front-end perspective, we also implemented form validation, responsive sliders, scrollable overlays, navigation animations and other custom form elements.
+Desde la perspectiva del front-end, también implementamos la validación de formularios, los sliders responsivos, las superposiciones desplazables, las animaciones de navegación y otros elementos de formulario personalizados.
 
 ![](/work/saga/images/2.jpg)

@@ -1,5 +1,5 @@
 ---
-title: "Starpach"
+title: Starpach
 cover: "images/logo.png"
 location: Spain
 color: "#487F99"
@@ -14,6 +14,6 @@ template: project
 
 ![](/work/starpach/images/1.png)
 
-This is my own interpretation of the classic asteroids game, which I called `starpach`. It uses [Phaser](https://phaser.io/) as the game engine. The asteroids and the soundtrack were made by the artist (and friend) Josep Manen.
+This is my interpretation of the classic asteroids game, which I called `starpach`. It uses [Phaser](https://phaser.io/) as the game engine. The asteroids and the soundtrack were made by the artist (and friend) Josep Manen.
 
-The game was featured in the homepage of this website (joanmira.com) until January 2019.
+The game was featured on the homepage of this website (joanmira.com) until January 2019.

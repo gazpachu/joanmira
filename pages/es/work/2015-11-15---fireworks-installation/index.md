@@ -1,49 +1,49 @@
 ---
-title: "SapientNitro Fireworks installation"
+title: Instalación de fuegos artificiales en SapientNitro
 cover: "images/logo.png"
-location: UK
+location: Reino Unido
 color: "#58B85F"
 categories: sapientnitro prototype design kinect openni openframeworks creative-tech inverted open-source
 template: project
 ---
 
 <p class="align-center">
-<a class="btn github" role="button" href="https://github.com/gazpachu/fireworks" target="_blank">Source code</a>
+<a class="btn github" role="button" href="https://github.com/gazpachu/fireworks" target="_blank">Código fuente</a>
 </p>
 
 <iframe width="100%" height="550" src="https://www.youtube.com/embed/pgPIYp36Miw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## A Kinect driven hand tracking experiment
+## Un experimento de seguimiento de manos con Kinect
 
-The aim of this experiment is to showcase the hand tracking capabilities of an Xbox Kinect camera connected to a computer.  Using a simple vertical hand gesture recognition, the app is able to create multiple fireworks along the horizontal axis which get fired from the bottom of the screen.
+Este experimento pretende mostrar las capacidades de seguimiento de la mano de una cámara Kinect de Xbox conectada a un ordenador.  Utilizando un simple reconocimiento de gestos verticales de la mano, la aplicación puede crear múltiples fuegos artificiales a lo largo del eje horizontal que se disparan desde la parte inferior de la pantalla.
 
-To increase the dynamism of the experiment, the app uses random values for the fireworks colours, trail size, gravity, amount of particles, fading, damping, etc...
+Para aumentar el dinamismo del experimento, la app utiliza valores aleatorios para los colores de los fuegos artificiales, el tamaño de la estela, la gravedad, la cantidad de partículas, el desvanecimiento, la amortiguación, etc.
 
-To maximise the audiovisual appeal, the app also features these techniques:
+Para maximizar el atractivo audiovisual, la aplicación también cuenta con estas técnicas:
 
-- 2D Skybox with a seamless background texture
-- Parallax effect (some clouds moving faster than the sky)
-- Base soundtrack playing in a loop and 7 different sound effects, including a crowd of people cheering after a rich round of continuous fireworks
-- Dynamic blur effect using shaders for the hand calibration overlay
+- Skybox 2D con una textura de fondo sin fisuras
+- Efecto tipo parallax (algunas nubes se mueven más rápido que el cielo)
+- Banda sonora de base que se reproduce en bucle y 7 efectos de sonido diferentes, incluida una multitud de personas que aplauden tras una buena ronda de fuegos artificiales continuos
+- Efecto de desenfoque dinámico utilizando shaders para la superposición de la calibración de la mano
 
 ![](/work/fireworks-installation/images/fireworks-experiment.jpg)
 
-## Tech used
+## Tecnología utilizada
 
-This app has been coded in an Apple MacBook, using the Xcode IDE. The programming language used is C++ and the main library is OpenFrameworks, a set of open source tools widely used around the world for artistic installations and creative applications.
+Esta aplicación ha sido programada en un MacBook de Apple, utilizando el IDE Xcode. El lenguaje de programación utilizado es C++ y la biblioteca principal es OpenFrameworks, un conjunto de herramientas de código abierto ampliamente utilizado en todo el mundo para instalaciones de arte y aplicaciones creativas.
 
-There are also a few OF add-ons worth mentioning:
+También hay algunos plugins de OF que vale la pena mencionar:
 
-- **ofxKinect**: an API/Interface to interact with Kinect from OF
-- **ofxOpenNI**: a wrapper for OpenNI (for the hand tracking logic)
-- **ofxBlur**: for the blur functionality
+- **ofxKinect**: una API/interfaz para interactuar con Kinect desde OF
+- **ofxOpenNI**: una envoltura para OpenNI (para la lógica de seguimiento de la mano)
+- **ofxBlur**: para la funcionalidad de desenfoque
 
-All the images and sounds have been obtained from free stock repositories.
+Todas las imágenes y sonidos se han obtenidos de repositorios de stock gratuitos.
 
-This app can be adapted to any screen size and it works in both, landscape and portrait mode. It can also work in Windows and Linux, although a Mac (with a decent CPU) is preferred due to a higher support by the community.
+Esta aplicación se puede adaptar a cualquier tamaño de pantalla y funciona tanto en modo horizontal como vertical. También puede funcionar en Windows y Linux, aunque es preferible un Mac (con una CPU decente) debido al mayor apoyo de la comunidad.
 
-Note: Kinect cameras cannot be connected to mobile devices or tablets, although their touch screen can be used as controllers for similar apps.
+Nota: las cámaras Kinect no pueden conectarse a dispositivos móviles o tabletas, aunque su pantalla táctil puede utilizarse como controladores para aplicaciones similares.
 
-The demo was installed in Eden House’s exhibit area (SapientNitro's office) to allow visitors and employees to use it.
+La demo se instaló en la zona de exposiciones de Eden House (la oficina de SapientNitro) para que los visitantes y empleados pudieran utilizarla.
 
-![](/work/fireworks-installation/images/1.jpg "Wall installation")
+![](/work/fireworks-installation/images/1.jpg "Lugar de la instalación")

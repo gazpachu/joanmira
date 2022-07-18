@@ -1,19 +1,19 @@
 ---
-title: "Starpach"
+title: Starpach
 cover: "images/logo.png"
-location: Spain
+location: España
 color: "#487F99"
 categories: web ux design game phaser creative-tech inverted open-source
 template: project
 ---
 
 <p class="align-center">
-<a class="btn external" role="button" href="https://work.joanmira.com/interactive/starpach/" target="_blank">Launch Game</a>
-<a class="btn github" role="button" href="https://github.com/gazpachu/work/tree/master/interactive/starpach" target="_blank">Source Code</a>
+<a class="btn external" role="button" href="https://work.joanmira.com/interactive/starpach/" target="_blank">Lanzar juego</a>
+<a class="btn github" role="button" href="https://github.com/gazpachu/work/tree/master/interactive/starpach" target="_blank">Código fuente</a>
 </p>
 
 ![](/work/starpach/images/1.png)
 
-This is my own interpretation of the classic asteroids game, which I called `starpach`. It uses [Phaser](https://phaser.io/) as the game engine. The asteroids and the soundtrack were made by the artist (and friend) Josep Manen.
+Esta es mi interpretación del clásico juego de los asteroides, al que llamé `starpach`. Utiliza [Phaser](https://phaser.io/) como motor del juego. Los asteroides y la banda sonora fueron realizados por el artista (y amigo) Josep Manen.
 
-The game was featured in the homepage of this website (joanmira.com) until January 2019.
+El juego apareció en la página principal de este sitio web (joanmira.com) hasta enero de 2019.

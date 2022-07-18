@@ -1,7 +1,7 @@
 ---
-title: "Commit"
+title: Commit
 cover: "images/logo.png"
-location: UK
+location: Reino Unido
 color: "#333"
 categories: vodafone react redux webpack web-app inverted
 template: project
@@ -15,13 +15,13 @@ template: project
 }
 </style>
 
-Commit is a sales forecasting capture tool that replaces manual forecasting processes. It gathers and displays committed opportunities in one place.
+Commit es una herramienta de captura de previsiones de ventas que sustituye los procesos de previsión manuales. Reúne y muestra las oportunidades de venta comprometidas en un solo lugar.
 
-![](/work/commit/images/1.png "Home page")
+![](/work/commit/images/1.png "Página de inicio")
 
-In this project, I was in charge of restyling most part of the front-end and I helped to another co-worker to build the rest of it.
+En este proyecto, me encargué de rediseñar la mayor parte del front-end y ayudé a otro compañero de trabajo a construir el resto.
 
-From a UI perspective, Commit is quite a straight-forward app. Perhaps, one of the most interesting aspects, would be the animated SVG radial charts that I had to build for the summary section in the header. The rest of the UI is just composed of a tabs component with a table on each tab, a top nav with several drop-downs and some colorful boxes. The app is also fully responsive.
+Desde la perspectiva de la interfaz de usuario, Commit es una aplicación bastante sencilla. Tal vez, uno de los aspectos más interesantes serían los gráficos radiales SVG animados que tuve que construir para la sección de resumen en la cabecera. El resto de la interfaz de usuario se compone simplemente de un componente de pestañas con una tabla en cada pestaña, una navegación superior con varios desplegables y algunas cajas de colores. La aplicación también es totalmente responsiva.
 
 <p style="text-align: center">
   <img class="loader" src="/work/commit/images/loader.gif" alt="laoder" />

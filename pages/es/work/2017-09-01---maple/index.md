@@ -1,20 +1,20 @@
 ---
-title: "Maple"
+title: Maple
 cover: "images/logo.png"
-location: UK
+location: Reino Unido
 color: "#5c6ab4"
 categories: vodafone vue vuex webpack material-ui web-app design ux inverted
 template: project
 ---
 
-Maple is an app to manage the sales hierarchy in Vodafone. It allows to add new employees, assign them roles and targets and move them under new teams.
+Maple es una aplicación para gestionar la jerarquía de ventas en Vodafone. Permite añadir nuevos empleados, asignarles funciones, objetivos y moverlos a nuevos equipos.
 
-![](/work/maple/images/1.png "Home page")
+![](/work/maple/images/1.png "Página de inicio")
 
-In this project, I owned the 100% of the front-end build until it was published. Later on, I worked in a couple of more journeys (joiners/leavers, change teams) and features with another co-worker.
+En este proyecto, me hice cargo del 100% de la construcción del front-end hasta su publicación. Más tarde, trabajé en un par de nuevas funcionalidades más (entradas/salidas, cambio de equipos) con otro compañero de trabajo.
 
-Maple was built using VueJS, Vuex (to manage the global state) and the Material-UI library for Vue. It also uses a library called [OrgChart](https://github.com/dabeng/OrgChart) to build the organigram in the homepage. I also added a chatbot with speech recognition powered by [Dialogflow](https://dialogflow.com/) (formerly known as Api.ai).
+Maple fue construido usando VueJS, Vuex (para gestionar el estado global) y la biblioteca Material-UI para Vue. También utiliza una biblioteca llamada [OrgChart](https://github.com/dabeng/OrgChart) para construir el organigrama en la página de inicio. También añadí un chatbot con reconocimiento de voz impulsado por [Dialogflow](https://dialogflow.com/) (antes conocido como Api.ai).
 
-![](/work/maple/images/2.jpg "Adding a new employee")
+![](/work/maple/images/2.jpg "Añadiendo un nuevo empleado")
 
-![](/work/maple/images/3.jpg "Targets")
+![](/work/maple/images/3.jpg "Objetivos")

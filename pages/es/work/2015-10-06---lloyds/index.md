@@ -1,7 +1,7 @@
 ---
-title: "Lloyds Bank microsite"
+title: Lloyds Bank microsite
 cover: "images/logo.jpg"
-location: UK
+location: Reino Unido
 color: "#006a4c"
 categories: sapientnitro web prototype wordpress inverted
 template: project
@@ -10,14 +10,14 @@ template: project
 
 ![](/work/multi-device-top-secret.png)
 
-As part of SapientNitro's pitching activities with Lloyds Bank, I was asked to build a microsite to encapsulate all the information, documents, videos and event logs.
+Como parte de las actividades de pitching de SapientNitro con Lloyds Bank, me pidieron que construyera un micrositio para encapsular toda la información, documentos, vídeos y registros de eventos.
 
-From a dev perspective, the project was quite simple, but we had to be sure the website was secure and IE7 compatible, which always complicates things a little bit.
+Desde el punto de vista del desarrollo, el proyecto era bastante sencillo, pero teníamos que asegurarnos de que el sitio web fuera seguro y compatible con IE7, lo que siempre complica un poco las cosas.
 
-The website was based on a responsive HTML5 template called [Canvas](http://themes.semicolonweb.com/html/canvas/intro.php), which we used to quickly layout the different sections.
+El sitio web se basó en una plantilla HTML5 responsiva llamada [Canvas](http://themes.semicolonweb.com/html/canvas/intro.php), que utilizamos para maquetar rápidamente las distintas secciones.
 
-After a few days, we decided to adapt the static website and transform it into a Wordpress theme to allow a more developer-independent content update.
+Al cabo de unos días, decidimos adaptar el sitio web estático y transformarlo en un tema de WordPress para permitir una actualización de contenidos más independiente del desarrollador.
 
-SapientNitro finally won the pitch ;-)
+Finalmente, SapientNitro ganó el concurso ;-)
 
-<i>Apologies for not displaying any media, but all the files, images, videos and documents are confidential.</i>
+<i>Disculpas por no mostrar ningún medio, pero todos los archivos, imágenes, vídeos y documentos son confidenciales.</i>

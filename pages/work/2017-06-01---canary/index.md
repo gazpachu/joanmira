@@ -1,5 +1,5 @@
 ---
-title: "Canary"
+title: Canary
 cover: "images/logo.png"
 location: UK
 color: "#f5c95f"
@@ -13,11 +13,11 @@ template: project
 }
 </style>
 
-Canary is an app that allows a quick way to see which Vodafone products can be sold around the World. Some countries have restrictions or legal implications. It also combines Legal, Bid and Pre-sales information to prequalify products.
+Canary is an app that allows a quick way to see which Vodafone products can be sold around the World. Some countries have restrictions or legal implications. It also combines Legal, Bid and Pre-sales information to prequalified products.
 
 ![](/work/canary/images/1.png "Home page")
 
-In this project, I owned the 100% of the front-end build and I collaborated with the team manager and a designer to conceptualise the features and the design. Before coming up with the final design, I also built a couple of prototypes and even a React Native demo!.
+In this project, I owned 100% of the front-end build and I collaborated with the team manager and a designer to conceptualize the features and the design. Before coming up with the final design, I also built a couple of prototypes and even a React Native demo!.
 
 The home page displays a horizontal scrolling grid matching countries with services. Each cell contains colorful dots representing the availability of a service in that country. The sidebar allows to user to enable/disable countries whilst the portfolio category bar allows the user to enable/disable products in the grid. This UI makes it very easy for users to compare services in different countries.
 

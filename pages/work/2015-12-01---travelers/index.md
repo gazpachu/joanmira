@@ -1,5 +1,5 @@
 ---
-title: "Travelers website"
+title: Travelers website
 cover: "images/logo.jpg"
 location: UK
 color: white
@@ -13,7 +13,7 @@ Due to the nature of the business (it handles sensitive data), we were asked to 
 
 ![](/work/travelers/images/1.png)
 
-The journey is basically a chain of complex forms, which are navigated using a timeline and next/previous buttons. Some parts of the business logic were a but tricky, which turned out to be challenging to solve from a UX point of view, but after many tests, we got it right, which means more success for our client and a better experience for his customers.
+The journey is a chain of complex forms, which are navigated using a timeline and next/previous buttons. Some parts of the business logic were tricky, which turned out to be challenging to solve from a UX point of view, but after many tests, we got it right, which means more success for our client and a better experience for his customers.
 
 ![](/work/travelers/images/2.jpg)
 

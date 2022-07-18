@@ -17,12 +17,14 @@
 - Dark mode support
 - All icons are SVG
 - Dynamic image resizing and conversion to WebP with Sharp
+- Load WebP responsive images in the markdown files
 - Includes 301 redirects
 - Hosting and DNS in Netlify
 - Custom 404 error page
 - Posthog integration and data capture modal consent
 - OG meta tags and favicons
 - Set the HTML lang attribute based on the content language
+- Multi-language support. Currently English and Spanish
 - Hot browser reloading in development mode (still need to reload the browser)
 - Support for light/dark code syntax highlighting
 
@@ -30,7 +32,6 @@
 
 - A minimal admin area (CMS) to edit/publish stories
 - Preloaded URLs (like Gatsby)
-- Convert images in the markdown files to WebP
 - Blog posts belonging to several categories (low priority)
 
 ## Run it locally

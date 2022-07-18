@@ -32,7 +32,7 @@ title: Curriculum Vitae
 </style>
 <div class="post">
 
-## Última actualización en Marzo de 2022
+## Última actualización en Julio de 2022
 
 <div class="body">
 <div class="sidebar">
@@ -60,10 +60,10 @@ Manager de ingeniería front-end y programador **creativo** con una habilidad es
 
 ### Logros destacados
 
-* Espíritu emprendedor. Comenzó a trabajar a los 17 años y [cofundó una pequeña agencia digital](/es/work/webmarket) a los 26 años
-* Actitud internacional y multicultural: ha vivido en [Barcelona](https://es.wikipedia.org/wiki/Barcelona), [Alicante](https://es.wikipedia.org/wiki/Alicante), [Madrid ](https://es.wikipedia.org/wiki/Madrid), [Londres](https://es.wikipedia.org/wiki/Londres) y [Tokio](https://es.wikipedia.org/wiki/Tokio). También un poco en París y Manila
-* Habla español, [valenciano](https://es.wikipedia.org/wiki/Idioma_valenciano) e inglés. Aprendiendo japonés
-* Viajó en una [aventura en moto autoorganizada](/samurai-route) por todo el mundo, desde España hasta Japón (5 meses y 30.000 km)
+* Espíritu emprendedor. Comencé a trabajar a los 17 años y [cofundé una pequeña agencia digital](/es/work/webmarket) a los 26 años
+* Actitud internacional y multicultural: he vivido en [Barcelona](https://es.wikipedia.org/wiki/Barcelona), [Alicante](https://es.wikipedia.org/wiki/Alicante), [Madrid ](https://es.wikipedia.org/wiki/Madrid), [Londres](https://es.wikipedia.org/wiki/Londres) y [Tokio](https://es.wikipedia.org/wiki/Tokio). También un poco en París y Manila
+* Hablo español, [valenciano](https://es.wikipedia.org/wiki/Idioma_valenciano) e inglés. Aprendiendo japonés
+* Viajé en una [aventura en moto autoorganizada](/samurai-route) por todo el mundo, desde España hasta Japón (5 meses y 30.000 km)
 
 ### Habilidades principales
 
@@ -74,17 +74,17 @@ Manager de ingeniería front-end y programador **creativo** con una habilidad es
 - Creatividad y pensamiento analítico
 - Gestión de proyectos y personas
 
-Sus intereses y habilidades están más alineadas con los **trabajos creativos** (el aspecto visual, artístico, interactivo y de UI/UX del area de front-end). Aunque también tiene experiencia y se siente cómodo con todos los demás aspectos, como tratar con APIs REST/GraphQL, SEO, tests unitarios o de integración, optimización del rendimiento, etc.
+Mis intereses y habilidades están más alineadas con los **trabajos creativos** (el aspecto visual, artístico, interactivo y de UI/UX del area de front-end). Aunque también tengo experiencia y me siento cómodo con todos los demás aspectos, como tratar con APIs REST/GraphQL, SEO, tests unitarios o de integración, optimización del rendimiento, etc.
 
-Actualmente, [ReactJS](https://facebook.github.io/react) y NodeJS son sus entornos de trabajo preferidos, pero también le gustaría obtener más experiencia con [Svelte](https://svelte.dev/), [WebGL](https://gist.github.com/dmnsgn/76878ba6903cf15789b712464875cfdc) y [WebVR](https://medium.freecodecamp.org/how-to-build-a-multiplayer-vr-web-app-7b989964fb38).
+Actualmente, [ReactJS](https://facebook.github.io/react) y NodeJS son mis tecnologías preferidas, pero también me gustaría obtener más experiencia con [Svelte](https://svelte.dev/), [WebGL](https://gist.github.com/dmnsgn/76878ba6903cf15789b712464875cfdc) y [WebVR](https://medium.freecodecamp.org/how-to-build-a-multiplayer-vr-web-app-7b989964fb38).
 
 #### Front-end
 
-Estas son algunas tecnologías y herramientas que ha usado en los últimos años:
+Estas son algunas tecnologías y herramientas que he usado en los últimos años:
 
 * Principales: [Typescript](https://en.wikipedia.org/wiki/TypeScript), [HTML5](https://en.wikipedia.org/wiki/HTML5), [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3)
-* Frameworks: [ReactJS](https://facebook.github.io/react). Ha usado [VueJS](https://vuejs.org) y [AngularJS](https://angularjs.org/) en el pasado, pero no volverá a hacerlo
-* Gestión del estado: [Redux](http://redux.js.org/), [xState](https://xstate.js.org/). Ha usado [Vuex](https://github.com/vuejs/vuex) y [MobX](https://mobx.js.org/) también en el pasado, pero no volverá a hacerlo
+* Frameworks: [ReactJS](https://facebook.github.io/react). He usado [VueJS](https://vuejs.org) y [AngularJS](https://angularjs.org/) en el pasado, pero no volveré a hacerlo
+* Gestión del estado: [Redux](http://redux.js.org/), [xState](https://xstate.js.org/). Ha usado [Vuex](https://github.com/vuejs/vuex) y [MobX](https://mobx.js.org/) también en el pasado, pero no volveré a hacerlo
 * CSS: [Emotion](https://emotion.sh), [Styled Components](https://styled-components.com), [LESS](http://lesscss.org/), [SASS](http://sass-lang.com/), [PostCSS](https://postcss.org/)
 * Librerías de componentes: [Storybook](https://storybook.js.org/), [Styleguidist](https://react-styleguidist.js.org/), [Material UI](https://material-ui.com/), [Vue Material](https://vuematerial.github.io/#/), [Bootstrap](http://getbootstrap.com/)
 * Otras librerías: [LernaJS](https://lerna.js.org/), [Apollo](https://www.apollographql.com), [FlowJS](https://flow.org/), [Axios](https://github.com/axios/axios), [Lodash](https://lodash.com/), [Husky](https://typicode.github.io/husky), [CommitLint](https://commitlint.js.org/), [Semantic Release](https://github.com/semantic-release/semantic-release), [date-fns](https://date-fns.org/), [Moment.js](https://momentjs.com/), [Showdown](https://github.com/showdownjs/showdown), [History](https://github.com/ReactTraining/history), [React Hook Forms](https://react-hook-form.com/), [Yup](https://github.com/jquense/yup), [Iframe resizer](https://github.com/davidjbradshaw/iframe-resizer), [ReactVis](https://uber.github.io/react-vis/), [Highcharts](http://www.highcharts.com/), [OrgChart](https://github.com/dabeng/OrgChart)
@@ -141,18 +141,18 @@ Estas son algunas tecnologías y herramientas que ha usado en los últimos años
 #### Manager global de ingeniería de front-end
 <span class="project-tag red-tag">Mar 2020 - Presente</span><a class="project-tag gold-tag" href="http://www.tablecheck.com/en/join/">TableCheck</a><span class="project-tag blue-tag">Ginza, Tokio (Japón)</span>
 
-* Actualmente lidera el equipo de front-end de TableCheck, que consta de 9 ingenieros de todos los niveles que trabajan en dos zonas horarias diferentes
+* Actualmente lidero el equipo de front-end de TableCheck, que consta de 9 ingenieros de todos los niveles que trabajan en dos zonas horarias diferentes
 
-* Supervisa y participa como contribuidor individual en las actualizaciones del sistema de diseño, la creación del nuevo formulario de reserva, el nuevo sitio web de marketing global, el nuevo portal de búsqueda de restaurantes, el SSO y el portal para los gestores de restaurantes
+* Superviso y participo como contribuidor individual en las actualizaciones del sistema de diseño, la creación del nuevo formulario de reserva, el nuevo sitio web de marketing global, el nuevo portal de búsqueda de restaurantes, el SSO y el portal para los gestores de restaurantes
 
 #### Ingeniero de front-end senior
 <span class="project-tag red-tag">Feb 2019 - Mar 2020</span><a class="project-tag gold-tag" href="http://www.tablecheck.com/en/join/">TableCheck</a><span class="project-tag blue-tag">Ginza, Tokio (Japón)</span>
 
-* Lideró con éxito la arquitectura front-end de insight, la aplicación de análisis de datos de TableCheck para el sector de la hostelería
+* Lideré con éxito la arquitectura front-end de insight, la aplicación de análisis de datos de TableCheck para el sector de la hostelería
 
-* Junto con el jefe de ciencia de datos y un equipo de 3 ingenieros de front-end y 3 ingenieros de back-end, crearon una de las aplicaciones de análisis más avanzadas de la industria para los clientes de TableCheck, como por ejemplo los hoteles Hilton, IHG Intercontinental, Hyatt, Westin u Okura
+* Junto con el jefe de ciencia de datos y un equipo de 3 ingenieros de front-end y 3 ingenieros de back-end, creamos una de las aplicaciones de análisis más avanzadas de la industria para los clientes de TableCheck, como por ejemplo los hoteles Hilton, IHG Intercontinental, Hyatt, Westin u Okura
 
-* Logró llevar el producto desde sus etapas iniciales de prototipo hasta su lanzamiento en agosto de 2019 en 3 idiomas: japonés, inglés y español. Desde entonces, continuó agregando nuevas funciones, idiomas y mejorando el rendimiento de la aplicación
+* Logré llevar el producto desde sus etapas iniciales de prototipo hasta su lanzamiento en agosto de 2019 en 3 idiomas: japonés, inglés y español. Desde entonces, continué agregando nuevas funciones, idiomas y mejorando el rendimiento de la aplicación
 
 * La tecnología de front-end incluía React 16, GraphQL, Apollo, MobX, Flow, Emotion, ReactVis, i18Next, Lokalise, ReactPDF, Lodash, MomentJS, el propio sistema de diseño de TableCheck y la biblioteca de componentes de la interfaz de usuario y otros módulos de NPM
 
@@ -163,21 +163,21 @@ Estas son algunas tecnologías y herramientas que ha usado en los últimos años
 
 * Conceptualización, diseño, construcción, testeo y soporte de aplicaciones web (principalmente SPAs) para las operaciones comerciales y digitales de la división Global Enterprise de Vodafone. Algunos de los prototipos estaban destinados a ayudar al equipo de ventas con la visualización de datos, el pronóstico de ingresos y ventas, la calidad de los datos, las oportunidades de ventas y otros datos relacionados con el rendimiento. Otros prototipos estaban más relacionados con las comunicaciones internas, la resolución de problemas y los recursos humanos
 
-* Trabajó el 95% del tiempo de forma remota desde diferentes países y usó herramientas como slack, github y skype para comunicarse y gestionar la metodología de trabajo ágil
+* Trabajé el 95% del tiempo de forma remota desde diferentes países y usé herramientas como slack, github y skype para comunicarme y gestionar la metodología de trabajo ágil
 
-* Colaboró con científicos de datos, analistas comerciales, diseñadores, desarrolladores de front-end y de back-end para mejorar el rendimiento de las ventas y la productividad de la organización
+* Colaboré con científicos de datos, analistas comerciales, diseñadores, desarrolladores de front-end y de back-end para mejorar el rendimiento de las ventas y la productividad de la organización
 
-* Dirigió con éxito la migración de jQuery/Angular a una arquitectura basada en React para todas las aplicaciones mediante la creación de una plantilla personalizada con administración de estado con Redux, Webpack, integración de API JSON, SASS y otras tecnologías modernas
+* Dirigí con éxito la migración de jQuery/Angular a una arquitectura basada en React para todas las aplicaciones mediante la creación de un boilerplate personalizado con administración de estado global basado en Redux, Webpack, integración de API JSON, SASS y otras tecnologías modernas
 
-* Ayudó al resto del equipo de front-end a adoptar la nueva arquitectura React
+* Ayudé al resto del equipo de front-end a adoptar la nueva arquitectura React
 
-* Fue propietario del desarrollo de 8 prototipos y participó en el desarrollo de algunos otros
+* Fuí propietario del desarrollo de 8 prototipos y participé en el desarrollo de algunos otros
 
-* Lideró el rediseño y desarrollo de una nueva aplicación de tablero con widgets para el sitio web principal del departamento
+* Lideré el rediseño y desarrollo de una nueva aplicación tipo dashboard con widgets para el sitio web principal del departamento
 
-* Identificó la necesidad de mejorar la consistencia del UI y UX de las aplicaciones y lideró la creación de una biblioteca de UI (basada en React y Styled Components) y un sistema de diseño basado en las pautas de diseño de Vodafone
+* Identifiqué la necesidad de mejorar la consistencia del UI y UX de las aplicaciones y lideré la creación de una biblioteca de UI (basada en React y Styled Components) y un sistema de diseño basado en las pautas de diseño de Vodafone
 
-* También trabajó con VueJS, Webpack, Highcharts, D3, MaterialUI, WebRTC, Express, CircleCI, GhostJS, HoneyBadger, CodeClimate, Jest, React testing library, JSON API, REST, etc
+* También trabajé con VueJS, Webpack, Highcharts, D3, MaterialUI, WebRTC, Express, CircleCI, GhostJS, HoneyBadger, CodeClimate, Jest, React testing library, JSON API, REST, etc
 
 <figure>
   <img src="/cv/images/vodafone-home-desk.jpg" alt="Escritorio de trabajo en remoto durante la temporada de verano" />
@@ -189,16 +189,16 @@ Estas son algunas tecnologías y herramientas que ha usado en los últimos años
 
 [SapientNitro](http://sapientnitro.com) fue la agencia digital número 1 en el Reino Unido durante su etapa en la empresa. También es una división de [Sapient corporation](http://www.sapient.com/), que pertenece al [grupo Publicis](http://www.publicisgroupe.com/)
 
-* **Octubre de 2015**: trabajó en el front-end adaptable de una aplicación web para la contratación de seguros en [Travelers](https://www.travelers.com/). La tecnología involucró mucho JavaScript nativo, mustache y path.js
+* **Octubre de 2015**: trabajé en el front-end adaptable de una aplicación web para la contratación de seguros en [Travelers](https://www.travelers.com/). La tecnología involucró mucho JavaScript nativo, mustache y path.js
 
-* **Julio - octubre de 2015**: codirigió el desarrollo del front-end de la nueva plataforma digital global de [Unilever](http://www.unilever.co.uk/) (construyendo componentes reutilizables de marca blanca) y el nuevo sitio web de [Dove](http://www.dove.com). Éran un equipo de 8 desarrolladores front-end, trabajando con Node.js, una versión personalizada de BackboneJs y [Adobe Experience Manager](http://www.adobe.com/uk/marketing-cloud/enterprise-content-management.html) como CMS.
-Aparte del desarrollo web, también ayudó con la gestión del equipo de desarrollo, siendo dueño de los entregables del equipo para una grupo de trabajo específico, presentó el progreso del proyecto al cliente, preparó prototipos para pruebas de usuarios y colaboró con el equipo de control de calidad
+* **Julio - octubre de 2015**: codirigí el desarrollo del front-end de la nueva plataforma digital global de [Unilever](http://www.unilever.co.uk/) (construyendo componentes reutilizables de marca blanca) y el nuevo sitio web de [Dove](http://www.dove.com). Éramos un equipo de 8 desarrolladores front-end, trabajando con Node.js, una versión personalizada de BackboneJs y [Adobe Experience Manager](http://www.adobe.com/uk/marketing-cloud/enterprise-content-management.html) como CMS.
+Aparte del desarrollo web, también ayudé con la gestión del equipo de desarrollo, siendo responsable de los entregables del equipo para una grupo de trabajo específico, presenté el progreso del proyecto al cliente final, preparé prototipos para pruebas de usuarios y colaboré con el equipo de control de calidad
 
-* **Mayo - julio de 2015**: dirigió un equipo de desarrolladores que trabajaban en la web de [Save the children](http://www.savethechildren.org.uk) hecha con [Drupal](https://en.wikipedia.org/?title=Drupal). Realizó una auditoría técnica que escribió y presentó a las partes interesadas con recomendaciones para mejorar el sitio web
+* **Mayo - julio de 2015**: dirigí un equipo de desarrolladores que trabajaban en la web de [Save the children](http://www.savethechildren.org.uk) hecha con [Drupal](https://en.wikipedia.org/?title=Drupal). Realicé una auditoría técnica que redacté y presenté a las partes interesadas con recomendaciones para mejorar el sitio web
 
-* **Junio ​​- julio de 2015**: desarrollador líder en la creación de micrositios para un pitch a uno de los mayores bancos de Inglaterra. Trabajó con [Handlebars](http://handlebarsjs.com/), [Assemble.io](http://assemble.io/), un generador de sitios estáticos personalizados, [LESS](http://lesscss.org/ ), [Grunt](http://gruntjs.com/), etc
+* **Junio ​​- julio de 2015**: desarrollador líder en la creación de micrositios para un pitch a uno de los mayores bancos de Inglaterra. Trabajé con [Handlebars](http://handlebarsjs.com/), [Assemble.io](http://assemble.io/), un generador de sitios estáticos personalizados, [LESS](http://lesscss.org/ ), [Grunt](http://gruntjs.com/), etc
 
-* **Mayo de 2015**: (trabajo individual) creó una instalación artística que permite a los usuarios lanzar fuegos artificiales con las manos. La demostración se creó con [Kinect](http://en.wikipedia.org/wiki/Kinect) y [OpenFrameworks](http://openframeworks.cc/) para un evento de tecnología creativa en la oficina de Spitalfields de SapientNitro. La demostración se instaló en el área de exhibición de Eden House:
+* **Mayo de 2015**: (trabajo individual) creé una instalación artística que permitía a los usuarios lanzar fuegos artificiales con las manos. La demostración se creó con [Kinect](http://en.wikipedia.org/wiki/Kinect) y [OpenFrameworks](http://openframeworks.cc/) para un evento de tecnología creativa en la oficina de Spitalfields de SapientNitro. La demostración se instaló en el área de exhibición de Eden House:
 
 <iframe width="100%" height="550" src="https://www.youtube.com/embed/pgPIYp36Miw" frameborder="0" allow="acelerómetro; reproducción automática; medios cifrados; giroscopio; imagen- en la imagen" allowfullscreen></iframe>
 
@@ -208,28 +208,28 @@ Aparte del desarrollo web, también ayudó con la gestión del equipo de desarro
 
 * **Febrero de 2015**: desarrollador principal para la creación de una animación 2D [HTML5](http://es.wikipedia.org/wiki/HTML5) para [Vitality/Pruhealth](http://www.pruhealth.co.uk/personal/vitality/) usando diferentes tecnologías: [Box2d](https://code.google.com/p/box2dweb/) + [RUBE](https://www.iforce2d.net/rube/), [HTML5 Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API), [JavaScript](http://es.wikipedia.org/wiki/JavaScript) y [SVG](http://en.wikipedia.org/wiki/Scalable_Vector_Graphics)
 
-* **Febrero de 2015**: contribuyó a un prototipo web adaptable para dispositivos móviles para [Dyson](https://www.dyson.co.uk/)
+* **Febrero de 2015**: contribuí a un prototipo web adaptable para dispositivos móviles para [Dyson](https://www.dyson.co.uk/)
 
 * **Enero de 2015**: desarrollador líder en una aplicación web interna para administrar las habilidades técnicas de los empleados de Sapient. Realizado con [Node.js](https://nodejs.org/), [Sails.js](http://sailsjs.org/) y [MongoDB](https://www.mongodb.org/)
 
-* **Nov 2014**: (trabajo individual) creó un juego multijugador en tiempo real con [Sails.js](http://sailsjs.org/) ([Node.js](https://nodejs.org/), [Waterline ORM](https://github.com/balderdashy/waterline), [Express.js](http://expressjs.com/), [Socket.io](http://socket.io/), [Grunt](http://gruntjs.com/), [Bootstrap](http://getbootstrap.com/), [LESS](http://lesscss.org/), [jQuery](https://jquery.com/), [Parsley.js](http://parsleyjs.org/), [Heroku](https://www.heroku.com/) and [Git](https://git-scm.com/)
+* **Nov 2014**: (trabajo individual) creé un juego multijugador en tiempo real con [Sails.js](http://sailsjs.org/) ([Node.js](https://nodejs.org/), [Waterline ORM](https://github.com/balderdashy/waterline), [Express.js](http://expressjs.com/), [Socket.io](http://socket.io/), [Grunt](http://gruntjs.com/), [Bootstrap](http://getbootstrap.com/), [LESS](http://lesscss.org/), [jQuery](https://jquery.com/), [Parsley.js](http://parsleyjs.org/), [Heroku](https://www.heroku.com/) y [Git](https://git-scm.com/)
 
 * **Abril - noviembre de 2014**: desarrollador senior/líder para el rediseño de extremo a extremo de un front-end adaptable para la compañía de telecomunicaciones más grande del Reino Unido con millones de clientes. Se usó [Angular.js](https://angularjs.org/), [SEO](https://es.wikipedia.org/wiki/Posicionamiento_en_buscadores), compatibilidad con IE8, [LESS](http://lesscss.org), [jQuery](https://jquery.com/), [Node.js](https://nodejs.org/), [Grunt](http://gruntjs.com/), [Handlebars](http://handlebarsjs.com/), [JSON](http://json.org/), [Assemble.io](http://assemble.io/), [CSS3](https://es.wikipedia.org/wiki/CSS#CSS3), [Modernizr](http://modernizr.com/), [SVN](https://subversion.apache.org/)+[Git](https://git-scm.com/), [Fuente de iconos vectoriales](http://fontastic.me/), [iOS retina](https://es.wikipedia.org/wiki/Retina_Display) y animaciones con el `canvas` de HTML5 compatibles con iOS y hechas con [Adobe Flash CC](http://www.adobe.com/uk/products/flash.html)
 
-* **Junio ​​de 2014**: desarrollador principal de un prototipo en [HTML5](http://en.wikipedia.org/wiki/HTML5) para [Volvo Trucks](http://www.volvotrucks.com/). También trabajó en el proyecto [Social Stock Ticker](socialstockticker.com) usando el framework de [PHP](http://php.net/) [Laravel](http://laravel.com/) y [Adobe Air](http://www.adobe.com/uk/products/air.html)
+* **Junio ​​de 2014**: desarrollador principal de un prototipo en [HTML5](http://en.wikipedia.org/wiki/HTML5) para [Volvo Trucks](http://www.volvotrucks.com/). También trabajé en el proyecto [Social Stock Ticker](socialstockticker.com) usando el framework de [PHP](http://php.net/) [Laravel](http://laravel.com/) y [Adobe Air](http://www.adobe.com/uk/products/air.html)
 
 * **Mayo de 2014**: ponente en la [reunión de Ember.js](http://emberlondon.com/). Introducción
 a la librería JavaScript [Box2d](https://code.google.com/p/box2dweb/) y a la [realidad aumentada](http://en.wikipedia.org/wiki/Augmented_reality) con [OpenCV](http://opencv.org/) para el reconocimiento de formas en tiempo real con JavaScript
 
-* **Septiembre de 2013 - abril de 2014**: Participó como miembro clave en el equipo de desarrollo del interfaz para iPad del nuevo [sitio web de Marks & Spencer](http://www.marksandspencer.com/). La tecnología utilizada incluyó: [CSS3](https://es.wikipedia.org/wiki/CSS#CSS3), [Pub/Sub](http://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern ), [Mustache](https://mustache.github.io/), [PHP](http://php.net/), [jQuery](https://jquery.com/), [Javascript](http://es.wikipedia.org/wiki/JavaScript), [Modernizr](http://modernizr.com/), [HTML5](http://es.wikipedia.org/wiki/HTML5), etc.
+* **Septiembre de 2013 - abril de 2014**: Participé como miembro clave en el equipo de desarrollo del interfaz para iPad del nuevo [sitio web de Marks & Spencer](http://www.marksandspencer.com/). La tecnología utilizada incluyó: [CSS3](https://es.wikipedia.org/wiki/CSS#CSS3), [Pub/Sub](http://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern ), [Mustache](https://mustache.github.io/), [PHP](http://php.net/), [jQuery](https://jquery.com/), [Javascript](http://es.wikipedia.org/wiki/JavaScript), [Modernizr](http://modernizr.com/), [HTML5](http://es.wikipedia.org/wiki/HTML5), etc.
 
 > SapientNitro ha llevado a M&S a través del mayor rediseño multicanal de la historia con más de 600 personas de SapientNitro en el proyecto que han trabajado más de 1,1 millones de horas
 
-* **Jul - Sep 2013**: trabajó en un micrositio para el [ICA (Instituto de Arte Contemporáneo)](https://www.ica.org.uk/) en Londres llamado [The Art Rules](http://artrules.ica.org.uk). Se centró principalmente en trabajar en la física y las animaciones. La tecnología utilizada incluye: [Ruby on Rails (RoR)](http://rubyonrails.org/), [HAML](http://haml.info/), [Heroku](https://www.heroku.com), [Github](https://github.com/), [SASS](http://sass-lang.com/), [CSS3](https://es.wikipedia.org/wiki/CSS#CSS3), [Box2d 2D physics]([Box2d](https://code.google.com/p/box2dweb/)). El proyecto fue [preseleccionado en FWA](http://www.thefwa.com/shortlist/art-rules) y exhibido durante unos meses en [el espacio de exposición y café de Eden House](https://instagram.com/p/jHwVviLfXP/)
+* **Jul - Sep 2013**: trabajé en un micrositio para el [ICA (Instituto de Arte Contemporáneo)](https://www.ica.org.uk/) en Londres llamado [The Art Rules](http://artrules.ica.org.uk). Me centró principalmente en trabajar en la física y las animaciones. La tecnología utilizada incluye: [Ruby on Rails (RoR)](http://rubyonrails.org/), [HAML](http://haml.info/), [Heroku](https://www.heroku.com), [Github](https://github.com/), [SASS](http://sass-lang.com/), [CSS3](https://es.wikipedia.org/wiki/CSS#CSS3), [Box2d 2D physics]([Box2d](https://code.google.com/p/box2dweb/)). El proyecto fue [preseleccionado en FWA](http://www.thefwa.com/shortlist/art-rules) y exhibido durante unos meses en [el espacio de exposición y café de Eden House](https://instagram.com/p/jHwVviLfXP/)
 
 <figure>
   <img src="/cv/images/sapient-devs.jpg" alt="Con compañeros de trabajo, Owen y Mark durante 'frinks' (bebidas del viernes)" />
-  <figcaption>Con compañeros de trabajo, Owen y Mark durante 'frinks' (bebidas del viernes)</figcaption>
+  <figcaption>Con mis compañeros de trabajo, Owen y Mark durante 'frinks' (bebidas del viernes)</figcaption>
 </figure>
 
 <figure>
@@ -242,15 +242,15 @@ a la librería JavaScript [Box2d](https://code.google.com/p/box2dweb/) y a la [r
 
 [WCRS](http://www.wcrs.com) pertence al [Grupo Engine](http://www.theenginegroup.com), el cual estuvo en el puesto número #5 de las mejores agencias digitales en Reino Unido durante su etapa en la empresa.
 
-Trabajó con los siguientes clientes: [BMW](https://www.bmw.co.uk), [MINI](http://www.mini.co.uk/), [Santander](http://www.santander.co.uk/), [Sky](http://www.sky.com/), [Subway](http://www.subway.co.uk/), [Bupa](http://www.bupa.co.uk/), [Unilever](http://www.unilever.co.uk/), [Warburtons](http://www.warburtons.co.uk/), [Royal Navy](http://www.royalnavy.mod.uk/), [Churchill](http://www.churchill.com/), [Artemis](http://www.artemis.co.uk/) y [B&Q](http://www.diy.com/).
+Trabajé con los siguientes clientes: [BMW](https://www.bmw.co.uk), [MINI](http://www.mini.co.uk/), [Santander](http://www.santander.co.uk/), [Sky](http://www.sky.com/), [Subway](http://www.subway.co.uk/), [Bupa](http://www.bupa.co.uk/), [Unilever](http://www.unilever.co.uk/), [Warburtons](http://www.warburtons.co.uk/), [Royal Navy](http://www.royalnavy.mod.uk/), [Churchill](http://www.churchill.com/), [Artemis](http://www.artemis.co.uk/) y [B&Q](http://www.diy.com/).
 
 ##### Logros
 
-* Utilizó las últimas tecnlogías creativas y creó soluciones innovadoras
-* Asesoró y trabajó con equipos creativos en propuestas y lanzamientos de campañas publicitarias
-* Creó aplicaciones de Facebook (principalmente concursos y promociones)
-* Creó prototipos, micrositios, blogs y sitios web HTML5 adaptables
-* Construyó herramientas internas, demostraciones de nuevas tecnologías y pequeños juegos interactivos
+* Utilicé las últimas tecnlogías creativas y creé soluciones innovadoras
+* Asesoré y trabajé con equipos creativos en propuestas y lanzamientos de campañas publicitarias
+* Creé aplicaciones de Facebook (principalmente concursos y promociones)
+* Creé prototipos, micrositios, blogs y sitios web HTML5 adaptables
+* Construí herramientas internas, demostraciones de nuevas tecnologías y pequeños juegos interactivos
 
 ##### Proyectos
 
@@ -265,7 +265,7 @@ Algunas de las tecnologías utilizadas: [Zend](http://www.zend.com/), [C++](http
 
 ##### Artículos escritos en el blog de WCRS
 
-ACTUALIZACIÓN: los artículos ya no están disponibles en el blog de WCRS. Ahora están disponibles en el blog del estudio:
+ACTUALIZACIÓN: los artículos ya no están disponibles en el blog de WCRS. Ahora están disponibles en mi blog:
 
 * [Churchill beats Spiderman to world record](/blog/es/churchill-beats-spiderman-to-world-record)
 * [An introduction to mobile development](/blog/es/an-introduction-to-mobile-development)
@@ -279,13 +279,13 @@ ACTUALIZACIÓN: los artículos ya no están disponibles en el blog de WCRS. Ahor
 #### Desarrollador digital
 <span class="project-tag red-tag">Feb 2011 - Sep 2012</span><a class="project-tag gold-tag" href="http://www.roh.org.uk">Royal Opera House</a><span class="project-tag blue-tag">Covent Garden, Londres (Reino Unido)</span>
 
-Tuvo el honor de ser el primer desarrollador contratado en la historia de la Royal Opera House. Se unió al equipo en el departamento de medios digitales con un objetivo muy importante: reconstruir completamente desde cero la [página web de la ROH](http://www.roh.org.uk/). Un proyecto crítico para la organización que requería una revisión importante en el sistema de emisión de entradas, la infraestructura del servidor, la arquitectura de la información, la experiencia del usuario, la gestión de contenidos y la tienda en línea para cumplir con los altos estándares de la organización.
+Tuve el honor de ser el primer desarrollador contratado en la historia de la Royal Opera House. Me uní al equipo en el departamento de medios digitales con un objetivo muy importante: reconstruir completamente desde cero la [página web de la ROH](http://www.roh.org.uk/). Un proyecto crítico para la organización que requería una revisión importante en el sistema de emisión de entradas, la infraestructura del servidor, la arquitectura de la información, la experiencia del usuario, la gestión de contenidos y la tienda en línea para cumplir con los altos estándares de la organización.
 
-El equipo de desarrollo era pequeño; dos desarrolladores full-stack, un jefe de diseño y un CTO. Este escenario le permitió tener una influencia considerable en la arquitectura de la aplicación y el desarrollo general del sitio web.
+El equipo de desarrollo era pequeño; dos desarrolladores full-stack, un jefe de diseño y un CTO. Este escenario me permitió tener una gran influencia en la arquitectura de la aplicación y el desarrollo general del sitio web.
 
 Como resultado, [la venta de entradas online aumentó un 60 %](/blog/es/the-royal-opera-house-in-numbers) - no más salas de espera - y todo el contenido digital y la experiencia del usuario mejoraron gracias al nuevo sistema robusto y a la metodología de trabajo establecida por el equipo de medios digitales.
 
-También desarrolló una aplicación para mostrar el horario de los ensayos [del Royal Ballet](http://www.roh.org.uk/about/the-royal-ballet) en las pantallas de televisión.
+También desarrollé una aplicación para mostrar el horario de los ensayos [del Royal Ballet](http://www.roh.org.uk/about/the-royal-ballet) en las pantallas de televisión.
 
 Tecnologías utilizadas (sin ningún orden en particular): [HTML5](http://es.wikipedia.org/wiki/HTML5), [CSS3](https://es.wikipedia.org/wiki/CSS#CSS3), [Javascript](http://es.wikipedia.org/wiki/JavaScript), [jQuery](https://jquery.com/), [PHP5](http://php.net/), [MySQL](https://www.mysql.com/), [Apache](http://www.apache.org/), [Zend Framework](http://framework.zend.com/), [Doctrine ORM](http://www.doctrine-project.org/projects/orm.html), [Scrum](https://es.wikipedia.org/wiki/Scrum_(desarrollo_de_software)), [Trac](http://trac.edgewall.org/), [Agile](https://es.wikipedia.org/wiki/Desarrollo_%C3%A1gil_de_software), [XSLT](https://es.wikipedia.org/wiki/Extensible_Stylesheet_Language_Transformations), [Flickr API](https://www.flickr.com/services/api/), [Youtube API](https://developers.google.com/youtube/), [Delicious API](https://delicious.com/developers), [Restaurant Diary API](http://restaurateurs.resdiary.com/features/apis), [Facebook API](https://developers.facebook.com/), [SoundCloud API](https://developers.soundcloud.com/), [Google+ API](https://developers.google.com/+/api/), [QAS API](http://support.qas.com/product.htm?filter_country=1&filter_product=45&filter_version=empty&filter_version_specific=&filter_impl=empty&filter_os=empty&filter_doctype=empty&filter_order=Views&page=1) (UK address validation), [Wordpress](https://wordpress.org/) (including plugin dev.), [CDN](https://es.wikipedia.org/wiki/Red_de_distribuci%C3%B3n_de_contenidos), [SSH](http://es.wikipedia.org/wiki/Secure_Shell),
 [SSL](https://es.wikipedia.org/wiki/Seguridad_de_la_capa_de_transporte), [SQL injection](https://es.wikipedia.org/wiki/Inyecci%C3%B3n_SQL), [XSS](https://es.wikipedia.org/wiki/Cross-site_scripting), [Varnish](https://es.wikipedia.org/wiki/Varnish_Cache), [APC](http://php.net/manual/en/book.apc.php), [SOAP](https://es.wikipedia.org/wiki/Simple_Object_Access_Protocol), [REST](https://es.wikipedia.org/wiki/Transferencia_de_Estado_Representacional), [Basecamp](https://basecamp.com/), [Confluence](https://www.atlassian.com/software/confluence), [Jira](https://www.atlassian.com/software/jira?t=b), [Semantic markup](https://es.wikipedia.org/wiki/HTML_sem%C3%A1ntico), [Domain-driven design](https://es.wikipedia.org/wiki/Dise%C3%B1o_guiado_por_el_dominio), [Open Data](https://es.wikipedia.org/wiki/Datos_abiertos) ([XML](https://es.wikipedia.org/wiki/Extensible_Markup_Language), [JSON](https://es.wikipedia.org/wiki/JSON), [RDF](http://es.wikipedia.org/wiki/Resource_Description_Framework), [RSS](http://es.wikipedia.org/wiki/RSS), [ATOM](https://es.wikipedia.org/wiki/Atom_(formato_de_redifusi%C3%B3n)), [ICS](https://es.wikipedia.org/wiki/ICalendar)), Linux (Ubuntu 11), Windows7, Firebug, IE, Firefox, Opera, Chrome, Safari, [ODBC](https://es.wikipedia.org/wiki/Open_Database_Connectivity), [MS SQL Server 2008 (TSQL)](http://es.wikipedia.org/wiki/Microsoft_SQL_Server), [Amazon AWS](http://aws.amazon.com/) (EC2, SES, IAM, CloudFront, S3,...), [Rackspace](http://www.rackspace.co.uk/), [Tessitura](http://www.tessituranetwork.com/), [IIS](https://www.iis.net/), [Isapi Rewriter](http://www.helicontech.com/isapi_rewrite), [WinSCP](http://winscp.net/eng/index.php), [Tortoise](http://tortoisesvn.net/), [SVN](https://subversion.apache.org/), [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html), [Netbeans](https://netbeans.org/), [Eclipse](https://eclipse.org/),...
@@ -306,9 +306,9 @@ Tecnologías utilizadas (sin ningún orden en particular): [HTML5](http://es.wik
 #### Cofundador y director de tecnología
 <span class="project-tag red-tag">Sep 2006 - Jul 2012</span><a class="project-tag gold-tag" href="http://www.webmarket.es">Webmarket S.C.</a><span class="project-tag blue-tag">Alicante (España)</span>
 
-Cofundó una pequeña agencia digital especializada en diseño y desarrollo de aplicaciones multimedia y páginas web basadas en [Adobe Flash (AS2)](http://help.adobe.com/en_US/AS2LCR/Flash_10.0/help.html), [MdM Zinc](http://www.multidmedia.com/software/zinc/), [Wordpress](https://wordpress.org/) y otras tecnologías front-end.
+Cofundé una pequeña agencia digital especializada en diseño y desarrollo de aplicaciones multimedia y páginas web basadas en [Adobe Flash (AS2)](http://help.adobe.com/en_US/AS2LCR/Flash_10.0/help.html), [MdM Zinc](http://www.multidmedia.com/software/zinc/), [Wordpress](https://wordpress.org/) y otras tecnologías front-end.
 
-Algunps de los clientes: [Estrella Galicia](http://portal.estrellagalicia.es/), [Santillana](http://www.santillana.com/en/), [Editex](http://www.editex.es/), [Gobierno de Filipinas](http://investphilippines.org/), [Grupo Soledad](http://www.gruposoledad.com/), [IBCmass](http://www.ibcmass.com/), [Cogersa](http://www.cogersa.es/), [Digital Toy Shop](http://www.digitaltoyshop.es/), [IES Miguel Hernández](http://iesmh.edu.gva.es/), etc.
+Algunos de los clientes: [Estrella Galicia](http://portal.estrellagalicia.es/), [Santillana](http://www.santillana.com/en/), [Editex](http://www.editex.es/), [Gobierno de Filipinas](http://investphilippines.org/), [Grupo Soledad](http://www.gruposoledad.com/), [IBCmass](http://www.ibcmass.com/), [Cogersa](http://www.cogersa.es/), [Digital Toy Shop](http://www.digitaltoyshop.es/), [IES Miguel Hernández](http://iesmh.edu.gva.es/), etc.
 
 Algunos de los productos desarrollados:
 
@@ -316,7 +316,7 @@ Algunos de los productos desarrollados:
 * **InmoFlash**: CMS para inmobiliarias basado en Flash, [AMFPHP](http://en.wikipedia.org/wiki/AmfPHP) y MySQL CMS con soporte para propiedades ilimitadas
 * **FinanFlash**: CMS para la gestión de finanzas basado en Flash, [AMFPHP](http://en.wikipedia.org/wiki/AmfPHP) y MySQL con soporte para generar PDF dinámicamente con [FPDF](http://www.fpdf.org)
 
-También proporcionó servicios de [alojamiento web](https://es.wikipedia.org/wiki/Alojamiento_web) con [cPanel](http://cpanel.com/)/[WHMCS](http://www.whmcs.com), [marketing digital](https://es.wikipedia.org/wiki/Mercadeo_digital) a nuestros clientes (principalmente [PYMES](https://es.wikipedia.org/wiki/Peque%C3%B1a_y_mediana_empresa)) y colaboró ​​con otros diseñadores, desarrolladores y agencias freelance en España.
+También proporcioné servicios de [alojamiento web](https://es.wikipedia.org/wiki/Alojamiento_web) con [cPanel](http://cpanel.com/)/[WHMCS](http://www.whmcs.com), [marketing digital](https://es.wikipedia.org/wiki/Mercadeo_digital) a nuestros clientes (principalmente [PYMES](https://es.wikipedia.org/wiki/Peque%C3%B1a_y_mediana_empresa)) y colaboré ​​con otros diseñadores, desarrolladores y agencias freelance en España.
 
 #### Profesor de diseño web
 <span class="project-tag red-tag">Feb 2009 - May 2009</span><a class="project-tag gold-tag" href="https://www.esuma.com/">ESUMA</a><span class="project-tag blue-tag">Alicante (España)</span>
@@ -326,7 +326,7 @@ Profesor de diseño web en el Máster de Marketing y Publicidad de ESUMA
 #### Diseñador/desarrollador web con Joomla
 <span class="project-tag red-tag">Mar 2008 - Sep 2008</span><a class="project-tag gold-tag" href="http://www.webempresa.com">Webempresa</a><span class="project-tag blue-tag">Barcelona (España)</span>
 
-Desarrolló y diseñó páginas web utilizando Dreamweaver, Fireworks, Photoshop, Joomla CMS, Joomla Components, HTML, CSS, PHP, MySQL, JavaScript y Google Apps.
+Desarrollé y diseñé páginas web utilizando Dreamweaver, Fireworks, Photoshop, Joomla CMS, Joomla Components, HTML, CSS, PHP, MySQL, JavaScript y Google Apps.
 
 Algunos de los proyectos: [Escuela de cocina Hoffman](http://www.hofmann-bcn.com/), [Hoyesarte.com](http://www.hoyesarte.com/), [Gimnasio femenino 30 minutos](http://www.30minutos.net/), Aarcs, [Altair consultores](http://www.altair-consultores.com/), [Aurall](http://www.aurall.com/), Aitor Aurrekoetxea, [Baldirialeu](http://complexbaldirialeu.com/), Dimas, BGT Musics, [Fama Systems](http://www.fama-systems.com/), [Geograma](http://www.geograma.com/es/), Infolimpieza, Lluisa Sallent, Lodisoft, LOPDYA, Segurodelhogar, Torques, Noelia Compte, Trabajos y reformas, Mongrafic, Norma3, NRC Courier, Orbitel, Lexicos traducciones, Agrocesped, ByPerson, Circulo hostelero, Casa de entrenamiento,...
 
@@ -338,13 +338,13 @@ Diseño y desarrollo web independiente para [PYMES](https://es.wikipedia.org/wik
 #### Ingeniero de software
 <span class="project-tag red-tag">Sep 2003 - Jul 2005</span><span class="project-tag gold-tag">Slater Software Laboratories S.L.</span><span class="project-tag blue-tag">Cuzco, Madrid (España)</span>
 
-Participó en el desarrollo de tres aplicaciones de escritorio para la producción de TV en tiempo real, desde la conceptualización inicial hasta el desarrollo final. Software basado en [C++](http://es.wikipedia.org/wiki/C%2B%2B), [QT](http://www.qt.io/), [DirectX](http://es.wikipedia.org/wiki/DirectX) 9 y otras APIs.
+Participé en el desarrollo de tres aplicaciones de escritorio para la producción de TV en tiempo real, desde la conceptualización inicial hasta el desarrollo final. Software basado en [C++](http://es.wikipedia.org/wiki/C%2B%2B), [QT](http://www.qt.io/), [DirectX](http://es.wikipedia.org/wiki/DirectX) 9 y otras APIs.
 
-Encabezó el desarrollo de mezcladores de audio y video (características principales en estas aplicaciones) para admitir formatos de medios de de alta calidad, tarjetas de captura, cámaras, sistemas de proyección de imágenes y otros dispositivos audiovisuales.
+Encabecé el desarrollo de mezcladores de audio y video (características principales en estas aplicaciones) para admitir formatos de medios de de alta calidad, tarjetas de captura, cámaras, sistemas de proyección de imágenes y otros dispositivos audiovisuales.
 
 Sólida experiencia en programación C++ OO, QT 3.2, DirectX 9 (DirectMusic, DirectAudio, DirectShow, DirectInput), ASIO 2.0, sistemas de producción de televisión analógico-digital, DSP, sistemas de proyección de imágenes, MS Visual Studio 2003 y Source Safe.
 
-Experiencia laboral en DSP (efectos de sonido, analizadores de espectro, osciloscopios, programación de edición de sonido y motores de audio multicanal (I/O).
+Experiencia con DSP (efectos de sonido, analizadores de espectro, osciloscopios, programación de edición de sonido y motores de audio multicanal (I/O).
 
 #### Técnico informático
 <span class="project-tag red-tag">Oct 2001 - Jul 2002</span><span class="project-tag gold-tag">PC City Sverige AB</span><span class="project-tag blue-tag">Alicante (España)</span>
@@ -354,7 +354,7 @@ Soporte, montaje, reparación y venta de ordenadores y material informático.
 #### Técnico informático
 <span class="project-tag red-tag">Sep 2001 - Nov 2001</span><span class="project-tag gold-tag">Times Cafe</span><span class="project-tag blue-tag">Alicante (España)</span>
 
-Diseñó una arquitectura para una red de área local en un cibercafé. Compró el equipo y el software. Instalado todas las máquinas y programas. Gestionó las operaciones y el mantenimiento diarios del alquiler de los ordenadores.
+Diseñé una arquitectura para una red de área local en un cibercafé. Compré el equipo y el software. Instalé todas las máquinas y programas. Gestioné las operaciones y el mantenimiento diario del alquiler de los ordenadores.
 
 #### Diseñador/desarrollador web junior
 <span class="project-tag red-tag">May 2001 - Ago 2001</span><span class="project-tag gold-tag">Grupo Odessa S.L.</span><span class="project-tag blue-tag">San Juan, Alicante (España)</span>
@@ -437,23 +437,23 @@ Pascal, Assembler, Cobol, Delphi, SQL (Access), C, programación orientada a obj
 
 * **Feb 2020**: Premio MVP 2019 al mejor equipo: Data Science. Emitido por TableCheck
 
-* **Jun ​​2018**: Top performer. Reconocido por su jefe directo como uno de los dos premiados con mejor desempeño en un equipo con decenas de empleados en Vodafone Global Enterprise
+* **Jun ​​2018**: Top performer. Reconocimiento por parte de mi jefe directo como uno de los dos premiados con mejor desempeño en un equipo con decenas de empleados en Vodafone Global Enterprise
 
-* **May 2017**: Ganador del premio Innovación en Gestión del Conocimiento. Una de las aplicaciones que su equipo y él desarrollaron ganó este prestigioso premio en la industria legal en Reino Unido. [eiseverywhere.com](https://www.eiseverywhere.com/ehome/legalweekinnovationawards/567021/) [legalweek.com](http://www.legalweek.com/sites/legalweek/2017/06/27/legal-week-innovation-awards-knowledge-management-innovation-award-vodafone-global-enterprise/?slreturn=20170528041243)
+* **May 2017**: Ganador del premio Innovación en Gestión del Conocimiento. Una de las aplicaciones que mi equipo desarrolló ganó este prestigioso premio en la industria legal en Reino Unido. [eiseverywhere.com](https://www.eiseverywhere.com/ehome/legalweekinnovationawards/567021/) [legalweek.com](http://www.legalweek.com/sites/legalweek/2017/06/27/legal-week-innovation-awards-knowledge-management-innovation-award-vodafone-global-enterprise/?slreturn=20170528041243)
 
-* **Ene 2017**: EduTECH Emprèn. Su proyecto final de Grado fue seleccionado y le concedieron un curso financiado por los gobiernos de Catalunya y la UE para asesorar a emprendedores y acelerar sus proyectos de eLearning
+* **Ene 2017**: EduTECH Emprèn. Mi proyecto final de Grado fue seleccionado y me concedieron un curso financiado por los gobiernos de Catalunya y la UE para asesorar a emprendedores y acelerar sus proyectos de eLearning
 
-* **Nov 2016**: Reconocido por jefe directo con el premio a la innovación en Vodafone Global Enterprise
+* **Nov 2016**: Reconocido por mi jefe directo con el premio a la innovación en Vodafone Global Enterprise
 
-* **Feb 2014**: el proyecto Art Rules en el que estuvo muy involucrado en el front-end fue preseleccionado para un prestigioso premio FWA
+* **Feb 2014**: el proyecto Art Rules en el que estuve muy involucrado en el front-end fue preseleccionado para un prestigioso premio FWA
 
-Los siguientes son algunos reconocimientos de sus compañeros de trabajo, socios y clientes.
+Los siguientes son algunos reconocimientos de mis compañeros de trabajo, socios y clientes:
 
 Valor: **Creatividad**
 Nominadora: [Marisa Parsons](https://www.linkedin.com/in/marisaparsons) (Manager de UX en SapientNitro)
 Fecha: 8-ene-2016
 
-*"Joan es un desarrollador talentoso con un don creativo. Trabajar con él siempre es un placer, incluso cuando hay plazos ajustados y páginas complicadas para construir. Joan siempre acepta los desafíos con una sonrisa en su rostro y determinación para encontrar una solución. A través de su experiencia con el código, atención al detalle y dedicación para crear soluciones elegantes, es un miembro de mucho valor para cualquier equipo creativo".*
+*"Joan es un desarrollador con mucho talento y con un don creativo. Trabajar con él siempre es un placer, incluso cuando hay plazos ajustados y páginas complicadas para construir. Joan siempre acepta los desafíos con una sonrisa en su rostro y determinación para encontrar una solución. A través de su experiencia con el código, atención al detalle y dedicación para crear soluciones elegantes, es un miembro de mucho valor para cualquier equipo creativo".*
 
 Valor: **Creatividad**
 Nominador: [Owen Cowdry](https://www.linkedin.com/in/owen-cowdry-648598b) (Desarrollador sénior en SapientNitro)

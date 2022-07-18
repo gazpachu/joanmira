@@ -72,7 +72,7 @@ h5 {
 [data-theme=light] {
   color-scheme: light;
   --background-color: #fff;
-  --color: rgba(0, 0, 0, 0.8);
+  --color: rgba(0, 0, 0, 0.9);
   --h1-color: #323232;
   --h2-color: #3a3a3a;
   --h3-color: #464646;

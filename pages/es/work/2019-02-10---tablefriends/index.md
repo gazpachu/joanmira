@@ -1,21 +1,21 @@
 ---
 title: "TableFriends"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: "#6b56cf"
 categories: react graphql apollo emotion netlify prisma lambda netlify-functions open-source web-app inverted
 template: project
 ---
 
 <p class="align-center">
-<a class="btn external" role="button" href="https://tablefriends.netlify.app/" target="_blank">Live App</a>
-<a class="btn github" role="button" href="https://github.com/gazpachu/tablefriends" target="_blank">Source Code</a>
+<a class="btn external" role="button" href="https://tablefriends.netlify.app/" target="_blank">App online</a>
+<a class="btn github" role="button" href="https://github.com/gazpachu/tablefriends" target="_blank">Código fuente</a>
 </p>
 
 ![](/work/tablefriends/images/1.png)
 
-TableFriends is an open-source web app prototype (not ready for production) to organise restaurant events for big groups of people. It helps them to find the right date, time, course and drinks. The admin user can select all the different options and the guests can choose what are the preferences. Once the deadline is reached, the options with more votes get selected and the admin can proceed to make the restaurant reservation.
+TableFriends es un prototipo de aplicación web de código abierto (no está lista para su producción) para organizar eventos en restaurantes para grandes grupos de personas. Les ayuda a encontrar la fecha, la hora, el menú y las bebidas adecuadas. El administrador del evento puede seleccionar las diferentes opciones y los invitados pueden elegir cuáles son sus preferencias. Una vez que se alcanza la fecha límite, las opciones con más votos se seleccionan y el administrador puede proceder a hacer la reserva del restaurante.
 
-I built this app to practice a few technologies that TableCheck was using before my first day of work at the company. My colleagues were very pleased with the idea and eventually we wanted to finish it and launch it as a company service but we never found the time to do it. Hopefully in the future.
+Construí esta aplicación para practicar algunas tecnologías que TableCheck utilizaba antes de mi primer día de trabajo en la empresa. Mis colegas estaban muy contentos con la idea y, con el tiempo, queríamos terminarla y lanzarla como un servicio de la empresa, pero nunca encontramos el tiempo para hacerlo. Esperemos que en el futuro.
 
-The app is based on React, Emotion, GraphQL, Prisma, Lambda and Netlify.
+La app está basada en React, Emotion, GraphQL, Prisma, Lambda y Netlify.

@@ -1,7 +1,7 @@
 ---
-title: "TableMap: Real-time resturant reservations"
+title: "TableMap: reservas de restaurantes en tiempo real"
 cover: "images/logo.png"
-location: Japan
+location: Japón
 color: "#ffc548"
 categories: react mapbox tablekit python web-app prototype
 template: project
@@ -9,8 +9,8 @@ template: project
 
 ![](/work/tablemap/images/1.png)
 
-TableMap is the winning project in TableCheck's first hackathon. The team consisted of two front-end engineers (including myself), one back-end engineer and one designer. We worked for two days on it.
+TableMap es el proyecto ganador del primer hackathon de TableCheck. El equipo estaba formado por dos ingenieros de front-end (incluido yo mismo), un ingeniero de back-end y un diseñador. Trabajamos en él durante dos días.
 
-The aim of the project was to display real-time restaurant reservations around the world using [TableCheck's platform](https://tablecheck.com/en/join). To achieve this, we used several techonologies, including [MapBox](https://www.mapbox.com/), [TableKit](/tablekit) and python.
+El proyecto tenía como objetivo mostrar en tiempo real las reservas de restaurantes de todo el mundo utilizando [la plataforma de TableCheck](https://tablecheck.com/en/join). Para ello, utilizamos varias tecnologías, como [MapBox](https://www.mapbox.com/), [TableKit](/tablekit) y python.
 
-The UI supports both, light and dark mode. It also displays a leaderboard with the restaurants in the area with most live reservations.
+La interfaz de usuario es compatible con los modos claro y oscuro. También muestra una tabla de clasificación con los restaurantes de la zona con más reservas en directo.

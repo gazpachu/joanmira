@@ -1,7 +1,7 @@
 ---
-title: "Stack"
+title: Stack
 cover: "images/logo.png"
-location: UK
+location: Reino Unido
 color: "#404647"
 categories: vodafone angular grunt sass web-app highcharts animation inverted
 template: project
@@ -9,11 +9,11 @@ template: project
 
 ![](/work/stack/images/0.png)
 
-Stack was my first project when I started to work at Vodafone. Stack's purpose was to track the projects and activities of teams and organisations within Vodafone in a fun and light-hearted way. Users would define tasks for each project that then could be moved along the 'stack' towards completion. They could also be assigned to other team members and link them with budget items.
+Stack fue mi primer proyecto cuando empecé a trabajar en Vodafone. El propósito de Stack era hacer un seguimiento de los proyectos y actividades de los equipos y organizaciones de Vodafone de una forma divertida y desenfadada. Los usuarios definían tareas para cada proyecto que podían moverse a lo largo del "stack" hasta su finalización. También se podían asignar a otros miembros del equipo y vincularlas con partidas presupuestarias.
 
-The project was built using the AngularJS framework (v1.6.4) in the frontend and all the data was fetched from an external API. We also used Grunt, SASS, SVG sprites, ShuffleJS and HightCharts.
+El proyecto se construyó utilizando el framework AngularJS (v1.6.4) en el front-end y todos los datos se obtuvieron de una API externa. También utilizamos Grunt, SASS, sprites SVG, ShuffleJS y HightCharts.
 
-I built the front-end together with two other co-workers.
+Construí el front-end junto con otros dos compañeros de trabajo.
 
 <video class="full-img" width="100%" controls>
   <source src="/work/stack/images/stack_v1.4.mp4" type="video/mp4" />
@@ -25,7 +25,7 @@ I built the front-end together with two other co-workers.
 
 ![](/work/stack/images/3.jpg)
 
-The project took around 3 to 5 months and during the development, I had some time to build a very cool 404 page and easter egg game that was hidden :-). To load the game, the user had to type the [Konami code](https://en.wikipedia.org/wiki/Konami_Code) sequence. The objective of the game was to build the stack logo by dragging and dropping, in the correct order and color, the bars that formed the logo.
+El proyecto duró entre 3 y 5 meses y, durante el desarrollo, tuve algo de tiempo para construir una página 404 muy chula y un juego de huevo de pascua que estaba escondido :-). Para cargar el juego, el usuario tenía que escribir la secuencia del [código Konami](https://en.wikipedia.org/wiki/Konami_Code). El objetivo del juego era construir el logo de la app arrastrando y soltando, en el orden y color correctos, las barras que formaban el logo.
 
 <img class="gif" src="/work/stack/images/stack-404-error.gif" alt="404 page" />
 

@@ -1,5 +1,5 @@
 ---
-title: "Lloyds Bank microsite"
+title: Lloyds Bank microsite
 cover: "images/logo.jpg"
 location: UK
 color: "#006a4c"
@@ -16,7 +16,7 @@ From a dev perspective, the project was quite simple, but we had to be sure the 
 
 The website was based on a responsive HTML5 template called [Canvas](http://themes.semicolonweb.com/html/canvas/intro.php), which we used to quickly layout the different sections.
 
-After a few days, we decided to adapt the static website and transform it into a Wordpress theme to allow a more developer-independent content update.
+After a few days, we decided to adapt the static website and transform it into a WordPress theme to allow a more developer-independent content update.
 
 SapientNitro finally won the pitch ;-)
 

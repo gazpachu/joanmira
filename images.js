@@ -56,15 +56,17 @@ async function resizeImages(file) {
   // if (metadata.width > 800) {
 
   console.log(`Resizing ${file}`)
+  
+  image.toFile(file.replace('.jpg', '.webp'), (err) => {
+    if (err) console.log(err);
+  });
+
   const resizedImage = image.resize(768);
   
   resizedImage.toFile(file.replace('.jpg', '-mobile.jpg'), (err) => {
     if (err) console.log(err);
   });
   resizedImage.toFile(file.replace('.jpg', '-mobile.webp'), (err) => {
-    if (err) console.log(err);
-  });
-  image.toFile(file.replace('.jpg', '.webp'), (err) => {
     if (err) console.log(err);
   });
 }

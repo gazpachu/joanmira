@@ -1,42 +1,44 @@
 ---
-title: "Dove website case study"
+title: Dove website case study
 cover: "images/logo.png"
-location: UK
+location: Reino Unido
 color: white
 categories: sapientnitro animation web backbonejs
 template: project
 ---
 
 <p class="align-center">
-<a class="btn external" role="button" href="http://www.dove.com/uk" target="_blank">Launch website</a>
+<a class="btn external" role="button" href="http://www.dove.com/uk" target="_blank">Ver página web<</a>
 </p>
 
-The new Dove website is part of an ambitious Unilever project led by SapientNitro to change the platform used by many of its brands.
+El nuevo sitio web de Dove forma parte de un ambicioso proyecto de Unilever dirigido por SapientNitro para cambiar la plataforma utilizada por muchas de sus marcas.
 
-This new platform uses a modern tech stack (based on Backbone.js) and CMS solution like Adobe Experience Manager, allowing Unilever brands to reuse components and themes to design their websites.
+Esta nueva plataforma utiliza una tecnología moderna basada en Backbone.js y en una solución CMS llamada Adobe Experience Manager, lo que permite a las marcas de Unilever reutilizar componentes y temas para diseñar sus sitios web.
 
 ![](/work/dove/images/0.png)
 
-My involvement in the project was in the front-end area, where I co-led a group of eight developers. We built white-label components and dove-specific components like the main navigation, carousels, lightbox, anchor link navigation, zoom, PDP, PLPs, quick view, search, footer, etc.
+Mi participación en el proyecto fue en el área de front-end, donde codirigí un grupo de ocho desarrolladores. Construimos componentes de marca blanca y componentes específicos de dove como la navegación principal, carruseles, lightbox, navegación con enlaces de anclaje, zoom, PDP, PLPs, vista rápida, búsqueda, pie de página, etc.
 
-The platform allowed us to build the components with a clear separation between data and functionality, which gives them a lot of flexibility to be reused and customised in other websites.
+La plataforma nos permitió construir los componentes con una clara separación entre datos y funcionalidad, lo que les da mucha flexibilidad para ser reutilizados y personalizados en otros sitios web.
 
 ![](/work/dove/images/1.png)
 
-One of the areas I clearly took responsibility of was the animations and the navigation components. We experimented with many different animation techniques (specially with parallax) and devices to maximise and guarantee a smooth interaction and pleasant user experience across all browser breakpoints and a wide range of devices. Old iOS devices still have issues running native browser scrolling events and javascript logic at the same time, which complicated things, but after many tests, we came out with a subtle parallax animation (which can be seen in the homepage).
+Una de las áreas de las que me encargué fue la de las animaciones y los componentes de navegación. Experimentamos con muchas técnicas de animación diferentes (especialmente con parallax) y dispositivos para maximizar y garantizar una interacción fluida y una experiencia de usuario agradable en todos los puntos de corte del navegador y en una amplia gama de dispositivos. Los dispositivos iOS antiguos todavía tienen problemas para ejecutar eventos de desplazamiento nativos del navegador y la lógica de javascript al mismo tiempo, lo que complicaba las cosas, pero después de muchas pruebas, llegamos a una sutil animación de parallax que se puede ver en la página de inicio.
 
 ![](/work/dove/images/2.png)
 
-Another interesting part of my work in this project is related with the navigation. I built both, the main navigation and the anchor link navigation. The first one features an innovative single column scrollable menu in the desktop view and a multi-column scrollable menu in the mobile view. Both approaches use the same markup, which was quite an achievement due to the complexity and differences between both modes.
+Otra parte interesante de mi trabajo en este proyecto está relacionada con la navegación. Construí tanto la navegación principal como la de los enlaces de anclaje. La primera presenta un innovador menú desplazable de una columna en la vista de escritorio y un menú desplazable de varias columnas en la vista móvil. Ambos enfoques utilizan el mismo marcado, lo que fue todo un logro debido a la complejidad y las diferencias entre ambos modos.
 
-Aside from the development tasks, I also was involved in many of the interactions with the design, UX, content, platform and QA teams. We followed a an Agile methodology, which means morning stand-ups, continuous refactoring, Jira issue tracking, back-end and front-end integration stage, etc. We also started to use Sketch and Zeplin rather than the classing Photoshop PSDs.
+Además de las tareas de desarrollo, también participé en muchas de las interacciones con los equipos de diseño, UX, contenido, plataforma y QA. Seguimos una metodología ágil, lo que significa stand-ups matutinos, refactorización continua, seguimiento de problemas en Jira, etapa de integración de back-end y front-end, etc. También empezamos a utilizar Sketch y Zeplin en lugar de los clásicos PSD de Photoshop.
 
-![](/work/dove/images/3.png)
+En definitiva, fue un proyecto con un plazo muy ajustado y unos requisitos ambiciosos, pero con una configuración que me permitió tener una perspectiva más directiva que en proyectos anteriores. El objetivo es siempre aprender cosas nuevas y seguir mejorando mis habilidades en el desarrollo web, así que me alegro de haber podido entregarlo a tiempo y con la calidad adecuada.
 
-All an all, it was project with a very tight timeframe and ambitious requirements but with a setup which allowed me to have a more managerial perspective than previous projects. The target is always to learn new things and continue to improve my skills in web development, so I'm glad we could deliver it on time and with the right quality.
+<video class="full-img" width="100%" controls>
+  <source src="/work/dove/videos/1.mp4" type="video/mp4" />
+</video>
 
 ![](/work/dove/images/4.jpg)
 
-![](/work/dove/images/board.jpg "Mood and project wall")
+![](/work/dove/images/board.jpg "Muro de inspiración y proyectos")
 
-![](/work/dove/images/team.jpg "Dove team")
+![](/work/dove/images/team.jpg "Equipo de Dove")

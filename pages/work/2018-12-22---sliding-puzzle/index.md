@@ -12,6 +12,6 @@ template: project
 <a class="btn github" role="button" href="https://github.com/gazpachu/sliding-puzzle" target="_blank">Source code</a>
 </p>
 
-Sliding puzzle is a small experiment with React and Redux to create a puzzle game. It was built using the [create react app](https://github.com/facebook/create-react-app) in just a couple of days.
+The sliding puzzle is a small experiment with React and Redux to recreate the classic puzzle game where the aim is to move the pieces until revealing the complete image. I built it using the [create react app](https://github.com/facebook/create-react-app) in just a couple of days.
 
 ![](/work/sliding-puzzle/images/1.png)

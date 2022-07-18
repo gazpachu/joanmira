@@ -1,5 +1,5 @@
 ---
-title: "React weather"
+title: React weather
 cover: "images/logo.jpg"
 location: UK
 color: "#FFF"
@@ -11,4 +11,4 @@ template: project
 <a class="btn" role="button" href="/tutorial-build-a-weather-app-with-react/">Check the tutorial</a>
 </p>
 
-This project was converted into a tutorial. Please access the blog post to find out more about it, check the demo and source code.
+This project was converted into a tutorial. Please access the blog post to find out more about it, and check the demo and source code.

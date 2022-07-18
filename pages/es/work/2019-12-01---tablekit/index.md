@@ -1,61 +1,61 @@
 ---
-title: "TableKit: TableCheck's Design System"
+title: "TableKit: Sistema de diseño de TableCheck"
 cover: "images/logo.png"
-location: Japan
+location: Japón
 color: "#ff9848"
 categories: react emotion typescript styleguidist storybook open-source web inverted
 template: project
 ---
 
 <p class="align-center">
-<a class="btn external" role="button" href="https://tablekit.tablecheck.com" target="_blank">TableKit Live Version</a>
-<a class="btn github" role="button" href="https://github.com/tablecheck/tablekit" target="_blank">Source Code</a>
+<a class="btn external" role="button" href="https://tablekit.tablecheck.com" target="_blank">Página web de TableKit</a>
+<a class="btn github" role="button" href="https://github.com/tablecheck/tablekit" target="_blank">Código fuente</a>
 </p>
 
 ![](/work/tablekit/images/1.png)
 
-Before joining TableCheck, I was already a big fan of design systems. In fact, I built [SugUI](/sugui) together with a work colleague (UI/UX designer) at Vodafone. Therefore, I had a clear mindset to do something similar at TableCheck. When I joined, I was lucky to find that other engineers in the team also shared the same philosophy about the need of a custom UI toolkit and proper design guidelines to maintain the consistency across the company products.
+Antes de unirme a TableCheck, ya era un gran aficionado a los sistemas de diseño. Construí [SugUI](/sugui) junto con una compañera de trabajo (diseñadora de UI/UX) en Vodafone. Por lo tanto, tenía una idea clara que quería hacer algo similar en TableCheck. Cuando me incorporé, tuve la suerte de encontrarme con que otros ingenieros del equipo también compartían la misma filosofía sobre la necesidad de un conjunto de herramientas de interfaz de usuario personalizado y unas directrices de diseño adecuadas para mantener la coherencia en todos los productos de la empresa.
 
-At first, the company was using a fork of [AtlastKit](https://atlaskit.atlassian.com/), (Atlassian's UI toolkit). Its name was TS Styling (TS from TableSolution, which was the previous name of the company). So, at the beginning, I was using this toolkit to build [Insight](/insight).
+Al principio, la empresa utilizaba un fork de [AtlastKit](https://atlaskit.atlassian.com/), (el kit de herramientas de interfaz de usuario de Atlassian). Su nombre era TS Styling (TS de TableSolution, que era el nombre anterior de la empresa). Así que, al principio, utilicé este kit de herramientas para construir [Insight](/insight).
 
-A few months later, we hired a great UI/UX designer (who was also pasionate about design systems) and then we started to build TableKit v1 with some of the leassons learned from TS Styling. We used the Insight App as the reference for building the UI components and defining the design guidelines for iconography, illustrations, typography, etc.
+Unos meses más tarde, contratamos a un gran diseñador de UI/UX (que también era un apasionado de los sistemas de diseño) y entonces empezamos a construir TableKit v1 con algunas de las lecciones aprendidas de TS Styling. Utilizamos la aplicación Insight como referencia para construir los componentes de la interfaz de usuario y definir las directrices de diseño para la iconografía, las ilustraciones, la tipografía, etc.
 
-## Tech Stack in v1 and v2
+## Tech Stack en v1 y v2
 
-When building a Design Sytem, there are many things to consider. One of the most important aspects is the documentation. Since this is going to be a living project with continuous updates, the way the documentation and examples are writen has to be very easy to update and understand by anyone in the organization. Not just for engineers and designers, but also for product managers, marketing, content, PR, QA, etc.
+Cuando se construye un sistema de diseño, hay que tener en cuenta muchas cosas. Uno de los aspectos más importantes es la documentación. Dado que va a ser un proyecto vivo con actualizaciones continuas, la forma en que se redacta la documentación y los ejemplos tiene que ser muy fácil de actualizar y entender por cualquier persona de la organización. No sólo por los ingenieros y diseñadores, sino también por los jefes de producto, marketing, contenidos, relaciones públicas, control de calidad, etc.
 
-Initially, we used [React Styleguidist](https://react-styleguidist.js.org/), and it worked fine for some time. Until we started to face its limitations. The main problems were the opinionated layout design (with the left sidebar) and the fact that all UI components were rendered at the same time, which made the page quite bloated and a bit slow to interact with. Nonetheless, the documentation site looked quite good. Although updating the content wasn't particularly easy, as we had to manually edit the .md files in the codebase. There was no CMS that designers could use to update the content.
+Inicialmente, utilizamos [React Styleguidist](https://react-styleguidist.js.org/), y funcionó bien durante algún tiempo. Hasta que empezamos a enfrentarnos a sus limitaciones. Los principales problemas eran el diseño del layout (con la barra lateral izquierda) y el hecho de que todos los componentes de la interfaz de usuario se renderizaban al mismo tiempo, lo que hacía que la página estuviera bastante cargada y fuera un poco lento interactuar con ella. No obstante, la página de documentación tenía un aspecto bastante bueno. Aunque actualizar el contenido no era especialmente fácil, ya que teníamos que editar manualmente los archivos .md en el código base. No había ningún CMS que los diseñadores pudieran utilizar para actualizar el contenido.
 
-Around one year later, we decided to migrate from Flow to TypeScript. And then, at the same time, move away from Styleguidist to [Storybook](https://storybook.js.org/). At this point, we were thinking of separating the UI Components from the rest of the content. So we could end up with two sites, one for the UI Toolkit and another one for the Design System documentation.
+Alrededor de un año después, decidimos migrar de Flow a TypeScript y al mismo tiempo, pasar de Styleguidist a [Storybook](https://storybook.js.org/). En este punto, estábamos pensando en separar los componentes de la interfaz de usuario del resto del contenido. Así que podríamos terminar con dos sitios web diferentes, uno para el UI Toolkit y otro para la documentación del sistema de diseño.
 
-Once we finished the migration, we ended up with a website that worked well for the UI components but we didn't really have enough time to add all the other documentation. The design team was also going through some changes, including a new Creative Director that would set a slight new direction.
+Una vez que terminamos la migración, acabamos con un sitio web que funcionaba bien para los componentes de la interfaz de usuario, pero no tuvimos tiempo suficiente para añadir el resto de la documentación. El equipo de diseño también estaba pasando por algunos cambios, incluyendo un nuevo Director Creativo que establecería una dirección ligeramente nueva.
 
-## Design Guidelines in v1 and v2
+## Directrices de diseño en la v1 y la v2
 
-We explored many designs systems from big tech firms, like [Google's Material Design](https://material.io/design), [IBM's Carbon Design System](https://carbondesignsystem.com/), [Uber's Base](https://baseweb.design/), etc. We ended up deciding to use the [IBM Plex font](https://www.ibm.com/plex/), as it supports many languages, including Japanese and now Chinese characters as well.
+Exploramos muchos sistemas de diseño de grandes empresas tecnológicas, como [Material Design de Google](https://material.io/design), [Carbon Design System de IBM](https://carbondesignsystem.com/), [Base de Uber](https://baseweb.design/), etc. Al final nos decidimos por utilizar la fuente [IBM Plex](https://www.ibm.com/plex/), ya que admite muchos idiomas, incluido el japonés y ahora también los caracteres chinos.
 
-Regarding icons, we ended up using a combination of [FontAwesome Icons](https://fontawesome.com/) and [TableCheck's Icon Library](https://github.com/tablecheck/tablecheck-icons). A couple of years later, we started the migration to use [IBM Carbon Icons](https://carbondesignsystem.com/guidelines/icons/library/), as the collection is bigger and can be extended by contributors.
+En cuanto a los iconos, acabamos utilizando una combinación de [FontAwesome Icons](https://fontawesome.com/) y [TableCheck's Icon Library](https://github.com/tablecheck/tablecheck-icons). Un par de años más tarde, iniciamos la migración para utilizar [IBM Carbon Icons](https://carbondesignsystem.com/guidelines/icons/library/), ya que la colección es mayor y puede ser ampliada por los colaboradores.
 
-Regarding colors, we decided to have a couple of primary and a couple of secondary colors. We also defined some accent colors, warning, success, border, elevation shadows, a grey scale, etc. But at the same time, we also needed a few scales to cover the abundant color combinations of the charts in the Insight App. That's how we came up with the following table:
+En cuanto a los colores, decidimos tener un par de colores primarios y un par de colores secundarios. También definimos algunos colores de acento, aviso, éxito, borde, sombras de elevación, una escala de grises, etc. Pero al mismo tiempo, también necesitábamos unas cuantas escalas para cubrir las abundantes combinaciones de colores de las tarjetas de la aplicación Insight. Así llegamos a la siguiente tabla:
 
 <p class="align-center">
-<img src="/work/tablekit/images/2.gif" alt="Tablekit colors" />
+<img src="/work/tablekit/images/2.gif" alt="Colores de Tablekit" />
 </p>
 
-The color schema was built taking our brand purple colour as the reference. Then we created 7 additional “core” colours with the same visual brightness and saturation. Once we had our 8 core colours, we added 4 darker and 4 lighter shades of each for our scales. This gave us a total of 72 unique colours to work with.
+El esquema de color se construyó tomando como referencia el color morado de la marca de TableCheck. A continuación, creamos 7 colores "básicos" adicionales con el mismo brillo y saturación visual. Una vez que tuvimos nuestros 8 colores básicos, añadimos 4 tonos más oscuros y 4 más claros de cada uno para nuestras escalas. Esto nos dio un total de 72 colores únicos con los que trabajar.
 
 ![](/work/tablekit/images/3.png)
 
-![Full palette (left) • Theme and UI Colours subset (Right)](/work/tablekit/images/4.png)
+Paleta completa (izquierda) - Subconjunto de colores del tema y de la interfaz de usuario [(derecha)](/work/tablekit/images/4.png)
 
-Another important aspect to define was the spacing. We ended up adopting an [8 pt grid](https://spec.fm/specifics/8-pt-grid), which would allow us to have a base value of 8px and several steps using a base of 8:
+Otro aspecto importante que había que definir era el espaciado. Terminamos adoptando una [cuadrícula de 8 puntos](https://spec.fm/specifics/8-pt-grid), que nos permitiría tener un valor base de 8px y varios pasos utilizando una base de 8:
 
 ![](/work/tablekit/images/5.png)
 
-For the typography, we also used the base 8 approach. So each line height step would use full or half increments of 8:
+Para la tipografía, también utilizamos los planteamientos de base 8. Así, cada paso de altura de línea utilizaría incrementos completos o medios de 8:
 
 ![](/work/tablekit/images/6.png)
 
-Example of the Button component (regular size):
+Ejemplo del componente de los botones (tamaño normal):
 
 ![](/work/tablekit/images/7.png)

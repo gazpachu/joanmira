@@ -1,5 +1,5 @@
 ---
-title: "Fingertips"
+title: Fingertips
 cover: "images/logo.png"
 location: UK
 color: "#FFF"
@@ -20,11 +20,11 @@ Initially, there was just a page with boxes for the apps, but I thought we could
 
 After making a few mockups and sharing my ideas with the rest of the team, the project was approved and I started building it. I owned 100% of the front-end work, including the UX user testing sessions with Vodafone employees and some parts of the final design.
 
-**All the widgets and app tiles are draggable**, so each user could organise the dashboard in whichever way they prefer. Widgets can also be added or removed, although there are some that are mandatory, like `news` or `feedback`.
+**All the widgets and app tiles are draggable**, so each user could organize the dashboard in whichever way they prefer. Widgets can also be added or removed, although some are mandatory, like `news` or `feedback`.
 
-At the top of the app there is an horizontal scrolling slider that contains all the available apps. Some of them might be `locked`, so the user needs to access request by clicking on them. These requests are then managed from another section of the app.
+At the top of the app, there is a horizontal scrolling slider that contains all the available apps. Some of them might be `locked`, so the user needs to access requests by clicking on them. These requests are then managed from another section of the app.
 
-I also built widgets for various Vodafone RSS news feeds and for specific apps like Lighthouse, Bonsai or Boomerang. These app widgets show favourite items or a summary of the latest changes in those apps.
+I also built widgets for various Vodafone RSS news feeds and for specific apps like Lighthouse, Bonsai or Boomerang. These app widgets show favorite items or a summary of the latest changes in those apps.
 
 Some of the widgets include pagination and others include settings.
 

@@ -1,19 +1,19 @@
 ---
-title: "Travelers website"
+title: Travelers website
 cover: "images/logo.jpg"
-location: UK
+location: Reino Unido
 color: white
 categories: sapientnitro web vanilla-js
 template: project
 ---
 
-While working at SapientNitro, I got involved in the Travelers account. I helped with the front-end development of the new responsive insurance quote journey.
+Mientras trabajaba en SapientNitro, me involucré en la cuenta de Travelers. Ayudé con el desarrollo del front-end del nuevo formulario responsivo de solicitud de presupuestos de seguros.
 
-Due to the nature of the business (it handles sensitive data), we were asked to work using vanilla JavaScript (no frameworks), which meant we had to build many reusable and flexible components from scratch.
+Debido a la naturaleza del negocio (maneja datos sensibles), se nos pidió que trabajáramos con JavaScript puro (sin frameworks), lo que significó que tuvimos que construir muchos componentes reutilizables y flexibles desde cero.
 
 ![](/work/travelers/images/1.png)
 
-The journey is basically a chain of complex forms, which are navigated using a timeline and next/previous buttons. Some parts of the business logic were a but tricky, which turned out to be challenging to solve from a UX point of view, but after many tests, we got it right, which means more success for our client and a better experience for his customers.
+El proceso incluye una cadena de formularios complejos, por los que se navega mediante una línea de tiempo y botones de siguiente/anterior. Algunas partes de la lógica de negocio eran complicadas, lo que resultó ser un reto para resolver desde el punto de vista de la UX, pero después de muchas pruebas, lo conseguimos, lo que significa más éxito para nuestro cliente y una mejor experiencia para sus clientes.
 
 ![](/work/travelers/images/2.jpg)
 
@@ -25,4 +25,4 @@ The journey is basically a chain of complex forms, which are navigated using a t
 
 ![](/work/travelers/images/6.jpg)
 
-![](/work/travelers/images/board.jpg "Project board")
+![](/work/travelers/images/board.jpg "Tablero del proyecto")

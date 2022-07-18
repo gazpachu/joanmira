@@ -1,7 +1,7 @@
 ---
-title: "Fingertips"
+title: Fingertips
 cover: "images/logo.png"
-location: UK
+location: Reino Unido
 color: "#FFF"
 categories: vodafone react redux webpack web-app ux design
 template: project
@@ -9,45 +9,45 @@ template: project
 
 ![](/work/fingertips/images/1.png)
 
-Fingertips (aka Dashboard) is the main app that hosts all the other apps I built while working at Vodafone. Its purpose is to serve as:
+Fingertips Dashboard es la aplicación principal que alberga todas las demás aplicaciones que construí mientras trabajaba en Vodafone. Su propósito es servir como:
 
-- the platform to access all the other available apps
-- inform the users about news and updates
-- have quick summaries about the apps using Widgets
-- give feedback and have real-time support
+- La plataforma para acceder a todas las demás aplicaciones disponibles
+- Informar a los usuarios de las novedades y actualizaciones
+- Resúmenes rápidos sobre las aplicaciones usando Widgets
+- Captura de feedback por parte de los usuarios y soporte en tiempo real
 
-Initially, there was just a page with boxes for the apps, but I thought we could rebuild it into something that has more information and would allow us to connect with our users. That's how I came out with the dashboard and widgets design.
+Inicialmente, sólo había una página con botones para lanzar las aplicaciones, pero pensé que podíamos rediseñar la app con algo que tuviera más información y nos permitiera conectar con nuestros usuarios. Así es como surgió el diseño del cuadro de mandos y los widgets.
 
-After making a few mockups and sharing my ideas with the rest of the team, the project was approved and I started building it. I owned 100% of the front-end work, including the UX user testing sessions with Vodafone employees and some parts of the final design.
+Después de hacer unas cuantas maquetas y compartir mis ideas con el resto del equipo, el proyecto fue aprobado y comencé a construirlo. Me hice cargo del 100% del trabajo de front-end, incluyendo las sesiones de pruebas con usuarios (empleados de Vodafone) y algunas partes del diseño final.
 
-**All the widgets and app tiles are draggable**, so each user could organise the dashboard in whichever way they prefer. Widgets can also be added or removed, although there are some that are mandatory, like `news` or `feedback`.
+**Todos los widgets de la aplicación se pueden arrastrar**, por lo que cada usuario puede organizar el panel de control de la forma que prefiera. Los widgets también pueden añadirse o eliminarse, aunque algunos son obligatorios, como el de "noticias" o el de "comentarios".
 
-At the top of the app there is an horizontal scrolling slider that contains all the available apps. Some of them might be `locked`, so the user needs to access request by clicking on them. These requests are then managed from another section of the app.
+En la parte superior de la aplicación, hay un control deslizante horizontal que contiene todas las aplicaciones disponibles. Algunas de ellas pueden estar `bloqueadas`, por lo que el usuario debe acceder a las solicitudes pulsando sobre ellas. Estas solicitudes se gestionan desde otra sección de la aplicación.
 
-I also built widgets for various Vodafone RSS news feeds and for specific apps like Lighthouse, Bonsai or Boomerang. These app widgets show favourite items or a summary of the latest changes in those apps.
+También construí widgets para varios canales de noticias RSS de Vodafone y para aplicaciones específicas como Lighthouse, Bonsai o Boomerang. Estos widgets de aplicaciones muestran los elementos favoritos o un resumen de los últimos cambios en esas aplicaciones.
 
-Some of the widgets include pagination and others include settings.
+Algunos de los widgets incluyen paginación y otros incluyen ajustes.
 
-News stories and ideas have their own canonical URL and page. Ideas include comments from users as well.
+Los widgets de noticias y de ideas tienen su propia URL canónica y su propia página. Las ideas también incluyen comentarios de los usuarios.
 
 <video class="full-img" width="100%" controls>
   <source src="/work/fingertips/images/tour.mp4" type="video/mp4" />
 </video>
 
-![](/work/fingertips/images/2.jpg "Add a new widget")
+![](/work/fingertips/images/2.jpg "Añadir un nuevo widget")
 
-![](/work/fingertips/images/3.jpg "Idea page")
+![](/work/fingertips/images/3.jpg "Página de ideas")
 
-![](/work/fingertips/images/4.jpg "Edit an idea")
+![](/work/fingertips/images/4.jpg "Editar una idea")
 
-![](/work/fingertips/images/5.jpg "Widget settings")
+![](/work/fingertips/images/5.jpg "Configuración de un widget")
 
-![](/work/fingertips/images/6.jpg "Support panel connected with Slack")
+![](/work/fingertips/images/6.jpg "Panel de soporte conectado con Slack")
 
-![](/work/fingertips/images/7.jpg "App FAQs")
+![](/work/fingertips/images/7.jpg "FAQs")
 
-![](/work/fingertips/images/8.jpg "Manage access requests")
+![](/work/fingertips/images/8.jpg "Gestionar las solicitudes de acceso")
 
-![](/work/fingertips/images/9.jpg "Manage ideas")
+![](/work/fingertips/images/9.jpg "Gestionar ideas")
 
-![](/work/fingertips/images/10.jpg "About page")
+![](/work/fingertips/images/10.jpg "Página sobre nosotros")

@@ -1,21 +1,21 @@
 ---
-title: "Standup"
+title: Standup
 cover: "images/logo.png"
-location: UK
+location: Reino Unido
 color: "#000"
 categories: vodafone react webrtc webpack web-app ux design inverted open-source
 template: project
 ---
 
 <p class="align-center">
-<a class="btn external" role="button" href="https://fingertips-standup.herokuapp.com/" target="_blank">Demo</a>
-<a class="btn github" role="button" href="https://github.com/gazpachu/standup" target="_blank">Source code</a>
+<a class="btn external" role="button" href="https://fingertips-standup.herokuapp.com/" target="_blank">Demostración</a>
+<a class="btn github" role="button" href="https://github.com/gazpachu/standup" target="_blank">Código fuente</a>
 </p>
 
 ![](/work/standup/images/1.png)
 
-I built the Standup app as an experiment to make remote scrum standup sessions more fun!
+Construí la aplicación Standup como un experimento para hacer más divertidas las sesiones remotas de scrum standup.
 
-The app uses a technology called WebRTC to reproduce a videoconference interface similar to Google Hangouts. The front-end uses a wrapper called [SimpleWebRTC](https://github.com/andyet/SimpleWebRTC). In the back-end, a service provider called [Xirsys](https://xirsys.com/), and a signalling server called [SignalMaster](https://github.com/andyet/signalmaster) help to overcome common network hickups like NATs, Firewalls and VPNs.
+La aplicación utiliza una tecnología llamada WebRTC para reproducir una interfaz de videoconferencia similar a Google Hangouts. El front-end utiliza un wrapper llamado [SimpleWebRTC](https://github.com/andyet/SimpleWebRTC). En el back-end, un proveedor de servicios llamado [Xirsys](https://xirsys.com/), y un servidor de señalización llamado [SignalMaster](https://github.com/andyet/signalmaster) ayudan a superar los contratiempos comunes de la red como NATs, Firewalls y VPNs.
 
-The app is currently under development and the TURN servers might not work anymore, so it's not production ready! Although you can try to chat with one or two other users...
+La aplicación está actualmente en desarrollo y los servidores TURN podrían dejar de funcionar, por lo que no está lista para la producción. Aunque puedes intentar chatear con uno o dos usuarios más...

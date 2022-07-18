@@ -1,12 +1,21 @@
 ---
-title: El Estudio
+title: Sobre mí
 template: about
 ---
 
 <div>
   <div class="slide">
-    <p>El estudio fue fundado en el año 2006. Inicialmente desarrolló su actividad empresarial como una pequeña agencia de diseño interactivo bajo la marca Webmarket. Estuvo en activo hasta el año 2012. A partir del año 2022, el estudio volvió a estar operativo, esta vez bajo la marca actual y ofreciendo servicios de ingeniería de software y diseño UI UX. En ambos casos, el estudio ha estado localizado en Alicante, España, aunque algunos de sus clientes, proyectos y colaborades son de América, Europa y Asia.</p>
-    <p>Actualmente, el estudio representa únicamente la actividad laboral, artística y personal de Joan Mira. Para más información, se puede consultar su <a href="/es/cv">curriculum</a>, <a href="/es/goals">objetivos vitales</a>, la aventura en moto llamada la <a href="/samurai-route/">Ruta del Samurái</a>, o perfiles en <a href="http://linkedin.com/in/joanmira">LinkedIn</a>, <a href="https://twitter.com/gazpachu/">Twitter</a> o <a href="https://github.com/gazpachu">Github</a>.</p>
+    <img class="pach" src="/about/images/pach.png" alt="Joan Mira" />
+    <p>¡Hola! 👋 gracias por pasarte por aquí.</p>
+    <p>En este sitio web encontrarás información sobre mi trabajo y servicios como Ingeniero de Software y Diseñador UI UX. De vez en cuando, también publico algunas historias personales en el blog para compartir ideas y experiencias.<br />Siéntete libre de comentar en los artículos o <a href="/contact">contáctame</a> para asuntos relacionados con el trabajo.</p>
+     <p>Si quieres saber más sobre mí, puedes leer mi <a href="/cv">curriculum vitae</a> o mi aventura en moto llamada la <a href="/samurai-route/">Ruta Samurái</a>. Alternativamente, también estoy disponible si me retas al ping-pong o al fútbolín. Y no olvides agregarme en <a href="http://linkedin.com/in/joanmira">LinkedIn</a>, <a href="https://twitter.com/gazpachu/"> Twitter</a> o <a href="https://github.com/gazpachu">Github</a>! 🎉</p>
+     <p>Por cierto, mi segundo nombre es <b>Siddharta</b>, que es el nombre de Buda y significa <i>"El que ha alcanzado su meta"</i>.</p>
+  </div>
+  <div class="slide">
+    <h2>El estudio</h2>
+    <p>Empecé a producir trabajos creativos comerciales para mis clientes en el año 2000. Posteriormente, en 2006, <b>cofundé oficialmente Webmarket S.C.</b>, una pequeña agencia de diseño interactivo. Estuvo activa hasta 2012. Los siguientes 10 años los pasé en <b>Londres y Tokio</b>, trabajando para grandes empresas y aprendiendo de colegas muy talentosos. En 2022 reabrí el estudio, esta vez bajo mi marca personal y ofreciendo servicios de ingeniería de software de última generación, diseño UI UX e instalaciones de arte interactivo.</p>
+     <p>Mi misión inicial con el estudio en el futuro es <b>contribuir al mundo del código abierto</b>, <b>ayudar a las nuevas empresas</b> (especialmente en Alicante), <b>construir un producto SaaS</b> y comenzar a crear <b>instalaciones de arte interactivo</b>.</p>
+     <p>El <b>estudio se encuentra en Alicante</b>, aunque mis clientes y colaboradores son de diferentes partes del mundo.</p>
   </div>
 
   <div class="slide">

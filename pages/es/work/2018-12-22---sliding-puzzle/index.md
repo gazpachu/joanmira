@@ -1,7 +1,7 @@
 ---
-title: "Sliding puzzle"
+title: "El juego del puzzle"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: "#4F7486"
 categories: web-app react redux design ux inverted open-source prototype
 template: project
@@ -12,6 +12,6 @@ template: project
 <a class="btn github" role="button" href="https://github.com/gazpachu/sliding-puzzle" target="_blank">Source code</a>
 </p>
 
-Sliding puzzle is a small experiment with React and Redux to create a puzzle game. It was built using the [create react app](https://github.com/facebook/create-react-app) in just a couple of days.
+El juego del puzzle deslizante es un pequeño experimento con React y Redux para replicar el clásico juego tipo puzzle de mover piezas hasta conseguir formar la imagen. Lo construí usando la aplicación [create react app](https://github.com/facebook/create-react-app) en sólo un par de días.
 
 ![](/work/sliding-puzzle/images/1.png)

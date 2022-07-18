@@ -1,18 +1,18 @@
 ---
-title: "Skills"
+title: Skills
 cover: "images/logo.png"
-location: Spain
+location: España
 color: "#AA5564"
 categories: web box2d creative-tech inverted open-source
 template: project
 ---
 
 <p class="align-center">
-<a class="btn external" role="button" href="https://gazpachu.github.io/skills/" target="_blank">Launch Demo</a> <a class="btn github" role="button" href="https://github.com/gazpachu/skills" target="_blank">Source Code</a>
+<a class="btn external" role="button" href="https://gazpachu.github.io/skills/" target="_blank">Lanzar demo</a> <a class="btn github" role="button" href="https://github.com/gazpachu/skills" target="_blank">Código fuente</a>
 </p>
 
 ![](/work/skills/images/1.png)
 
-This is an interactive demo of box2d with DOM elements. It also works with drag & drop and on mobile with touch events.
+Esta es una demostración interactiva de box2d con elementos DOM. También funciona con arrastrar y soltar y en dispositivos móviles con eventos táctiles.
 
-The demo was featured in the homepage of this website (joanmira.com) until June 2022.
+La demostración se presentó en la página de inicio de este sitio web (joanmira.com) hasta junio de 2022.

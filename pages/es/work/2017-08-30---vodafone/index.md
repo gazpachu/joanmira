@@ -1,7 +1,7 @@
 ---
-title: "Vodafone"
+title: Vodafone
 cover: "images/logo.png"
-location: UK
+location: Reino Unido
 color: "#ED1C24"
 categories: vodafone web-app inverted leaflet mapbox blackhole d3
 template: project
@@ -9,11 +9,11 @@ template: project
 
 ![](/work/vodafone/images/1.png)
 
-While working at Vodafone, I was tasked to do an interactive data visualisation piece for one of its clients.
+Mientras trabajaba en Vodafone, me encargaron una pieza de visualización de datos interactiva para uno de sus clientes (una multinacional farmacéutica).
 
-The idea was to show a world map with a timeline to represent the mobile calls of a particular subscriber of the client. The calls were represented with particles jumping from the origin of the call to the destination.
+La idea era mostrar un mapa del mundo con una línea de tiempo para representar las llamadas de móvil de un determinado abonado del cliente. Las llamadas se representaban mediante partículas que saltaban desde el origen de la llamada hasta el destino.
 
-To amplify the visual appeal of the animation, I used a few Javascript libraries and APIs to represent the particles and their trails in the map:
+Para ampliar el atractivo visual de la animación, utilicé algunas bibliotecas y APIs de Javascript para representar las partículas y sus recorridos en el mapa:
 
 - [leaflet full-screen](https://github.com/Leaflet/Leaflet.fullscreen)
 - [leaflet markercluster](https://github.com/Leaflet/Leaflet.markercluster)

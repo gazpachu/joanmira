@@ -1,21 +1,21 @@
 ---
-title: "Hypatia LMS"
+title: Hypatia LMS
 cover: "images/logo.png"
-location: Spain
+location: España
 color: "#2a6eb5"
 categories: react redux webpack web-app web ux design open-source prototype inverted
 template: project
 ---
 
 <p class="align-center">
-<a class="btn github" role="button" href="https://github.com/gazpachu/hypatia" target="_blank">Source code</a>
-<a class="btn external" role="button" href="https://gazpachu.github.io/hypatia/" target="_blank">Project website</a>
-<a class="btn external" role="button" href="https://hypatia-8d923.firebaseapp.com/" target="_blank">Demo</a>
+<a class="btn github" role="button" href="https://github.com/gazpachu/hypatia" target="_blank">Código fuente</a>
+<a class="btn external" role="button" href="https://gazpachu.github.io/hypatia/" target="_blank">Página web del proyecto</a>
+<a class="btn external" role="button" href="https://hypatia-8d923.firebaseapp.com/" target="_blank">Demostración</a>
 </p>
 
 ![](/work/hypatia/images/1.png)
 
-Hypatia was my University final project. It is an open source LMS (Learning Management System) focussed on MOOCs.
+Hypatia fue mi proyecto de fin de carrera. Se trata de un LMS (Learning Management System) de código abierto centrado en los MOOC.
 
 <iframe width="100%" height="550" style="margin-bottom: 20px" src="https://www.youtube.com/embed/YlZpcrvJcbs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

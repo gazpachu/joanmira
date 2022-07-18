@@ -31,7 +31,7 @@
     .wrapper {
       display: grid;
       grid-template-columns: 50% 50%;
-      max-width: 310px;
+      max-width: 340px;
       margin: 0 auto;
       font-size: 14px;
       font-weight: 400;
@@ -231,7 +231,7 @@
 <body>
   <div class="hero" data-theme="dark">
     <%- include('header'); %>
-    <h1><%= translations.homepage.title %></h1>
+    <h1><%- translations.homepage.title %></h1>
     <div class="wrapper">
       <div class="cta" data-target="modal-video" onClick="toggleModal(event)">
         <div class="icon">

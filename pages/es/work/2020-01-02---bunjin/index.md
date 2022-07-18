@@ -1,25 +1,25 @@
 ---
-title: "Bunjin RSS Reader"
+title: "Bunjin Lector de RSS"
 cover: "images/logo.png"
-location: Japan
+location: Japón
 color: "#F9D9EB"
 categories: react firebase rss open-source web-app
 template: project
 ---
 
 <p class="align-center">
-<a class="btn external" role="button" href="https://bunjinapp.web.app/" target="_blank">Live App</a>
-<a class="btn github" role="button" href="https://github.com/gazpachu/bunjin" target="_blank">Source Code</a>
+<a class="btn external" role="button" href="https://bunjinapp.web.app/" target="_blank">App</a>
+<a class="btn github" role="button" href="https://github.com/gazpachu/bunjin" target="_blank">Código fuente</a>
 </p>
 
 ![](/work/bunjin/images/1.png)
 
-The term "Bunjin" refers to a type of people in traditional society in China and 'an educated person who is good at literature.' [More info](https://www.japanese-wiki-corpus.org/history/Bunjin%20(Literati%20in%20China).html).
+El término "Bunjin" se refiere a un tipo de personas de la sociedad tradicional china y a una 'persona educada que es buena en literatura'. [Más información](https://www.bssf.org/articles-and-stories/john-naka-on-bunjin-gi-bunjin-style/#:~:text=Bunjin%20means%20literary%20man%2C%20man,and%20soujin%20which%20means%20priest).
 
-I created Bunjin because I wanted to have a proper dark theme and a very custom experience for my own RSS reading experience. You can say I'm very picky with UIs, especially if I have to use them every day...
+Creé Bunjin porque quería tener un tema oscuro adecuado y una experiencia muy personalizada para mi propia experiencia de lectura de noticias por RSS. Se puede decir que soy muy exigente con las interfaces de usuario, especialmente si tengo que usarlas todos los días...
 
-Long time ago, I was very fond of [iGoogle](https://en.wikipedia.org/wiki/IGoogle), but when they decided to close it, I moved to [Netvibes](https://www.netvibes.com/en). For some time, I was happy, but I didn't really like the looks of the app. So one day, I decided to build my own RSS reader, and that's how Bunjin came to life.
+Hace mucho tiempo, me gustaba mucho [iGoogle](https://en.wikipedia.org/wiki/IGoogle), pero cuando decidieron cerrarlo, me pasé a [Netvibes](https://www.netvibes.com/en). Durante algún tiempo, estuve contento, pero no me gustaba el aspecto de la aplicación. Así que un día decidí crear mi propio lector de RSS, y así es como nació Bunjin.
 
-The app is open source and anyone can use it, so feel fere to register your account and play around. The UI is not very polished yet (it only has the basics to make me feel good using it) and there are not many features. You can create infinite dashboards, tabs add feeds (widgets), which can be arranged in your preferred order and select the amount of stories to display on each widget.
+La aplicación es de código abierto y cualquiera puede usarla, así que no dudes en registrar tu cuenta y probarla. La interfaz de usuario no está muy pulida todavía (sólo tiene lo básico para que me sienta bien usándola) y no hay muchas características. Puedes crear infinitos tableros, y las pestañas añaden feeds (widgets), que se pueden organizar en el orden que prefieras y seleccionar el número de historias que se mostrarán en cada widget.
 
-The app uses a proxy to bypass the CORS issues with some feeds and it caches the content on a Firebase DB to minimize the external requests (some websites have a limit).
+La aplicación utiliza un proxy para evitar los problemas de CORS con algunos feeds y almacena en caché el contenido en una base de datos de Firebase para minimizar las solicitudes externas (algunos sitios web tienen un límite de accesos por RSS).

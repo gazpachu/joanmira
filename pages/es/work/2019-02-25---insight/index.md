@@ -1,7 +1,7 @@
 ---
-title: "Insight: TableCheck's Data Analytics"
+title: "Insight: Análisis de datos con TableCheck"
 cover: "images/logo.png"
-location: Japan
+location: Japón
 color: "#488DFF"
 categories: react graphql apollo emotion react-vis web-app inverted
 template: project
@@ -9,34 +9,34 @@ template: project
 
 ![](/work/insight/images/1.png)
 
-When I joined TableCheck, I started to work on their Data Science team as the front-end lead. During one year, I managed to bring the product from its initial prototyping stages until its release in August 2019 in 3 languages. Together with the Head of Data Science and a team of 3 front-end engineers and 3 back-end engineers, we built one of the most advanced analytics suite in the industry for TableCheck’s customers like Hilton, IHG Intercontinental, Hyatt, Westin or Okura hotels among others.
+Cuando me uní a TableCheck, comencé a trabajar en su equipo de Ciencia de Datos como líder de front-end. Durante un año, conseguí llevar el producto desde sus fases iniciales de prototipo hasta su lanzamiento en agosto de 2019 en 3 idiomas. Junto con el Jefe de Ciencia de Datos y un equipo de 3 ingenieros de front-end y 3 ingenieros de back-end, construimos una de las suites de análisis más avanzadas de la industria para los clientes de TableCheck como los hoteles Hilton, IHG Intercontinental, Hyatt, Westin y Okura, entre otros.
 
-After the release, I was promoted to Engineering Manager and moved to other projects within TableCheck.
+Después del lanzamiento, fui promovido a Manager de Ingeniería y me trasladé a otros proyectos dentro de TableCheck.
 
-## What is exactly Insight?
+## ¿Qué es exactamente Insight?
 
-Insight is a restaurant data analytics tool for management-level reporting, data visualization, forecasting, and AI decision-making. Whereas TableCheck automates restaurant operations, Insight complements the core product suite by automating business decisions for restaurant managers, marketing directors, and revenue managers. The primary goal with Insight is to help restaurants improve their own efficiency by identifying and monetizing patterns in reservation and diner experience. Insight's success comes from simplifying the organization and display of complex information without sacrificing the power and flexibility to answer any question.
+Insight es una herramienta de análisis de datos de restaurantes para la elaboración de informes a nivel de gestión, visualización de datos, previsión y toma de decisiones con IA. Mientras que TableCheck automatiza las operaciones de los restaurantes, Insight complementa el conjunto de productos principales automatizando las decisiones empresariales para los gerentes de los restaurantes, los directores de marketing y los gestores de ingresos. El objetivo principal de Insight es ayudar a los restaurantes a mejorar su eficiencia identificando y monetizando los patrones de reserva y la experiencia del comensal. El éxito de Insight proviene de la simplificación de la organización y visualización de información compleja sin sacrificar la potencia y flexibilidad para responder a cualquier pregunta.
 
-The front-end tech stack involved React 16, GraphQL, Apollo, MobX, Flow, Emotion, ReactVis, i18Next, Lokalise, ReactPDF, Lodash, MomentJS, TableCheck’s own design system and UI component library and other NPM modules.
+La tecnología del front-end incluyó React 16, GraphQL, Apollo, MobX, Flow, Emotion, ReactVis, i18Next, Lokalise, ReactPDF, Lodash, MomentJS, el sistema de diseño de TableCheck y la librería de componentes UI y otros módulos NPM.
 
-### Preset Dashboards
+### Cuadros de mando preestablecidos
 
-Insight includes preset dashboards that contain curated charts to answer specific questions.
+Insight incluye cuadros de mando preestablecidos que contienen gráficos predefinidos para responder a preguntas específicas.
 
-There are a number of standard dashboard templates available that can be used readily. Insight includes the following preset dashboards:
+Existen varias plantillas de cuadros de mando estándar que pueden utilizarse fácilmente. Insight incluye los siguientes cuadros de mando preestablecidos:
 
-- **Revenue**: how much revenue was received and what is its breakdown
-- **Reservations**: why, when, and how did diners make reservations
-- **Cancellations**: why, when, and who cancelled reservations
-- **Occupancy**: diner occupancy characteristics by day of week, time of day, etc.
-- **Online** Providers: the characteristics of reservations booked via an online source such as TableCheck or an OTA like OpenTable, Tabelog, etc.
-- **Channels**: the characteristics of reservations booked via preset or custom marketing channels.
-- **Forecasts**: an overview of expected revenue, total diners, cancellations, walk-ins, and no-shows.
-- **Upcoming**: reservation counts and total number of people for the week to come (including today)
-- **Surveys**: how did diners rate the food, service, atmosphere, and value and how was the survey response rate (data are only visible for venues subscribed to Survey)
-- **Text Messages**: where, when, and why were text messages sent to diners
-- **Waitlist**: how long did diners have to wait before being seated
+- **Ingresos**: cuántos ingresos se han recibido y cuál es su desglose
+- **Reservas**: por qué, cuándo y cómo reservaron los comensales
+- **Cancelaciones**: por qué, cuándo y quién canceló las reservas
+- **Ocupación**: características de ocupación de los comensales por día de la semana, hora del día, etc.
+- **Proveedores online**: las características de las reservas realizadas a través de una fuente online como TableCheck o una OTA como OpenTable, Tabelog, etc.
+- **Canales**: las características de las reservas realizadas a través de canales de comercialización preestablecidos o personalizados.
+- **Previsiones**: una visión general de los ingresos previstos, el total de comensales, las cancelaciones, las entradas sin cita previa y las ausencias.
+- **Próximos eventos**: recuento de reservas y número total de personas para la semana que viene (incluido el día de hoy)
+- **Encuestas**: cómo calificaron los comensales la comida, el servicio, el ambiente y el valor, y cuál fue la tasa de respuesta a la encuesta (los datos sólo son visibles para los locales suscritos a la encuesta)
+- **Mensajes de texto**: dónde, cuándo y por qué se enviaron mensajes de texto a los comensales
+- **Lista de espera**: cuánto tiempo tuvieron que esperar los comensales para sentarse
 
-### Custom Dashboards
+### Cuadros de mando personalizados
 
-In addition to the preset dashboards, you can create an unlimited number of custom dashboards by organizing charts and tables of your choice. Any chart from the preset dashboards can be added to the Custom dashboard.
+Además de los cuadros de mando preestablecidos, puede crear un número ilimitado de cuadros de mando personalizados organizando gráficos y tablas de su elección. Cualquier gráfico de los cuadros de mando preestablecidos puede añadirse al cuadro de mando personalizado.

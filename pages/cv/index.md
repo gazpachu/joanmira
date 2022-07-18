@@ -32,7 +32,7 @@ title: Curriculum Vitae
 </style>
 <div class="post">
 
-## Last updated on March 2022
+## Last updated on July 2022
 
 <div class="body">
 <div class="sidebar">
@@ -74,17 +74,17 @@ A **creative** Front-end Engineering Manager and individual contributor with a k
 - Creativity & Analytical Thinking
 - Project & People Management
 
-His interests and abilities are more aligned with the **creative tracks** (the visual, artistic, interactive and UI/UX side of the front-end work). Although he is also experienced and comfortable with all the other aspects, like dealing with REST/GraphQL APIs, tooling/configuration, testing, performance optimization, etc.
+My interests and abilities are more aligned with the **creative tracks** (the visual, artistic, interactive and UI/UX side of the front-end work). Although I am also experienced and comfortable with all the other aspects, like dealing with REST/GraphQL APIs, tooling/configuration, testing, performance optimization, etc.
 
-Currently, [ReactJS](https://facebook.github.io/react) and NodeJS are his preferred tools, but he would also like to learn more about [Svelte](https://svelte.dev/), [WebGL](https://gist.github.com/dmnsgn/76878ba6903cf15789b712464875cfdc) and [WebVR](https://medium.freecodecamp.org/how-to-build-a-multiplayer-vr-web-app-7b989964fb38) ecosystems...
+Currently, [ReactJS](https://facebook.github.io/react) and NodeJS are my preferred tools, but I would also like to learn more about [Svelte](https://svelte.dev/), [WebGL](https://gist.github.com/dmnsgn/76878ba6903cf15789b712464875cfdc) and [WebVR](https://medium.freecodecamp.org/how-to-build-a-multiplayer-vr-web-app-7b989964fb38) ecosystems...
 
 #### Front-end
 
-These are some technologies and tools that he has been using in the last few years:
+These are some technologies and tools that I have been using in the last few years:
 
 * Core: [Typescript](https://en.wikipedia.org/wiki/TypeScript), [HTML5](https://en.wikipedia.org/wiki/HTML5), [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3)
-* Frameworks: [ReactJS](https://facebook.github.io/react). He used [VueJS](https://vuejs.org) and [AngularJS](https://angularjs.org/) in the past but won't use them again
-* State management: [Redux](http://redux.js.org/), [xState](https://xstate.js.org/). He used [Vuex](https://github.com/vuejs/vuex) and [MobX](https://mobx.js.org/) also in the past but not anymore
+* Frameworks: [ReactJS](https://facebook.github.io/react). I used [VueJS](https://vuejs.org) and [AngularJS](https://angularjs.org/) in the past but won't use them again
+* State management: [Redux](http://redux.js.org/), [xState](https://xstate.js.org/). I used [Vuex](https://github.com/vuejs/vuex) and [MobX](https://mobx.js.org/) also in the past but not anymore
 * CSS: [Emotion](https://emotion.sh), [Styled Components](https://styled-components.com), [LESS](http://lesscss.org/), [SASS](http://sass-lang.com/), [PostCSS](https://postcss.org/)
 * Component libraries: [Storybook](https://storybook.js.org/), [Styleguidist](https://react-styleguidist.js.org/), [Material UI](https://material-ui.com/), [Vue Material](https://vuematerial.github.io/#/), [Bootstrap](http://getbootstrap.com/)
 * Other libraries: [LernaJS](https://lerna.js.org/), [Apollo](https://www.apollographql.com), [FlowJS](https://flow.org/), [Axios](https://github.com/axios/axios), [Lodash](https://lodash.com/), [Husky](https://typicode.github.io/husky), [CommitLint](https://commitlint.js.org/), [Semantic Release](https://github.com/semantic-release/semantic-release), [date-fns](https://date-fns.org/), [Moment.js](https://momentjs.com/), [Showdown](https://github.com/showdownjs/showdown), [History](https://github.com/ReactTraining/history), [React Hook Forms](https://react-hook-form.com/), [Yup](https://github.com/jquense/yup), [Iframe resizer](https://github.com/davidjbradshaw/iframe-resizer), [ReactVis](https://uber.github.io/react-vis/), [Highcharts](http://www.highcharts.com/), [OrgChart](https://github.com/dabeng/OrgChart)
@@ -281,7 +281,7 @@ UPDATE: the articles are no longer available on WCRS' blog. Now they are publish
 
 Was honored to be the first hired developer in the history of the Royal Opera House. Joined the newly created development team under the digital media department with a very important objective: to completely rebuild the [ROH website](http://www.roh.org.uk/) from scratch. A business-critical project that required a major overhaul in the ticketing system, server infrastructure, information architecture, user experience, content management and an online shop to match the high standards of the organization.
 
-The development team was small; two full-stack developers, one design manager and a CTO. This scenario allowed me to have considerable influence on the application architecture and the overall development of the website.
+The development team was small; two full-stack developers, one design manager and a CTO. This scenario allowed me to have wide influence on the application architecture and the overall development of the website.
 
 As a result, the [online ticket sales increased to 60%](/blog/the-royal-opera-house-in-numbers) - no more waiting rooms - and all the digital content and user experience improved thanks to the robust framework and work methodology established by the digital media team.
 
@@ -445,7 +445,7 @@ Pascal, Assembler, Cobol, Delphi, SQL (Access), C, OO programming, Linux, Networ
 
 * **Nov 2016**: Recognised by my line manager with the innovation award at Vodafone Global Enterprise
 
-* **Feb 2014**: the Art Rules project where he was heavily involved in the front-end was shortlisted for a prestigious FWA award
+* **Feb 2014**: the Art Rules project where I was heavily involved in the front-end was shortlisted for a prestigious FWA award
 
 The following are some recognitions from my former co-workers, partners and clients.
 
@@ -499,7 +499,7 @@ Core Value: **Creativity**
 Nominator: [Angie Yuanmalai](https://www.linkedin.com/in/angie-yuanmalai-09bbb9a) (Design Manager at SapientNitro)
 Date: 17-Sep-2015
 
-*"For me, creativity is the ability to solve a problem but in a way that delights people in new and different perspectives. We tend to forget that creativity takes on many forms and in this case, Joan has rightfully reminded me so. Joan has been an absolute joy to work with. Where an animation or difficult task is presented, the usual response from developers would be a quizzical look and a shake of the head. Joan has been nothing but enthusiastic to tackle animations and other challenges full-on, constantly coming up with better, improved solutions to the code and researching and suggests his ground-breaking ideas on animations and possible renditions to the creative work. On top of this, he has stepped in as a wonderful and reliable leader within the team and displayed commendable organizational and management skills. Finding a developer that can code exceptionally is very, very difficult, but finding one that also has wonderful people and leadership skills that greets problems with smiles is practically impossible - I'm so glad we've got Joan in the company. He has been an invaluable asset to the team and I couldn't stop singing his praises. If anyone deserves this award it would definitely be Joan."*
+*"For me, creativity is the ability to solve a problem but in a way that delights people in new and different perspectives. We tend to forget that creativity takes on many forms and in this case, Joan has rightfully reminded me so. Joan has been an absolute joy to work with. Where an animation or difficult task is presented, the usual response from developers would be a quizzical look and a shake of the head. Joan has been nothing but enthusiastic to tackle animations and other challenges full-on, constantly coming up with better, improved solutions to the code and researching and suggesting his ground-breaking ideas on animations and possible renditions to the creative work. On top of this, he has stepped in as a wonderful and reliable leader within the team and displayed commendable organizational and management skills. Finding a developer that can code exceptionally is very, very difficult, but finding one that also has wonderful people and leadership skills that greets problems with smiles is practically impossible - I'm so glad we've got Joan in the company. He has been an invaluable asset to the team and I couldn't stop singing his praises. If anyone deserves this award it would definitely be Joan."*
 
 Core Value: **People Growth**
 Nominator: [Shaun Wallace](https://www.linkedin.com/in/wallaceshaun) (Senior Developer at SapientNitro)

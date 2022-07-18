@@ -1,7 +1,7 @@
 ---
-title: "Save the children tech audit"
+title: Save the children tech audit
 cover: "images/logo.jpg"
-location: UK
+location: Reino Unido
 color: "#e92934"
 categories: sapientnitro web drupal consultancy inverted
 template: project
@@ -9,17 +9,17 @@ template: project
 
 ![](/work/savethechildren/images/1.png)
 
-During my assignment to Save the children's project, I helped the organisation by doing a tech audit of the new website they were building.
+Durante mi asignación al proyecto de Save the children, ayudé a la organización realizando una auditoría tecnológica del nuevo sitio web que estaban construyendo.
 
-I covered the following areas:
+Cubrí las siguientes áreas:
 
-* Content optimisation and basic SEO
-* Semantic markup
-* Accessibility
-* Site architecture and internal linking
-* Technical issues
-* Site speed
-* Mobile
-* Search indexation
+* Optimización del contenido y SEO básico
+* Markup semántico
+* Accesibilidad
+* Arquitectura del sitio y enlaces internos
+* Cuestiones técnicas
+* Velocidad de carga del sitio
+* Vista en móviles
+* Indexación de búsqueda
 
-At the same time, I also built a mega-menu for their new Drupal website and researched about how to implement a responsive asset management system with Amazon AWS.
+Al mismo tiempo, también construí un megamenú para su nuevo sitio web en Drupal e investigué cómo implementar un sistema de gestión de activos responsivo con Amazon AWS.

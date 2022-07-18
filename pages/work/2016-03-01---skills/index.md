@@ -1,5 +1,5 @@
 ---
-title: "Skills"
+title: Skills
 cover: "images/logo.png"
 location: Spain
 color: "#AA5564"
@@ -13,6 +13,6 @@ template: project
 
 ![](/work/skills/images/1.png)
 
-This is an interactive demo of box2d with DOM elements. It also works with drag & drop and on mobile with touch events.
+This is an interactive demo of box2d with DOM elements. It also works with drag&drop and on mobile with touch events.
 
-The demo was featured in the homepage of this website (joanmira.com) until June 2022.
+The demo was featured on the homepage of this website (joanmira.com) until June 2022.

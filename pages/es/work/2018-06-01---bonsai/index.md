@@ -1,7 +1,7 @@
 ---
 title: "Bonsai"
 cover: "images/logo.png"
-location: UK
+location: Reino Unido
 color: "#5e2750"
 categories: vodafone react redux webpack web-app ux design inverted
 template: project
@@ -9,16 +9,16 @@ template: project
 
 ![](/work/bonsai/images/1.png)
 
-Bonsai is a hierarchy management tool to search, view and adjust employee data coming from Active Directory.
+Bonsai es una herramienta de gestión de jerárquias corporativas que permite buscar, visualizar y ajustar los datos de los empleados procedentes de Active Directory.
 
-I owned the 100% of the front-end work in this project. Initially, I designed a clickable prototype with Adobe XD to test the user journeys with my team. Then I built a prototype with the usual React boilerplate and a custom design. Later on, the app received more features and eventually, a new design that I also implemented.
+El 100% del trabajo de front-end en este proyecto fue mío. Inicialmente, diseñé un prototipo clicable con Adobe XD para probar los recorridos del usuario. A continuación, construí un prototipo con la plantilla habitual de React y un diseño personalizado. Más tarde, la aplicación recibió más funcionalidades y, finalmente, también implementé un nuevo diseño.
 
-![](/work/bonsai/images/2.jpg "Home page")
+![](/work/bonsai/images/2.jpg "Página de inicio")
 
-![](/work/bonsai/images/3.jpg "Employee page")
+![](/work/bonsai/images/3.jpg "Página del empleado")
 
-![](/work/bonsai/images/4.jpg "Manager employee page")
+![](/work/bonsai/images/4.jpg "Página del jefe del empleado")
 
-![](/work/bonsai/images/5.jpg "Transfer an employee into another team")
+![](/work/bonsai/images/5.jpg "Transferir empleado a otro equipo")
 
-![](/work/bonsai/images/6.jpg "List of current and past adjustments")
+![](/work/bonsai/images/6.jpg "Lista de ajustes actuales y pasados")

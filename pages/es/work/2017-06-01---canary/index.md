@@ -1,7 +1,7 @@
 ---
-title: "Canary"
+title: Canary
 cover: "images/logo.png"
-location: UK
+location: Reino Unido
 color: "#f5c95f"
 categories: vodafone react webpack web-app
 template: project
@@ -13,25 +13,25 @@ template: project
 }
 </style>
 
-Canary is an app that allows a quick way to see which Vodafone products can be sold around the World. Some countries have restrictions or legal implications. It also combines Legal, Bid and Pre-sales information to prequalify products.
+Canary es una aplicación que permite ver rápidamente qué productos de Vodafone se pueden vender en todo el mundo. Algunos países tienen restricciones o implicaciones legales. También combina información legal, de oferta y de preventa para los productos precalificados.
 
-![](/work/canary/images/1.png "Home page")
+![](/work/canary/images/1.png "Página de inicio")
 
-In this project, I owned the 100% of the front-end build and I collaborated with the team manager and a designer to conceptualise the features and the design. Before coming up with the final design, I also built a couple of prototypes and even a React Native demo!.
+En este proyecto, me hice cargo del 100% de la construcción del front-end y colaboré con el director del equipo y un diseñador para conceptualizar las funcionalidades y el diseño. Antes de llegar al diseño final, también construí un par de prototipos e incluso una demo de React Native.
 
-The home page displays a horizontal scrolling grid matching countries with services. Each cell contains colorful dots representing the availability of a service in that country. The sidebar allows to user to enable/disable countries whilst the portfolio category bar allows the user to enable/disable products in the grid. This UI makes it very easy for users to compare services in different countries.
+La página de inicio muestra una cuadrícula de desplazamiento horizontal que relaciona los países con los servicios. Cada celda contiene puntos de colores que representan la disponibilidad de un servicio en ese país. La barra lateral permite al usuario activar/desactivar los países, mientras que la barra de categorías de la cartera permite al usuario activar/desactivar los productos en la cuadrícula. Esta interfaz de usuario facilita la comparación de servicios en diferentes países.
 
-When the user clicks on a cell, an overlay appears with more information regarding the services in that particular country.
+Cuando el usuario hace clic en una celda, aparece una superposición con más información sobre los servicios de ese país en particular.
 
-Canary won the prestigious Knowledge Management Innovation award in the UK legal industry: [eiseverywhere.com](https://www.eiseverywhere.com/ehome/legalweekinnovationawards/567021/) [legalweek.com](https://www.law.com/legal-week/sites/legalweek/2017/06/27/legal-week-innovation-awards-knowledge-management-innovation-award-vodafone-global-enterprise/?slreturn=20170528041243)
+Canary ganó el prestigioso premio a la innovación en la gestión del conocimiento en el sector jurídico del Reino Unido: [eiseverywhere.com](https://www.eiseverywhere.com/ehome/legalweekinnovationawards/567021/) [legalweek.com](https://www.law.com/legal-week/sites/legalweek/2017/06/27/legal-week-innovation-awards-knowledge-management-innovation-award-vodafone-global-enterprise/?slreturn=20170528041243)
 
-### Initial prototypes
+### Prototipos iniciales
 
-![](/work/canary/images/3.jpg "Second prototype")
+![](/work/canary/images/3.jpg "Segundo prototipo")
 
-![](/work/canary/images/2.jpg "Second prototype")
+![](/work/canary/images/2.jpg "Segundo prototipo")
 
-![](/work/canary/images/4.jpg "First prototype")
+![](/work/canary/images/4.jpg "Primer prototipo")
 
 <p style="text-align: center; margin-top: 30px">
   <img class="loader" src="/work/canary/images/loader.gif" alt="loader" />
