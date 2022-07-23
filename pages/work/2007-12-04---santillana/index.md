@@ -1,6 +1,6 @@
 ---
-title: "Santillana desktop app"
-cover: "images/logo.jpg"
+title: Santillana desktop app
+cover: /work/santillana/images/logo.jpg
 location: Spain
 color: white
 categories: narcea flash animation desktop

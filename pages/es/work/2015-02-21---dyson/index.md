@@ -1,6 +1,6 @@
 ---
 title: Prototipo para Dyson
-cover: "images/logo.png"
+cover: /work/dyson/images/logo.png
 location: Reino Unido
 color: black
 categories: web prototype animation inverted

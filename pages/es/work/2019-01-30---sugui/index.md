@@ -1,9 +1,9 @@
 ---
-title: "sugUI UI Library & Design System"
-cover: "images/logo.png"
+title: sugUI UI Library & Design System
+cover: /work/sugui/images/logo.png
 location: Spain
 color: white
-categories: react webpack web ux design open-source styleguidist styled-components
+categories: react webpack web ux design open-source styleguidist styled-components featured
 template: project
 ---
 

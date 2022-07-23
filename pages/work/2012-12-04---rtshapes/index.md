@@ -1,6 +1,6 @@
 ---
-title: "rtShapes demo"
-cover: "images/logo.jpg"
+title: rtShapes demo
+cover: /work/rtshapes/images/logo.jpg
 location: UK
 color: white
 categories: wcrs open-source web installation prototype ux design cover webcam

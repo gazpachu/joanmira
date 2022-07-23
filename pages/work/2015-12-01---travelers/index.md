@@ -1,6 +1,6 @@
 ---
 title: Travelers website
-cover: "images/logo.jpg"
+cover: /work/travelers/images/logo.jpg
 location: UK
 color: white
 categories: sapientnitro web vanilla-js

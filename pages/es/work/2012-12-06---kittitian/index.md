@@ -1,6 +1,6 @@
 ---
-title: "Prototipo para Kittitian"
-cover: "images/logo.jpg"
+title: Prototipo para Kittitian
+cover: /work/kittitian/images/logo.jpg
 location: Reino Unido
 color: "#f17d28"
 categories: wcrs web prototype masonry

@@ -1,6 +1,6 @@
 ---
 title: Hypatia LMS
-cover: "images/logo.png"
+cover: /work/hypatia/images/logo.png
 location: Spain
 color: "#2a6eb5"
 categories: react redux webpack web-app web ux design open-source prototype inverted

@@ -1,6 +1,6 @@
 ---
-title: "Artemis ads and website"
-cover: "images/logo.png"
+title: Artemis ads and website
+cover: /work/artemis/images/logo.png
 location: UK
 color: "#f5f5f5"
 categories: wcrs web animation

@@ -1,6 +1,6 @@
 ---
-title: "Momardi website"
-cover: "images/logo.jpg"
+title: Momardi website
+cover: /work/momardi/images/logo.jpg
 location: UK
 color: "#399dca"
 categories: web ux design wordpress ghostjs gatsbyjs inverted open-source

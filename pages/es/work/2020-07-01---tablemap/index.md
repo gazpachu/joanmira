@@ -1,6 +1,6 @@
 ---
 title: "TableMap: reservas de restaurantes en tiempo real"
-cover: "images/logo.png"
+cover: /work/tablemap/images/logo.png
 location: Japón
 color: "#ffc548"
 categories: react mapbox tablekit python web-app prototype

@@ -1,6 +1,6 @@
 ---
-title: "No somos numeros"
-cover: "images/logo.jpg"
+title: No somos numeros
+cover: /work/no-somos-numeros/images/logo.jpg
 location: España
 color: "#f5f5f5"
 categories: web joomla webprof

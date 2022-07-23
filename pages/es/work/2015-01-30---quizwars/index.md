@@ -1,6 +1,6 @@
 ---
 title: Quiz Wars
-cover: "images/logo.png"
+cover: /work/quizwars/images/logo.png
 location: Reino Unido
 color: "#222"
 categories: sapientnitro web-app prototype ux design sockets sailsjs spa inverted open-source

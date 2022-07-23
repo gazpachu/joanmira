@@ -1,6 +1,6 @@
 ---
-title: "Demo de rPong"
-cover: "images/logo.jpg"
+title: Demo de rPong
+cover: /work/rpong/images/logo.jpg
 location: Reino Unido
 color: white
 categories: wcrs open-source web creative-tech prototype ux design cover webcam

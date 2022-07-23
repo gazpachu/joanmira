@@ -1,6 +1,6 @@
 ---
 title: Lloyds Bank microsite
-cover: "images/logo.jpg"
+cover: /work/lloyds/images/logo.jpg
 location: UK
 color: "#006a4c"
 categories: sapientnitro web prototype wordpress inverted

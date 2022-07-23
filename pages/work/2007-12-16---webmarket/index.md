@@ -1,6 +1,6 @@
 ---
-title: "Webmarket"
-cover: "images/logo.png"
+title: Webmarket
+cover: /work/webmarket/images/logo.png
 location: Spain
 color: "#9c3"
 categories: web flash animation custom-cms joomla wordpress mysql php webmarket featured

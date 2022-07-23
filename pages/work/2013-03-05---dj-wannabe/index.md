@@ -1,6 +1,6 @@
 ---
-title: "WCRS DJ Wannabe installation"
-cover: "images/logo.png"
+title: WCRS DJ Wannabe installation
+cover: /work/dj-wannabe/images/logo.png
 location: UK
 color: "#714762"
 categories: wcrs prototype design kinect openni openframeworks creative-tech inverted open-source

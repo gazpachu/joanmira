@@ -1,6 +1,6 @@
 ---
-title: "Página web de la Royal Opera House"
-cover: "images/logo.png"
+title: Página web de la Royal Opera House
+cover: /work/roh/images/logo.png
 location: Reino Unido
 color: "#c60c30"
 categories: web wordpress zend php inverted featured

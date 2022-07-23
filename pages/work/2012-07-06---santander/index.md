@@ -1,6 +1,6 @@
 ---
-title: "Santander microsites, blog and apps"
-cover: "images/logo.jpg"
+title: Santander microsites, blog and apps
+cover: /work/santander/images/logo.jpg
 location: UK
 color: "#fe0000"
 categories: wcrs web wordpress facebook inverted

@@ -1,6 +1,6 @@
 ---
-title: "Prototipo para B&Q"
-cover: "images/logo.png"
+title: Prototipo para B&Q
+cover: /work/bandq/images/logo.png
 location: Reino Unido
 color: "#f60"
 categories: wcrs web prototype inverted

@@ -1,6 +1,6 @@
 ---
-title: "Website Profesional"
-cover: "images/logo.png"
+title: Website Profesional
+cover: /work/website-profesional/images/logo.png
 location: Spain
 color: white
 categories: web joomla

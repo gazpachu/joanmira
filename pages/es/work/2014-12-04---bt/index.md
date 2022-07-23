@@ -1,9 +1,9 @@
 ---
-title: "BT Consumer - Pre-sales redesign"
-cover: "images/logo.png"
+title: BT Consumer - Pre-sales redesign
+cover: /work/bt/images/logo.png
 location: Reino Unido
 color: "#efefef"
-categories: sapientnitro web animation assemble grunt
+categories: sapientnitro web animation assemble grunt featured
 template: project
 ---
 

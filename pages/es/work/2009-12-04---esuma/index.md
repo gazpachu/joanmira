@@ -1,6 +1,6 @@
 ---
-title: "Página web para ESUMA"
-cover: "images/logo.jpg"
+title: Página web para ESUMA
+cover: /work/esuma/images/logo.jpg
 location: España
 color: white
 categories: web ux design joomla consultancy

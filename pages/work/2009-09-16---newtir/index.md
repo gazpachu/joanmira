@@ -1,6 +1,6 @@
 ---
-title: "Newtir"
-cover: "images/logo.png"
+title: Newtir
+cover: /work/newtir/images/logo.png
 location: Spain
 color: "#f5f5f5"
 categories: web joomla

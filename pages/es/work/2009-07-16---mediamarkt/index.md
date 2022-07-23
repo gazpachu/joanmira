@@ -1,6 +1,6 @@
 ---
-title: "Mediamarkt"
-cover: "images/logo.png"
+title: Mediamarkt
+cover: /work/mediamarkt/images/logo.png
 location: España
 color: white
 categories: web customer

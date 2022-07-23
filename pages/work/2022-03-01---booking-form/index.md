@@ -1,9 +1,9 @@
 ---
-title: "TableCheck's new Booking Form"
-cover: "images/logo.png"
+title: TableCheck's new Booking Form
+cover: /work/booking-form/images/logo.png
 location: Japan
 color: "#7935d2"
-categories: react ssr redux emotion web-app inverted
+categories: react ssr redux emotion web-app inverted featured
 template: project
 ---
 

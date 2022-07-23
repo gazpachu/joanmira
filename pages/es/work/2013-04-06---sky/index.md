@@ -1,6 +1,6 @@
 ---
 title: Prototipos para SKY
-cover: "images/logo.jpg"
+cover: /work/sky/images/logo.jpg
 location: Reino Unido
 color: black
 categories: wcrs prototype creative-tech web openframeworks kinect animation inverted

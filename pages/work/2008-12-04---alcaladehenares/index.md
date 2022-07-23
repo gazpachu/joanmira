@@ -1,6 +1,6 @@
 ---
-title: "Alcala de Henares desktop app"
-cover: "images/logo.jpg"
+title: Alcala de Henares desktop app
+cover: /work/alcaladehenares/images/logo.jpg
 location: Spain
 color: white
 categories: flash animation ibcmass desktop

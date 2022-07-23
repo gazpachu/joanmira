@@ -1,6 +1,6 @@
 ---
 title: Volvo prototype
-cover: "images/logo.jpg"
+cover: /work/volvo/images/logo.jpg
 location: Reino Unido
 color: white
 categories: sapientnitro web prototype spa

@@ -1,6 +1,6 @@
 ---
-title: "Bunjin RSS Reader"
-cover: "images/logo.png"
+title: Bunjin RSS Reader
+cover: /work/bunjin/images/logo.png
 location: Japan
 color: "#F9D9EB"
 categories: react firebase rss open-source web-app

@@ -1,6 +1,6 @@
 ---
-title: "Tension Studio"
-cover: "images/logo.png"
+title: Tension Studio
+cover: /work/tension-studio/images/logo.png
 location: Spain
 color: white
 categories: web wordpress consultancy

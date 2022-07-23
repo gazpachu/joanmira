@@ -1,6 +1,6 @@
 ---
 title: How to set up a Node.js (React ES6) app for production on Ubuntu with Nginx and basic auth
-description: A few light notes on devops and infrastructure for light and small projects
+description: A few notes on devops and infrastructure for light and small projects
 cover: images/ubuntu-react-nodejs.jpg
 template: post
 category: work
@@ -22,9 +22,9 @@ Let's get started by connecting to the server via SSH.
 
 ### Connect to the server via SSH
 
-Once your server is up and running, you must have an IP address or DNS your can use to connect to the server. In this example, we are going to use the DNS of a Ubuntu micro instance from Amazon AWS EC2.
+Once your server is up and running, you must have an IP address or DNS you can use to connect to the server. In this example, we are going to use the DNS of a Ubuntu micro instance from Amazon AWS EC2.
 
-During the process of setting up the server, you should create or use an existing key. Download it to a folder in your computer (usually ~/.ssh/) and run the following command from your terminal:
+During the process of setting up the server, you should create or use an existing key. Download it to a folder on your computer (usually ~/.ssh/) and run the following command from your terminal:
 
 `ssh -i ~/folder/to/your/ssh/key.pem ubuntu@ec2-28-28-82-82.eu-central-1.compute.amazonaws.com`
 
@@ -36,7 +36,7 @@ That should give your access to your server!
 
 We will install the latest current release of Node.js, using the NodeSource package archives.
 
-First, you need to install the NodeSource PPA in order to get access to its contents. Make sure you're in your home directory and use curl to retrieve the installation script for the Node.js 6.x archives:
+First, you need to install the NodeSource PPA to get access to its contents. Make sure you're in your home directory and use curl to retrieve the installation script for the Node.js 6.x archives:
 
 `cd ~
 curl -sL https://deb.nodesource.com/setup_6.x -o nodesource_setup.sh`
@@ -244,7 +244,7 @@ Now that your Node.js application is running, and managed by PM2, let's set up t
 
 ### Disclaimer
 
-This tutorial is based on the great work of [Digital Ocean community tutorials](https://www.digitalocean.com/community/tutorials/). IMHO one of the best resources on the Internet in terms of sys-admin related stuff.
+This tutorial is based on the great work of [Digital Ocean community tutorials](https://www.digitalocean.com/community/tutorials/). IMHO one of the best resources on the Internet in terms of sys-admin-related stuff.
 
 - [How to set up password authentication with nginx on ubuntu 14 04](https://www.digitalocean.com/community/tutorials/how-to-set-up-password-authentication-with-nginx-on-ubuntu-14-04)
 - [How to set up a node js application for production on ubuntu 16 04](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-16-04)

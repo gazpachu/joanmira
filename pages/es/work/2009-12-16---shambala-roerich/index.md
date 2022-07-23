@@ -1,6 +1,6 @@
 ---
-title: "Shambala Roerich"
-cover: "images/logo.png"
+title: Shambala Roerich
+cover: /work/shambala-roerich/images/logo.png
 location: España
 color: white
 categories: web ux design wordpress joomla

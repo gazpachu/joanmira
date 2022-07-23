@@ -1,6 +1,6 @@
 ---
-title: "Grupo innovaconst"
-cover: "images/logo.png"
+title: Grupo innovaconst
+cover: /work/grupo-innovaconst/images/logo.png
 location: España
 color: "#f5f5f5"
 categories: web flash design webmarket

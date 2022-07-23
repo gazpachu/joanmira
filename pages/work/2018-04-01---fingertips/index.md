@@ -1,6 +1,6 @@
 ---
 title: Fingertips
-cover: "images/logo.png"
+cover: /work/fingertips/images/logo.png
 location: UK
 color: "#FFF"
 categories: vodafone react redux webpack web-app ux design

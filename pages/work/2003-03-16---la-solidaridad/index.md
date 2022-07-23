@@ -1,6 +1,6 @@
 ---
-title: "La solidaridad"
-cover: "images/logo.jpg"
+title: La solidaridad
+cover: /work/la-solidaridad/images/logo.jpg
 location: Spain
 color: "#a3a2a8"
 categories: web flash joomla php-nuke ux design

@@ -1,6 +1,6 @@
 ---
-title: "MK Creativo"
-cover: "images/logo.png"
+title: MK Creativo
+cover: /work/mk-creativo/images/logo.png
 location: Spain
 color: white
 categories: web wordpress design ux customer

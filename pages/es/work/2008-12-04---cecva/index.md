@@ -1,6 +1,6 @@
 ---
-title: "Página web para CECVA"
-cover: "images/logo.png"
+title: Página web para CECVA
+cover: /work/cecva/images/logo.png
 location: España
 color: white
 categories: web joomla customer

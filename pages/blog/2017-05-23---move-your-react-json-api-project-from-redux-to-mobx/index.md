@@ -196,7 +196,7 @@ Now, from any component in the app, we can change this value by doing `this.prop
 
 Another thing that wasn't working with the new router, is the update of the page (with the new component) when moving from one page to another. After digging a bit about the issue, I found [this stack-overflow answer](https://stackoverflow.com/questions/42875949/react-router-v4-redirect-not-working) that fixed it.
 
-When you do `@inject('routing')` to a component, you get access to `this.props.routing`, so you can push new URLs to the browser history. That was working fine by doing something like this: `this.props.routing.push(/leads/231234)`.
+When you do `@inject('routing')` to a component, you get access to `this.props.routing`, so you can push new URLs to the browser history. That was working fine by doing something like this: `this.props.routing.push('/leads/231234')`.
 
 The problem was that the page was not refreshing, so I had to wrap the export of the components with `withRouter()`: `export default withRouter(Home)`. You can import it from the `react-router` package.
 
@@ -205,7 +205,7 @@ Finally, let's look at how to integrate JSON API with MobX. This is a bit more d
 A simple example of how to request data from the API and asign it a store would be the following:
 
 ```javascript
-import {Store, config} from 'mobx-jsonapi-store';
+import { Store, config } from 'mobx-jsonapi-store';
 const teststore = new Store();
 config.defaultHeaders = {'xxxxxx': 'xxxxxxxxxx'};
 

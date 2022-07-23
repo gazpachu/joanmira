@@ -1,6 +1,6 @@
 ---
-title: "Logeddie"
-cover: "images/logo.png"
+title: Logeddie
+cover: /work/logeddie/images/logo.png
 location: España
 color: "#f5f5f5"
 categories: web joomla webprof

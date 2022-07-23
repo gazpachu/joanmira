@@ -1,6 +1,6 @@
 ---
-title: "Citi Group prototype"
-cover: "images/logo.png"
+title: Citi Group prototype
+cover: /work/citigroup/images/logo.png
 location: Spain
 color: white
 categories: web flash animation collaboration

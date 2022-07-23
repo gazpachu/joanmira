@@ -1,6 +1,6 @@
 ---
-title: "Formatio"
-cover: "images/logo.jpg"
+title: Formatio
+cover: /work/formatio/images/logo.jpg
 location: España
 color: white
 categories: web flash custom-cms mysql php

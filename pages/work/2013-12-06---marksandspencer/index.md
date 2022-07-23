@@ -1,6 +1,6 @@
 ---
 title: Marks and Spencer website case study
-cover: "images/logo.png"
+cover: /work/marksandspencer/images/logo.png
 location: UK
 color: "#044e44"
 categories: sapientnitro web vanilla-js inverted

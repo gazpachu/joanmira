@@ -1,6 +1,6 @@
 ---
-title: "WCRS Creative Work"
-cover: "images/logo.jpg"
+title: WCRS Creative Work
+cover: /work/wcrs/images/logo.jpg
 location: UK
 color: "#f5f5f5"
 categories: wcrs web wordpress animation webcam creative-tech

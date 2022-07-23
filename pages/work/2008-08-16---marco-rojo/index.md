@@ -1,6 +1,6 @@
 ---
-title: "Marco rojo"
-cover: "images/logo.jpg"
+title: Marco rojo
+cover: /work/marco-rojo/images/logo.jpg
 location: Spain
 color: white
 categories: web flash animation wordpress custom-cms mysql php narcea

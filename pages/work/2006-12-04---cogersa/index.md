@@ -1,6 +1,6 @@
 ---
-title: "Cogersa desktop app"
-cover: "images/logo.jpg"
+title: Cogersa desktop app
+cover: /work/cogersa/images/logo.jpg
 location: Spain
 color: white
 categories: flash ibcmass nitsnets desktop

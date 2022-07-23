@@ -1,6 +1,6 @@
 ---
-title: "Render Render"
-cover: "images/logo.png"
+title: Render Render
+cover: /work/render-render/images/logo.png
 location: España
 color: black
 categories: web flash animation inverted

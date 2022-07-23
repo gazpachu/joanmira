@@ -1,6 +1,6 @@
 ---
-title: "Mic mic"
-cover: "images/logo.png"
+title: Mic mic
+cover: /work/mic-mic/images/logo.png
 location: España
 color: "#1e1e1e"
 categories: flash design inverted

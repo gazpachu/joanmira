@@ -1,6 +1,6 @@
 ---
-title: "Stephane et Celine"
-cover: "images/logo.png"
+title: Stephane et Celine
+cover: /work/stephane-et-celine/images/logo.png
 location: Spain
 color: white
 categories: web ux design flash animation

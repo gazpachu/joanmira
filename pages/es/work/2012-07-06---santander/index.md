@@ -1,6 +1,6 @@
 ---
-title: "Santander"
-cover: "images/logo.jpg"
+title: Santander
+cover: /work/santander/images/logo.jpg
 location: Reino Unido
 color: "#fe0000"
 categories: wcrs web wordpress facebook inverted

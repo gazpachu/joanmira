@@ -1,6 +1,6 @@
 ---
-title: "Apps de escritorio para Santillana"
-cover: "images/logo.jpg"
+title: Apps de escritorio para Santillana
+cover: /work/santillana/images/logo.jpg
 location: España
 color: white
 categories: narcea flash animation desktop

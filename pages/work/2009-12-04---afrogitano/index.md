@@ -1,6 +1,6 @@
 ---
-title: "Afrogitano website"
-cover: "images/logo.jpg"
+title: Afrogitano website
+cover: /work/afrogitano/images/logo.jpg
 location: Spain
 color: black
 categories: web joomla design ux inverted

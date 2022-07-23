@@ -1,9 +1,9 @@
 ---
 title: "Insight: Análisis de datos con TableCheck"
-cover: "images/logo.png"
+cover: /work/insight/images/logo.png
 location: Japón
 color: "#488DFF"
-categories: react graphql apollo emotion react-vis web-app inverted
+categories: react graphql apollo emotion react-vis web-app inverted featured
 template: project
 ---
 

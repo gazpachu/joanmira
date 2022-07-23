@@ -1,6 +1,6 @@
 ---
 title: Saga car insurance mobile journey case study
-cover: "images/logo.jpg"
+cover: /work/saga/images/logo.jpg
 location: Reino Unido
 color: "#009bde"
 categories: sapientnitro web forms inverted

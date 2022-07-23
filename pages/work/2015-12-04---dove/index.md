@@ -1,9 +1,9 @@
 ---
 title: Dove website case study
-cover: "images/logo.png"
+cover: /work/dove/images/logo.png
 location: UK
 color: white
-categories: sapientnitro animation web backbonejs
+categories: sapientnitro animation web backbonejs featured
 template: project
 ---
 

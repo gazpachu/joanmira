@@ -1,6 +1,6 @@
 ---
-title: "Página web para Emmebi"
-cover: "images/logo.png"
+title: Página web para Emmebi
+cover: /work/emmebi/images/logo.png
 location: España
 color: "#7abb51"
 categories: joomla web ux design inverted

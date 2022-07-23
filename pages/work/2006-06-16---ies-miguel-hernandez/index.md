@@ -1,6 +1,6 @@
 ---
-title: "IES Miguel Hernández"
-cover: "images/logo.png"
+title: IES Miguel Hernández
+cover: /work/ies-miguel-hernandez/images/logo.png
 location: España
 color: white
 categories: web joomla

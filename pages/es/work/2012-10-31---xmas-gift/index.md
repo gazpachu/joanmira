@@ -1,6 +1,6 @@
 ---
-title: "Instalación Regalo de Navidad"
-cover: "images/logo.png"
+title: Instalación Regalo de Navidad
+cover: /work/xmas-gift/images/logo.png
 location: Reino Unido
 color: "#F7E68E"
 categories: wcrs prototype design kinect openni openframeworks creative-tech inverted open-source

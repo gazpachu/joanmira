@@ -1,9 +1,9 @@
 ---
 title: "TableKit: TableCheck's Design System"
-cover: "images/logo.png"
+cover: /work/tablekit/images/logo.png
 location: Japan
 color: "#ff9848"
-categories: react emotion typescript styleguidist storybook open-source web inverted
+categories: react emotion typescript styleguidist storybook open-source web inverted featured
 template: project
 ---
 

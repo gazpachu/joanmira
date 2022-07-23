@@ -1,6 +1,6 @@
 ---
-title: "Local7"
-cover: "images/logo.jpg"
+title: Local7
+cover: /work/local7/images/logo.jpg
 location: Spain
 color: "#94d5ff"
 categories: web mysql php web flash custom-cms ux design webmarket

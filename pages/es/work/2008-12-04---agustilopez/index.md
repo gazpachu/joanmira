@@ -1,6 +1,6 @@
 ---
-title: "Página web para Agusti Lopez"
-cover: "images/logo.png"
+title: Página web para Agusti Lopez
+cover: /work/agustilopez/images/logo.png
 location: España
 color: "#f5f5f5"
 categories: web wordpress design ux webmarket

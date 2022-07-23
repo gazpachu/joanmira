@@ -1,6 +1,6 @@
 ---
-title: "Green point"
-cover: "images/logo.png"
+title: Green point
+cover: /work/green-point/images/logo.png
 location: España
 color: white
 categories: video 3d webmarket

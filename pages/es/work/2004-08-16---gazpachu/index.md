@@ -1,6 +1,6 @@
 ---
-title: "GAZ New Media Design"
-cover: "images/logo.png"
+title: GAZ New Media Design
+cover: /work/gazpachu/images/logo.png
 location: España
 color: black
 categories: web flash wordpress animation custom-cms joomla inverted

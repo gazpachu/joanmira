@@ -1,9 +1,9 @@
 ---
 title: App para comensales de TableCheck
-cover: "images/logo.png"
+cover: /work/diner-app/images/logo.png
 location: Japón
 color: "#96A1FF"
-categories: react emotion mapbox maps web-app prototype
+categories: react emotion mapbox maps web-app prototype featured
 template: project
 ---
 

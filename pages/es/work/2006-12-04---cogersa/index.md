@@ -1,6 +1,6 @@
 ---
-title: "App de escritorio para Cogersa"
-cover: "images/logo.jpg"
+title: App de escritorio para Cogersa
+cover: /work/cogersa/images/logo.jpg
 location: España
 color: white
 categories: flash ibcmass nitsnets desktop

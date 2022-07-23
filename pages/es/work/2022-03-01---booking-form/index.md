@@ -1,9 +1,9 @@
 ---
 title: Formulario de reservas de TableCheck
-cover: "images/logo.png"
+cover: /work/booking-form/images/logo.png
 location: Japón
 color: "#7935d2"
-categories: react ssr redux emotion web-app inverted
+categories: react ssr redux emotion web-app inverted featured
 template: project
 ---
 

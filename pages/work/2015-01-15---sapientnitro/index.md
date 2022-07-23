@@ -1,6 +1,6 @@
 ---
 title: SapientNitro Skills Matrix
-cover: "images/logo.png"
+cover: /work/sapientnitro/images/logo.png
 location: UK
 color: "#de2728"
 categories: sapientnitro web-app prototype ux design sailsjs mongodb bootstrap inverted

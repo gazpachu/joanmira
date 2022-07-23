@@ -1,6 +1,6 @@
 ---
-title: "App de Facebook para Warburtons"
-cover: "images/logo.jpg"
+title: App de Facebook para Warburtons
+cover: /work/warburtons/images/logo.jpg
 location: Reino Unido
 color: "#f08229"
 categories: wcrs web-app facebook inverted

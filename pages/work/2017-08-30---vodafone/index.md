@@ -1,6 +1,6 @@
 ---
 title: Vodafone
-cover: "images/logo.png"
+cover: /work/vodafone/images/logo.png
 location: UK
 color: "#ED1C24"
 categories: vodafone web-app inverted leaflet mapbox blackhole d3

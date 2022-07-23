@@ -1,6 +1,6 @@
 ---
 title: Barclays prototype
-cover: "images/logo.jpg"
+cover: /work/barclays/images/logo.jpg
 location: UK
 color: "#00adef"
 categories: mobile sapientnitro prototype adobe-air flash inverted

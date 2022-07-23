@@ -1,6 +1,6 @@
 ---
-title: "Roberto Silvosa"
-cover: "images/logo.jpg"
+title: Roberto Silvosa
+cover: /work/roberto-silvosa/images/logo.jpg
 location: España
 color: white
 categories: web flash animation custom-cms ux design mysql php webmarket

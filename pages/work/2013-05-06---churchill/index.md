@@ -1,6 +1,6 @@
 ---
-title: "Churchill microsites"
-cover: "images/logo.jpg"
+title: Churchill microsites
+cover: /work/churchill/images/logo.jpg
 location: UK
 color: white
 categories: wcrs web facebook

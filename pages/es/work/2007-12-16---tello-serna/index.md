@@ -1,6 +1,6 @@
 ---
-title: "Web en Flash para Tello Serna"
-cover: "images/logo.png"
+title: Web en Flash para Tello Serna
+cover: /work/tello-serna/images/logo.png
 location: España
 color: white
 categories: web flash animation webmarket

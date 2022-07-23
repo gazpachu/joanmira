@@ -1,6 +1,6 @@
 ---
-title: "Salvador Grau"
-cover: "images/logo.png"
+title: Salvador Grau
+cover: /work/salvador-grau/images/logo.png
 location: Spain
 color: white
 categories: web joomla design ux webmarket

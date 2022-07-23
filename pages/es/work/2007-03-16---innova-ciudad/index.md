@@ -1,6 +1,6 @@
 ---
-title: "Innovaciudad"
-cover: "images/logo.png"
+title: Innovaciudad
+cover: /work/innova-ciudad/images/logo.png
 location: España
 color: white
 categories: web flash animation custom-cms ux design mysql php webmarket

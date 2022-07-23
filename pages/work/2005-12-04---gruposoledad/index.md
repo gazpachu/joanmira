@@ -1,6 +1,6 @@
 ---
-title: "Grupo Soledad"
-cover: "images/logo.png"
+title: Grupo Soledad
+cover: /work/gruposoledad/images/logo.png
 location: Spain
 color: white
 categories: web flash custom-cms ux design animation mysql php

@@ -1,6 +1,6 @@
 ---
-title: "Prototipo para MINI"
-cover: "images/logo.jpg"
+title: Prototipo para MINI
+cover: /work/mini/images/logo.jpg
 location: Reino Unido
 color: black
 categories: wcrs prototype webcam inverted

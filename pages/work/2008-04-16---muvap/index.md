@@ -1,6 +1,6 @@
 ---
-title: "Muvap - Leer.es"
-cover: "images/logo.png"
+title: Muvap - Leer.es
+cover: /work/muvap/images/logo.png
 location: Spain
 color: white
 categories: flash narcea

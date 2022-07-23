@@ -1,6 +1,6 @@
 ---
-title: "Tello Serna Flash website"
-cover: "images/logo.png"
+title: Tello Serna Flash website
+cover: /work/tello-serna/images/logo.png
 location: Spain
 color: white
 categories: web flash animation webmarket

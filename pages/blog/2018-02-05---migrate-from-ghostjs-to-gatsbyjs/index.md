@@ -20,7 +20,7 @@ There are other static site generators out there like [NextJS](https://nextjs.or
 
 After installing GatsbyJS and exploring a bit how it works, I started researching how could I transfer all my blog posts and static pages into Gatsby's folder structure, with the posts as markdown files and the images stored in subfolders. Luckily enough, there was a kind soul that [built a module](https://github.com/InsidersByte/ghost-to-gatsby) to do exactly that.
 
-The module takes the export file from Ghost and automatically creates the folders for the posts renamed with the post date and the post slug. It then places inside the post in markdown format and downloads the images into an `images` folder. Unfortunately, the module didn't fully download all the images nor produced all the markdown files, but still, I got a lot of the work done for free!
+The module takes the export file from Ghost and automatically creates the folders for the posts renamed with the post date and the post slug. It is then placed inside the post in markdown format and downloads the images into an `images` folder. Unfortunately, the module didn't fully download all the images nor produced all the markdown files, but still, I got a lot of the work done for free!
 
 ### Finding a starter package
 
@@ -30,11 +30,11 @@ In the Gatsby community, there are many boilerplates/templates, or as they call 
 
 A new concept I learned with Gatsby is the `front matter`. The front matter is the first section of a book and is generally the shortest; it is also sometimes called the prelims, or preliminary matter. In Gatsby and also in the static site generators world, the frontmatter is the data at the top of the markdown files that are going to be like its metadata`. So it will contain the name of the featured image, the category the post belongs to, the slug, date, etc. The structure is open, so you can decide what data you want to use.
 
-In my case, because the posts folders already contain the post date and the slug, I decided not to include them again in the front matter. For blog posts, I decided to store only the category, title and cover image.
+In my case, because the post folders already contain the post date and the slug, I decided not to include them again in the front matter. For blog posts, I decided to store only the category, title and cover image.
 
 This part of choosing which metadata to use in all blog posts is quite important, as every markdown file will have to contain these values, so think well about what you need. You can always use the `search in all files` feature of your text editor to rename stuff, but it's not ideal to keep doing that...
 
-After the blog posts from Ghost were imported into Gatsby, I've realized that I had to format a bit the `frontmatter`, so this, together with fixing image URLs, cleaning up markup and improving some articles, will take a considerable amount of time, depending on how many posts you have in your website.
+After the blog posts from Ghost were imported into Gatsby, I realized that I had to format a bit the `frontmatter`, so this, together with fixing image URLs, cleaning up markup and improving some articles, will take a considerable amount of time, depending on how many posts you have in your website.
 
 ### Adding new features
 
@@ -52,4 +52,4 @@ One of the benefits of moving to a static site generator is that I no longer nee
 
 To deploy to GitHub, there's no need to have continuous integration and a continuous delivery pipeline. You can just install the `gh-pages` package and add the deploy script (`"deploy": "gh-pages -d public"`) to your `package.json` file.
 
-But, if you want an automatic way to deploy your website every time you push something new to the `master` branch, have a look at my [.travis.yml](https://github.com/gazpachu/joanmira/blob/master/.travis.yml) file and set up your own pipeline in [TravisCI](http://travis-ci.org)
+But, if you want an automatic way to deploy your website every time you push something new to the `master` branch, then I recommend you setting it up with Netlify.

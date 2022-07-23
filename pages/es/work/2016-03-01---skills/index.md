@@ -1,6 +1,6 @@
 ---
 title: Skills
-cover: "images/logo.png"
+cover: /work/skills/images/logo.png
 location: España
 color: "#AA5564"
 categories: web box2d creative-tech inverted open-source

@@ -12,11 +12,11 @@ The **first impression was very good**. The Vue docs are really good and their w
 
 Anyway, Electron has nothing to do with Vue, but it was just a nice discovery and I wanted to share it.
 
-The target of this article is to show you how I managed to set up SVGs with the [Vue webpack boilerplate](https://github.com/vuejs-templates/webpack). By the way, if you don't know that boilerplate, I encourage you to check it out. I was very impressed by its quality and its ridiculous simplicity when it comes to creating a new project. It takes just 5 lines to do it!
+The target of this article is to show you how I managed to set up SVGs with the [Vue Webpack boilerplate](https://github.com/vuejs-templates/webpack). By the way, if you don't know that boilerplate, I encourage you to check it out. I was very impressed by its quality and its ridiculous simplicity when it comes to creating a new project. It takes just 5 lines to do it!
 
-My intention was to replicate the setup that I had with my previous React boilerplate, where I had a folder with all the SVG files and I could import them into my React components whenever I require them.
+I intended to replicate the setup that I had with my previous React boilerplate, where I had a folder with all the SVG files and I could import them into my React components whenever I require them.
 
-To do so, in your newly created Vue project, you need to install this webpack loader called [svg-sprite-loader](https://github.com/kisenka/svg-sprite-loader). Then, in `build/webpack.base.conf.js` we just have to declare the new loader (line 88 to 92 approx.):
+To do so, in your newly created Vue project, you need to install this Webpack loader called [svg-sprite-loader](https://github.com/kisenka/svg-sprite-loader). Then, in `build/webpack.base.conf.js` we just have to declare the new loader (line 88 to 92 approx.):
 
 ```javascript
 loader: 'svg-sprite?' + JSON.stringify({
@@ -27,7 +27,7 @@ loader: 'svg-sprite?' + JSON.stringify({
 
 Also, in the same file, you have to remove the `svg` format from line 72: `test: /\.(png|jpe?g|gif)(\?.*)?$/,`. If we don't do it, this loader would try to load the SVG and the svg-sprite loader wouldn't do anything.
 
-That's all we need as far as webpack configuration. The next step is to create a new component called `Icon`. This component will be useful to render inline SVGs on our pages. Remember that, this is the only way we can change the colors of the SVGs using `fill` or `stroke`. If you load them as CSS backgrounds or `<img>` tags, then you will not be able to alter their colors.
+That's all we need as far as Webpack configuration. The next step is to create a new component called `Icon`. This component will be useful to render inline SVGs on our pages. Remember that, this is the only way we can change the colors of the SVGs using `fill` or `stroke`. If you load them as CSS backgrounds or `<img>` tags, then you will not be able to alter their colors.
 
 Create a new file called `Icon.vue` inside your `src/components` folder and paste the following code:
 

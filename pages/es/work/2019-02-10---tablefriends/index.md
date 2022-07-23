@@ -1,6 +1,6 @@
 ---
-title: "TableFriends"
-cover: "images/logo.png"
+title: TableFriends
+cover: /work/tablefriends/images/logo.png
 location: España
 color: "#6b56cf"
 categories: react graphql apollo emotion netlify prisma lambda netlify-functions open-source web-app inverted

@@ -1,6 +1,6 @@
 ---
 title: "L'ovul"
-cover: "images/logo.jpg"
+cover: /work/lovul/images/logo.jpg
 location: España
 color: white
 categories: web flash animation

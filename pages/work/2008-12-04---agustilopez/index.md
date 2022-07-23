@@ -1,6 +1,6 @@
 ---
-title: "Agusti Lopez website"
-cover: "images/logo.png"
+title: Agusti Lopez website
+cover: /work/agustilopez/images/logo.png
 location: Spain
 color: "#f5f5f5"
 categories: web wordpress design ux webmarket

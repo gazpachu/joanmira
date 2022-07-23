@@ -1,9 +1,9 @@
 ---
-title: "ICA Las reglas del arte"
-cover: "images/logo.jpg"
+title: ICA Las reglas del arte
+cover: /work/artrules/images/logo.jpg
 location: Reino Unido
 color: black
-categories: sapientnitro animation shortlisted web-app ruby box2d inverted creative-tech
+categories: sapientnitro animation shortlisted web-app ruby box2d inverted creative-tech featured
 template: project
 ---
 

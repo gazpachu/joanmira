@@ -1,6 +1,6 @@
 ---
 title: Visagio website
-cover: "images/logo.png"
+cover: /work/visagio/images/logo.png
 location: UK
 color: white
 categories: web wordpress design

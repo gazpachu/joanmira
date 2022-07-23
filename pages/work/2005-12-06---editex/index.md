@@ -1,6 +1,6 @@
 ---
-title: "Editex desktop apps"
-cover: "images/logo.png"
+title: Editex desktop apps
+cover: /work/editex/images/logo.png
 location: Spain
 color: white
 categories: flash narcea custom-cms desktop

@@ -1,6 +1,6 @@
 ---
-title: "QRCube game"
-cover: "images/logo.jpg"
+title: QRCube game
+cover: /work/qrcube/images/logo.jpg
 location: Reino Unido
 color: white
 categories: wcrs open-source web creative-tech prototype ux design

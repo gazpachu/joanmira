@@ -1,6 +1,6 @@
 ---
-title: "App de escritorio para Alcala de Henares"
-cover: "images/logo.jpg"
+title: App de escritorio para Alcala de Henares
+cover: /work/alcaladehenares/images/logo.jpg
 location: España
 color: white
 categories: flash animation ibcmass desktop

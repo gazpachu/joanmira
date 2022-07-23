@@ -1,6 +1,6 @@
 ---
-title: "Páginas web del gobierno de Filipinas"
-cover: "images/logo.jpg"
+title: Páginas web del gobierno de Filipinas
+cover: /work/philippines/images/logo.jpg
 location: Reino Unido
 color: "#0769b3"
 categories: web ux design joomla wordpress inverted

@@ -24,9 +24,9 @@ After 3 years of not updating the codebase of this website, you can imagine how 
 
 ### A new beginning with a tiny approach
 
-This is how one day, looking around for small static site generators, I stumbled upon [Teeny](https://github.com/yakkomajuri/teeny) and [PicoCSS](http://picocss.com/). After testing them a bit, I made my mind up. This is it. I'm gonna fork them and start building my static site generator. The idea of teeny was very similar to what I had in mind. Just use NodeJS to build HTML pages from markdown files. Who cares about graphQL for a website like this? At the same time, I also wanted to use CSS variables and forget about any JS framework like React. The main idea was to keep the dependencies as low as possible so that in the future I wouldn't need to keep migrating or updating the codebase for features that I don't need.
+This is how one day, looking around for small static site generators, I stumbled upon [Teeny](https://github.com/yakkomajuri/teeny) and [PicoCSS](http://picocss.com/). After testing them a bit, I made my mind up. This is it. I'm gonna fork them and start building my static site generator. The idea of teeny was very similar to what I had in mind. Just use NodeJS to build HTML pages from markdown files. Who cares about GraphQL for a website like this? At the same time, I also wanted to use CSS variables and forget about any JS framework like React. The main idea was to keep the dependencies as low as possible so that in the future I wouldn't need to keep migrating or updating the codebase for features that I don't need.
 
-Arriving at this point, I would like to highlight the fact that, when we are building apps, **we should always focus on what the user needs and wants**. In this particular case, I am also a user, since I'm the one writing the stories on the blog and updating the content of the other pages. If I don't have a good UX and DX, then nothing is going to happen and the app or website is going to die. Therefore, the teaching here is that **technology shouldn't be above the user's needs or the primary goal of the project**. In the same way that a guitar or a drumset shouldn't be more important than creating the music itself!
+Arriving at this point, I would like to highlight the fact that, when we are building apps, **we should always focus on what the user needs and wants**. In this particular case, I am also a user, since I'm the one writing the stories on the blog and updating the content of the other pages. If I don't have a good UX and DX, then nothing is going to happen and the app or website is going to die. Therefore, the teaching here is that **technology shouldn't be above the user's needs or the primary goal of the project**. In the same way that a fancy guitar or a drumset shouldn't be more important than creating the music itself!
 
 ### What have I learned from this experience?
 
@@ -91,5 +91,9 @@ I will keep pushing new code in the next weeks or when I get some time. At the m
 ### Update on 16 Jun 2022
 
 I've added [EJS](https://ejs.co/) to be able to handle dynamic data in the templates and now the code is much better organized and reduced to around 300 lines. Hot reloading is almost working. The only part remaining about it is to refresh the browser.
+
+### Update July 23, 2022
+
+I have included support for two languages and translated the entire website into Spanish. It has been a considerable amount of work but I think it has been worth it. I still need to translate the utterances widget for the blog comments.
 
 Plane wing photo by [Ross Parmly](https://unsplash.com/es/fotos/rf6ywHVkrlY)

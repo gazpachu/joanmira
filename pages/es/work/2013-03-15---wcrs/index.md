@@ -1,6 +1,6 @@
 ---
 title: WCRS
-cover: "images/logo.jpg"
+cover: /work/wcrs/images/logo.jpg
 location: Reino Unido
 color: "#f5f5f5"
 categories: wcrs web wordpress animation webcam creative-tech

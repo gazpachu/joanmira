@@ -1,6 +1,6 @@
 ---
 title: React weather
-cover: "images/logo.jpg"
+cover: /work/weather/images/logo.jpg
 location: Reino Unido
 color: "#FFF"
 categories: react web-app cover open-source

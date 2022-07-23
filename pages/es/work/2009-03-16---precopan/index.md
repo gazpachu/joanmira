@@ -1,6 +1,6 @@
 ---
-title: "Precopan"
-cover: "images/logo.jpg"
+title: Precopan
+cover: /work/precopan/images/logo.jpg
 location: España
 color: white
 categories: web joomla design ux customer

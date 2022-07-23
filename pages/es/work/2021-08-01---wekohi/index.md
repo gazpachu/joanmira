@@ -1,6 +1,6 @@
 ---
 title: Wekohi
-cover: "images/logo.png"
+cover: /work/wekohi/images/logo.png
 location: Japón
 color: "#A31A6B"
 categories: react emotion mapbox web-app prototype inverted

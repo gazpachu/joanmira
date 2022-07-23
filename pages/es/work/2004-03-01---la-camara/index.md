@@ -1,6 +1,6 @@
 ---
-title: "La Cámara"
-cover: "images/logo.png"
+title: La Cámara
+cover: /work/la-camara/images/logo.png
 location: España
 color: white
 categories: prototype web ux design

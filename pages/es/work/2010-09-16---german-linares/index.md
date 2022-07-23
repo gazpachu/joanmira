@@ -1,6 +1,6 @@
 ---
-title: "Germán Linares"
-cover: "images/logo.png"
+title: Germán Linares
+cover: /work/german-linares/images/logo.png
 location: España
 color: "#292929"
 categories: web wordpress inverted

@@ -1,6 +1,6 @@
 ---
-title: "Draw a car race"
-cover: "images/logo.png"
+title: Draw a car race
+cover: /work/car-race/images/logo.png
 location: UK
 color: "#2BCFFA"
 categories: wcrs prototype kinect opencv box2d openframeworks animation design creative-tech inverted open-source

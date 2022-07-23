@@ -1,6 +1,6 @@
 ---
-title: "Mugfaker project"
-cover: "images/logo.png"
+title: Mugfaker project
+cover: /work/mugfaker-project/images/logo.png
 location: Spain
 color: white
 categories: web php-nuke ux design

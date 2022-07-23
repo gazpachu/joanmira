@@ -1,6 +1,6 @@
 ---
-title: "Web para Drury Lane"
-cover: "images/logo.jpg"
+title: Web para Drury Lane
+cover: /work/drurylane/images/logo.jpg
 location: Reino Unido
 color: white
 categories: wcrs web wordpress

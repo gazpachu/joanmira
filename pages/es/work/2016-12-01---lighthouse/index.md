@@ -1,9 +1,9 @@
 ---
 title: Lighthouse
-cover: "images/logo.png"
+cover: /work/lighthouse/images/logo.png
 location: Reino Unido
 color: "#122d59"
-categories: vodafone react redux webpack web-app highcharts ux inverted
+categories: vodafone react redux webpack web-app highcharts ux inverted featured
 template: project
 ---
 

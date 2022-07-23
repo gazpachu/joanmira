@@ -1,6 +1,6 @@
 ---
-title: "El juego del puzzle"
-cover: "images/logo.png"
+title: El juego del puzzle
+cover: /work/sliding-puzzle/images/logo.png
 location: España
 color: "#4F7486"
 categories: web-app react redux design ux inverted open-source prototype

@@ -1,6 +1,6 @@
 ---
-title: "Página web para Busaf"
-cover: "images/logo.jpg"
+title: Página web para Busaf
+cover: /work/busaf/images/logo.jpg
 location: España
 color: white
 categories: web joomla

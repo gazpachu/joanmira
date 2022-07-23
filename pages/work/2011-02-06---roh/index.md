@@ -1,6 +1,6 @@
 ---
-title: "Royal Opera House website case study"
-cover: "images/logo.png"
+title: Royal Opera House website case study
+cover: /work/roh/images/logo.png
 location: UK
 color: "#c60c30"
 categories: web wordpress zend php inverted featured

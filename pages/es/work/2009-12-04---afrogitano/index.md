@@ -1,6 +1,6 @@
 ---
-title: "Página web para Afrogitano"
-cover: "images/logo.jpg"
+title: Página web para Afrogitano
+cover: /work/afrogitano/images/logo.jpg
 location: España
 color: black
 categories: web joomla design ux inverted

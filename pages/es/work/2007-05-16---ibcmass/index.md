@@ -1,6 +1,6 @@
 ---
-title: "IBCMass"
-cover: "images/logo.png"
+title: IBCMass
+cover: /work/ibcmass/images/logo.png
 location: España
 color: white
 categories: flash animation ibcmass desktop

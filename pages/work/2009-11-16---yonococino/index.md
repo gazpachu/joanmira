@@ -1,6 +1,6 @@
 ---
-title: "Yo no cocino"
-cover: "images/logo.jpg"
+title: Yo no cocino
+cover: /work/yonococino/images/logo.jpg
 location: Spain
 color: white
 categories: web wordpress ux design

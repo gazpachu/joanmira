@@ -1,6 +1,6 @@
 ---
-title: "SEOR"
-cover: "images/logo.png"
+title: SEOR
+cover: /work/seor/images/logo.png
 location: España
 color: white
 categories: video ux design flash

@@ -8,7 +8,7 @@
     <div class="main-wrapper post">
       <div class="content">
         <a class="category" href="/blog/category/<%= frontmatter.category %>">
-          <%= translations.categories[frontmatter.category] %>
+          <%= translations.categories[frontmatter.category.replace('-', '_')] %>
         </a>
         <div class="header">
           <hgroup>

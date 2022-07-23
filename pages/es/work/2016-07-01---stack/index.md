@@ -1,6 +1,6 @@
 ---
 title: Stack
-cover: "images/logo.png"
+cover: /work/stack/images/logo.png
 location: Reino Unido
 color: "#404647"
 categories: vodafone angular grunt sass web-app highcharts animation inverted

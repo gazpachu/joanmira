@@ -1,6 +1,6 @@
 ---
-title: "Y la muerte lo seguia"
-cover: "images/logo.jpg"
+title: Y la muerte lo seguia
+cover: /work/ylmls/images/logo.jpg
 location: Spain
 color: black
 categories: web ux design wordpress inverted

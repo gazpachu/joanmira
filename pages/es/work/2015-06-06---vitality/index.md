@@ -1,6 +1,6 @@
 ---
 title: Prototipo para Vitality
-cover: "images/logo.jpg"
+cover: /work/vitality/images/logo.jpg
 location: Reino Unido
 color: "#fb0068"
 categories: sapientnitro web prototype animation box2d canvas creative-tech inverted

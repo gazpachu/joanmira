@@ -1,6 +1,6 @@
 ---
-title: "Colchonbarato website"
-cover: "images/logo.png"
+title: Colchonbarato website
+cover: /work/colchonbarato/images/logo.png
 location: Spain
 color: white
 categories: joomla web

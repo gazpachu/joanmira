@@ -1,6 +1,6 @@
 ---
-title: "No Surrender"
-cover: "images/logo.jpg"
+title: No Surrender
+cover: /work/nosurrender/images/logo.jpg
 location: Spain
 color: "#ab0616"
 categories: web mysql php web flash custom-cms ux design webmarket inverted

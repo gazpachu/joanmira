@@ -1,6 +1,6 @@
 ---
-title: "Cubre-t"
-cover: "images/logo.jpg"
+title: Cubre-t
+cover: /work/cubret/images/logo.jpg
 location: España
 color: white
 categories: web custom-cms flash ux design animation webmarket mysql php

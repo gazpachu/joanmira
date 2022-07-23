@@ -1,6 +1,6 @@
 ---
-title: "RefCovers"
-cover: "images/logo.png"
+title: RefCovers
+cover: /work/refcovers/images/logo.png
 location: España
 color: white
 categories: web flash animation custom-cms ux design mysql php webmarket

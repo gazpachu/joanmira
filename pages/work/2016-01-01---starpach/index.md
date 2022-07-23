@@ -1,6 +1,6 @@
 ---
 title: Starpach
-cover: "images/logo.png"
+cover: /work/starpach/images/logo.png
 location: Spain
 color: "#487F99"
 categories: web ux design game phaser creative-tech inverted open-source

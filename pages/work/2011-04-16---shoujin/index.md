@@ -1,6 +1,6 @@
 ---
-title: "Shoujin Karate Kai"
-cover: "images/logo.png"
+title: Shoujin Karate Kai
+cover: /work/shoujin/images/logo.png
 location: UK
 color: white
 categories: web ux design photo video wordpress

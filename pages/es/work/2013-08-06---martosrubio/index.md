@@ -1,6 +1,6 @@
 ---
 title: Mila Martos Rubio
-cover: "images/logo.png"
+cover: /work/martosrubio/images/logo.png
 location: España
 color: white
 categories: web ux design ghostjs wordpress

@@ -289,7 +289,7 @@ async function processListingItem(pagePath, listingSlug, category = null, listin
   const pagePathCleaned = pagePath.replace('/index.md', '');
   let slug = pagePathCleaned.substring(pagePathCleaned.search('---') + 3, pagePath.length);
   slug = `/${listingSlug}/${slug}`;
-  const imagePath = frontmatter.cover ? `${slug}/${frontmatter.cover.replace('.jpg', '-mobile.jpg')}` : '';
+  const imagePath = frontmatter.cover ? frontmatter.cover.replace('.jpg', '-mobile.jpg') : '';
   const dateFormatter = new Intl.DateTimeFormat(listingSlug.startsWith('es/') ? 'es-ES' : 'en-GB', { month: 'long', year: 'numeric', day: 'numeric' });
 
   listingItems.push({

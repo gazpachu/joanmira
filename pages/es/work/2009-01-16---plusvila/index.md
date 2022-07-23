@@ -1,6 +1,6 @@
 ---
-title: "Plusvila"
-cover: "images/logo.png"
+title: Plusvila
+cover: /work/plusvila/images/logo.png
 location: España
 color: white
 categories: web joomla design ux

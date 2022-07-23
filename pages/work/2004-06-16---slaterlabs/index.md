@@ -1,6 +1,6 @@
 ---
-title: "Slater Labs"
-cover: "images/logo.jpg"
+title: Slater Labs
+cover: /work/slaterlabs/images/logo.jpg
 location: Spain
 color: white
 categories: web flash animation desktop

@@ -1,6 +1,6 @@
 ---
-title: "Dibujar carreras de coches"
-cover: "images/logo.png"
+title: Dibujar carreras de coches
+cover: /work/car-race/images/logo.png
 location: Reino Unido
 color: "#2BCFFA"
 categories: wcrs prototype kinect opencv box2d openframeworks animation design creative-tech inverted open-source

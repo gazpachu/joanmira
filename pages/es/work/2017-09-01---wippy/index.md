@@ -1,6 +1,6 @@
 ---
 title: Wippy
-cover: "images/logo.png"
+cover: /work/wippy/images/logo.png
 location: Reino Unido
 color: "#ED89A9"
 categories: vodafone react redux webpack web-app inverted

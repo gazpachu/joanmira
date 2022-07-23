@@ -1,6 +1,6 @@
 ---
-title: "Autoescuelas CostaBlanca website"
-cover: "images/logo.png"
+title: Autoescuelas CostaBlanca website
+cover: /work/costablanca/images/logo.png
 location: Spain
 color: white
 categories: web joomla customer

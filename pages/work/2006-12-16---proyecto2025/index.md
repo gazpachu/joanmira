@@ -1,6 +1,6 @@
 ---
-title: "Proyecto 2025"
-cover: "images/logo.png"
+title: Proyecto 2025
+cover: /work/proyecto2025/images/logo.png
 location: Spain
 color: white
 categories: web flash animation custom-cms ux design mysql php webmarket

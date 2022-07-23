@@ -1,6 +1,6 @@
 ---
 title: AndCounting
-cover: "images/logo.png"
+cover: /work/andcounting/images/logo.png
 location: Reino Unido
 color: "#EE6B26"
 categories: mobile open-source

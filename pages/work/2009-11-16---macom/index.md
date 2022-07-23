@@ -1,6 +1,6 @@
 ---
-title: "Macom"
-cover: "images/logo.png"
+title: Macom
+cover: /work/macom/images/logo.png
 location: Spain
 color: white
 categories: web joomla

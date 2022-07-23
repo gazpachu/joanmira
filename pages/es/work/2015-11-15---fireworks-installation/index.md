@@ -1,6 +1,6 @@
 ---
 title: Instalación de fuegos artificiales en SapientNitro
-cover: "images/logo.png"
+cover: /work/fireworks-installation/images/logo.png
 location: Reino Unido
 color: "#58B85F"
 categories: sapientnitro prototype design kinect openni openframeworks creative-tech inverted open-source

@@ -1,6 +1,6 @@
 ---
-title: "Proyecto Hombre"
-cover: "images/logo.jpg"
+title: Proyecto Hombre
+cover: /work/proyecto-hombre/images/logo.jpg
 location: España
 color: white
 categories: web flash ux design animation

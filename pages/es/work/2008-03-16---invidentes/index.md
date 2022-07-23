@@ -1,6 +1,6 @@
 ---
-title: "Invidentes"
-cover: "images/logo.png"
+title: Invidentes
+cover: /work/invidentes/images/logo.png
 location: España
 color: "#444"
 categories: web joomla webmarket inverted

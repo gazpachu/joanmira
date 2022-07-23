@@ -1,6 +1,6 @@
 ---
-title: "Sliding puzzle"
-cover: "images/logo.png"
+title: Sliding puzzle
+cover: /work/sliding-puzzle/images/logo.png
 location: Spain
 color: "#4F7486"
 categories: web-app react redux design ux inverted open-source prototype

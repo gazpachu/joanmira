@@ -1,6 +1,6 @@
 ---
-title: "Mi primer atlas"
-cover: "images/logo.png"
+title: Mi primer atlas
+cover: /work/mi-primer-atlas/images/logo.png
 location: Spain
 color: white
 categories: flash animation ibcmass desktop

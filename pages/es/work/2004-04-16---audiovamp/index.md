@@ -1,6 +1,6 @@
 ---
-title: "AudioVamp"
-cover: "images/1.png"
+title: AudioVamp
+cover: /work/audiovamp/images/1.png
 location: España
 color: white
 categories: desktop design ux prototype

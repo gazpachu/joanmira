@@ -1,6 +1,6 @@
 ---
-title: "Villas termales"
-cover: "images/logo.png"
+title: Villas termales
+cover: /work/villas-termales/images/logo.png
 location: España
 color: "#F6F9F8"
 categories: web flash animation custom-cms mysql php narcea

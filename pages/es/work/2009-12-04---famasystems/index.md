@@ -1,6 +1,6 @@
 ---
-title: "Página web para Fama Systems"
-cover: "images/logo.jpg"
+title: Página web para Fama Systems
+cover: /work/famasystems/images/logo.jpg
 location: España
 color: "#32679d"
 categories: web joomla inverted

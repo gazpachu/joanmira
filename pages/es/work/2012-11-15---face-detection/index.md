@@ -1,6 +1,6 @@
 ---
-title: "Tarjeta de Navidad con detección de caras"
-cover: "images/logo.png"
+title: Tarjeta de Navidad con detección de caras
+cover: /work/face-detection/images/logo.png
 location: Reino Unido
 color: "#699a59"
 categories: wcrs prototype design webcam creative-tech inverted open-source

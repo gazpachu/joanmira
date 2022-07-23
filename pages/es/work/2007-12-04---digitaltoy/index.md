@@ -1,6 +1,6 @@
 ---
-title: "Digital Toy Shop y Neoteo"
-cover: "images/logo.png"
+title: Digital Toy Shop y Neoteo
+cover: /work/digitaltoy/images/logo.png
 location: España
 color: white
 categories: design web prototype flash webmarket

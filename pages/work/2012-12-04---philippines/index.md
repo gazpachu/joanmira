@@ -1,6 +1,6 @@
 ---
-title: "Philippines Gov. websites"
-cover: "images/logo.jpg"
+title: Philippines Gov. websites
+cover: /work/philippines/images/logo.jpg
 location: UK
 color: "#0769b3"
 categories: web ux design joomla wordpress inverted
