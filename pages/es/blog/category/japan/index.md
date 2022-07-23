@@ -1,5 +1,5 @@
 ---
-title: Japan
+title: Japón
 template: blog
 category: japan
 shouldHideTitle: true

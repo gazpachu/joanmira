@@ -1,5 +1,5 @@
 ---
-title: Work
+title: Trabajo
 template: blog
 category: work
 shouldHideTitle: true

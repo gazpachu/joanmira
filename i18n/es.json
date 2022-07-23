@@ -47,6 +47,13 @@
   "work": {
     "tags": "Etiquetas"
   },
+  "blog": {
+    "listen_story": "Escuchar esta historia",
+    "subscribe": "Recibe las historias por email.<br />Sin spam ni anuncios! &#128077;<br />Puedes darte de baja en cualquier momento",
+    "subscribe_button": "Subscribirme al blog",
+    "buy_coffee": "¿Te ha gustado este artículo?<br />Puedes comprarme un café como agradecimiento &#128521;",
+    "buy_coffee_button": "Comprar un café a Joan"
+  },
   "homepage": {
     "title": "Ingeniería de Software • Diseño UI/UX<div>Instalaciones de arte interactivo</div>",
     "watch_video": "Ver el vídeo de presentación",

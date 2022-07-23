@@ -1,5 +1,5 @@
 ---
-title: Literature
+title: Literatura
 template: blog
 category: literature
 shouldHideTitle: true

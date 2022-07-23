@@ -1,5 +1,5 @@
 ---
-title: Film
+title: Cine
 template: blog
 category: film
 shouldHideTitle: true

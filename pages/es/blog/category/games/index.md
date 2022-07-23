@@ -1,5 +1,5 @@
 ---
-title: Games
+title: Juegos
 template: blog
 category: games
 shouldHideTitle: true
