@@ -1,7 +1,7 @@
 ---
 title: "Plusvila"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: white
 categories: web joomla design ux
 template: project
@@ -9,4 +9,4 @@ template: project
 
 ![](/work/plusvila/images/1.png)
 
-As part of my business relationship with WebsiteProfesional, I built a custom Joomla website for Plusvila, a real state company. It features classic static corporate pages together with a few contact forms.
+Como parte de mi relación comercial con WebsiteProfesional.com, construí un sitio web Joomla personalizado para Plusvila, una empresa inmobiliaria. Cuenta con las clásicas páginas corporativas estáticas junto con algunos formularios de contacto.

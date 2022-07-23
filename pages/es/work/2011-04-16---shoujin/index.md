@@ -1,7 +1,7 @@
 ---
 title: "Shoujin Karate Kai"
 cover: "images/logo.png"
-location: UK
+location: Reino Unido
 color: white
 categories: web ux design photo video wordpress
 template: project
@@ -9,8 +9,8 @@ template: project
 
 ![](/work/shoujin/images/1.png)
 
-During my first year in London, I attended the Shoujin Karate club in Newham. I got so excited that I built for the club a full Wordpress website with a custom template and many details. I even had a photoshoot with lights, backdrop and all the paraphernalia for the students and also recorded, edited and published a few videos of the competitions and the training.
+Durante mi primer año en Londres, asistí al club de Karate Shoujin en Newham. Me entusiasmé tanto que construí para el club un sitio web completo en WordPress con una plantilla personalizada y muchos detalles. Incluso hice una sesión de fotos con luces, telón de fondo y toda la parafernalia para los alumnos y también grabé, edité y publiqué unos cuantos vídeos de las competiciones y los entrenamientos.
 
-The website has a module to register club members with their karate federation number, so they can access the private sections of the website.
+La web tiene un módulo para registrar a los miembros del club con su número de federación de karate, para que puedan acceder a las secciones privadas de la web.
 
 <iframe width="100%" height="550" src="https://www.youtube.com/embed/MpZ-wVWAO_s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

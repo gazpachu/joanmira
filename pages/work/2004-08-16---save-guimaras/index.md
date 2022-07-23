@@ -13,4 +13,4 @@ template: project
 
 ![](/work/save-guimaras/images/1.png)
 
-This is a simple Wordpress blog I built with a custom theme.
+This is a simple WordPress blog I built with a custom theme.

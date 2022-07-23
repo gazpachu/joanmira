@@ -1,7 +1,7 @@
 ---
-title: "Vitality prototype"
+title: Prototipo para Vitality
 cover: "images/logo.jpg"
-location: UK
+location: Reino Unido
 color: "#fb0068"
 categories: sapientnitro web prototype animation box2d canvas creative-tech inverted
 template: project
@@ -16,21 +16,21 @@ template: project
 <a class="btn external" role="button" href="http://work.joanmira.com/demos/vitality/v6" target="_blank" rel="noopener noreferrer">v6</a>
 <a class="btn external" role="button" href="http://work.joanmira.com/demos/vitality/v7" target="_blank" rel="noopener noreferrer">v7</a>
 <a class="btn external" role="button" href="http://work.joanmira.com/demos/vitality/v8" target="_blank" rel="noopener noreferrer">v8</a>
-<a class="btn external" role="button" href="http://work.joanmira.com/demos/vitality/itunes-reward-architecture.pdf" target="_blank" rel="noopener noreferrer">Itunes reward architecture</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/demos/vitality/itunes-reward-architecture.pdf" target="_blank" rel="noopener noreferrer">Arquitectura de las recompensas en Itunes</a>
 </p>
 
-The project brief consisted of creating an animated journey for an iTunes contest in the Vitality's mobile app. The idea was to reveal slowly the price won by the user and the design involved the use of particles and dynamic random prize withdrawal.
+El encargo del proyecto consistía en crear una experiencia interactiva con animaciones para un concurso de iTunes en la aplicación móvil de Vitality. La idea era revelar poco a poco el premio ganado por el usuario y el diseño implicaba el uso de partículas y la retirada de premios aleatorios dinámicos.
 
 ![](/work/vitality/images/0.png)
 
-After exploring different options with Box2d physics and CSS3 animated DOM elements, I decided to use a mix of Box2d and SVGs illustrations made out of small dots (particles). These particles are loaded into a javascript array using an SVG Ajax loader and then rendered and animated in an HTML5 canvas.
+Después de explorar diferentes opciones con la física de Box2d y los elementos DOM animados de CSS3, decidí utilizar una mezcla de ilustraciones de Box2d y SVGs hechas de pequeños puntos (partículas). Estas partículas se cargan en una matriz de javascript utilizando un cargador SVG Ajax y luego se renderizan y animan en un lienzo HTML5.
 
-The whole animation journey has two different stages. In the first one, I use Box2d to create the attraction forces that pull and push the particles to the big white circle. When the user taps on it, we load the second stage, seen in the following image.
+Todo el recorrido de la animación tiene dos etapas diferentes. En la primera, utilizo Box2d para crear las fuerzas de atracción que tiran y empujan las partículas hacia el gran círculo blanco. Cuando el usuario pulsa sobre él, cargamos la segunda etapa, como se ve en la siguiente imagen.
 
-![](/work/vitality/images/1.png)
+![](/work/vitalidad/images/1.png)
 
-Once the user has tapped into the white circle, this resizes to fill the whole screen and then thousands of particles explode from the center of the screen and start moving around randomly.
+Una vez que el usuario ha tocado el círculo blanco, éste se redimensiona para llenar toda la pantalla y entonces miles de partículas explotan desde el centro de la pantalla y comienzan a moverse aleatoriamente.
 
-The particles then start to slow down and at some point they get together to start forming the shape of the prize won. The final illustration can be anything, from a voucher in pounds to a headphone or whatever the designer created with Illustrator.
+A continuación, las partículas empiezan a reducir su velocidad y, en algún momento, se juntan para empezar a formar la forma del premio ganado. La ilustración final puede ser cualquier cosa, desde un vale en libras hasta un auricular o cualquier cosa que el diseñador haya creado con Illustrator.
 
-Once the illustration is formed by the particles, these keep moving slowly without losing the shape of the illustration.
+Una vez que la ilustración está formada por las partículas, éstas siguen moviéndose lentamente sin perder la forma de la ilustración.

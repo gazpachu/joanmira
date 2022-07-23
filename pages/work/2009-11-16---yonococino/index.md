@@ -13,6 +13,6 @@ template: project
 
 ![](/work/yonococino/images/1.png)
 
-As part of my involvement in the [iWeekend event](http://iweekend.org/en), I helped to build the selected project: Yo No Cocino, an aggregator of restaurants and other food related businesses with an online ordering process and a delivery system.
+As part of my involvement in the [iWeekend event](http://iweekend.org/en), I helped to build the selected project: Yo No Cocino, an aggregator of restaurants and other food-related businesses with an online ordering process and a delivery system.
 
-I helped to build the blog using Wordpress and a custom theme.
+I helped to build the blog using WordPress and a custom theme.

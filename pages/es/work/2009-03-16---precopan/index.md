@@ -1,7 +1,7 @@
 ---
 title: "Precopan"
 cover: "images/logo.jpg"
-location: Spain
+location: España
 color: white
 categories: web joomla design ux customer
 template: project
@@ -9,4 +9,4 @@ template: project
 
 ![](/work/precopan/images/1.png)
 
-As part of my business relationship with Iván Martínez Masó, I built an [online catalog of products](http://precopan.es/index.php?option=com_virtuemart&Itemid=3) and corporate website for his customer Precopan (aka Distribuidora Vicálvaro).
+Como parte de mi relación comercial con Iván Martínez Masó, construí un [catálogo online de productos](http://precopan.es/index.php?option=com_virtuemart&Itemid=3) y una página web corporativa para su cliente Precopan (alias Distribuidora Vicálvaro).

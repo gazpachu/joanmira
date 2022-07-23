@@ -1,25 +1,25 @@
 ---
 title: "BT Consumer - Pre-sales redesign"
 cover: "images/logo.png"
-location: UK
+location: Reino Unido
 color: "#efefef"
 categories: sapientnitro web animation assemble grunt
 template: project
 ---
 
 <p class="align-center">
-<a class="btn external" role="button" href="http://productsandservices.bt.com" target="_blank">Launch website</a>
+<a class="btn external" role="button" href="http://productsandservices.bt.com" target="_blank">Lanzar página web</a>
 </p>
 
 ![](/work/bt/images/0.png)
 
-As part of SapientNitro, I co-led the development of the end to end redesign of a responsive front-end for BT, the UK's biggest telecommunications company with millions of customers. I also took full responsibility of the product overview pages (Phone, Broadband, TV and Sport), developing all their shelves responsively.
+Como parte de SapientNitro, codirigí el desarrollo del rediseño integral de un front-end responsivo para BT, la mayor empresa de telecomunicaciones del Reino Unido con millones de clientes. También asumí la responsabilidad total de las páginas de resumen de productos (Teléfono, Banda Ancha, TV y Deporte), desarrollando todas sus estanterías de forma responsiva.
 
-The site uses the latest front-end technologies, including the [Grunt](https://gruntjs.com/) task runner and a static site generator called [Assemble](http://assemble.io/). I also designed and coded several iOS compatible HTML5 canvas animations made with Adobe Flash CC.
+El sitio utiliza las últimas tecnologías de front-end, incluyendo el ejecutor de tareas [Grunt](https://gruntjs.com/) y un generador de sitios estáticos llamado [Assemble](http://assemble.io/). También diseñé y codifiqué varias animaciones de lienzo HTML5 compatibles con iOS y realizadas con Adobe Flash CC.
 
-The development phase had a very tight deadline and we had to push our limits to build a fully responsive robust architecture with an innovative design and real time data for Sport and TV shows events.
+La fase de desarrollo tenía un plazo de entrega muy ajustado y tuvimos que esforzarnos al máximo para construir una arquitectura robusta y totalmente receptiva con un diseño innovador y datos en tiempo real para los eventos deportivos y televisivos.
 
-Once we went live with the site, I continued involved in the project for a few weeks to hand over the platform to BT. Since then, the site has continued evolving.
+Una vez que pusimos en marcha el sitio, seguí participando en el proyecto durante unas semanas para entregar la plataforma a BT. Desde entonces, el sitio ha seguido evolucionando.
 
 ![](/work/bt/images/1.jpg)
 
@@ -33,4 +33,4 @@ Once we went live with the site, I continued involved in the project for a few w
 
 ![](/work/bt/images/6.jpg)
 
-![](/work/bt/images/dimitri-bt.jpg "My co-worker Dimitri thinking...")
+![](/work/bt/images/dimitri-bt.jpg "Mi compañero de trabajo Dimitri pensando...")

@@ -1,7 +1,7 @@
 ---
 title: "Promoseekers"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: white
 categories: web joomla ux design webmarket
 template: project
@@ -9,11 +9,11 @@ template: project
 
 ![](/work/promoseekers/images/1.png)
 
-While working at Webmarket, a client approached me with a business idea, a briefing and a budget to build a website similar to Groupon.
+Mientras trabajaba en Webmarket, un cliente se me acercó con una idea de negocio, un briefing y un presupuesto para construir una web similar a Groupon.
 
-We decided to build it using Joomla and some of the plugins for geolocalization, directory management, ratings, statistics and download management.
+Decidimos construirlo usando Joomla y algunos de los plugins para geolocalización, gestión de directorios, valoraciones, estadísticas y gestión de descargas.
 
-We designed a custom template and built all the business logic to make it work.
+Diseñamos una plantilla a medida y construimos toda la lógica de negocio para que funcionara.
 
 ![](/work/promoseekers/images/2.jpg)
 

@@ -1,16 +1,16 @@
 ---
-title: "Citi Group prototype"
+title: "Prototipo para Citi Group"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: white
 categories: web flash animation collaboration
 template: project
 ---
 
 <p class="align-center">
-<a class="btn external" role="button" href="http://work.joanmira.com/webs/citigroup/" target="_blank">Launch banner prototype</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/webs/citigroup/" target="_blank">Lanzar prototipo</a>
 </p>
 
-This is a collaboration with my friend Fiodor Tonti. I helped him with the initial stages of research and development regarding the Flash led scroller and with the background and panel design.
+Esta es una colaboración con mi amigo Fiodor Tonti. Le ayudé en las fases iniciales de investigación y desarrollo en relación con el scroller dirigido por Flash y con el diseño del fondo y los paneles.
 
 ![](/work/citigroup/images/1.png)

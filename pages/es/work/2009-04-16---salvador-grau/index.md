@@ -1,7 +1,7 @@
 ---
 title: "Salvador Grau"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: white
 categories: web joomla design ux webmarket
 template: project
@@ -9,4 +9,4 @@ template: project
 
 ![](/work/salvador-grau/images/1.png)
 
-Salvador Grau contacted me to build a Joomla website for his company. I built a classic corporate website with many placeholders to display information, contact forms and a forum for his customers.
+Salvador Grau se puso en contacto conmigo para construir un sitio web Joomla para su empresa. Construí un sitio web corporativo clásico con muchos marcadores de posición para mostrar información, formularios de contacto y un foro para sus clientes.

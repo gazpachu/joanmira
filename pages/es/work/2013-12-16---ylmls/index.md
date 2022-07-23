@@ -1,17 +1,17 @@
 ---
 title: "Y la muerte lo seguia"
 cover: "images/logo.jpg"
-location: Spain
+location: España
 color: black
 categories: web ux design wordpress inverted
 template: project
 ---
 
 <p class="align-center">
-<a class="btn external" role="button" href="http://ylmls.herokuapp.com" target="_blank">Launch archived website</a>
+<a class="btn external" role="button" href="http://ylmls.herokuapp.com" target="_blank">Lanzar página web archivada</a>
 </p>
 
-This Wordpress website was a quick project to support the independent filmmaker and director Ángel Gómez Hernández and my sister, Paula Mira as the producer of the short movie "[Y la muerte lo seguía](http://www.imdb.com/title/tt2495788/)".
+Este sitio web de WordPress fue un proyecto rápido para apoyar al cineasta y director independiente Ángel Gómez Hernández y a mi hermana, Paula Mira como productora del cortometraje "[Y la muerte lo seguía](http://www.imdb.com/title/tt2495788/)".
 
 ![](/work/ylmls/images/0.png)
 

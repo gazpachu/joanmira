@@ -1,7 +1,7 @@
 ---
-title: "Mugfaker project"
+title: "Proyecto Mugfaker"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: white
 categories: web php-nuke ux design
 template: project
@@ -9,4 +9,4 @@ template: project
 
 ![](/work/mugfaker-project/images/1.png)
 
-This is a simple PHP-Nuke website with a custom theme that I built for a personal project. It was intended to be an online community to talk about cinema, photography and literature, although the project didn't take off and was cancelled soon after the website was published.
+Este es un simple sitio web PHP-Nuke con un tema personalizado que construí para un proyecto personal. Pretendía ser una comunidad online para hablar de cine, fotografía y literatura, aunque el proyecto no cuajó y se canceló poco después de publicar la web.

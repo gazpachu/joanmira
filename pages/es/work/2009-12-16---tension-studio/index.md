@@ -1,7 +1,7 @@
 ---
 title: "Tension Studio"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: white
 categories: web wordpress consultancy
 template: project
@@ -9,9 +9,9 @@ template: project
 
 ![](/work/tension-studio/images/0.png)
 
-I met Josep Manen in 2002 and since then, we have partnered in many cultural and artistic projects. He's a very talented musician, specialiasing in sound engineering for multimedia productions and his website features his services and the projects he has created.
+Conocí a Josep Manen en 2002 y desde entonces hemos colaborado en muchos proyectos culturales y artísticos. Es un músico de gran talento, especializado en ingeniería de sonido para producciones multimedia, y en su página web aparecen sus servicios y los proyectos que ha creado.
 
-Josep asked me to build a Wordpress website for his company: Tension Studio. A few months later, we created a new template with an e-commerce module.
+Josep me pidió que construyera un sitio web de WordPress para su empresa: Tension Studio. Unos meses después, creamos una nueva plantilla con un módulo de comercio electrónico.
 
 ![](/work/tension-studio/images/1.jpg)
 

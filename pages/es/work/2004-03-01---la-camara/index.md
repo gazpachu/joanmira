@@ -1,16 +1,16 @@
 ---
 title: "La Cámara"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: white
 categories: prototype web ux design
 template: project
 ---
 
 <p class="align-center">
-<a class="btn external" role="button" href="http://work.joanmira.com/webs/lacamara" target="_blank">Launch archived template</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/webs/lacamara" target="_blank">Lanzar web archivada</a>
 </p>
 
-This was an HTML template I built for the Spanish Chamber of Commerce in the Philippines. It features a Flash header with animation and a complete navigation system with submenus.
+Esta fue una plantilla HTML que construí para la Cámara de Comercio Española en Filipinas. Cuenta con una cabecera en Flash con animación y un completo sistema de navegación con submenús.
 
 ![](/work/la-camara/images/1.png)

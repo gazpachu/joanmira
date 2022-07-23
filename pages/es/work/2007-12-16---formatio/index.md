@@ -1,7 +1,7 @@
 ---
 title: "Formatio"
 cover: "images/logo.jpg"
-location: Spain
+location: España
 color: white
 categories: web flash custom-cms mysql php
 template: project
@@ -9,9 +9,9 @@ template: project
 
 ![](/work/formatio/images/0.png)
 
-Formatio required an online platform for their academy, something like a custom [LMS](https://en.wikipedia.org/wiki/Learning_management_system). I built their website using Wordpress and the CMS was built from scratch using Flash, MySQL and PHP.
+Formatio necesitaba una plataforma online para su academia, algo parecido a un [LMS](https://es.wikipedia.org/wiki/Sistema_de_gesti%C3%B3n_de_aprendizaje) personalizado. Construí su sitio web utilizando WordPress y el CMS se construyó desde cero utilizando Flash, MySQL y PHP.
 
-It features an advanced content management system that handles the students profiles, their exams results, the groups, files, statistics, etc.
+Cuenta con un avanzado sistema de gestión de contenidos que gestiona los perfiles de los estudiantes, los resultados de los exámenes, los grupos, los archivos, las estadísticas, etc.
 
 ![](/work/formatio/images/1.jpg)
 

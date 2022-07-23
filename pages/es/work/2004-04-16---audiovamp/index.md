@@ -1,7 +1,7 @@
 ---
 title: "AudioVamp"
 cover: "images/1.png"
-location: Spain
+location: España
 color: white
 categories: desktop design ux prototype
 template: project
@@ -9,6 +9,6 @@ template: project
 
 ![](/work/audiovamp/images/1.png)
 
-I built an audio player using the [FMOD](https://www.fmod.com/) library, [QT](https://www.qt.io/) and C++.
+Construí un reproductor de audio usando la biblioteca [FMOD](https://www.fmod.com/), [QT](https://www.qt.io/) y C++.
 
-It supports WAV, MP3, OGG, XM, S3M and other audio formats. I also created an oscilloscope visualisation, an spectrum analyser, time line, volume control, balance, loading files from a URL and a playlist feature.
+Soporta WAV, MP3, OGG, XM, S3M y otros formatos de audio. También he creado una visualización de osciloscopio, un analizador de espectro, línea de tiempo, control de volumen, balance, carga de archivos desde una URL y una función de lista de reproducción.

@@ -9,4 +9,4 @@ template: project
 
 ![](/work/afrogitano/images/1.png)
 
-As part of my partnership with WebsiteProfesional.com, I built a Joomla website for AfroGitano. It's an standard corporate website with contact form, login, video players and mostly static pages.
+As part of my partnership with WebsiteProfesional.com, I built a Joomla website for AfroGitano. It's a standard corporate website with a contact form, login, video players and mostly static pages.

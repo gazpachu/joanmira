@@ -1,23 +1,23 @@
 ---
 title: "Iván Torres"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: black
 categories: web flash custom-cms ux consultancy inverted
 template: project
 ---
 
 <p class="align-center">
-<a class="btn external" role="button" href="http://work.joanmira.com/webs/ivantorres" target="_blank">Launch archived website</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/webs/ivantorres" target="_blank">Lanzar web archivada</a>
 </p>
 
-A friend of mine, Iván Torres, asked me to build a website to showcase his portfolio of drawings, illustrations and other graphic design projects. He required a custom Flash design with a CMS feature to upload new images.
+Un amigo mío, Iván Torres, me pidió que construyera un sitio web para mostrar su cartera de dibujos, ilustraciones y otros proyectos de diseño gráfico. Necesitaba un diseño personalizado en Flash con una función de CMS para subir nuevas imágenes.
 
 ![](/work/ivan-torres/images/1.png)
 
 ![](/work/ivan-torres/images/2.png)
 
-The admin panel password is 'arturo'. All controls are disabled.
+La contraseña del panel de administración es 'arturo'. Todos los controles están desactivados.
 
 ![](/work/ivan-torres/images/3.jpg)
 

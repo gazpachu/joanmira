@@ -1,7 +1,7 @@
 ---
-title: "Tello Serna Flash website"
+title: "Web en Flash para Tello Serna"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: white
 categories: web flash animation webmarket
 template: project
@@ -15,7 +15,7 @@ template: project
 <a class="btn external" role="button" href="http://work.joanmira.com/webs/telloserna/v6" target="_blank">v6</a>
 </p>
 
-This was one of Webmarket's first projects. It's a straightforward Flash website with a custom design, animated content and desktop responsive layout. To complete the project, we hired a freelance graphic designer to create the final version (v6).
+Este fue uno de los primeros proyectos de Webmarket. Se trata de un sitio web sencillo en Flash con un diseño personalizado, contenido animado y un diseño adaptado al escritorio. Para completar el proyecto, contratamos a un diseñador gráfico independiente para crear la versión final (v6).
 
 ![](/work/tello-serna/images/1.png)
 

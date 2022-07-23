@@ -1,7 +1,7 @@
 ---
-title: "Colchonbarato website"
+title: "Página web para Colchonbarato"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: white
 categories: joomla web
 template: project
@@ -9,4 +9,4 @@ template: project
 
 ![](/work/colchonbarato/images/1.png)
 
-As part of my partnership with WebsiteProfesional.com, I built a Joomla website for ColchonBarato.com. It features an online shop (virtuemart) to allow customers purchase mattresses.
+Como parte de mi asociación con WebsiteProfesional.com, construí un sitio web Joomla para ColchonBarato.com. Cuenta con una tienda online (virtuemart) para que los clientes puedan comprar colchones.

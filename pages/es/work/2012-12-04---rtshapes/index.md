@@ -1,26 +1,26 @@
 ---
-title: "rtShapes demo"
+title: "Demo de rtShapes"
 cover: "images/logo.jpg"
-location: UK
+location: Reino Unido
 color: white
 categories: wcrs open-source web installation prototype ux design cover webcam
 template: project
 ---
 
 <p class="align-center">
-<a class="btn external" role="button" href="http://open.joanmira.com/rtshapes" target="_blank">Launch website</a>
-<a class="btn github" role="button" href="https://github.com/gazpachu/rtshapes" target="_blank">Source code</a>
+<a class="btn external" role="button" href="http://open.joanmira.com/rtshapes" target="_blank">Lanzar página web</a>
+<a class="btn github" role="button" href="https://github.com/gazpachu/rtshapes" target="_blank">Código fuente</a>
 </p>
 
 ![](/work/rtshapes/images/1.png)
 
-This is the first demo of my series of experiments with real time shape recognition using HTML5 [getUserMedia](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia), [OpenCV](http://docs.opencv.org/3.1.0/d9/d6d/tutorial_table_of_content_aruco.html#gsc.tab=0) and [Box2D](https://github.com/hecht-software/box2dweb).
+Esta es la primera demostración de mi serie de experimentos con el reconocimiento de formas en tiempo real utilizando HTML5 [getUserMedia](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia), [OpenCV](http://docs.opencv.org/3.1.0/d9/d6d/tutorial_table_of_content_aruco.html#gsc.tab=0) y [Box2D](https://github.com/hecht-software/box2dweb).
 
-While I was working as a creative technologist at [WCRS](http://www.wcrs.com/), I started to play with Box2d a lot. I was also experimenting with Kinect and [OpenFrameworks](http://openframeworks.cc/) to recognise shapes/blobs in real time, which led me to build some demos mixing both technologies.
+Mientras trabajaba como tecnólogo creativo en [WCRS](http://www.wcrs.com/), empecé a investigar mucho Box2d. También estuve experimentando con Kinect y [OpenFrameworks](http://openframeworks.cc/) para reconocer formas/bloques en tiempo real, lo que me llevó a construir algunas demos mezclando ambas tecnologías.
 
-In this HTML5 demo, I'm using a webcam to get a live video stream of some shapes drawn in a paper sheet. These video is analysed with JavaScript (using OpenCV) to identify the shapes. Once we have the 2D coordinates of those shapes, I use Box2d to create their representation in the Box2d world.
+En esta demo de HTML5, estoy usando una cámara web para obtener un video en directo de algunas formas dibujadas en una hoja de papel. Este vídeo se analiza con JavaScript (usando OpenCV) para identificar las formas. Una vez que tenemos las coordenadas 2D de esas formas, uso Box2d para crear su representación en el mundo de Box2d.
 
-In the following images, you can see how the lines drawn in the paper become static platforms that contain the other boxes falling from the top of the screen.
+En las siguientes imágenes, se puede ver cómo las líneas dibujadas en el papel se convierten en plataformas estáticas que contienen las otras cajas que caen desde la parte superior de la pantalla.
 
 ![](/work/rtshapes/images/2.jpg)
 

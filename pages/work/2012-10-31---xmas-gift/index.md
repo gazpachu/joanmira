@@ -15,9 +15,9 @@ template: project
 
 ## The idea
 
-The aim of this project is to create a little game for Xmas 2012. The app will create the illusion of a frozen window (with the blur effect) that needs to be wiped off moving the hand in circles. To make it more fun there will be lots of snowflakes that will react to the movement of the hand.
+This project aims to create a little game for Xmas 2012. The app will create the illusion of a frozen window (with the blur effect) that needs to be wiped off by moving the hand in circles. To make it more fun there will be lots of snowflakes that will react to the movement of the hand.
 
-In order to make the blur disappear, the user has to move the hands only in circles. Soon after a few seconds the blur will disappear and the background image will be revealed. The image can be easily changed and maybe we can even play a video.
+To make the blur disappear, the user has to move the hands only in circles. Soon after a few seconds, the blur will disappear and the background image will be revealed. The image can be easily changed and maybe we can even play a video.
 
 To compensate the user for playing the game, several QR codes (with a link to a gift) will show up and the user will be able to scan them with their Smartphone/tablet. We can extend the game by telling the user to go to the URL to complete another task...
 
@@ -25,10 +25,10 @@ It was all built with OpenFrameworks, Kinect and OpenNI.
 
 ## Requirements and improvements
 
-- It has to be installed in the ground floor beside a window.
-- It can use a powerful projector or a big flat screen. The projector can maximize the visual experience and use the glass of the window as the surface where the app will be showed.
-- Further investigation needs to be done regarding the Kinect tracking threshold, Kinect calibration, and limit the maximum number of skeletons/hands to one.
-- Needs to be tested in the final location in an early stage, not just a couple of days before start
+- It has to be installed on the ground floor beside a window.
+- It can use a powerful projector or a big flat screen. The projector can maximize the visual experience and use the glass of the window as the surface where the app will be shown.
+- Further investigation needs to be done regarding the Kinect tracking threshold, and Kinect calibration, and limit the maximum number of skeletons/hands to one.
+- Needs to be tested in the final location in an early stage, not just a couple of days before the start
 
 ## Instructions
 

@@ -1,19 +1,19 @@
 ---
 title: "Render Render"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: black
 categories: web flash animation inverted
 template: project
 ---
 
 <p class="align-center">
-<a class="btn external" role="button" href="http://work.joanmira.com/webs/renderrender/" target="_blank">Launch archived demo</a></p>
+<a class="btn external" role="button" href="http://work.joanmira.com/webs/renderrender/" target="_blank">Lanzar demo archivada</a></p>
 
-Render Render is an R&D project I built while working at Slater Labs in Madrid. My aim was to mimic a Windows OS inside a Flash website.
+Render Render es un proyecto de I+D que construí mientras trabajaba en Slater Labs en Madrid. Mi objetivo era imitar un sistema operativo Windows dentro de un sitio web Flash.
 
 ![](/work/render-render/images/1.png)
 
-The demo starts with the classic BIOS screen (which has an easter egg if you press F2...). Then it loads the Windows Xp user login screen. After that, the the desktop is displayed and the user can start interacting with the programs (doble click in the icon to open).
+La demo comienza con la clásica pantalla de la BIOS (que tiene un huevo de pascua si pulsas F2...). Luego carga la pantalla de inicio de sesión del usuario de Windows Xp. Después se muestra el escritorio y el usuario puede empezar a interactuar con los programas (doble click en el icono para abrir).
 
 ![](/work/render-render/images/2.png)

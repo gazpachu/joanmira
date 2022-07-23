@@ -7,7 +7,7 @@ categories: wcrs web prototype masonry
 template: project
 ---
 
-As part of WCRS pitching activities, I was asked to build a responsive HTML5 prototype with a dynamically driven masonry type layout.
+As part of WCRS pitching activities, I was asked to build a responsive HTML5 prototype with a dynamically driven masonry-type layout.
 
 ![](/work/kittitian/images/1.png)
 

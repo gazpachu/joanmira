@@ -1,7 +1,7 @@
 ---
 title: "Newtir"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: "#f5f5f5"
 categories: web joomla
 template: project
@@ -9,4 +9,4 @@ template: project
 
 ![](/work/newtir/images/1.png)
 
-Newtir asked me to build a Joomla website to showcase their company's services and corporate info. The website features standard static pages with login area and contact form.
+Newtir me pidió que construyera un sitio web en Joomla para mostrar los servicios de su empresa y la información corporativa. El sitio web cuenta con páginas estáticas estándar con un área de inicio de sesión y formulario de contacto.

@@ -1,13 +1,13 @@
 ---
 title: "Churchill microsites"
 cover: "images/logo.jpg"
-location: UK
+location: Reino Unido
 color: white
 categories: wcrs web facebook
 template: project
 ---
 
-While I was working at [WCRS](http://www.wcrs.com/) as a creative technologist, I got involved in several projects: Churchill Army Vets, Churchill Birthday Card and a landing page for the Churchill FB page. The Birthday Card became a [Guinness World Record](http://www.guinnessworldrecords.com/news/2012/10/churchill-dog-beats-spiderman-to-take-most-contributions-to-a-greeting-card-record-45716).
+Mientras trabajaba en [WCRS](http://www.wcrs.com/) como tecnólogo creativo, me involucré en varios proyectos: Churchill Army Vets, Churchill Birthday Card y una página de aterrizaje para la página de FB de Churchill. La tarjeta de cumpleaños se convirtió en un [récord mundial Guinness](http://www.guinnessworldrecords.com/news/2012/10/churchill-dog-beats-spiderman-to-take-most-contributions-to-a-greeting-card-record-45716).
 
 ![](/work/churchill/images/1.png)
 

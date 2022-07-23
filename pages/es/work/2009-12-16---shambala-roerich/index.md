@@ -1,7 +1,7 @@
 ---
 title: "Shambala Roerich"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: white
 categories: web ux design wordpress joomla
 template: project
@@ -9,12 +9,12 @@ template: project
 
 ![](/work/shambala-roerich/images/1.png)
 
-At some point, while working in Webmarket, I was contacted by Leonardo Olazabal, the founder of the Shambala Roerich museum in Bedia, Bizkaia.
+En algún momento, mientras trabajaba en Webmarket, me contactó Leonardo Olazabal, el fundador del museo Shambala Roerich en Bedia, Bizkaia.
 
-He needed help with the maintenance of the museum's website, which at that point, was using Joomla. I helped him with a few changes and we decided to build a new template with more features, like video player, better blogs taxonomy, etc:
+Necesitaba ayuda con el mantenimiento de la página web del museo, que en ese momento, estaba usando Joomla. Le ayudé con algunos cambios y decidimos construir una nueva plantilla con más características, como un reproductor de vídeo, mejor taxonomía de blogs, etc:
 
 ![](/work/shambala-roerich/images/2.png)
 
-A year later, we decided to build a responsive website using Wordpress and implement an e-commerce module to sell his books.
+Un año después, decidimos construir un sitio web responsivo con WordPress e implementar un módulo de comercio electrónico para vender sus libros.
 
-I am also very grateful to Leonardo and his wife Petri for having supported my [Samurai Route](/samurai-route) trip with their sponsorship.
+También estoy muy agradecido a Leonardo y a su esposa Petri por haber apoyado mi viaje [La Ruta del Samurái](/samurai-route) con su patrocinio.

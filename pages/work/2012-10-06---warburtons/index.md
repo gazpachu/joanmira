@@ -1,5 +1,5 @@
 ---
-title: "Warburtons facebook app"
+title: "Warburtons Facebook app"
 cover: "images/logo.jpg"
 location: UK
 color: "#f08229"

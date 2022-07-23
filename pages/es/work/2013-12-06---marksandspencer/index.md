@@ -1,7 +1,7 @@
 ---
-title: "Marks and Spencer website case study"
+title: Marks and Spencer website case study
 cover: "images/logo.png"
-location: UK
+location: Reino Unido
 color: "#044e44"
 categories: sapientnitro web vanilla-js inverted
 template: project
@@ -9,11 +9,11 @@ template: project
 
 ![](/work/marksandspencer/images/1.jpg)
 
-While working at SapientNitro, I was asked to get involved in the Marks & Spencer project (iPad version) to develop and user test a vertical navigation, work in the main navigation, fix bugs and test the performance of different approaches across the pages of the site, including the home page, PLP, PDP, landing pages, etc.
+Mientras trabajaba en SapientNitro, me pidieron que me involucrara en el proyecto de Marks & Spencer (versión para iPad) para desarrollar y probar con los usuarios la navegación vertical, trabajar en la navegación principal, corregir errores y probar el rendimiento de diferentes enfoques en todas las páginas del sitio, incluyendo la página de inicio, PLP, PDP, páginas de aterrizaje, etc.
 
-Tech stack included: CSS3, Pub/Sub, Mustache, jQuery, Vanilla Javascript, Modernizr, HTML5, Charles Proxy, etc.
+La tecnología incluía: CSS3, Pub/Sub, Mustache, jQuery, Vanilla Javascript, Modernizr, HTML5, Charles Proxy, etc.
 
-SapientNitro has lead M&S through quite literally the biggest multi-channel retail re-platform in history with more than 600 SapientNitro people on the project that have worked more than 1.1 million hours!
+> SapientNitro ha llevado a M&S a través de, literalmente, la mayor re-plataforma minorista multicanal de la historia, con más de 600 personas de SapientNitro en el proyecto que han trabajado más de 1,1 millones de horas.
 
 ![](/work/marksandspencer/images/2.png)
 
@@ -27,8 +27,8 @@ SapientNitro has lead M&S through quite literally the biggest multi-channel reta
 
 ![](/work/marksandspencer/images/7.png)
 
-![](/work/marksandspencer/images/paddington.jpg "The M&S office was in Paddington area")
+![](/work/marksandspencer/images/paddington.jpg "La oficina de en Paddington, Londres")
 
-![](/work/marksandspencer/images/team.jpg "The team")
+![](/work/marksandspencer/images/team.jpg "El equipo")
 
-![](/work/marksandspencer/images/board.jpg "Scrum board")
+![](/work/marksandspencer/images/board.jpg "Tablero Scrum")

@@ -1,7 +1,7 @@
 ---
 title: "Green point"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: white
 categories: video 3d webmarket
 template: project
@@ -9,7 +9,7 @@ template: project
 
 ![](/work/green-point/images/1.png)
 
-Green Point contacted me in Webmarket to request for a 3d modelling and video animation job. I hired the services of [Carlos Ocaña](http://www.4kreation.es/) to do the job.
+Green Point se puso en contacto conmigo en Webmarket para solicitar un trabajo de modelado 3d y animación de vídeo. Contraté los servicios de [Carlos Ocaña](http://www.4kreation.es/) para realizar el trabajo.
 
 <iframe width="100%" height="550" style="margin-bottom: 20px" src="https://www.youtube.com/embed/YaQCAnWam-k" frameborder="0" allowfullscreen></iframe>
 

@@ -1,23 +1,23 @@
 ---
-title: "Mila Martos Rubio websites"
+title: Mila Martos Rubio
 cover: "images/logo.png"
-location: Spain
+location: España
 color: white
 categories: web ux design ghostjs wordpress
 template: project
 ---
 
 <p class="align-center">
-<a class="btn external" role="button" href="http://martosrubio.com" target="_blank">Launch website</a>
+<a class="btn external" role="button" href="http://martosrubio.com" target="_blank">Lanzar página web</a>
 </p>
 
-The spanish artist, Milagros Martos Rubio, asked me to build a website to showcase her work:
+La artista española, Milagros Martos Rubio, me pidió que construyera un sitio web para mostrar su trabajo:
 
-3rd version: Based on CRA (React) with simple JSON files to organize the artworks and categories
+3ra versión: basada en CRA (React) con archivos JSON simples para organizar las obras de arte y las categorías.
 
-2nd version: Based on Ghost with a custom responsive theme.
+2da versión: Basada en Ghost con un tema responsivo personalizado.
 
-1st version: Based on Wordpress with a custom theme with horizontal scrolling (mocking the wall of an art gallery).
+1ra versión: Basada en WordPress con un tema personalizado con desplazamiento horizontal (simulando la pared de una galería de arte).
 
 ![](/work/martosrubio/images/0.png)
 

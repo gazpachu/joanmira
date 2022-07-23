@@ -1,7 +1,7 @@
 ---
 title: "No somos numeros"
 cover: "images/logo.jpg"
-location: Spain
+location: España
 color: "#f5f5f5"
 categories: web joomla webprof
 template: project
@@ -9,4 +9,4 @@ template: project
 
 ![](/work/no-somos-numeros/images/1.png)
 
-As part of my business relationship with WebsiteProfesional, I built a custom Joomla website for No Somos Numberos, a social movement to raise awareness regarding the poor working conditions in some areas in Spain. The website features static and dynamic content together with videos and contact forms.
+Como parte de mi relación comercial con WebsiteProfesional, construí un sitio web Joomla personalizado para No Somos Numerosos, un movimiento social para concienciar sobre las malas condiciones de trabajo en algunas zonas de España. El sitio web cuenta con contenido estático y dinámico junto con vídeos y formularios de contacto.

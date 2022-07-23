@@ -1,7 +1,7 @@
 ---
-title: "Estrella Galicia desktop app"
+title: "App para Estrella Galicia"
 cover: "images/logo.jpg"
-location: Spain
+location: España
 color: white
 categories: flash ux design custom-cms desktop
 template: project
@@ -9,9 +9,9 @@ template: project
 
 ![](/work/estrellagalicia/images/0.png)
 
-As part of my partnership with Havana Marketing in Barcelona, I built a desktop Flash driven interactive [POS (Point Of Sale)](https://en.wikipedia.org/wiki/Point_of_sale) for Estrella Galicia's corporate customers: restaurants, bars, coffee shops, etc.
+Como parte de mi colaboración con Havana Marketing en Barcelona, construí un [TPV](https://es.wikipedia.org/wiki/Terminal_punto_de_venta) interactivo de escritorio basado en Flash para los clientes corporativos de Estrella Galicia: restaurantes, bares, cafeterías, etc.
 
-The app features a login screen to access to merchandising catalog. The users can drag&drop products to the stage or select them using the sidebar navigation. Once the order is ready, they can submit it. The app will also export the order in Excel format and send it directly to the headquarters.
+La aplicación cuenta con una pantalla de inicio de sesión para acceder al catálogo de merchandising. Los usuarios pueden arrastrar y soltar los productos al escenario o seleccionarlos mediante la navegación de la barra lateral. Una vez que el pedido está listo, pueden enviarlo. La aplicación también exportará el pedido en formato Excel y lo enviará directamente a la central.
 
 ![](/work/estrellagalicia/images/1.jpg)
 

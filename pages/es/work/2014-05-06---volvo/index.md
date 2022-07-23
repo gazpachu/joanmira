@@ -1,13 +1,13 @@
 ---
-title: "Volvo prototype"
+title: Volvo prototype
 cover: "images/logo.jpg"
-location: UK
+location: Reino Unido
 color: white
 categories: sapientnitro web prototype spa
 template: project
 ---
 
-I built this quick prototype for Volvo Trucks while working at SapientNitro. The requirements consisted of a responsive single page app with dynamic vertical navigation highlighting while scrolling.
+Construí este prototipo rápido para Volvo Trucks mientras trabajaba en SapientNitro. Los requisitos consistían en una aplicación responsiva de una sola página con una navegación vertical dinámica que se resaltara durante el desplazamiento.
 
 ![Content coming soon](/work/volvo/images/0.png)
 

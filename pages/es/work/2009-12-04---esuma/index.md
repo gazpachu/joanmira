@@ -1,7 +1,7 @@
 ---
-title: "ESUMA website"
+title: "Página web para ESUMA"
 cover: "images/logo.jpg"
-location: Spain
+location: España
 color: white
 categories: web ux design joomla consultancy
 template: project
@@ -9,4 +9,4 @@ template: project
 
 ![](/work/esuma/images/1.png)
 
-As part of my partnership with Esuma, where I also was a teacher in one of their master programs, I built a Joomla website for the institution. It features a login area with private pages for the students and teachers and other static pages with content related with the educational offer and latest news.
+Como parte de mi colaboración con Esuma, donde también fui profesor en uno de sus programas de máster, construí un sitio web en Joomla para la institución. Cuenta con una zona de acceso con páginas privadas para los estudiantes y profesores y otras páginas estáticas con contenido relacionado con la oferta educativa y las últimas noticias.

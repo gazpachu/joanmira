@@ -1,7 +1,7 @@
 ---
-title: "Busaf website"
+title: "Página web para Busaf"
 cover: "images/logo.jpg"
-location: Spain
+location: España
 color: white
 categories: web joomla
 template: project
@@ -9,4 +9,4 @@ template: project
 
 ![](/work/busaf/images/1.png)
 
-As part of my partnership with WebsiteProfesional.com, I built a Joomla website for Busaf Asesores Técnicos. It's an standard corporate website with contact form and mostly static pages.
+Como parte de mi asociación con WebsiteProfesional.com, construí un sitio web en Joomla para Busaf Asesores Técnicos. Es un sitio web corporativo estándar con un formulario de contacto y páginas principalmente estáticas.

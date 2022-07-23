@@ -1,24 +1,24 @@
 ---
-title: "WCRS DJ Wannabe installation"
+title: WCRS Instalación DJ Wannabe
 cover: "images/logo.png"
-location: UK
+location: Reino Unido
 color: "#714762"
 categories: wcrs prototype design kinect openni openframeworks creative-tech inverted open-source
 template: project
 ---
 
 <p class="align-center">
-<a class="btn github" role="button" href="https://github.com/gazpachu/dj-wannabe" target="_blank">Source code</a>
+<a class="btn github" role="button" href="https://github.com/gazpachu/dj-wannabe" target="_blank">Código fuente</a>
 </p>
 
 ![](/work/dj-wannabe/images/turn-tables.jpg)
 
-## The idea
+## La idea
 
-The objective was to be able to:
+El objetivo era poder hacer lo siguiente:
 
-- play two music tracks at the same time
-- control the playing speed of each track using the hands or the speed controls in the turntable
-- scratch the virtual vinyls using only the hands in the air
+- reproducir dos pistas musicales al mismo tiempo
+- controlar la velocidad de reproducción de cada pista utilizando las manos o los controles de velocidad del tocadiscos
+- rayar el vinilo virtual usando sólo las manos en el aire
 
-To achieve this, I made a Kinect and OpenFrameworks driven turntable music experiment. The hand tracking was coded using the OpenNI library. It could track both hands and detect the up and down movement to trigger the scratching mode or the circular movement on top of the vinyls to increase or decrease the playing speed.
+Para lograr esto, hice un experimento de música con un tocadiscos impulsado por Kinect y OpenFrameworks. El seguimiento de las manos se codificó utilizando la biblioteca OpenNI. Podía rastrear ambas manos y detectar el movimiento hacia arriba y hacia abajo para activar el modo scratching o el movimiento circular sobre el vinilo para aumentar o disminuir la velocidad de reproducción.

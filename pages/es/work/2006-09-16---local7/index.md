@@ -1,25 +1,23 @@
 ---
 title: "Local7"
 cover: "images/logo.jpg"
-location: Spain
+location: España
 color: "#94d5ff"
 categories: web mysql php web flash custom-cms ux design webmarket
 template: project
 ---
 
 <p class="align-center">
-<a class="btn external" role="button" href="http://work.joanmira.com/webs/local7/" target="_blank">Launch archived website without DB</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/webs/local7/" target="_blank">Lanzar web archivada</a>
 </p>
 
-Local7 contacted us (Webmarket) to build an online shop to sell their products. They wanted a very personal style combined with great UX and an easy payment method.
+Local7 se puso en contacto con nosotros (Webmarket) para construir una tienda online para vender sus productos. Querían un estilo muy personal combinado con una gran UX y un método de pago fácil.
 
 ![](/work/local7/images/1.png)
 
-At this point, I didn't have a system or CMS with this sort of functionality. The open source options available at that time were also very insufficient for the requirements, so I decided to build my own bespoke solution. I called it TIENDAFlash, because it was based in Flash, PHP and MySQL.
+En este momento, no tenía un sistema o CMS con este tipo de funcionalidad. Las opciones de código abierto disponibles en ese momento también eran muy insuficientes para los requisitos, así que decidí construir mi solución a medida. La llamé TIENDAFlash, porque estaba basada en Flash, PHP y MySQL.
 
-![](/work/local7/images/2.png)
-
-TIENDAFlash allows the maximum flexibility in the front-end and a very compatible and extended tech stack for the backend. It also features a custom CMS to add/edit/remove products, categories, photos and customers. I also implemented a credit/debit card payment gateway using the API from ServiRed (a very popular banking network in Spain).
+TIENDAFlash permite la máxima flexibilidad en el front-end y una pila tecnológica muy compatible y extendida para el back-end. También cuenta con un CMS personalizado para añadir/editar/eliminar productos, categorías, fotos y clientes. También implementé una pasarela de pago con tarjeta de crédito/débito utilizando la API de ServiRed (una red bancaria muy popular en España).
 
 ![](/work/local7/images/5.jpg)
 

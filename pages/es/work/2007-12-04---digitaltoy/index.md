@@ -1,16 +1,16 @@
 ---
-title: "Digital Toy Shop & Neoteo"
+title: "Digital Toy Shop y Neoteo"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: white
 categories: design web prototype flash webmarket
 template: project
 ---
 
 <p class="align-center">
-<a class="btn external" role="button" href="http://work.joanmira.com/webs/digitaltoy/plantilla_ebay/" target="_blank">eBay template</a> <a class="btn external" role="button" href="http://work.joanmira.com/webs/digitaltoy/bessel-packaging.jpg" target="_blank">Bessel Packaging</a></p>
+<a class="btn external" role="button" href="http://work.joanmira.com/webs/digitaltoy/plantilla_ebay/" target="_blank">Plantilla deeBay</a> <a class="btn external" role="button" href="http://work.joanmira.com/webs/digitaltoy/bessel-packaging.jpg" target="_blank">Packaging para Bessel</a></p>
 
-I created a wide range of designs for Digital Toy Shop and Neoteo, including logos, banners, HTML templates and other print related designs.
+He creado una amplia gama de diseños para Digital Toy Shop y Neoteo, incluyendo logotipos, banners, plantillas HTML y otros diseños relacionados con la impresión.
 
 ![](/work/digitaltoy/images/1.png)
 

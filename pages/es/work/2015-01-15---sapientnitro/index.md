@@ -1,21 +1,21 @@
 ---
-title: "SapientNitro Skills Matrix"
+title: SapientNitro Skills Matrix
 cover: "images/logo.png"
-location: UK
+location: Reino Unido
 color: "#de2728"
 categories: sapientnitro web-app prototype ux design sailsjs mongodb bootstrap inverted
 template: project
 ---
 
-As part of my work as a senior interactive developer at SapientNitro, I started to architect and build an internal application to manage the technical skills of Sapient developers across the world.
+Como parte de mi trabajo como desarrollador interactivo senior en SapientNitro, comencé a diseñar y construir una aplicación interna para gestionar las habilidades técnicas de los desarrolladores de Sapient en todo el mundo.
 
 ![](/work/sapientnitro/images/2.png)
 
-I got two other developers on board (for a couple of weeks) and we started to work on it. The app was built using Sails.js, an MVC framework based on Express/Node.js that creates a REST API with the endpoints defined by the models. We also connected to the Active Directory to fetch employee data and used Sapient's user credentials to sign-up and sign-in users.
+Conseguí que otros dos desarrolladores se incorporaran (durante un par de semanas) y empezamos a trabajar en ella. La aplicación se construyó usando Sails.js, un framework MVC basado en Express/Node.js que crea una API REST con los endpoints definidos por los modelos. También nos conectamos al Active Directory de la empresa para obtener los datos de los empleados y utilizamos las credenciales de usuario de Sapient para dar de alta y registrar a los usuarios.
 
-The DB was driven by Mongo (we used Mongolabs for testing) and for the UI we used Bootstrap. The app allows admins to create/edit/delete new skils and categories.
+La base de datos fue implementada con Mongo (usamos Mongolabs para las pruebas) y para la interfaz de usuario usamos Bootstrap. La aplicación permite a los administradores crear/editar/borrar nuevas habilidades y categorías.
 
-Developers can update their skills (using a level criteria) and managers can review them and also assign a value to them.
+Los desarrolladores pueden actualizar sus habilidades (usando criterios de nivel) y los administradores pueden revisarlas y también asignarles un valor.
 
 ![](/work/sapientnitro/images/0.jpg)
 
@@ -29,4 +29,4 @@ Developers can update their skills (using a level criteria) and managers can rev
 
 ![](/work/sapientnitro/images/5.jpg)
 
-![](/work/sapientnitro/images/board.jpg "Scrum board")
+![](/work/sapientnitro/images/board.jpg "Tablero Scrum")

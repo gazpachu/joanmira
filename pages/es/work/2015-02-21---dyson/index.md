@@ -1,13 +1,13 @@
 ---
-title: "Dyson prototype"
+title: Prototipo para Dyson
 cover: "images/logo.png"
-location: UK
+location: Reino Unido
 color: black
 categories: web prototype animation inverted
 template: project
 ---
 
-As part of SapientNitro's pitching activities, I was involved in the development of a mobile prototype for Dyson. It included Javascript animations for each section and displaying zoomed images in an overlay.
+Como parte de las actividades de pitching de SapientNitro, participé en el desarrollo de un prototipo móvil para Dyson. Incluía animaciones en Javascript para cada sección y mostraba imágenes ampliadas en una superposición.
 
 ![](/work/dyson/images/1.png)
 

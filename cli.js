@@ -205,7 +205,7 @@ async function processPage(pagePath) {
   const type = frontmatter.template === 'post' || frontmatter.template === 'project' ? 'article' : 'website';
   const listingItems = [];
 
-  let alternateUrl = targetPath.startsWith('es/') ? targetPath.replace('es/', '/') : `es/${targetPath}`;
+  let alternateUrl = targetPath.startsWith('es/') ? targetPath.replace('es/', '/') : `/es/${targetPath}`;
   if (targetPath === 'es') { alternateUrl = '/'; }
   if (targetPath === '') { alternateUrl = '/es'; }
 

@@ -1,31 +1,30 @@
 ---
-title: "ICA Art Rules case study"
+title: "ICA Las reglas del arte"
 cover: "images/logo.jpg"
-location: UK
+location: Reino Unido
 color: black
 categories: sapientnitro animation shortlisted web-app ruby box2d inverted creative-tech
 template: project
 ---
 
 <p class="align-center">
-<a class="btn external" role="button" href="http://work.joanmira.com/demos/artrules/" target="_blank" rel="noopener noreferrer">Check animation prototypes</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/demos/artrules/" target="_blank" rel="noopener noreferrer">Ver los prototipos</a>
 </p>
 
-The [ICA, Institute of Contemporary Art](https://www.ica.org.uk/), has been in the forefront for arts for decades. It was finding difficulties keeping up with today’s social media age and needed to be part of the online art conversation. We ([SapientNitro](http://www.sapientnitro.com/), London) built a platform to encourage people to challenge what art really means.
+El [ICA, Instituto de Arte Contemporáneo](https://www.ica.org.uk/), ha estado a la vanguardia del arte durante décadas. Tenía dificultades para seguir el ritmo de la era de las redes sociales y necesitaba formar parte de la conversación artística online. Nosotros ([SapientNitro](http://www.sapientnitro.com/), Londres) construimos una plataforma para animar a la gente a cuestionar lo que significa el arte.
 
-![](/work/artrules/images/12.png)
+![](/trabajo/artrules/images/12.png)
 
-My role in this project was mainly in the rendering and animations of the art rules. Tech used includes: Ruby on Rails (RoR), HAML, Heroku, Github, SASS, CSS3 animations and Javascript Box2d 2D physics.
+Mi papel en este proyecto consistió principalmente en el renderizado y las animaciones de las reglas del arte. La tecnología utilizada incluye: Ruby on Rails (RoR), HAML, Heroku, Github, SASS, animaciones CSS3 y física 2D Javascript Box2d.
 
-The major challenge in this project was to achieve fast animations on tablet devices. The performance on desktops and laptops was fine. I had to explore different ways of rendering the circles with the physics, mostly with canvas or DOM elements and CSS3.
+El mayor reto de este proyecto fue conseguir animaciones rápidas en dispositivos tipo tablet. El rendimiento en ordenadores de sobremesa y portátiles estaba bien. Tuve que explorar diferentes formas de renderizar los círculos con la física, principalmente con elementos canvas o DOM y CSS3.
 
-At the end, due to the full screen nature of the animations, I decided to use DOM elements and apply realtime CSS3 transformations (hardware accelerated) to animate the circles. I used Box2d to calculate the physics for the attraction forces, collisions and pushing the colliding circles around when resizing one of them.
+Al final, debido a la naturaleza de pantalla completa de las animaciones, decidí utilizar elementos DOM y aplicar transformaciones CSS3 en tiempo real (aceleradas por hardware) para animar los círculos. Utilicé Box2d para calcular la física de las fuerzas de atracción, las colisiones y el empuje de los círculos en colisión al cambiar el tamaño de uno de ellos.
 
-The mouse wheel and the swipe events in touch devices, were used as circle generators. The user could scroll left and right to move all the circles and generate new ones. As soon as the circles were out of the screen, they died and a new one were created on the other side of the screen. So, in a way, it was sort of generative art :-)
+La rueda del ratón y los eventos de deslizamiento en los dispositivos táctiles se utilizaron como generadores de círculos. El usuario podía desplazarse a izquierda y derecha para mover todos los círculos y generar otros nuevos. En cuanto los círculos salían de la pantalla, morían y se creaba uno nuevo en el otro lado de la pantalla. Así que, en cierto modo, era una especie de arte generativo :-)
+Disfruté mucho trabajando en este proyecto, ya que me encanta el arte y los temas creativos, y también fue todo un reto (porque Box2d con elementos DOM era un territorio inexplorado para mí y para el resto del equipo). También fue mi primer proyecto en SapientNitro, así que me ayudó a crear una buena reputación a mi alrededor.
 
-I really enjoyed working on this project, as I love arts and creative stuff and it was also quite challenging (because Box2d with DOM elements was unexplored terrotory for me and the rest of the team). It was also my first project in SapientNitro, so it really helped me to create a good reputation around me.
-
-Featured on:
+Destacado en:
 
 - [SapientNitro](http://www.sapient.co.in/en-us/news/press-releases/year2013/sapientnitro-creates-innovative-social-media-campaign-for-the-institute-of-contemporary-arts.html)
 - [CampaignLive](https://www.campaignlive.co.uk/article/institute-contemporary-arts-art-rules-sapientnitro/1208923)
@@ -37,7 +36,7 @@ Featured on:
 - [Artsy](https://www.artsy.net/article/glenn-michael-ebert-who-makes-the-rules-of-art-number-whatisart)
 
 
-![](/work/artrules/images/wall-installation.jpg "Installation of the project on a wall in SapientNitro's office")
+![](/work/artrules/images/wall-installation.jpg "Instalación del proyecto en la oficina de SapientNitro")
 
 ![](/work/artrules/images/1.png)
 
@@ -59,4 +58,4 @@ Featured on:
 
 ![](/work/artrules/images/10.jpg)
 
-![](/work/artrules/images/11.jpg "Projection of the project over the facade of Tate Modern in London")
+![](/work/artrules/images/11.jpg "Proyección en la fachada del museo Tate Modern en Londres")

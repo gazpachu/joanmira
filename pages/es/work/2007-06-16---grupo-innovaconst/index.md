@@ -1,16 +1,16 @@
 ---
 title: "Grupo innovaconst"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: "#f5f5f5"
 categories: web flash design webmarket
 template: project
 ---
 
 <p class="align-center">
-<a class="btn external" role="button" href="http://work.joanmira.com/webs/innovaconst" target="_blank">Launch archived website</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/webs/innovaconst" target="_blank">Lanzar web archivada</a>
 </p>
 
 ![](/work/grupo-innovaconst/images/1.png)
 
-Grupo InnovaConst asked us (Webmarket) to create a Flash website to promote their services online. It was a straightforward project without CMS. Just a few pages with animated transitions and eye-catching imagery.
+El Grupo InnovaConst nos pidió (Webmarket) que creáramos una página web en Flash para promocionar sus servicios online. Era un proyecto sencillo, sin CMS. Sólo unas pocas páginas con transiciones animadas e imágenes llamativas.

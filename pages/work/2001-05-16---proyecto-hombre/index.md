@@ -10,7 +10,7 @@ template: project
 <p class="align-center">
 <a class="btn external" role="button" href="http://work.joanmira.com/webs/phombre/" target="_blank">Launch archived template</a></p>
 
-While working at Grupo Odesa, I was asked to build a website for Proyecto Hombre. An organisation supported by the Valencian government to help drug addicts. The whole website was built in Flash, using many animations and vivid colours.
+While working at Grupo Odesa, I was asked to build a website for Proyecto Hombre. An organization supported by the Valencian government to help drug addicts. The whole website was built in Flash, using many animations and vivid colors.
 
 ![](/work/proyecto-hombre/images/1.png)
 

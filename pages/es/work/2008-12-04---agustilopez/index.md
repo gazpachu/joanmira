@@ -1,7 +1,7 @@
 ---
-title: "Agusti Lopez website"
+title: "Página web para Agusti Lopez"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: "#f5f5f5"
 categories: web wordpress design ux webmarket
 template: project
@@ -9,4 +9,4 @@ template: project
 
 ![](/work/agustilopez/images/1.png)
 
-As part of my business relationship with Agustí López, I built a Wordpress website for his blog posts. It's a standard blog with a slightly modified theme.
+Como parte de mi relación comercial con Agustí López, construí un sitio web en WordPress para las publicaciones de su blog. Es un blog estándar con un tema ligeramente modificado.

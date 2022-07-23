@@ -1,13 +1,13 @@
 ---
-title: "B&Q prototype"
+title: "Prototipo para B&Q"
 cover: "images/logo.png"
-location: UK
+location: Reino Unido
 color: "#f60"
 categories: wcrs web prototype inverted
 template: project
 ---
 
-As part of WCRS pitching activities, I was asked to build an iPad prototype with one user journey showcasing the product catalog and product selection based on style, mood and colour.
+Como parte de las actividades de pitching de WCRS, se me pidió que construyera un prototipo de iPad con una experiencia de usuario que mostrara el catálogo de productos y la selección de productos en función del estilo, el estado de ánimo y el color.
 
 ![](/work/bandq/images/1.jpg)
 

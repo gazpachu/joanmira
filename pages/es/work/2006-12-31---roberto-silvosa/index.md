@@ -1,20 +1,20 @@
 ---
 title: "Roberto Silvosa"
 cover: "images/logo.jpg"
-location: Spain
+location: España
 color: white
 categories: web flash animation custom-cms ux design mysql php webmarket
 template: project
 ---
 
 <p class="align-center">
-<a class="btn external" role="button" href="http://work.joanmira.com/webs/robertosilvosa/" target="_blank">Launch archived template</a></p>
+<a class="btn external" role="button" href="http://work.joanmira.com/webs/robertosilvosa/" target="_blank">Lanzar web archivada</a></p>
 
-Roberto Silvosa contacted me to design and build a custom website for his business with an special emphasis on the aesthetics. He also needed to be able to upload new photos of his floral projects.
+Roberto Silvosa se puso en contacto conmigo para diseñar y construir un sitio web personalizado para su negocio con un énfasis especial en la estética. También necesitaba poder subir nuevas fotos de sus proyectos florales.
 
 ![](/work/roberto-silvosa/images/1.png)
 
-The portfolio of works uses a book metaphor to swipe the photos, which are loaded from the custom CMS built for the Flash website. It also has a small product catalog and checkout system to allow customers to order products via email. The products in the catalog and the news are also controlled via CMS.
+El portafolio de trabajos utiliza una metáfora de libro para deslizar las fotos, que se cargan desde el CMS personalizado construido para el sitio web en Flash. También cuenta con un pequeño catálogo de productos y un sistema de pago para que los clientes puedan pedir los productos por correo electrónico. Los productos del catálogo y las noticias también se controlan mediante el CMS.
 
 ![](/work/roberto-silvosa/images/2.png)
 

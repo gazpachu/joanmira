@@ -1,18 +1,18 @@
 ---
 title: "L'ovul"
 cover: "images/logo.jpg"
-location: Spain
+location: España
 color: white
 categories: web flash animation
 template: project
 ---
 
 <p class="align-center">
-<a class="btn external" role="button" href="http://work.joanmira.com/webs/lovul/" target="_blank">Launch archived website</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/webs/lovul/" target="_blank">Lanzar web archivada</a>
 </p>
 
-L'Òvul was a cultural magazine I got involved with. It was made with love by friends in Barcelona. I built this microsite to display the latest issues of the magazine, info and dates of upcoming events and a few artworks.
+L'Òvul fue una revista cultural en la que me involucré. Fue hecha con amor por amigos en Barcelona. Construí este micrositio para mostrar los últimos números de la revista, información y fechas de próximos eventos y algunas obras de arte.
 
-Most of the content is now offline, but you can have a look at the quirky animations ;-)
+La mayor parte del contenido está ahora fuera de línea, pero puedes echar un vistazo a las extravagantes animaciones ;-)
 
 ![](/work/lovul/images/1.png)

@@ -1,7 +1,7 @@
 ---
 title: "Editex desktop apps"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: white
 categories: flash narcea custom-cms desktop
 template: project
@@ -9,11 +9,11 @@ template: project
 
 ![](/work/editex/images/1.png)
 
-This is one of the longest project I ever worked on. It started in 2005 and lasted until 2012 with **more than 30 different CDs** for different high school levels. I basically built an interactive app to generate exams.
+Este es uno de los proyectos más largos en los que he trabajado. Empezó en 2005 y duró hasta 2012 con **más de 30 CDs diferentes** para distintos niveles de secundaria. Construí una aplicación interactiva para generar exámenes.
 
-The app reads questions and answers from an XML and randomises them based on a series of configurations that the teacher sets, like the difficulty, number of questions, units, courses, etc.
+La app lee las preguntas y respuestas de un XML y las aleatoriza en base a una serie de configuraciones que el profesor establece, como la dificultad, el número de preguntas, las unidades, los cursos, etc.
 
-Once the questions were displayed, the teacher could export them into a Word document, HTML page or print them.
+Una vez mostradas las preguntas, el profesor podía exportarlas a un documento de Word, una página HTML o imprimirlas.
 
 ![](/work/editex/images/2.jpg)
 

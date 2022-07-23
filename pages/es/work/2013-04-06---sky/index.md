@@ -1,13 +1,13 @@
 ---
-title: "SKY prototypes"
+title: Prototipos para SKY
 cover: "images/logo.jpg"
-location: UK
+location: Reino Unido
 color: black
 categories: wcrs prototype creative-tech web openframeworks kinect animation inverted
 template: project
 ---
 
-While I was working at WCRS, I got involved in several prototypes and promotional ideas for SKY. One of the prototypes involved R&D with Javascript and CSS to animate the panels of the following design. I built a few responsive demos with reactive and unfolding animations. When the panels were clicked, the new sections would reveal themselves and push the other panels to the border of the screen.
+Mientras trabajaba en WCRS, me involucré en varios prototipos e ideas promocionales para SKY. Uno de los prototipos implicaba I+D con Javascript y CSS para animar los paneles del siguiente diseño. Construí unas cuantas demos responsivas con animaciones reactivas y desplegables. Cuando se hacía clic en los paneles, las nuevas secciones se revelaban y empujaban los otros paneles al borde de la pantalla.
 
 ![](/work/sky/images/1.png)
 
@@ -15,10 +15,10 @@ While I was working at WCRS, I got involved in several prototypes and promotiona
 
 ![](/work/sky/images/3.jpg)
 
-I also built a prototype with folding panels, which uses CSS3 to create the panel shadows dynamically.
+También he construido un prototipo con paneles plegables, que utiliza CSS3 para crear las sombras de los paneles de forma dinámica.
 
 ![](/work/sky/images/4.jpg)
 
-The highlight of these prototyping works was a installation demo I built using OpenFrameworks and Microsoft Kinect to promote the new Disney Channel in Sky. The demo app tracks the hand of the user and translate the movements into Tinkerbell's magic dust, therefore the user can move Tinkerbell with his hands. It uses a particle system, shaders, blur and other graphic techniques to increase the visual appeal.
+El punto culminante de estos trabajos de prototipado fue una instalación que construí usando OpenFrameworks y Microsoft Kinect para promocionar el nuevo Canal Disney en Sky. La aplicación de demostración rastrea la mano del usuario y traduce los movimientos en el polvo mágico de Campanilla, por lo que el usuario puede mover a Campanilla con sus manos. Utiliza un sistema de partículas, shaders, desenfoque y otras técnicas gráficas para aumentar el atractivo visual.
 
 ![](/work/sky/images/5.png)

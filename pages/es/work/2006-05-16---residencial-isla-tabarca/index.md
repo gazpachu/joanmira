@@ -1,7 +1,7 @@
 ---
 title: "Residencial Isla Tabarca"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: "#071931"
 categories: web wordpress inverted
 template: project
@@ -13,7 +13,7 @@ template: project
 
 ![](/work/residencial-isla-tabarca/images/1.png)
 
-I built a couple of websites for Residencial Isla Tabarca in Alicante. The first one was built using PHP-Nuke and the second one using a custom Wordpress theme. It features a forum for the residents, a blog, photo gallery and other widgets and modules.
+Construí un par de sitios web para Residencial Isla Tabarca en Alicante. La primera fue construida usando PHP-Nuke y la segunda utilizó un tema personalizado de WordPress. Cuenta con un foro para los residentes, un blog, una galería de fotos y otros widgets y módulos.
 
 ![](/work/residencial-isla-tabarca/images/2.jpg)
 

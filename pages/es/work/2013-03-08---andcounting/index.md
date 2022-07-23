@@ -1,16 +1,16 @@
 ---
-title: "AndCounting"
+title: AndCounting
 cover: "images/logo.png"
-location: UK
+location: Reino Unido
 color: "#EE6B26"
 categories: mobile open-source
 template: project
 ---
 
 <p class="align-center">
-<a class="btn github" role="button" href="https://github.com/gazpachu/andcounting" target="_blank">Source code</a>
+<a class="btn github" role="button" href="https://github.com/gazpachu/andcounting" target="_blank">Código fuente</a>
 </p>
 
-AndCounting is a collabaration with the entrepreneur and designer Cristina Gaston. The idea was to build an Android app to track multiple projects using stop-watches. The prototype was built using the Cordova platform and allowed the user to start/stop projects, rename them and add new ones to the interface. The report button would send an email with the time logged on each project.
+AndCounting es una colaboración con la empresaria y diseñadora Cristina Gastón. La idea era construir una aplicación para Android que permitiera hacer un seguimiento de múltiples proyectos mediante cronómetros. El prototipo se construyó utilizando la plataforma Cordova y permitía al usuario iniciar/detener proyectos, renombrarlos y añadir otros nuevos a la interfaz. El botón de informe enviaría un correo electrónico con el tiempo registrado en cada proyecto.
 
 ![](/work/andcounting/images/andcounting.jpg)

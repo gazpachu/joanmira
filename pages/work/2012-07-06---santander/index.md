@@ -14,9 +14,9 @@ During my tenure at [WCRS](http://www.wcrs.com), I worked on several projects fo
 * A Facebook competition to win tickets for the Abu Dhabi Formula One race
 * A Facebook competition with Jessica Ennis
 * The iPad mortgage and cashback calculator
-* A Wordpress blog
-* A microsite related with the 123 current account
-* A Facebook competition (toy giveaway) for xmas
+* A WordPress blog
+* A microsite related to the 123 current account
+* A Facebook competition (toy giveaway) for Xmas
 
 ![](/work/santander/images/3.jpg)
 

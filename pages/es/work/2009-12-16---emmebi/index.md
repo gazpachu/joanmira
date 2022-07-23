@@ -9,6 +9,6 @@ template: project
 
 ![](/work/emmebi/images/1.png)
 
-As part of my partnership with Website Profesional, I was hired to build a website for EmmeBi (Macchine Per Legatoria), an italian manufacturer of industrial products.
+As part of my partnership with WebsiteProfesional.com, I was hired to build a website for EmmeBi (Macchine Per Legatoria), an Italian manufacturer of industrial products.
 
-The website was built with Joomla and I customised a template to match the company's brand and their products.
+The website was built with Joomla and I customized a template to match the company's brand and its products.

@@ -7,7 +7,7 @@ categories: wcrs web animation
 template: project
 ---
 
-While working at WCRS, I was asked to build an animated responsive HTML Artemis ad for the iPad. This ad was displayed in the Times and Sunday websites. I used the libraries [spritely](http://spritely.net/) and [transit](http://ricostacruz.com/jquery.transit/) to create the sequence of animated sprites and the CSS3 animations.
+While working at WCRS, I was asked to build an animated responsive HTML Artemis ad for the iPad. This ad was displayed on the Times and Sunday websites. I used the libraries [spritely](http://spritely.net/) and [transit](http://ricostacruz.com/jquery.transit/) to create the sequence of animated sprites and the CSS3 animations.
 
 ![](/work/artemis/images/1.png)
 

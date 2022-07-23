@@ -9,4 +9,4 @@ template: project
 
 ![](/work/famasystems/images/1.png)
 
-As part of my partnership with WebsiteProfesional.com, I built a Joomla website for Fama Systems. It's an standard corporate website with contact form and mostly static pages.
+As part of my partnership with WebsiteProfesional.com, I built a Joomla website for Fama Systems. It's a standard corporate website with a contact form and mostly static pages.

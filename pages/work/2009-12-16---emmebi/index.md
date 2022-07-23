@@ -1,7 +1,7 @@
 ---
-title: "Emmebi website"
+title: "Página web para Emmebi"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: "#7abb51"
 categories: joomla web ux design inverted
 template: project
@@ -9,6 +9,6 @@ template: project
 
 ![](/work/emmebi/images/1.png)
 
-As part of my partnership with Website Profesional, I was hired to build a website for EmmeBi (Macchine Per Legatoria), an italian manufacturer of industrial products.
+Como parte de mi asociación con WebsiteProfesional.com, me contrataron para construir un sitio web para EmmeBi (Macchine Per Legatoria), un fabricante italiano de productos industriales.
 
-The website was built with Joomla and I customised a template to match the company's brand and their products.
+El sitio web se construyó con Joomla y personalicé una plantilla para que coincidiera con la marca de la empresa y sus productos.

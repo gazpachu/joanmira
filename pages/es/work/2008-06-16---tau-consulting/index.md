@@ -1,7 +1,7 @@
 ---
 title: "Tau consulting"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: white
 categories: web joomla webmarket
 template: project
@@ -9,4 +9,4 @@ template: project
 
 ![](/work/tau-consulting/images/1.png)
 
-As part of my business relationship with Agustí López, I built a multi-language Joomla website to showcase the services of Tau Consulting. It features static and dynamic content together with contact and subscribe to news forms.
+Como parte de mi relación comercial con Agustí López, construí un sitio web Joomla multilingüe para mostrar los servicios de Tau Consulting. Cuenta con contenido estático y dinámico junto con formularios de contacto y de suscripción a noticias.

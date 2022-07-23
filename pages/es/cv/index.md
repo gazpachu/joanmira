@@ -49,7 +49,7 @@ title: Curriculum Vitae
 
 ### Sumario
 
-Manager de ingeniería front-end y programador **creativo** con una habilidad especial para crear **aplicaciones centradas en el usuario**, **sitios web usables** y trabajos interactivos. Amplia experiencia en la industria. Desde multinacionales como [British Telecom](https://www.bt.com/), [Vodafone](https://www.vodafone.com/), [Unilever](https://www.unilever.com/ ), [Royal Opera House](https://www.roh.org.uk/), [Barclays](https://www.barclays.com/), [Santander](https://www.santander.co.uk/) y [M&S](https://www.marksandspencer.com/) hasta nuevas empresas tecnológicas como [TableCheck](http://www.tablecheck.com/en/join/).
+Manager de ingeniería front-end y programador **creativo** con una habilidad especial para crear **aplicaciones centradas en el usuario**, **sitios web usables** y trabajos interactivos. Amplia experiencia en la industria. Desde instituciones de arte como la [Royal Opera House](https://www.roh.org.uk/) o el [Instituto de Arte Contemporáneo](https://ica.art) en Londres a organizaciones educativas como el [Grupo Santillana](https://santillana.com) a multinacionales como [British Telecom](https://www.bt.com/), [Vodafone](https://www.vodafone.com/), [Unilever](https://www.unilever.com/ ), [Santander](https://www.santander.co.uk/) y [M&S](https://www.marksandspencer.com/) hasta nuevas empresas tecnológicas como [TableCheck](http://www.tablecheck.com/en/join/) en Tokio.
 
 * Ingeniería de front-end. **20 años de experiencia** utilizando las últimas tecnologías y metodologías de trabajo
 * Mentalidad estratégica y **creativa**. Capacidad para analizar la situación global y generar constantemente nuevas ideas para productos y servicios rentables

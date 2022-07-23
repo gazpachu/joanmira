@@ -1,7 +1,7 @@
 ---
 title: "Mediamarkt"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: white
 categories: web customer
 template: project
@@ -9,4 +9,4 @@ template: project
 
 ![](/work/mediamarkt/images/1.png)
 
-The Mediamarkt shop in Tarragona asked to build a landing page to find people interested to work in the shop.
+La tienda Mediamarkt de Tarragona nos pidió que construyéramos una página de aterrizaje para encontrar personas interesadas en trabajar en la tienda.

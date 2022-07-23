@@ -1,21 +1,21 @@
 ---
 title: "No Surrender"
 cover: "images/logo.jpg"
-location: Spain
+location: España
 color: "#ab0616"
 categories: web mysql php web flash custom-cms ux design webmarket inverted
 template: project
 ---
 
 <p class="align-center">
-<a class="btn external" role="button" href="http://work.joanmira.com/webs/nosurrender/" target="_blank">Launch archived website without DB</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/webs/nosurrender/" target="_blank">Lanzar web archivada</a>
 </p>
 
-No Surrender contacted me to build an online shop to sell their products. They wanted a very personal style combined with great UX and an easy payment method.
+No Surrender se puso en contacto conmigo para crear una tienda online para vender sus productos. Querían un estilo muy personal combinado con una gran UX y un método de pago fácil.
 
 ![](/work/nosurrender/images/1.png)
 
-I used TIENDAFlash, the software that I previously created for another customer that required a Flash online shop. TIENDAFlash is a Flash + PHP + MySQL solution that allows the maximum flexibility in the front-end and a very compatible and extended tech stack for the backend. It also features a custom CMS to add/edit/remove products, categories, photos and customers. I also implemented a credit/debit card payment gateway using the API from ServiRed (a very popular banking network in Spain).
+Utilicé TIENDAFlash, el software que había creado anteriormente para otro cliente que necesitaba una tienda online en Flash. TIENDAFlash es una solución Flash + PHP + MySQL que permite la máxima flexibilidad en el front-end y una pila tecnológica muy compatible y extendida para el backend. También cuenta con un CMS personalizado para añadir/editar/eliminar productos, categorías, fotos y clientes. También implementé una pasarela de pago con tarjeta de crédito/débito utilizando la API de ServiRed (una red bancaria muy popular en España).
 
 ![](/work/nosurrender/images/2.jpg)
 

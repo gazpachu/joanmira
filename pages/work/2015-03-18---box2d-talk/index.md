@@ -1,5 +1,5 @@
 ---
-title: "Box2d talks"
+title: Box2d talks
 cover: "images/logo.png"
 location: UK
 color: "#FFF"

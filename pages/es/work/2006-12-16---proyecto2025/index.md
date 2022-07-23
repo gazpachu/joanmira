@@ -1,24 +1,24 @@
 ---
 title: "Proyecto 2025"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: white
 categories: web flash animation custom-cms ux design mysql php webmarket
 template: project
 ---
 
 <p class="align-center">
-<a class="btn external" role="button" href="http://work.joanmira.com/webs/proyecto2025/" target="_blank">Launch archived template without DB</a></p>
+<a class="btn external" role="button" href="http://work.joanmira.com/webs/proyecto2025/" target="_blank">Lanzar web archivada</a></p>
 
-Proyecto2025 contacted us (Webmarket) to build a website to feature their real state properties and allow customers to search them. They also wanted a flexible system to edit, add or remove properties easily.
+Proyecto2025 se puso en contacto con nosotros (Webmarket) para construir un sitio web que mostrara sus propiedades inmobiliarias y permitiera a los clientes buscarlas. También querían un sistema flexible para editar, añadir o eliminar propiedades fácilmente.
 
-![](/work/proyecto2025/images/1.png)
+![](/trabajo/proyecto2025/images/1.png)
 
-At this point, I didn't have a system or CMS with this sort of functionality. The open source options available at that time were also very insufficient for the requirements, so I decided to build my own bespoke solution. I called it INMOFlash, because it was based in Flash, PHP and MySQL.
+En este punto, no tenía un sistema o CMS con este tipo de funcionalidad. Las opciones de código abierto disponibles en ese momento también eran muy insuficientes para los requisitos, así que decidí construir mi solución a medida. La llamé INMOFlash, porque estaba basada en Flash, PHP y MySQL.
 
-![](/work/proyecto2025/images/2.png)
+![](/trabajo/proyecto2025/images/2.png)
 
-The combination of using Flash for the UI and MySQL and PHP for the backend was a winning solution in terms of creativity and UX. Years after, I realised that Flash was not the best option for SEO, therefore this solution didn't have a very long future, but at the time, it was quite impressive and flexible.
+La combinación de utilizar Flash para la interfaz de usuario y MySQL y PHP para el backend fue una solución ganadora en términos de creatividad y UX. Años después, me di cuenta de que Flash no era la mejor opción para el SEO, por lo que esta solución no tenía un futuro muy largo, pero en aquel momento, era bastante impresionante y flexible.
 
 ![](/work/proyecto2025/images/3.jpg)
 

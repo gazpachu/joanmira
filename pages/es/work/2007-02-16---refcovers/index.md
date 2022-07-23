@@ -1,16 +1,16 @@
 ---
 title: "RefCovers"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: white
 categories: web flash animation custom-cms ux design mysql php webmarket
 template: project
 ---
 
 <p class="align-center">
-<a class="btn external" role="button" href="http://work.joanmira.com/webs/refcovers/" target="_blank">Launch archived template</a></p>
+<a class="btn external" role="button" href="http://work.joanmira.com/webs/refcovers/" target="_blank">Lanzar web archivada</a></p>
 
-The RefCovers company based in Alicante, Spain, contacted us (Webmarket) to build an interactive website to feature their products. They also required a custom CMS to upload pictures of the projects.
+La empresa RefCovers con sede en Alicante, España, se puso en contacto con nosotros (Webmarket) para construir un sitio web interactivo para presentar sus productos. También necesitaban un CMS personalizado para subir fotos de los proyectos.
 
 ![](/work/refcovers/images/1.png)
 

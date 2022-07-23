@@ -1,7 +1,7 @@
 ---
 title: "MK Creativo"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: white
 categories: web wordpress design ux customer
 template: project
@@ -9,4 +9,4 @@ template: project
 
 ![](/work/mk-creativo/images/1.png)
 
-Iván Martínez Masó, the owner of MK Creativo, asked me to build a Wordpress website with a custom template. It features standard static pages with modules to subscribe to a newsletters or contact.
+Iván Martínez Masó, propietario de MK Creativo, me pidió que le construyera una web en WordPress con una plantilla a medida. Cuenta con páginas estáticas estándar con módulos para suscribirse a un boletín de noticias o contacto.

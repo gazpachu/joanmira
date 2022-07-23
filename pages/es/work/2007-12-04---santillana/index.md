@@ -1,7 +1,7 @@
 ---
-title: "Santillana desktop app"
+title: "Apps de escritorio para Santillana"
 cover: "images/logo.jpg"
-location: Spain
+location: España
 color: white
 categories: narcea flash animation desktop
 template: project
@@ -9,11 +9,11 @@ template: project
 
 ![](/work/santillana/images/0.png)
 
-As part of my business relationship with Narcea Multimedia, I built several interactive CDs for [Santillana](http://www.santillana.es/), a well known book publisher specialised in educational materials.
+Como parte de mi relación comercial con Narcea Multimedia, construí varios CDs interactivos para el [Grupo Santillana](https://santillana.com), una conocida editorial de libros especializada en materiales educativos.
 
-This project was big, with many different interactive pieces, animations, games, narrations, scorm integration and other accessibility aids.
+Este proyecto era grande, con muchas piezas interactivas diferentes, animaciones, juegos, narraciones, integración de scorm y otras ayudas de accesibilidad.
 
-The range of created apps go from the human body, hygiene, alimentation to games, prevention of accidents, hydrotherapy, music-therapy, animals and plants, etc.
+La gama de aplicaciones creadas va desde el cuerpo humano, la higiene y la alimentación hasta los juegos, la prevención de accidentes, la hidroterapia, la musicoterapia, los animales y las plantas, etc.
 
 ![](/work/santillana/images/1.jpg)
 

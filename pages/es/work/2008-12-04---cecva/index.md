@@ -1,7 +1,7 @@
 ---
-title: "CECVA website"
+title: "Página web para CECVA"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: white
 categories: web joomla customer
 template: project
@@ -13,4 +13,4 @@ template: project
 
 ![](/work/cecva/images/1.png)
 
-I built a couple of Joomla websites for CECVA. The last one includes a video player with playlist and many different static pages and dynamic content.
+Construí un par de sitios web de Joomla para CECVA. El último incluye un reproductor de vídeo con una lista de reproducción y muchas páginas estáticas diferentes y contenido dinámico.

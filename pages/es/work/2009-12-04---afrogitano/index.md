@@ -1,7 +1,7 @@
 ---
-title: "Afrogitano website"
+title: "Página web para Afrogitano"
 cover: "images/logo.jpg"
-location: Spain
+location: España
 color: black
 categories: web joomla design ux inverted
 template: project
@@ -9,4 +9,4 @@ template: project
 
 ![](/work/afrogitano/images/1.png)
 
-As part of my partnership with WebsiteProfesional.com, I built a Joomla website for AfroGitano. It's an standard corporate website with contact form, login, video players and mostly static pages.
+Como parte de mi asociación con WebsiteProfesional.com, construí un sitio web Joomla para AfroGitano. Es un sitio web corporativo estándar con un formulario de contacto, inicio de sesión, reproductores de vídeo y páginas en su mayoría estáticas.

@@ -1,21 +1,21 @@
 ---
 title: "Villas termales"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: "#F6F9F8"
 categories: web flash animation custom-cms mysql php narcea
 template: project
 ---
 
 <p class="align-center">
-<a class="btn external" role="button" href="http://work.joanmira.com/webs/villastermales/" target="_blank">Launch archived template</a>
+<a class="btn external" role="button" href="http://work.joanmira.com/webs/villastermales/" target="_blank">Lanzar app archivada/a>
 </p>
 
-This project was a collaboration with Narcea Multimedia. I was hired to develop a Flash interface driven by a MySQL database to display information about the villas termales in Spain. I work with a graphic designer from Narcea to complete the project. This project was also related with the [Ministry of Industry](http://www.minetur.gob.es/) in Spain and [FEMP](http://www.femp.es/).
+Este proyecto fue una colaboración con Narcea Multimedia. Me contrataron para desarrollar una interfaz de Flash impulsada por una base de datos MySQL para mostrar información sobre las villas termales de España. Trabajé con un diseñador gráfico de Narcea para completar el proyecto. Este proyecto también estaba relacionado con el [Ministerio de Industria](http://www.minetur.gob.es/) en España y la [FEMP](http://www.femp.es/).
 
-![](/work/villas-termales/images/1.png)
+![](/trabajo/villas-termales/images/1.png)
 
-The web app included an advanced search feature to allow the users find the right villa termal. It also included downloadable Google Earth and GPS coordinates, image gallery and other data related with the villas which was stored in XML format.
+La aplicación web incluía una función de búsqueda avanzada para que los usuarios pudieran encontrar la villa termal adecuada. También incluía coordenadas descargables de Google Earth y GPS, una galería de imágenes y otros datos relacionados con las villas que se almacenaban en formato XML.
 
 ![](/work/villas-termales/images/2.jpg)
 

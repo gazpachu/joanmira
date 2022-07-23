@@ -1,7 +1,7 @@
 ---
 title: "Logeddie"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: "#f5f5f5"
 categories: web joomla webprof
 template: project
@@ -9,4 +9,4 @@ template: project
 
 ![](/work/logeddie/images/1.png)
 
-As part of my partnership with WebsiteProfesional, I built a Joomla website for Logeddie, a logistic and transport company. It features standard corporate pages.
+Como parte de mi asociación con WebsiteProfesional.com, construí un sitio web Joomla para Logeddie, una empresa de logística y transporte. Cuenta con páginas corporativas estándar.

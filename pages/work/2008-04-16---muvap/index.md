@@ -13,4 +13,4 @@ template: project
 
 ![](/work/muvap/images/1.png)
 
-As part of my business relationship with Narcea Multimedia, I helped them with some ActionScript related tasks in their project for the ministry of education in Spain and Instituto Cervantes.
+As part of my business relationship with Narcea Multimedia, I helped them with some ActionScript-related tasks in their project for the ministry of education in Spain and Instituto Cervantes.

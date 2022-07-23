@@ -1,7 +1,7 @@
 ---
 title: "Viveros Murcia"
 cover: "images/logo.jpg"
-location: Spain
+location: España
 color: white
 categories: prototypes design animation web prototype flash webmarket
 template: project
@@ -11,7 +11,7 @@ template: project
 <a class="btn external" role="button" href="http://work.joanmira.com/webs/viverosmurcia/" target="_blank">Launch archived template</a>
 </p>
 
-This is a pure HTML, CSS, JS and Flash template for a small website. It includes a custom logo design with animated typography.
+Esta es una plantilla de HTML, CSS, JS y Flash pura para un sitio web pequeño. Incluye un diseño de logotipo personalizado con tipografía animada.
 
 ![](/work/viveros-murcia/images/1.png)
 

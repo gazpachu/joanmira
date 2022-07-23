@@ -49,7 +49,7 @@ title: Curriculum Vitae
 
 ### Summary
 
-A **creative** Front-end Engineering Manager and individual contributor with a knack for building **user-centered apps**, **usable websites** and interactive pieces. Extensive industry experience. From corporations like [British Telecom](https://www.bt.com/), [Vodafone](https://www.vodafone.com/), [Unilever](https://www.unilever.com/), [Royal Opera House](https://www.roh.org.uk/), [Barclays](https://www.barclays.com/), [Santander](https://www.santander.co.uk/) and [M&S](https://www.marksandspencer.com/) to tech start-ups like [TableCheck](http://www.tablecheck.com/en/join/).
+A **creative** Front-end Engineering Manager and individual contributor with a knack for building **user-centered apps**, **usable websites** and interactive pieces. Extensive industry experience. From art institutions like [Royal Opera House](https://www.roh.org.uk/) or the [Institute of Contemporary Art](https://ica.art) in London to educational organizations like [Grupo Santillana](https://santillana.com/en) in Madrid to corporations like [British Telecom](https://www.bt.com/), [Vodafone](https://www.vodafone.com/), [Unilever](https://www.unilever.com/), [Santander](https://www.santander.co.uk/) and [M&S](https://www.marksandspencer.com/) to tech start-ups like [TableCheck](http://www.tablecheck.com/en/join/) in Tokyo.
 
 * Front-end engineering. **20 years of experience** using the latest technologies and workflows
 * Strategic and **creative mindset**. Ability to see the big picture and constantly generate new ideas for profitable products and services

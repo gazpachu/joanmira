@@ -1,7 +1,7 @@
 ---
 title: "Germán Linares"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: "#292929"
 categories: web wordpress inverted
 template: project
@@ -9,4 +9,4 @@ template: project
 
 ![](/work/german-linares/images/1.png)
 
-During my travels around Asia, I met Germán, a Colombian photographer with a special love for India and Korea. We met in Fukuoka, Japan and we exchanged travel experiences while drinking some Japanese tea. A few months later, I decided to build a Wordpress website for him with a photo gallery for his work.
+Durante mis viajes por Asia, conocí a Germán, un fotógrafo colombiano con un amor especial por la India y Corea. Nos conocimos en Fukuoka, Japón, e intercambiamos experiencias de viaje mientras tomábamos un té japonés. Unos meses más tarde, decidí construir un sitio web de WordPress para él con una galería de fotos para su trabajo.

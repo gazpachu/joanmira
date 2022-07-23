@@ -1,7 +1,7 @@
 ---
-title: "Fama Systems website"
+title: "Página web para Fama Systems"
 cover: "images/logo.jpg"
-location: Spain
+location: España
 color: "#32679d"
 categories: web joomla inverted
 template: project
@@ -9,4 +9,4 @@ template: project
 
 ![](/work/famasystems/images/1.png)
 
-As part of my partnership with WebsiteProfesional.com, I built a Joomla website for Fama Systems. It's an standard corporate website with contact form and mostly static pages.
+Como parte de mi asociación con WebsiteProfesional.com, construí un sitio web Joomla para Fama Systems. Es un sitio web corporativo estándar con un formulario de contacto y páginas principalmente estáticas.

@@ -1,22 +1,22 @@
 ---
-title: "Momardi website"
+title: "Web para Momardi"
 cover: "images/logo.jpg"
-location: UK
+location: Reino Unido
 color: "#399dca"
 categories: web ux design wordpress ghostjs gatsbyjs inverted open-source
 template: project
 ---
 
 <p class="align-center">
-<a class="btn external" role="button" href="http://momardi.com" target="_blank">Launch website</a>
-<a class="btn external" role="button" href="http://momardi-wp.herokuapp.com/" target="_blank">Launch archived v1 website</a>
+<a class="btn external" role="button" href="http://momardi.com" target="_blank">Lanzar página web</a>
+<a class="btn external" role="button" href="http://momardi-wp.herokuapp.com/" target="_blank">Lanzar página web antigua</a>
 </p>
 
 ![](/work/momardi/images/1.png)
 
-I built Momardi.com initially with a custom template for Wordpress, but after a couple of years, we moved it into the Ghost platform and built another custom theme. And then, after a few more years, I moved to a GatsbyJS platform.
+Inicialmente construí Momardi.com con una plantilla personalizada para WordPress, pero después de un par de años, lo trasladamos a la plataforma Ghost y construimos otro tema personalizado.
 
-Momardi is the personal website of Tuesday Gutierrez. It showcases art exhibits in galleries / museums and also features articles about new artists.
+Momardi es el sitio web personal de Tuesday Gutierrez. Muestra exposiciones de arte en galerías/museos y también presenta artículos sobre nuevos artistas.
 
 ![](/work/momardi/images/3.jpg)
 

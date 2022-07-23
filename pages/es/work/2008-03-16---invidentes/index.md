@@ -1,7 +1,7 @@
 ---
 title: "Invidentes"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: "#444"
 categories: web joomla webmarket inverted
 template: project
@@ -9,4 +9,4 @@ template: project
 
 ![](/work/invidentes/images/1.png)
 
-As part of my friendship with the people behind invidentes.org, I helped to setup a Joomla website with basic information about their project and a hosting for their app.
+Como parte de mi amistad con la gente detrás de invidentes.org, ayudé a crear un sitio web de Joomla con información básica sobre su proyecto y alojamiento para su aplicación.

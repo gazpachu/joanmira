@@ -14,9 +14,9 @@ template: project
 
 ![](/work/momardi/images/1.png)
 
-I built Momardi.com initially with a custom template for Wordpress, but after a couple of years, we moved it into the Ghost platform and built another custom theme. And then, after a few more years, I moved to a GatsbyJS platform.
+I built Momardi.com initially with a custom template for WordPress, but after a couple of years, we moved it into the Ghost platform and built another custom theme. And then, after a few more years, I moved to a GatsbyJS platform.
 
-Momardi is the personal website of Tuesday Gutierrez. It showcases art exhibits in galleries / museums and also features articles about new artists.
+Momardi is the personal website of Tuesday Gutierrez. It showcases art exhibits in galleries/museums and also features articles about new artists.
 
 ![](/work/momardi/images/3.jpg)
 

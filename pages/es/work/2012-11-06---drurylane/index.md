@@ -1,7 +1,7 @@
 ---
-title: "Drury Lane website"
+title: "Web para Drury Lane"
 cover: "images/logo.jpg"
-location: UK
+location: Reino Unido
 color: white
 categories: wcrs web wordpress
 template: project
@@ -9,6 +9,6 @@ template: project
 
 ![](/work/drurylane/images/1.png)
 
-This is a small Wordpress project with a completely custom template and HTML5 video support that I built with [Silvia Rebelo](http://www.silviarebelo.com/) while working at [WCRS](http://www.wcrs.com).
+Este es un pequeño proyecto de WordPress con una plantilla completamente personalizada y soporte de vídeo HTML5 que construí con [Silvia Rebelo](http://www.silviarebelo.com/) mientras trabajaba en [WCRS](http://www.wcrs.com).
 
 ![](/work/drurylane/images/2.jpg)

@@ -1,7 +1,7 @@
 ---
-title: "Santander microsites, blog and apps"
+title: "Santander"
 cover: "images/logo.jpg"
-location: UK
+location: Reino Unido
 color: "#fe0000"
 categories: wcrs web wordpress facebook inverted
 template: project
@@ -9,14 +9,14 @@ template: project
 
 ![](/work/santander/images/1.png)
 
-During my tenure at [WCRS](http://www.wcrs.com), I worked on several projects for [Santander](https://www.santander.co.uk):
+Durante mi estancia en [WCRS](http://www.wcrs.com), trabajé en varios proyectos para [Santander](https://www.santander.co.uk):
 
-* A Facebook competition to win tickets for the Abu Dhabi Formula One race
-* A Facebook competition with Jessica Ennis
-* The iPad mortgage and cashback calculator
-* A Wordpress blog
-* A microsite related with the 123 current account
-* A Facebook competition (toy giveaway) for xmas
+* Un concurso en Facebook para ganar entradas para la carrera de Fórmula 1 de Abu Dhabi
+* Un concurso en Facebook con Jessica Ennis
+* La calculadora de hipotecas y reembolsos para iPad
+* Un blog de WordPress
+* Un micrositio relacionado con la cuenta corriente 123
+* Un concurso en Facebook (sorteo de juguetes) para Navidad
 
 ![](/work/santander/images/3.jpg)
 

@@ -1,13 +1,13 @@
 ---
-title: "Kittitian prototype"
+title: "Prototipo para Kittitian"
 cover: "images/logo.jpg"
-location: UK
+location: Reino Unido
 color: "#f17d28"
 categories: wcrs web prototype masonry
 template: project
 ---
 
-As part of WCRS pitching activities, I was asked to build a responsive HTML5 prototype with a dynamically driven masonry type layout.
+Como parte de las actividades de pitching de WCRS, se me pidió que construyera un prototipo HTML5 responsivo con un diseño de tipo mampostería dinámico.
 
 ![](/work/kittitian/images/1.png)
 

@@ -1,7 +1,7 @@
 ---
 title: "Mi primer atlas"
 cover: "images/logo.png"
-location: Spain
+location: España
 color: white
 categories: flash animation ibcmass desktop
 template: project
@@ -9,7 +9,7 @@ template: project
 
 ![](/work/mi-primer-atlas/images/1.png)
 
-As part of my partnership with [IBCMass](http://www.ibcmass.com/), I built an interactive Flash educational app for kids. All the user interface is custom made, with many interactive elements, puzzles and games, most of them using the drag&drop metaphor.
+Como parte de mi colaboración con [IBCMass](http://www.ibcmass.com/), he creado una aplicación educativa interactiva en Flash para niños. Toda la interfaz de usuario está hecha a medida, con muchos elementos interactivos, rompecabezas y juegos, la mayoría de ellos utilizando la acción de arrastrar y soltar.
 
 ![](/work/mi-primer-atlas/images/2.jpg)
 

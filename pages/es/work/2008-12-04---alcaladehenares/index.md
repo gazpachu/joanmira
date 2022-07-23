@@ -1,7 +1,7 @@
 ---
-title: "Alcala de Henares desktop app"
+title: "App de escritorio para Alcala de Henares"
 cover: "images/logo.jpg"
-location: Spain
+location: España
 color: white
 categories: flash animation ibcmass desktop
 template: project
@@ -9,7 +9,7 @@ template: project
 
 ![](/work/alcaladehenares/images/1.png)
 
-As part of my business relationship with IBCMass, I built an interactive educational Flash app, featuring original illustrations, interactions, sounds, narrations, games, etc.
+Como parte de mi relación comercial con IBCMass, construí una aplicación educativa interactiva en Flash, con ilustraciones originales, interacciones, sonidos, narraciones, juegos, etc.
 
 ![](/work/alcaladehenares/images/2.jpg)
 

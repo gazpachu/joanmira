@@ -1,38 +1,38 @@
 ---
-title: "Xmas Gift installation"
+title: "Instalación Regalo de Navidad"
 cover: "images/logo.png"
-location: UK
+location: Reino Unido
 color: "#F7E68E"
 categories: wcrs prototype design kinect openni openframeworks creative-tech inverted open-source
 template: project
 ---
 
 <p class="align-center">
-<a class="btn github" role="button" href="https://github.com/gazpachu/xmas-gift" target="_blank">Source code</a>
+<a class="btn github" role="button" href="https://github.com/gazpachu/xmas-gift" target="_blank">Código fuente</a>
 </p>
 
 <iframe width="100%" height="550" src="https://www.youtube.com/embed/4uDsONxNdDg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## The idea
+## La idea
 
-The aim of this project is to create a little game for Xmas 2012. The app will create the illusion of a frozen window (with the blur effect) that needs to be wiped off moving the hand in circles. To make it more fun there will be lots of snowflakes that will react to the movement of the hand.
+El objetivo de este proyecto fué crear un pequeño juego para la Navidad de 2012. La idea era mostrar la ilusión de una ventana congelada (con el efecto de desenfoque) que necesita ser limpiada moviendo la mano en círculos. Para hacerlo más divertido, había muchos copos de nieve que reaccionaban al movimiento de la mano.
 
-In order to make the blur disappear, the user has to move the hands only in circles. Soon after a few seconds the blur will disappear and the background image will be revealed. The image can be easily changed and maybe we can even play a video.
+Para hacer desaparecer la nieve de la pantalla, el usuario tenía que mover las manos sólo en círculos. Al cabo de unos segundos, el desenfoque desaparecía y se mostraba la imagen de fondo. La imagen podía cambiarse fácilmente e incluso se podía reproducir un vídeo en lugar de una imagen.
 
-To compensate the user for playing the game, several QR codes (with a link to a gift) will show up and the user will be able to scan them with their Smartphone/tablet. We can extend the game by telling the user to go to the URL to complete another task...
+Para compensar al usuario por jugar, aparecian varios códigos QR (con un enlace a un regalo) y el usuario podía escanearlos con su Smartphone/tableta. El juego también podía ser ampliado diciéndole al usuario que vaya a la URL para completar otra tarea...
 
-It was all built with OpenFrameworks, Kinect and OpenNI.
+Todo fué construído con OpenFrameworks, Kinect y OpenNI.
 
-## Requirements and improvements
+## Requisitos y mejoras
 
-- It has to be installed in the ground floor beside a window.
-- It can use a powerful projector or a big flat screen. The projector can maximize the visual experience and use the glass of the window as the surface where the app will be showed.
-- Further investigation needs to be done regarding the Kinect tracking threshold, Kinect calibration, and limit the maximum number of skeletons/hands to one.
-- Needs to be tested in the final location in an early stage, not just a couple of days before start
+- Tiene que ser instalado en la planta baja (con accesso para los transeuntes) al lado de una ventana.
+- Puede utilizar un potente proyector o una gran pantalla plana. El proyector puede maximizar la experiencia visual y utilizar el cristal de la ventana como superficie donde se mostrará la aplicación (projection mapping)
+- Es necesario investigar más sobre el umbral de seguimiento de Kinect, y la calibración de Kinect, y limitar el número máximo de esqueletos/manos a uno.
+- Necesita ser probado en la ubicación final en una etapa temprana, no sólo un par de días antes del inicio
 
-## Instructions
+## Instrucciones
 
-- Press “space bar” to start again or recalibrate the hand tracking
+- Pulsa la "barra espaciadora" para empezar de nuevo o recalibrar el seguimiento de la mano
 
 ![](/work/xmas-gift/images/1.jpg "Initial screen. Snowflakes are moving a little bit randomly")
 
