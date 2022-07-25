@@ -346,7 +346,7 @@ persom = {};
 console.log(persom);
 ```
 
-If we put "use strict"; at the beginning, it will throw an error because we are forced to declare a variable in order to use it.
+If we put "use strict"; in the beginning, it will throw an error because we are forced to declare a variable in order to use it.
 
 For more info, check [the strict mode reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode).
 
@@ -371,7 +371,7 @@ To achieve that, we only have to 'return this;' in the methods we are calling.
 * We are going to call it 'Greetr', an app to greet users
 * When given a first name, last name and optional languages, it generates formal and informal greetings
 * Support English and Spanish languages
-Reusable library/framework
+* Reusable library/framework
 * Easy to type 'G$()' structure
 * Support jQuery
 

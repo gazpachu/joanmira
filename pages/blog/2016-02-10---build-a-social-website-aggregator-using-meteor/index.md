@@ -8,7 +8,7 @@ category: work
 
 <a class="btn github" role="button" href="https://github.com/gazpachu/siteace" target="_blank">Source code</a>
 
-This tutorial is the result of my final assignment for the [Introduction to Meteor.js Development [course](https://www.coursera.org/learn/meteor-development/) by Dr. Matthew Yee-King ([University of London & Goldsmiths](http://www.gold.ac.uk/)) at Coursera. This course is part of a [Responsive Website Development [and Design ](https://www.coursera.org/specializations/website-development)specialization that covers the basics of modern full-stack web development, from UX design to front-end coding, to custom databases.
+This tutorial is the result of my final assignment for the [Introduction to Meteor.js Development course](https://www.coursera.org/learn/meteor-development/) by Dr. Matthew Yee-King ([University of London & Goldsmiths](http://www.gold.ac.uk/)) at Coursera. This course is part of a [Responsive Website Development and Design](https://www.coursera.org/specializations/website-development) specialization that covers the basics of modern full-stack web development, from UX design to front-end coding, to custom databases.
 
 In that course, I learned how to create a complete, multi-user website using the Meteor.js framework and MongoDB. It's divided into four weeks and has a couple of assignments and several quizzes. All and all, it was a very good introduction to the framework and I hope this tutorial will show everything I learned.
 
@@ -76,15 +76,15 @@ So, let's go ahead and create those folders in our app.
 
 Now rename siteace.js to main.js, siteace.css to style.css, siteace.html to index.html and place them inside the client folder.
 
-Then we are going to create a file called collections.js and place it in the lib folder. That file will hold the definition of the Mongo collections for our DB.
+Then we are going to create a file called `collections.js` and place it in the lib folder. That file will hold the definition of the Mongo collections for our DB.
 
-Finally, create a file called startup.js and place it in the server folder. We will use this file to initialize the DB with some dummy data when the app starts.
+Finally, create a file called `startup.js` and place it in the server folder. We will use this file to initialize the DB with some dummy data when the app starts.
 
 Once we run meteor again in the console, it will take care of the minification of the files
 
 ### Part 3. Routing and defining the markup and templates
 
-Meteor uses [Blaze](https://www.meteor.com/blaze) and [Spacebars](https://github.com/meteor/meteor/blob/devel/packages/spacebars/README.md) (a modified version of Handlebars) to produce reactive Meteor templates when compiled. Wait a minute... **reactive**? Yes, Meteor does update the interface automatically whenever there's a change in the data-bound to that UI. At this point you might be thinking: is that like [Facebook's React](https://facebook.github.io/react/)? In a way yes. Should I use React instead? Probably yes, but that's a topic you might want to read more about [here](https://www.discovermeteor.com/blog/blaze-react-meteor/).
+Meteor uses [Blaze](https://www.meteor.com/blaze) and [Spacebars](https://github.com/meteor/meteor/blob/devel/packages/spacebars/README.md) (a modified version of Handlebars) to produce reactive Meteor templates when compiled. Wait a minute... **reactive**? Yes, Meteor does update the interface automatically whenever there's a change in the data bound to that UI. At this point you might be thinking: is that like [Facebook's React](https://facebook.github.io/react/)? In a way yes. Should I use React instead? Probably yes, but that's a topic you might want to read more about [here](https://www.discovermeteor.com/blog/blaze-react-meteor/).
 
 For the sake of simplicity, we are going to stick with Meteor's default front-end tools: Blaze and Spacebars.
 
@@ -108,7 +108,7 @@ Now we are going to define the application layout (the main placeholders) and th
         {{> yield "form"}}
         {{> yield "main"}}
     </div>
-<;/template>
+</template>
 
 <!-- template that displays the header with the nav bar -->
 <template name="navbar">
@@ -123,7 +123,7 @@ Now we are going to define the application layout (the main placeholders) and th
 </template>
 ```
 
-Now we are also adding three more templates, website\_form, website\_list and website\_item. The first one will render a form to allow the user to submit new URLs to the app. The second one will render a list of websites already in the DB and the third one is a partial to render an individual list item in the list of websites:
+Now we are also adding three more templates, website_form, website_list and website_item. The first one will render a form to allow the user to submit new URLs to the app. The second one will render a list of websites already in the DB and the third one is a partial to render an individual list item in the list of websites:
 
 ```html
 <template name="website_form">
@@ -352,7 +352,7 @@ Meteor.methods({
 
 The GZIP option is to decompress the data in case the server returns it compressed.
 
-No we have to call that method from the front-end when the user submits the form. Open main.js and in the same function we were working in the previous part, add the following event to capture the form submit:
+Now we have to call that method from the front-end when the user submits the form. Open main.js and in the same function we were working on in the previous part, add the following event to capture the form submit:
 
 ```javascript
     "submit .js-save-website-form":function(event){
@@ -452,7 +452,7 @@ Then, in index.html add a placeholder for the date and the votes right after the
 <p class="website-meta">{{formattedDate}} | <span class="js-votes-up">{{up}}</span>↑, <span class="js-votes-down">{{down}}</span>↓</p>
 ```
 
-We also have to initialise the up and down fields for each website entry in the DB. Open startup.js and refactor the initial items like this. Do it as well in the form submit event in main.js!:
+We also have to initialize the up and down fields for each website entry in the DB. Open startup.js and refactor the initial items like this. Do it as well in the form submit event in main.js!:
 
 ```javascript
 Websites.insert({
@@ -551,7 +551,7 @@ Now let's create the new template in index.html:
 
 ### Part 13. Adding comments to the detail page
 
-First we are going to create a new Mongo collection in collections.js:
+First, we are going to create a new Mongo collection in collections.js:
 
 `Comments = new Mongo.Collection("comments");`
 

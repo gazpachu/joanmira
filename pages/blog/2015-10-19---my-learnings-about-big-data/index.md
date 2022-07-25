@@ -61,7 +61,7 @@ I will keep posting notes here while doing the course, so don't expect a very or
 - Past and present. Before: white-coat PhD expensive tools. Now: data scientist open source tools
 - Who are data scientists? Need to understand statistics, machine learning, databases, data mining, how to query, order, visualisation,...
 - Communication skills. Understand the domain.
-- Ask the right questions that will bring the value to the business
+- Ask the right questions that will bring value to the business
 - Intellectual curiosity, intuition, communication and engagement, presentational skills, creativity, and business savvy. Interact with business analysts.
 - Data preparation, understanding, modelling
 - Need to code, create equations

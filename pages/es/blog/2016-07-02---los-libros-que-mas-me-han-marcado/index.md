@@ -1,17 +1,16 @@
 ---
 title: Libros especiales para mí
 description: Algunos libros que quiero compartir porque me han resultado enriquecedores de alguna forma
-cover: images/bookshelf.jpg
+cover: /blog/books-that-have-had-the-greatest-impact-on-me/images/bookshelf.jpg
 template: post
 category: literature
-lang: es
 ---
 
 Aunque no haya leído todo lo que me habría gustado (algo que quiero poner remedio), soy un gran defensor de la literatura. Es sin lugar a dudas el mejor medio para aprender (en general) **de forma profunda** sobre muchos temas. Los grandes pensadores, artistas e intelectuales son todos amantes de los libros. ¿Eso tiene que significar algo, verdad?
 
 ¿No te has parado a pensar nunca, el grandísimo trabajo que hay detrás de un libro? A veces es el trabajo de toda una vida el que acaba condensado en un libro. De forma que, cuando lo leemos, estamos adquiriendo (de forma resumida) el conocimiento de la persona que lo escribió. Esa es la grandeza de los libros. Es como cuando en la película Matrix, a Neo le enchufaban la cabeza a un cable y le empezaban a cargar programas de artes marciales...
 
-![](/blog/los-libros-que-mas-me-han-marcado/images/kungfu-matrix.jpg)
+![](/blog/books-that-have-had-the-greatest-impact-on-me/images/kungfu-matrix.jpg)
 
 Durante mi vida, he ido leyendo diferentes tipos de libros. Cuando era pequeño, solía leer novelas y libros de ciencia ficción. Luego empecé a interesarme por la psicología, los libros de auto-ayuda, filosofía y religión. Luego me pico el gusanillo con los libros de viajes y de arte. Actualmente, los libros que más leo son los relacionados con mi trabajo. Cosas de programación, tecnología, ciencia y algo relacionado con los emprendedores y los negocios.
 
@@ -23,7 +22,7 @@ A continuación, he preparado una pequeña lista de libros que han sido especial
 
 <iframe src="https://rcm-eu.amazon-adsystem.com/e/cm?lt1=_blank&bc1=FFFFFF&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=gazpachu06-21&o=30&p=8&l=as1&m=amazon&f=ifr&ref=tf_til&asins=B00CSJYYO4" style="float:right;width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
 
-**El alquimista** (Paolo Coelho) y **El monje que vendió su Ferrari** (Robin Sharma): estos dos libros que leí en el verano de 2007 fueron el caldo de cultivo de la [ruta samurai](http://joanmira.com/samurai-route). Fueron una gran inspiración para mi y me ayudaron a visualizar la forma en la que debía prepararme para aquel gran viaje. El alquimista también me inspiró a realizar un viaje a lo mochilero por Marruecos, donde sucedieron multitud de aventuras.
+**El alquimista** (Paolo Coelho) y **El monje que vendió su Ferrari** (Robin Sharma): estos dos libros que leí en el verano de 2007 fueron el caldo de cultivo de la [ruta samurai](/samurai-route). Fueron una gran inspiración para mi y me ayudaron a visualizar la forma en la que debía prepararme para aquel gran viaje. El alquimista también me inspiró a realizar un viaje a lo mochilero por Marruecos, donde sucedieron multitud de aventuras.
 
 **En el filo de la navaja** (William Somerset Maugham): este libro lo leí en mis viajes de metro cuando vivía solo en París. En cierto modo, amplificó ese sentimiento de aventura que estaba sintiendo al vivir por primera vez en un país distinto.
 

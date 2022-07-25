@@ -31,11 +31,11 @@ It's a pity to let go of something that you think you can be competent with, but
 
 Perhaps the most respectable aspect of people who claim to be full-stack, is that it conveys ambition and determination. The ideal developer should be willing to have a go at learning new things, but also acknowledge when they need help from a specialist in the team.
 
-After all, smaller companies and startups still NEED full-stack developers. Developers are often forced to acquire new skills when the resources simply aren't available. The problem for companies desperate to hire these guys is that the real multi-skilled developers are quite hard to find.
+After all, smaller companies and startups still need full-stack developers. Developers are often forced to acquire new skills when the resources simply aren't available. The problem for companies desperate to hire these guys is that the real multi-skilled developers are quite hard to find.
 
 On the other hand, for complex projects, it is critical to have at least one person with at least a functional understanding of each of the composite parts who is also capable of connecting various tiers and working with each expert so that a feature can be delivered. In a way, these tier-connecting, bridge-building software architects (who are likely experts in only one or a couple of tiers) are less full-stack developers and much more full-stack integrators.
 
-If you want to have a go (maybe with a side project), one of the most popular full-stack frameworks is MEAN.
+If you want to have a go (maybe with a side project), one of the most popular full-stack frameworks is [MEAN](https://en.wikipedia.org/wiki/MEAN).
 
 ![](/blog/full-stack-developers/images/mean-stack.png)
 *Image from [Bacancy Technology](http://www.bacancytechnology.com/mean-js-full-stack-development-solution/)*

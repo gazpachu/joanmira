@@ -1,7 +1,7 @@
 ---
-title: "Javascript: understanding the weird parts [Part 1]"
-description: My learnings reviewing JavaScript concepts on the Udemy educational site
-cover: images/javascript-bg.jpg
+title: "Javascript: entendiendo las partes raras [Parte 1]"
+description: Mis aprendizajes repasando conceptos de JavaScript en el sitio educativo Udemy
+cover: /blog/javascript-understanding-the-weird-parts/images/javascript-bg.jpg
 template: post
 category: work
 ---
@@ -10,9 +10,9 @@ Looking back and analyzing how web technologies have evolved in the latest few y
 
 So, for this new year 2016, I decided to focus on polishing my Javascript and become a **JavaScript Samurai / Master of the Universe**, HA, HA, HA! (evil laugh).
 
-I purchased three courses on [Udemy](https://www.udemy.com) and the one I'm going to be talking about in this article is called "[Javascript: understanding the weird parts](https://www.udemy.com/understand-javascript/)". If you want to take it, you can try with the voucher code NEWYOU015 and see if it gives you the course for £13, otherwise, I would suggest writing an email to support asking them to give you a new one ;-) The course has been written by Anthony Alicea and currently has **more than 32.700 students**.
+I purchased three courses on [Udemy](https://www.udemy.com) and the one I'm going to be talking about in this article is called "[Javascript: understanding the weird parts](https://www.udemy.com/understand-javascript/)". If you want to take it, you can try with the voucher code NEWYOU015 and see if it gives you the course for £13, otherwise, I would suggest writing an email to support asking them to give you a new one. The course has been written by Anthony Alicea and currently has **more than 32.700 students**.
 
-I think I know JavaScript quite well, but it's always good to refresh the concepts, the vocabulary and of course, learn the new ES 6 stuff! So, if you want to join me in this journey,  I will be posting all my learnings on the blog, so feel free to read along and share your thoughts.
+I think I know JavaScript quite well, but it's always good to refresh the concepts, the vocabulary and of course, learn the new ES6 stuff! So, if you want to join me in this journey,  I will be posting all my learnings on the blog, so feel free to read along and share your thoughts.
 
 ### Javascript: understanding the weird parts [Part 1]
 
@@ -802,4 +802,4 @@ So, play with Underscore, learn how it's done and try to build those utilities b
 
 This is the end of the first part of the course. I hope you enjoyed it and apologies if some of the lectures are not very clear. These are just notes I'm taking while watching the videos. If there's anything that needs a better explanation, feel free to comment and I will improve it.
 
-The next lectures will be about object-oriented javascript and prototypal inheritance. Stay tuned! ;-)
+The next lectures will be about object-oriented javascript and prototypal inheritance. Stay tuned!
