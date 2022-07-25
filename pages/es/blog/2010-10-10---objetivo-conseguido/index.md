@@ -1,10 +1,9 @@
 ---
 title: Objetivo conseguido
 description: Finalmente, conseguimos llegar a Sendai en Japón y completar la ruta del samurái!
-cover: images/we_made_it_lo8yit.jpg
+cover: /blog/target-achieved/images/we_made_it_lo8yit.jpg
 template: post
 category: samurai-route
-lang: es
 ---
 
 Más vale informar tarde que nunca… hace un mes y pico, exactamente el 3 de septiembre de 2010 llegamos a Sendai y entregamos los regalos del ayuntamiento de Coria del Río a la directora del centro de relaciones internacionales de Sendai. Queremos dar las gracias también a la Sociedad Hispánica de Sendai por el recibimiento que nos dieron y en especial a Tae Matsuki por su excepcional amabilidad y el esfuerzo que hizo para hacer que nuestra visita a Sendai fuera un regalo inolvidable.

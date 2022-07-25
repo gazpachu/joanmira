@@ -1,21 +1,20 @@
 ---
-title: Cartas a patrocinadores
-description: Toda colaboración que se pueda conseguir será bienvenida y gratamente valorada
+title: Letters to sponsors
+description: Any collaboration that can be achieved will be welcome and greatly appreciated
 cover: images/patrocinadores2_oy2mez.jpg
 template: post
 category: samurai-route
-lang: es
 ---
 
-Durante los últimos seis días, hemos estado enviando cartas a empresas e instituciones que pensamos pudieran estar interesadas en participar en este proyecto. En total hemos enviado más de veinte, a empresas como: Rukka, TCX, IXS, Decathlon, Altus, Arai, GoPro, Canon, Panasonic, Sony, Hepco & Becker, La Caixa, Metzeler, Öhlins, Starcom1, The North Face, Oxford, Touratech, Ubricar Motos, Wunderlinch y Yamaha. También hemos enviado al ayuntamiento de Coria del Río.
+During the last six days, we have been sending letters to companies and institutions that we think might be interested in participating in this project. In total, we have sent more than twenty, to companies such as Rukka, TCX, IXS, Decathlon, Altus, Arai, GoPro, Canon, Panasonic, Sony, Hepco & Becker, La Caixa, Metzeler, Öhlins, Starcom1, The North Face, Oxford, Touratech, Ubricar Motos, Wunderlich and Yamaha. We have also sent it to the city council of Coria del Rio.
 
-Lo hemos hecho de la mejor forma posible:
+We have done it in the best possible way:
 
-– con una propuesta personalizada para cada patrocinador
-– imprimiendo los sobres
-– adjuntando un imán de la Ruta Samurái
-– adjuntando una tarjeta de visita de la Ruta Samurái
+- with a personalized proposal for each sponsor
+- printing the envelopes
+- enclosing a magnet of the Samurai Route
+- enclosing a Samurai Route business card.
 
-No hemos enviado una camiseta porque aún no están listas, pero si aceptan colaborar con nosotros, se la enviaremos seguro!
+We have not sent a T-shirt because they are not ready yet, but if you agree to collaborate with us, we will send it to you for sure!
 
-![patrocinadores1](/blog/cartas-a-patrocinadores/images/patrocinadores1_d0wxwi.jpg)
+![sponsors1](/blog/letters-to-sponsors/images/sponsors1_d0wxwi.jpg)

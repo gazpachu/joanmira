@@ -1,10 +1,9 @@
 ---
 title: Nuevos temas de Webmarket para iGoogle
 description: Dos nuevas opciones visuales para los usuarios del popular lector de noticias
-cover: images/igoogle_e94ehy.jpg
+cover: /blog/new-webmarket-themes-for-igoogle/images/igoogle_e94ehy.jpg
 template: post
 category: work
-lang: es
 ---
 
 Voila!, Google nos ha publicado los dos temas que hemos creado para su plataforma [iGoogle](http://es.wikipedia.org/wiki/IGoogle). El primero se llama “[*Positive Vibes*](http://www.google.es/ig/directory?hl=es&gl=es&type=themes&url=webmarketigoogle.googlecode.com/svn/trunk/theme2.xml)” y representa un planeta que emana energía con mis dos colores favoritos (el verde amarillento y el violeta). El segundo se llama “[*Colorful Beat*](http://www.google.es/ig/directory?hl=es&gl=es&type=themes&url=webmarketigoogle.googlecode.com/svn/trunk/theme.xml)” y representa una onda de colores vivos. Ya se pueden usar! :-)

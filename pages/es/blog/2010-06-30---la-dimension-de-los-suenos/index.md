@@ -1,10 +1,9 @@
 ---
 title: La dimensión de los sueños
 description: Algunas observaciones sobre cómo va el viaje cuando llevamos ya casi un mes en marcha
-cover: images/finlandia_vhxvby.jpg
+cover: /blog/the-dimension-of-dreams/images/finlandia_vhxvby.jpg
 template: post
 category: samurai-route
-lang: es
 ---
 
 Esta entrada se la debo a los Foo Fighters. Si no es por ellos, no me habría puesto de humor para escribir algo.

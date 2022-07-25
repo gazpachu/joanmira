@@ -40,9 +40,9 @@ Luckily or not, there are several companies with products that promise to solve 
 
 **What are the challenges for both, native and non-native apps?**
 
-Programming mobile apps is harder than building desktop or web apps. The platform is very new and is getting more and more fragmented, which doesn’t help developers.
+Programming mobile apps are harder than building desktop or web apps. The platform is very new and is getting more and more fragmented, which doesn’t help developers.
 
-For example, [Android has hundreds of different devices](http://en.wikipedia.org/wiki/Comparison_of_Android_devices) in the market. Some of them have a 3.4’’ screen, others 7’’ or 10’’. Some of them run Android 2.1 and others run Android 4.3. Some of them have 3G, GPS and a 300dpi (dots per inch/pixel density), HD Ready or Full HD screen. The possible combinations are intimidating and the truth is that every single user expects that your app will work flawlessly on his device.
+For example, [Android has hundreds of different devices](https://en.wikipedia.org/wiki/List_of_Android_smartphones) in the market. Some of them have a 3.4’’ screen, others 7’’ or 10’’. Some of them run Android 2.1 and others run Android 4.3. Some of them have 3G, GPS and a 300dpi (dots per inch/pixel density), HD Ready or Full HD screen. The possible combinations are intimidating and the truth is that every single user expects that your app will work flawlessly on his device.
 
 **Some important aspects to bear in mind are:**
 

@@ -1,10 +1,9 @@
 ---
-title: Películas sobre Mongolia que tienes que ver!
-description: Para los curiosos que aún no conocen la cultura de este remoto - País
-cover: images/puujee_JPG_osaico.jpg
+title: Películas sobre Mongolia que tienes que ver
+description: Para los curiosos que aún no conocen la cultura de este remoto país
+cover: /blog/movies-about-mongolia-that-you-must-see/images/puujee_JPG_osaico.jpg
 template: post
 category: samurai-route
-lang: es
 shouldDisableAudio: true
 ---
 
@@ -18,8 +17,8 @@ shouldDisableAudio: true
 - Guion: Wang Quan’an, Lu Wei
 - Fotografía: Lutz Reitemeier
 - Reparto: Yu Nan, Ba Te Er, Sen Ge, Peng Hongxiang
-- Productora: Xi ‘an Motion-Picture
-- Web oficial: <a href="http://www.golem.es/labodadetuya/">www.golem.es/labodadetuya</a>
+- Productora: Xi‘an Motion-Picture
+- Web oficial: [www.golem.es/labodadetuya](http://www.golem.es/labodadetuya)
 - Premios: 2007, Berlín, Oso de Oro a la mejor película
 - Sinopsis: En la Mongolia más rural y profunda, Tuya (Yu Nan) es una joven mujer que lucha por cambiar su destino, intentando sacar adelante a su marido, tullido, sus dos hijos y su reb- Año de ovejas. La presión que ejerce el Gobierno para que los pastores mongoles abandonen su tradicional vida nómada es cada vez mayor. Tuya es guapa, fuerte y testaruda. Cuida de sus animales y su familia en Mongolia Interior. Rehúsa abandonar sus pastos pero el esfuerzo prolongado le pasa factura y cae enferma. La única solución es divorciarse de Bater, su marido, y volver a casarse para poder seguir adelante. No son pocos los pretendientes, pero ninguno quiere aceptar la condición que Tuya impone. No busca a alguien rico, apuesto o inteligente. Solo pide que cuide de sus hijos y, sobre todo, de su marido Bater…
 
@@ -81,7 +80,7 @@ shouldDisableAudio: true
 - Fotografía: Rogier Stoffers, Sergei Trofimov
 - Reparto: Tadanobu Asano, Aliya, Tegen Ao, Ying Bai,...
 - Productora: Co-producción Kazajstán-Rusia-Alemania-Mongolia
-- Web oficial: <a href="http://www.mongolmovie.com">www.mongolmovie.com/</a>
+- Web oficial: [www.mongolmovie.com](http://www.mongolmovie.com)
 - Premios: 2008, National Board of Review, Mejor película de habla no inglesa. 2007, nominada al Oscar a la mejor película de habla no inglesa
 - Sinopsis: Narra la vida del legendario y tembile Genghis Khan desde su esclavitud hasta que conquistó la mitad del mundo, incluyendo Rusia en 1206. Una superproducción de corte épico que fue seleccionada por Kazajstán como candidata al Oscar a la mejor película de habla no inglesa.
 
@@ -127,7 +126,7 @@ shouldDisableAudio: true
 - Fotografía: Kim Sung-tae
 - Reparto: Bakchul, Bat-Ulzii, Osor Bat-Ulzii, Bayasgalan, Shin Dong-ho
 - Productora: Coproducción Corea del Sur-Francia
-- Web oficial: <a href="http://www.solaris-distribution.com/desertdream.htm">www.solaris-distribution.com</a>
+- Web oficial: [www.solaris-distribution.com](http://www.solaris-distribution.com/desertdream.htm)
 - Sinopsis: Una pequeña ciudad en una región desértica, no lejos de la frontera entre Mongolia y China. Extr- Años son los habitantes que viven todavía allí, entre los que hay un granjero, un soldado o una mujer que huyó de Corea del Norte. La mayor parte de ellos han dejado la ciudad tras haber luchado en vano, durante - Años, contra el desierto que gana cada vez más terreno. Los pocos autóctonos que subsisten, lo hacen plantando arbustos en una tierra cada vez más árida, bajo la dirección de su jefe, Hangai.
 
 
@@ -142,7 +141,7 @@ shouldDisableAudio: true
 - Reparto: Nyam Dagyrantz, Banzar Damchaa, Baatar Galsansukh,...
 - Productora: Inti Films with Balthazar Film, Magic Hour Films,...
 - Premios: 18 - Premios incluyendo: “Grand Prix”, Visions du Réel, Nyon,...
-- Sinopsis: Es una mezcla asombrosa de viaje personal y comentario social. Hermosa e inquietante, la película está estructurada por los recuerdos de Basaar, un perro vagabundo muerto por un cazador en Ulan Bator. Los mongoles creen que los perros se reencarnan en seres humanos, pero Basaar se resiste a aceptar este destino. Historia Basaar está entrelazado con el mito de Mongolia y la poesía contemporánea, teniendo en la textura de una fábula poética. <a href="http://video.google.com/videoplay?docid=-2155333397414514793">Ver la película en Google Videos</a>
+- Sinopsis: Es una mezcla asombrosa de viaje personal y comentario social. Hermosa e inquietante, la película está estructurada por los recuerdos de Basaar, un perro vagabundo muerto por un cazador en Ulan Bator. Los mongoles creen que los perros se reencarnan en seres humanos, pero Basaar se resiste a aceptar este destino. Historia Basaar está entrelazado con el mito de Mongolia y la poesía contemporánea, teniendo en la textura de una fábula poética. [Ver la película en Google Videos](http://video.google.com/videoplay?docid=-2155333397414514793)
 
 
 ### Genghis Khan: To the Ends of the Earth and Sea
@@ -170,7 +169,7 @@ shouldDisableAudio: true
 - Fotografía: Jonathan Bland
 - Reparto: Documentary, Oral Esemgul, Kairatkan Sernedan, Kuma Uliksat
 - Productora: BULKFilms
-- Web oficial: <a href="http://www.kiranovermongolia.com/">www.kiranovermongolia.com</a>
+- Web oficial: [www.kiranovermongolia.com](http://www.kiranovermongolia.com)
 - Sinopsis: Kuma, un joven hombre Kazak, reconstruye los pasos de su abuelo que fue un ex capitán adiestrador de águilas en una remota región mont- Añosa. Allí, en el extremo occidental de Mongolia, cumple su sueño de capturar y adiestrar por si mismo su propia águila. Bajo la tutela de un maestro adiestrador local llamado Khairatkhan, Kuma aprende no sólo las formas de caza de águilas, sino también las costumbres de su propio pueblo. Los kazajos de Mongolia se han aislado de la civilización occidental por 70 - Años tras la “Cortina de Hierro” del comunismo soviético. Irónicamente, su cultura esta mucho mejor conservada que incluso la de los kazajos de la República de Kazajstán. El objetivo de ‘Kiran sobre Mongolia’ es crear un documento sobre la cultura Kazak de Mongolia, ahora que el - País se ha abierto al mundo desde la caída del comunismo.
 
 
@@ -184,7 +183,7 @@ shouldDisableAudio: true
 - Guion: Ulrike Ottinger
 - Música: Andreas Mücke
 - Productora: Ulrike Ottinger Filmproduction, Berlin,...
-- Web oficial: <a href="http://www.ulrikeottinger.com/index.php/732.html">www.ulrikeottinger.com/</a>
+- Web oficial: [www.ulrikeottinger.com](http://www.ulrikeottinger.com/index.php/732.html)
 - Sinopsis: Un viaje al yak y renos nómadas de la tierra del norte de los mongoles.
 
 
@@ -197,7 +196,7 @@ shouldDisableAudio: true
 - Director: Ulrike Ottinger
 - Guion: Ulrike Ottinger
 - Intérpretes: Peter Kern, Irm Hermann, Christoph Eichhorn, Ines Sastre,...
-- Web oficial: <a href="http://www.ulrikeottinger.com/index.php/745.html">www.ulrikeottinger.com</a>
+- Web oficial: [www.ulrikeottinger.com](http://www.ulrikeottinger.com/index.php/745.html)
 - Sinopsis: La aventura épica de Ulrike Ottinger narra el encuentro fantástico entre dos mundos diferentes. Siete viajeras occidentales se encuentran a bordo del suntuoso y meticulosamente reconstruido Transiberiano Exprés, un museo sobre ruedas de la cultura europea. Entonces sufren una emboscada por parte de unas jinetes mongolas, y las pasajeras son llevadas a las llanuras de la Mongolia interior, en una fantástica travesía en camello a través de espléndidos paisajes. El cine de Ottinger nos muestra con habilidad las impresionantes vistas, las opulentas costumbres de la Princesa Ulun Iga y su séquito, y los rituales de la vida mongola. Versión femenina del Lawrence de Arabia, y de un romanticismo tan radical como ésta, Johanna d?Arc of Mongolia nos embarca en un viaje inolvidable, plagado de aventuras.
 
 
@@ -268,7 +267,7 @@ shouldDisableAudio: true
 - País: EEUU
 - Director: Christopher McKee
 - Intérpretes: Altangerel, Sukhbaatar
-- Web: <a href="http://mujaan.com/">www.mujaan.com</a>
+- Web: [www.mujaan.com](http://mujaan.com)
 - Sinopsis: En las lejanas estepas de Mongolia, utilizando herramientas simples, la fuerza y el ingenio, un nómada construye una casa de la forma que lo hacian sus antepasados durante los últimos mil - Años. Mujaan (El Artesano) es una ventana viva a una forma de desaparecer de la vida en uno de los rincones más remotos del mundo.
 
 

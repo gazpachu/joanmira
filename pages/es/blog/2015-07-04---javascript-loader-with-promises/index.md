@@ -1,14 +1,14 @@
 ---
-title: Javascript loader with promises
-description: An interesting technique to load external JavaScript files dynamically
-cover: images/load-script.jpg
+title: Cargador Javascript con promises
+description: Una interesante técnica para cargar dinámicamente archivos JavaScript externos
+cover: /blog/javascript-loader-with-promises/images/load-script.jpg
 template: post
 category: work
 ---
 
-A few days ago, while refactoring this website, I came across [an interesting technique](http://liamnewmarch.co.uk/promises/) to load JS scripts using promises. My objective was to load the home page game scripts only on desktop devices (to minimize the loading impact on mobiles).
+Hace unos días, mientras refactorizaba este sitio web, me encontré con [una técnica interesante](http://liamnewmarch.co.uk/promises/) para cargar scripts JS usando promesas. Mi objetivo era cargar los scripts del juego de la página principal sólo en los dispositivos de escritorio (para minimizar el impacto de la carga en los móviles).
 
-The device detection part can be done like this:
+La parte de detección de dispositivos se puede hacer así:
 
 ```javascript
 isMobile: function() {
@@ -19,7 +19,7 @@ isMobile: function() {
 }
 ```
 
-While the script loading can be done in a sequence or all at once using the following script:
+Mientras que la carga del script se puede hacer en una secuencia o todo a la vez utilizando el siguiente script:
 
 ```javascript
 promises: [],
@@ -51,7 +51,7 @@ loadScript: function(url, parallel) {
 }
 ```
 
-And this is how I would load the scripts:
+Y así es como cargaría los scripts:
 
 ```javascript
 JM_MODULES.utils.loadScript('//cdn.jsdelivr.net/phaser/2.2.2/phaser.min.js', false).then(function() {

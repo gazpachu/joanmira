@@ -1,10 +1,9 @@
 ---
 title: El día de la marmota versión rusa
 description: La despedida de Rusia se complica un poco, pero nos lo tomamos con paciencia y todo el buen humor que sea posible
-cover: images/vladivostok_port_wmjfgt.jpg
+cover: /blog/groundhog-day-russian-version/images/vladivostok_port_wmjfgt.jpg
 template: post
 category: samurai-route
-lang: es
 ---
 
 Hace más de un mes que no me digno a escribir algo con un poco de sustancia literaria y además me voy a evitar contar todas las patéticas excusas que me vienen a la cabeza.

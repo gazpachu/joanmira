@@ -1,10 +1,9 @@
 ---
 title: Enlaces a webs de viajeros y amigos
 description: El mundo está lleno de aventureros y de gente que sueña con descubrir nuevos mundos más allá de las fronteras
-cover: images/travellers.jpg
+cover: /blog/links-to-webs-of-travelers-and-friends/images/travellers.jpg
 template: post
 category: samurai-route
-lang: es
 ---
 
 ### En dos ruedas por el mundo

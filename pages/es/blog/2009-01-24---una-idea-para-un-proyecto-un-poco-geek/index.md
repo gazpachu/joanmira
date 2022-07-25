@@ -1,10 +1,9 @@
 ---
 title: Una idea para un proyecto un poco geek
 description: La casa informatizada. Un dashboard con información del tiempo y tareas en el espejo de la entrada
-cover: images/11214203_1_ryjakm.jpg
+cover: /blog/one-idea-for-a-project-a-little-geek/images/11214203_1_ryjakm.jpg
 template: post
 category: work
-lang: es
 ---
 
 Estos días estoy pensando en un proyecto que me haría bastante ilusión conseguir que funcionara bien. La idea sería poner una pantalla LCD de 20-30 pulgadas empotrada, “embebida” :), incrustada en la pared de la entrada de una vivienda. Para hacer que quede mejor, le pondríamos un marco y así quedaría como un cuadro v2.0.

@@ -1,11 +1,12 @@
 ---
 title: Entrando en Rusia
 description: Un comienzo bastante duro en Rusia. La burocracia y las leyes no escritas hacen acto de presencia
-cover: images/IMG_2610-_odlju0.jpg
+cover: /blog/entering-russia/images/IMG_2610-_odlju0.jpg
 template: post
 category: samurai-route
-lang: es
 ---
+
+Por Vicente Malpica
 
 4 de julio, 5:00 am, en el hotel de San Petersburgo
 

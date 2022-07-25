@@ -1,13 +1,12 @@
 ---
 title: Razones por las que me gusta Japón
 description: La cultura japonesa es increiblemente rica y única en el mundo
-cover: images/grand-gate-itsukushima-shrine-miyajima-japan_a5nm12.jpg
+cover: /blog/reasons-why-i-like-japan/images/grand-gate-itsukushima-shrine-miyajima-japan_a5nm12.jpg
 template: post
 category: japan
-lang: es
 ---
 
-Muchas veces la gente me pregunta por qué me gusta Japón y la verdad es que nunca me había parado a pensar en todas las razones, por eso voy a escribirlo ahora para tenerlo presente y darle forma a algo que empieza a ser importante en mi vida…</span>
+Muchas veces la gente me pregunta por qué me gusta Japón y la verdad es que nunca me había parado a pensar en todas las razones, por eso voy a escribirlo ahora para tenerlo presente y darle forma a algo que empieza a ser importante en mi vida...
 
 **1º Por su fantástica creatividad:** El manga/anime, sus magníficas películas de cine, el diseño gráfico (el de colores vivos y el minimalista), la cerámica, el arte floral, la arquitectura, el diseño de interiores, la tecnología, la robótica, electrónica, videojuegos, automóviles y trenes bala.
 

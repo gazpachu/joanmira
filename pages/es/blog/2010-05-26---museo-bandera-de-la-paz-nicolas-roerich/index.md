@@ -1,10 +1,9 @@
 ---
 title: Museo Bandera de la Paz Nicolás Roerich
 description: Un gran aliado y benefactor de la ruta del samurái
-cover: images/jesucristo_u7y7qq.jpg
+cover: /blog/museum-flag-of-peace-nicolas-roerich/images/jesucristo_u7y7qq.jpg
 template: post
 category: samurai-route
-lang: es
 ---
 
 > Donde hay Paz, hay Cultura; Donde hay Cultura, hay Paz. - Nicolás Roerich (1874-1947)

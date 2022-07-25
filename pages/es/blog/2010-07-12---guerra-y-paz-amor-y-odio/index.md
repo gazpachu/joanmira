@@ -1,10 +1,9 @@
 ---
 title: Guerra y Paz. Amor y odio
 description: Curiosidades y experiencias en la primera etapa del viaje por Rusia
-cover: images/moto_caida_yxyqu6.jpg
+cover: /blog/war-and-peace-love-and-hate/images/moto_caida_yxyqu6.jpg
 template: post
 category: samurai-route
-lang: es
 ---
 
 13 de julio de 2010. 2:06 am, en un hotel de Yekaterinburg, Rusia

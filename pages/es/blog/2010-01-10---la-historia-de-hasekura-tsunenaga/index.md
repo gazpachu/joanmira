@@ -1,10 +1,9 @@
 ---
 title: La Historia de Hasekura Tsunenaga
 description: El primer oficial japonés en establecer relaciones comerciales entre Japón y Europa
-cover: images/242px-Hasekura_in_Rome_c7sytj.jpg
+cover: /blog/the-story-of-hasekura-tsunenaga/images/242px-Hasekura_in_Rome_c7sytj.jpg
 template: post
 category: samurai-route
-lang: es
 ---
 
 ### ¿Quien fue Hasekura Tsunenaga?
@@ -29,7 +28,7 @@ El embajador japonés, Hasekura, fue bautizado el 17 de febrero por personal de 
 
 ### La simbiosis con España
 
-![coria_rio](/blog/la-historia-de-hasekura-tsunenaga/images/coria-del-rio.jpg "Paseo Carlos de Mesa de Coria del Río junto al río Guadalquivir - ABC")
+![coria_rio](/blog/the-story-of-hasekura-tsunenaga/images/coria-del-rio.jpg "Paseo Carlos de Mesa de Coria del Río junto al río Guadalquivir - ABC")
 
 En la actualidad existen muchos ciudadanos en la ciudad de Coria del Rio, que no solo poseen el adoptado apellido “Japón” como herencia transmitida de esos primeros japoneses que decidieron quedarse en la localidad, sino que no resulta difícil adivinar en ellos/as ciertas facciones que corroboran su descendencia japonesa.
 

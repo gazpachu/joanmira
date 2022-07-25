@@ -1,10 +1,9 @@
 ---
 title: 1001 pelis para ver antes de morir
 description: Una referencia a tener en cuenta para los amantes del cine
-cover: images/pelis_touhm1.jpg
+cover: /blog/1001-movies-to-watch-before-you-die/images/pelis_touhm1.jpg
 template: post
 category: film
-lang: es
 shouldDisableAudio: true
 ---
 
@@ -24,7 +23,7 @@ Si no tienes mucho tiempo libre, quizás te interese ver la lista de [las 25 pel
 - 1919 – [Das kabinett des Doktor Caligari](http://www.imdb.com/title/tt0010323/) – El gabinete del Doctor Caligari – Robert Wiene
 - 1919 – [Broken Blossoms](http://www.imdb.com/title/tt0009968/) – Lirios rotos/La culpa ajena – D. W. Griffith
 
-### De 1920 a - 1930
+### De 1920 a 1930
 
 - 1920 – [Way down east](http://www.imdb.com/title/tt0011841/) – Las dos tormentas – D. W. Griffith
 - 1920 – [Within our gates](http://www.imdb.com/title/tt0011870/) – Puertas adentro – Oscar Micheaux
@@ -59,14 +58,14 @@ Si no tienes mucho tiempo libre, quizás te interese ver la lista de [las 25 pel
 - 1928 – [The Crowd](http://www.imdb.com/title/tt0018806/) – Y el mundo marcha… – King Vidor
 - 1928 – [The Docks Of New York](http://www.imdb.com/title/tt0018839/) – Los muelles de Nueva York – Josef von Sternberg
 - 1928 – [Un chien andalou](http://www.imdb.com/title/tt0020530/) – Un perro andaluz – Luis Buñuel
-- 1928 – [La Passion de Jeanne D’Arc](http://www.imdb.com/title/tt00- 19254/) – La Pasión de Juana – Carl Theodor Dreyer
-- 1928 – [Steamboat Bill, Jr.](http://www.imdb.com/title/tt00- 19421/) – El héroe del río – Charles Reisner Keaton
-- 1928 – [Potomok Chingos-Khana](http://www.imdb.com/title/tt00- 19286/) – Tempestad sobre Asia – Vsevolod Pudovkin
+- 1928 – [La Passion de Jeanne D’Arc](http://www.imdb.com/title/tt0019254/) – La Pasión de Juana – Carl Theodor Dreyer
+- 1928 – [Steamboat Bill, Jr.](http://www.imdb.com/title/tt00-19421/) – El héroe del río – Charles Reisner Keaton
+- 1928 – [Potomok Chingos-Khana](http://www.imdb.com/title/tt0019286/) – Tempestad sobre Asia – Vsevolod Pudovkin
 - 1929 – [Blackmail](http://www.imdb.com/title/tt0019702/) – La muchacha de Londres – Alfred Hitchcock
 - 1929 – [Čelovjek s Kinoapparatom](http://www.imdb.com/title/tt0019760/) – El hombre de la cámara – Dziga Vertov (Дзига Вертов)
 - 1929 – [Die Büchse der Pandora](http://www.imdb.com/title/tt0018737/) – La caja de Pandora (Lulú) – Georg Wilhelm Pabst
 
-### De - 1930 a - 1940
+### De 1930 a 1940
 
 - 1930 – [Der Blaue Engel](http://www.imdb.com/title/tt0020697/) – El Ángel Azul – Josef von Sternberg
 - 1930 – [L’age d’or](http://www.imdb.com/title/tt0021577/) – La edad de Oro – Luis Buñuel
@@ -94,7 +93,7 @@ Si no tienes mucho tiempo libre, quizás te interese ver la lista de [las 25 pel
 - 1933 – [Zero de conduite](http://www.imdb.com/title/tt0024803/) – Cero en conducta – Jean Vigo
 - 1933 – [42nd Street](http://www.imdb.com/title/tt0024034/) – La calle 42 – Lloyd Bacon
 - 1933 – [Footlight Parade](http://www.imdb.com/title/tt0024028/) – Desfile de candilejas – Lloyd Bacon
-- 1933 – [Gold diggers of - 1933](http://www.imdb.com/title/tt0024069/) – Vampiresas de - 1933 – Mervin Le Roy
+- 1933 – [Gold diggers of 1933](http://www.imdb.com/title/tt0024069/) – Vampiresas de 1933 – Mervin Le Roy
 - 1933 – [Born to Be Bad](http://www.imdb.com/title/tt0024906/) – Nacida para ser mala – Lowell Sherman
 - 1933 – [Duck soap](http://www.imdb.com/title/tt0023969/) – Sopa de ganso – Leo McCarey [los hermanos Marx]
 - 1933 – [Queen Christina](http://www.imdb.com/title/tt0024481/) – La reina Cristina de Suecia – Rouben Mamoulian
@@ -156,7 +155,7 @@ Si no tienes mucho tiempo libre, quizás te interese ver la lista de [las 25 pel
 - 1939 – [His girl friday](http://www.imdb.com/title/tt0032599/) – Luna nueva – Howard Hawks
 - 1939 – [Rebecca](http://www.imdb.com/title/tt0032976/) – Rebeca – Alfred Hitchckock
 
-### De - 1940 a - 1950
+### De 1940 a 1950
 
 - 1940 – [Fantasia](http://www.imdb.com/title/tt0032455/) – Fantasía – Disney
 - 1940 – [The Philadelphia Story](http://www.imdb.com/title/tt0032904/) – Historias de Filadelfia – George Cukor
@@ -245,11 +244,11 @@ Si no tienes mucho tiempo libre, quizás te interese ver la lista de [las 25 pel
 - 1949 – [Whiski galore!](http://www.imdb.com/title/tt0042040/) – Alexander Mackendrick
 - 1949 – [White heat](http://www.imdb.com/title/tt0042041/) – Al rojo vivo – Raoul Walsh
 - 1949 – [The reckless moment](http://www.imdb.com/title/tt0041786/) – Almas desnudas – Max Ophüls
-- 1949 – [The third man](http://www.imdb.com/title/tt004- 1959/) – El tercer hombre – Carol Reed
+- 1949 – [The third man](http://www.imdb.com/title/tt0041959/) – El tercer hombre – Carol Reed
 - 1949 – [On the town](http://www.imdb.com/title/tt0041716/) – Un día en Nueva York – Stanley Donen, Gene Kelly
 - 1949 – [Orphee](http://www.imdb.com/title/tt0041719/) – Orfeo – Jean Cocteau
 
-### De - 1950 a - 1960
+### De 1950 a 1960
 
 - 1950 – [The Asphalt Jungle](http://www.imdb.com/title/tt0042208/) – La jungla de asfalto – John Huston
 - 1950 – [Rashomon](http://www.imdb.com/title/tt0042876/) – Akira Kurosawa
@@ -383,7 +382,7 @@ Si no tienes mucho tiempo libre, quizás te interese ver la lista de [las 25 pel
 - 1959 – [Le trou](http://www.imdb.com/title/tt0054407/) – La evasión – Jacques Becker
 - 1959 – [Ukigusa](http://www.imdb.com/title/tt0053390/) – La hierba errante – Yasujiro Ozu
 
-### De - 1960 a 1970
+### De 1960 a 1970
 
 - 1960 – [Rocco e i suoi fratelli](http://www.imdb.com/title/tt0054248/) – Rocco y sus hermanos – Luchino Visconti
 - 1960 – [La dolce vita](http://www.imdb.com/title/tt0053779/) – Federico Fellini
@@ -791,7 +790,7 @@ Si no tienes mucho tiempo libre, quizás te interese ver la lista de [las 25 pel
 - 1986 – [Peking Opera Blues](http://www.imdb.com/title/tt0090952/) – Do ma daan – Tsui Hark
 - 1986 – [Salvador](http://www.imdb.com/title/tt0091886/) – Oliver Stone
 - 1986 – [Top Gun](http://www.imdb.com/title/tt0092099/) – Ídolos del aire – Tony Scott
-- 1986 – [Sherman’s March](http://www.imdb.com/title/tt009- 1943/) – Ross McElwee
+- 1986 – [Sherman’s March](http://www.imdb.com/title/tt0091943/) – Ross McElwee
 - 1986 – [Dao Ma Zei](http://www.imdb.com/title/tt0090907/) – El ladrón de caballos – Tian Zhuangzhuang
 - 1987 – [Yeelen](http://www.imdb.com/title/tt0094349/) – La luz – Souleymane Cissé
 - 1987 – [Der Himmel über Berlin](http://www.imdb.com/title/tt0093191/) – El cielo sobre Berlín – Win Wenders
@@ -955,9 +954,9 @@ Si no tienes mucho tiempo libre, quizás te interese ver la lista de [las 25 pel
 - 1996 – [The English Patient](http://www.imdb.com/title/tt0116209/) – El paciente inglés – Anthnony Minguella
 - 1997 – [Happy together](http://www.imdb.com/title/tt0118845/) – Wong Kar-Wai
 - 1997 – [Mononoke Hime](http://www.imdb.com/title/tt0119698/) – La princesa Mononoke – Hayao Miyazaki
-- 1997 – [L.A. confidential](http://www.imdb.com/title/tt01- 19488/) – Curtis Hanson
+- 1997 – [L.A. confidential](http://www.imdb.com/title/tt0119488/) – Curtis Hanson
 - 1997 – [The Butcher Boy](http://www.imdb.com/title/tt0118804/) – Contracorriente – Neil Jordan
-- 1997 – [The Ice Storm](http://www.imdb.com/title/tt01- 19349/) – La tormenta de hielo – Ang Lee
+- 1997 – [The Ice Storm](http://www.imdb.com/title/tt0119349/) – La tormenta de hielo – Ang Lee
 - 1997 – [Boogie nights](http://www.imdb.com/title/tt0118749/) – Paul Thomas Anderson
 - 1997 – [Deconstructing Harry](http://www.imdb.com/title/tt0118954/) – Desmontando a Harry – Woody Allen
 - 1997 – [The Sweet Hereafter](http://www.imdb.com/title/tt0120255/) – Dulce porvenir – Atom Egoyan

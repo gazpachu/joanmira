@@ -1,10 +1,9 @@
 ---
 title: Los Pilotos y las Motos
 description: La unión de dos apasionados por las motos y los viajes
-cover: images/pilotos_zqq8ju.jpg
+cover: /blog/the-pilots-and-the-motorbikes/images/pilotos_zqq8ju.jpg
 template: post
 category: samurai-route
-lang: es
 ---
 
 <style>

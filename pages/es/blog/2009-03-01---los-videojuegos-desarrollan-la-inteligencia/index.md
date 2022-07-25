@@ -1,10 +1,9 @@
 ---
 title: Los videojuegos desarrollan la inteligencia
 description: Los aficionados a los juegos lo tienen claro. Pongámoslo por escrito para que quede registrado
-cover: images/consolasHome2_ae32ah.jpg
+cover: /blog/video-games-develop-intelligence/images/consolasHome2_ae32ah.jpg
 template: post
 category: games
-lang: es
 ---
 
 Es un tema que siempre me ha interesado analizar detalladamente y ahora me gustaría comentarlo con vosotros para ver cuál es vuestra opinión al respecto. Yo pienso que el hecho de haber estado “jugando” con videojuegos desde que tenía 6 años, ha tenido efectos muy beneficiosos para el desarrollo de mi inteligencia (en algunos aspectos):

@@ -1,10 +1,9 @@
 ---
 title: La Ruta Samurái por España
 description: Participa en un evento histórico y danos tus fuerzas para que lleguemos con éxito al país del sol naciente
-cover: images/ruta_spain_ipx2yh.jpg
+cover: /blog/the-samurai-route-through-spain/images/ruta_spain_ipx2yh.jpg
 template: post
 category: samurai-route
-lang: es
 ---
 
 ### ¿Te vienes con nosotros?

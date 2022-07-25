@@ -4,7 +4,6 @@ description: Las carreteras en Mongolia son "free style". Si no existen, te las 
 cover: images/mongolia_suzl8x.jpg
 template: post
 category: samurai-route
-lang: es
 ---
 
 Llegamos a la frontera entre Rusia y Mongolia el 25 de julio. El último pueblo de Rusia se llama Tashanta, una pequeña aldea que no tardamos en cruzar más de 2 minutos. Nos hacemos la foto de rigor frente al letrero de entrada al pueblo y seguimos hacia la frontera rusa.

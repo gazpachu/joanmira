@@ -1,10 +1,9 @@
 ---
 title: Ya tenemos las primeras camisetas!
 description: Seguimos con mucha energía los preparativos del viaje
-cover: images/camisetas_i5qeeq.jpg
+cover: /blog/we-already-have-the-first-shirts/images/camisetas_i5qeeq.jpg
 template: post
 category: samurai-route
-lang: es
 ---
 
 Gracias a nuestros patrocinador EstampAlicante, hemos conseguido una primera tirada de 100 camisetas. Muchas gracias ;-)

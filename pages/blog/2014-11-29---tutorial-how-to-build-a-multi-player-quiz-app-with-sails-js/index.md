@@ -20,7 +20,7 @@ category: work
 
 ### 1. Introduction
 
-This tutorial intends to explain how to build a game like <a href="http://quizwars.herokuapp.com/">Quiz Wars</a> with the MVC <a href="http://sailsjs.org/">Sails.js</a> framework. <a href="http://quizwars.herokuapp.com/">Quiz Wars</a> is a real-time multi-player responsive web app to solve quizzes. The aim is to be the quickest answering quiz questions and win against other players. It has been developed trying to follow the <a href="http://bp.sapient-lab.com/">Sapient Dev Standards</a> as much as possible, with a mobile-first approach in mind and a module pattern structure for the frontend. Currently, it's in the early development stages, but the main user journey to enter and finish a quiz with other players is working in any browser/device.
+This tutorial intends to explain how to build a game like [Quiz Wars](http://quizwars.herokuapp.com) with the MVC [Sails.js](http://sailsjs.org) framework. Quiz Wars is a real-time multi-player responsive web app to solve quizzes. The aim is to be the quickest answering quiz questions and win against other players. It has been developed trying to follow the Sapient Dev Standards as much as possible, with a mobile-first approach in mind and a module pattern structure for the frontend. Currently, it's in the early development stages, but the main user journey to enter and finish a quiz with other players is working in any browser/device.
 
 ### Current features/rules
 
@@ -68,7 +68,7 @@ Sails is an MVC framework to manage the whole development pipeline of an applica
 
 ### 3. Sails.js installation
 
-<a href="http://quizwars.herokuapp.com/">Quiz Wars</a> is based on <a href="http://https//github.com/balderdashy/sails">Sails v0.10</a>. Simply <a href="http://sailsjs.org/#/getStartedhttp://">follow the official Sails.js tutorial</a> to install Node.js in your preferred operating system.
+Quiz Wars is based on Sails v0.10. Simply [follow the official Sails.js tutorial](http://sailsjs.org/#/getStarted) to install Node.js in your preferred operating system.
 
 Once you have Node.js installed, proceed to install Sails.js by typing the following in your console. Note: in Windows you don't need to use "sudo"
 
@@ -98,7 +98,7 @@ At this point, if you visit [http://localhost:1337](http://localhost:1337) you w
 
 - **/.tmp/public**: where the distribution files are compiled. These files are what we see when we load the website
 
-- **/api**: <span style="color: #ff0000;">all the backend files</span>. In the "policies" folder are stored rules for application user access. "responses" contain files like the web server errors (404, 403, 500, etc). We can include in this folder the functions that handle specific tasks like deciding how to manage users with different access levels. It could be done in the controller, but it's a best practice not to bloat the controllers with a lot of business logic.
+- **/api**: **all the backend files**. In the "policies" folder are stored rules for application user access. "responses" contain files like the web server errors (404, 403, 500, etc). We can include in this folder the functions that handle specific tasks like deciding how to manage users with different access levels. It could be done in the controller, but it's a best practice not to bloat the controllers with a lot of business logic.
 
 - **/assets/data**: JSON files with the quiz questions
 
@@ -106,7 +106,7 @@ At this point, if you visit [http://localhost:1337](http://localhost:1337) you w
 
 - **/assets/styles**: LESS files
 
-- **/assets/js**: <span style="color: #ff0000;">all the frontend logic</span> and its javascript dependencies
+- **/assets/js**: **all the frontend logic** and its javascript dependencies
 
 - **/config**: all the configuration files
 
@@ -117,7 +117,7 @@ At this point, if you visit [http://localhost:1337](http://localhost:1337) you w
 ### Other important files
 
 - **"/config/sockets.js"**: this file has two methods, "onConnect" and "onDisconnect". We use these methods to handle the socket connections
-- **"/config/models.js"**: this file allows us to specify which DB connector we want to use and the way we want to migrate the data</li>
+- **"/config/models.js"**: this file allows us to specify which DB connector we want to use and the way we want to migrate the data
 - **"/config/routes.js"**: this file allows us to connect URLs with views and endpoints to controller methods
 
 ```javascript
@@ -150,7 +150,7 @@ By default, Sails is configured to use EJS (Embedded Javascript) as its view eng
 - **"/view/index.ejs"**: this is the homepage, where we have two forms (toggled with jQuery), the login and signup forms. The first form posts data to the "/login" endpoint, which is connected with the "login" method in the "user" controller. The second one posts data to "/signup", which is connected to the "signup" method in the "user" controller
 - **"view/quiz.ejs"**: this page holds the rest of the available content on the website. There are three panels: the score table, the quiz panel and the chat panel
 
-The views make use of <strong>"/view/layout.ejs"</strong>, which is the template that holds the common elements, like the meta and link tags, the body declaration and all the JS dependencies:
+The views make use of **"/view/layout.ejs"**, which is the template that holds the common elements, like the meta and link tags, the body declaration and all the JS dependencies:
 
 ```html
 <!DOCTYPE html>

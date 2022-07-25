@@ -1,10 +1,9 @@
 ---
 title: "Obsolescencia programada: mi portatil ha muerto"
 description: Una breve historia de ordenadores que se hacen viejitos
-cover: images/dell_dead_nernqd.jpg
+cover: /blog/programmed-obsolescence-my-laptop-is-dead/images/dell_dead_nernqd.jpg
 template: post
 category: tech
-lang: es
 ---
 
 Vaya fin de semana… nada más levantarme el sábado enciendo el ordenador y compruebo con horror como mi pantalla se llena de líneas y píxeles a lo loco. Reinicio y la cosa empeora. Vuelvo a reiniciar y la pantalla se queda en negro!!!!!  :*******((((

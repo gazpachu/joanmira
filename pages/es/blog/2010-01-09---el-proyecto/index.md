@@ -1,15 +1,12 @@
 ---
 title: El Proyecto
 description: Nace con la idea de fomentar las relaciones y la cultura entre occidente y oriente
-cover: images/ruta-samurai-loading-bike.jpg
+cover: /blog/the-project/images/ruta-samurai-loading-bike.jpg
 template: post
 category: samurai-route
-lang: es
 ---
 
-“Las civilizaciones, al igual que el hombre, prosperan con los retos y se apagan cuando ya no los buscan”
-
--[Robert Zubrin](http://en.wikipedia.org/wiki/Robert_Zubrin)
+> “Las civilizaciones, al igual que el hombre, prosperan con los retos y se apagan cuando ya no los buscan” - [Robert Zubrin](http://es.wikipedia.org/wiki/Robert_Zubrin)
 
 ### ¿Cuál es la finalidad de este viaje?
 
@@ -41,13 +38,14 @@ Vamos a dejar nuestros trabajos de funcionario y diseñador web mientras estemos
 
 Los dos teníamos la idea de viajar desde España hasta Japón desde hace tiempo y son muchos los preparativos que hay que hacer. Como por ejemplo:
 
-– planificar la ruta, las distancias, las etapas, gasolina necesaria, revisiones de la moto, etc
-– buscar y comprar los accesorios necesarios para la moto, el camping, la supervivencia
-– viajar a Madrid y Barcelona para sacar los visados necesarios y contactar con posibles patrocinadores
-– realizar y actualizar la página web, imprimir logos, pegatinas, camisetas
-– promocionar el proyecto en redes sociales y foros de internet, prensa, amigos, familiares, empresas…
-– sacar carnés varios: para albergues, permiso de conducir internacional, seguros, seguridad social, fotografías, certificado médico, vacunas
-– conseguir mapas, cartografías de GPS, [aquí tenemos una lista completa de todo lo que necesitamos  ](http://rutasamurai.herokuapp.com/Equipamiento.html)- y muchas más cosas!
+– Planificar la ruta, las distancias, las etapas, gasolina necesaria, revisiones de la moto, etc
+– Buscar y comprar los accesorios necesarios para la moto, el camping, la supervivencia
+– Viajar a Madrid y Barcelona para sacar los visados necesarios y contactar con posibles patrocinadores
+– Realizar y actualizar la página web, imprimir logos, pegatinas, camisetas
+– Promocionar el proyecto en redes sociales y foros de internet, prensa, amigos, familiares, empresas…
+– Sacar carnés varios: para albergues, permiso de conducir internacional, seguros, seguridad social, fotografías, certificado médico, vacunas
+– Conseguir mapas, cartografías de GPS, [aquí tenemos una lista completa de todo lo que necesitamos  ](http://rutasamurai.herokuapp.com/Equipamiento.html)
+- Y muchas más cosas!
 
 ### ¿Alguien lo ha hecho antes?
 

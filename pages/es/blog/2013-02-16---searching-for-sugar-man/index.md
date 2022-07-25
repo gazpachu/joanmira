@@ -1,10 +1,9 @@
 ---
 title: Searching for Sugar Man
 description: Una breve mención a una película inspiradora y muy musical
-cover: images/sixto-rodriguez.jpg
+cover: /blog/searching-for-sugar-man/images/sixto-rodriguez.jpg
 template: post
 category: film
-lang: es
 ---
 
 Hacía más de un año que no escribía nada en el blog y ahora ya sé por qué… la culpa es del maldito Facebook. Me tenía totalmente enganchado, pero eso ya se acabó. He desactivado mi cuenta y espero no volver a abrirla en mucho tiempo!

@@ -1,13 +1,12 @@
 ---
 title: Tomoe Gozen, la mujer samurái
 description: Una gran guerrera capaz de acabar con hasta 20 enemigos en un solo combate
-cover: images/tomoe-landscape.jpg
+cover: /blog/tomoe-gozen-the-samurai-woman/images/tomoe-landscape.jpg
 template: post
 category: samurai-route
-lang: es
 ---
 
-<em>Tomoe Gozen cargando contra el enemigo, en una xilografía de Yoshu Chikanobu, de 1899</em>
+*Tomoe Gozen cargando contra el enemigo, en una xilografía de Yoshu Chikanobu, de 1899*
 
 ![](/blog/tomoe-gozen-la-mujer-samurai/images/tomoe.jpg)
 

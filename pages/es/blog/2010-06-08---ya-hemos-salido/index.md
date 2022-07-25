@@ -1,10 +1,9 @@
 ---
 title: Ya hemos salido!
 description: Breve nota de agradecimiento y video del reportaje de Giralda TV
-cover: images/coria_nreau7.jpg
+cover: /blog/we-already-started/images/coria_nreau7.jpg
 template: post
 category: samurai-route
-lang: es
 ---
 
 Llevamos cuatro días en marcha, pero hasta ahora no habíamos tenido tiempo de actualizar la página. Han transcurrido los días de forma bastante frenética, ¡hemos hecho ya más de 2.000Km!
