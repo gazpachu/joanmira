@@ -206,6 +206,7 @@ async function processPage(pagePath) {
   const listingItems = [];
 
   let alternateUrl = targetPath.startsWith('es/') ? targetPath.replace('es/', '/') : `/es/${targetPath}`;
+  const canonicalPath = targetPath.startsWith('es/') ? targetPath.replace('es/', '') : targetPath;
   if (targetPath === 'es') { alternateUrl = '/'; }
   if (targetPath === '') { alternateUrl = '/es'; }
 
@@ -230,6 +231,7 @@ async function processPage(pagePath) {
     imageUrl,
     type,
     imagePath,
+    canonicalPath,
     date,
     formattedDate,
     url,

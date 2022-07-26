@@ -7,7 +7,7 @@
     <%- include('header'); %>
     <div class="main-wrapper post">
       <div class="content">
-        <a class="category" href="/blog/category/<%= frontmatter.category %>">
+        <a class="category" href="<%= localePath %>/blog/category/<%= frontmatter.category %>">
           <%= translations.categories[frontmatter.category.replace('-', '_')] %>
         </a>
         <div class="header">
@@ -17,9 +17,9 @@
           </hgroup>
         </div>
         <picture>
-          <source srcset="<%= imagePath.replace('.jpg', '.webp') %>" type="image/webp">
-          <source srcset="<%= imagePath %>" type="image/jpeg">
-          <img class="image" src="<%= imagePath %>" alt="<%= frontmatter.title %>" width="100%" height="500">
+          <source srcset="/<%= canonicalPath %>/<%= frontmatter.cover.replace('.jpg', '.webp') %>" type="image/webp">
+          <source srcset="/<%= canonicalPath %>/<%= frontmatter.cover %>" type="image/jpeg">
+          <img class="image" src="/<%= canonicalPath %>/<%= frontmatter.cover %>" alt="<%= frontmatter.title %>" width="100%" height="500">
         </picture>
         <div class="details">
           <div class="meta">

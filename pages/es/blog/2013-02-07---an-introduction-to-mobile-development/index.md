@@ -1,7 +1,7 @@
 ---
 title: Una introducción al desarrollo móvil
 description: Para entender el panorama del desarrollo móvil, primero debemos saber quiénes son los actuales líderes de la industria y quiénes son los nuevos contendientes para 2013/14
-cover: /blog/an-introduction-to-mobile-development/images/mob_dev_dwbkru.jpg
+cover: images/mob_dev_dwbkru.jpg
 template: post
 category: work
 ---

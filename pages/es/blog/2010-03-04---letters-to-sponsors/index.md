@@ -1,7 +1,7 @@
 ---
 title: Cartas a patrocinadores
 description: Toda colaboración que se pueda conseguir será bienvenida y gratamente valorada
-cover: /blog/letters-to-sponsors/images/patrocinadores2_oy2mez.jpg
+cover: images/patrocinadores2_oy2mez.jpg
 template: post
 category: samurai-route
 ---
@@ -10,11 +10,11 @@ Durante los últimos seis días, hemos estado enviando cartas a empresas e insti
 
 Lo hemos hecho de la mejor forma posible:
 
-– con una propuesta personalizada para cada patrocinador
-– imprimiendo los sobres
-– adjuntando un imán de la Ruta Samurái
-– adjuntando una tarjeta de visita de la Ruta Samurái
+* con una propuesta personalizada para cada patrocinador
+* imprimiendo los sobres
+* adjuntando un imán de la Ruta Samurái
+* adjuntando una tarjeta de visita de la Ruta Samurái
 
 No hemos enviado una camiseta porque aún no están listas, pero si aceptan colaborar con nosotros, se la enviaremos seguro!
 
-![patrocinadores1](/blog/cartas-a-patrocinadores/images/patrocinadores1_d0wxwi.jpg)
+![patrocinadores1](/blog/letters-to-sponsors/images/patrocinadores1_d0wxwi.jpg)

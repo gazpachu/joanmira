@@ -64,22 +64,22 @@ The Japanese Red Cross Society is ready to receive aid and donations from indivi
 
 The following are the different modalities for those individuals and institutions, both private and public, who are interested in contributing directly to the Japanese Red Cross Society.
 
-**DONATIONS FROM PRIVATE INDIVIDUALS AND FOREIGN GROUPS**.
+### DONATIONS FROM PRIVATE INDIVIDUALS AND FOREIGN GROUPS
 
 1) Donations for those affected by the earthquake and tsunami (Note: these donations will be sent to all those affected by the earthquake and tsunami through the Japanese Red Cross Society, which will deliver them to the local community Relief Distribution Committees, which in turn will be responsible for the delivery of the aid). If a receipt is required, please indicate this in the appropriate box.
 
-Bank Name: Sumitomo Mitsui Banking Corporation
-Branch Name: Ginza
-Account Number: 8047670 (Regular Account)
-SWIFT Code: SMBC JP JT
-Name of Beneficiary: The Japanese Red Cross Society
-Beneficiary's address: 1-1-3 Shiba-Daimon, Minato-ku, Tokyo JAPAN
+* Bank Name: Sumitomo Mitsui Banking Corporation
+* Branch Name: Ginza
+* Account Number: 8047670 (Regular Account)
+* SWIFT Code: SMBC JP JT
+* Name of Beneficiary: The Japanese Red Cross Society
+* Beneficiary's address: 1-1-3 Shiba-Daimon, Minato-ku, Tokyo JAPAN
 
 2) Donations for the lifesaving activities of the Japanese Red Cross Society. If a receipt is required, please indicate it in the appropriate box.
 
-Name of bank: Sumitomo Mitsui Banking Corporation
-Branch Name: Ginza
-Account Number: 8047705 (Regular Account)
-SWIFT Code: SMBC JP JT
-Name of Beneficiary: The Japanese Red Cross Society
-Beneficiary's address: 1-1-3 Shiba-Daimon, Minato-ku, Tokyo JAPAN
+* Name of bank: Sumitomo Mitsui Banking Corporation
+* Branch Name: Ginza
+* Account Number: 8047705 (Regular Account)
+* SWIFT Code: SMBC JP JT
+* Name of Beneficiary: The Japanese Red Cross Society
+* Beneficiary's address: 1-1-3 Shiba-Daimon, Minato-ku, Tokyo JAPAN

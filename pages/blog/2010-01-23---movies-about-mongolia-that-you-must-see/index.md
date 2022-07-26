@@ -8,7 +8,7 @@ shouldDisableAudio: true
 ---
 
 ### Tuya's Wedding (Tu ya de hun shi)
-![](/blog/movies-about-mongolia-what-you-have-to-see/images/Tuya's_wedding_AKA_Tuya's_wedding-496401720-large_fkh8xs.jpg)
+![](/blog/movies-about-mongolia-that-you-must-see/images/Tuya's_wedding_AKA_Tuya's_wedding-496401720-large_fkh8xs.jpg)
 
 - Year: 2006
 - Length: 92 min.
@@ -24,7 +24,7 @@ shouldDisableAudio: true
 
 
 ### The Mongol Dog (Die Hoehle des gelben Hundes)
-![](/blog/movies-about-mongolia-that-you-have-to-see/images/El_Mongolian_dog_The_Yellow_dog_cave-384806038-large_xjfndd.jpg)
+![](/blog/movies-about-mongolia-that-you-must-see/images/El_Mongolian_dog_The_Yellow_dog_cave-384806038-large_xjfndd.jpg)
 
 - Year: 2005
 - Length: 90 min.
@@ -38,7 +38,7 @@ shouldDisableAudio: true
 
 
 #### Mongolian Ping-Pong (Lü cao di)
-![](/blog/movies-about-mongolia-what-you-have-to-see/images/mongolian-ping-pong-dvd_zgi9uy.jpg)
+![](/blog/movies-about-mongolia-that-you-must-see/images/mongolian-ping-pong-dvd_zgi9uy.jpg)
 
 - Year: 2005
 - Length: 102 min.
@@ -53,7 +53,7 @@ shouldDisableAudio: true
 
 
 ### Urga, the land of love
-![](/blog/movies-about-mongolia-that-you-have-to-see/images/Urga_19_siv0pe.jpg)
+![](/blog/movies-about-mongolia-that-you-must-see/images/Urga_19_siv0pe.jpg)
 
 - Year: 1991
 - Length: 118 min.
@@ -69,7 +69,7 @@ shouldDisableAudio: true
 
 
 ### Mongolian
-![](/blog/movies-about-mongolia-what-you-have-to-see/images/Mongol-720978610-large_psfxog.jpg)
+![](/blog/movies-about-mongolia-that-you-must-see/images/Mongol-720978610-large_psfxog.jpg)
 
 - Year: 2007
 - Length: 126 min.
@@ -86,7 +86,7 @@ shouldDisableAudio: true
 
 
 ### The story of the crying camel
-![](/blog/movies-about-mongolia-that-you-have-to-see/images/camel_qcwszg.jpg)
+![](/blog/movies-about-mongolia-that-you-must-see/images/camel_qcwszg.jpg)
 
 - Original title: Ingen Numsil - Die Geschichte vom weinenden Kamel
 - Year: 2003
@@ -100,7 +100,7 @@ shouldDisableAudio: true
 
 
 ### The Hunter (Dersu Uzala)
-![](/blog/movies-about-mongolia-that-you-have-to-see/images/dersuuzalaposter-large1_t6wruk.jpg)
+![](/blog/movies-about-mongolia-that-you-must-see/images/dersuuzalaposter-large1_t6wruk.jpg)
 
 - Year: 1975
 - Length: 141 min.
@@ -116,7 +116,7 @@ shouldDisableAudio: true
 
 
 ### Desert Dream - Hyazgar
-![](/blog/movies-about-mongolia-what-you-have-to-see/images/desert_dreams_ctdrbq.jpg)
+![](/blog/movies-about-mongolia-that-you-must-see/images/desert_dreams_ctdrbq.jpg)
 
 - Year: 2007
 - Length: 123 min.
@@ -131,7 +131,7 @@ shouldDisableAudio: true
 
 
 ### State of Dogs
-![](/blog/movies-about-mongolia-what-you-have-to-see/images/state_dogs_vosmnx.jpg)
+![](/blog/movies-about-mongolia-that-you-must-see/images/state_dogs_vosmnx.jpg)
 
 - Year: 1998
 - Length: 55 min / 91 min.
@@ -158,7 +158,7 @@ shouldDisableAudio: true
 
 
 ### Kiran in Mongolia
-![](/blog/movies-about-mongolia-that-you-have-to-see/images/splash_Mar_2007_01Layer1_ciavdg.jpg)
+![](/blog/movies-about-mongolia-that-you-must-see/images/splash_Mar_2007_01Layer1_ciavdg.jpg)
 
 - Year: 2005
 - Length: 60 min.
@@ -174,7 +174,7 @@ shouldDisableAudio: true
 
 
 ### Taiga
-![](/blog/movies-about-mongolia-what-you-have-to-see/images/taiga_wzyvgg.jpg)
+![](/blog/movies-about-mongolia-that-you-must-see/images/taiga_wzyvgg.jpg)
 
 - Year: 1992
 - Length: 501 min.
@@ -188,7 +188,7 @@ shouldDisableAudio: true
 
 
 ### Johanna D'Arc of Mongolia
-![](/blog/movies-about-mongolia-what-you-have-to-see/images/sisters-47-e992a634_photo_xq9i9a.jpg)
+![](/blog/movies-about-mongolia-that-you-must-see/images/sisters-47-e992a634_photo_xq9i9a.jpg)
 
 - Year: 1988
 - Length: 165 min.
@@ -201,7 +201,7 @@ shouldDisableAudio: true
 
 
 ### A Mongolian tale (Hei jun ma)
-![](/blog/movies-about-mongolia-what-you-have-to-see/images/MongolianTale_c7jyyd.jpg)
+![](/blog/movies-about-mongolia-that-you-must-see/images/MongolianTale_c7jyyd.jpg)
 
 - Year: 1995
 - Length: 105 min.
@@ -213,7 +213,7 @@ shouldDisableAudio: true
 
 
 ### All my love
-![](/blog/movies-about-mongolia-what-you-have-to-see/images/2004105533_lgjgme.jpg)
+![](/blog/movies-about-mongolia-that-you-must-see/images/2004105533_lgjgme.jpg)
 
 - Year: 2007
 - Length: 90 min.
@@ -237,7 +237,7 @@ shouldDisableAudio: true
 
 
 ### The great match
-![](/blog/movies-about-mongolia-what-you-have-to-see/images/The_Great_Match_hakd0g.jpg)
+![](/blog/movies-about-mongolia-that-you-must-see/images/The_Great_Match_hakd0g.jpg)
 
 - Year: 2006
 - Length: 88 min.
@@ -249,7 +249,7 @@ shouldDisableAudio: true
 
 
 ### Khadak (Color of Water)
-![](/blog/movies-about-mongolia-that-you-have-to-see/images/47170340_jisowi.jpg)
+![](/blog/movies-about-mongolia-that-you-must-see/images/47170340_jisowi.jpg)
 
 - Year: 2007
 - Length: 104 min.
@@ -261,7 +261,7 @@ shouldDisableAudio: true
 
 
 ### Mujaan (The Craftsman)
-![](/blog/movies-about-mongolia-what-you-have-to-see/images/mujaan_k6j15p.jpg)
+![](/blog/movies-about-mongolia-that-you-must-see/images/mujaan_k6j15p.jpg)
 
 - Year: 2005
 - Country: USA
@@ -272,7 +272,7 @@ shouldDisableAudio: true
 
 
 ### My Beautiful Jinjiimaa
-![](/blog/movies-about-mongolia-what-you-have-to-see/images/jinjiimaa_ad5v5g.jpg)
+![](/blog/movies-about-mongolia-that-you-must-see/images/jinjiimaa_ad5v5g.jpg)
 
 - Year: 2006
 - Country: Mongolia
@@ -283,7 +283,7 @@ shouldDisableAudio: true
 
 
 ### Puujee
-![](/blog/movies-about-mongolia-that-you-have-to-see/images/puujee_JPG_osaic.jpg)
+![](/blog/movies-about-mongolia-that-you-must-see/images/puujee_JPG_osaic.jpg)
 
 - Year: 2007
 - Country: Japan

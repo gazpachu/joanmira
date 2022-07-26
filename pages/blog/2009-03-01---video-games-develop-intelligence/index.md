@@ -30,4 +30,4 @@ Not-so-positive effects of new technologies and video games:
 
 Therefore, my conclusion is that video games ARE beneficial for the development of certain aspects of intelligence, but their benefit is not unlimited and there comes a time when their consumption will only generate a creative stimulus (at least until there is a new technological revolution that involves new forms of reasoning and new tools for more accurate and faster control).
 
-<iframe allowfullscreen="" frameborder="0" height="550" src="https://www.youtube.com/watch?v=v0P3qvSqdeg" width="100%"></iframe>
+<iframe width="100%" height="550" src="https://www.youtube.com/embed/v0P3qvSqdeg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

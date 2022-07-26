@@ -1,7 +1,7 @@
 ---
 title: "Javascript: entendiendo las partes raras [Parte 1]"
 description: Mis aprendizajes repasando conceptos de JavaScript en el sitio educativo Udemy
-cover: /blog/javascript-understanding-the-weird-parts/images/javascript-bg.jpg
+cover: images/javascript-bg.jpg
 template: post
 category: work
 ---

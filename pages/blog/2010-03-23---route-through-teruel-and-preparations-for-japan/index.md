@@ -41,7 +41,7 @@ We arrived at the top by a nice curvilinear road, already in better conditions, 
 
 The descent was short because the road is in better condition and we went to the Collado del Gavilán and the N-234, near La Puebla de Valverde. The rest was a piece of cake, a little bit of national highway and Teruel.
 
-![teruel_3](/blog/ruta-por-teruel-y-preparativos-para-japon-vicente-malpica/images/teruel_3_r3tucb.jpg)
+![teruel_3](/blog/route-through-teruel-and-preparations-for-japan/images/teruel_3_r3tucb.jpg)
 
 Joan had explained to me that he would be in Pamplona for work and that he would be with us on Tuesday. Well, that was the agreement, but in the end, he lightened the pace and well into the night, almost 24 hours, of that same Monday, he appeared in Teruel, after passing a strong wind and colder than a penguin, (in truth my partner of adventures is a great guy and tough as stones :-)
 
@@ -61,7 +61,7 @@ We took directions to Formiche Alto and Castellar, mountain road, beautiful scen
 
 The sun began to press more and more, the muscles to unwind and after small stops, talks at the roadside, laughter and good vibes, the route was running, a day of motorcycles, friends and landscapes.
 
-teruel_2](/blog/ruta-por-teruel-y-preparativos-para-japon-vicente-malpica/images/teruel_2_gr5eby.jpg)
+![teruel_2](/blog/route-through-teruel-and-preparations-for-japan/images/teruel_2_gr5eby.jpg)
 
 The Sierra de Gúdar is an idyllic place, as it does not have too many tourists and its people and landscapes bring you sensations that other places do not give you, highly recommended, Teruel, exists!
 
@@ -83,7 +83,7 @@ Carefully we all went through and, not without seeing the immensity of the mount
 
 In Puertomingalvo the road becomes again with asphalt and spoiled, very entertaining downhill towards Castillo de Villamalefa and Zucaina, where the landscapes are indescribable.
 
-teruel_4](/blog/ruta-por-teruel-y-preparativos-para-japon-vicente-malpica/images/teruel_4_la6dym.jpg)
+![teruel_4](/blog/route-through-teruel-and-preparations-for-japan/images/teruel_4_la6dym.jpg)
 
 Already in Castellon lands, we followed the route without stopping too much, since the night was approaching us. A stop at the Arenós reservoir and after a few good photos, we continue to Olba, Rubielos de Mora and Mora de Rubielos.
 

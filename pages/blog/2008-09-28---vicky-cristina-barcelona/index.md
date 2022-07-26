@@ -1,16 +1,15 @@
 ---
 title: Vicky Cristina Barcelona
-description: Breve análisis de la nueva película de Woody Allen
+description: Brief analysis of Woody Allen's new movie
 cover: images/vicky-cristina-barcelona-poster_mmonmn.jpg
 template: post
 category: film
-lang: es
 ---
 
-Acabo de volver del cine, de ver la última película de Woody Allen y he quedado algo desencantado… me esperaba algo mejor.
+I just got back from the movies, from watching Woody Allen's latest film and I was a bit disappointed... I was expecting something better.
 
-He echado de menos el genuino sentido del humor que suelen tener sus películas y una actuación más brillante por parte de Scarlet y Patricia. Bardem ha estado bien, seductor,... aunque le he visto mejor en otros papeles más dramáticos. La mejor para mí, ha sido Penélope, que aunque disfruta de menos tiempo en pantalla que sus compañeros de reparto, lo hace con tal fuerza y carácter que consigue ganar mi atención en todo momento. Sin duda alguna es un diamente esta chica, pura belleza latina, picardía femenina, glamour y elegancia.
+I missed the genuine sense of humor that his films usually have and a more brilliant performance by Scarlet and Patricia. Bardem was good, and seductive,... although I saw him better in other more dramatic roles. The best for me has been Penelope, who although she enjoys less screen time than her co-stars, does it with such strength and character that she manages to win my attention at all times. Without a doubt, this girl is a goddess, pure Latin beauty, feminine mischief, glamour and elegance.
 
-La historia se presenta como un plato de gusto para la mayoría de los espectadores, donde más de uno seguro que se identifica con el personaje de Cristina y Vicky. Con Bardem y Penélope resulta más difícil (por la complejidad de sus vidas), pero en cualquier caso, el director nos propone un cocktail de amoríos con un publirreportaje de la ciudad de Barcelona que, no sirve para nada.
+The story is presented as a tasty dish for most viewers, where more than one is sure to identify with the character of Cristina and Vicky. With Bardem and Penelope, it is more difficult (because of the complexity of their lives), but in any case, the director offers us a cocktail of love affairs with an advertisement of the city of Barcelona that serves no purpose.
 
-Una película entretenida, pero poco cuidada. Una banda sonora aburrida, doblajes y narraciones en off pesadas y parches para alargar el metraje por doquier. En fin, una pena que para una vez que Allen hace una película en España, no esté a la altura de las expectativas.
+An entertaining film, but not very well cared for. A boring soundtrack, dubbing and heavy narration in off and patches to lengthen the footage everywhere. In short, a pity that for once Allen makes a film in Spain, but it does not live up to expectations.

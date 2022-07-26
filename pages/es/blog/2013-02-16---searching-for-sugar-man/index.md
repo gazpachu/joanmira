@@ -1,7 +1,7 @@
 ---
 title: Searching for Sugar Man
 description: Una breve mención a una película inspiradora y muy musical
-cover: /blog/searching-for-sugar-man/images/sixto-rodriguez.jpg
+cover: images/sixto-rodriguez.jpg
 template: post
 category: film
 ---

@@ -16,7 +16,7 @@ We got up and had a good breakfast, the weather was still closed, and the humidi
 
 The rain gave us a small lapse of time to adapt to the road (very wet, by the way). We headed towards Carboneras, stopped to refuel and then took the N-420 towards Teruel. It starts to rain cats and dogs, but we had appointments in the city of Barcelona and, unless the destination said a resounding NO, we would go ahead.
 
-![1](/blog/viaje-a-barcelona-reunion-with-yamaha-y-midland/images/1_ciiykf.jpg)
+![1](/blog/trip-to-barcelona-meet-yamaha-and-midland/images/1_ciiykf.jpg)
 
 Mittens are a great invention and on a day like this, I can't imagine riding along with a pair of gloves. Joan put hers on the bike, but not having hand protectors, with the force of the wind, they began to press the brake and clutch levers. You can imagine how uncomfortable it was, raining cats and dogs, at zero degrees and with the fingers of the hands like sticks to prevent the mittens from pressing the brake...
 
@@ -24,9 +24,9 @@ We continued our trip, "relaxing". We could see a lot of water in the ditches of
 
 Before arriving in Teruel we went through a small mountain pass of more than 1000 meters high, there was some snow on the road, so we decided to stop a little to take advantage of the magnificent day. It was necessary to leave a photographic record of the moment. It is very nice not to go alone on route, the sorrows, are fewer sorrows when you are accompanied.
 
-![2](/blog/viaje-a-barcelona-reunion-with-yamaha-y-midland/images/2_pq7ijg.jpg)
+![2](/blog/trip-to-barcelona-meet-yamaha-and-midland/images/2_pq7ijg.jpg)
 
-![3](/blog/trip-to-barcelona-meeting-with-yamaha-and-midland/images/3_ztiwhx.jpg)
+![3](/blog/trip-to-barcelona-meet-yamaha-and-midland/images/3_ztiwhx.jpg)
 
 Between Teruel and Alcañiz we made a stop, it was cold and the relentless humidity excited our nasal taps incessantly. A good lunch, based on a pork loin sandwich with cheese, left us almost perfect and with restored spirits. Too bad it was still raining, but we had to continue on our way along this beautiful road towards Alcañiz, Caspe, Fraga and Barcelona.
 
@@ -40,16 +40,16 @@ The next day, Wednesday, was a very good day, we didn't stop doing things. The m
 
 We also visited our already confirmed sponsor, Midland. They will provide us with walkies and intercoms so that we can always be well communicated =) David was very kind to explain to us all the advantages (which are not a few) of Bluetooth technology, which allows us to have two-way conversations at the same time and be able to listen to the sound of the phone, GPS and MP3. A marvel that can not be missing to any group of bikers who intend to make a long trip.
 
-![midland](/blog/viaje-a-barcelona-reunion-with-yamaha-and-midland/images/midland_pnhvh6.jpg)
+![midland](/blog/trip-to-barcelona-meet-yamaha-and-midland/images/midland_pnhvh6.jpg)
 
 In between the visits to the sponsors, we also took the opportunity to start the visa procedures for Mongolia. It seems that everything is in order and now we just have to wait for our passports to be returned. Then we went to visit some motorcycle stores and have some good beers in the best biker pub in Barcelona, the Paddock. A fantastic Guinness, with great friends like Federico-Varadero and Ignacio-Tíger and all those nice people with gasoline in their veins who frequent this great biker corner. Thank you very much!
 
-![5](/blog/viaje-a-barcelona-reunion-with-yamaha-y-midland/images/5_w3i0th.jpg)
+![5](/blog/trip-to-barcelona-meet-yamaha-and-midland/images/5_w3i0th.jpg)
 
 We sold some t-shirts for the trip, thanks! and we also decided to have a small party, if everything goes well, on June 6th at dusk, being already started the route to Japan and taking advantage of our passage through Barcelona.
 
-![6](/blog/viaje-a-barcelona-reunion-with-yamaha-y-midland/images/6_gen06b.jpg)
+![6](/blog/trip-to-barcelona-meet-yamaha-and-midland/images/6_gen06b.jpg)
 
-![7](/blog/travel-to-barcelona-meeting-with-yamaha-and-midland/images/7_ybsedb.jpg)
+![7](/blog/trip-to-barcelona-meet-yamaha-and-midland/images/7_ybsedb.jpg)
 
 And so end these intense and pleasant days, a lot of bike and emotions, about 530 kilometers there and back, with good friends, happy to travel by bike and work to make our dreams come true. Take care of yourselves and see if you can get us T-shirts, we need your help, thanks in advance and a big hug to all of you.

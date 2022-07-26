@@ -1,7 +1,7 @@
 ---
 title: Chronicle of Mongolia. Part I
 description: Roads in Mongolia are "free style". If they don't exist, you make them up
-cover: /blog/mongolia-chronicle-part-i/images/mongolia_suzl8x.jpg
+cover: images/mongolia_suzl8x.jpg
 template: post
 category: samurai-route
 ---

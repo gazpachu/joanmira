@@ -1,7 +1,7 @@
 ---
 title: Cargador Javascript con promises
 description: Una interesante técnica para cargar dinámicamente archivos JavaScript externos
-cover: /blog/javascript-loader-with-promises/images/load-script.jpg
+cover: images/load-script.jpg
 template: post
 category: work
 ---
