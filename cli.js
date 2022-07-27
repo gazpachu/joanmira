@@ -44,6 +44,25 @@ const feed = new Feed({
     link: host
   }
 });
+const feedEs = new Feed({
+  title: esTranslations.site_name,
+  description: esTranslations.site_description,
+  id: `${host}-es`,
+  link: `${host}/es`,
+  language: "es",
+  image: `${host}/img/apple-touch-icon.png`,
+  favicon: `${host}/img/favicon.ico`,
+  copyright: `Todos los derechos reservados ${new Date().getFullYear()}, ${esTranslations.site_name}`,
+  generator: "",
+  feedLinks: {
+    atom: `${host}/es/rss.xml`
+  },
+  author: {
+    name: esTranslations.site_name,
+    email: "hello@joanmira.com",
+    link: `${host}/es`,
+  }
+});
 
 const renderer = {
   image(href, title, text) {
@@ -106,6 +125,7 @@ async function build(folderOrFile) {
   if (process.env.NODE_ENV === 'production') {
     console.log('Generating RSS feed');
     await fs.writeFile('public/rss.xml', feed.rss2());
+    await fs.writeFile('public/es/rss.xml', feedEs.rss2());
 
     console.log('Generating sitemap');
     const xmlObject = {
@@ -245,7 +265,7 @@ async function processPage(pagePath) {
   await fs.writeFile(`public/${targetPath}/index.html`, parsedTemplate);
 
   if (frontmatter.template === 'post') {
-    feed.addItem({
+    const item = {
       title: frontmatter.title,
       id: url,
       link: url,
@@ -253,7 +273,8 @@ async function processPage(pagePath) {
       content: content,
       date,
       image: imageUrl
-    });
+    };
+    lang === 'es' ? feedEs.addItem(item) : feed.addItem(item);
   }
 
   sitemap.push({
