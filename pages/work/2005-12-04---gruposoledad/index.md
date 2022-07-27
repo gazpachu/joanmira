@@ -1,6 +1,6 @@
 ---
-title: "Grupo Soledad"
-cover: "images/logo.png"
+title: Grupo Soledad
+cover: /work/gruposoledad/images/logo.png
 location: Spain
 color: white
 categories: web flash custom-cms ux design animation mysql php
@@ -12,7 +12,7 @@ template: project
 <a class="btn external" role="button" href="http://work.joanmira.com/webs/gruposoledad/insaturbo/" target="_blank">Launch InsaTurbo intro</a>
 </p>
 
-Grupo Soledad asked me to create a visually attractive website for the French market. They wanted to showcase their catalog of car tyres and batteries and be able to update the offers of the website using a simple CMS.
+Grupo Soledad asked me to create a visually attractive website for the French market. They wanted to showcase their catalog of car tires and batteries and be able to update the offers of the website using a simple CMS.
 
 ![](/work/gruposoledad/images/1.png)
 

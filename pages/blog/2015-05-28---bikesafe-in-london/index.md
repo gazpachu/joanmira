@@ -1,22 +1,21 @@
 ---
 title: Bikesafe in London
-description: Mejorando mi estilo de conducción gracias a los consejos de la policía inglesa
+description: Improving my driving style thanks to advice from the British police
 cover: images/bikesafe.jpg
 template: post
 category: london
-lang: es
 ---
 
-Hey!, amigos moteros, cómo os va la vida? Tenéis algún viaje programado para este verano?
+Hey, biker friends, how's life? Do you have any trips planned for this summer?
 
-Hoy he pasado el día con varios motoristas de la [Metropolitan Police](http://content.met.police.uk/Home) de Londres, los cuales organizan unos cursos de seguridad en la conducción de motos llamados [Bikesafe](http://www.bikesafe-london.co.uk/).
+Today I spent the day with some bikers from the [Metropolitan Police](http://content.met.police.uk/Home) in London, who organize a motorcycle safety course called [Bikesafe](http://www.bikesafe-london.co.uk/).
 
-Primero hemos tenido una sesión teórica, en la cual nos han explicado, con vídeos y ejemplos en una pizarra, los accidentes más comunes (cuando un coche no te ve y se cruza delante tuya).
+First, we had a theoretical session, in which they explained to us, with videos and examples on a blackboard, the most common accidents (when a car does not see you and crosses in front of you).
 
-Luego hemos ido a comer a [Franky & Benny's](http://www.frankieandbennys.com/) con las motos (comida incluida). Un paseo corto. Cada instructor tenia asignado dos motoristas, los cuales se iban turnando para ir en cabeza del grupo. De esta forma, el instructor podia observar el estilo de conducción del que iba en cabeza.
+Then we went for lunch at [Franky & Benny's](http://www.frankieandbennys.com/) with the motorcycles (food included). A short ride. Each instructor was assigned two riders, who took turns to ride at the head of the group. In this way, the instructor could observe the riding style of the leading rider.
 
-Después de comer hemos ido por unas carreteras de [Essex](http://en.wikipedia.org/wiki/Essex) (región al este de Londres) con muchas curvas. Ha sido un paseo de hora y media con bastantes cambios de velocidad y "tumbadas" interesantes en las curvas.
+After lunch, we went through the roads of [Essex](http://en.wikipedia.org/wiki/Essex) (region east of London) with many curves. It was an hour and a half ride with quite a lot of speed changes and interesting "lay downs" in the curves.
 
-Para terminar, hemos vuelto al [concesionario de Triumph de Jack Lilley](http://www.jacklilley.com/) donde habíamos tenido la clase teórica. Allí nos han dado un pack con algunos regalitos (incluido un libro sobre conducción avanzada de motos) y nos han comentado que tal lo habíamos hecho durante el día.
+To finish, we went back to [Jack Lilley's Triumph dealer](http://www.jacklilley.com/) where we had had the theory class. There they gave us a pack with some goodies (including a book on advanced motorcycle riding) and told us how we had done during the day.
 
-En resumen, ha sido una gran experiencia que recomiendo a todos los motoristas que vivan en Reino Unido.
+In short, it was a great experience that I recommend to all bikers living in the UK.

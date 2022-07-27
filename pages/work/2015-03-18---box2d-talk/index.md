@@ -1,6 +1,6 @@
 ---
-title: "Box2d talks"
-cover: "images/logo.png"
+title: Box2d talks
+cover: /work/box2d-talk/images/logo.png
 location: UK
 color: "#FFF"
 categories: sapientnitro prototype box2d animation open-source talks

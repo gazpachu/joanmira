@@ -1,7 +1,7 @@
 ---
-title: "Baxtermead"
-cover: "images/logo.jpg"
-location: Spain
+title: Baxtermead
+cover: /work/baxtermead/images/logo.jpg
+location: España
 color: white
 categories: web flash ux design animation
 template: project

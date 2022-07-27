@@ -1,9 +1,9 @@
 ---
-title: "ICA Art Rules case study"
-cover: "images/logo.jpg"
+title: ICA Art Rules case study
+cover: /work/artrules/images/logo.jpg
 location: UK
 color: black
-categories: sapientnitro animation shortlisted web-app ruby box2d inverted creative-tech
+categories: sapientnitro animation shortlisted web-app ruby box2d inverted creative-tech featured
 template: project
 ---
 
@@ -11,7 +11,7 @@ template: project
 <a class="btn external" role="button" href="http://work.joanmira.com/demos/artrules/" target="_blank" rel="noopener noreferrer">Check animation prototypes</a>
 </p>
 
-The [ICA, Institute of Contemporary Art](https://www.ica.org.uk/), has been in the forefront for arts for decades. It was finding difficulties keeping up with today’s social media age and needed to be part of the online art conversation. We ([SapientNitro](http://www.sapientnitro.com/), London) built a platform to encourage people to challenge what art really means.
+The [ICA, Institute of Contemporary Art](https://www.ica.org.uk/), has been at the forefront of arts for decades. It was finding difficulties keeping up with today’s social media age and needed to be part of the online art conversation. We ([SapientNitro](http://www.sapientnitro.com/), London) built a platform to encourage people to challenge what art means.
 
 ![](/work/artrules/images/12.png)
 
@@ -19,11 +19,10 @@ My role in this project was mainly in the rendering and animations of the art ru
 
 The major challenge in this project was to achieve fast animations on tablet devices. The performance on desktops and laptops was fine. I had to explore different ways of rendering the circles with the physics, mostly with canvas or DOM elements and CSS3.
 
-At the end, due to the full screen nature of the animations, I decided to use DOM elements and apply realtime CSS3 transformations (hardware accelerated) to animate the circles. I used Box2d to calculate the physics for the attraction forces, collisions and pushing the colliding circles around when resizing one of them.
+In the end, due to the full-screen nature of the animations, I decided to use DOM elements and apply real-time CSS3 transformations (hardware accelerated) to animate the circles. I used Box2d to calculate the physics for the attraction forces, collisions and pushing the colliding circles around when resizing one of them.
 
-The mouse wheel and the swipe events in touch devices, were used as circle generators. The user could scroll left and right to move all the circles and generate new ones. As soon as the circles were out of the screen, they died and a new one were created on the other side of the screen. So, in a way, it was sort of generative art :-)
-
-I really enjoyed working on this project, as I love arts and creative stuff and it was also quite challenging (because Box2d with DOM elements was unexplored terrotory for me and the rest of the team). It was also my first project in SapientNitro, so it really helped me to create a good reputation around me.
+The mouse wheel and the swipe events in touch devices were used as circle generators. The user could scroll left and right to move all the circles and generate new ones. As soon as the circles were out of the screen, they died and a new one was created on the other side of the screen. So, in a way, it was sort of generative art :-)
+I enjoyed working on this project, as I love arts and creative stuff and it was also quite challenging (because Box2d with DOM elements was unexplored territory for me and the rest of the team). It was also my first project in SapientNitro, so it helped me to create a good reputation around me.
 
 Featured on:
 

@@ -1,6 +1,6 @@
 ---
-title: "Mic mic"
-cover: "images/logo.png"
+title: Mic mic
+cover: /work/mic-mic/images/logo.png
 location: Spain
 color: "#1e1e1e"
 categories: flash design inverted
@@ -13,7 +13,7 @@ template: project
 
 ![](/work/mic-mic/images/1.png)
 
-Mic-Mic is a simple Flash app developed as a team effort for one of the assignments of the multimedia degree in the Universitat Oberta de Catalunya.
+Mic-Mic is a simple Flash app developed as a team effort for one of the assignments of the multimedia degree at the Universitat Oberta de Catalunya.
 
 ![](/work/mic-mic/images/2.jpg)
 

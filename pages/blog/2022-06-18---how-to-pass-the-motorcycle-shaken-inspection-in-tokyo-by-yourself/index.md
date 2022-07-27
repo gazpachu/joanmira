@@ -100,13 +100,13 @@ The cost of the headlight alignment is about ¥2.000 IIRC and the process takes 
 Another tip regarding the garage access: If you are coming from the north, it's better to follow the route in the screenshot below, so you don't have to cut through the traffic coming from the opposite direction:
 
 <figure>
-  <img src="/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/3.jpg" alt="Headlight alignment garage location" />
-  <figcaption>Headlight alignment garage and coffee shpo locations</figcaption>
+  <img src="/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/3.jpg" alt="Headlight alignment garage and coffee shop locations" />
+  <figcaption>Headlight alignment garage and coffee shop locations</figcaption>
 </figure>
 
 ### Things to check before the inspection
 
-- Make sure that all the lights, breaks and horn work properly
+- Make sure that all the lights, breaks and the horn work properly
 
 - In the inspection center, they might ask you if you have a maintenance book. I didn't have one, so it doesn't seem to be mandatory. In any case, it's a good idea to bring an invoice or some paper that shows when you last changed the oil, filter, etc. But, as I said, I didn't have to show anything like this
 
@@ -116,7 +116,7 @@ Another tip regarding the garage access: If you are coming from the north, it's 
 
 - If you haven't chosen a very early timeslot, you could try to do the headlight alignment and the inspection on the same day. Just cross the street (with your bike) to the inspection center
 
-- Once I arrived at the inspection center, this is where I parked my motorcycle (beside the stairs) and no one complained about it. There were no cones as well:
+- Once I arrived at the inspection center, this is where I parked my motorcycle (besides the stairs) and no one complained about it. There were no cones as well:
 
 <figure>
   <img src="/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/4.jpg" alt="Headlight alignment garage location" />
@@ -129,7 +129,7 @@ Another tip regarding the garage access: If you are coming from the north, it's 
 
 - Once you complete all the paperwork and paid everything, they will tell you to bring your bike to the building where they will perform the inspection. Notice that the lane is narrower than the others because it's specific for motorcycles
 
-- When you reach the gate, just stay in line until someone comes to check your papers. They will ask you to switch the lights on and off, rev the bike until a certain rpm, and etc
+- When you reach the gate, just stay in line until someone comes to check your papers. They will ask you to switch the lights on and off, rev the bike until a certain rpm, etc
 
 <figure>
   <img src="/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/5.jpg" alt="Waiting for the inspection to start" />

@@ -1,6 +1,6 @@
 ---
-title: "SapientNitro Fireworks installation"
-cover: "images/logo.png"
+title: SapientNitro Fireworks installation
+cover: /work/fireworks-installation/images/logo.png
 location: UK
 color: "#58B85F"
 categories: sapientnitro prototype design kinect openni openframeworks creative-tech inverted open-source
@@ -13,13 +13,13 @@ template: project
 
 <iframe width="100%" height="550" src="https://www.youtube.com/embed/pgPIYp36Miw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## A Kinect driven hand tracking experiment
+## A Kinect-driven hand tracking experiment
 
-The aim of this experiment is to showcase the hand tracking capabilities of an Xbox Kinect camera connected to a computer.  Using a simple vertical hand gesture recognition, the app is able to create multiple fireworks along the horizontal axis which get fired from the bottom of the screen.
+This experiment aims to showcase the hand tracking capabilities of an Xbox Kinect camera connected to a computer.  Using a simple vertical hand gesture recognition, the app can create multiple fireworks along the horizontal axis which get fired from the bottom of the screen.
 
-To increase the dynamism of the experiment, the app uses random values for the fireworks colours, trail size, gravity, amount of particles, fading, damping, etc...
+To increase the dynamism of the experiment, the app uses random values for the colors of the fireworks, trail size, gravity, amount of particles, fading, damping, etc...
 
-To maximise the audiovisual appeal, the app also features these techniques:
+To maximize the audiovisual appeal, the app also features these techniques:
 
 - 2D Skybox with a seamless background texture
 - Parallax effect (some clouds moving faster than the sky)
@@ -30,7 +30,7 @@ To maximise the audiovisual appeal, the app also features these techniques:
 
 ## Tech used
 
-This app has been coded in an Apple MacBook, using the Xcode IDE. The programming language used is C++ and the main library is OpenFrameworks, a set of open source tools widely used around the world for artistic installations and creative applications.
+This app has been coded in an Apple MacBook, using the Xcode IDE. The programming language used is C++ and the main library is OpenFrameworks, a set of open source tools widely used around the world for art installations and creative applications.
 
 There are also a few OF add-ons worth mentioning:
 
@@ -40,7 +40,7 @@ There are also a few OF add-ons worth mentioning:
 
 All the images and sounds have been obtained from free stock repositories.
 
-This app can be adapted to any screen size and it works in both, landscape and portrait mode. It can also work in Windows and Linux, although a Mac (with a decent CPU) is preferred due to a higher support by the community.
+This app can be adapted to any screen size and it works in both, landscape and portrait mode. It can also work in Windows and Linux, although a Mac (with a decent CPU) is preferred due to higher support by the community.
 
 Note: Kinect cameras cannot be connected to mobile devices or tablets, although their touch screen can be used as controllers for similar apps.
 

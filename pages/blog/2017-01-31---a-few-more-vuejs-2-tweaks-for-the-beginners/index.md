@@ -60,7 +60,7 @@ this.$eventHub.$on('whateverChanged', this.callThisFunction);
 ### Useful VUE 2 videos and libraries
 
 * [Learn VUE 2 step by step](https://laracasts.com/series/learn-vue-2-step-by-step)
-* [Lot's of VUE 2 videos](http://www.codechannels.com/channel/mindspace/)
+* [Lots of VUE 2 videos](http://www.codechannels.com/channel/mindspace/)
 * [Vue.js 2.0 In 60 Minutes](https://www.youtube.com/watch?v=z6hQqgvGI4Y)
 - If you need a CSS library and you are tired of Bootstrap, I recommend [Vue Material](https://vuematerial.github.io). It's super easy and works very well
 - If you need to load JSON, use [Axios](https://github.com/mzabriskie/axios). Vue-resource is no longer maintained.

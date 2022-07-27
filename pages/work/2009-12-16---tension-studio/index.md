@@ -1,6 +1,6 @@
 ---
-title: "Tension Studio"
-cover: "images/logo.png"
+title: Tension Studio
+cover: /work/tension-studio/images/logo.png
 location: Spain
 color: white
 categories: web wordpress consultancy
@@ -9,9 +9,9 @@ template: project
 
 ![](/work/tension-studio/images/0.png)
 
-I met Josep Manen in 2002 and since then, we have partnered in many cultural and artistic projects. He's a very talented musician, specialiasing in sound engineering for multimedia productions and his website features his services and the projects he has created.
+I met Josep Manen in 2002 and since then, we have partnered on many cultural and artistic projects. He's a very talented musician, specializing in sound engineering for multimedia productions and his website features his services and the projects he has created.
 
-Josep asked me to build a Wordpress website for his company: Tension Studio. A few months later, we created a new template with an e-commerce module.
+Josep asked me to build a WordPress website for his company: Tension Studio. A few months later, we created a new template with an e-commerce module.
 
 ![](/work/tension-studio/images/1.jpg)
 

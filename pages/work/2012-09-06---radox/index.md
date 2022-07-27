@@ -1,6 +1,6 @@
 ---
-title: "Radox Radettes Facebook App"
-cover: "images/logo.jpg"
+title: Radox Radettes Facebook App
+cover: /work/radox/images/logo.jpg
 location: UK
 color: white
 categories: wcrs web facebook

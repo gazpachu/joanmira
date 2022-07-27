@@ -1,0 +1,100 @@
+{
+  "site_name": "Joan Mira Studio",
+  "site_description": "Modern Software Engineering & UI/UX Design",
+  "date_format": "en-GB",
+  "lang": {
+    "modal_title": "Languages",
+    "change_title": "¿Cambiar a Español?",
+    "yes": "Yes"
+  },
+  "nav": {
+    "blog": "Blog",
+    "about": "About",
+    "work": "Work",
+    "contact": "Contact",
+    "cv": "Curriculum",
+    "samurai_route": "Samurai Route",
+    "buy_coffee": "Buy me a coffee",
+    "credits": "Credits and tech stack",
+    "privacy": "Privacy policy",
+    "rss": "Blog RSS Feed"
+  },
+  "policies": {
+    "modal_title": "Before you continue...",
+    "modal_body": "By clicking \"Accept All\", you agree to the storing of cookies on your device to enhance site navigation and analyze site usage.",
+    "modal_accept": "Accept All",
+    "modal_read_more": "Learn more"
+  },
+  "categories": {
+    "all": "All Posts",
+    "work": "Work",
+    "tech": "Tech",
+    "samurai_route": "Samurai Route",
+    "japan": "Japan",
+    "film": "Film",
+    "games": "Games",
+    "literature": "Literature"
+  },
+  "work_categories": {
+    "all": "All",
+    "web": "Website",
+    "web_app": "Web App",
+    "mobile": "Mobile App",
+    "desktop": "Desktop App",
+    "creative_tech": "Creative Tech",
+    "open_source": "Open Source"
+  },
+  "work": {
+    "tags": "Tags"
+  },
+  "blog": {
+    "listen_story": "Listen to this story",
+    "subscribe": "Receive the stories by email.<br />No spam or ads. Promise! &#128077;<br />You can unsubscribe anytime",
+    "subscribe_button": "Subscribe to the blog",
+    "buy_coffee": "Did you enjoy this article?<br />You can buy me a coffee &#128521;<br />Much appreciated!",
+    "buy_coffee_button": "Buy a coffee to Joan"
+  },
+  "homepage": {
+    "title": "Software Engineering • UI/UX Design<div>Interactive Art Installations</div>",
+    "watch_video": "Watch the intro video",
+    "coming_soon": "Coming soon",
+    "contact": "Contact\nor connect",
+    "latest": "Last Project",
+    "latest_project": "TableCheck Diner App (Tokyo, Japan)",
+    "teams_title": "Helping teams around the world deliver winning products",
+    "teams_subtitle": "20+ years building websites, apps, interactive installations and digital products for art and education institutions, governments, start-ups, SMEs and multinational corporations",
+    "slide1_title": "Cutting-edge Tech with Radical Simplicity",
+    "slide1_subtitle": "Maximizing the lifespan of your investment is a top priority and KPI",
+    "slide1_block1_title": "Responsive Websites",
+    "slide1_block1_body": "Leveraging the power of custom and tiny <a href=\"https://nodejs.org/\">NodeJs</a> <a href=\"https://www.cloudflare.com/learning/performance/static-site-generator/\">Static Site Generators</a> or big JavaScript <a href=\"https://en.wikipedia.org/wiki/Server-side_scripting#Server-side_rendering\">SSR</a> SSGs like <a href=\"https://www.gatsbyjs.com/\">Gatsby</a> or <a href=\"https://nextjs.org/\">Nextjs</a> to deliver professional, ultra-fast, <a href=\"https://en.wikipedia.org/wiki/Responsive_web_design\">mobile-first</a> websites that last longer and are cheaper and safer to maintain",
+    "slide1_block2_title": "Web & Mobile Apps",
+    "slide1_block2_body": "Building <a href=\"https://en.wikipedia.org/wiki/Internationalization_and_localization\">multi-language</a> <a href=\"https://en.wikipedia.org/wiki/Search_engine_optimization\">SEO</a> friendly <a href=\"https://jamstack.org/\">JAM Stack</a> <a href=\"https://en.wikipedia.org/wiki/Single-page_application\">SPAs</a> and <a href=\"https://web.dev/progressive-web-apps/\">PWAs</a> with <a href=\"https://prerender.io/\">pre-rendering</a>, <a href=\"https://www.typescriptlang.org/\">TypeScript</a>, <a href=\"https://reactjs.org/\">React</a> (<a href=\"https://reactnative.dev/\">Native</a>), <a href=\"https://css-tricks.com/a-thorough-analysis-of-css-in-js/\">CSS-in-JS</a> and <a href=\"https://www.cypress.io/\">Cypress</a> to maximize robustness, scalability and maintainability",
+    "slide1_block3_title": "Best Practices",
+    "slide1_block3_body": "Coding Style Guidelines. <a href=\"https://github.com/\">Github</a> repositories. CI with <a href=\"https://semaphoreci.com/\">Semaphore</a>. <a href=\"https://www.serverless.com/\">Serverless Functions</a>. <a href=\"https://www.netlify.com/products/functions/\">Netlify</a> hosting. Clean code with <a href=\"https://github.com/prettier/prettier\">Prettier</a> and <a href=\"https://github.com/eslint/eslint\">Eslint</a>. Error reporting with <a href=\"https://sentry.io/\">Sentry</a>. Staging and Pilot environments. Postmortems. Security audits",
+    "slide1_block4_title": "Agile Development",
+    "slide1_block4_body": "Fast & flexible implementations with Roadmaps, <a href=\"https://www.scrum.org/\">Scrum</a>, Kanban and sprints to avoid scope creep. <a href=\"https://github.com/semantic-release/semantic-release\">Semantic Releases</a> and extreme documentation with a <a href=\"https://en.wikipedia.org/wiki/Single_source_of_truth\">single source of truth</a>",
+    "slide2_title": "Consistent and user-centered UI UX design",
+    "slide2_subtitle": "When finesse and attention to detail align with easy user journeys and natural interfaces, the magic happens",
+    "slide2_block1_title": "User Testing & Prototyping",
+    "slide2_block1_body": "Before and after building the tech, every product has to be validated by potential users and their feedback taken onboard. This will save you time and money",
+    "slide2_block2_title": "Design Systems",
+    "slide2_block2_body": "It's mandatory for every organization to maintaining the Design Consistency, Brand Guidelines and reusable, accessible and themable components across all its products with the help of <a href=\"https://figma.com\">Figma</a> and <a href=\"https://https://storybook.js.org\">Storybook</a>",
+    "slide2_block3_title": "Interactivity & Gamification",
+    "slide2_block3_body": "Standing-out from the crowd and connecting deeply with your users lie on the ability to provide delightful, emotional or gamified experiences",
+    "slide2_block4_title": "Brand Identity & Marketing",
+    "slide2_block4_body": "Logos, landing pages, multimedia presentations, sales or pitch decks, documentation sites, banners and video production",
+    "slide3_title": "Data and Content Management that scales",
+    "slide3_subtitle": "Keeping your data and your customers&apos; data safe, well organized and easy to update",
+    "slide3_block1_title": "Headless CMS Integration",
+    "slide3_block1_body": "Whether your organization prefers <a href=\"https://storyblok.com\">StoryBlok</a>, <a href=\"https://contentful.com\">Contentful</a>, <a href=\"https://strapi.com\">Strapi</a>, <a href=\"https://directus.io\">Directus</a>, <a href=\"https://ghost.org\">Ghost</a> or markdown files, the recommendation is to keep the content detached from your front-end",
+    "slide3_block2_title": "Back-end Architecture",
+    "slide3_block2_body": "Custom <a href=\"https://en.wikipedia.org/wiki/Representational_state_transfer\">REST</a> or <a href=\"https://en.wikipedia.org/wiki/GraphQL\">GraphQL</a> <a href=\"https://en.wikipedia.org/wiki/API\">API</a> implementation using <a href=\"https://nodejs.org/\">NodeJs</a> and <a href=\"https://expressjs.com\">Express</a> web server. Database and <a href=\"https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping\">ORM</a> integration with <a href=\"https://www.prisma.io/\">Prisma</a>, <a href=\"https://www.mongodb.com/\">MongoDB</a>, <a href=\"https://www.postgresql.org/\">PostgreSQL</a> or <a href=\"https://www.mysql.com/\">MySQL</a>",
+    "slide3_block3_title": "Cloud Computing",
+    "slide3_block3_body": "<a href=\"https://www.cloudflare.com/learning/serverless/glossary/backend-as-a-service-baas/\">BaaS</a> (like <a href=\"https://firebase.google.com/\">Firebase</a>), <a href=\"https://www.cloudflare.com/learning/serverless/glossary/function-as-a-service-faas/\">FaaS</a>, <a href=\"https://cloud.google.com/learn/what-is-iaas\">IaaS</a>, <a href=\"https://www.cloudflare.com/learning/serverless/glossary/platform-as-a-service-paas/\">PaaS</a>, whichever model or vendor (<a href=\"https://aws.amazon.com/\">AWS</a>,  <a href=\"https://cloud.google.com\">Google</a>) your organization needs to use for your <a href=\"https://en.wikipedia.org/wiki/Software_as_a_service\">SaaS</a> product",
+    "slide3_block4_title": "Performance / Optimization",
+    "slide3_block4_body": "Caching with <a href=\"https://redis.io/\">Redis</a> for apps with high-traffic</a>"
+  },
+  "search": {
+    "results": "No results for <q>{{query}}</q>"
+  }
+}

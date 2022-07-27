@@ -29,6 +29,10 @@
   border-radius: 3px;
 }
 
+.red-tag { background-color: #C76D72; }
+.gold-tag { background-color: #C19F92; }
+.blue-tag { background-color: #5C93AB; }
+
 .btn {
   box-sizing: content-box;
   margin-bottom: 5px;
@@ -110,26 +114,56 @@ blockquote p {
   align-items: self-end;
 }
 
-#modal-consent article {
+dialog article {
   margin: 0;
 }
 
-#modal-consent header,
-#modal-consent footer {
+dialog header,
+dialog footer {
   padding-top: 12px;
   padding-bottom: 12px;
 }
 
-#modal-consent header {
+dialog header {
   margin-bottom: 8px;
 }
 
-#modal-consent footer {
+dialog footer {
   margin-top: 8px;
 }
 
-#modal-consent button {
+dialog button {
   width: auto;
   display: inline-block;
   margin-bottom: 0;
+}
+
+#lang-detection {
+  display: none;
+  width: 100%;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  color: black;
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+[data-theme="dark"] #lang-detection {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.lang-detection-buttons {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+}
+
+.lang-detection-buttons a {
+  margin-right: 4px;
+}
+
+.lang-detection-buttons button {
+  margin: 0;
 }

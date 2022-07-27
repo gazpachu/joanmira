@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="<%= frontmatter.lang %>">
+<html lang="<%= lang %>">
 
 <head>
   <%- include('head'); %>
@@ -94,16 +94,16 @@
     <div class="main-wrapper">
       <div class="content"></div>
       <div id="filters">
-        <a href="/blog" id="all-filter" role="button" data-blog-category="all" class="secondary">All Posts</a>
-        <a href="/blog/category/work" role="button" data-blog-category="work" class="secondary">Work</a>
-        <a href="/blog/category/tech" role="button" data-blog-category="tech" class="secondary">Tech</a>
-        <a href="/blog/category/samurai-route" role="button" data-blog-category="samurai-route"
-          class="secondary">Samurai Route</a>
-        <a href="/blog/category/japan" role="button" data-blog-category="japan" class="secondary">Japan</a>
-        <a href="/blog/category/film" role="button" data-blog-category="film" class="secondary">Film</a>
-        <a href="/blog/category/games" role="button" data-blog-category="games" class="secondary">Games</a>
-        <a href="/blog/category/literature" role="button" data-blog-category="literature"
-          class="secondary">Literature</a>
+        <a href="<%= localePath %>/blog" id="all-filter" role="button" data-blog-category="all" class="secondary"><%= translations.categories.all %></a>
+        <a href="<%= localePath %>/blog/category/work" role="button" data-blog-category="work" class="secondary"><%= translations.categories.work %></a>
+        <a href="<%= localePath %>/blog/category/tech" role="button" data-blog-category="tech" class="secondary"><%= translations.categories.tech %></a>
+        <a href="<%= localePath %>/blog/category/samurai-route" role="button" data-blog-category="samurai-route"
+          class="secondary"><%= translations.categories.samurai_route %></a>
+        <a href="<%= localePath %>/blog/category/japan" role="button" data-blog-category="japan" class="secondary"><%= translations.categories.japan %></a>
+        <a href="<%= localePath %>/blog/category/film" role="button" data-blog-category="film" class="secondary"><%= translations.categories.film %></a>
+        <a href="<%= localePath %>/blog/category/games" role="button" data-blog-category="games" class="secondary"><%= translations.categories.games %></a>
+        <a href="<%= localePath %>/blog/category/literature" role="button" data-blog-category="literature"
+          class="secondary"><%= translations.categories.literature %></a>
       </div>
       <ul id="listing-content">
         <% listingItems.forEach(function(item){ %>

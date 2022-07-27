@@ -1,6 +1,6 @@
 ---
-title: "Save Guimaras"
-cover: "images/logo.jpg"
+title: Save Guimaras
+cover: /work/save-guimaras/images/logo.jpg
 location: Spain
 color: "#a9d4ff"
 categories: web wordpress ux design
@@ -13,4 +13,4 @@ template: project
 
 ![](/work/save-guimaras/images/1.png)
 
-This is a simple Wordpress blog I built with a custom theme.
+This is a simple WordPress blog I built with a custom theme.

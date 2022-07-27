@@ -1,6 +1,6 @@
 ---
-title: "Mi primer atlas"
-cover: "images/logo.png"
+title: Mi primer atlas
+cover: /work/mi-primer-atlas/images/logo.png
 location: Spain
 color: white
 categories: flash animation ibcmass desktop
@@ -9,7 +9,7 @@ template: project
 
 ![](/work/mi-primer-atlas/images/1.png)
 
-As part of my partnership with [IBCMass](http://www.ibcmass.com/), I built an interactive Flash educational app for kids. All the user interface is custom made, with many interactive elements, puzzles and games, most of them using the drag&drop metaphor.
+As part of my partnership with [IBCMass](http://www.ibcmass.com/), I built an interactive Flash educational app for kids. All the user interface is custom-made, with many interactive elements, puzzles and games, most of them using the drag&drop action.
 
 ![](/work/mi-primer-atlas/images/2.jpg)
 

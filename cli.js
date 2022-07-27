@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 
 require('dotenv').config();
+const enTranslations = require('./i18n/en.json');
+const esTranslations = require('./i18n/es.json');
 const { exec } = require('child_process');
 const path = require('path');
 const fs = require('fs-extra');
@@ -16,34 +18,72 @@ let ejs = require('ejs');
 
 const scriptArgs = process.argv.slice(2);
 const command = scriptArgs[0];
-const dateRegEx = /\d{4}-\d{2}-\d{2}---/;
+const dateAndSeparatorRegEx = /\d{4}-\d{2}-\d{2}---/;
+const dateRegEx = /\d{4}-\d{2}-\d{2}/;
 const host = 'https://www.joanmira.com';
-const name = 'Joan Mira Studio';
-const description = 'Modern Software Engineering & UI/UX Design';
-const dateFormatter = new Intl.DateTimeFormat('en-GB', { month: 'long', year: 'numeric', day: 'numeric' });
 const sitemap = [];
 const algoliaPages = [];
 const algoliaClient = algoliasearch(process.env.ALGOLIA_APP_ID, process.env.ALGOLIA_API_KEY);
 const algoliaIndex = algoliaClient.initIndex(process.env.ALGOLIA_INDEX);
 const feed = new Feed({
-  title: name,
-  description,
+  title: enTranslations.site_name,
+  description: enTranslations.site_description,
   id: host,
   link: host,
   language: "en",
   image: `${host}/img/apple-touch-icon.png`,
   favicon: `${host}/img/favicon.ico`,
-  copyright: `All rights reserved ${new Date().getFullYear()}, ${name}`,
+  copyright: `All rights reserved ${new Date().getFullYear()}, ${enTranslations.site_name}`,
   generator: "",
   feedLinks: {
     atom: `${host}/rss.xml`
   },
   author: {
-    name: name,
+    name: enTranslations.site_name,
     email: "hello@joanmira.com",
     link: host
   }
 });
+const feedEs = new Feed({
+  title: esTranslations.site_name,
+  description: esTranslations.site_description,
+  id: `${host}-es`,
+  link: `${host}/es`,
+  language: "es",
+  image: `${host}/img/apple-touch-icon.png`,
+  favicon: `${host}/img/favicon.ico`,
+  copyright: `Todos los derechos reservados ${new Date().getFullYear()}, ${esTranslations.site_name}`,
+  generator: "",
+  feedLinks: {
+    atom: `${host}/es/rss.xml`
+  },
+  author: {
+    name: esTranslations.site_name,
+    email: "hello@joanmira.com",
+    link: `${host}/es`,
+  }
+});
+
+const renderer = {
+  image(href, title, text) {
+    if (!href.endsWith(`.svg`)) {
+      return `
+      <figure>
+        <picture>
+          <source media="(min-width: 769px)" type="image/webp" srcset="${href.replace('.jpg', '.webp')}" />
+          <source media="(min-width: 769px)" type="image/jpeg" srcset="${href}" />
+          <source media="(min-width: 320px)" type="image/webp" srcset="${href.replace('.jpg', '-mobile.webp')}" />
+          <source media="(min-width: 320px)" type="image/jpeg" srcset="${href.replace('.jpg', '-mobile.jpg')}" />
+          <img class="image" src="${href}" alt="${title || text}" loading="lazy">
+        </picture>
+        <figcaption>${title || text}</figcaption>
+      </figure>`;
+    }
+    return false;
+  }
+};
+
+marked.use({ renderer });
 
 switch (command) {
   case 'build':
@@ -65,9 +105,11 @@ async function build(folderOrFile) {
     );
 
     console.log('Renaming blog files...');
-    await renameFolders('public/blog', dateRegEx, '');
+    await renameFolders('public/blog', dateAndSeparatorRegEx, '');
+    await renameFolders('public/es/blog', dateAndSeparatorRegEx, '');
     console.log('Renaming work files...');
-    await renameFolders('public/work', dateRegEx, '');
+    await renameFolders('public/work', dateAndSeparatorRegEx, '');
+    await renameFolders('public/es/work', dateAndSeparatorRegEx, '');
   }
 
   console.log('Copying static files...');
@@ -83,6 +125,7 @@ async function build(folderOrFile) {
   if (process.env.NODE_ENV === 'production') {
     console.log('Generating RSS feed');
     await fs.writeFile('public/rss.xml', feed.rss2());
+    await fs.writeFile('public/es/rss.xml', feedEs.rss2());
 
     console.log('Generating sitemap');
     const xmlObject = {
@@ -160,28 +203,36 @@ async function processPage(pagePath) {
   const fileData = await fs.readFile(pagePath, 'utf-8');
   const { attributes: frontmatter, body: markdown } = await fm(fileData);
   const content = marked(markdown);
-  const datePart = pagePath.match(dateRegEx);
+  const datePart = pagePath.match(dateAndSeparatorRegEx);
   const isoDate = datePart ? datePart[0].replace('---', '') : '';
   const date = isoDate ? new Date(isoDate) : null;
-  const formattedDate = date ? dateFormatter.format(date) : '';
   const pagePathParts = pagePath.replace('pages/', '').split('/');
-  const pageName = pagePathParts.pop().split('.md')[0];
+  pagePathParts.pop().split('.md');
   let targetPath = pagePathParts.join('/');
   targetPath = frontmatter.template === 'post' || frontmatter.template === 'project'
-    ? targetPath.replace(dateRegEx, '')
+    ? targetPath.replace(dateAndSeparatorRegEx, '')
     : targetPath;
   const url = `${host}/${targetPath}`;
   const imagePath = `/${targetPath}/${frontmatter.cover}`;
-  const pageTitle = frontmatter.template !== 'homepage' ? frontmatter.title : `${name} • ${description}`;
-  const pageDescription = frontmatter.description || description;
-  const lang = frontmatter.lang === 'es' ? 'es' : 'en';
+  const lang = targetPath.startsWith('es') ? 'es' : 'en';
+  const localePath = lang === 'es' ? '/es' : '';
+  const translations = lang === 'es' ? esTranslations : enTranslations;
+  const dateFormatter = new Intl.DateTimeFormat(lang === 'es' ? 'es-ES' : 'en-GB', { month: 'long', year: 'numeric', day: 'numeric' });
+  const formattedDate = date ? dateFormatter.format(date) : '';
+  const pageTitle = frontmatter.template !== 'homepage' ? frontmatter.title : `${translations.site_name} • ${translations.site_description}`;
+  const pageDescription = frontmatter.description || translations.site_description;
   const imageUrl = frontmatter.cover ? `${host}/${targetPath}/${frontmatter.cover}` : null;
   const type = frontmatter.template === 'post' || frontmatter.template === 'project' ? 'article' : 'website';
   const listingItems = [];
 
+  let alternateUrl = targetPath.startsWith('es/') ? targetPath.replace('es/', '/') : `/es/${targetPath}`;
+  const canonicalPath = targetPath.startsWith('es/') ? targetPath.replace('es/', '') : targetPath;
+  if (targetPath === 'es') { alternateUrl = '/'; }
+  if (targetPath === '') { alternateUrl = '/es'; }
+
   // Build listing items
   if (frontmatter.isListingPage) {
-    await processDirectory(`pages/${frontmatter.template}`, processListingItem, frontmatter.template, frontmatter.category, listingItems);
+    await processDirectory(`pages${localePath}/${frontmatter.template}`, processListingItem, targetPath.startsWith('es') ? `es/${frontmatter.template}` : frontmatter.template, frontmatter.category, listingItems);
   }
 
   // Parse template
@@ -189,14 +240,18 @@ async function processPage(pagePath) {
   const template = await fs.readFile(templatePath, 'utf-8');
   const parsedTemplate = ejs.render(template, {
     frontmatter,
+    translations,
+    localePath,
     pageTitle,
     pageDescription,
     lang,
     url,
-    name,
+    alternateUrl,
+    name: translations.site_name,
     imageUrl,
     type,
     imagePath,
+    canonicalPath,
     date,
     formattedDate,
     url,
@@ -207,10 +262,10 @@ async function processPage(pagePath) {
   }, { filename: templatePath });
 
   // Generate final HTML file
-  await fs.writeFile(`public/${targetPath}/${pageName}.html`, parsedTemplate);
+  await fs.writeFile(`public/${targetPath}/index.html`, parsedTemplate);
 
   if (frontmatter.template === 'post') {
-    feed.addItem({
+    const item = {
       title: frontmatter.title,
       id: url,
       link: url,
@@ -218,7 +273,8 @@ async function processPage(pagePath) {
       content: content,
       date,
       image: imageUrl
-    });
+    };
+    lang === 'es' ? feedEs.addItem(item) : feed.addItem(item);
   }
 
   sitemap.push({
@@ -251,11 +307,13 @@ async function processListingItem(pagePath, listingSlug, category = null, listin
   // Skip the following scenarios
   if (category && frontmatter.category !== category) return;
   if (pagePath === `pages/${listingSlug}/index.md` || pagePath.includes('/category/')) return;
-
-  const date = new Date(pagePath.substring(11, 21));
-  let slug = pagePath.replace('/index.md', '').substring(24, pagePath.length);
+  const pagePathDateMatch = pagePath.match(dateRegEx);
+  const date = pagePathDateMatch ? new Date(pagePathDateMatch[0]) : null;
+  const pagePathCleaned = pagePath.replace('/index.md', '');
+  let slug = pagePathCleaned.substring(pagePathCleaned.search('---') + 3, pagePath.length);
   slug = `/${listingSlug}/${slug}`;
-  const imagePath = frontmatter.cover ? `${slug}/${frontmatter.cover.replace('.jpg', '-mobile.jpg')}` : '';
+  const imagePath = frontmatter.cover ? frontmatter.cover.replace('.jpg', '-mobile.jpg') : '';
+  const dateFormatter = new Intl.DateTimeFormat(listingSlug.startsWith('es/') ? 'es-ES' : 'en-GB', { month: 'long', year: 'numeric', day: 'numeric' });
 
   listingItems.push({
     frontmatter,

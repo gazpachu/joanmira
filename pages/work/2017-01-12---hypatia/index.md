@@ -1,6 +1,6 @@
 ---
-title: "Hypatia LMS"
-cover: "images/logo.png"
+title: Hypatia LMS
+cover: /work/hypatia/images/logo.png
 location: Spain
 color: "#2a6eb5"
 categories: react redux webpack web-app web ux design open-source prototype inverted
@@ -15,7 +15,7 @@ template: project
 
 ![](/work/hypatia/images/1.png)
 
-Hypatia was my University final project. It is an open source LMS (Learning Management System) focussed on MOOCs.
+Hypatia was my University final project. It is an open-source LMS (Learning Management System) focused on MOOCs.
 
 <iframe width="100%" height="550" style="margin-bottom: 20px" src="https://www.youtube.com/embed/YlZpcrvJcbs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

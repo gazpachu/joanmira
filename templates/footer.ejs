@@ -1,7 +1,7 @@
 <footer id="footer">
   <div class="menu">
     <div class="logo-wrapper">
-      <a class="logo" href="/">
+      <a class="logo" href="<% if(lang == 'es'){ %><%= localePath %><% } else { %>/<% } %>">
         <svg width="669" height="669" viewBox="0 0 669 669" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M643 334.5C643 505.441 504.871 644 334.5 644C164.129 644 26 505.441 26 334.5C26 163.559 164.129 25 334.5 25C504.871 25 643 163.559 643 334.5Z" stroke="currentColor" stroke-width="6"/>
           <path d="M664 334.5C664 516.478 516.478 664 334.5 664C152.522 664 5 516.478 5 334.5C5 152.522 152.522 5 334.5 5C516.478 5 664 152.522 664 334.5Z" stroke="currentColor" stroke-width="10"/>
@@ -25,27 +25,27 @@
     </div>
     <ul>
       <li>
-        <a href="/blog">Blog</a>
+        <a href="<%= localePath %>/blog"><%= translations.nav.blog %></a>
       </li>
       <li>
-        <a href="/about">About</a>
+        <a href="<%= localePath %>/about"><%= translations.nav.about %></a>
       </li>
       <li>
-        <a href="/work">Work</a>
+        <a href="<%= localePath %>/work"><%= translations.nav.work %></a>
       </li>
       <li>
-        <a href="/contact">Contact</a>
+        <a href="<%= localePath %>/contact"><%= translations.nav.contact %></a>
       </li>
     </ul>
     <ul>
       <li>
-        <a href="/cv">Curriculum</a>
+        <a href="<%= localePath %>/cv"><%= translations.nav.cv %></a>
       </li>
       <li>
-        <a href="/samurai-route">Samurai Route</a>
+        <a href="<%= localePath %>/samurai-route"><%= translations.nav.samurai_route %></a>
       </li>
       <li>
-        <a href="https://ko-fi.com/joanmira">Buy me a coffee</a>
+        <a href="https://ko-fi.com/joanmira"><%= translations.nav.buy_coffee %></a>
       </li>
     </ul>
     <ul>
@@ -56,6 +56,9 @@
         <a href="#">Creative Technology</a>
       </li>
       <li>
+        <a href="#">Art Installations</a>
+      </li>
+      <li>
         <a href="#">UI UX Design</a>
       </li>
     </ul>
@@ -63,15 +66,15 @@
   <div class="strip-wrapper">
     <div class="strip">
       <ul>
-        <li>&copy <script>document.write(new Date().getFullYear())</script> Joan Mira </li>
+        <li>&copy <script>document.write(new Date().getFullYear())</script> <%= translations.site_name %></li>
         <li>
-          <a href="/credits">Credits and tech stack</a>
+          <a href="<%= localePath %>/credits"><%= translations.nav.credits %></a>
         </li>
         <li>
-          <a href="/privacy">Privacy policy</a>
+          <a href="<%= localePath %>/privacy"><%= translations.nav.privacy %></a>
         </li>
         <li>
-          <a href="/rss.xml">Blog RSS Feed</a>
+          <a href="<%= localePath %>/rss.xml"><%= translations.nav.rss %></a>
         </li>
       </ul>
       <div class="share-links">
@@ -104,11 +107,21 @@
 </footer>
 <dialog id="modal-consent" class="modal-is-opening">
   <article>
-    <header>Before you continue...</header>
-    <p>By clicking &quot;Accept All&quot;, you agree to the storing of cookies on your device to enhance site navigation and analyze site usage.</p>
+    <header><%= translations.policies.modal_title %></header>
+    <p><%= translations.policies.modal_body %></p>
     <footer>
-      <button onclick="setConsentModalState(false); initDataCapture();">Accept All</button>
-      <a href="/privacy" role="button" class="secondary">Learn more</a>
+      <button onclick="setConsentModalState(false); initDataCapture();"><%= translations.policies.modal_accept %></button>
+      <a href="<%= localePath %>/privacy" role="button" class="secondary"><%= translations.policies.modal_read_more %></a>
+    </footer>
+  </article>
+</dialog>
+<dialog id="modal-lang">
+  <article>
+    <header><%= translations.lang.modal_title %></header>
+    <p><%= translations.lang.change_title %></p>
+    <footer>
+      <a href="<%= alternateUrl %>" role="button"><%= translations.lang.yes %></a>
+      <button class="secondary" data-target="modal-lang" onClick="toggleModal(event);"">No</button>
     </footer>
   </article>
 </dialog>

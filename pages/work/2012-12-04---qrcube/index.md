@@ -1,7 +1,7 @@
 ---
-title: "QRCube game"
-cover: "images/logo.jpg"
-location: UK
+title: El juego del QRCube
+cover: /work/qrcube/images/logo.jpg
+location: Reino Unido
 color: white
 categories: wcrs open-source web creative-tech prototype ux design
 template: project
@@ -9,8 +9,8 @@ template: project
 
 ![](/work/qrcube/images/1.png)
 
-QRCube is a trivial game that uses QR Codes to trigger the questions. It's built using a custom template (50x50x50 mm) that you need to print and glue to form a cube.
+QRCube es un juego sencillo que utiliza códigos QR para activar las preguntas. Se construye utilizando una plantilla personalizada (50x50x50 mm) que hay que imprimir y pegar para formar un cubo.
 
-Each side has a QR Code with a different color and represents a team or a player. Each team has to throw the cube by turns and scan the code on top. After scanning, you get redirected to a URL with a random question for the team whose color corresponds to the code scanned.
+Cada lado tiene un código QR de un color diferente y representa a un equipo o a un jugador. Cada equipo tiene que lanzar el cubo por turnos y escanear el código de la parte superior. Después de escanearlo, se le redirige a una URL con una pregunta aleatoria para el equipo cuyo color corresponde al código escaneado.
 
-The app allows the players and teams to signup (to create their own QR code) and join the game and also keeps track of the correct/failed answers.
+La aplicación permite a los jugadores y a los equipos registrarse (para crear su código QR) y unirse al juego, y también lleva la cuenta de las respuestas correctas/falladas.

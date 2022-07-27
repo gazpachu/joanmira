@@ -1,7 +1,7 @@
 ---
-title: "GAZ New Media Design"
-cover: "images/logo.png"
-location: Spain
+title: GAZ New Media Design
+cover: /work/gazpachu/images/logo.png
+location: España
 color: black
 categories: web flash wordpress animation custom-cms joomla inverted
 template: project
@@ -17,7 +17,7 @@ template: project
 
 ![](/work/gazpach/work/gazpachu/images/1.jpg)
 
-GAZ New Media Design (aka gazpachu.com) was my first identity as a freelance web designer. It was created as a very naive and unpretentious brand. My target was to learn as I go with the process of building websites. After a few years, I decided to get rid of it (in a professional level) and convert it into a personal blog (v5), which after a few years I also decided to kill it in favour of joanmira.com.
+GAZ New Media Design (aka gazpachu.com) was my first identity as a freelance web designer. It was created as a very naive and unpretentious brand. My target was to learn as I go through the process of building websites. After a few years, I decided to get rid of it (on a professional level) and convert it into a personal blog (v5), which after a few years I also decided to kill it in favor of joanmira.com.
 
 The showcase of the following websites is just for fun, please don't take them too seriously...
 

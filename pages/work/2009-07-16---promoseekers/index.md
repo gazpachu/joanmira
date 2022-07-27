@@ -1,6 +1,6 @@
 ---
-title: "Promoseekers"
-cover: "images/logo.png"
+title: Promoseekers
+cover: /work/promoseekers/images/logo.png
 location: Spain
 color: white
 categories: web joomla ux design webmarket

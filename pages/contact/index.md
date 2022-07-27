@@ -1,10 +1,56 @@
 ---
 title: Contact
-cover: images/cover.jpg
 ---
 
-You can subscribe to the blog via [RSS feed](/rss.xml) or by [Email](http://eepurl.com/bgk17b).
+<style>
+  .form {
+    min-width: 100%;
+  }
+  @media screen and (min-width: 651px) {
+    .flex {
+      display: flex;
+    }
 
-For code-related questions, please open an issue in the relevant [GitHub repository](https://github.com/gazpachu) or [blog post](/blog).
+    .form {
+      min-width: 50%;
+      padding-right: calc(var(--gutter) * 2);
+      margin-right: calc(var(--gutter) * 2);
+      border-right: 1px solid var(--form-element-border-color);
+    }
+  }
+  input, textarea {
+    width: 100%;
+    margin-bottom: var(--gutter);
+  }
+  textarea {
+    height: 150px;
+  }
+</style>
+<div class="flex">
+  <form
+    id="contact-form"
+    netlify
+    class="form"
+  >
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Name" required>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Email" required>
+    <label>Attach a file (max. 8 MB)</label>
+    <input type="file" name="upload">
+    <label for="message">Message</label>
+    <textarea name="message" id="message" placeholder="Message" required></textarea>
+    <button type="submit" id="contact-form-button">Send</button>
+    <p id="contact-form-status" data-thanks="Thanks for your submission!" data-error="Oops! There was a problem submitting your form. Please try again"></p>
+  </form>
+<div>
 
-For anything else, you can reach out by [Email](mailto:hello[@]joanmira[.]com), [LinkedIn](http://linkedin.com/in/joanmira), [Twitter](http://twitter.com/gazpachu), [Github](http://github.com/gazpachu), [TikTok](https://www.tiktok.com/@gazpachu) or [CodePen](http://codepen.io/gazpachu).
+To **request a quote**, please include company and project information, your CV or LinkedIn profile, and availability for an online meeting.
+
+If you are **looking for a job** or are interested in **collaborating on a project**, please include your CV or LinkedIn profile and available timeslots for an online meeting.
+
+For open-source code-related questions, please open an issue in the relevant [GitHub repository](https://github.com/gazpachu) or [blog post](/blog).
+
+Many thanks! • hello@joanmira.com
+</div>
+</div>

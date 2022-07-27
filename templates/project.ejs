@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="<%= frontmatter.lang %>">
+<html lang="<%= lang %>">
   <head>
     <%- include('head'); %>
   </head>
@@ -11,7 +11,7 @@
           <h1>
             <%= frontmatter.title %><time class="year project-tag"><%= date.getFullYear() %></time>
           </h1>
-          <div class="project-tags">Tags: <%= frontmatter.categories.replace('inverted', '') %></div>
+          <div class="project-tags"><%= translations.work.tags %>: <%= frontmatter.categories.replace('inverted', '') %></div>
         </div>
         <div class="body">
           <%- content %>

@@ -1,9 +1,9 @@
 <li class="<%= item.frontmatter.categories %>" style="background-color: <%= item.frontmatter.color %>">
   <a href="<%= item.slug %>" class="link">
     <picture>
-      <source srcset="<%= item.slug %>/<%= item.frontmatter.cover.replace('.jpg', '.webp') %>" type="image/webp">
-      <source srcset="<%= item.slug %>/<%= item.frontmatter.cover %>" type="image/jpeg">
-      <img class="logo" src="<%= item.slug %>/<%= item.frontmatter.cover %>" alt="<%= item.frontmatter.title %>" width="250" height="170"
+      <source srcset="<%= item.frontmatter.cover.replace('.jpg', '.webp') %>" type="image/webp">
+      <source srcset="<%= item.frontmatter.cover %>" type="image/jpeg">
+      <img class="logo" src="<%= item.frontmatter.cover %>" alt="<%= item.frontmatter.title %>" width="250" height="170"
         loading="lazy">
     </picture>
     <div class="project-content">

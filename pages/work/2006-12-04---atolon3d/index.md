@@ -1,6 +1,6 @@
 ---
-title: "Atolon 3d"
-cover: "images/logo.jpg"
+title: Atolon 3d
+cover: /work/atolon3d/images/logo.jpg
 location: Spain
 color: black
 categories: web flash animation inverted custom-cms ux design webmarket mysql php

@@ -1,6 +1,6 @@
 ---
-title: "Maple"
-cover: "images/logo.png"
+title: Maple
+cover: /work/maple/images/logo.png
 location: UK
 color: "#5c6ab4"
 categories: vodafone vue vuex webpack material-ui web-app design ux inverted
@@ -11,9 +11,9 @@ Maple is an app to manage the sales hierarchy in Vodafone. It allows to add new 
 
 ![](/work/maple/images/1.png "Home page")
 
-In this project, I owned the 100% of the front-end build until it was published. Later on, I worked in a couple of more journeys (joiners/leavers, change teams) and features with another co-worker.
+In this project, I owned 100% of the front-end build until it was published. Later on, I worked on a couple of more journeys (joiners/leavers, change teams) and features with another co-worker.
 
-Maple was built using VueJS, Vuex (to manage the global state) and the Material-UI library for Vue. It also uses a library called [OrgChart](https://github.com/dabeng/OrgChart) to build the organigram in the homepage. I also added a chatbot with speech recognition powered by [Dialogflow](https://dialogflow.com/) (formerly known as Api.ai).
+Maple was built using VueJS, Vuex (to manage the global state) and the Material-UI library for Vue. It also uses a library called [OrgChart](https://github.com/dabeng/OrgChart) to build the organigram on the homepage. I also added a chatbot with speech recognition powered by [Dialogflow](https://dialogflow.com/) (formerly known as Api.ai).
 
 ![](/work/maple/images/2.jpg "Adding a new employee")
 

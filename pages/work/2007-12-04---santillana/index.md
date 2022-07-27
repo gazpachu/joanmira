@@ -1,6 +1,6 @@
 ---
-title: "Santillana desktop app"
-cover: "images/logo.jpg"
+title: Santillana desktop app
+cover: /work/santillana/images/logo.jpg
 location: Spain
 color: white
 categories: narcea flash animation desktop
@@ -9,11 +9,11 @@ template: project
 
 ![](/work/santillana/images/0.png)
 
-As part of my business relationship with Narcea Multimedia, I built several interactive CDs for [Santillana](http://www.santillana.es/), a well known book publisher specialised in educational materials.
+As part of my business relationship with Narcea Multimedia, I built several interactive CDs for [Grupo Santillana](https://santillana.com/en/), a well-known book publisher specializing in educational materials.
 
 This project was big, with many different interactive pieces, animations, games, narrations, scorm integration and other accessibility aids.
 
-The range of created apps go from the human body, hygiene, alimentation to games, prevention of accidents, hydrotherapy, music-therapy, animals and plants, etc.
+The range of created apps goes from the human body, hygiene, and alimentation to games, prevention of accidents, hydrotherapy, music therapy, animals and plants, etc.
 
 ![](/work/santillana/images/1.jpg)
 

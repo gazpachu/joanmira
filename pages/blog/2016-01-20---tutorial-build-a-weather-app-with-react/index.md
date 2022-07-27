@@ -16,7 +16,7 @@ It's a very simple app that can be coded in a few hours, so you should try to do
 ### Functional requirements
 
 * Display the city name, current weather icon, temperature, humidity and wind speed
-The background color changes based on the temperature
+* The background color changes based on the temperature
 * Loads a city name using the query string '?city=Madrid'
 * Loads comma-separated cities and rotates them after 5s
 * Cache the API data and refresh it after 5m
@@ -26,7 +26,7 @@ The background color changes based on the temperature
 
 * Cross-browser compatible back to Internet Explorer 9
 * Don't use jQuery
-* Use the [League Gothic](https://edgewebfonts.adobe.com/fonts#/?nameFilter=League Gothic&collection=league-gothic) font
+* Use the [League Gothic](https://fonts.adobe.com/fonts/league-gothic) font
 * Use the weather icons from [Erik Flowers](erikflowers.github.io/weather-icons/)
 * Use the data from [Open Weather Map](http://openweathermap.org/apihttp://openweathermap.org/api)
 * Use [Node.js](https://nodejs.org/en/) and [Bower](http://bower.io/)
@@ -91,7 +91,7 @@ NPM uses a file called package.json as a reference for all the dependencies that
 
 Let's start by creating a folder called '**react-weather**' whichever you prefer on your computer.
 
-Then open the console/terminal, cd to that folder and type 'npm init'. You will be prompted with a few questions which we don't need to answer. Just keep pressing enter until you exit the process.
+Then open the console/terminal, cd to that folder and type `npm init`. You will be prompted with a few questions which we don't need to answer. Just keep pressing enter until you exit the process.
 
 Now you should have a package.json file in your folder.
 
@@ -766,6 +766,6 @@ Type 'gulp' in the console/terminal and cross your fingers!
 
 If it works, congratulations! if it doesn't, try to debug the error messages and find a fix. If you get stuck, then post a comment here and I will try to help you.
 
-This was my first React app and I'm excited to continue learning about Flux, Reflux, the router, etc. So, please, send me your suggestions or let me know if the app could be improved in any way. Thanks and I hope you enjoyed it! :-)
+This was my first React app and I'm excited to continue learning about Flux, Reflux, the router, etc. So, please, send me your suggestions or let me know if the app could be improved in any way. Thanks and I hope you enjoyed it!
 
-**UPDATE**: You DO need to create your own API Key and set it in the apiUrl variable in `/src/utils/api.jsx`, otherwise your requests will be blocked at some point :-)
+**UPDATE**: You DO need to create your own API Key and set it in the apiUrl variable in `/src/utils/api.jsx`, otherwise your requests will be blocked at some point.

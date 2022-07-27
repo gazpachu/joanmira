@@ -1,9 +1,9 @@
 ---
-title: "TableCheck's new Diner App"
-cover: "images/logo.png"
+title: TableCheck's new Diner App
+cover: /work/diner-app/images/logo.png
 location: Japan
 color: "#96A1FF"
-categories: react emotion mapbox maps web-app prototype
+categories: react emotion mapbox maps web-app prototype featured
 template: project
 ---
 
@@ -15,9 +15,9 @@ template: project
 
 The new Diner App is a renovated version of the app currently published at tablecheck.com. It's a restaurant search engine with multiple filtering and display options. It also includes a user account section where diners can manage their TableCheck reservations.
 
-I built around 90% of the front-end and 50% of the design. The API was already built years ago.
+I built around 90% of the front end and 50% of the design. The API was already built years ago.
 
-It is based on <a href="/wekohi">Wekohi</a> but with many new upgrades, some of them include:
+It is based on <a href="/wekohi">Wekohi</a> but with many new upgrades compared with the previous version, some of them include:
 
 - A new homepage design with easier-to-update banners
 - Venue search is available from any page with a command palette
@@ -33,7 +33,7 @@ Some other planned features include:
 - Ability to create and share custom lists, rankings, and selections of venues
 - CMS Integration for the homepage
 - Implement a venue review system based on aggregated reviews, or use something like Kuchikomi.com or partoo.com 
-- Add more specific filters, like remote work/pet/child friendly
+- Add more specific filters, like remote work, pet/child friendly, etc
 
 ### Screenshots
 

@@ -1,7 +1,7 @@
 ---
-title: "Iván Torres"
-cover: "images/logo.png"
-location: Spain
+title: Iván Torres
+cover: /work/ivan-torres/images/logo.png
+location: España
 color: black
 categories: web flash custom-cms ux consultancy inverted
 template: project
