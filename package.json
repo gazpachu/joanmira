@@ -24,7 +24,7 @@
     "front-matter": "4.0.2",
     "fs-extra": "10.1.0",
     "marked": "4.0.14",
-    "minify": "8.0.4",
+    "minify": "9.1.0",
     "sharp": "0.30.5",
     "utf8-binary-cutter": "0.9.2",
     "xml": "1.0.1"
