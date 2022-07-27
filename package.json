@@ -15,7 +15,7 @@
   },
   "author": "Joan Mira",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "algoliasearch": "4.13.1",
     "chokidar": "3.5.3",
     "dotenv": "16.0.1",
