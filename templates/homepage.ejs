@@ -921,7 +921,7 @@
       let theme = html.getAttribute('data-theme');
 
       function loadImage() {
-        const path = '<%= localePath %>/work/diner-app/images/';
+        const path = '/work/diner-app/images/';
         const filename = theme === 'dark' ? '10' : '3';
         projectImageImg.setAttribute('src', `${path}${filename}.jpg`);
         projectImageJpg.setAttribute('srcset', `${path}${filename}.jpg`);
