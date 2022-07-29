@@ -296,17 +296,6 @@ a {
   transition: background-color var(--transition), color var(--transition), text-decoration var(--transition), box-shadow var(--transition), -webkit-text-decoration var(--transition)
 }
 
-[role=link]:is([aria-current], :hover, :active, :focus),
-a:is([aria-current], :hover, :active, :focus) {
-  --color: var(--primary-hover);
-  --text-decoration: underline
-}
-
-[role=link]:focus,
-a:focus {
-  --background-color: var(--primary-focus)
-}
-
 [role=link].secondary,
 a.secondary {
   --color: var(--secondary)
@@ -317,11 +306,6 @@ a.secondary:is([aria-current], :hover, :active, :focus) {
   --color: var(--secondary-hover)
 }
 
-[role=link].secondary:focus,
-a.secondary:focus {
-  --background-color: var(--secondary-focus)
-}
-
 [role=link].contrast,
 a.contrast {
   --color: var(--contrast)
@@ -330,11 +314,6 @@ a.contrast {
 [role=link].contrast:is([aria-current], :hover, :active, :focus),
 a.contrast:is([aria-current], :hover, :active, :focus) {
   --color: var(--contrast-hover)
-}
-
-[role=link].contrast:focus,
-a.contrast:focus {
-  --background-color: var(--contrast-focus)
 }
 
 h1,
@@ -448,14 +427,6 @@ abbr[title] {
   border-bottom: 1px dotted;
   text-decoration: none;
   cursor: help
-}
-
-::-moz-selection {
-  background-color: var(--primary-focus)
-}
-
-::selection {
-  background-color: var(--primary-focus)
 }
 
 :where(audio, canvas, iframe, img, svg, video) {

@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const langClicked = localStorage.getItem(langClickedKey);
   const hasConsent = localStorage.getItem(consentKey);
   const match = navigator.languages.find(lang => {
-    if (lang.toLowerCase().includes('es')) {
+    if (lang && lang.toLowerCase().includes('es')) {
       return true;
     }
   });

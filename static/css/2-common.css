@@ -112,6 +112,22 @@ blockquote p {
 
 #modal-consent {
   align-items: self-end;
+  min-width: 90%;
+  width: 90%;
+  min-height: 210px;
+  height: 210px;
+  padding: 0;
+  bottom: 20px;
+  top: initial;
+  background: none;
+}
+
+@media screen and (min-width: 769px) {
+  #modal-consent {
+    align-items: self-end;
+    min-width: 700px;
+    width: 700px;
+  }
 }
 
 dialog article {
