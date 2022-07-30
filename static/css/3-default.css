@@ -15,4 +15,5 @@
 .page .content .image,
 .page .content iframe {
   margin-bottom: 24px;
+  width: 100%;
 }

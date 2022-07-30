@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // Top nav active element
   const mainMenuItems = document.querySelectorAll('#main-menu li');
   mainMenuItems && mainMenuItems.forEach(item => {
-    if (window.location.pathname.includes(item.getAttribute('data-menu-item'))) {
+    if (window.location.pathname && window.location.pathname.includes(item.getAttribute('data-menu-item'))) {
       item.classList.add('active');
     }
   });
@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function() {
   if (blogCategoryItems) {
     let foundCategory = false;
     blogCategoryItems.forEach(item => {
-      if (window.location.pathname.includes(item.getAttribute('data-blog-category'))) {
+      if (window.location.pathname && window.location.pathname.includes(item.getAttribute('data-blog-category'))) {
         item.classList.remove('secondary');
         foundCategory = true;
       }
@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   // Modal consent
-  if (!hasConsent && !window.location.pathname.includes('/privacy')) {
+  if (!hasConsent && window.location.pathname && !window.location.pathname.includes('/privacy')) {
     setConsentModalState(true);
   }
   if (hasConsent && !window.location.host.includes('localhost')) {

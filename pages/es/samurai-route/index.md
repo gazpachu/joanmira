@@ -1,31 +1,23 @@
 ---
-title: "La Ruta del Samurái (The Samurai Route)"
+title: "La Ruta del Samurái"
 ---
 
-<figure>
-    <img src="/samurai-route/images/logo.jpg">
-    <figcaption align = "center">The Samurai Route Logo</figcaption>
-</figure>
+![](/samurai-route/images/logo.jpg "Logo de la Ruta del Samurái")
 
-<a class="btn external" role="button" href="http://rutasamurai.herokuapp.com" target="_blank">Launch archived website</a>
+<p class="align-center">
+  <a class="btn external" role="button" href="http://rutasamurai.herokuapp.com" target="_blank">Lanzar página web archivada</a>
+  <a class="btn external" role="button" href="/es/blog/category/samurai-route" target="_blank">Ver entradas del blog</a>
+</p>
 
-In January 2010 I had a crazy idea: to **travel by motorbike from Spain to Japan** in 3 months (around 20.000Km) and then spend 2 months travelling around Japan. We called it "La Ruta del samurai" (The Samurai Route).
+En enero de 2010 tuve una idea loca: **viajar en moto desde España hasta Japón** en 3 meses (unos 20.000Km) y luego pasar 2 meses recorriendo Japón. Lo llamamos "La Ruta del Samurái".
 
-I've been riding motorcycles since I was 17 but never really travelled long distances with one of them, not even 500 Km!. I also wanted to explore my limits, get away from the computer for some time, feel more in contact with nature and of course, visit Japan!
+Llevo montando en moto desde los 17 años, pero nunca había viajado largas distancias con una de ellas, ¡ni siquiera 500 Km! También quería explorar mis límites, alejarme del ordenador durante algún tiempo, sentirme más en contacto con la naturaleza y, por supuesto, ¡visitar Japón!
 
-I passed the exam for the "big motorcycles" license and bought a [Yamaha XT660Z Teneré](https://en.wikipedia.org/wiki/Yamaha_XT660Z_T%C3%A9n%C3%A9r%C3%A9). It wasn't my favourite model, but at the end, it turned out to be a great choice for that kind of trip. I [spent a few months preparing the trip](/blog/category/samurai-route), found some kind sponsors and a partner. Finally, on June, I left my hometown and started this great adventure :-) [ <a href="https://www.facebook.com/rutasamurai/photos_stream?tab=photos_albums" target="_blank">view pictures</a> ]
+Aprobé el examen para el carné de "motos grandes" y me compré una [Yamaha XT660Z Teneré](https://en.wikipedia.org/wiki/Yamaha_XT660Z_T%C3%A9n%C3%A9r%C3%A9). No era mi modelo favorito, pero al final resultó ser una gran elección para ese tipo de viaje. [Pasé unos meses preparando el viaje](/es/blog/category/samurai-route), y encontré algunos amables patrocinadores y un compañero. Finalmente, en junio, dejé mi ciudad natal y comencé esta gran aventura :-) [Ver fotos](https://www.facebook.com/rutasamurai/photos_stream?tab=photos_albums)
 
-<figure>
-    <img src="/samurai-route/images/salida.jpg">
-    <figcaption align = "center">Ready to start the trip from Seville, Spain</figcaption>
-</figure>
+![](/samurai-route/images/salida.jpg "Listo para iniciar el viaje desde Sevilla, España")
 
-There are also a [few blog entries related with the trip](/blog/category/samurai-route) (in Spanish)
-
-<figure>
-    <img src="/samurai-route/images/ruta-samurai-loading-bike.jpg">
-    <figcaption align = "center">Loading the bike in Tokio. This wasn't the usual load...</figcaption>
-</figure>
+![](/samurai-route/images/ruta-samurai-loading-bike.jpg "Cargando la moto en Tokio. Esta no era la carga habitual...")
 
 <iframe frameborder="0" height="550" marginheight="0" marginwidth="0" scrolling="no" src="//maps.google.es/maps/ms?hl=es&ie=UTF8&t=h&msa=0&msid=109521630100610492151.00047cbcf9d4d2e0c9663&ll=45.58329,65.742188&spn=84.257979,149.414063&z=2&output=embed" style="border: 1px solid #CCCCCC;" width="100%"></iframe>
 
@@ -37,26 +29,26 @@ There are also a [few blog entries related with the trip](/blog/category/samurai
 
 <iframe allowfullscreen="allowfullscreen" frameborder="0" width="100%" height="550" src="//www.youtube.com/embed/mDsD1S7m3_A?rel=0"></iframe>
 
-### Sponsored by
+### Patrocinado por
 
-![](/samurai-route/images/sponsors.jpg)
+![](/samurai-route/images/sponsors.jpg "Los magníficos patrocinadores de la Ruta Samurái")
 
-[Bagster](http://www.bagster.com/es/) designs and manufactures increasingly practical and innovative items for motorcycle travels. Trades in virtually 100% of the outlets and facilities for motorcycles. For the Samurai Route, Bagster sponsored us with mittens, deposit bags and backpacks.
+[Bagster](http://www.bagster.com/es/) diseña y fabrica artículos cada vez más prácticos e innovadores para viajar en moto. Comercios en prácticamente el 100% de los puntos de venta e instalaciones para motos. Para la Ruta Samurai, Bagster nos patrocinó con manoplas, bolsas depósito y mochilas.
 
-[Winter Mountain / Casbas Creations](http://www.creacionescasbas.com/) is the 6th Generation of mountain clothing fashion designers and manufacturers. They produce garments for the best and most representative firms nationally and internationally, such as Mango, Nike, Kikers, Trango among others. [Blog post about the sponsorship](https://www.creacionescasbas.com/blog/patrocinadores-la-ruta-del-samurai/)
+[Winter Mountain / Casbas Creations](http://www.creacionescasbas.com/) es la 6ª Generación de diseñadores y fabricantes de ropa de montaña. Producen prendas para las mejores y más representativas firmas a nivel nacional e internacional, como Mango, Nike, Kickers, Trango entre otras. [Entrada del blog sobre el patrocinio](https://www.creacionescasbas.com/blog/patrocinadores-la-ruta-del-samurai/)
 
-[Explora Sur](http://explorasur.com/) is a shop with items for: climbing, caving, canyoning, hiking, cycling and running, textile, camping, etc. They are totally reliable and have very good prices. The best that can be found on the Internet!
+[Explora Sur](http://explorasur.com/) es una tienda con artículos de escalada, espeleología, barranquismo, senderismo, ciclismo y running, textil, camping, etc. Son fiables y tienen muy buenos precios. ¡Lo mejor que se puede encontrar en Internet!
 
-[Pionono](http://www.pionono.es/) creates delicious treats that cannot be explained. You have to try them!. They are proud to offer a home-made craft product of Santa Fe, Granada. Check the <a href="https://www.youtube.com/watch?v=So5_lX2Cgn4">promo video for the Samurai Route</a>.
+[Pionono](http://www.pionono.es/) crea deliciosos manjares que no se pueden explicar. ¡Tienes que probarlos! Están orgullosos de ofrecer un producto artesanal casero de Santa Fe, Granada. Consulta el [video promocional de la Ruta Samurai](https://www.youtube.com/watch?v=So5_lX2Cgn4).
 
-[Midland](http://www.midland.es/) is the famous company behind the Bluetooth Walkie intercom that we used and gave us everything we needed! GPS connection, Walki, telephone, MP3, PMR446 and PTT.
+¡[Midland](http://www.midland.es/) es la famosa empresa que está detrás del Walkie intercomunicador Bluetooth que utilizamos y nos dio todo lo que necesitábamos! Conexión GPS, Walki, teléfono, MP3, PMR446 y PTT.
 
-[Roerich Museum House](http://shambala-roerich.com/) is managed by Leonardo and Petri. They maintained it with great effort since the non-profit ADA Roerich Association was founded in 1997. Its objective is to bring inspiration, beauty, contemplation and education about the Roerich to the current society. They are leaders in Spain in the Roerich culture and philosophy and their success depends on the good will of those who have awakened the vision, understanding and compassion. This is the challenge today. If you appreciate their efforts will understand the need for extensive financial support from those who are committed to peace, service and culture of synthesis. Your contribution will be well used and gratefully received. Thank you.
+La [Casa Museo Roerich](http://shambala-roerich.com/) está gestionada por Leonardo y Petri. La mantienen con gran esfuerzo desde que se fundó la Asociación ADA Roerich, sin ánimo de lucro, en 1997. Su objetivo es aportar inspiración, belleza, contemplación y educación sobre los Roerich a la sociedad actual. Son líderes en España en la cultura y filosofía Roerich y su éxito depende de la buena voluntad de quienes han despertado la visión, la comprensión y la compasión. Este es el reto de hoy. Si aprecias sus esfuerzos comprenderás la necesidad de un amplio apoyo financiero por parte de quienes están comprometidos con la paz, el servicio y la cultura de la síntesis. Su contribución será bien utilizada y recibida con gratitud. Gracias.
 
-[The council house of Coria del Rio](http://www.ayto-coriadelrio.es/) helped us prepare the trip. They also gave us a gift and a letter for the council of the Japanese city of Sendai.
+[La casa consistorial de Coria del Río](http://www.ayto-coriadelrio.es/) nos ayudó a preparar el viaje. También nos dieron un regalo y una carta del ayuntamiento de la ciudad japonesa de Sendai.
 
-EstampAlicante specializes in t-shirt printing and provided the official Samurai Route t-shirts, available is the following sizes: XS, S, M, L and XL.
+EstampAlicante está especializada en la impresión de camisetas y nos proporcionó las camisetas oficiales de la Ruta Samurai, disponibles en las siguientes tallas: XS, S, M, L y XL.
 
-[Altaïr](http://www.altairblog.com/) helped us promote the Samurai Route story and gave us copies of the magazine.
+[Altaïr](http://www.altairblog.com/) nos ayudó a promocionar la historia de la Ruta Samurai y nos regaló ejemplares de la revista.
 
-[Km Zero](http://www.kmcero.es/) provided us with maximum coverage motorcycle insurance in Russia and Mongolia. They also offered us a large space in their magazine to publish promote the adventure and gave us some shirts, anti-puncture foam, patches for clothing, backpacks, scarves, earplugs,...
+[Km Zero](http://www.kmcero.es/) nos proporcionó la máxima cobertura de seguros de moto en Rusia y Mongolia. También nos ofrecieron un amplio espacio en su revista para publicar y promocionar la aventura y nos regalaron algunas camisetas, espuma antipinchazos, parches para la ropa, mochilas, bufandas, tapones para los oídos,...

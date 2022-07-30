@@ -14,10 +14,7 @@ El mes pasado tuve que pasar el proceso de renovación de la shaken para mi Kawa
 
 En primer lugar, comprueba la fecha de caducidad de tu *saken* en el certificado de inspección de la JCI (*syakensyo*):
 
-<figure>
-  <img src="/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/1.jpg" alt="Shaken expiration date" />
-  <figcaption>Ejemplo del certificado JCI <em>shaken</em> publicado en <a href="https://groups.oist.jp/resource-center/shaken">OIST</a></figcaption>
-</figure>
+![](/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/1.jpg "Ejemplo del certificado JCI shaken publicado en OIST")
 
 Para los documentos oficiales, en lugar del calendario occidental (*seireki*), utilizan el calendario tradicional japonés, que se basa en el periodo de reinado del emperador.
 
@@ -53,10 +50,7 @@ Es el certificado de seguro que también caducará en una fecha similar a la del
 
 - **Inkan** (sello personal): si no tienes uno, puede utilizar tu firma.
 
-<figure>
-  <img src="/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/documents.jpg" alt="Documentos necesarios" />
-  <figcaption>Documentos necesarios</figcaption>
-</figure>
+![](/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/1.jpg "Documentos necesarios")
 
 ### Solicitar una fecha para la inspección
 
@@ -72,10 +66,7 @@ Si por cualquier motivo decides no ir, recuerda cancelar la cita y solicitar una
 
 El centro de inspección se encuentra en Shinagawa: https://goo.gl/maps/unp3ybW6kfAWJb2f6
 
-<figure>
-  <img src="/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/2.jpg" alt="Centro de inspección de vehículos de Shinagawa" />
-  <figcaption>Centro de inspección de vehículos de Shinagawa</figcaption>
-</figure>
+![](/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/2.jpg "Centro de inspección de vehículos de Shinagawa")
 
 ### La alineación de los faros
 
@@ -83,26 +74,17 @@ La parte más crítica de todo el proceso es la alineación de los faros. Por al
 
 Una cosa que aprendí por las malas... No vayas a probar tu faro con una bombilla LED. Probablemente no será lo suficientemente fuerte. Tuve que comprar una halógena en [Ricoland Tokyo Bay](https://goo.gl/maps/9QDzxWjjFVrge5CVA). Esta es la que compré:
 
-<figure>
-  <img src="/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/7.jpg" alt="Bombilla halógena" />
-  <figcaption>Bombilla halógena</figcaption>
-</figure>
+![](/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/7.jpg "Bombilla halógena")
 
 Además, durante el proceso de alineación, asegúrate de que la pantalla muestra una alineación perfecta. De lo contrario, tendrás que volver al taller porque no pasará la prueba de alineación. No importa cómo consigas esa alineación perfecta. El taller pone un trozo de cartón y algo de cinta adhesiva en los laterales para que quede bien. Durante la inspección, no les importa el cartón ni la cinta, así que no te preocupes. Lo sé. Esto también me desconcierta, pero es así.
 
-<figure>
-  <img src="/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/6.jpg" alt="Alineación de faros previa a la inspección en un taller cercano" />
-  <figcaption>Alineación de faros previa a la inspección en un taller cercano</figcaption>
-</figure>
+![](/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/6.jpg "Alineación de faros previa a la inspección en un taller cercano")
 
 El coste de la alineación de los faros es de unos 2.000 yenes, según creo, y el proceso dura sólo 5 minutos. A veces hay una pequeña cola fuera del garaje, por lo que puede tardar un poco más. Pero no debería tardar más de 30 minutos.
 
 Otro consejo sobre el acceso al garaje: Si vienes desde el norte, es mejor que sigas la ruta de la captura de pantalla de abajo, para no tener que cortar el tráfico que viene desde la dirección contraria:
 
-<figure>
-  <img src="/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/3.jpg" alt="Alineación de los faros en el garaje y en los cafés" />
-  <figcaption>Alineación de los faros en el garaje y en los cafés</figcaption>
-</figure>
+![](/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/3.jpg "Alineación de los faros en el garaje y en los cafés")
 
 ### Cosas que comprobar antes de la inspección
 
@@ -118,10 +100,7 @@ Otro consejo sobre el acceso al garaje: Si vienes desde el norte, es mejor que s
 
 - Cuando llegué al centro de inspección, aquí es donde aparqué mi moto (al lado de las escaleras) y nadie se quejó por ello. Tampoco había conos ese dia
 
-<figure>
-  <img src="/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/4.jpg" alt="Dónde aparcar la moto en el centro de inspección" />
-  <figcaption>Dónde aparcar la moto en el centro de inspección</figcaption>
-</figure>
+![](/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/4.jpg "Dónde aparcar la moto en el centro de inspección")
 
 - Sube por las escaleras y ve al 2º piso. Nada más entrar, menciona que tienes una reserva para el shaken y te darán unos papeles para rellenar
 
@@ -131,10 +110,7 @@ Otro consejo sobre el acceso al garaje: Si vienes desde el norte, es mejor que s
 
 - Cuando llegues a la puerta, quédate en la cola hasta que venga alguien a revisar tus papeles. Te pedirán que enciendas y apagues las luces, que revoluciones la moto hasta unas determinadas revoluciones, etc.
 
-<figure>
-  <img src="/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/5.jpg" alt="A la espera de que comience la inspección" />
-  <figcaption>A la espera de que comience la inspección</figcaption>
-</figure>
+![](/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/5.jpg "A la espera de que comience la inspección")
 
 - A continuación, tendrás que trasladar tu moto al interior del edificio para comprobar los frenos, la alineación de los faros, el ruido del escape y los humos. Te preguntarán si necesitas asistencia en inglés. Si dices que sí, podrás leer las instrucciones en una pantalla. Bastante útil.
 

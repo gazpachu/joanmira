@@ -66,7 +66,7 @@
   <div class="strip-wrapper">
     <div class="strip">
       <ul>
-        <li>&copy <script>document.write(new Date().getFullYear())</script> <%= translations.site_name %></li>
+        <li>&copy <%= translations.site_name %></li>
         <li>
           <a href="<%= localePath %>/credits"><%= translations.nav.credits %></a>
         </li>
@@ -111,7 +111,7 @@
     <p><%= translations.policies.modal_body %></p>
     <footer>
       <button onclick="setConsentModalState(false); initDataCapture();"><%= translations.policies.modal_accept %></button>
-      <a href="<%= localePath %>/privacy" role="button" aria-label="Privacy policy" class="secondary"><%= translations.policies.modal_read_more %></a>
+      <a href="<%= localePath %>/privacy" role="button" aria-label="Privacy policy" class="secondary"><%= translations.nav.privacy %></a>
     </footer>
   </article>
 </dialog>
@@ -120,7 +120,7 @@
     <header><%= translations.lang.modal_title %></header>
     <p><%= translations.lang.change_title %></p>
     <footer>
-      <a href="<%= alternateUrl %>" role="button" aria-label="Learn more about the privacy"><%= translations.lang.yes %></a>
+      <a href="<%= alternateUrl %>" role="button" aria-label="Change language"><%= translations.lang.yes %></a>
       <button class="secondary" data-target="modal-lang" onClick="toggleModal(event);"">No</button>
     </footer>
   </article>

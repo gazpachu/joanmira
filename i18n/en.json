@@ -37,6 +37,7 @@
   },
   "work_categories": {
     "all": "All",
+    "featured": "Featured",
     "web": "Website",
     "web_app": "Web App",
     "mobile": "Mobile App",
@@ -52,7 +53,8 @@
     "subscribe": "Receive the stories by email.<br />No spam or ads. Promise! &#128077;<br />You can unsubscribe anytime",
     "subscribe_button": "Subscribe to the blog",
     "buy_coffee": "Did you enjoy this article?<br />You can buy me a coffee &#128521;<br />Much appreciated!",
-    "buy_coffee_button": "Buy a coffee to Joan"
+    "buy_coffee_button": "Buy a coffee to Joan",
+    "category": "Category"
   },
   "homepage": {
     "title": "Software Engineering • UI/UX Design<div>Interactive Art Installations</div>",

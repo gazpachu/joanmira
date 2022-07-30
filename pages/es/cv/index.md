@@ -179,10 +179,7 @@ Estas son algunas tecnologías y herramientas que he usado en los últimos años
 
 * También trabajé con VueJS, Webpack, Highcharts, D3, MaterialUI, WebRTC, Express, CircleCI, GhostJS, HoneyBadger, CodeClimate, Jest, React testing library, JSON API, REST, etc
 
-<figure>
-  <img src="/cv/images/vodafone-home-desk.jpg" alt="Escritorio de trabajo en remoto durante la temporada de verano" />
-  <figcaption>Escritorio de trabajo en remoto durante la temporada de verano</figcaption>
-</figure>
+![](/cv/images/vodafone-home-desk.jpg "Escritorio de trabajo en remoto durante la temporada de verano")
 
 #### Desarrollador interactivo senior
 <span class="project-tag red-tag">Jul 2013 - Nov 2015</span><a class="project-tag gold-tag" href="http://sapientnitro.com">SapientNitro</a><span class="project-tag blue-tag">Spitalfields, Londres (Reino Unido)</span>
@@ -227,15 +224,9 @@ a la librería JavaScript [Box2d](https://code.google.com/p/box2dweb/) y a la [r
 
 * **Jul - Sep 2013**: trabajé en un micrositio para el [ICA (Instituto de Arte Contemporáneo)](https://www.ica.org.uk/) en Londres llamado [The Art Rules](http://artrules.ica.org.uk). Me centró principalmente en trabajar en la física y las animaciones. La tecnología utilizada incluye: [Ruby on Rails (RoR)](http://rubyonrails.org/), [HAML](http://haml.info/), [Heroku](https://www.heroku.com), [Github](https://github.com/), [SASS](http://sass-lang.com/), [CSS3](https://es.wikipedia.org/wiki/CSS#CSS3), [Box2d 2D physics]([Box2d](https://code.google.com/p/box2dweb/)). El proyecto fue [preseleccionado en FWA](http://www.thefwa.com/shortlist/art-rules) y exhibido durante unos meses en [el espacio de exposición y café de Eden House](https://instagram.com/p/jHwVviLfXP/)
 
-<figure>
-  <img src="/cv/images/sapient-devs.jpg" alt="Con compañeros de trabajo, Owen y Mark durante 'frinks' (bebidas del viernes)" />
-  <figcaption>Con mis compañeros de trabajo, Owen y Mark durante 'frinks' (bebidas del viernes)</figcaption>
-</figure>
+![](/cv/images/sapient-devs.jpg "Con mis compañeros de trabajo, Owen y Mark durante 'frinks' (bebidas del viernes)")
 
-<figure>
-  <img src="/cv/images/sapient-toys.jpg" alt="Escritorio de trabajo en remoto durante la temporada de verano" />
-  <figcaption>Algunos aparatos interesantes usados ​​en la oficina</figcaption>
-</figure>
+![](/cv/images/sapient-toys.jpg "Algunos aparatos interesantes usados ​​en la oficina")
 
 #### Tecnólogo Creativo
 <span class="project-tag red-tag">Ago 2012 - Jun 2013</span><a class="project-tag gold-tag" href="http://www.wcrs.com">WCRS</a><span class="project-tag blue-tag">Oxford Circus, Londres (Reino Unido)</span>
@@ -271,10 +262,7 @@ ACTUALIZACIÓN: los artículos ya no están disponibles en el blog de WCRS. Ahor
 * [An introduction to mobile development](/blog/es/an-introduction-to-mobile-development)
 * [If content is king, data is queen](/blog/es/if-content-is-king-data-is-queen/)
 
-<figure>
-  <img src="/cv/images/wcrs-tech-team.jpg" alt="Mi compañera de trabajo, Silvia Rebelo, mostrando la nueva área del Tech Team en la oficina" />
-  <figcaption>Mi compañera de trabajo, Silvia Rebelo, mostrando la nueva área del Tech Team en la oficina</figcaption>
-</figure>
+![](/cv/images/wcrs-tech-team.jpg "Mi compañera de trabajo, Silvia Rebelo, mostrando la nueva área del Tech Team en la oficina")
 
 #### Desarrollador digital
 <span class="project-tag red-tag">Feb 2011 - Sep 2012</span><a class="project-tag gold-tag" href="http://www.roh.org.uk">Royal Opera House</a><span class="project-tag blue-tag">Covent Garden, Londres (Reino Unido)</span>
@@ -298,10 +286,7 @@ Tecnologías utilizadas (sin ningún orden en particular): [HTML5](http://es.wik
 
 [Leer el caso de estudio de la ROH](/es/work/roh).
 
-<figure>
-  <img src="/cv/images/roh-dev-team.jpg" alt="Con mis compañeros de trabajo, Aaron y Jamie" />
-  <figcaption>Con mis compañeros de trabajo, Aaron y Jamie</figcaption>
-</figure>
+![](/cv/images/roh-dev-team.jpg "Con mis compañeros de trabajo, Aaron y Jamie")
 
 #### Cofundador y director de tecnología
 <span class="project-tag red-tag">Sep 2006 - Jul 2012</span><a class="project-tag gold-tag" href="http://www.webmarket.es">Webmarket S.C.</a><span class="project-tag blue-tag">Alicante (España)</span>

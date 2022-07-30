@@ -14,10 +14,7 @@ Last month I had to go through the process of renewing the shaken for my Kawasak
 
 First of all, check the expiration date of your *shaken* on the JCI inspection certificate (*syakensyo*):
 
-<figure>
-  <img src="/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/1.jpg" alt="Shaken expiration date" />
-  <figcaption>JCI certificate <em>shaken</em> photo <em>borrowed</em> from <a href="https://groups.oist.jp/resource-center/shaken">OIST</a></figcaption>
-</figure>
+![](/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/1.jpg "JCI certificate shaken photo borrowed from OIST")
 
 For official documents, instead of the western calendar (*seireki*), they use the traditional Japanese calendar, which is based on the reign period of the emperor.
 
@@ -53,10 +50,7 @@ This is the insurance certificate that will also expire on a similar date as the
 
 - **Inkan** (personal seal): if you don't have one, then using your signature is fine
 
-<figure>
-  <img src="/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/documents.jpg" alt="Required documents" />
-  <figcaption>Required documents</figcaption>
-</figure>
+![](/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/documents.jpg "Required documents")
 
 ### Request a date for the inspection
 
@@ -72,10 +66,7 @@ If for whatever reason you decide not to go, remember to cancel the appointment 
 
 The inspection center is located in Shinagawa: https://goo.gl/maps/unp3ybW6kfAWJb2f6
 
-<figure>
-  <img src="/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/2.jpg" alt="Shinagawa Vehicle Inspection Center" />
-  <figcaption>Shinagawa Vehicle Inspection Center</figcaption>
-</figure>
+![](/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/2.jpg "Shinagawa Vehicle Inspection Center")
 
 ### The headlight alignment
 
@@ -83,26 +74,17 @@ The most critical part of the whole process is the headlight alignment. For some
 
 One thing that I learned the hard way... Don't go to test your headlight with a LED bulb. It's probably not going to be strong enough. I had to buy a halogen one in [Ricoland Tokyo Bay](https://goo.gl/maps/9QDzxWjjFVrge5CVA). This is the one I bought:
 
-<figure>
-  <img src="/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/7.jpg" alt="Halogen light bulb" />
-  <figcaption>Halogen light bulb</figcaption>
-</figure>
+![](/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/7.jpg "Halogen light bulb")
 
 Also, during the alignment process, make sure that the screen shows a perfect alignment. Otherwise, you'll have to come back to the garage because you will not pass the shaken test. It doesn't matter how you achieve that perfect alignment. The guy in the garage put a piece of cardboard and some tape on the sides to get it right. During the inspection, they don't care about the cardboard or the tape, so don't worry about it. I know. This also puzzles me, but that's just how it goes.
 
-<figure>
-  <img src="/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/6.jpg" alt="Headlight alignment" />
-  <figcaption>Pre-inspection headlight alignment in a nearby garage</figcaption>
-</figure>
+![](/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/6.jpg "Pre-inspection headlight alignment in a nearby garage")
 
 The cost of the headlight alignment is about ¥2.000 IIRC and the process takes just 5 minutes. Sometimes there is a small queue outside the garage, so it can take a bit longer. But it shouldn't take longer than 30 minutes.
 
 Another tip regarding the garage access: If you are coming from the north, it's better to follow the route in the screenshot below, so you don't have to cut through the traffic coming from the opposite direction:
 
-<figure>
-  <img src="/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/3.jpg" alt="Headlight alignment garage and coffee shop locations" />
-  <figcaption>Headlight alignment garage and coffee shop locations</figcaption>
-</figure>
+![](/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/3.jpg "Headlight alignment garage and coffee shop locations")
 
 ### Things to check before the inspection
 
@@ -118,10 +100,7 @@ Another tip regarding the garage access: If you are coming from the north, it's 
 
 - Once I arrived at the inspection center, this is where I parked my motorcycle (besides the stairs) and no one complained about it. There were no cones as well:
 
-<figure>
-  <img src="/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/4.jpg" alt="Headlight alignment garage location" />
-  <figcaption>Where to park the bike in the inspection center</figcaption>
-</figure>
+![](/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/4.jpg "Where to park the bike in the inspection center")
 
 - Take the stairs and go to the 2nd floor. As soon as you enter, mention that you have a reservation for the shaken and they will give you some papers to complete
 
@@ -131,10 +110,7 @@ Another tip regarding the garage access: If you are coming from the north, it's 
 
 - When you reach the gate, just stay in line until someone comes to check your papers. They will ask you to switch the lights on and off, rev the bike until a certain rpm, etc
 
-<figure>
-  <img src="/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/5.jpg" alt="Waiting for the inspection to start" />
-  <figcaption>Waiting for the inspection to start</figcaption>
-</figure>
+![](/blog/how-to-pass-the-motorcycle-shaken-inspection-in-tokyo-by-yourself/images/5.jpg "Waiting for the inspection to start")
 
 - Next, you will have to move your bike inside the building to check the brakes, headlight alignment, exhaust noise and fumes. They will ask you if you need English assistance. If you say yes, then you will be able to read the instructions on a screen. Pretty useful!
 

@@ -17,7 +17,7 @@
         <%= item.frontmatter.description %>
       </p>
       <div class="meta secondary">
-        <a href="/<%= item.listingSlug %>/category/<%= item.frontmatter.category %>">
+        <a href="/<%= item.listingSlug %>/category/<%= item.frontmatter.category %>" aria-label="<%= translations.blog.category %>: <%= translations.categories[item.frontmatter.category.replace('-', '_')] %>">
           <%= translations.categories[item.frontmatter.category.replace('-', '_')] %>
         </a> • <%= item.formattedDate %>
       </div>

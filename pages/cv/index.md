@@ -179,10 +179,7 @@ These are some technologies and tools that I have been using in the last few yea
 
 * Also worked with VueJS, Webpack, Highcharts, D3, MaterialUI, WebRTC, Express, CircleCI, GhostJS, HoneyBadger, CodeClimate, Jest, React testing library, JSON API, REST, etc
 
-<figure>
-  <img src="/cv/images/vodafone-home-desk.jpg" alt="Remote work desk during the summer season" />
-  <figcaption>Remote work desk during the summer season</figcaption>
-</figure>
+![](/cv/images/vodafone-home-desk.jpg "Remote work desk during the summer season")
 
 #### Senior interactive developer
 <span class="project-tag red-tag">Jul 2013 - Nov 2015</span><a class="project-tag gold-tag" href="http://sapientnitro.com">SapientNitro</a><span class="project-tag blue-tag">Spitalfields, London (UK)</span>
@@ -227,15 +224,9 @@ to the [Box2d](https://code.google.com/p/box2dweb/) JavaScript library and [augm
 
 * **Jul - Sep 2013**: worked on a microsite for the [ICA (Institute of Contemporary Art)](https://www.ica.org.uk/) in London called [The Art Rules](http://artrules.ica.org.uk). I was mainly focused on working on physics and animations. Tech used includes: [Ruby on Rails (RoR)](http://rubyonrails.org/), [HAML](http://haml.info/), [Heroku](https://www.heroku.com/), [Github](https://github.com/) (including issue tracking), [SASS](http://sass-lang.com/), [CSS3](http://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3) animations and Javascript [Box2d 2D physics]([Box2d](https://code.google.com/p/box2dweb/)). It got [shortlisted in theFWA](http://www.thefwa.com/shortlist/art-rules) and showcased for a few months on [Eden House's coffee & exhibit space](https://instagram.com/p/jHwVviLfXP/?taken-by=gazpachu)
 
-<figure>
-  <img src="/cv/images/sapient-devs.jpg" alt="With co-workers, Owen and Mark during 'frinks' (Friday drinks)" />
-  <figcaption>With co-workers, Owen and Mark during 'frinks' (Friday drinks)</figcaption>
-</figure>
+![](/cv/images/sapient-devs.jpg "With co-workers, Owen and Mark during 'frinks' (Friday drinks)")
 
-<figure>
-  <img src="/cv/images/sapient-toys.jpg" alt="Some cool gadgets used in the office" />
-  <figcaption>Some cool gadgets used in the office</figcaption>
-</figure>
+![](/cv/images/sapient-toys.jpg "Some cool gadgets used in the office")
 
 #### Creative Technologist
 <span class="project-tag red-tag">Aug 2012 - Jun 2013</span><a class="project-tag gold-tag" href="http://www.wcrs.com">WCRS</a><span class="project-tag blue-tag">Oxford Circus, London (UK)</span>
@@ -271,10 +262,7 @@ UPDATE: the articles are no longer available on WCRS' blog. Now they are publish
 * [An introduction to mobile development](/blog/an-introduction-to-mobile-development)
 * [If content is king, data is queen](/blog/if-content-is-king-data-is-queen/)
 
-<figure>
-  <img src="/cv/images/wcrs-tech-team.jpg" alt="My co-worker, Silvia Rebelo, showing our new Tech Team area" />
-  <figcaption>My co-worker, Silvia Rebelo, showing our new Tech Team area</figcaption>
-</figure>
+![](/cv/images/wcrs-tech-team.jpg "My co-worker, Silvia Rebelo, showing our new Tech Team area")
 
 #### Digital developer
 <span class="project-tag red-tag">Feb 2011 - Sep 2012</span><a class="project-tag gold-tag" href="http://www.roh.org.uk">Royal Opera House</a><span class="project-tag blue-tag">Covent Garden, London (UK)</span>
@@ -298,10 +286,7 @@ Technologies used (in no particular order): [HTML5](http://en.wikipedia.org/wiki
 
 [Read the full ROH case study](/work/roh).
 
-<figure>
-  <img src="/cv/images/roh-dev-team.jpg" alt="With my co-workers, Aaron and Jamie" />
-  <figcaption>With my co-workers, Aaron and Jamie</figcaption>
-</figure>
+![](/cv/images/roh-dev-team.jpg "With my co-workers, Aaron and Jamie")
 
 #### Co-founder, CTO & Web developer
 <span class="project-tag red-tag">Sep 2006 - Jul 2012</span><a class="project-tag gold-tag" href="http://www.webmarket.es">Webmarket S.C.</a><span class="project-tag blue-tag">Alicante (Spain)</span>

@@ -172,13 +172,18 @@
     padding-right: 16px;
   }
 
+  .post .details {
+    align-items: flex-start;
+    height: 135px;
+    position: relative;
+  }
+
   .post .details .meta {
     flex-direction: column;
   }
 
   .post .details .meta .voice-controls {
-    position: fixed;
-    z-index: 1;
+    position: absolute;
     width: 100%;
     bottom: 0;
     left: 0;
