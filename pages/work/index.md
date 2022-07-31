@@ -7,4 +7,4 @@ isListingPage: true
 
 # Deep Passion for the Web & Art
 
-## Featured works **sorted by date** since year 2000
+## Selected works **sorted by date** since year 2000
