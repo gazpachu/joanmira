@@ -19,14 +19,14 @@ El propósito de la aplicación es permitir a los usuarios **compartir**, **disc
 * Utilizar [Bootstrap](http://getbootstrap.com/)
 * Los usuarios pueden registrarse e iniciar sesión
 * Los usuarios pueden publicar nuevos sitios web si están conectados. Los sitios web publicados por los usuarios deben tener una URL y una descripción
-* Los usuarios pueden votar las páginas web hacia arriba y hacia abajo haciendo clic en un botón de más o de menos.
+* Los usuarios pueden votar las páginas web hacia arriba y hacia abajo haciendo clic en un botón de más o de menos
 * Los sitios web deben ser listados con el sitio más votado primero
 * La página del listado muestra cuándo se añadió el sitio web y cuántos votos positivos y negativos tiene
 * Los usuarios pueden pasar a la página de detalles de un sitio web (utilizando el enrutamiento)
 * En la página de detalles, los usuarios pueden publicar comentarios sobre una página web, y se muestran debajo de la descripción de la página web
-* Utilizar el paquete HTTP de Meteor para obtener información sobre los enlaces web publicados de forma automática, de modo que el usuario no tenga que introducir nada más que la URL.
+* Utilizar el paquete HTTP de Meteor para obtener información sobre los enlaces web publicados de forma automática, de modo que el usuario no tenga que introducir nada más que la URL
 * Implementar una función de búsqueda que permita al usuario buscar dentro de los sitios listados por palabras clave
-* Recomendar sitios web a los usuarios en función de lo que hayan votado y comentado. Por ejemplo, si yo voto un sitio titulado "Recetas de tofu", se recomendarán otros sitios con "tofu" y "receta" en sus títulos o descripciones.
+* Recomendar sitios web a los usuarios en función de lo que hayan votado y comentado. Por ejemplo, si yo voto un sitio titulado "Recetas de tofu", se recomendarán otros sitios con "tofu" y "receta" en sus títulos o descripciones
 * Despliegue de la aplicación utilizando el comando de despliegue de Meteor
 
 ### Parte 1. Instalación de Meteor y creación de la aplicación

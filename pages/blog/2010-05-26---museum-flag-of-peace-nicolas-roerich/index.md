@@ -30,4 +30,4 @@ The Covenant was presented by Roerich in New York in 1929 and merited nomination
 
 Nicholas Roerich said: "Positive creativity is the fundamental quality of the human spirit. Let us welcome all those who, overcoming personal difficulties, impel their spirits in the task of building Peace, thus guaranteeing a radiant future".
 
-More information is: [http://shambala-roerich.com](http://shambala-roerich.com/)
+More information at: [http://shambala-roerich.com](http://shambala-roerich.com/)

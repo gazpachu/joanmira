@@ -1,6 +1,6 @@
 ---
-title: "Javascript: understanding the weird parts [Part 1]"
-description: My learnings reviewing JavaScript concepts on the Udemy educational site
+title: "Javascript: entendiendo las partes raras [Parte 1]"
+description: Mis aprendizajes repasando conceptos de JavaScript en el sitio educativo Udemy
 cover: images/javascript-bg.jpg
 template: post
 category: work

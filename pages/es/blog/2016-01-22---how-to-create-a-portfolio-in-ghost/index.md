@@ -12,7 +12,7 @@ He estado usando la **fantástica** plataforma [Ghost](http://ghost.org) para ej
 
 Para que esto funcione, vamos a utilizar:
 
-* El **sistema de etiquetas**: para categorizar nuestros trabajos del portolio.
+* El **sistema de etiquetas**: para categorizar nuestros trabajos del portolio
 * Una nueva **page-work.hbs** [plantilla](https://themes.ghost.org/docs/templates): para mostrar la rejilla del portafolio y la navegación
 * El **page.hbs** [template](https://themes.ghost.org/docs/templates): para crear la estructura HTML de las páginas del portafolio
 * El nuevo **{{#get}}** [helper](https://themes.ghost.org/docs/get): para buscar las entradas del portafolio entre todos nuestros posts de Ghost

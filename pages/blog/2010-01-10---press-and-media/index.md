@@ -26,7 +26,7 @@ The newspaper Diario de Sevilla publishes an article in its online edition about
 
 ![elcorreo](/blog/press-and-media/images/elcorreo.jpg)
 
-**4 June 2010 - [El Correo de Andalucía](http://www.elcorreoweb.es)** [See the article](/blog/press-and-media/ images/elcorreo.jpg)
+**4 June 2010 - [El Correo de Andalucía](http://www.elcorreoweb.es)** [See the article](/blog/press-and-media/images/elcorreo.jpg)
 
 The newspaper El Correo de Andalucía publishes an article in its online edition about our project to travel from Spain to Japan by motorcycle. [See the article](http://www.elcorreoweb.es/095907/samurais/dejan/coria/rio/motocicleta "See the article")
 

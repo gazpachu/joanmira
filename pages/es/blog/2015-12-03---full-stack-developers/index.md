@@ -37,7 +37,7 @@ Por otro lado, para los proyectos complejos, es fundamental contar con al menos 
 
 Si quieres probar (quizás con un proyecto paralelo), uno de los frameworks full-stack más populares es [MEAN](https://es.wikipedia.org/wiki/MEAN).
 
-(/blog/full-stack-developers/images/mean-stack.png)
+![](/blog/full-stack-developers/images/mean-stack.png)
 *Imagen de [Bacancy Technology](http://www.bacancytechnology.com/mean-js-full-stack-development-solution/)*
 
 [MEAN](http://mean.io) es un framework JavaScript full-stack que simplifica y acelera el desarrollo de aplicaciones web. MEAN representa MongoDB, ExpressJS, AngularJS y NodeJS.

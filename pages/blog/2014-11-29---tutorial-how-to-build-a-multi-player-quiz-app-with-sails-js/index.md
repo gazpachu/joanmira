@@ -92,9 +92,7 @@ At this point, if you visit [http://localhost:1337](http://localhost:1337) you w
 
 ### 4. Sails.js folder structure
 
-<div class="left">
-  <img src="/blog/tutorial-how-to-build-a-multi-player-quiz-app-with-sails-js/images/folder-structure_fqfmgc.png" alt="folder-structure" width="178" height="399" />
-</div>
+![](/blog/tutorial-how-to-build-a-multi-player-quiz-app-with-sails-js/images/folder-structure_fqfmgc.png "Folder structure")
 
 - **/.tmp/public**: where the distribution files are compiled. These files are what we see when we load the website
 
@@ -618,7 +616,7 @@ Sadly, the "disconnect" callback is not working :-( I'm not sure why. I've tried
 
 ### The user module
 
-This module is quite self-explanatory. "addUser" and "removeUser" take care of updating the users <table> by adding/removing a <tr> and updating the UI (enabling/disabling the quiz button). The "updateUserList" function resets the table when a new user connects to the app or when someone leaves.
+This module is quite self-explanatory. "addUser" and "removeUser" take care of updating the users `<table>` by adding/removing a `<tr>` and updating the UI (enabling/disabling the quiz button). The "updateUserList" function resets the table when a new user connects to the app or when someone leaves.
 
 ```javascript
 var QW_MODULES = (function (modules, $) {

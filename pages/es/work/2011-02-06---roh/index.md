@@ -65,9 +65,9 @@ Fue una gran experiencia profesional y aprendí mucho. También fue mi primer tr
 
 ### Artículos relacionados
 
-21/02/2012: [Our new website: An update on progress](/blog/our-new-website-an-update-on-progress)
+21/02/2012: [Our new website: An update on progress](/es/blog/our-new-website-an-update-on-progress)
 
-12/01/2012: [Our website: A look forward](/blog/our-website-a-look-forward)
+12/01/2012: [Our website: A look forward](/es/blog/our-website-a-look-forward)
 
 ### Algunas capturas de pantalla
 

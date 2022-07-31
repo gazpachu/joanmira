@@ -16,7 +16,7 @@ In order to establish a commercial relationship and request the sending of Chris
 
 He visited Madrid (Spain) and Rome (Italy) **becoming the first Japanese to cross the Atlantic Ocean**.
 
-Sanjuanbautista](/blog/the-history-of-hasekura-tsunenaga/images/Sanjuanbautista.jpg "Replica of the Spanish Galleon Juan Bautista")
+[Sanjuanbautista](/blog/the-history-of-hasekura-tsunenaga/images/Sanjuanbautista.jpg "Replica of the Spanish Galleon Juan Bautista")
 
 The Japanese mission commanded by Hasekura, had an audience with King Philip III of Spain, on January 30, 1615, and brought him a letter from Date Masamune offering him a treaty. The King replied that he would do his best to fulfill his requests.
 

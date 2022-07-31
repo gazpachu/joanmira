@@ -4,7 +4,6 @@ description: A popular ranking for the golden age of cinema with memorable scrip
 cover: images/blade-runner_yhvbqz.jpg
 template: post
 category: film
-shouldDisableAudio: true
 ---
 
 Fluzo capacitors, starfighters, galaxy wars, stories of replicants, aliens, adventurous archaeologists, bratty monsters, aliens, robocops... during the 80s, a multitude of wonderful movies emerged that have marked a whole generation of children who are now adults and remember with great affection those stories full of creativity and adventures.
@@ -45,7 +44,7 @@ A hacker is split into molecules and transported into the bowels of a computer w
 
 ### 61. [The Last Starfighter / Starfighter, the Adventure Begins](http://www.amazon.es/gp/product/B0055KO9X4/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B0055KO9X4&linkCode=as2&tag=gazpachu06-21)a (1984)
 
-[![the-last-starfighter_alex_rogan_gam](/blog/the-65-best-movies-from-the-80s/images/the-last-starfighter_alex_rogan_gam_fdv3ry.jpg "the-last-starfighter_alex_rogan_gam")]](http://www.amazon.es/gp/product/B0055KO9X4/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B0055KO9X4&linkCode=as2&tag=gazpachu06-21)
+[![the-last-starfighter_alex_rogan_gam](/blog/the-65-best-movies-from-the-80s/images/the-last-starfighter_alex_rogan_gam_fdv3ry.jpg "the-last-starfighter_alex_rogan_gam")](http://www.amazon.es/gp/product/B0055KO9X4/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B0055KO9X4&linkCode=as2&tag=gazpachu06-21)
 
 Alex is a teenager who escapes his monotonous routine by playing a video game called Starfighter. His skill and tenacity attract a friendly Centauri alien, who turns out to be an alien. Alex gets a jolt and is transported to a faraway place in the galaxy, where he will discover that his favorite game is a reality. Now he will have to prove if he is as good as he seems...
 
@@ -245,7 +244,7 @@ Martin Riggs is a Los Angeles cop with suicidal tendencies. Roger Murtaugh is a 
 
 ### 36. [Tootsie](http://www.amazon.es/gp/product/B00BLG0SJA/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B00BLG0SJA&linkCode=as2&tag=gazpachu06-21) (1982)
 
-[![tootsie](/blog/the-65-best-movies-from-the-80s/images/tootsie_fvzacu.jpg "tootsie")]](http://www.amazon.es/gp/product/B00BLG0SJA/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B00BLG0SJA&linkCode=as2&tag=gazpachu06-21)
+[![tootsie](/blog/the-65-best-movies-from-the-80s/images/tootsie_fvzacu.jpg "tootsie")](http://www.amazon.es/gp/product/B00BLG0SJA/ref=as_li_tf_tl?ie=UTF8&camp=3626&creative=24790&creativeASIN=B00BLG0SJA&linkCode=as2&tag=gazpachu06-21)
 
 Michael Dorsey is a New York actor who has yet to gain recognition with a good role. Moreover, in certain artistic circles, he drags a reputation of a "difficult" personality. As his bad streak does not end, one day he makes an important decision: to impersonate a woman and try to find an opportunity. He gets a role, but his new identity will bring more than a few complications in his daily life.
 

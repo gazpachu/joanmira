@@ -10,7 +10,7 @@ Last Tuesday, April 13th (what a day...) Joan traveled by motorcycle from Alican
 
 We had spent the whole day working and it started raining in the afternoon and didn't stop all night. We were not yet aware of what we were going to go through the next day, 600 km of a motorcycle ride to Barcelona.
 
-I had a hard time sleeping, I had already been talking to Joan about the rain and the bad weather. We even talked about going to Barcelona in the car..... But the life and spirit of the biker are different. Besides, we have to get in shape for the trip. We had to go by motorcycle.
+I had a hard time sleeping, I had already been talking to Joan about the rain and the bad weather. We even talked about going to Barcelona in the car... But the life and spirit of the biker are different. Besides, we have to get in shape for the trip. We had to go by motorcycle.
 
 We got up and had a good breakfast, the weather was still closed, and the humidity was such that it was difficult to walk. We didn't say anything to each other, we finished breakfast, we put everything on the bikes and not too soon, around 10:30 am, we started the half-adventure that I am about to tell you about.
 

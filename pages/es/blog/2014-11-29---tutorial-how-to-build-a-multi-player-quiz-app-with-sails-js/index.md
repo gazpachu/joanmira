@@ -92,9 +92,7 @@ En este punto, si visitas [http://localhost:1337](http://localhost:1337) verás 
 
 ### 4. Estructura de la carpeta Sails.js
 
-<div class="left">
-  <img src="/blog/tutorial-how-to-build-a-multi-player-quiz-app-with-sails-js/images/folder-structure_fqfmgc.png" alt="folder-structure" width="178" height="399" />
-</div>
+![](/blog/tutorial-how-to-build-a-multi-player-quiz-app-with-sails-js/images/folder-structure_fqfmgc.png "Estructura de carpetas")
 
 - **/.tmp/public**: donde se compilan los archivos de distribución. Estos archivos son los que vemos cuando cargamos el sitio web
 
@@ -215,9 +213,9 @@ Y el botón para reiniciar el concurso, que tiene una simple recarga de la pági
 
 En un framework MVC, tenemos modelos, vistas y controladores. Los modelos nos permiten definir la lógica que interactuará con nuestra BD. Sails.js utiliza un ORM (aunque ellos prefieren llamarlo "un nuevo tipo de motor de almacenamiento y recuperación") llamado [Waterline](https://github.com/balderdashy/waterline). Proporciona una API uniforme para acceder a cosas de diferentes tipos de bases de datos, protocolos y APIs de terceros. Esto significa que se escribe el mismo código para obtener y almacenar cosas como los usuarios, ya sea en Redis, MySQL, LDAP, MongoDB o Postgres. Waterline se esfuerza por heredar las mejores partes de los ORM como ActiveRecord, Hibernate y Mongoose, pero con una perspectiva nueva y haciendo hincapié en la modularidad, la capacidad de prueba y la coherencia entre adaptadores.
 
-En Quiz Wars, la BD se basa en el sistema de archivos (el método por defecto). Desde el punto de vista del desarrollo, es estupendo porque no tenemos que preocuparnos de crear tablas y conectar con la BD, además de que podemos restablecer los datos muy fácilmente seleccionando la tercera opción de migración al levantar la aplicación mediante "sails lift". Para ver las opciones de migración hay que comentar el valor "migrate" en **"/config/models.js "**.
+En Quiz Wars, la BD se basa en el sistema de archivos (el método por defecto). Desde el punto de vista del desarrollo, es estupendo porque no tenemos que preocuparnos de crear tablas y conectar con la BD, además de que podemos restablecer los datos muy fácilmente seleccionando la tercera opción de migración al levantar la aplicación mediante "sails lift". Para ver las opciones de migración hay que comentar el valor "migrate" en **"/config/models.js"**.
 
-Ahora, vamos a estudiar el modelo de usuario de Quiz Wars (el único modelo que necesitamos) en **"/api/models/User.js "**:
+Ahora, vamos a estudiar el modelo de usuario de Quiz Wars (el único modelo que necesitamos) en **"/api/models/User.js"**:
 
 ```javascript
 module.exports = {
@@ -603,6 +601,7 @@ io.socket.on('disconnect', function() {
 ```
 
 Lo primero que notarás es que no estamos usando "onReady/onLoad" para iniciar la aplicación. En este caso, he decidido utilizar el evento "connect" de la librería socket.io como punto de entrada para cargar todo lo demás. La razón de esto es evitar cargar la aplicación antes de que tengamos una conexión de socket. Si no hay un socket disponible por cualquier problema de conexión, entonces no cargamos la aplicación.
+
 Desde el principio, cargamos todos los módulos del frontend con el prefijo `QW_MODULES`. Probablemente no los necesitemos todos en la página de login/signup, pero eso es parte de una etapa de optimización que no es necesaria ahora. Las siguientes tres funciones son callbacks de socket.io. Nos suscribimos a esos mensajes: "hola", "usuario" y "chat". Cada vez que el backend emita uno de esos mensajes, el frontend lo recibirá. Esto se llama el patrón [pub/sub](http://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern) (publicar/suscribir). En algunos de estos callbacks, podemos encontrar que el mensaje tiene un verbo adjunto. Sails.js crea automáticamente eventos para verbos como "created", "destroyed" y algunos más cuando interactuamos con los modelos. En este caso, estamos llamando a las funciones addUser y removeUser en nuestro módulo de usuario del frontend cada vez que el backend emite un evento automático cuando se crea o destruye un usuario. Esto es lo que hace que el framework sea tan potente.
 
 El callback "hola" se dispara cuando se realiza una conexión exitosa. Si el usuario recarga la página, se disparará de nuevo. Ahora, desde el front-end también podemos emitir mensajes! eso es lo que hacemos en las líneas 13 y 14. La primera línea utiliza "get" para recuperar una lista de usuarios de la API del backend y la envía al método updateUserList del módulo de usuario del frontend. Sails.js genera vistas JSON automáticas de los controladores y sus acciones que son accesibles por la URL que coincide con el nombre del controlador &amp; action:
@@ -618,7 +617,7 @@ Lamentablemente, el callback de "desconexión" no funciona :-( No estoy seguro d
 
 ### El módulo de usuario
 
-Este módulo es bastante auto-explicativo. "addUser" y "removeUser" se encargan de actualizar la <table> de los usuarios añadiendo/quitando una <tr> y actualizando la UI (habilitando/deshabilitando el botón de preguntas). La función "updateUserList" restablece la tabla cuando un nuevo usuario se conecta a la aplicación o cuando alguien se va.
+Este módulo es bastante auto-explicativo. "addUser" y "removeUser" se encargan de actualizar la `<table>` de los usuarios añadiendo/quitando una `<tr>` y actualizando la UI (habilitando/deshabilitando el botón de preguntas). La función "updateUserList" restablece la tabla cuando un nuevo usuario se conecta a la aplicación o cuando alguien se va.
 
 ```javascript
 var QW_MODULES = (function (modules, $) {
@@ -783,7 +782,7 @@ var QW_MODULES = (function (modules, $) {
 
     var chat = {
 
-        systemMsg: ['I don't mean to be rude, but you are talking to yourself...',
+        systemMsg: ['I don\'t mean to be rude, but you are talking to yourself...',
                     'Are you sure you want to continue doing this?',
                     'I have all the time in the world...',
                     'OK, this is getting weird.',
@@ -903,7 +902,10 @@ var QW_MODULES = (function (modules, $) {
                   if (requestedSize > size) requestedSize = size;
 
                   // Get an array with numbers as big as the json file
-                  for (var i = 0; i < size; i++) {                         dummyArray[i] = i;                   }                   // Shuffle the array and get a slice of it                   dummyArray = self.shuffle(dummyArray);                   sequence = dummyArray.slice(0, requestedSize);                   io.socket.post('/user/start', {user: me.name, sequence: sequence});               });         },         loadQuiz: function(data) {               $('#quiz').show();               $('#changeStatus').hide();               // Check if we still don't have the generated sequence of questions               if (self.questions.length === 0) {                   self.questions = data.sequence;               }               if (self.jsonData === null) {                   $.getJSON('/data/' + $('#quiz-dropdown :selected').val(), function (obj) {                         self.jsonData = obj;                         self.setupQuiz(self.jsonData.title);                   });               }               else {                   self.setupQuiz(self.jsonData.title);               }         },         setupQuiz: function(title) {               $('#quiz-settings').hide();               $('#questions tr').remove();               $('#title').html(title);               $('#progress').attr('max', parseInt($('#amount').val()));               self.countDown($('#countdown'), self.secondsToStart, 'startQuiz');         },         countDown: function($el, secs, stage) {               clearInterval(self.interval);               self.interval = setInterval(function () {                   if (secs > 0) {
+                  for (var i = 0; i < size; i++) {
+                    dummyArray[i] = i;
+                    }
+                    // Shuffle the array and get a slice of it                   dummyArray = self.shuffle(dummyArray);                   sequence = dummyArray.slice(0, requestedSize);                   io.socket.post('/user/start', {user: me.name, sequence: sequence});               });         },         loadQuiz: function(data) {               $('#quiz').show();               $('#changeStatus').hide();               // Check if we still don't have the generated sequence of questions               if (self.questions.length === 0) {                   self.questions = data.sequence;               }               if (self.jsonData === null) {                   $.getJSON('/data/' + $('#quiz-dropdown :selected').val(), function (obj) {                         self.jsonData = obj;                         self.setupQuiz(self.jsonData.title);                   });               }               else {                   self.setupQuiz(self.jsonData.title);               }         },         setupQuiz: function(title) {               $('#quiz-settings').hide();               $('#questions tr').remove();               $('#title').html(title);               $('#progress').attr('max', parseInt($('#amount').val()));               self.countDown($('#countdown'), self.secondsToStart, 'startQuiz');         },         countDown: function($el, secs, stage) {               clearInterval(self.interval);               self.interval = setInterval(function () {                   if (secs > 0) {
                         $el.html(secs);
                         secs--;
                   }

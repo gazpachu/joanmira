@@ -60,9 +60,9 @@ Seguiré publicando notas aquí mientras hago el curso, así que no esperes un a
 - Nuevos métodos de la comunidad investigadora: aprendizaje profundo, pasar de los archivos planos a datos más complejos
 - Pasado y presente. Antes: herramientas caras de doctorado de bata blanca. Ahora: herramientas de código abierto para científicos de datos
 - ¿Quiénes son los científicos de datos? Necesidad de entender la estadística, el aprendizaje automático, las bases de datos, la minería de datos, cómo consultar, ordenar, visualizar,...
-- Habilidades de comunicación. Entender el dominio.
+- Habilidades de comunicación. Entender el dominio
 - Hacer las preguntas correctas que aporten valor al negocio
-- Curiosidad intelectual, intuición, comunicación y compromiso, habilidades de presentación, creatividad y conocimiento del negocio. Interactuar con los analistas de negocio.
+- Curiosidad intelectual, intuición, comunicación y compromiso, habilidades de presentación, creatividad y conocimiento del negocio. Interactuar con los analistas de negocio
 - Preparación, comprensión y modelización de datos
 - Necesidad de codificar, crear ecuaciones
 - La mayoría de los científicos de datos de éxito tienen una experiencia sustancial y profunda en al menos un aspecto de la ciencia de datos: estadística, aprendizaje automático, Big data, comunicación empresarial
