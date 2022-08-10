@@ -6,7 +6,7 @@ template: post
 category: tech
 ---
 
-Since I was very young, I liked computers and techy stuff; this hobby started at the age of 7 when I visited my cousins from Barcelona. I was amazed by the things the [Amiga 500](https://es.wikipedia.org/wiki/Commodore_Amiga_500) could do and more than anything, I was very jealous of the nearly 1000 videogames that my cousin was able to download from [BBS](https://es.wikipedia.org/wiki/Bulletin_Board_System) and other *underground* channels...
+Desde muy joven me gustaron los ordenadores y las cosas tecnológicas; esta afición empezó a los 7 años cuando visitaba a mis primos de Barcelona. Estaba alucinado con las cosas que podía hacer el [Amiga 500](https://es.wikipedia.org/wiki/Commodore_Amiga_500) y más que nada, estaba muy celoso de los casi 1000 videojuegos que mi primo había conseguido coleccionar.
 
 ![](/blog/geek-life/images/1.jpg "Amiga 500, Monkey Island y Atari 2600")
 

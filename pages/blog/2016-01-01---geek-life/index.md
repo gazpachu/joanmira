@@ -6,7 +6,7 @@ template: post
 category: tech
 ---
 
-Since I was very young, I liked computers and techy stuff; this hobby started at the age of 7 when I visited my cousins from Barcelona. I was amazed by the things the [Amiga 500](http://en.wikipedia.org/wiki/Amiga_500) could do and more than anything, I was very jealous of the nearly 1000 videogames that my cousin was able to download from [BBS](http://en.wikipedia.org/wiki/Bulletin_board_system) and other *underground* channels...
+Since I was very young, I liked computers and techy stuff; this hobby started at the age of 7 when I visited my cousins from Barcelona. I was amazed by the things the [Amiga 500](http://en.wikipedia.org/wiki/Amiga_500) could do and more than anything, I was very jealous of the nearly 1000 videogames that my cousin was able to get for his collection.
 
 ![](/blog/geek-life/images/1.jpg "Amiga 500, Monkey Island and Atari 2600")
 
