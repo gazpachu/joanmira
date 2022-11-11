@@ -258,9 +258,9 @@ Algunas de las tecnologías utilizadas: [Zend](http://www.zend.com/), [C++](http
 
 ACTUALIZACIÓN: los artículos ya no están disponibles en el blog de WCRS. Ahora están disponibles en mi blog:
 
-* [Churchill beats Spiderman to world record](/blog/es/churchill-beats-spiderman-to-world-record)
-* [An introduction to mobile development](/blog/es/an-introduction-to-mobile-development)
-* [If content is king, data is queen](/blog/es/if-content-is-king-data-is-queen/)
+* [Churchill beats Spiderman to world record](/es/blog/churchill-beats-spiderman-to-world-record)
+* [An introduction to mobile development](/es/blog/an-introduction-to-mobile-development)
+* [If content is king, data is queen](/es/blog/if-content-is-king-data-is-queen/)
 
 ![](/cv/images/wcrs-tech-team.jpg "Mi compañera de trabajo, Silvia Rebelo, mostrando la nueva área del Tech Team en la oficina")
 
@@ -271,7 +271,7 @@ Tuve el honor de ser el primer desarrollador contratado en la historia de la Roy
 
 El equipo de desarrollo era pequeño; dos desarrolladores full-stack, un jefe de diseño y un CTO. Este escenario me permitió tener una gran influencia en la arquitectura de la aplicación y el desarrollo general del sitio web.
 
-Como resultado, [la venta de entradas online aumentó un 60 %](/blog/es/the-royal-opera-house-in-numbers) - no más salas de espera - y todo el contenido digital y la experiencia del usuario mejoraron gracias al nuevo sistema robusto y a la metodología de trabajo establecida por el equipo de medios digitales.
+Como resultado, [la venta de entradas online aumentó un 60 %](/es/blog/the-royal-opera-house-in-numbers) - no más salas de espera - y todo el contenido digital y la experiencia del usuario mejoraron gracias al nuevo sistema robusto y a la metodología de trabajo establecida por el equipo de medios digitales.
 
 También desarrollé una aplicación para mostrar el horario de los ensayos [del Royal Ballet](http://www.roh.org.uk/about/the-royal-ballet) en las pantallas de televisión.
 
@@ -280,9 +280,9 @@ Tecnologías utilizadas (sin ningún orden en particular): [HTML5](http://es.wik
 
 ##### Artículos relevantes
 
-* [Our new website](/blog/es/our-new-website-an-update-on-progress)
-* [Our website, a look forward](/blog/es/our-website-a-look-forward)
-* [The Royal Opera House in numbers 2011/12](/blog/es/the-royal-opera-house-in-numbers)
+* [Our new website](/es/blog/our-new-website-an-update-on-progress)
+* [Our website, a look forward](/es/blog/our-website-a-look-forward)
+* [The Royal Opera House in numbers 2011/12](/es/blog/the-royal-opera-house-in-numbers)
 
 [Leer el caso de estudio de la ROH](/es/work/roh).
 
