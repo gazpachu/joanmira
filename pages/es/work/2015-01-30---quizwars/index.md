@@ -7,10 +7,6 @@ categories: sapientnitro web-app prototype ux design sockets sailsjs spa inverte
 template: project
 ---
 
-<p class="align-center">
-<a class="btn external" role="button" href="http://quizwars.herokuapp.com" target="_blank">Lanzar app</a>
-</p>
-
 QuizWars es un experimento de I+D que hice mientras trabajaba en SapientNitro. Mi objetivo era aprender sobre la comunicación bidireccional en tiempo real entre el servidor y los clientes.
 
 ![](/work/quizwars/images/1.png)

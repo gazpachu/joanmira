@@ -7,10 +7,6 @@ categories: web flash joomla php-nuke ux design
 template: project
 ---
 
-<p class="align-center">
-<a class="btn external" role="button" href="http://lasolidaridad.herokuapp.com" target="_blank">Launch archived website</a>
-</p>
-
 ![](/work/la-solidaridad/images/1.png)
 
 La Solidaridad was a personal project (together with my wife). Its purpose was to be an online newspaper to talk about ecology, immigration, politics, economy, etc.

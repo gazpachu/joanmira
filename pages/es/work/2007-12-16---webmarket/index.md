@@ -7,7 +7,9 @@ categories: web flash animation custom-cms joomla wordpress mysql php webmarket
 template: project
 ---
 
-<p class="align-center"><a class="btn external" role="button" href="http://webmarket-v6.herokuapp.com" target="_blank">v6 Wordpress</a> <a class="btn external" role="button" href="http://webmarket-joomla.herokuapp.com" target="_blank">v5 Joomla</a> <a class="btn external" role="button" href="http://webmarket-wp.herokuapp.com" target="_blank">v5 Wordpress</a> <a class="btn external" role="button" href="http://work.joanmira.com/webs/webmarket/v3/" target="_blank">v4 Flash</a></p>
+<p class="align-center"
+    <a class="btn external" role="button" href="http://work.joanmira.com/webs/webmarket/v3/" target="_blank">v4 Flash</a>
+</p>
 
 En 2006, cofundé una pequeña agencia digital. Tras el primer año, continué en solitario y me asocié con otras agencias y autónomos en algunos momentos. Nos especializamos en el diseño y desarrollo de aplicaciones multimedia y sitios web basados en Adobe Flash (AS2), MdM Zinc, PHP, MySQL, WordPress y otras tecnologías front-end.
 

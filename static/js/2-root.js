@@ -2,6 +2,11 @@ const themeKey = 'theme';
 const consentKey = 'dataCaptureConsent';
 const langClickedKey = 'lang';
 
+function hideLangPopup() {
+  localStorage.setItem('lang', true);
+  document.getElementById('lang-detection').style.display = 'none';
+}
+
 function setConsentModalState(state) {
   const modalConsent = document.getElementById('modal-consent');
   if (state) {

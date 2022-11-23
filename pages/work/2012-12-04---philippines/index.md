@@ -7,10 +7,6 @@ categories: web ux design joomla wordpress inverted
 template: project
 ---
 
-<p class="align-center">
-<a class="btn external" role="button" href="http://philembassy.herokuapp.com/" target="_blank">Philippine Embassy London (archived version)</a>
-</p>
-
 ![](/work/philippines/images/1.png)
 
 While directing Webmarket.es, I partnered with the Philippines government to build a few websites for their embassies and investment centers:
@@ -27,3 +23,11 @@ The oldest websites were built with Joomla (only desktop view) while the new one
 ![](/work/philippines/images/3.jpg)
 
 ![](/work/philippines/images/4.jpg)
+
+![](/work/philippines/images/5.jpg)
+
+![](/work/philippines/images/6.jpg)
+
+![](/work/philippines/images/7.jpg)
+
+![](/work/philippines/images/8.jpg)

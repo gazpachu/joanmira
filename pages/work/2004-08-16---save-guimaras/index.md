@@ -7,10 +7,6 @@ categories: web wordpress ux design
 template: project
 ---
 
-<p class="align-center">
-<a class="btn external" role="button" href="http://saveguimaras.herokuapp.com" target="_blank">Launch archived website</a>
-</p>
-
 ![](/work/save-guimaras/images/1.png)
 
-This is a simple WordPress blog I built with a custom theme.
+Together with my wife, we created a WordPress blog with a custom theme to raise awareness about the environmental disaster in the Guimaras region, Philippines.

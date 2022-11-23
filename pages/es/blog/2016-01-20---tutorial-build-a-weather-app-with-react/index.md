@@ -6,7 +6,6 @@ category: work
 template: post
 ---
 
-<a class="btn external" role="button" href="http://react-weather.herokuapp.com/?city=London,Paris,Berlin,Madrid,Rome" target="_blank">Lanzar app</a>
 <a class="btn github" role="button" href="https://github.com/gazpachu/react-weather" target="_blank">Código fuente</a>
 
 En este tutorial de [React](https://facebook.github.io/react/) para principiantes, vamos a aprender a construir una pequeña y sencilla aplicación de [React](https://facebook.github.io/react/) para mostrar el tiempo de las ciudades del mundo. Si estás interesado en aprender React, este tutorial es un buen punto de partida, ya que no cubre temas muy complejos. Al mismo tiempo, una vez que aprendas a conectarte a una API externa y a mostrar los resultados, puede ser bastante útil para construir otro tipo de apps de una sola página cuyo único requisito sea obtener datos de una fuente externa y mostrar los resultados de cualquier manera.

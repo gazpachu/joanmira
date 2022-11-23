@@ -2,7 +2,7 @@
   <span><%= translations.lang.change_title %></span>
   <div class="lang-detection-buttons">
     <a href="<%= alternateUrl %>" role="button" onClick="localStorage.setItem('lang', true);"><%= translations.lang.yes %></a>
-    <button class="secondary" onClick="localStorage.setItem('lang', true);">No</button>
+    <button class="secondary" onClick="hideLangPopup()">No</button>
   </div>
 </div>
 <header id="header">

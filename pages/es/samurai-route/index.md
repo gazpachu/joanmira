@@ -5,7 +5,6 @@ title: "La Ruta del Samurái"
 ![](/samurai-route/images/logo.jpg "Logo de la Ruta del Samurái")
 
 <p class="align-center">
-  <a class="btn external" role="button" href="http://rutasamurai.herokuapp.com" target="_blank">Lanzar página web archivada</a>
   <a class="btn external" role="button" href="/es/blog/category/samurai-route" target="_blank">Ver entradas del blog</a>
 </p>
 
@@ -14,6 +13,8 @@ En enero de 2010 tuve una idea loca: **viajar en moto desde España hasta Japón
 Llevo montando en moto desde los 17 años, pero nunca había viajado largas distancias con una de ellas, ¡ni siquiera 500 Km! También quería explorar mis límites, alejarme del ordenador durante algún tiempo, sentirme más en contacto con la naturaleza y, por supuesto, ¡visitar Japón!
 
 Aprobé el examen para el carné de "motos grandes" y me compré una [Yamaha XT660Z Teneré](https://en.wikipedia.org/wiki/Yamaha_XT660Z_T%C3%A9n%C3%A9r%C3%A9). No era mi modelo favorito, pero al final resultó ser una gran elección para ese tipo de viaje. [Pasé unos meses preparando el viaje](/es/blog/category/samurai-route), y encontré algunos amables patrocinadores y un compañero. Finalmente, en junio, dejé mi ciudad natal y comencé esta gran aventura :-) [Ver fotos](https://www.facebook.com/rutasamurai/photos_stream?tab=photos_albums)
+
+![](/samurai-route/images/old-website.jpg "Página web antigua (rutasamurai.com). Archivada actualemente")
 
 ![](/samurai-route/images/salida.jpg "Listo para iniciar el viaje desde Sevilla, España")
 

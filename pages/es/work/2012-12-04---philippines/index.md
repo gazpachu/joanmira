@@ -7,10 +7,6 @@ categories: web ux design joomla wordpress inverted
 template: project
 ---
 
-<p class="align-center">
-<a class="btn external" role="button" href="http://philembassy.herokuapp.com/" target="_blank">Embajada de Filipinas en Londres (version archivada)</a>
-</p>
-
 ![](/work/philippines/images/1.png)
 
 Mientras dirigía Webmarket.es, me asocié con el gobierno de Filipinas para construir algunos sitios web para sus embajadas y centros de inversión en Reino Unido, Bruselas y EEUU:
@@ -27,3 +23,11 @@ Los sitios web más antiguos se construyeron con Joomla (sólo para la vista de 
 ![](/work/philippines/images/3.jpg)
 
 ![](/work/philippines/images/4.jpg)
+
+![](/work/philippines/images/5.jpg)
+
+![](/work/philippines/images/6.jpg)
+
+![](/work/philippines/images/7.jpg)
+
+![](/work/philippines/images/8.jpg)

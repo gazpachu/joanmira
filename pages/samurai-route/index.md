@@ -5,7 +5,6 @@ title: "The Samurai Route"
 ![](/samurai-route/images/logo.jpg "The Samurai Route Logo")
 
 <p class="align-center">
-  <a class="btn external" role="button" href="http://rutasamurai.herokuapp.com" target="_blank">Launch archived website</a>
   <a class="btn external" role="button" href="/blog/category/samurai-route" target="_blank">View blog entries</a>
 </p>
 
@@ -14,6 +13,8 @@ In January 2010 I had a crazy idea: to **travel by motorbike from Spain to Japan
 I've been riding motorcycles since I was 17 but never really traveled long distances with one of them, not even 500 Km! I also wanted to explore my limits, get away from the computer for some time, feel more in contact with nature and of course, visit Japan!
 
 I passed the exam for the "big motorcycles" license and bought a [Yamaha XT660Z Teneré](https://en.wikipedia.org/wiki/Yamaha_XT660Z_T%C3%A9n%C3%A9r%C3%A9). It wasn't my favorite model, but in the end, it turned out to be a great choice for that kind of trip. I [spent a few months preparing for the trip](/blog/category/samurai-route) and found some kind sponsors and a partner. Finally, in June, I left my hometown and started this great adventure :-) [View pictures](https://www.facebook.com/rutasamurai/photos_stream?tab=photos_albums)
+
+![](/samurai-route/images/old-website.jpg "Old website (rutasamurai.com). Already archived")
 
 ![](/samurai-route/images/salida.jpg "Ready to start the trip from Seville, Spain")
 

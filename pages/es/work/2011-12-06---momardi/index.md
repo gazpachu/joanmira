@@ -9,7 +9,6 @@ template: project
 
 <p class="align-center">
 <a class="btn external" role="button" href="http://momardi.com" target="_blank">Lanzar página web</a>
-<a class="btn external" role="button" href="http://momardi-wp.herokuapp.com/" target="_blank">Lanzar página web antigua</a>
 </p>
 
 ![](/work/momardi/images/1.png)

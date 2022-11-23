@@ -7,10 +7,6 @@ categories: web flash joomla php-nuke ux design
 template: project
 ---
 
-<p class="align-center">
-<a class="btn external" role="button" href="http://lasolidaridad.herokuapp.com" target="_blank">Lanzar web archivada</a>
-</p>
-
 ![](/work/la-solidaridad/images/1.png)
 
 La Solidaridad fue un proyecto personal (junto con mi mujer). Su objetivo era ser un periódico online para hablar de ecología, inmigración, política, economía, etc.

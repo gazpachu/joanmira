@@ -8,7 +8,6 @@ template: project
 ---
 
 <p class="align-center">
-<a class="btn external" role="button" href="http://gazpachu.herokuapp.com" target="_blank">v5 Wordpress</a>
 <a class="btn external" role="button" href="http://work.joanmira.com/webs/gazpachu/v4/" target="_blank">v4</a>
 <a class="btn external" role="button" href="http://work.joanmira.com/webs/gazpachu/v3/" target="_blank">v3</a>
 <a class="btn external" role="button" href="http://work.joanmira.com/webs/gazpachu/v2/" target="_blank">v2</a>
@@ -28,3 +27,5 @@ Los siguientes sitios web fueron realizados sólo por diversión, por favor no l
 ![](/work/gazpachu/images/4.jpg)
 
 ![](/work/gazpachu/images/5.jpg)
+
+![](/work/gazpachu/images/6.jpg)
