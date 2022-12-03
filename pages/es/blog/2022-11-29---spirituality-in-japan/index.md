@@ -176,7 +176,7 @@ En otros países también existen estos sitios con una energía especial, por ej
 
 #### El hatsumōde
 
-Via [Nippon.com](https://www.nippon.com/es/features/jg00030/), he aprendido que existe una costumbre llamada [hatsumōde](https://es.wikipedia.org/wiki/Hatsum%C5%8Dde) que consiste en visitar un templo budista o un santuario sintoísta durante los primeros días del año para preguntan si tendrán buena suerte durante los próximos doce meses. El ritual consiste en consultar una especie de oráculo que ofrece sus mensajes por escrito. Se trata de los [omikuji](https://es.wikipedia.org/wiki/Omikuji). Algunos de los resultados pueden ser:
+Via [Nippon.com](https://www.nippon.com/es/features/jg00030/), he aprendido que existe una costumbre llamada [hatsumōde](https://es.wikipedia.org/wiki/Hatsum%C5%8Dde) que consiste en visitar un templo budista o un santuario sintoísta durante los primeros días del año para preguntar si tendrás buena suerte durante los próximos doce meses. El ritual consiste en consultar una especie de oráculo que ofrece sus mensajes por escrito. Se trata de los [omikuji](https://es.wikipedia.org/wiki/Omikuji). Algunos de los resultados pueden ser:
 
 - *Kichi*: buena suerte
 - *Kyō*: mala suerte
