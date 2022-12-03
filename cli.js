@@ -221,7 +221,7 @@ async function processPage(pagePath) {
   const formattedDate = date ? dateFormatter.format(date) : '';
   const pageTitle = frontmatter.template !== 'homepage' ? frontmatter.title : `${translations.site_name} • ${translations.site_description}`;
   const pageDescription = frontmatter.description || translations.site_description;
-  const imageUrl = frontmatter.cover ? `${host}/${targetPath}/${frontmatter.cover}` : null;
+  const imageUrl = frontmatter.cover ? `${host}${imagePath}` : null;
   const type = frontmatter.template === 'post' || frontmatter.template === 'project' ? 'article' : 'website';
   const listingItems = [];
 
