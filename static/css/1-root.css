@@ -69,7 +69,8 @@ h5 {
   --typography-spacing-vertical: 1.6875rem
 }
 
-[data-theme=light] {
+[data-theme=light],
+:root:not([data-theme=dark]) {
   color-scheme: light;
   --background-color: #fff;
   --color: rgba(0, 0, 0, 0.9);
@@ -912,7 +913,7 @@ dialog article>footer {
 }
 
 dialog article>footer [role=button] {
-  margin-bottom: 0
+  margin-bottom: 8px;
 }
 
 dialog article>footer [role=button]:not(:first-of-type) {

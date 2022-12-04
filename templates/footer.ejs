@@ -110,7 +110,7 @@
     <header><%= translations.policies.modal_title %></header>
     <p><%= translations.policies.modal_body %></p>
     <footer>
-      <button onclick="setConsentModalState(false); initDataCapture();"><%= translations.policies.modal_accept %></button>
+      <button role="button" onclick="setConsentModalState(false); initDataCapture();"><%= translations.policies.modal_accept %></button>
       <a href="<%= localePath %>/privacy" role="button" aria-label="Privacy policy" class="secondary"><%= translations.nav.privacy %></a>
     </footer>
   </article>
