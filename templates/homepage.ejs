@@ -921,8 +921,8 @@
       let theme = html.getAttribute('data-theme');
 
       function loadImage() {
-        const path = '/work/diner-app/images/';
-        const filename = theme === 'dark' ? '10' : '3';
+        const path = '/work/wch/images/';
+        const filename = theme === 'dark' ? 'cover-dark' : 'cover';
         projectImageImg.setAttribute('src', `${path}${filename}.jpg`);
         projectImageJpg.setAttribute('srcset', `${path}${filename}.jpg`);
         projectImageWebp.setAttribute('srcset', `${path}${filename}.webp`);
