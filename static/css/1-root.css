@@ -9,7 +9,7 @@
   --font-family: "Open Sans", sans-serif;
   --content-font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
   --line-height: 1.5;
-  --font-weight: 300;
+  --font-weight: 400;
   --font-size: 18px;
   --border-radius: 0.25rem;
   --border-width: 1px;
@@ -685,22 +685,28 @@ textarea[disabled],
   background-size: 1rem auto;
   background-repeat: no-repeat;
 }
+
 :where(input, select, textarea):not([type=checkbox]):not([type=radio])[aria-invalid=false] {
   background-image: var(--icon-valid);
 }
+
 :where(input, select, textarea):not([type=checkbox]):not([type=radio])[aria-invalid=true] {
   background-image: var(--icon-invalid);
 }
+
 :where(input, select, textarea)[aria-invalid=false] {
   --border-color: var(--form-element-valid-border-color);
 }
+
 :where(input, select, textarea)[aria-invalid=false]:is(:active, :focus) {
   --border-color: var(--form-element-valid-active-border-color) !important;
   --box-shadow: 0 0 0 var(--outline-width) var(--form-element-valid-focus-color) !important;
 }
+
 :where(input, select, textarea)[aria-invalid=true] {
   --border-color: var(--form-element-invalid-border-color);
 }
+
 :where(input, select, textarea)[aria-invalid=true]:is(:active, :focus) {
   --border-color: var(--form-element-invalid-active-border-color) !important;
   --box-shadow: 0 0 0 var(--outline-width) var(--form-element-invalid-focus-color) !important;
@@ -725,7 +731,7 @@ input[type=search] {
   background-color: var(--background-color);
   box-shadow: var(--box-shadow);
   color: var(--color);
-  transition: background-color var(--transition),border-color var(--transition),color var(--transition),box-shadow var(--transition);
+  transition: background-color var(--transition), border-color var(--transition), color var(--transition), box-shadow var(--transition);
   border: var(--border-width) solid var(--border-color);
   border-radius: 5rem;
   background-image: var(--icon-search);
@@ -756,7 +762,7 @@ select {
   box-shadow: var(--box-shadow);
   color: var(--color);
   font-weight: var(--font-weight);
-  transition: background-color var(--transition),border-color var(--transition),color var(--transition),box-shadow var(--transition);
+  transition: background-color var(--transition), border-color var(--transition), color var(--transition), box-shadow var(--transition);
   padding-inline-start: var(--form-element-spacing-horizontal);
   padding-inline-end: calc(var(--form-element-spacing-horizontal) + 1.5rem);
   background-image: var(--icon-chevron);

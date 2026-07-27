@@ -32,6 +32,7 @@
 
 #footer .menu ul li {
   list-style-type: none;
+  font-weight: 300;
 }
 
 #footer .logo-wrapper {

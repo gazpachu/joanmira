@@ -45,12 +45,16 @@ title: Contacto
   </form>
 <div>
 
+<a href="https://maps.app.goo.gl/RuEUrNHcSVeM9U6Y7" target="_blank">Calle Perú 14, Local 11. Alicante, España</a><br />(Oficina en Momardi Art Collective)
+
+Tel. [613 02 04 16](tel:+34613020416) · [WhatsApp](https://wa.me/34613020416)
+
+Email: [hello@joanmira.com](https://mailto:hello@joanmira.com)
+
 Para **solicitar un presupuesto**, por favor incluye en el mensaje información de la empresa y el proyecto, tu CV o perfil en LinkedIn y  disponibilidad para una reunión online.
 
 Si **buscas trabajo** o estás interesado en **colaborar en algún proyecto**, por favor incluye en el mensaje tu CV o perfil en LinkedIn y disponibilidad para una reunión online.
 
 Para preguntas relacionadas con proyectos de código abierto, por favor crea un "issue" en el [repositorio de Github](https://github.com/gazpachu) o [blog post](/es/blog) pertinente.
-
-¡Muchas gracias! • hello@joanmira.com
 </div>
 </div>

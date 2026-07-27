@@ -8,9 +8,9 @@
     "generate-images": "node images.js generate",
     "clean-images": "node images.js clean",
     "minify-all": "npm run concat-css && npm run concat-js && npm run minify-css && npm run minify-js",
-    "concat-css": "cat static/css/[!main]*.css > static/css/main.css",
+    "concat-css": "node concat.js static/css main.css",
     "minify-css": "minify static/css/main.css > static/css/main.min.css",
-    "concat-js": "cat static/js/[!main]*.js > static/js/main.js",
+    "concat-js": "node concat.js static/js main.js",
     "minify-js": "minify static/js/main.js > static/js/main.min.js"
   },
   "author": "Joan Mira",

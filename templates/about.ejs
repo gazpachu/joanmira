@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="<%= lang %>">
-  <head>
-    <%- include('head'); %>
+
+<head>
+  <%- include('head'); %>
     <style>
       .shape {
         width: 100%;
@@ -35,7 +36,8 @@
         border-bottom: 1px solid rgba(255, 255, 255, .1);
       }
 
-      .pach {
+      .pach,
+      .tokyo {
         padding: 0;
         margin-bottom: 20px;
         display: inline;
@@ -50,7 +52,13 @@
         overflow: hidden;
       }
 
-      .pach:hover {
+      .tokyo {
+        float: right;
+        margin-left: 20px;
+      }
+
+      .pach:hover,
+      .tokyo:hover {
         filter: grayscale(0);
       }
 
@@ -70,7 +78,7 @@
         grid-gap: 30px;
         margin-bottom: 100px;
       }
-      
+
       .gallery div {
         text-align: center;
         font-size: 12px;
@@ -91,33 +99,42 @@
         .about {
           text-align: center;
         }
+
         .slide {
           padding-bottom: 0;
         }
-        .pach {
+
+        .pach,
+        .tokyo {
           float: none;
           margin: 24px auto 0;
           display: block;
         }
+
         .map {
           float: none;
           margin: 0 auto;
         }
+
         .slide:not(:last-child) {
           padding-bottom: 12px;
           margin-bottom: 32px;
         }
       }
     </style>
-  </head>
-  <body>
-    <%- include('header'); %>
+</head>
+
+<body>
+  <%- include('header'); %>
     <div class="main-wrapper page">
       <div class="content">
-        <h1><%= frontmatter.title %></h1>
+        <h1>
+          <%= frontmatter.title %>
+        </h1>
         <%- content %>
       </div>
     </div>
     <%- include('footer'); %>
-  </body>
+</body>
+
 </html>

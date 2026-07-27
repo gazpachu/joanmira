@@ -32,7 +32,7 @@ title: Curriculum Vitae
 </style>
 <div class="post">
 
-## Última actualización en Julio de 2022
+## Última actualización en agosto de 2026
 
 <div class="body">
 <div class="sidebar">
@@ -49,51 +49,50 @@ title: Curriculum Vitae
 
 ### Sumario
 
-Manager de ingeniería front-end y programador **creativo** con una habilidad especial para crear **aplicaciones centradas en el usuario**, **sitios web usables** y trabajos interactivos. Amplia experiencia en la industria. Desde instituciones de arte como la [Royal Opera House](https://www.roh.org.uk/) o el [Instituto de Arte Contemporáneo](https://ica.art) en Londres a organizaciones educativas como el [Grupo Santillana](https://santillana.com) a multinacionales como [British Telecom](https://www.bt.com/), [Vodafone](https://www.vodafone.com/), [Unilever](https://www.unilever.com/ ), [Santander](https://www.santander.co.uk/) y [M&S](https://www.marksandspencer.com/) hasta nuevas empresas tecnológicas como [TableCheck](http://www.tablecheck.com/en/join/) en Tokio.
+Lider en ingeniería/arquitectura web y programador **creativo** con una habilidad especial para desarrollar **aplicaciones centradas en el usuario**, **sitios web usables** y trabajos interactivos. Amplia experiencia en la industria. Desde instituciones de arte como la [Royal Opera House](https://www.roh.org.uk/) o el [Instituto de Arte Contemporáneo](https://ica.art) en Londres a organizaciones educativas como el [Grupo Santillana](https://santillana.com) a multinacionales como [British Telecom](https://www.bt.com/), [Vodafone](https://www.vodafone.com/), [Unilever](https://www.unilever.com/ ), [Santander](https://www.santander.co.uk/) y [M&S](https://www.marksandspencer.com/) hasta nuevas empresas tecnológicas como [TableCheck](http://www.tablecheck.com/en/join/) en Tokio o [Knack](http://knack.com) en EEUU.
 
-* Ingeniería de front-end. **20 años de experiencia** utilizando las últimas tecnologías y metodologías de trabajo
+* Ingeniería de front-end. **+25 años de experiencia** utilizando las últimas tecnologías y metodologías de trabajo
 * Mentalidad estratégica y **creativa**. Capacidad para analizar la situación global y generar constantemente nuevas ideas para productos y servicios rentables
-* Experiencia en marketing y multimedia. Trabajó en las mejores agencias digitales y se graduó con un **título en multimedia**
-* Gestión de equipos. **Lideró equipos de ingeniería de forma ágil y asíncrona** en todo el mundo en diferentes zonas horarias
+* Experiencia en marketing y multimedia. Trabajé en las mejores agencias digitales de Londres y me gradué con un **título en multimedia**
+* Gestión de equipos. **Liderazgo de equipos de ingeniería de forma ágil y asíncrona** en todo el mundo en diferentes zonas horarias
 * Gestión de proyectos y personas. Contratación, capacitación, procesos para aumentar la productividad, revisiones de código, 1:1s, evaluación del rendimiento
 * Orientado a resultados. Fuerte enfoque en la resolución de problemas, la entrega y el cumplimiento de los plazos
 
 ### Logros destacados
 
-* Espíritu emprendedor. Comencé a trabajar a los 17 años y [cofundé una pequeña agencia digital](/es/work/webmarket) a los 26 años
+* Espíritu emprendedor y trabajador. Comencé a trabajar a los 17 años y [cofundé una pequeña agencia digital](/es/work/webmarket) a los 26 años
 * Actitud internacional y multicultural: he vivido en [Barcelona](https://es.wikipedia.org/wiki/Barcelona), [Alicante](https://es.wikipedia.org/wiki/Alicante), [Madrid ](https://es.wikipedia.org/wiki/Madrid), [Londres](https://es.wikipedia.org/wiki/Londres) y [Tokio](https://es.wikipedia.org/wiki/Tokio). También un poco en París y Manila
-* Hablo español, [valenciano](https://es.wikipedia.org/wiki/Idioma_valenciano) e inglés. Aprendiendo japonés
-* Viajé en una [aventura en moto autoorganizada](/samurai-route) por todo el mundo, desde España hasta Japón (5 meses y 30.000 km)
+* Hablo español, [valenciano](https://es.wikipedia.org/wiki/Idioma_valenciano) e inglés. Ahora estoy aprendiendo japonés
+* Viajé en una [aventura en moto autoorganizada](/es/samurai-route) desde España hasta Japón (5 meses y 30.000 km)
 
 ### Habilidades principales
 
 - Diseño UI/UX y programación rápida de prototipos
-- TypeScript, React y CSS-in-JS
+- TypeScript, React y CSS
+- Cloudflare/AWS (infrastructure) y Supabase (backend)
 - Aplicaciones centradas en el usuario y accesibilidad
 - Sistemas de diseño y documentación
 - Creatividad y pensamiento analítico
 - Gestión de proyectos y personas
 
-Mis intereses y habilidades están más alineadas con los **trabajos creativos** (el aspecto visual, artístico, interactivo y de UI/UX del area de front-end). Aunque también tengo experiencia y me siento cómodo con todos los demás aspectos, como tratar con APIs REST/GraphQL, SEO, tests unitarios o de integración, optimización del rendimiento, etc.
-
-Actualmente, [ReactJS](https://facebook.github.io/react) y NodeJS son mis tecnologías preferidas, pero también me gustaría obtener más experiencia con [Svelte](https://svelte.dev/), [WebGL](https://gist.github.com/dmnsgn/76878ba6903cf15789b712464875cfdc) y [WebVR](https://medium.freecodecamp.org/how-to-build-a-multiplayer-vr-web-app-7b989964fb38).
+Mis intereses y habilidades están más alineadas con los **trabajos creativos** (el aspecto visual, artístico, interactivo y de UI/UX del area de front-end). Aunque también tengo experiencia y me siento cómodo con todos los demás aspectos del desarrollo de software, como construir APIs REST/GraphQL, optimización para SEO, implementación de tests unitarios, integración o end-to-end, optimización del rendimiento, etc.
 
 #### Front-end
 
 Estas son algunas tecnologías y herramientas que he usado en los últimos años:
 
 * Principales: [Typescript](https://en.wikipedia.org/wiki/TypeScript), [HTML5](https://en.wikipedia.org/wiki/HTML5), [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3)
-* Frameworks: [ReactJS](https://facebook.github.io/react). He usado [VueJS](https://vuejs.org) y [AngularJS](https://angularjs.org/) en el pasado, pero no volveré a hacerlo
-* Gestión del estado: [Redux](http://redux.js.org/), [xState](https://xstate.js.org/). Ha usado [Vuex](https://github.com/vuejs/vuex) y [MobX](https://mobx.js.org/) también en el pasado, pero no volveré a hacerlo
-* CSS: [Emotion](https://emotion.sh), [Styled Components](https://styled-components.com), [LESS](http://lesscss.org/), [SASS](http://sass-lang.com/), [PostCSS](https://postcss.org/)
-* Librerías de componentes: [Storybook](https://storybook.js.org/), [Styleguidist](https://react-styleguidist.js.org/), [Material UI](https://material-ui.com/), [Vue Material](https://vuematerial.github.io/#/), [Bootstrap](http://getbootstrap.com/)
-* Otras librerías: [LernaJS](https://lerna.js.org/), [Apollo](https://www.apollographql.com), [FlowJS](https://flow.org/), [Axios](https://github.com/axios/axios), [Lodash](https://lodash.com/), [Husky](https://typicode.github.io/husky), [CommitLint](https://commitlint.js.org/), [Semantic Release](https://github.com/semantic-release/semantic-release), [date-fns](https://date-fns.org/), [Moment.js](https://momentjs.com/), [Showdown](https://github.com/showdownjs/showdown), [History](https://github.com/ReactTraining/history), [React Hook Forms](https://react-hook-form.com/), [Yup](https://github.com/jquense/yup), [Iframe resizer](https://github.com/davidjbradshaw/iframe-resizer), [ReactVis](https://uber.github.io/react-vis/), [Highcharts](http://www.highcharts.com/), [OrgChart](https://github.com/dabeng/OrgChart)
-* Generadores de sitios estáticos: [Next.js](http://nextjs.com/), [GatsbyJS](https://www.gatsbyjs.org/), [Assemble](http://assemble.io/)
-* Plantillas: [EJS](http://www.embeddedjs.com/), [Handlebars](http://handlebarsjs.com/), [Mustache](https://mustache.github.io/), [HAML](http://haml.info/)
-* Herramientas: [Yarn](https://yarnpkg.com/lang/en/)/[NPM](https://www.npmjs.com/), [Webpack](https://webpack.github.io/), [Babel](https://babeljs.io), [ShipIt](https://github.com/shipitjs/shipit), [Grunt](http://gruntjs.com/), [Gulp](http://gulpjs.com/), [Bower](http://bower.io/)
+* Frameworks: [ReactJS](https://facebook.github.io/react), [Tanstack Start](https://tanstack.com/start), [Astro](https://astro.build/). También he usado [VueJS](https://vuejs.org), [AngularJS](https://angularjs.org/) y [Backbone.js](https://backbonejs.org/) en el pasado
+* Gestión del estado: [Tanstack Query](https://tanstack.com/query), [Redux](http://redux.js.org/), [xState](https://xstate.js.org/). También he usado [Vuex](https://github.com/vuejs/vuex) y [MobX](https://mobx.js.org/) en el pasado
+* CSS: [Tailwind CSS](https://tailwindcss.com/), [Emotion](https://emotion.sh), [Styled Components](https://styled-components.com), [LESS](http://lesscss.org/), [SASS](http://sass-lang.com/), [PostCSS](https://postcss.org/)
+* Librerías de componentes: [Shadcn](https://ui.shadcn.com/), [Radix UI](https://www.radix-ui.com/), [Material UI](https://material-ui.com/), [Vue Material](https://vuematerial.github.io/#/), [Bootstrap](http://getbootstrap.com/)
+* Otras librerías: [LernaJS](https://lerna.js.org/), [Apollo](https://www.apollographql.com), [FlowJS](https://flow.org/), [Axios](https://github.com/axios/axios), [Lodash](https://lodash.com/), [date-fns](https://date-fns.org/), [Moment.js](https://momentjs.com/), [Showdown](https://github.com/showdownjs/showdown), [History](https://github.com/ReactTraining/history), [React Hook Forms](https://react-hook-form.com/), [Yup](https://github.com/jquense/yup), [Iframe resizer](https://github.com/davidjbradshaw/iframe-resizer), [ReactVis](https://uber.github.io/react-vis/), [Highcharts](http://www.highcharts.com/), [OrgChart](https://github.com/dabeng/OrgChart), [React Router](https://reactrouter.com/), [Tanstack Table](https://tanstack.com/table), [React Big Calendar](https://github.com/bigcalendar/react-big-calendar), [React Date Picker](https://github.com/wojtekmaj/react-date-picker)
+* Generadores de sitios estáticos: [Next.js](http://nextjs.com/), [GatsbyJS](https://www.gatsbyjs.org/), [Assemble](http://assemble.io/), [Storybook](https://storybook.js.org/), [Styleguidist](https://react-styleguidist.js.org/)
+* Plantillas: [EJS](http://www.embeddedjs.com/), [Handlebars](http://handlebarsjs.com/), [Mustache](https://mustache.github.io/), [HAML](http://haml.info/), [Docusaurus](https://docusaurus.io/)
+* Herramientas: [Vite](https://vite.dev/), [Husky](https://typicode.github.io/husky), [CommitLint](https://commitlint.js.org/), [Semantic Release](https://github.com/semantic-release/semantic-release), Yarn](https://yarnpkg.com/lang/en/)/[NPM](https://www.npmjs.com/), [Webpack](https://webpack.github.io/), [Babel](https://babeljs.io), [ShipIt](https://github.com/shipitjs/shipit), [Grunt](http://gruntjs.com/), [Gulp](http://gulpjs.com/), [Bower](http://bower.io/)
 * Localización: [i18next](https://www.i18next.com/), [Lokalize](https://lokalise.com/)
-* Testeo: [Prettier](https://prettier.io/), [ESlint](http://eslint.org/), [Jest](https://jestjs.io/), [React Testing Library](https://github.com/kentcdodds/react-testing-library), [Cypress](http://cypress.io)
-* Animación: [SVG Gator](https://www.svgator.com/), [GSAP](http://greensock.com/gsap), [Phaser](http://phaser.io/), [Box2d](https://en.wikipedia.org/wiki/Box2D)
+* Typado y testeo: [Zod](https://zod.dev/), [Prettier](https://prettier.io/), [ESlint](http://eslint.org/), [Jest](https://jestjs.io/), [React Testing Library](https://github.com/kentcdodds/react-testing-library), [Cypress](http://cypress.io), [Playwright](https://playwright.dev/)
+* Animación: [Framer Motion](https://github.com/motiondivision/motion), [SVG Gator](https://www.svgator.com/), [GSAP](http://greensock.com/gsap), [Phaser](http://phaser.io/), [Box2d](https://en.wikipedia.org/wiki/Box2D)
 * Timepo real: [Socket.io](https://socket.io/), [SignalMaster](https://github.com/andyet/signalmaster), [SimpleWebRTC](https://github.com/andyet/SimpleWebRTC)
 * Móvil: [Cordova](https://cordova.apache.org/), [Fastlane](https://fastlane.tools/), [React Native](https://reactnative.dev/)
 
@@ -101,10 +100,25 @@ Estas son algunas tecnologías y herramientas que he usado en los últimos años
 
 * JavaScript: [Node.js](https://nodejs.org/) [Express.js](http://expressjs.com/), [Sails.js](http://sailsjs.org/), [Meteor](https://www.meteor.com/), 
 * PHP: [Zend Framework](http://framework.zend.com/), [Laravel](https://laravel.com/)
-* BaaS: [Firebase](firebase.google.com)
+* BaaS: [Supabase](https://supabase.com), [Firebase](firebase.google.com)
 * CMS: [Storyblok](http://storyblok.com), [Ghost](https://ghost.org/), [WordPress](https://wordpress.org/)
 * DB: [MongoDB](https://www.mongodb.org/), [PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL), [SQLite](https://en.wikipedia.org/wiki/SQLite), [MySQL](https://www.mysql.com/),
 * ORM: [Prisma](https://www.prisma.io/), [Doctrine](http://www.doctrine-project.org/), [Waterline](https://github.com/balderdashy/waterline)
+
+#### Inteligencia artificial (IA)
+
+* SDKs y Frameworks: [OpenAI API](https://openai.com/es-ES/api/), [Google Gemini API](https://ai.google.dev/), [Anthropic SDK](https://platform.claude.com/docs/en/cli-sdks-libraries/overview)
+* Protocolos y Estándares: MCP (Model Context Protocol), Function Calling / Tool Use, Respuestas Estructuradas (JSON Schema / Zod)
+* IDEs y Asistentes de Código: [Cursor AI](https://cursor.com/), [GitHub Copilot](https://github.com/features/copilot), [Windsurf](https://windsurf.com/), [Claude Code / Dev](https://claude.ai).
+* Prototipado y UI con IA: [Lovable](https://lovable.dev/), [Base44](https://base44.com/), [v0.dev](https://v0.app/) (Generación de componentes UI)
+
+Otras IAs que me gustaría probar en el futuro:
+
+* Multimedia: [Google AI Studio](https://aistudio.google.com/)
+* Arquitectura de IA: RAG (Retrieval-Augmented Generation), Flujos Agénticos (Agentic Workflows), Prompt Engineering
+* SDKs y Frameworks: [Vercel AI SDK](https://ai-sdk.dev/), [Mastra AI](https://mastra.ai/), [n8n](https://n8n.io/), [LangChain](https://www.langchain.com/), [LlamaIndex](https://www.llamaindex.ai/)
+* Bases de Datos Vectoriales y Búsqueda Semántica: [Pgvector](https://github.com/pgvector/pgvector) (PostgreSQL), [Pinecone](https://www.pinecone.io/), [Qdrant](https://qdrant.tech/), [Milvus](https://milvus.io/), [Embeddings](https://developers.openai.com/api/docs/guides/embeddings)
+Prototipado: [Bolt.new](https://bolt.new/), [Replit Agent](https://replit.com/products/agent).
 
 #### Ingeniería de Software
 
@@ -112,12 +126,13 @@ Estas son algunas tecnologías y herramientas que he usado en los últimos años
 * Stacks: [MEAN stack](http://mean.io/#!/), [LAMP stack](https://en.wikipedia.org/wiki/LAMP_(software_bundle))
 * Control de versiones: [GIT](https://git-scm.com/), [SourceTree](https://www.atlassian.com/software/sourcetree)
 * Gestión de proyectos: [Atlassian software](https://www.atlassian.com/) ([Jira](https://www.atlassian.com/software/jira), [Confluence](https://www.atlassian.com/software/confluence), [Trello](https://trello.com/), [Bitbucket](https://bitbucket.org/)), [ZenHub](https://www.zenhub.com/), [Basecamp](https://basecamp.com/), [Slack](https://slack.com), [Miro](https://miro.com/), [Asana](https://asana.com/)
-* Calidad del código: [Sentry](http://sentry.io), [Bugsnag](https://www.bugsnag.com/), [Honeybadger](https://www.honeybadger.io/), [Codeclimate](https://codeclimate.com/), [SonarQube](https://www.sonarqube.org/)
+* Calidad del código: [Sentry](http://sentry.io), [Bugsnag](https://www.bugsnag.com/), [Honeybadger](https://www.honeybadger.io/), [Codeclimate](https://codeclimate.com/), [SonarQube](https://www.sonarqube.org/), [Datadog](https://datadog.com)
 * Integración contínua: [Semaphore](https://semaphoreci.com/), [Travis](https://travis-ci.org), [CircleCI](https://circleci.com), [Jenkins](https://jenkins-ci.org/), [Vagrant](https://www.vagrantup.com/), [Docker](https://www.docker.com/)
 * Producto y metodologías: [Tribus y squads](https://www2.deloitte.com/es/es/pages/technology/articles/introduccion-modelo-agile-spotify.html), [Agile](https://es.wikipedia.org/wiki/Desarrollo_%C3%A1gil_de_software), [Scrum](https://es.wikipedia.org/wiki/Scrum_(desarrollo_de_software)), [Waterfall](https://es.wikipedia.org/wiki/Desarrollo_en_cascada), [Kanban](https://es.wikipedia.org/wiki/Kanban_(desarrollo))
 * Editores: [WebStorm](https://www.jetbrains.com/webstorm/), [Visual Studio](https://www.visualstudio.com/), [Atom](https://atom.io/), [SublimeText](http://www.sublimetext.com/), [Eclipse](https://eclipse.org/), [Xcode](https://developer.apple.com/xcode/), [CodeBlocks](http://www.codeblocks.org/)
-* SaaS, IaaS, PaaS: [Github](https://github.com/), [AWS](http://aws.amazon.com/), [Vercel](https://vercel.com/), [Heroku](https://www.heroku.com/), [Netlify](https://www.netlify.com/), [Firebase](firebase.google.com), [Xirsys](xirsys.com), [Sendgrid](https://sendgrid.com/), [Mailchimp](https://mailchimp.com/), [Twilio](https://www.twilio.com/)
-* SEO y rendimiento: [Webmaster Tools](https://www.google.com/webmasters/tools/home), [Analytics](http://www.google.com/analytics/), [GTMetrix](https://gtmetrix.com/), [Lighthouse](https://developers.google.com/web/tools/lighthouse/), [Varnish](https://www.varnish-cache.org/), [Memcached](http://memcached.org/)
+* Infraestructura, SaaS, IaaS, PaaS: [Github](https://github.com/), [Cloudflare](http://cloudflare.com), [AWS](http://aws.amazon.com/), [Vercel](https://vercel.com/), [Heroku](https://www.heroku.com/), [Netlify](https://www.netlify.com/), [Firebase](firebase.google.com), [Xirsys](xirsys.com), [Sendgrid](https://sendgrid.com/), [Mailchimp](https://mailchimp.com/), [Twilio](https://www.twilio.com/)
+* SEO y rendimiento: [Webmaster Tools](https://www.google.com/webmasters/tools/home), [Analytics](http://www.google.com/analytics/), [GTMetrix](https://gtmetrix.com/), [Lighthouse](https://developers.google.com/web/tools/lighthouse/), [Ahrefs](https://ahrefs.com), [Posthog](https://posthog.com/), [Mixpanel](https://mixpanel.com/), [Segment](https://www.twilio.com/en-us/segment)
+* Caching: [Varnish](https://www.varnish-cache.org/), [Memcached](http://memcached.org/)
 * Arquitectura: análisis de proyectos, división de tareas, documentación, prototipos, estimaciones de tiempo
 
 #### Diseño
@@ -138,12 +153,76 @@ Estas son algunas tecnologías y herramientas que he usado en los últimos años
 
 ### Experiencia laboral
 
+#### CEO y confundador de Momardi Art Collective
+<span class="project-tag red-tag">Jul 2026 - Presente</span><a class="project-tag gold-tag" href="http://momardi.com">Momardi Art Collective</a><span class="project-tag blue-tag">Alicante (España)</span>
+
+* Actualmente dirijo la empresa y me encargo de gestionar el estudio de arte.
+
 #### Manager global de ingeniería de front-end
-<span class="project-tag red-tag">Mar 2020 - Presente</span><a class="project-tag gold-tag" href="http://www.tablecheck.com/en/join/">TableCheck</a><span class="project-tag blue-tag">Ginza, Tokio (Japón)</span>
+<span class="project-tag red-tag">Ene 2023 - Jun 2026</span><a class="project-tag gold-tag" href="http://knack.com/">Knack</a><span class="project-tag blue-tag">Alicante (España)</span>
 
-* Actualmente lidero el equipo de front-end de TableCheck, que consta de 9 ingenieros de todos los niveles que trabajan en dos zonas horarias diferentes
+Fui el primer empleado de Knack contratado en España. Lideré un equipo centrado en rediseñar y construir desde cero la plataforma de next-gen apps de Knack.
 
-* Superviso y participo como contribuidor individual en las actualizaciones del sistema de diseño, la creación del nuevo formulario de reserva, el nuevo sitio web de marketing global, el nuevo portal de búsqueda de restaurantes, el SSO y el portal para los gestores de restaurantes
+Primer trimestre de 2023:
+- Contraté a 3 ingenieros más para mi equipo y a 5 ingenieros para otros equipos.
+- Establecí nuevas directrices y procesos para el equipo de front-end.
+- Comencé a desarrollar Asterisk: el sistema de diseño de Knack.
+- Inicié la migración de la aplicación del panel de control a React.
+
+Segundo trimestre de 2023:
+- Contraté a 2 ingenieros más.
+- Lancé a producción la nueva aplicación del panel de control.
+- Completé la primera versión del sistema de diseño.
+
+Tercer trimestre de 2023:
+- Inicié la migración de la aplicación de creación a React.
+
+Cuarto trimestre de 2023:
+- Continué la migración de la aplicación de creación a React.
+
+Primer trimestre de 2024:
+- Continué la migración de la aplicación de creación a React.
+- Inicié la migración de la aplicación en producción a React.
+
+Segundo trimestre de 2024:
+- Lancé el módulo de gestión de tablas en la nueva aplicación de creación.
+- Continué la migración de la aplicación de creación a React.
+- Continué la migración de la aplicación en producción a React.
+
+Tercer trimestre de 2024:
+- Contraté a un nuevo ingeniero. Otro ingeniero front-end
+- Varias versiones del nuevo constructor y la aplicación en vivo para un grupo de pruebas interno
+
+Cuarto trimestre de 2024:
+- ¡Preparativos para el lanzamiento general de la plataforma de próxima generación!
+
+Primer trimestre de 2025:
+- Lanzamiento de la plataforma de próxima generación (NGA) al 25 % de los nuevos usuarios de la prueba
+
+Segundo trimestre de 2025:
+- Lanzamiento de la plataforma de próxima generación (NGA) al 50 % de los nuevos usuarios de la prueba
+
+Tercer trimestre de 2025:
+- Lanzamiento de la plataforma de próxima generación (NGA) al 100 % de los nuevos usuarios de la prueba y a algunos clientes actuales
+
+Cuarto trimestre de 2025:
+- Preparativos para el lanzamiento de la NGA a más clientes actuales
+- Continuar perfeccionando el desarrollo y completando la reescritura de la plataforma
+
+Cuarto trimestre de 2025:
+- Preparativos para el lanzamiento de la NGA a más clientes actuales
+- Continuar perfeccionando el desarrollo y completando la reescritura de la plataforma
+
+Primer trimestre de 2026:
+- Finalizada la reescritura de la plataforma
+- Centrado en la corrección de errores
+
+#### Manager global de ingeniería de front-end
+<span class="project-tag red-tag">Mar 2020 - Nov 2022</span><a class="project-tag gold-tag" href="http://www.tablecheck.com/en/join/">TableCheck</a><span class="project-tag blue-tag">Ginza, Tokio (Japón)</span>
+
+* Dirijí el equipo de front-end de TableCheck, el cual constaba de hasta 9 ingenieros de todos los niveles que trabajan en dos zonas horarias diferentes
+
+* Supervisé y participé como contribuidor individual en las actualizaciones del sistema de diseño, la creación del nuevo formulario de reserva, el nuevo sitio web de marketing global, el nuevo portal de búsqueda de restaurantes, el SSO y el portal para los gestores de restaurantes.
 
 #### Ingeniero de front-end senior
 <span class="project-tag red-tag">Feb 2019 - Mar 2020</span><a class="project-tag gold-tag" href="http://www.tablecheck.com/en/join/">TableCheck</a><span class="project-tag blue-tag">Ginza, Tokio (Japón)</span>
